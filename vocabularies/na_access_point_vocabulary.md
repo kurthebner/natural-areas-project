@@ -1,13 +1,9 @@
-# NATURAL AREAS PROJECT — ACCESS POINT VOCABULARY MODULE v1
+# NATURAL AREAS PROJECT — ACCESS POINT VOCABULARY MODULE v2.0
 Authoritative, versioned, single‑source‑of‑truth controlled vocabularies for all Access Point–level fields in the statewide Natural Areas & Trails system.
 
 This module contains:
-- All controlled vocabularies used in the 10‑field Access Point Schema
-- Rules for each controlled vocabulary only
-- No definitions
-- No rules for fields without controlled vocabularies
-- No schema logic
-- No normalization logic
+- All controlled vocabularies used in the Access Point Schema v1.2  
+- Rules for each controlled vocabulary  
 
 All Access Point–related modules must reference this module for vocabulary authority.
 
@@ -30,6 +26,9 @@ Roadside Pull-Off
 Pedestrian Entrance  
 Vehicle Entrance  
 Administrative Access (restricted)  
+Transit Access  
+Ferry Access  
+Shuttle Access  
 Other (explicitly named only)
 
 ## Rules
@@ -57,4 +56,4 @@ Restricted
 
 ---
 
-# END OF ACCESS POINT VOCABULARY MODULE v1
+# END OF ACCESS POINT VOCABULARY MODULE v2.0

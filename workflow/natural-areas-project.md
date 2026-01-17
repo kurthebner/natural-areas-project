@@ -1,290 +1,286 @@
-# NATURAL AREAS PROJECT — OVERVIEW & WORKFLOW v1
-A unified, document‑driven system for discovering, classifying, normalizing, and exporting **Sites** and **Access Points** across all 88 Ohio counties.
+# NATURAL AREAS PROJECT — OVERVIEW & WORKFLOW v3.1
+A unified, document‑driven system for discovering, classifying, normalizing,
+relating, and exporting **all seven entity types** across all 88 Ohio counties:
 
-This module contains no controlled vocabularies.  
-All vocabularies are defined in the Site Vocabulary Module v1 and Access Point Vocabulary Module v1.
+- Site
+- Sub‑Site
+- Access Point
+- Trail
+- Trail Segment
+- Trail Network
+- Site Network
 
----
+This module contains no controlled vocabularies.
+All vocabularies are defined in the respective Vocabulary Modules v3.1.
 
+------------------------------------------------------------
 # 1. PROJECT GOAL
-Build a statewide, audit‑ready dataset of natural areas, parks, preserves, trail systems, trail segments, and access infrastructure, with a focus on:
 
-- Ecological identity  
-- Governance clarity  
-- Public access  
-- Repeatable, deterministic processing  
-- Zero invention  
-- Full auditability  
+Build a statewide, audit‑ready dataset of natural areas, parks, preserves,
+trail systems, trail segments, networks, and access infrastructure, with a focus on:
 
-The system supports conservation planning, ecological scoring, public engagement, and long‑term stewardship.
+- Ecological identity
+- Governance clarity
+- Public access
+- Repeatable, deterministic processing
+- Zero invention
+- Full auditability
+- Cross‑entity relationships
+- Multi‑county correctness
+- Identity‑first ontology
 
----
+The system supports conservation planning, ecological scoring, public engagement,
+land management, and long‑term stewardship.
 
+------------------------------------------------------------
 # 2. SYSTEM ARCHITECTURE (DOCUMENT‑DRIVEN)
-The Natural Areas Project operates through a modular, document‑driven architecture.  
-Each module is authoritative for its domain and overrides lower‑level logic.
 
-### **Active Modules**
-- **Site Schema Module v1**  
-  Defines the 25‑field Site structure and field‑level rules.
+The Natural Areas Project operates through a modular, document‑driven
+architecture. Each module is authoritative for its domain and overrides
+lower‑level logic.
 
-- **Access Point Schema Module v1**  
-  Defines the 10‑field Access Point structure and field‑level rules.
+### **Active Modules (v3.1)**
 
-- **Site Vocabulary Module v1**  
-  Controlled vocabularies for all Site‑level fields.
+#### **Schema Modules (7)**
+Define the authoritative field structure and identity rules for:
+- Site (25 fields)
+- Sub‑Site (14 fields)
+- Access Point (11 fields)
+- Trail (16 fields)
+- Trail Segment (15 fields)
+- Trail Network (12 fields)
+- Site Network (12 fields)
 
-- **Access Point Vocabulary Module v1**  
-  Controlled vocabularies for Access Point Type and Status.
+#### **Vocabulary Modules (7)**
+Define controlled vocabularies for all vocabulary‑governed fields.
 
-- **County Baseline Module v1**  
-  Provides the initial seed list of Sites for each county.
+#### **County Baseline Module v3.1**
+Identity‑bearing seed layer for any entity type.
 
-- **Discovery Protocol Module v1**  
-  Defines how Copilot discovers additional Sites and Access Points.
+#### **Discovery Protocol Module v3.1**
+Defines how Copilot discovers all seven entity types.
 
-- **Resolution Module v1**  
-  Resolves ambiguous cases, multi‑site complexes, and classification conflicts.
+#### **Resolution Module v3.1**
+Resolves ambiguous cases, entity‑type conflicts, internal parcels, trail
+hierarchies, and network membership.
 
-- **Site Normalization Contract v1**  
-  Applies the 25‑field Site schema and enforces formatting rules.
+#### **Normalization Contracts (7)**
+Apply schema rules, formatting rules, vocabulary rules, and Derived Label logic.
 
-- **Access Point Normalization Contract v1**  
-  Applies the 10‑field Access Point schema and enforces formatting rules.
+#### **TSV Output Specifications (7)**
+Define the exact serialization rules for each entity type.
 
-- **Site TSV Output Specification v1**  
-  Defines the 25‑field TSV serialization rules.
+#### **TSV Integrity Check Module v3.1**
+Validates delimiter counts, blank‑field rules, alignment, and multi‑county output.
 
-- **Access Point TSV Output Specification v1**  
-  Defines the 10‑field TSV serialization rules.
+#### **Processing Orchestration Module v3.1**
+Defines the end‑to‑end pipeline and module hierarchy.
 
-- **Processing Orchestration Module v1**  
-  Defines the end‑to‑end pipeline and module hierarchy.
-
-- **Audit & Logging Module v1**  
-  Records all decisions, conflicts, corrections, and delimiter‑integrity checks.
+#### **Audit & Logging Module v3.1**
+Records all decisions, conflicts, corrections, relationships, and integrity checks.
 
 This document provides the **high‑level workflow** that ties these modules together.
 
----
-
+------------------------------------------------------------
 # 3. END‑TO‑END WORKFLOW (HIGH‑LEVEL OVERVIEW)
-The Natural Areas system processes each county through a deterministic, multi‑entity pipeline defined in the Processing Orchestration Module v1.
 
----
+The Natural Areas system processes each county through a deterministic,
+multi‑entity pipeline defined in the Processing Orchestration Module v3.1.
 
+------------------------------------------------------------
 ## **Stage 1 — Load County Baseline**
-- Load the county’s baseline Site list.  
-- Mark all baseline entries as seeded.  
-- Surface baseline anomalies.  
-- Access Points are never baseline‑seeded.
+- Load the county’s baseline identity list.
+- Accept any entity type (identity‑bearing only).
+- Mark all baseline entries as seeded.
+- Surface baseline anomalies.
+- Do not trust entity type; resolution determines it.
 
----
-
-## **Stage 2 — Run Discovery Protocol (Sites + Access Points)**
-- Perform the full authority‑ordered sweep (county → municipal → township → state → federal → land trust).  
-- Extract all candidate **Sites**.  
-- Extract all candidate **Access Points**.  
-- Deduplicate by name, location, GPS, and parcel identity.  
+------------------------------------------------------------
+## **Stage 2 — Run Discovery Protocol (All Seven Entities)**
+- Perform the full authority‑ordered sweep:
+  County → Municipal → Township → State → Federal → Tribal → Land Trust → Supplemental
+- Extract candidate:
+  - Sites
+  - Sub‑Sites
+  - Access Points
+  - Trails
+  - Trail Segments
+  - Trail Networks
+  - Site Networks
+- Deduplicate by name, location, GPS, parcel identity, trail identity, network identity.
 - Merge with baseline.
 
----
-
+------------------------------------------------------------
 ## **Stage 3 — Apply Resolution Module**
-- Resolve Category/Subtype conflicts (Sites).  
-- Resolve Access Point Type and Status conflicts (Access Points).  
-- Resolve governance conflicts.  
-- Split multi‑site complexes.  
-- Exclude non‑qualifying entities.  
+- Resolve entity‑type conflicts.
+- Resolve Category/Subtype conflicts.
+- Resolve governance conflicts.
+- Resolve trail role and segment identity.
+- Resolve network membership.
+- Split multi‑site and multi‑trail complexes.
+- Exclude non‑qualifying entities.
 - Surface unresolved ambiguities.
 
----
-
-## **Stage 4 — Normalize (Sites + Access Points)**
+------------------------------------------------------------
+## **Stage 4 — Normalize (All Seven Entities)**
 
 ### **4A — Normalize Sites (25 fields)**
-- Apply Site Schema Module v1.  
-- Enforce controlled vocabularies.  
-- Apply GPS, address, and Plus Code rules.  
-- Apply trail logic.  
-- Apply ownership/management rules.  
-- Apply URL normalization.  
-- Compute Derived Label (not stored).  
-- Validate formatting rules.
+### **4B — Normalize Sub‑Sites (14 fields)**
+### **4C — Normalize Access Points (11 fields)**
+### **4D — Normalize Trails (16 fields)**
+### **4E — Normalize Trail Segments (15 fields)**
+### **4F — Normalize Trail Networks (12 fields)**
+### **4G — Normalize Site Networks (12 fields)**
 
-### **4B — Normalize Access Points (10 fields)**
-- Apply Access Point Schema Module v1.  
-- Validate Access Point Type and Status.  
-- Apply GPS and Plus Code rules.  
-- Validate Road Name and Access Notes.  
-- Compute Derived Label (not stored).  
-- Validate formatting rules.
+Each normalization step:
+- Applies schema rules
+- Applies vocabulary rules
+- Validates formatting
+- Validates GPS + Plus Code
+- Validates semicolon rules
+- Computes Derived Label
+- Validates integrity anchors
+- Validates parent/child relationships
+- Applies multi‑county expansion
 
----
-
+------------------------------------------------------------
 ## **Stage 5 — Generate TSV Output**
-- Serialize Sites into 25‑field TSV rows (24 delimiters).  
-- Serialize Access Points into 10‑field TSV rows (9 delimiters).  
-- No placeholders.  
-- No invented data.  
-- No formatting drift.
+- Serialize each entity type using its TSV Output Specification.
+- Enforce:
+  - No placeholders
+  - No invented data
+  - No formatting drift
+  - No spaces between delimiters
+  - No trailing spaces
 
----
+**Output:**  
+Seven TSVs:
+- Sites.tsv  
+- SubSites.tsv  
+- AccessPoints.tsv  
+- Trails.tsv  
+- TrailSegments.tsv  
+- TrailNetworks.tsv  
+- SiteNetworks.tsv  
 
+------------------------------------------------------------
 ## **Stage 6 — TSV Integrity Check**
-- Validate delimiter count for both entity types.  
-- Validate blank‑field representation.  
-- Validate Derived Label placement.  
-- Validate Parent Site placement (Sites only).  
-- Surface any anomalies.
+- Validate delimiter count (entity‑specific).
+- Validate blank‑field representation.
+- Validate Derived Label placement.
+- Validate integrity‑anchor placement.
+- Validate multi‑county expansion.
+- Surface anomalies.
 
----
+------------------------------------------------------------
+## **Stage 7 — Relationship Validation**
+- Validate:
+  - Site → Sub‑Site
+  - Trail → Trail Segment
+  - Trail → Trail Network
+  - Site → Site Network
+  - Access Point → Site / Trail
+- Surface relationship anomalies.
 
-## **Stage 7 — Audit & Logging**
-- Record all sources, conflicts, corrections, exclusions, and delimiter‑integrity results.  
-- Produce a complete audit trail for the county’s run.  
-- Store logs with module version numbers.
+------------------------------------------------------------
+## **Stage 8 — Audit & Logging**
+- Record all sources, conflicts, corrections, exclusions, relationships,
+  and delimiter‑integrity results.
+- Store module versions and timestamps.
+- Produce a complete audit trail.
 
----
+------------------------------------------------------------
+# 4. FIELD‑LEVEL PROCESSING SUMMARY (HIGH‑LEVEL)
 
-# 4. FIELD‑LEVEL PROCESSING SUMMARY (SITES)
-This section summarizes how the system handles key Site fields.  
-Full rules live in the Site Schema Module v1 and Site Normalization Contract v1.
+Full rules live in the Schema Modules and Normalization Contracts.
 
-### **4.1 Description**
-- Identity‑defining ecology  
-- Governance history  
-- Former names  
-- No amenities  
-- No temporary conditions  
+### **4.1 Sites**
+- Ecology → Description  
+- Amenities → Features  
+- Governance never inferred  
+- Parent Site validated  
+- Derived Label computed  
+- Multi‑county expansion applied  
 
-### **4.2 Features**
-- Controlled vocabulary only  
-- Physical amenities  
-- No ecology  
-- No governance  
-- No named trails  
+### **4.2 Sub‑Sites**
+- Must be identity‑bearing  
+- Must belong to a parent Site  
+- Derived Label computed  
 
-### **4.3 Notes**
-- Access details  
-- Temporary conditions  
-- Clarifications  
-- Official listings  
+### **4.3 Access Points**
+- Must be entrances  
+- Type must match vocabulary  
+- GPS must be authoritative  
+- Derived Label computed  
 
-### **4.4 GPS Coordinates**
-- Must be authoritative  
-- Verified using Name + locality  
-- No reverse‑geocoded inventions  
+### **4.4 Trails**
+- Named, identity‑bearing routes  
+- Trail Role validated  
+- Network membership optional  
 
-### **4.5 Plus Code**
-- Derived only from accepted coordinates  
-- Blank if GPS is blank  
+### **4.5 Trail Segments**
+- Identity‑bearing subdivisions  
+- Never Features  
+- Must belong to a Trail  
 
-### **4.6 Trail Logic**
-- Trail Role  
-- Parent Trail Name  
-- Trail Segment Type  
-- Trail Access Type  
-- Trail Length (Miles)  
+### **4.6 Trail Networks**
+- Collections of Trails  
+- Must be documented  
 
-### **4.7 Ownership / Management / Coordination**
-- Ownership = legal owner  
-- Management = operational steward(s)  
-- Coordination = formal partners only  
+### **4.7 Site Networks**
+- Collections of Sites  
+- Must be documented  
 
-### **4.8 URL Normalization**
-- Full `https://` URLs only  
-- Semicolon‑delimited if multiple  
+------------------------------------------------------------
+# 5. RELATIONSHIP TO OTHER MODULES
 
----
-
-# 5. FIELD‑LEVEL PROCESSING SUMMARY (ACCESS POINTS)
-Full rules live in the Access Point Schema Module v1 and Access Point Normalization Contract v1.
-
-### **5.1 Access Point Name**
-- Human‑readable  
-- Unique within parent Site  
-- Constructed only when unnamed  
-
-### **5.2 Access Point Type**
-- Must match controlled vocabulary  
-- Never inferred from amenities  
-
-### **5.3 GPS + Plus Code**
-- Must be authoritative  
-- Plus Code derived only from accepted GPS  
-
-### **5.4 Road Name**
-- Must be authoritative  
-- No invented street numbers  
-
-### **5.5 Access Notes**
-- Short, factual, non‑invented  
-- No features or amenities  
-
-### **5.6 URL**
-- Optional  
-- Must be authoritative  
-
-### **5.7 Status**
-- Must match controlled vocabulary  
-- Never inferred from imagery  
-
----
-
-# 6. RELATIONSHIP TO OTHER MODULES
 This document is intentionally high‑level.  
-It delegates all authoritative rules to the specialized modules:
+It delegates all authoritative rules to:
 
-- **Site Schema Module v1**  
-- **Access Point Schema Module v1**  
-- **Site Vocabulary Module v1**  
-- **Access Point Vocabulary Module v1**  
-- **Discovery Protocol v1**  
-- **Resolution Module v1**  
-- **Site Normalization Contract v1**  
-- **Access Point Normalization Contract v1**  
-- **Site TSV Output Specification v1**  
-- **Access Point TSV Output Specification v1**  
-- **Audit & Logging Module v1**  
-- **Processing Orchestration Module v1**  
+- Schema Modules v3.1  
+- Vocabulary Modules v3.1  
+- County Baseline Module v3.1  
+- Discovery Protocol Module v3.1  
+- Resolution Module v3.1  
+- Normalization Contracts v3.1  
+- TSV Output Specifications v3.1  
+- TSV Integrity Check Module v3.1  
+- Audit & Logging Module v3.1  
+- Processing Orchestration Module v3.1  
 
-This prevents duplication and ensures a single source of truth for each rule.
+This prevents duplication and ensures a single source of truth.
 
----
+------------------------------------------------------------
+# 6. AI CAPSULE (UPDATED)
 
-# 7. AI CAPSULE (UPDATED)
-A compressed summary of the system for rapid rehydration during sessions.
+A compressed summary for rapid rehydration.
 
-### **Schema**
-- Sites: 25 fields  
-- Access Points: 10 fields  
-- Derived Label computed for both  
-- Parent Site applies to Sites only  
+### **Ontology**
+Seven entity types:
+Site, Sub‑Site, Access Point, Trail, Trail Segment, Trail Network, Site Network.
 
 ### **Workflow**
-Baseline → Discovery → Resolution → Normalization → TSV Output → Integrity Check → Audit
+Baseline → Discovery → Resolution → Normalization → TSV Output → Integrity Check → Relationship Validation → Audit
 
 ### **Key Rules**
+- Identity first  
 - No invented data  
 - No silent corrections  
 - No silent exclusions  
 - Blank fields must be true blanks  
 - All decisions must be logged  
-- All modules override in the hierarchy defined by the Orchestration Module  
+- Resolution overrides ambiguity  
+- Schema defines identity  
+- Normalization enforces structure  
 
 ### **Outputs**
-- 25‑field normalized Site dataset  
-- 10‑field normalized Access Point dataset  
-- Two TSVs (Sites + Access Points)  
-- Full audit trail  
+Seven normalized TSV datasets + full audit trail.
 
----
+------------------------------------------------------------
+# 7. VERSIONING
 
-# 8. VERSIONING
 This document is versioned independently from all other modules.  
 All changes must be explicit and documented.
 
----
-
-# END OF OVERVIEW & WORKFLOW v1
+------------------------------------------------------------
+# END OF OVERVIEW & WORKFLOW v3.1

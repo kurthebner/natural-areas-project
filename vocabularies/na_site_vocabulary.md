@@ -1,12 +1,9 @@
-# NATURAL AREAS PROJECT — SITE VOCABULARY MODULE v1
+# NATURAL AREAS PROJECT — SITE VOCABULARY MODULE v2.0
 Authoritative, versioned, single‑source‑of‑truth controlled vocabularies for all Site‑level fields in the statewide Natural Areas & Trails system.
 
 This module contains:
-- All controlled vocabularies used in the 25‑field Site Schema
-- Rules for each vocabulary
-- No definitions
-- No schema logic
-- No normalization logic
+- All controlled vocabularies used in the 20‑field Site Schema v2.0  
+- Rules for each vocabulary  
 
 All other modules must reference this module for vocabulary authority.
 
@@ -27,10 +24,8 @@ Dam
 Fishing Area  
 Floodplain Area  
 Greenspace  
-Greenway Corridor  
 Historic Site  
 Hunting Area  
-Internal Feature  
 Memorial  
 Museum  
 Natural Area  
@@ -40,20 +35,17 @@ Park
 Recreation Facility  
 Reservoir  
 Scenic Overlook  
-Trail Access Point  
-Trail Corridor  
-Trail  
-Water Access Site  
 Water Site  
 Wildlife Area  
 
 ## Rules
-- Category expresses the ontological identity of the site.  
+- Category expresses the ontological identity of the Site.  
 - Use only approved values.  
 - Do not infer Category.  
 - Category must not describe temporary conditions.  
 - Category must not encode governance or ownership.  
-- Category determines whether Subtype is allowed.
+- Category determines whether Subtype is allowed.  
+- Categories must not represent Trails, Trail Segments, Access Points, or Networks.
 
 ---
 
@@ -102,46 +94,13 @@ Grassland
 
 ### Rules
 - Subtype must represent an identity‑bearing landform or ecological unit.  
-- Do not use habitat conditions (e.g., “Upland Forest,” “Meadow”).  
-- Do not use governance terms (e.g., “Wildlife Area”).  
-- Do not use restoration terms (e.g., “Restoration Area”).
+- Do not use habitat conditions.  
+- Do not use governance terms.  
+- Do not use restoration terms.
 
 ---
 
-## C. Subtypes for Category = Trail / Trail Corridor
-Multi‑Use Trail  
-Nature Trail  
-Hiking Trail  
-Connector Trail  
-Access Segment  
-Rail Trail  
-Greenway Trail  
-Water Trail  
-Equestrian Trail  
-Mountain Bike Trail  
-Fitness Trail  
-Canal Corridor  
-
-### Rules
-- Subtype must describe the identity of the trail, not its condition.  
-- Do not use for unnamed internal paths.
-
----
-
-## D. Subtypes for Category = Trail Access Point
-Neighborhood Access  
-Roadside Access  
-Parking‑Lot Access  
-Park Access  
-Connector Access  
-
-### Rules
-- Subtype must describe the access context.  
-- Do not use for internal features.
-
----
-
-## E. Subtypes for Category = Cemetery
+## C. Subtypes for Category = Cemetery
 Historic Cemetery  
 Active Cemetery  
 Inactive Cemetery  
@@ -153,7 +112,7 @@ Family Cemetery
 
 ---
 
-## F. Subtypes for Category = Historic Site
+## D. Subtypes for Category = Historic Site
 Archaeological Site  
 Covered Bridge  
 Historic Structure  
@@ -168,7 +127,7 @@ Military Site
 
 ---
 
-## G. Subtypes for Category = Recreation Facility
+## E. Subtypes for Category = Recreation Facility
 Recreation Center  
 Senior Center  
 Athletic Complex  
@@ -178,20 +137,6 @@ Indoor Sports Facility
 
 ### Rules
 - Subtype must reflect a stable facility identity.
-
----
-
-## H. Subtypes for Category = Internal Feature
-Dog Park (Internal)  
-Skate Area (Internal)  
-BMX Track (Internal)  
-Playground (Internal)  
-Trail Segment (Internal)  
-Garden (Internal)  
-Memorial (Internal)  
-
-### Rules
-- Internal Feature subtypes apply only when Category = Internal Feature.
 
 ---
 
@@ -240,7 +185,7 @@ Conservation Easement
 Land Trust Preserve  
 
 ## D. Blank
-Most sites have no designation.
+Most Sites have no designation.
 
 ### Rules
 - Use only when explicitly stated in authoritative sources.  
@@ -267,56 +212,7 @@ Closed
 
 ---
 
-# 5. TRAIL ROLE VOCABULARY (Controlled)
-
-Trail System  
-Trail Segment  
-Trail  
-Connector Trail / Spur  
-Trailhead  
-Trail Access Point  
-Bikeway Access Point  
-Bikeway Spur  
-Greenway Corridor  
-Other  
-None  
-
-### Rules
-- Trail Role must reflect the site’s relationship to a trail network.  
-- Use “None” when the site has no trail identity.
-
----
-
-# 6. TRAIL SEGMENT TYPE VOCABULARY (Controlled)
-
-Connector  
-Crossing  
-Loop  
-Linear  
-Access Segment  
-None  
-
-### Rules
-- Use only for sites with Trail Role = Trail Segment.  
-- Use “None” when not applicable.
-
----
-
-# 7. TRAIL ACCESS TYPE VOCABULARY (Controlled)
-
-Trailhead  
-Access Point  
-Connector  
-Crossing  
-None  
-
-### Rules
-- Use only when the site functions as a trail access location.  
-- Use “None” when not applicable.
-
----
-
-# 8. FEATURES VOCABULARY (Controlled)
+# 5. FEATURES VOCABULARY (Controlled)
 
 Arboretum  
 Accessibility Features  
@@ -423,7 +319,7 @@ Zoo
 ### Rules
 - Features describe internal components, not identity‑bearing land units.  
 - Use only approved values.  
-- No site-defining ecology. Soome ecological terms (listed above) are acceptable when they are simply features of the site, such as a park with a Natural Arch.  
+- No site‑defining ecology.  
 - No governance.  
 - No temporary conditions.  
 - Named trails are never Features.  
@@ -432,4 +328,4 @@ Zoo
 
 ---
 
-# END OF SITE VOCABULARY MODULE v1
+# END OF SITE VOCABULARY MODULE v2.0

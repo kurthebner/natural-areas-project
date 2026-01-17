@@ -1,304 +1,297 @@
-# NATURAL AREAS PROJECT — RESOLUTION MODULE v1
-A deterministic decision framework for resolving ambiguous, borderline, or multi‑identity cases during discovery and normalization of both **Sites** and **Access Points**.
+# NATURAL AREAS PROJECT — RESOLUTION MODULE v3.1
+A deterministic, system‑wide decision framework for resolving ambiguous,
+borderline, or multi‑identity cases across **all seven entity types** during
+discovery, resolution, normalization, and TSV preparation.
 
-This module contains no controlled vocabularies.  
-All vocabularies are defined in the Site Vocabulary Module v1 and Access Point Vocabulary Module v1.
+This module contains no controlled vocabularies.
+All vocabularies are defined in the respective Vocabulary Modules v3.1.
 
 This module overrides ambiguity in all other modules.
 
----
-
+------------------------------------------------------------
 # 1. PURPOSE
-The Resolution Module defines how Copilot resolves all ambiguous or borderline cases that arise during:
 
-- Discovery (what counts as a Site or Access Point)  
-- Classification (Category, Subtype, Designation, Trail Role, Segment Type, Access Type)  
-- Normalization (all Site and Access Point fields)  
+The Resolution Module defines how Copilot resolves all ambiguous or borderline
+cases that arise during:
+
+- Discovery (what counts as each entity type)
+- Entity‑type determination (Site vs. Sub‑Site vs. Access Point vs. Trail, etc.)
+- Classification (Category, Subtype, Designation, Trail Role, Segment Type, Access Type)
+- Normalization (all fields across all seven entities)
+- Parent/child assignment
+- Multi‑county interpretation
+- Network membership interpretation
 
 This module ensures:
 
-- Zero improvisation  
-- Zero silent assumptions  
-- Deterministic, repeatable decisions  
-- Full alignment with the Schema Modules, Vocabulary Modules, Discovery Protocol, and Normalization Contracts  
+- Zero improvisation
+- Zero silent assumptions
+- Deterministic, repeatable decisions
+- Full alignment with Schema Modules, Vocabulary Modules, Discovery Protocol,
+  Normalization Contracts, and TSV Output Specifications
 
----
-
-# 2. GENERAL PRINCIPLES
+------------------------------------------------------------
+# 2. GENERAL PRINCIPLES (APPLIES TO ALL ENTITIES)
 
 ## 2.1 Identity First
-Classification is based on the **ontological identity** of the land unit, not amenities, activities, or marketing language.
+Classification is based on the **ontological identity** of the object, not its
+amenities, activities, or marketing language.
 
 ## 2.2 Governance ≠ Category
-Ownership or management never determines Category.
+Ownership or management never determines Category or entity type.
 
 ## 2.3 Ecology Belongs in Description
-Ecological character never determines Category or Subtype.  
+Ecological character never determines Category or entity type.
 Ecology informs **Description**, not identity.
 
-## 2.4 Features Are Not Categories
-Amenities never determine Category or Subtype.  
-If something is an amenity, it belongs in **Features**, not as a Site.
+## 2.4 Features Are Not Entities
+Amenities never determine entity type.
+If something is an amenity, it belongs in **Features**, not as an entity.
 
-## 2.5 When in Doubt, Choose the More General Category
-If a Site could be two things, choose the broader Category unless a formal designation dictates otherwise.
+## 2.5 When in Doubt, Choose the More General Identity
+If an object could be two things, choose the broader identity unless a formal
+designation dictates otherwise.
 
 ## 2.6 Never Infer Governance
-Ownership, Management, and Designation must never be inferred.  
+Ownership, Management, and Designation must never be inferred.
 Ambiguity triggers a flag, not a guess.
 
-## 2.7 Multi‑Site Complexes May Be Split
-Large parks, forests, or preserves may contain internal identity‑bearing units.  
-These become separate Sites when they meet the Internal Parcel Rule.
+## 2.7 Identity‑Bearing Units May Be Split
+Large parks, forests, preserves, and trail systems may contain internal
+identity‑bearing units. These become separate entities when they meet the
+Internal Parcel Rule or Trail Segment Identity Rule.
 
 ## 2.8 Access Points Are Never Sites
-Trailheads, boat ramps, parking areas, and entrances are **Access Points**, not Sites.
+Trailheads, boat ramps, parking areas, and entrances are **Access Points**, not
+Sites.
 
----
+## 2.9 Trails Are Not Sites
+Named trails are **Trails**, not Sites.
 
-# 3. CATEGORY‑LEVEL EDGE CASES (SITES)
+## 2.10 Trail Segments Are Not Trails
+Segments are identity‑bearing subdivisions of Trails.
 
-These rules determine how ambiguous land units are classified.
+## 2.11 Trail Segments Are Never Features
+If something qualifies as a Trail Segment, it is always an entity.
+Non‑identity‑bearing path fragments are **geometry**, not Features.
 
-## 3.1 Boardwalk
-- Not a Site  
-- Treated as a **Feature**  
+## 2.12 Networks Are Not Trails or Sites
+Networks are collections of Trails or Sites, not physical land units.
 
-## 3.2 Natural Play Area
-- Not a Site  
-- Treated as a **Feature**
+------------------------------------------------------------
+# 3. ENTITY‑TYPE RESOLUTION RULES
 
-## 3.3 Paved Path / Multi‑Use Path
-- Site only if named and identity‑bearing  
-- Category: Trail  
-- Subtype determined by identity  
-- Trail Role determined by context (Trail vs. Segment)
+These rules determine what entity type a baseline or discovered object becomes.
 
-## 3.4 Linear Park
-- Category: Park  
-- Subtype: Linear Park  
+## 3.1 Site
+A Site is a **named, bounded, physical land unit** with its own identity.
 
-## 3.5 Greenway
-- Category: Greenway Corridor  
+## 3.2 Sub‑Site
+A Sub‑Site is a named, bounded, identity‑bearing unit **within a Site**.
 
-## 3.6 Stormwater Green with Ecological Identity
-- Category: Natural Area or Conservation Area depending on identity  
-- Include even if access is limited  
+## 3.3 Access Point
+An Access Point is a **location of entry** to a Site or Trail.
 
-## 3.7 Stormwater Basin with No Ecological Identity
-- Excluded from dataset  
+## 3.4 Trail
+A Trail is a **named, linear, identity‑bearing route**.
 
-## 3.8 Reservoir Property
-- Category: Water Site or Reservoir (depending on identity)  
-- Include even if access is limited  
+## 3.5 Trail Segment
+A Trail Segment is a **named or identity‑bearing subdivision** of a Trail.
 
-## 3.9 Cemetery with Natural Area
-- Category: Cemetery  
-- Subtype: Cemetery subtype  
-- Ecological identity goes in Description  
-- Exclude if no natural features  
+## 3.6 Trail Network
+A Trail Network is a **collection of Trails** with a shared identity.
 
-## 3.10 Mitigation Bank
-- Category: Conservation Area  
-- Subtype: Mitigation Bank  
-- Include even if access is restricted  
+## 3.7 Site Network
+A Site Network is a **collection of Sites** with a shared identity.
 
-## 3.11 Unnamed Natural Area in GIS
-- Category: Natural Area  
-- Subtype: As appropriate  
-- Name: Use best available GIS label; surface for review  
+------------------------------------------------------------
+# 4. CATEGORY‑LEVEL EDGE CASES (SITES)
 
-## 3.12 Internal Natural Areas within Parks
-- Category: Natural Area  
-- Subtype: As appropriate  
-- Parent Site handled via Parent Site field  
+## 4.1 Boardwalk
+- Feature
 
-## 3.13 Campgrounds
-- Category: Camp  
-- Include only if natural‑area identity is present  
+## 4.2 Natural Play Area
+- Feature
 
-## 3.14 Water Access Sites
-- Category: Water Access Site  
-- Trail Role assigned only if part of a trail system  
+## 4.3 Paved Path / Multi‑Use Path
+- Trail if named and identity‑bearing
+- Otherwise geometry
 
----
+## 4.4 Linear Park
+- Category: Park
+- Subtype: Linear Park
 
-# 4. GOVERNANCE‑LEVEL EDGE CASES
+## 4.5 Greenway
+- Category: Greenway Corridor
 
-## 4.1 Ownership Unknown
-- Leave blank  
-- Flag for review  
+## 4.6 Stormwater Green with Ecological Identity
+- Category: Natural Area or Conservation Area
 
-## 4.2 Management Unknown
-- Leave blank  
-- Do not assume “same as ownership”  
+## 4.7 Stormwater Basin with No Ecological Identity
+- Excluded
 
-## 4.3 Joint Management
-- Semicolon‑delimited  
-- Order does not imply hierarchy  
+## 4.8 Reservoir Property
+- Category: Water Site or Reservoir
 
-## 4.4 Private Natural Areas
-- Include if designated or publicly referenced  
-- Category determined by identity  
+## 4.9 Cemetery with Natural Area
+- Category: Cemetery
+- Ecological identity → Description
 
-## 4.5 Tribal Lands
-- Category determined by identity  
-- Ownership: Tribal Nation  
-- Management: Tribal Nation unless otherwise stated  
+## 4.10 Mitigation Bank
+- Category: Conservation Area
 
----
+## 4.11 Unnamed Natural Area in GIS
+- Category: Natural Area
+- Name: best available GIS label
 
-# 5. TRAIL‑RELATED EDGE CASES (SITES)
+## 4.12 Internal Natural Areas within Parks
+- Category: Natural Area
+- Parent Site assigned
+
+## 4.13 Campgrounds
+- Category: Camp
+- Only if natural‑area identity present
+
+## 4.14 Water Access Sites
+- Category: Water Access Site
+
+------------------------------------------------------------
+# 5. TRAIL‑RELATED EDGE CASES
 
 ## 5.1 Trailhead vs. Trail Access Point
-- Trailhead = primary, named, formal access  
-- Access Point = secondary or informal access  
-- Both are **Access Points**, not Sites  
+- Both are Access Points
 
 ## 5.2 Bikeway Access Point
-- Only when explicitly tied to a bikeway system  
+- Only if tied to a bikeway system
 
 ## 5.3 Connector Trail vs. Spur
-- Connector Trail = links two trail systems or segments  
-- Spur = dead‑end or single‑direction access path  
+- Connector = links systems
+- Spur = dead‑end
 
 ## 5.4 Loop Trails
-- Category: Trail  
-- Trail Segment Type: Loop  
+- Trail
+- Segment Type: Loop
 
 ## 5.5 Internal Trail Segments
-- Category: Trail  
-- Subtype: Trail Segment (Internal)  
-- Trail Role: Trail Segment  
+- Trail Segment
 
 ## 5.6 Greenway Trails
-- Category: Trail Corridor  
-- Subtype: Greenway Trail  
+- Trail Corridor
 
----
-
+------------------------------------------------------------
 # 6. ECOLOGICAL EDGE CASES (SITES)
 
 ## 6.1 Buffer Zones
-- Category: Buffer Zone  
-- Include only if named or mapped  
+- Category: Buffer Zone
 
 ## 6.2 Restoration Areas
-- Category: Conservation Area  
-- Subtype: Restoration Area  
+- Category: Conservation Area
 
 ## 6.3 Successional Habitat
-- Category: Natural Area  
-- Subtype: Successional Habitat  
+- Category: Natural Area
 
 ## 6.4 Floodplain Forest
-- Category: Natural Area  
-- Subtype: Floodplain Forest  
+- Category: Natural Area
 
 ## 6.5 Wetland Complexes
-- Category: Natural Area  
-- Subtype: Appropriate wetland subtype  
+- Category: Natural Area
 
----
-
+------------------------------------------------------------
 # 7. ACCESS POINT EDGE CASES
 
 ## 7.1 Parking Lots
-- Always Access Points  
-- Never Sites  
+- Access Points
 
 ## 7.2 Boat Ramps
-- Always Access Points  
-- Never Sites  
+- Access Points
 
 ## 7.3 Scenic Pull‑Offs
-- Access Points only if they serve as entry locations  
-- Otherwise Features  
+- Access Points if they function as entrances
 
 ## 7.4 Internal Amenities
-- Shelters, overlooks, playgrounds, restrooms → Features  
-- Never Sites  
-- Never Access Points unless they function as entrances  
+- Features unless functioning as entrances
 
 ## 7.5 Trail Intersections
-- Never Access Points  
-- Never Sites  
+- Geometry, not entities
 
 ## 7.6 Administrative Access
-- Access Point only if explicitly documented  
+- Access Point only if documented
 
----
+------------------------------------------------------------
+# 8. INTERNAL PARCEL RULE (SITES + SUB‑SITES)
 
-# 8. INTERNAL PARCEL RULE (SITES)
+A Site or Sub‑Site must be:
 
-A Site may only be created for a **named, bounded, physical unit** that carries its own identity.
+- Named
+- Physical
+- Bounded
+- Identity‑bearing
+- Stable
 
-## Requirements for a Site
-A Site must be:
+If not, it is a Feature.
 
-- **Named**  
-- **Physical**  
-- **Bounded**  
-- **Identity‑bearing**  
-- **Stable**  
+------------------------------------------------------------
+# 9. TRAIL SEGMENT IDENTITY RULE (CORRECTED)
 
-If an object does not meet these criteria, it is a **Feature**, not a Site.
+A Trail Segment must be:
 
-## Valid Internal Parcels
-Examples include:
+- Named OR
+- Identity‑bearing OR
+- A formally defined segment OR
+- A loop, spur, connector, or internal segment with operational meaning
 
-- Named ranger districts  
-- Named recreation areas  
-- Named natural areas within larger parks  
-- Named wilderness or ORV areas  
+If a path fragment is:
 
-## Not Valid as Sites
-- Individual trailheads  
-- Individual overlooks  
-- Individual shelters  
-- Individual ponds  
-- Individual parking lots  
-- Individual boat ramps  
-- Individual boardwalks  
-- Individual playgrounds  
-- Unnamed trail segments  
+- Unnamed
+- Not identity‑bearing
+- Not operationally meaningful
+- Not recognized by the managing agency
 
-## Hierarchy Rule
-- Multi‑site complexes may have a top‑level Site  
-- Internal parcels become Sites only if identity‑bearing  
-- Relationships are handled via the Parent Site field  
+…it is **geometry**, not a Trail Segment and not a Feature.
 
----
+------------------------------------------------------------
+# 10. NETWORK RESOLUTION RULES
 
-# 9. CONFLICT RESOLUTION OVERRIDES
+## 10.1 Trail Networks
+- Must be documented as a network
+- Must contain Trails
+- Must not be inferred
 
-## 9.1 Category Conflicts
-Resolution Module overrides Discovery and Normalization.
+## 10.2 Site Networks
+- Must be documented as a network
+- Must contain Sites
+- Must not be inferred
 
-## 9.2 Governance Conflicts
-Normalization rules apply unless ambiguous → then Resolution decides.
+------------------------------------------------------------
+# 11. CONFLICT RESOLUTION OVERRIDES
 
-## 9.3 Trail Role Conflicts
+## 11.1 Category Conflicts
 Resolution Module overrides all other modules.
 
-## 9.4 Ecological Identity Conflicts
-Ecology informs Description only; Category never changes based on ecology; some ecological features, when not site-defining, are acceptable in Features.
+## 11.2 Governance Conflicts
+Normalization rules apply unless ambiguous → Resolution decides.
 
----
+## 11.3 Trail Role Conflicts
+Resolution overrides all other modules.
 
-# 10. MODULE DEPENDENCIES
+## 11.4 Ecological Identity Conflicts
+Ecology informs Description only.
+
+## 11.5 Entity‑Type Conflicts
+Resolution determines final entity type.
+
+------------------------------------------------------------
+# 12. MODULE DEPENDENCIES
+
 This module depends on:
 
-- **Site Schema Module v1**  
-- **Access Point Schema Module v1**  
-- **Site Vocabulary Module v1**  
-- **Access Point Vocabulary Module v1**  
-- **Discovery Protocol v1**  
-- **Site Normalization Contract v1**  
-- **Access Point Normalization Contract v1**  
-- **Processing Orchestration Module v1**  
-- **Audit & Logging Module**
+- All seven Schema Modules v3.1
+- All seven Vocabulary Modules v3.1
+- All seven Normalization Contracts v3.1
+- Discovery Protocol Module v3.1
+- County Baseline Module v3.1
+- Processing / Orchestration Module v3.1
+- Audit & Logging Module v3.1
 
----
-
-# END OF RESOLUTION MODULE v1
+------------------------------------------------------------
+# END OF RESOLUTION MODULE v3.1

@@ -1,281 +1,287 @@
-# NATURAL AREAS PROJECT — PROCESSING ORCHESTRATION MODULE v1
-A deterministic, end‑to‑end workflow defining the exact sequence Copilot follows to transform county baseline data into fully normalized, audit‑ready **Site** and **Access Point** datasets.
+# NATURAL AREAS PROJECT — PROCESSING ORCHESTRATION MODULE v3.1
+A deterministic, end‑to‑end workflow defining the exact sequence Copilot follows
+to transform county baseline data into fully normalized, audit‑ready datasets for
+**all seven entity types**:
 
-This module contains no controlled vocabularies.  
-All vocabularies are defined in the Site Vocabulary Module v1 and Access Point Vocabulary Module v1.
+- Site
+- Sub‑Site
+- Access Point
+- Trail
+- Trail Segment
+- Trail Network
+- Site Network
 
----
+This module contains no controlled vocabularies.
+All vocabularies are defined in the respective Vocabulary Modules v3.1.
 
+------------------------------------------------------------
 # 1. PURPOSE
+
 This module defines:
 
-- The full processing pipeline for **both entity types**  
-- The order in which modules are applied  
-- How data flows from one stage to the next  
-- How conflicts are surfaced and resolved  
-- How final TSV outputs are produced and validated  
+- The full processing pipeline for all seven entity types
+- The order in which modules are applied
+- How data flows from one stage to the next
+- How entity type is determined
+- How conflicts are surfaced and resolved
+- How final TSV outputs are produced and validated
+- How audit logs are generated
 
 This module ensures:
 
-- Deterministic execution  
-- Zero skipped steps  
-- Zero improvisation  
-- Full alignment across all modules  
-- Full delimiter‑integrity compliance  
+- Deterministic execution
+- Zero skipped steps
+- Zero improvisation
+- Full alignment across all modules
+- Full delimiter‑integrity compliance
+- Full auditability
 
----
-
+------------------------------------------------------------
 # 2. MODULE HIERARCHY AND AUTHORITY
+
 The following hierarchy governs all processing:
 
-1. **Site Schema Module v1**  
-2. **Access Point Schema Module v1**  
-3. **County Baseline Module**  
-4. **Discovery Protocol Module v1**  
-5. **Resolution Module v1**  
-6. **Site Normalization Contract v1**  
-7. **Access Point Normalization Contract v1**  
-8. **Site TSV Output Specification v1**  
-9. **Access Point TSV Output Specification v1**  
-10. **TSV Integrity Check Module**  
-11. **Audit & Logging Module**
+1. **Schema Modules v3.1** (all seven)
+2. **County Baseline Module v3.1**
+3. **Discovery Protocol Module v3.1**
+4. **Resolution Module v3.1**
+5. **Normalization Contracts v3.1** (all seven)
+6. **TSV Output Specifications v3.1** (all seven)
+7. **TSV Integrity Check Module v3.1**
+8. **Audit & Logging Module v3.1**
 
 Authority rules:
 
-- Schema Modules define the ontology and field definitions.  
-- Baseline provides the initial seed list.  
-- Discovery expands the list (Sites + Access Points).  
-- Resolution resolves ambiguity for both entities.  
-- Normalization structures each entity type.  
-- TSV Output serializes each entity type.  
-- TSV Integrity Check validates delimiter correctness.  
+- Schema defines ontology and field definitions.
+- Baseline provides identity seeds.
+- Discovery expands the identity list.
+- Resolution overrides all ambiguity.
+- Normalization structures each entity type.
+- TSV Output serializes each entity type.
+- TSV Integrity Check overrides TSV Output if delimiter‑integrity fails.
 - Audit & Logging records all actions.
 
 If modules conflict:
 
-- **Resolution overrides Discovery and Normalization.**  
-- **Schema overrides all modules except Resolution.**  
-- **Normalization overrides Baseline formatting but not Baseline identity.**  
-- **TSV Integrity Check overrides TSV Output if delimiter‑integrity fails.**
+- **Resolution overrides Discovery and Normalization.**
+- **Schema overrides all modules except Resolution.**
+- **Normalization overrides Baseline formatting but not Baseline identity.**
+- **TSV Integrity Check overrides TSV Output.**
 
----
+------------------------------------------------------------
+# 3. END‑TO‑END PROCESSING PIPELINE (SEVEN‑ENTITY)
 
-# 3. END‑TO‑END PROCESSING PIPELINE
-The pipeline consists of **eight deterministic stages**, applied to **both Sites and Access Points**.
+The pipeline consists of **nine deterministic stages**, applied to all seven entities.
 
----
-
+------------------------------------------------------------
 # STAGE 1 — LOAD COUNTY BASELINE
 
-### 1.1 Identify the county being processed  
-### 1.2 Load the county’s baseline section  
-### 1.3 Mark all baseline entries as “seeded”  
-### 1.4 Validate baseline formatting against both Schema Modules  
-### 1.5 Surface any baseline anomalies for review  
+### 1.1 Identify the county being processed
+### 1.2 Load the county’s baseline section
+### 1.3 Mark all baseline entries as “seeded”
+### 1.4 Accept any entity type (identity‑bearing only)
+### 1.5 Surface baseline anomalies for review
 
 **Output:**  
-Baseline candidate list (Sites only; Access Points are never baseline‑seeded)
+Baseline identity list (entity‑agnostic)
 
----
-
-# STAGE 2 — RUN DISCOVERY PROTOCOL (SITES + ACCESS POINTS)
+------------------------------------------------------------
+# STAGE 2 — RUN DISCOVERY PROTOCOL (ALL ENTITIES)
 
 ### 2.1 Perform the full authority‑ordered sweep  
-County → Municipal → Township → State → Federal → Land Trust → Supplemental Sources
+County → Municipal → Township → State → Federal → Tribal → Land Trust → Supplemental
 
-### 2.2 Verify geographic correctness  
-Prevent cross‑state contamination.
+### 2.2 Verify geographic correctness
 
-### 2.3 Extract all candidate **Sites**  
-- Named sites  
-- Mapped sites  
-- Natural areas within parks  
-- Linear parks and greenways  
-- Water access sites  
-- Cemeteries with natural areas  
-- Stormwater greens with ecological identity  
-- Unnamed natural areas visible in GIS  
+### 2.3 Extract candidate entities:
+- Sites
+- Sub‑Sites
+- Access Points
+- Trails
+- Trail Segments
+- Trail Networks
+- Site Networks
 
-### 2.4 Extract all candidate **Access Points**  
-- Trailheads  
-- Parking areas  
-- Boat ramps  
-- Watercraft access points  
-- Fishing access  
-- River access  
-- Roadside pull‑offs  
-- Pedestrian/vehicle entrances  
-- Bicycle/snowmobile/XC ski/equestrian access  
-- Administrative access (if documented)
+### 2.4 Deduplicate (non‑destructive)
+- Name
+- Location
+- GPS
+- Parcel identity
+- Trail identity
+- Network identity
 
-### 2.5 Deduplicate (non‑destructive)  
-- Name  
-- Location  
-- GPS  
-- Parcel identity  
-
-### 2.6 Merge discovery results with baseline  
-- Add new Sites  
-- Add all Access Points  
-- Retain all baseline entries  
-- Surface redundancies for review  
+### 2.5 Merge discovery results with baseline
+- Add new entities
+- Retain all baseline entries
+- Surface redundancies
 
 **Output:**  
-Expanded candidate list (Sites + Access Points)
+Expanded candidate list (all seven entities)
 
----
+------------------------------------------------------------
+# STAGE 3 — APPLY RESOLUTION MODULE (ALL ENTITIES)
 
-# STAGE 3 — APPLY RESOLUTION MODULE (SITES + ACCESS POINTS)
+### 3.1 Check each candidate for ambiguity:
+- Entity type
+- Category / Subtype
+- Governance
+- Trail role
+- Segment identity
+- Network membership
+- Parent/child relationships
+- Multi‑site or multi‑trail complexes
 
-### 3.1 Check each candidate for ambiguity  
-- Category  
-- Subtype  
-- Governance  
-- Trail role  
-- Ecological identity  
-- Multi‑site complex relationships  
-- Access Point vs. Feature vs. Site  
+### 3.2 Apply Resolution Module rules
+- Assign correct entity type
+- Assign correct Category/Subtype
+- Assign Trail Role / Segment Type
+- Assign Network membership
+- Split identity‑bearing internal units
+- Exclude non‑entities
+- Resolve ambiguous governance
 
-### 3.2 Apply Resolution Module rules  
-- Assign correct Category/Subtype (Sites)  
-- Determine correct Trail Role (Sites)  
-- Determine correct Access Point Type (Access Points)  
-- Resolve internal vs. standalone features  
-- Split multi‑site complexes when required  
-- Exclude entities that must be excluded  
-
-### 3.3 Surface unresolved conflicts for user review  
-
-**Output:**  
-Fully classified candidate list (Sites + Access Points)
-
----
-
-# STAGE 4 — APPLY NORMALIZATION CONTRACTS
-
-Normalization is **entity‑specific**.
-
----
-
-## 4A — Normalize Sites (25 fields)
-
-### 4A.1 Apply Site Normalization Contract v1  
-### 4A.2 Validate all vocabulary‑controlled fields  
-### 4A.3 Validate formatting rules  
-### 4A.4 Validate GPS and Plus Code  
-### 4A.5 Validate semicolon rules  
-### 4A.6 Compute Derived Label (not stored)  
-### 4A.7 Surface normalization failures  
+### 3.3 Surface unresolved conflicts
 
 **Output:**  
-Fully normalized Site dataset
+Fully classified candidate list (all seven entities)
 
----
+------------------------------------------------------------
+# STAGE 4 — APPLY NORMALIZATION CONTRACTS (ENTITY‑SPECIFIC)
 
-## 4B — Normalize Access Points (10 fields)
+Normalization is performed separately for each entity type.
 
-### 4B.1 Apply Access Point Normalization Contract v1  
-### 4B.2 Validate Access Point Type and Status  
-### 4B.3 Validate GPS and Plus Code  
-### 4B.4 Validate Road Name and Access Notes  
-### 4B.5 Compute Derived Label (not stored)  
-### 4B.6 Surface normalization failures  
+### 4A — Normalize Sites (25 fields)
+### 4B — Normalize Sub‑Sites (14 fields)
+### 4C — Normalize Access Points (11 fields)
+### 4D — Normalize Trails (16 fields)
+### 4E — Normalize Trail Segments (15 fields)
+### 4F — Normalize Trail Networks (12 fields)
+### 4G — Normalize Site Networks (12 fields)
 
-**Output:**  
-Fully normalized Access Point dataset
+Each normalization step includes:
 
----
-
-# STAGE 5 — GENERATE TSV OUTPUT (SITES + ACCESS POINTS)
-
-### 5.1 Assemble Site records in exact 25‑field order  
-### 5.2 Assemble Access Point records in exact 10‑field order  
-### 5.3 Use tab‑separated values  
-### 5.4 Ensure:  
-- No missing columns  
-- No invented data  
-- No placeholders  
-- No formatting drift  
-- No spaces between delimiters  
-- No trailing spaces  
+- Vocabulary validation
+- Formatting validation
+- GPS / Plus Code validation
+- Semicolon rules
+- Derived Label computation
+- Integrity‑anchor validation
+- Multi‑county expansion
+- Parent/child validation
 
 **Output:**  
-Two TSV datasets:  
-- **Sites.tsv**  
-- **AccessPoints.tsv**
+Seven fully normalized datasets
 
----
+------------------------------------------------------------
+# STAGE 5 — GENERATE TSV OUTPUT (ALL ENTITIES)
 
-# STAGE 6 — TSV INTEGRITY CHECK (SITES + ACCESS POINTS)
+### 5.1 Assemble records in exact field order per TSV spec
+### 5.2 Use tab‑separated values
+### 5.3 Ensure:
+- No missing columns
+- No invented data
+- No placeholders
+- No formatting drift
+- No spaces between delimiters
+- No trailing spaces
 
-### 6.1 Validate delimiter count  
-- Sites: exactly **24 tabs**  
-- Access Points: exactly **9 tabs**
+**Output:**  
+Seven TSV datasets:
+- Sites.tsv  
+- SubSites.tsv  
+- AccessPoints.tsv  
+- Trails.tsv  
+- TrailSegments.tsv  
+- TrailNetworks.tsv  
+- SiteNetworks.tsv  
 
-### 6.2 Validate blank‑field representation  
-- `\t\t` only  
-- No spaces inside blanks  
+------------------------------------------------------------
+# STAGE 6 — TSV INTEGRITY CHECK (ALL ENTITIES)
 
-### 6.3 Validate field alignment  
-- Sites: Derived Label = field 24; Parent Site = field 25  
-- Access Points: Derived Label = field 10  
-
-### 6.4 Surface delimiter anomalies  
-### 6.5 Halt finalization if integrity fails  
+### 6.1 Validate delimiter count (entity‑specific)
+### 6.2 Validate blank‑field representation
+### 6.3 Validate field alignment
+### 6.4 Validate Derived Label placement
+### 6.5 Validate integrity‑anchor placement
+### 6.6 Validate multi‑county expansion
+### 6.7 Surface anomalies
+### 6.8 Halt finalization if integrity fails
 
 **Output:**  
 Delimiter‑validated TSV datasets
 
----
+------------------------------------------------------------
+# STAGE 7 — RELATIONSHIP VALIDATION (CROSS‑ENTITY)
 
-# STAGE 7 — LOGGING AND AUDIT TRAIL
+### 7.1 Validate:
+- Parent Site relationships
+- Trail → Trail Segment relationships
+- Trail → Trail Network membership
+- Site → Site Network membership
+- Access Point → Site / Trail relationships
 
-### 7.1 Record  
-- All sources used  
-- All conflicts surfaced  
-- All edge‑case resolutions  
-- All normalization corrections  
-- All unverifiable claims  
-- All delimiter‑integrity results  
+### 7.2 Surface relationship anomalies
 
-### 7.2 Store  
-- Version numbers of all modules used  
-- Timestamp of processing  
-- County name and baseline version  
+**Output:**  
+Relationship‑validated datasets
+
+------------------------------------------------------------
+# STAGE 8 — FINAL OUTPUT BUNDLE
+
+### 8.1 Package all seven TSVs
+### 8.2 Package audit log
+### 8.3 Package metadata (module versions, timestamps)
+
+**Output:**  
+County Output Bundle v3.1
+
+------------------------------------------------------------
+# STAGE 9 — LOGGING AND AUDIT TRAIL
+
+### 9.1 Record:
+- All sources
+- All conflicts
+- All resolutions
+- All normalization corrections
+- All unverifiable claims
+- All delimiter‑integrity results
+- All relationship validations
+
+### 9.2 Store:
+- Module versions
+- Timestamps
+- County baseline version
 
 **Output:**  
 Complete audit log for the county’s processing run
 
----
+------------------------------------------------------------
+# 10. PIPELINE SUMMARY (CONDENSED)
 
-# 8. PIPELINE SUMMARY (CONDENSED)
 1. Load Baseline  
-2. Discover Sites + Access Points  
-3. Resolve ambiguities  
-4. Normalize Sites  
-5. Normalize Access Points  
-6. Output TSVs  
-7. Validate TSVs  
-8. Log everything  
+2. Discover all entities  
+3. Resolve ambiguity  
+4. Normalize all entities  
+5. Generate TSVs  
+6. Validate TSVs  
+7. Validate relationships  
+8. Produce output bundle  
+9. Log everything  
 
----
+------------------------------------------------------------
+# 11. MODULE DEPENDENCIES
 
-# 9. MODULE DEPENDENCIES
 This module depends on:
 
-- **Site Schema Module v1**  
-- **Access Point Schema Module v1**  
-- **Site Vocabulary Module v1**  
-- **Access Point Vocabulary Module v1**  
-- **Discovery Protocol v1**  
-- **Resolution Module v1**  
-- **Site Normalization Contract v1**  
-- **Access Point Normalization Contract v1**  
-- **Site TSV Output Specification v1**  
-- **Access Point TSV Output Specification v1**  
-- **TSV Integrity Check Module**  
-- **Audit & Logging Module**
+- All seven Schema Modules v3.1
+- All seven Vocabulary Modules v3.1
+- All seven Normalization Contracts v3.1
+- Discovery Protocol Module v3.1
+- Resolution Module v3.1
+- County Baseline Module v3.1
+- TSV Output Specifications v3.1
+- TSV Integrity Check Module v3.1
+- Audit & Logging Module v3.1
 
----
-
-# END OF PROCESSING ORCHESTRATION MODULE v1
+------------------------------------------------------------
+# END OF PROCESSING ORCHESTRATION MODULE v3.1

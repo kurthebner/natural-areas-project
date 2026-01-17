@@ -1,306 +1,260 @@
-# NATURAL AREAS PROJECT — DISCOVERY PROTOCOL MODULE v1
-A deterministic, statewide, multi‑source discovery workflow for identifying all candidate **Sites** and **Access Points** for the Natural Areas & Trails dataset.
+# NATURAL AREAS PROJECT
+# DISCOVERY PROTOCOL MODULE v3.1
+(Full Multi‑Entity Discovery Framework, Updated to Site Network Ontology)
 
-This module governs *what is discovered* and *how it is surfaced*, not how it is normalized or serialized.
+Authoritative, versioned protocol for discovering all seven entity types in the
+statewide Natural Areas & Trails system.
 
-This module contains no controlled vocabularies.  
-All vocabularies are defined in the Site Vocabulary Module v1 and Access Point Vocabulary Module v1.
+This module defines:
+- The unified discovery workflow
+- The seven discovery tracks
+- Tier‑based source rules
+- Entity‑specific discovery rules
+- Cross‑entity consolidation
+- Metadata requirements
+- Output requirements
+- Integration points
 
----
+This module supersedes v3.0 and updates the ontology to use **Site Network** instead
+of Area Network.
 
+------------------------------------------------------------
 # 1. PURPOSE
-The Discovery Protocol defines:
 
-- What qualifies as a discoverable **Site**  
-- What qualifies as a discoverable **Access Point**  
-- Which authoritative sources must be scanned  
-- How candidates are extracted  
-- How duplicates are handled  
-- How ambiguous cases are surfaced  
-- How discovery metadata is recorded  
+Discovery Protocol v3.1 provides the authoritative, deterministic workflow for
+discovering:
 
-This module ensures:
+1. Site
+2. Sub‑Site
+3. Trail
+4. Trail Segment
+5. Trail Network
+6. Site Network
+7. Access Point
 
-- Statewide consistency  
-- Zero improvisation  
-- Zero reliance on memory  
-- Deterministic, repeatable sweeps  
-- Full auditability  
+This protocol:
+- Defines the unified discovery architecture
+- Ensures consistency across all counties and data sources
+- Prevents misclassification between entity types
+- Produces Raw Candidate Records for all seven entities
+- Produces Discovery Metadata for all seven entities
+- Integrates with normalization, resolution, and TSV output
+- Enforces no normalization, no invention, and no silent correction during discovery
 
-Normalization rules live in the Site and Access Point Normalization Contracts.  
-Ambiguous cases are resolved in the Resolution Module.
+This module is authoritative for discovery logic.
 
----
+------------------------------------------------------------
+# 2. SCOPE
 
-# 2. WHAT COUNTS AS A DISCOVERABLE ENTITY
+Discovery Protocol v3.1 governs:
+- All eight discovery tiers (Federal → Private)
+- All seven entity types
+- All authoritative sources
+- All cross‑entity relationships
+- All discovery metadata
+- All consolidation workflows
 
-Discovery surfaces **two entity types**:
+This protocol applies to:
+- Federal agencies
+- State agencies
+- Park districts
+- Counties
+- Townships
+- Municipalities
+- Land trusts & conservancies
+- Private organizations
 
-- **Sites** (25‑field schema)  
-- **Access Points** (10‑field schema)  
+------------------------------------------------------------
+# 3. ENTITY TYPES (AUTHORITATIVE)
 
-Discovery does **not** assign vocabularies or schema fields.  
-It only identifies candidates.
+Discovery must surface candidates for all seven identity‑bearing entities:
 
----
+## 3.1 Site
+Identity‑bearing land units (parks, preserves, forests, wildlife areas, etc.)
 
-# 2A. WHAT COUNTS AS A “SITE”
-A candidate must be surfaced as a Site if it meets **any** of the following identity criteria.
+## 3.2 Sub‑Site
+Identity‑bearing internal units within a Site.
 
-## 2A.1 Ecological Identity
-- Natural area  
-- Nature preserve  
-- Conservation area  
-- Wetland, fen, prairie, bog, marsh, swamp  
-- Riparian corridor  
-- Forest (upland, floodplain, old‑growth, successional)  
-- Wildlife area  
-- Restoration area (if named or designated)  
+## 3.3 Trail
+Identity‑bearing linear corridors.
 
-## 2A.2 Governance Identity
-- Municipal, township, county, or park district park  
-- State or federal land with public access  
-- Land trust or conservancy property  
-- Privately owned but **designated** natural area  
-- Tribal conservation land  
+## 3.4 Trail Segment
+Operational portions of Trails.
 
-## 2A.3 Trail Infrastructure (as Sites)
-- Trail systems  
-- Trail corridors  
-- Named trail segments  
-- Linear parks  
-- Greenways  
+## 3.5 Trail Network
+Umbrella entities composed of multiple Trails.
 
-## 2A.4 Water‑Based Sites
-- Water access sites  
-- Reservoir properties  
-- Named shoreline or riverfront units  
+## 3.6 Site Network
+Umbrella entities composed of multiple Sites.
 
-## 2A.5 Special Cases (Always Included)
-- Cemeteries with natural areas  
-- Stormwater greens with ecological identity  
-- Multi‑site complexes (parks with internal natural areas)  
-- Mitigation banks (if named or designated)  
+## 3.7 Access Point
+Visitor‑facing navigational entry locations.
 
----
+------------------------------------------------------------
+# 4. DISCOVERY TIERS (UNCHANGED)
 
-# 2B. WHAT COUNTS AS AN “ACCESS POINT”
-Discovery must surface an Access Point candidate when **any** of the following appear in authoritative sources:
+Discovery proceeds through the eight authoritative tiers:
 
-- Trailhead  
-- Parking area serving a Site  
-- Boat ramp  
-- Watercraft access point  
-- Fishing access  
-- River access  
-- Roadside pull‑off  
-- Pedestrian entrance  
-- Vehicle entrance  
-- Bicycle access  
-- Snowmobile access  
-- Cross‑country ski access  
-- Equestrian access  
-- Administrative access (if explicitly documented)  
+1. Federal  
+2. State  
+3. Park District  
+4. County  
+5. Township  
+6. Municipal  
+7. Land Trust & Conservancy  
+8. Private & Organization‑Based  
 
-Discovery **does not** assign Access Point Type.  
-Normalization assigns it using the Access Point Vocabulary Module v1.
+Each tier must surface candidates for all seven entity types when applicable.
 
----
+------------------------------------------------------------
+# 5. REQUIRED SOURCES
 
-# 3. SOURCES COPILOT MUST CHECK (ORDER OF AUTHORITY)
+Each tier must check:
+- Official websites
+- GIS systems
+- Planning documents
+- Stewardship documents
+- Brochures & maps
+- County auditor data
+- Federal/state datasets
+- Partnership announcements
+- County‑hosted pages
+- Municipal/township‑hosted pages
 
-## 3.1 County‑Level Sources
-- County park district websites  
-- County GIS viewers  
-- County recreation/parks departments  
-- County conservation districts  
-- County planning commissions  
-- County greenway/trail plans  
-- County open space inventories  
+All sources must be logged in Discovery Metadata.
 
-## 3.2 Municipal Sources  
-For **every** city, village, and incorporated town:
+------------------------------------------------------------
+# 6. ENTITY‑SPECIFIC DISCOVERY RULES
 
-- Municipal websites  
-- Parks & recreation departments  
-- Municipal GIS viewers  
-- Park maps, PDFs, brochures  
-- Capital improvement plans  
-- Trail master plans  
+Discovery must use the authoritative sub‑procedure for each entity type:
 
-## 3.3 Township Sources  
-For **every** township:
+## 6.1 Site Discovery  
+Use **Site Discovery Sub‑Procedure v3.1**.
 
-- Township websites  
-- Township parks/facilities pages  
-- Township zoning maps  
-- Township recreation plans  
+## 6.2 Sub‑Site Discovery  
+Use **Sub‑Site Discovery Sub‑Procedure v3.1**.
 
-## 3.4 State Sources
-- ODNR (parks, preserves, wildlife areas, forests, scenic rivers)  
-- Ohio History Connection  
-- Ohio Scenic Byways  
-- Ohio Greenways  
-- Statewide trail systems (Buckeye Trail, North Country Trail)  
+## 6.3 Trail Discovery  
+Use **Trail Discovery Sub‑Procedure v3.1**.
 
-## 3.5 Federal Sources
-- National Park Service  
-- U.S. Fish & Wildlife Service  
-- U.S. Forest Service  
-- U.S. Army Corps of Engineers  
-- National Scenic Trails  
-- National Heritage Areas  
+## 6.4 Trail Segment Discovery  
+Use **Trail Segment Discovery Sub‑Procedure v3.1**.
 
-## 3.6 Land Trusts & Conservancies
-- Local land trusts  
-- Regional conservancies  
-- National organizations with local holdings (e.g., TNC)  
+## 6.5 Trail Network Discovery  
+Use **Trail Network Discovery Sub‑Procedure v3.1**.
 
-## 3.7 Supplemental Sources (Discovery Only)
-- County auditor parcel maps (for unnamed natural areas)  
-- Trail apps (secondary confirmation only)  
-- Google Maps (secondary confirmation only)  
-- Local tourism boards  
-- Private organizations with likely holdings (e.g., camps, fraternal lands)  
+## 6.6 Site Network Discovery  
+Use **Site Network Discovery Sub‑Procedure v3.1**.  
+A Site Network must be an umbrella entity composed of multiple Sites.
 
-No unofficial or user‑generated sources may be used as primary evidence.
+## 6.7 Access Point Discovery  
+Use **Access Point Discovery Sub‑Procedure v3.1**.
 
----
+------------------------------------------------------------
+# 7. CROSS‑ENTITY RELATIONSHIP RULES
 
-# 4. DISCOVERY WORKFLOW (DETERMINISTIC)
+Discovery must identify and record:
+- Site → Sub‑Site relationships
+- Trail → Trail Segment relationships
+- Trail Network → Trail relationships
+- Site Network → Site relationships
+- Access Point → Parent Entity relationships (multiple allowed)
 
-## 4.1 Load County Baseline
-- Load the county’s starter list (County Baseline Module).  
-- Mark each baseline site as “seeded.”  
-- Begin searching for additions.
+All relationships must be logged in Discovery Metadata v3.1.
 
-## 4.2 Perform the Authority Sweep
-For each source category (county → municipal → township → state → federal → land trust):
+------------------------------------------------------------
+# 8. CONSOLIDATION WORKFLOW
 
-1. Extract all named Sites  
-2. Extract all mapped Sites  
-3. Extract all Access Points  
-4. Extract natural areas within larger parks  
-5. Extract linear parks and greenways  
-6. Extract water access sites  
-7. Extract cemeteries with natural areas  
-8. Extract stormwater greens with ecological identity  
-9. Extract unnamed natural areas visible in GIS  
+After all tiers produce raw candidates:
 
-## 4.3 Deduplicate (Discovery‑Level)
-- Match by name  
-- Match by location  
-- Match by GPS  
-- Match by parcel identity  
-- Preserve all conflicting information  
+## 8.1 Consolidate Sites  
+Merge identical Sites across tiers.
 
-Deduplication is **non‑destructive**.  
-Normalization performs final deduplication.
+## 8.2 Consolidate Sub‑Sites  
+Merge identical Sub‑Sites within parent Sites.
 
-## 4.4 Do Not Classify
-Discovery must **not** assign:
+## 8.3 Consolidate Trails  
+Merge identical Trails across tiers.
 
-- Category  
-- Subtype  
-- Designation  
-- Status  
-- Features  
-- Trail Role  
-- Trail Segment Type  
-- Trail Access Type  
-- Parent Site  
-- Derived Label  
+## 8.4 Consolidate Trail Segments  
+Merge identical segments and align with parent Trails.
 
-These belong to normalization.
+## 8.5 Consolidate Trail Networks  
+Merge identical networks and align with member Trails.
 
-## 4.5 Flag Ambiguous Cases
-Discovery must surface a candidate when:
+## 8.6 Consolidate Site Networks  
+Merge identical networks and align with member Sites.
 
-- A name appears but the type is unclear  
-- A site appears on one map but not another  
-- A trail segment appears unnamed  
-- A feature might be a Site or Access Point  
-- A water access appears but is unlabeled  
+## 8.7 Consolidate Access Points  
+Merge identical APs and assign identity parents.
 
-Ambiguity must never suppress discovery.  
-Ambiguity is resolved in the Resolution Module.
+Rules:
+- No normalization during consolidation
+- No invention of missing values
+- All conflicts must be preserved in metadata
 
----
+------------------------------------------------------------
+# 9. METADATA REQUIREMENTS
 
-# 5. INCLUSION RULES (MANDATORY)
-A candidate **must** be included if:
+Discovery must produce a complete **Discovery Metadata Object v3.1** for every entity.
 
-- It has ecological identity  
-- It is a park of any governance level  
-- It is a trail system, segment, or access point  
-- It is a water access site  
-- It is a cemetery with natural area  
-- It is a greenway or linear park  
-- It is a stormwater green with ecological identity  
-- It is a land trust property  
-- It is a private natural area with public access  
-- It is a private or public natural area with **formal designation** even without public access  
+Metadata must include:
+- Identity metadata
+- Tier metadata
+- Source metadata
+- Conflict metadata
+- Uncertainty metadata
+- Parent metadata (AP only)
+- Boundary metadata
+- Baseline metadata
+- Notes
 
----
+Metadata must conform to:
+- **Discovery Metadata Specification v3.1**
+- **Audit & Logging Module v1.1**
 
-# 6. EXCLUSION RULES (MANDATORY)
-A candidate **must** be excluded if:
+------------------------------------------------------------
+# 10. OUTPUT FORMAT
 
-- It is purely a sports facility  
-- It is a school athletic complex  
-- It is a private business (e.g., golf course)  
-- It is a temporary event space  
-- It is purely indoor  
-- It is a standalone building  
-- It is a stormwater basin with no ecological identity  
-- It is a private residence with no designation  
+Discovery must output **Raw Candidate Records v3.1** for all seven entities:
 
----
+- Site  
+- Sub‑Site  
+- Trail  
+- Trail Segment  
+- Trail Network  
+- Site Network  
+- Access Point  
 
-# 7. DISCOVERY OUTPUT STRUCTURE
-Each raw candidate must include:
+All outputs must conform to:
+- **Discovery Output Specification v3.1**
+- The seven Schema Modules v3.1
+- The seven Vocabulary Modules v3.1
 
-- Name (as discovered)  
-- URL(s)  
-- Source type (county, municipal, township, state, federal, land trust)  
-- Notes on discovery context  
-- Any available GPS  
-- Any available address  
-- Any available acreage  
-- Any available trail role  
-- Any available designation  
-- Any access‑related information (for Access Points)  
+No normalization, no invention, and no silent correction is permitted.
 
-This raw list is passed to the Site or Access Point Normalization Contract.
+------------------------------------------------------------
+# 11. INTEGRATION POINTS
 
----
+This module integrates with:
+- All seven Schema Modules v3.1
+- All seven Vocabulary Modules v3.1
+- All eight Discovery Sub‑Procedures v3.1
+- Access Point Discovery Sub‑Procedure v3.1
+- Discovery Metadata Specification v3.1
+- Discovery Output Specification v3.1
+- Access Point Association Module v3.1
+- Normalization Contracts v3.1
+- TSV Output Specifications v3.1
+- Resolution Module v1
+- County Baseline Module v1.1
+- Orchestration Module v3.1
 
-# 8. AUDITABILITY REQUIREMENTS
-Copilot must:
+------------------------------------------------------------
+# 12. VERSIONING
 
-- Record the source of each discovery  
-- Record the URL or GIS layer used  
-- Record any conflicts  
-- Never invent data  
-- Never infer ownership or designation  
-- Never assume access  
-- Preserve all discovery metadata  
+This module is **Discovery Protocol Module v3.1**.  
+Future updates may produce v3.2, v3.3, etc.
 
----
-
-# 9. MODULE DEPENDENCIES
-This module depends on:
-
-- **Site Schema Module v1**  
-- **Access Point Schema Module v1**  
-- **Site Vocabulary Module v1**  
-- **Access Point Vocabulary Module v1**  
-- **Site Normalization Contract v1**  
-- **Access Point Normalization Contract v1**  
-- **Resolution Module v1**  
-- **Processing Orchestration Module v1**  
-- **Audit & Logging Module**
-
----
-
-# END OF DISCOVERY PROTOCOL MODULE v1
+------------------------------------------------------------
+# END OF DISCOVERY PROTOCOL MODULE v3.1

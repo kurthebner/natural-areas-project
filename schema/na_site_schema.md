@@ -1,22 +1,31 @@
-# NATURAL AREAS PROJECT — SITE SCHEMA MODULE v1
+# NATURAL AREAS PROJECT — SITE SCHEMA MODULE v2.0
 Authoritative, versioned schema for Sites in the statewide Natural Areas & Trails system.
 
 This module defines:
-- The Site entity type
-- The 25 Site fields
-- Field‑level rules
-- Dependencies on the Site Vocabulary Module v1
+- The Site entity type  
+- The 20 Site fields (updated authoritative order)  
+- Field‑level rules  
+- Identity rules  
+- Dependencies on the Site Vocabulary Module v2  
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the Site Vocabulary Module v1.
+All vocabularies are defined in the Site Vocabulary Module v2.
 
 ---
 
 # 1. PURPOSE
-The Site Schema defines the authoritative structure for representing parks, preserves, natural areas, trail systems, trail segments, historic sites, internal features, and related land units.
+Sites are identity‑bearing land units such as parks, preserves, natural areas, historic sites, cemeteries, campuses, recreation areas, wildlife areas, forests, and conservation lands.
+
+Sites are **not**:
+- Trails  
+- Trail Segments  
+- Access Points  
+- Trail Networks  
+- Area Networks  
+- Sub‑Sites (these are separate entities)
 
 This schema:
-- Establishes the 25‑field Site record structure  
+- Establishes the authoritative Site record structure  
 - Defines field‑level rules  
 - Ensures consistency across all counties and data sources  
 - Provides the foundation for normalization, TSV output, discovery, and resolution  
@@ -25,33 +34,28 @@ This module is authoritative for Site structure.
 
 ---
 
-# 2. SITE FIELDS (25 FIELDS, AUTHORITATIVE ORDER)
+# 2. SITE FIELDS (20 FIELDS, AUTHORITATIVE ORDER)
 
-1. Name  
-2. Category  
-3. Subtype  
-4. Designation  
-5. Ownership  
-6. Management  
-7. Coordination  
-8. Description  
-9. Status  
-10. Address  
-11. Acres  
-12. Location  
-13. County  
-14. GPS Coordinates  
-15. Plus Code  
-16. Trail Role  
-17. Parent Trail Name  
-18. Trail Segment Type  
-19. Trail Access Type  
-20. Trail Length (Miles)  
-21. Features  
-22. Notes  
-23. URL  
-24. Derived Label  
-25. Parent Site  
+1. **Name**  
+2. **Category**  
+3. **Subtype**  
+4. **Designation**  
+5. **Ownership**  
+6. **Management**  
+7. **Coordination**  
+8. **Description**  
+9. **Status**  
+10. **Address**  
+11. **Acres**  
+12. **Location**  
+13. **County**  
+14. **GPS Coordinates**  
+15. **Plus Code**  
+16. **Features**  
+17. **Notes**  
+18. **URL**  
+19. **Derived Label** (computed, not stored)  
+20. **Parent Site**  
 
 This order is absolute and must never change.
 
@@ -63,14 +67,14 @@ This order is absolute and must never change.
 
 ## 3.1 Name
 - Use the official published name when available.  
-- Do not include descriptive or unofficial names (those belong in Notes).  
 - Must be unique within the dataset.  
+- Do not include descriptive or unofficial names (those belong in Notes).  
 
 ---
 
 ## 3.2 Category
-- Must match a value from the **Site Vocabulary Module v1**.  
-- Must express the ontological identity of the site.  
+- Must match a value from the **Site Vocabulary Module v2**.  
+- Must express the ontological identity of the Site.  
 - Must not encode governance, ownership, or temporary conditions.  
 - Category determines whether Subtype is allowed.  
 
@@ -78,14 +82,14 @@ This order is absolute and must never change.
 
 ## 3.3 Subtype
 - Optional.  
-- If present, must match the Category‑dependent lists in the **Site Vocabulary Module v1**.  
+- If present, must match the Category‑dependent lists in the **Site Vocabulary Module v2**.  
 - Must represent a stable, identity‑bearing land unit.  
 - Must not describe habitat conditions or temporary states.  
 
 ---
 
 ## 3.4 Designation
-- Must match a value from the **Site Vocabulary Module v1**.  
+- Must match a value from the **Site Vocabulary Module v2**.  
 - Use only when explicitly stated in authoritative sources.  
 - Do not infer designation.  
 - Do not combine multiple designations unless explicitly documented.  
@@ -114,14 +118,14 @@ This order is absolute and must never change.
 
 ## 3.8 Description
 - 1–3 sentences.  
-- Must describe identity‑defining ecological or historical characteristics.  
+- Must describe identity‑defining ecological, historical, or cultural characteristics.  
 - May include naming history and former names.  
 - Must not include amenities or temporary conditions.  
 
 ---
 
 ## 3.9 Status
-- Must match a value from the **Site Vocabulary Module v1**.  
+- Must match a value from the **Site Vocabulary Module v2**.  
 - “Closed” = permanently closed as the entity described.  
 - “Proposed” must be officially referenced.  
 
@@ -148,7 +152,7 @@ This order is absolute and must never change.
 ---
 
 ## 3.13 County
-- List all counties the site spans.  
+- List all counties the Site spans.  
 - Alphabetical.  
 - Semicolon‑delimited.  
 - Do not include the word “County.”  
@@ -169,53 +173,16 @@ This order is absolute and must never change.
 
 ---
 
-## 3.16 Trail Role
-- Must match a value from the **Site Vocabulary Module v1**.  
-- Must reflect the site’s relationship to a trail network.  
-- Use “None” when the site has no trail identity.  
-
----
-
-## 3.17 Parent Trail Name
-- Required for segments and spurs.  
-- Blank otherwise.  
-- Must match the official name of the parent trail.  
-
----
-
-## 3.18 Trail Segment Type
-- Must match a value from the **Site Vocabulary Module v1**.  
-- Use only when Trail Role = Trail Segment.  
-- Use “None” when not applicable.  
-
----
-
-## 3.19 Trail Access Type
-- Must match a value from the **Site Vocabulary Module v1**.  
-- Use only when the site functions as a trail access location.  
-- Use “None” when not applicable.  
-
----
-
-## 3.20 Trail Length (Miles)
-- Numeric only.  
-- Blank for non‑trail sites.  
-- No estimates.  
-- No units.  
-
----
-
-## 3.21 Features
+## 3.16 Features
 - Semicolon‑delimited list.  
-- Must match values from the **Site Vocabulary Module v1**.  
+- Must match values from the **Site Vocabulary Module v2**.  
 - Features describe internal components, not identity‑bearing land units.  
-- Named trails are never Features.  
-- Unnamed trails use the trail‑related Feature terms.  
+- Named Trails, Trail Segments, and Access Points are **never** Features.  
 - Minor connectors belong in Notes, not Features.  
 
 ---
 
-## 3.22 Notes
+## 3.17 Notes
 - Optional free‑text field.  
 - Must not include identity‑defining ecology.  
 - Must not include internal features.  
@@ -223,36 +190,49 @@ This order is absolute and must never change.
 
 ---
 
-## 3.23 URL
+## 3.18 URL
 - Full `https://` URLs only.  
 - Semicolon‑delimit if multiple.  
 - Must be authoritative.  
 
 ---
 
-## 3.24 Derived Label
+## 3.19 Derived Label
 - Computed, not stored.  
 - Formula: **Category + Ownership + Designation**  
 - Must follow the Derived Label rules in the Normalization Contract.  
 
 ---
 
-## 3.25 Parent Site
-- Leave blank for top‑level sites.  
-- Must match the official Name of the parent site.  
-- A site may have only one parent.  
+## 3.20 Parent Site
+- Leave blank for top‑level Sites.  
+- Must match the official Name of the parent Site.  
+- A Site may have only one parent.  
 - Parent–child relationships must be explicit in authoritative sources.  
+- Must not be used to represent Trails, Trail Segments, or Access Points.  
 
 ---
 
-# 4. MODULE DEPENDENCIES
+# 4. IDENTITY RULES
+A Site is valid only if:
+- It is an identity‑bearing land unit.  
+- It is documented in authoritative sources.  
+- It is not a Trail, Trail Segment, Access Point, Trail Network, or Site Network.  
+- It is not merely a feature or amenity.  
+- It is not a Sub‑Site unless Parent Site is populated.  
+
+If any of these conditions fail, the Site must not be created.
+
+---
+
+# 5. MODULE DEPENDENCIES
 This module depends on:
 
-- **Site Vocabulary Module v1**  
-  (for Category, Subtype, Designation, Status, Trail Role, Trail Segment Type, Trail Access Type, Features)
+- **Site Vocabulary Module v2**  
+  (for Category, Subtype, Designation, Status, Features)
 
 All other modules (Normalization, TSV Output, Discovery, Resolution, Orchestration) must reference this schema.
 
 ---
 
-# END OF SITE SCHEMA MODULE v1
+# END OF SITE SCHEMA MODULE v2.0
