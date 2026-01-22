@@ -1,31 +1,48 @@
-# NATURAL AREAS PROJECT — TRAIL SCHEMA MODULE v1
-Authoritative, versioned schema for Trails in the statewide Natural Areas & Trails system.
+# NATURAL AREAS PROJECT — TRAIL SCHEMA MODULE v3.2.2
+Authoritative, versioned schema for **Trails** in the statewide  
+Natural Areas & Trails system.
 
 This module defines:
-- The Trail entity type
-- The Trail fields and authoritative field order
-- Field‑level rules
-- Dependencies on the Trail Vocabulary Module v1
+- The Trail entity type  
+- The 18 normalized Trail fields (authoritative order)  
+- Field‑level rules  
+- Identity rules  
+- Dependencies on the Trail Vocabulary Module v3.2  
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the Trail Vocabulary Module v1.
+All vocabularies are defined in the **Trail Vocabulary Module v3.2.2**.
 
----
-
+------------------------------------------------------------
 # 1. PURPOSE
-The Trail Schema defines the authoritative structure for representing identity‑bearing linear corridors such as multi‑use trails, hiking trails, bridle trails, water trails, and purpose‑built recreational routes.
+
+A **Trail** is a named, identity‑bearing linear corridor documented in  
+authoritative sources. Examples include:
+
+- Multi‑use trails  
+- Hiking trails  
+- Bridle trails  
+- Water trails  
+- Mountain bike trails  
+- Purpose‑built recreational routes  
+
+A Trail is distinct from:
+
+- Trail Segments  
+- Sites  
+- Access Points  
+- Trail Networks  
+- Site Networks  
 
 This schema:
-- Establishes the Trail record structure  
+- Establishes the authoritative Trail record structure  
 - Defines field‑level rules  
 - Ensures consistency across all counties and data sources  
-- Provides the foundation for Trail normalization, discovery, resolution, and TSV output  
+- Supports discovery, normalization, resolution, and TSV output  
 
-This module is authoritative for Trail structure.
+This module is authoritative for **Trail structure**.
 
----
-
-# 2. TRAIL FIELDS (AUTHORITATIVE ORDER)
+------------------------------------------------------------
+# 2. TRAIL FIELDS (18 FIELDS, AUTHORITATIVE ORDER)
 
 1. **Trail Name**  
 2. **Alternate Names**  
@@ -34,62 +51,47 @@ This module is authoritative for Trail structure.
 5. **Trail Origin Type**  
 6. **Total Length (Miles)**  
 7. **Counties Traversed**  
-8. **Managing Agency (Primary)**  
-9. **Managing Agencies (Secondary)**  
+8. **Primary Managing Agency**  
+9. **Secondary Managing Agencies**  
 10. **Status**  
 11. **Description**  
 12. **Trail History**  
 13. **URL**  
-14. **Map Link**  
-15. **Geometry Type**  
-16. **Notes**  
-17. **Source Confidence**  
-18. **Verification Status**  
-19. **Field Confidence Map**  
-20. **Field Verification Map**
+14. **Map URL**  
+15. **Notes**  
+16. **Network Affiliation**  
+17. **Derived Label** *(computed, not stored)*  
+18. **Parent Trail Network** *(optional)*  
 
 This order is absolute and must never change.
 
----
-
+------------------------------------------------------------
 # 3. FIELD‑BY‑FIELD RULES
-
----
 
 ## 3.1 Trail Name
 - Use the official published name.  
 - Must be unique statewide.  
 - Do not include unofficial descriptors (those belong in Notes).  
 
----
-
 ## 3.2 Alternate Names
 - Optional.  
-- Comma‑separated or JSON array.  
+- Semicolon‑delimited list.  
 - Include only documented historical or variant names.  
 
----
-
 ## 3.3 Trail Use Type
-- Must match a value from the **Trail Vocabulary Module v1**.  
+- Must match a value from the Trail Vocabulary Module v3.2.2.  
 - Describes the primary intended use (e.g., Multi‑Use, Hiking, Bridle, Water, MTB).  
 - Must not encode surface or origin.  
 
----
-
 ## 3.4 Trail Surface Type
-- Must match a value from the **Trail Vocabulary Module v1**.  
+- Must match a value from the Vocabulary Module.  
 - Describes the predominant surface type.  
 - Use “Mixed” only when explicitly documented.  
 
----
-
 ## 3.5 Trail Origin Type
-- Must match a value from the **Trail Vocabulary Module v1**.  
+- Must match a value from the Vocabulary Module.  
 - Describes the historical or structural origin (e.g., Rail Trail, Canal Towpath, Purpose‑Built).  
 - Must not be inferred.  
-
----
 
 ## 3.6 Total Length (Miles)
 - Numeric only.  
@@ -97,105 +99,78 @@ This order is absolute and must never change.
 - No estimates.  
 - Represents the full length of the Trail, not individual segments.  
 
----
-
 ## 3.7 Counties Traversed
 - Semicolon‑delimited list.  
 - Alphabetical order.  
 - Must include all counties through which the Trail passes.  
+- Must include all counties traversed by the Trail, even if the Trail only clips a corner or crosses a boundary briefly.  
 - Must not include the word “County.”  
 
----
-
-## 3.8 Managing Agency (Primary)
+## 3.8 Primary Managing Agency
 - The primary agency responsible for the Trail.  
 - Must be an authoritative agency name.  
 - Do not infer.  
 
----
-
-## 3.9 Managing Agencies (Secondary)
+## 3.9 Secondary Managing Agencies
 - Optional.  
-- Semicolon‑delimited or JSON array.  
+- Semicolon‑delimited list.  
 - Include only documented co‑managers.  
 
----
-
 ## 3.10 Status
-- Must match a value from the **Trail Vocabulary Module v1**.  
+- Must match a value from the Vocabulary Module.  
 - Examples: Active, Planned, Under Construction, Gap, Closed.  
 - “Gap” refers to a missing or incomplete portion of an otherwise continuous trail.  
-
----
 
 ## 3.11 Description
 - 1–3 sentences.  
 - Must describe identity‑defining characteristics of the Trail.  
 - Must not include segment‑level details.  
 
----
-
 ## 3.12 Trail History
-- Dedicated field for historical context.  
+- Optional.  
 - May include origin, construction history, or major changes.  
 - Must be factual and sourced.  
-
----
 
 ## 3.13 URL
 - Full `https://` URLs only.  
 - Semicolon‑delimit if multiple.  
 - Must reference authoritative sources.  
 
----
+## 3.14 Map URL
+- Full `https://` URL to an authoritative map or GIS viewer.  
+- May include PDF maps, static images, or interactive GIS layers.  
+- Semicolon‑delimit if multiple.  
+- Leave blank if none.  
 
-## 3.14 Map Link
-- Optional.  
-- Must be an authoritative map or GIS viewer link.  
-
----
-
-## 3.15 Geometry Type
-- Usually “Linear.”  
-- Must match a value from the **Trail Vocabulary Module v1** if applicable.  
-- Must not be inferred.  
-
----
-
-## 3.16 Notes
+## 3.15 Notes
 - Optional free‑text field.  
 - Must not include identity‑defining characteristics.  
 - Use for clarifications, temporary conditions, or contextual notes.  
 
----
+## 3.16 Network Affiliation
+- Optional.  
+- Semicolon‑delimited list.  
+- Represents formal, documented affiliations with Trail Networks or regional systems.  
+- Must not encode hierarchy or ownership.  
+- Must not duplicate the Parent Trail Network field.  
+- Use only for non‑hierarchical affiliations.  
 
-## 3.17 Source Confidence
-- High / Medium / Low.  
-- Represents overall confidence in the Trail record.  
+## 3.17 Derived Label
+- Computed, not stored.  
+- Formula:  
+  Trail Use Type + " — " + Primary Managing Agency + " — " + Status 
+- Must follow Derived Label rules in the Normalization Contract v3.2.2.  
 
----
+## 3.18 Parent Trail Network
+- Optional.  
+- Must match the exact **Trail Network Name**.  
+- Used only when the Trail is a documented member of a Trail Network.  
+- Must not be used to represent Trail Segments.  
+- A Trail may have at most one Parent Trail Network.  
 
-## 3.18 Verification Status
-- Verified / Needs Review / Removed.  
-- Represents the current verification state of the Trail record.  
-
----
-
-## 3.19 Field Confidence Map
-- JSON object.  
-- Per‑field confidence values.  
-- Must follow the structure defined in the Normalization Contract.  
-
----
-
-## 3.20 Field Verification Map
-- JSON object.  
-- Per‑field verification values.  
-- Must follow the structure defined in the Normalization Contract.  
-
----
-
+------------------------------------------------------------
 # 4. IDENTITY RULES
+
 A Trail is valid only if:
 - It is an identity‑bearing linear corridor.  
 - It is documented in authoritative sources.  
@@ -204,16 +179,22 @@ A Trail is valid only if:
 
 If any of these conditions fail, the Trail must not be created.
 
----
-
+------------------------------------------------------------
 # 5. MODULE DEPENDENCIES
+
 This module depends on:
 
-- **Trail Vocabulary Module v1**  
-  (for Trail Use Type, Trail Surface Type, Trail Origin Type, Status, Geometry Type)
+- **Trail Vocabulary Module v3.2.2**  
+  (Trail Use Type, Trail Surface Type, Trail Origin Type, Status)  
+- **Trail Segment Schema Module v3.2.2**  
+- **Trail Segment Vocabulary Module v3.2.2**  
+- **Trail Network Schema Module v3.2.2**  
+- **Normalization Contract v3.2.2**  
+- **TSV Output Specification v3.2.2**  
+- **Resolution Module v3.2.2**  
+- **Discovery Protocol Module v3.2.2**  
 
-All other modules (Normalization, TSV Output, Discovery, Resolution, Orchestration) must reference this schema.
+All other modules must reference this schema.
 
----
-
-# END OF TRAIL SCHEMA MODULE v1
+------------------------------------------------------------
+# END OF TRAIL SCHEMA MODULE v3.2.2

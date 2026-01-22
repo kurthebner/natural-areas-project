@@ -1,10 +1,10 @@
-# NATURAL AREAS PROJECT — RESOLUTION MODULE v3.1
+# NATURAL AREAS PROJECT — RESOLUTION MODULE v3.2.2
 A deterministic, system‑wide decision framework for resolving ambiguous,
-borderline, or multi‑identity cases across **all seven entity types** during
+borderline, or multi‑identity cases across **all six entity types** during
 discovery, resolution, normalization, and TSV preparation.
 
-This module contains no controlled vocabularies.
-All vocabularies are defined in the respective Vocabulary Modules v3.1.
+This module contains no controlled vocabularies.  
+All vocabularies are defined in the respective Vocabulary Modules v3.2.2.
 
 This module overrides ambiguity in all other modules.
 
@@ -14,21 +14,21 @@ This module overrides ambiguity in all other modules.
 The Resolution Module defines how Copilot resolves all ambiguous or borderline
 cases that arise during:
 
-- Discovery (what counts as each entity type)
-- Entity‑type determination (Site vs. Sub‑Site vs. Access Point vs. Trail, etc.)
-- Classification (Category, Subtype, Designation, Trail Role, Segment Type, Access Type)
-- Normalization (all fields across all seven entities)
-- Parent/child assignment
-- Multi‑county interpretation
-- Network membership interpretation
+- Discovery (what counts as each entity type)  
+- Entity‑type determination (Site vs. Access Point vs. Trail, etc.)  
+- Classification across all six entities (including Site categories, Trail and Segment types, and Access Point roles)  
+- Normalization (all fields across all six entities)  
+- Parent Site assignment (child Sites)  
+- Multi‑county interpretation  
+- Network membership interpretation  
 
 This module ensures:
 
-- Zero improvisation
-- Zero silent assumptions
-- Deterministic, repeatable decisions
-- Full alignment with Schema Modules, Vocabulary Modules, Discovery Protocol,
-  Normalization Contracts, and TSV Output Specifications
+- Zero improvisation  
+- Zero silent assumptions  
+- Deterministic, repeatable decisions  
+- Full alignment with Schema Modules, Vocabulary Modules, Discovery Protocol,  
+  Normalization Contracts, and TSV Output Specifications  
 
 ------------------------------------------------------------
 # 2. GENERAL PRINCIPLES (APPLIES TO ALL ENTITIES)
@@ -41,11 +41,11 @@ amenities, activities, or marketing language.
 Ownership or management never determines Category or entity type.
 
 ## 2.3 Ecology Belongs in Description
-Ecological character never determines Category or entity type.
+Ecological character never determines Category or entity type.  
 Ecology informs **Description**, not identity.
 
 ## 2.4 Features Are Not Entities
-Amenities never determine entity type.
+Amenities never determine entity type.  
 If something is an amenity, it belongs in **Features**, not as an entity.
 
 ## 2.5 When in Doubt, Choose the More General Identity
@@ -53,17 +53,16 @@ If an object could be two things, choose the broader identity unless a formal
 designation dictates otherwise.
 
 ## 2.6 Never Infer Governance
-Ownership, Management, and Designation must never be inferred.
+Ownership, Management, and Designation must never be inferred.  
 Ambiguity triggers a flag, not a guess.
 
 ## 2.7 Identity‑Bearing Units May Be Split
 Large parks, forests, preserves, and trail systems may contain internal
-identity‑bearing units. These become separate entities when they meet the
-Internal Parcel Rule or Trail Segment Identity Rule.
+identity‑bearing units.  
+These become **child Sites** when they meet the Internal Parcel Rule.
 
 ## 2.8 Access Points Are Never Sites
-Trailheads, boat ramps, parking areas, and entrances are **Access Points**, not
-Sites.
+Trailheads, boat ramps, parking areas, and entrances are **Access Points**, not Sites.
 
 ## 2.9 Trails Are Not Sites
 Named trails are **Trails**, not Sites.
@@ -72,7 +71,7 @@ Named trails are **Trails**, not Sites.
 Segments are identity‑bearing subdivisions of Trails.
 
 ## 2.11 Trail Segments Are Never Features
-If something qualifies as a Trail Segment, it is always an entity.
+If something qualifies as a Trail Segment, it is always an entity.  
 Non‑identity‑bearing path fragments are **geometry**, not Features.
 
 ## 2.12 Networks Are Not Trails or Sites
@@ -86,23 +85,25 @@ These rules determine what entity type a baseline or discovered object becomes.
 ## 3.1 Site
 A Site is a **named, bounded, physical land unit** with its own identity.
 
-## 3.2 Sub‑Site
-A Sub‑Site is a named, bounded, identity‑bearing unit **within a Site**.
+## 3.2 Child Site (formerly Sub‑Site)
+A child Site is a named, bounded, identity‑bearing unit **within a parent Site**  
+that meets the criteria in the **Child Site Rules Module v3.2.2**.  
+It is represented as a **Site with a Parent Site value**, not a separate entity type.
 
 ## 3.3 Access Point
-An Access Point is a **location of entry** to a Site or Trail.
+A location of entry to a Site or Trail.
 
 ## 3.4 Trail
-A Trail is a **named, linear, identity‑bearing route**.
+A **named, linear, identity‑bearing route**.
 
 ## 3.5 Trail Segment
-A Trail Segment is a **named or identity‑bearing subdivision** of a Trail.
+A **named or identity‑bearing subdivision** of a Trail.
 
 ## 3.6 Trail Network
-A Trail Network is a **collection of Trails** with a shared identity.
+A **collection of Trails** with a shared identity.
 
 ## 3.7 Site Network
-A Site Network is a **collection of Sites** with a shared identity.
+A **collection of Sites** with a shared identity.
 
 ------------------------------------------------------------
 # 4. CATEGORY‑LEVEL EDGE CASES (SITES)
@@ -114,11 +115,11 @@ A Site Network is a **collection of Sites** with a shared identity.
 - Feature
 
 ## 4.3 Paved Path / Multi‑Use Path
-- Trail if named and identity‑bearing
+- Trail if named and identity‑bearing  
 - Otherwise geometry
 
 ## 4.4 Linear Park
-- Category: Park
+- Category: Park  
 - Subtype: Linear Park
 
 ## 4.5 Greenway
@@ -134,22 +135,22 @@ A Site Network is a **collection of Sites** with a shared identity.
 - Category: Water Site or Reservoir
 
 ## 4.9 Cemetery with Natural Area
-- Category: Cemetery
+- Category: Cemetery  
 - Ecological identity → Description
 
 ## 4.10 Mitigation Bank
 - Category: Conservation Area
 
 ## 4.11 Unnamed Natural Area in GIS
-- Category: Natural Area
+- Category: Natural Area  
 - Name: best available GIS label
 
 ## 4.12 Internal Natural Areas within Parks
-- Category: Natural Area
+- Category: Natural Area  
 - Parent Site assigned
 
 ## 4.13 Campgrounds
-- Category: Camp
+- Category: Camp  
 - Only if natural‑area identity present
 
 ## 4.14 Water Access Sites
@@ -165,11 +166,11 @@ A Site Network is a **collection of Sites** with a shared identity.
 - Only if tied to a bikeway system
 
 ## 5.3 Connector Trail vs. Spur
-- Connector = links systems
+- Connector = links systems  
 - Spur = dead‑end
 
 ## 5.4 Loop Trails
-- Trail
+- Trail  
 - Segment Type: Loop
 
 ## 5.5 Internal Trail Segments
@@ -218,34 +219,36 @@ A Site Network is a **collection of Sites** with a shared identity.
 - Access Point only if documented
 
 ------------------------------------------------------------
-# 8. INTERNAL PARCEL RULE (SITES + SUB‑SITES)
+# 8. INTERNAL PARCEL RULE (SITES + CHILD SITES)
 
-A Site or Sub‑Site must be:
+A Site or child Site must be:
 
-- Named
-- Physical
-- Bounded
-- Identity‑bearing
-- Stable
+- Named  
+- Physical  
+- Bounded  
+- Identity‑bearing  
+- Stable  
 
 If not, it is a Feature.
 
+Child Site determination must follow the **Child Site Rules Module v3.2.2**.
+
 ------------------------------------------------------------
-# 9. TRAIL SEGMENT IDENTITY RULE (CORRECTED)
+# 9. TRAIL SEGMENT IDENTITY RULE
 
 A Trail Segment must be:
 
-- Named OR
-- Identity‑bearing OR
-- A formally defined segment OR
-- A loop, spur, connector, or internal segment with operational meaning
+- Named OR  
+- Identity‑bearing OR  
+- A formally defined segment OR  
+- A loop, spur, connector, or internal segment with operational meaning  
 
 If a path fragment is:
 
-- Unnamed
-- Not identity‑bearing
-- Not operationally meaningful
-- Not recognized by the managing agency
+- Unnamed  
+- Not identity‑bearing  
+- Not operationally meaningful  
+- Not recognized by the managing agency  
 
 …it is **geometry**, not a Trail Segment and not a Feature.
 
@@ -253,14 +256,14 @@ If a path fragment is:
 # 10. NETWORK RESOLUTION RULES
 
 ## 10.1 Trail Networks
-- Must be documented as a network
-- Must contain Trails
-- Must not be inferred
+- Must be documented as a network  
+- Must contain Trails  
+- Must not be inferred  
 
 ## 10.2 Site Networks
-- Must be documented as a network
-- Must contain Sites
-- Must not be inferred
+- Must be documented as a network  
+- Must contain Sites  
+- Must not be inferred  
 
 ------------------------------------------------------------
 # 11. CONFLICT RESOLUTION OVERRIDES
@@ -280,18 +283,53 @@ Ecology informs Description only.
 ## 11.5 Entity‑Type Conflicts
 Resolution determines final entity type.
 
+## 11.6 Parent Site Conflicts
+Resolution applies the **Child Site Rules Module v3.2.2** to determine whether a
+Parent Site relationship is valid.
+
+## 11.7 Multi‑County Conflicts (Universal Rule)
+
+For all six entity types (Site, Child Site, Access Point, Trail, Trail Segment,
+Trail Network, Site Network):
+
+- Each entity must be represented as **one record**, regardless of the number of
+  counties it spans.
+- The County field must contain **all applicable counties**, formatted as a
+  **semicolon‑delimited, alphabetized list**.
+- No entity may be duplicated or segmented based on county boundaries.
+- Boundary metadata must be preserved in Discovery Metadata but does not trigger
+  record duplication.
+- If authoritative sources disagree on county boundaries, the Resolution Module
+  determines the final county list.
+- No inference is permitted; only documented county assignments may be used.
+
+## 11.8 Parent–Child Identity Conflicts
+
+A child Site may not override or redefine the identity of its parent Site.
+
+If an internal unit appears to have equal or greater identity than the parent, Resolution determines whether:
+- the internal unit is actually the true Site, and
+- the former parent becomes a child Site or a Feature.  
+Identity precedence is determined by authoritative naming, not size or prominence.
+
+## 11.9 Developer Preview TSVs
+- TSV previews generated during Discovery are non‑authoritative.  
+- Resolution must rely only on Raw Candidate Records and Discovery Metadata, not preview TSVs.  
+- Preview TSVs must not influence entity‑type determination or conflict resolution.
+
 ------------------------------------------------------------
 # 12. MODULE DEPENDENCIES
 
 This module depends on:
 
-- All seven Schema Modules v3.1
-- All seven Vocabulary Modules v3.1
-- All seven Normalization Contracts v3.1
-- Discovery Protocol Module v3.1
-- County Baseline Module v3.1
-- Processing / Orchestration Module v3.1
-- Audit & Logging Module v3.1
+- All six Schema Modules v3.2.2  
+- All six Vocabulary Modules v3.2.2  
+- All six Normalization Contracts v3.2.2  
+- Discovery Protocol Module v3.2.2  
+- County Baseline Module v3.2.2  
+- Processing / Orchestration Module v3.2.2  
+- **Child Site Rules Module v3.2.2**  
+- Audit & Logging Module v3.2.2  
 
 ------------------------------------------------------------
-# END OF RESOLUTION MODULE v3.1
+# END OF RESOLUTION MODULE v3.2.2

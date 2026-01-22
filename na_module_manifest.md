@@ -1,6 +1,6 @@
-# NATURAL AREAS PROJECT — MODULE MANIFEST v3.1
+# NATURAL AREAS PROJECT — MODULE MANIFEST v3.2.2
 Authoritative manifest of all modules in the statewide Natural Areas & Trails
-System, aligned to the seven‑entity ontology and the v3.1 discovery,
+System, aligned to the six‑entity ontology and the v3.2.2 discovery,
 normalization, and orchestration architecture.
 
 This manifest defines:
@@ -35,30 +35,30 @@ Mapped directly to the actual repository structure.
 # 2.1 Schema Modules (Entity Definitions)
 
 `schema/na_site_schema.md`  
-`schema/na_sub-site_schema.md`  
+`schema/na_access_point_schema.md`  
 `schema/na_trail_schema.md`  
 `schema/na_trail_segment_schema.md`  
 `schema/na_trail_network_schema.md`  
 `schema/na_site_network_schema.md`  
-`schema/na_access_point_schema.md`  
-`schema/na_access_point_association.md`
+`schema/na_child_site_rules.md`  
+`schema/na_discovery_architecture.md`
+
+*(Note: Sub‑Sites and Access Point Association modules are deprecated and removed.)*
 
 ------------------------------------------------------------
 # 2.2 Vocabulary Modules
 
 `vocabularies/na_site_vocabulary.md`  
-`vocabularies/na_sub-site_vocabulary.md`  
+`vocabularies/na_access_point_vocabulary.md`  
 `vocabularies/na_trail_vocabulary.md`  
 `vocabularies/na_trail_segment_vocabulary.md`  
 `vocabularies/na_trail_network_vocabulary.md`  
-`vocabularies/na_site_network_vocabulary.md`  
-`vocabularies/na_access_point_vocabulary.md`
+`vocabularies/na_site_network_vocabulary.md`
 
 ------------------------------------------------------------
 # 2.3 Normalization Modules
 
 `normalization/na_site_normalization.md`  
-`normalization/na_sub-site_normalization.md`  
 `normalization/na_access_point_normalization.md`  
 `normalization/na_trail_normalization.md`  
 `normalization/na_trail_segment_normalization.md`  
@@ -80,24 +80,24 @@ Mapped directly to the actual repository structure.
 `workflow/na_township_discovery_subproc.md`  
 `workflow/na_state_discovery_subproc.md`  
 `workflow/na_fed_tribal_discovery_subproc.md`  
-`workflow/na_park_district_discovery_subproc.md`  
+`workflow/na_district_discovery_subproc.md`  
 `workflow/na_private_discovery_subproc.md`  
 `workflow/na_conservancy_discovery_subproc.md`
 
 ## Entity‑Specific Discovery Sub‑Procedures
 `workflow/na_site_discovery_subproc.md`  
-`workflow/na_sub-site_discovery_subproc.md`  
 `workflow/na_trail_discovery_subproc.md`  
 `workflow/na_trail_segment_discovery_subproc.md`  
 `workflow/na_trail_network_discovery_subproc.md`  
 `workflow/na_site_network_discovery_subproc.md`  
 `workflow/na_access_point_discovery_subproc.md`
 
+*(Note: Sub‑Site discovery is removed.)*
+
 ------------------------------------------------------------
 # 2.5 Output Modules
 
 `output/na_site_tsv_specs.md`  
-`output/na_sub-site_tsv_specs.md`  
 `output/na_access_point_tsv_specs.md`  
 `output/na_trail_tsv_specs.md`  
 `output/na_trail_segment_tsv_specs.md`  
@@ -188,26 +188,24 @@ natural-areas-project/
 │  
 ├── schema/  
 │   ├── na_site_schema.md  
-│   ├── na_sub-site_schema.md  
+│   ├── na_access_point_schema.md  
 │   ├── na_trail_schema.md  
 │   ├── na_trail_segment_schema.md  
 │   ├── na_trail_network_schema.md  
 │   ├── na_site_network_schema.md  
-│   ├── na_access_point_schema.md  
-│   └── na_access_point_association.md  
+│   ├── na_child_site_rules.md  
+│   └── na_discovery_architecture.md  
 │  
 ├── vocabularies/  
 │   ├── na_site_vocabulary.md  
-│   ├── na_sub-site_vocabulary.md  
+│   ├── na_access_point_vocabulary.md  
 │   ├── na_trail_vocabulary.md  
 │   ├── na_trail_segment_vocabulary.md  
 │   ├── na_trail_network_vocabulary.md  
-│   ├── na_site_network_vocabulary.md  
-│   └── na_access_point_vocabulary.md  
+│   └── na_site_network_vocabulary.md  
 │  
 ├── normalization/  
 │   ├── na_site_normalization.md  
-│   ├── na_sub-site_normalization.md  
 │   ├── na_access_point_normalization.md  
 │   ├── na_trail_normalization.md  
 │   ├── na_trail_segment_normalization.md  
@@ -228,11 +226,10 @@ natural-areas-project/
 │   ├── na_township_discovery_subproc.md  
 │   ├── na_state_discovery_subproc.md  
 │   ├── na_fed_tribal_discovery_subproc.md  
-│   ├── na_park_district_discovery_subproc.md  
+│   ├── na_district_discovery_subproc.md  
 │   ├── na_private_discovery_subproc.md  
 │   ├── na_conservancy_discovery_subproc.md  
 │   ├── na_site_discovery_subproc.md  
-│   ├── na_sub-site_discovery_subproc.md  
 │   ├── na_trail_discovery_subproc.md  
 │   ├── na_trail_segment_discovery_subproc.md  
 │   ├── na_trail_network_discovery_subproc.md  
@@ -241,7 +238,6 @@ natural-areas-project/
 │  
 ├── output/  
 │   ├── na_site_tsv_specs.md  
-│   ├── na_sub-site_tsv_specs.md  
 │   ├── na_access_point_tsv_specs.md  
 │   ├── na_trail_tsv_specs.md  
 │   ├── na_trail_segment_tsv_specs.md  
@@ -269,7 +265,7 @@ natural-areas-project/
 # 6. MODULE STATUS
 
 All modules listed here are active, authoritative, and aligned with the
-seven‑entity ontology and the v3.1 discovery and orchestration architecture.
+six‑entity ontology and the v3.2.2 discovery and orchestration architecture.
 
 ------------------------------------------------------------
-# END OF MODULE MANIFEST v3.1
+# END OF MODULE MANIFEST v3.2.2

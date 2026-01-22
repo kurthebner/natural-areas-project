@@ -1,54 +1,56 @@
-# TOWNSHIP DISCOVERY SUB‑PROCEDURE v3.1
+# NATURAL AREAS PROJECT — TOWNSHIP LANDS DISCOVERY SUB‑PROCEDURE v3.2.2  
 (Ohio Townships, Township Websites, Township‑Hosted Pages, Township Recreation Assets)
 
-Tier 5 of the Discovery Protocol Module v3.1.
+Tier 5 of the **Discovery Protocol Module v3.2.2**.
 
-Townships in Ohio vary widely in capacity, web presence, and documentation. Some
-maintain full recreation pages; others have no website at all. Township parks may
-exist even when no recreation department exists, and many township parks are hidden
-on non‑indexed subpages.
+Townships in Ohio vary widely in capacity, web presence, and documentation.  
+Some maintain full recreation pages; others have no website at all. Township parks  
+may exist even when no recreation department exists, and many township parks are  
+hidden on non‑indexed subpages.
 
-This module defines the **detailed rules** for Tier 5 discovery across all seven
-entity types.
+This module defines the **authoritative, deterministic rules** for Tier 5 discovery  
+across all six entity types.
 
 ------------------------------------------------------------
 # 1. PURPOSE
+
 This sub‑procedure defines how the system must:
 
-- Identify township‑owned or township‑managed **Sites**
-- Identify township‑managed **Sub‑Sites**
-- Identify township‑managed **Trails** and **Trail Segments**
-- Identify township‑managed **Trail Networks** (rare)
-- Identify township‑managed **Site Networks** (rare)
-- Identify township‑managed **Access Points**
-- Identify township recreation assets even when no recreation department exists
-- Identify township pages hosted by the county
-- Surface uncertainty and conflicts
-- Produce Raw Candidate Records and Discovery Metadata
+- Identify township‑owned or township‑managed **Sites**  
+- Identify township‑managed **child Sites**  
+- Identify township‑managed **Trails** and **Trail Segments**  
+- Identify township‑managed **Trail Networks** (rare)  
+- Identify township‑managed **Site Networks** (rare)  
+- Identify township‑managed **Access Points**  
+- Identify township recreation assets even when no recreation department exists  
+- Identify township pages hosted by the county  
+- Surface uncertainty and conflicts  
+- Produce Raw Candidate Records and Discovery Metadata v3.2.2  
 
-This module is referenced **only** by the Discovery Protocol Module v3.1.
+This module is referenced **only** by the Discovery Protocol Module v3.2.2.
 
 ------------------------------------------------------------
 # 2. SCOPE
+
 This sub‑procedure applies to:
 
-- Township government websites
-- Township recreation pages (if any)
-- Township‑hosted or county‑hosted subpages
-- Township planning documents (rare)
-- Township GIS layers (rare)
-- Township meeting minutes (for land acquisitions)
-- Official township social media (conditional)
+- Township government websites  
+- Township recreation pages (if any)  
+- Township‑hosted or county‑hosted subpages  
+- Township planning documents (rare)  
+- Township GIS layers (rare)  
+- Township meeting minutes (for land acquisitions)  
+- Official township social media (conditional)  
 
 It governs discovery of:
 
-- **Sites**
-- **Sub‑Sites**
-- **Trails**
-- **Trail Segments**
-- **Trail Networks**
-- **Site Networks**
-- **Access Points**
+- **Sites**  
+- **Child Sites**  
+- **Trails**  
+- **Trail Segments**  
+- **Trail Networks**  
+- **Site Networks**  
+- **Access Points**  
 
 This tier sits **below County** and **above Municipal**.
 
@@ -57,250 +59,257 @@ This tier sits **below County** and **above Municipal**.
 
 ## 3.1 Township Website (If Exists)
 Check for:
-- Parks
-- Recreation
-- Facilities
-- Community
-- Open Space
-- Green Space
-- Playground
-- Shelter
-- Picnic Area
+- Parks  
+- Recreation  
+- Facilities  
+- Community  
+- Open Space / Green Space  
+- Playgrounds  
+- Shelters  
+- Picnic Areas  
 
-Township websites often have:
-- Hidden subpages
-- Non‑indexed pages
-- PDF‑only listings
-- Outdated or partial information
+Township websites often contain:
+- Hidden subpages  
+- Non‑indexed pages  
+- PDF‑only listings  
+- Outdated or partial information  
 
 All must be scanned.
 
 ## 3.2 County‑Hosted Township Pages
 If the county hosts township pages:
-- Treat them as authoritative
-- Scan for parks, preserves, trails, facilities
-- Log the county as the source
+- Treat them as authoritative  
+- Scan for parks, preserves, trails, facilities  
+- Log the county as the source  
 
 Discoveries remain **Tier 5** because the township is the governing entity.
 
 ## 3.3 Township Meeting Minutes
 Scan for:
-- Land purchases
-- Park dedications
-- Trail agreements
-- Conservation partnerships
-- Recreation facility improvements
+- Land purchases  
+- Park dedications  
+- Trail agreements  
+- Conservation partnerships  
+- Recreation facility improvements  
 
 ## 3.4 Township GIS (If Exists)
 Check for:
-- Township‑owned parcels
-- Recreation layers
+- Township‑owned parcels  
+- Recreation layers  
 
 ## 3.5 Township Social Media (Conditional)
-Township Facebook pages are **not authoritative** unless:
-- Explicitly designated as official by the township  
-- Linked from the township website  
+Township social media is **authoritative only if**:
+- Explicitly designated as official by the township, OR  
+- Linked from the township website, OR  
 - Linked from the county website  
 
-If designated official:
-- Scan for park announcements
-- Facility openings
-- Trail access information
+If official:
+- Scan for park announcements  
+- Facility openings  
+- Trail access information  
 
-If not designated official → **exclude**.
+If not official → **exclude**.
 
 ------------------------------------------------------------
-# 4. SITE DISCOVERY RULES
+# 4. TOWNSHIP LAND DISCOVERY CONDITIONS
 
-A township Site must be surfaced if:
+## 4.1 Township‑Owned vs Township‑Managed
+A Site may be:
+- Owned by the township  
+- Managed by the township  
+- Co‑managed with counties or park districts  
 
-### ✔ 4.1 It is owned or managed by the township  
-### ✔ 4.2 It appears on the township website  
-### ✔ 4.3 It appears on a county‑hosted township page  
-### ✔ 4.4 It appears in township meeting minutes  
-### ✔ 4.5 It is identity‑bearing (named, mapped, or designated)  
+All must be surfaced if identity‑bearing.
 
-### ❌ Exclude:
-- Township halls
-- Administrative buildings
-- Cemeteries (unless designated natural areas)
-- Maintenance yards
-
-### 4.6 Hidden or Non‑Indexed Pages
+## 4.2 Hidden or Non‑Indexed Pages
 Township parks may appear on:
-- Unlinked HTML pages
-- PDF brochures
-- Old or archived pages
+- Unlinked HTML pages  
+- PDF brochures  
+- Archived pages  
 
 These must be included if authoritative.
 
-------------------------------------------------------------
-# 5. SUB‑SITE DISCOVERY RULES
+## 4.3 Township Recreation Assets Without a Recreation Department
+Even if no recreation department exists:
+- Parks  
+- Trails  
+- Facilities  
+- Natural areas  
 
-A Sub‑Site must be surfaced when:
-- A named internal unit exists within a township Site
-- A recreation area, facility, or natural area is identity‑bearing
-- A playground, shelter area, or lake area is formally named
+must still be surfaced if identity‑bearing.
+
+## 4.4 County‑Hosted Township Pages
+These are authoritative for township discovery but remain **Tier 5**.
+
+------------------------------------------------------------
+# 5. TIER‑ANCHORED VERIFICATION (MANDATORY)
+
+## 5.1 Confirm Township Boundaries
+- Verify the feature lies within the township  
+- Record all counties in `counties_raw`  
+- Do NOT segment multi‑township or multi‑county features  
+
+## 5.2 Confirm Management Authority
+Record:
+- Township name  
+- Co‑managers (if any)  
+
+## 5.3 Confirm Access Points
+Identify:
+- Trailheads  
+- Parking areas  
+- Boat launches  
+- Fishing access  
+- Scenic overlooks  
+- Playgrounds  
+- Shelters  
+
+Access Points must be surfaced as **Access Point candidates** and passed to the  
+**Access Point Discovery Sub‑Procedure v3.2.2**.
+
+## 5.4 Naming
+Use the **township‑published name** as authoritative.  
+If multiple names appear → record all in metadata.
+
+------------------------------------------------------------
+# 6. DECISION RULES FOR ENTITY CREATION
+
+### 6.1 Site Creation
+A township feature becomes a **Site** if:
+- Township‑owned or township‑managed  
+- Identity‑bearing (named, mapped, or designated)  
+- Public access or recreation infrastructure exists  
+- It influences Access Point logic  
+
+Exclude:
+- Township halls  
+- Administrative buildings  
+- Cemeteries (unless designated natural areas)  
+- Maintenance yards  
+
+### 6.2 Child Site Creation
+Create a **child Site** when:
+- A named internal unit exists within a township Site  
+- A recreation area, facility, or natural area is identity‑bearing  
+- A playground, shelter area, or lake area is formally named  
 
 Do **not** surface:
-- Amenities without identity
-- Temporary zones
-- Unnamed management areas
+- Amenities without identity  
+- Temporary zones  
+- Unnamed management areas  
 
-------------------------------------------------------------
-# 6. TRAIL DISCOVERY RULES
-
+### 6.3 Trail Creation
 Surface a **Trail** when:
-- A named trail appears on township or county‑hosted pages
-- A named trail appears in meeting minutes
-- A named trail appears in township GIS (rare)
+- A named trail appears on township or county‑hosted pages  
+- A named trail appears in meeting minutes  
+- A named trail appears in township GIS (rare)  
 
-------------------------------------------------------------
-# 7. TRAIL SEGMENT DISCOVERY RULES
-
+### 6.4 Trail Segment Creation
 Surface **Trail Segments** when:
-- Segment‑level geometry exists in township or county GIS
-- Segment identifiers appear in maps or plans
+- Segment‑level geometry exists in township or county GIS  
+- Segment identifiers appear in maps or plans  
 
-------------------------------------------------------------
-# 8. TRAIL NETWORK DISCOVERY RULES
-
+### 6.5 Trail Network Creation
 Surface a **Trail Network** when:
-- A township‑managed multi‑trail system exists
-- A greenway corridor spans multiple Trails
+- A township‑managed multi‑trail system exists  
+- A greenway corridor spans multiple Trails  
 
 Rare but must be captured.
 
-------------------------------------------------------------
-# 9. SITE NETWORK DISCOVERY RULES
-
+### 6.6 Site Network Creation
 Surface a **Site Network** when:
-- A township‑managed multi‑site system exists
-- A conservation or greenway network is formally documented
+- A township‑managed multi‑site system exists  
+- A conservation or greenway network is formally documented  
 
 Very rare but must be captured.
 
-------------------------------------------------------------
-# 10. ACCESS POINT DISCOVERY RULES
+### 6.7 Access Point Creation
+Surface an **Access Point** when:
+- It appears on township pages  
+- It appears on county‑hosted township pages  
+- It appears in township meeting minutes  
+- It appears in township GIS (rare)  
 
-Township Access Points must be surfaced when:
-- They appear on township pages
-- They appear on county‑hosted township pages
-- They appear in township meeting minutes
-- They appear in township GIS (rare)
-
-Access Points must include:
-- Name or descriptive label
-- Access Point Type (raw)
-- Township
-- County
-- Parent entity (Site, Sub‑Site, Trail, Trail Segment)
-- Source(s)
-- Notes
-
-These are passed to the Access Point Discovery Sub‑Procedure v3.1.
+Access Points must include raw values only:
+- Name or descriptive label  
+- Access Point Type (raw)  
+- Township  
+- County list (raw)  
+- Parent entity (Site, child Site, Trail, Trail Segment)  
+- Source(s)  
+- Notes  
 
 ------------------------------------------------------------
-# 11. TOWNSHIP‑ANCHORED VERIFICATION (MANDATORY)
+# 7. TIER‑SPECIFIC EXPECTATIONS
 
-For each township entity:
+The Township Tier **must** surface:
+- All township‑owned or township‑managed Sites  
+- All identity‑bearing child Sites  
+- All township‑managed Trails  
+- All township‑managed Trail Segments  
+- All township‑managed Access Points  
+- All parks, preserves, and trails listed on county‑hosted township pages  
 
-## 11.1 Confirm Township Boundaries
-- Verify the feature lies within the township
-- Segment multi‑township features
-
-## 11.2 Confirm Management Authority
-Record:
-- Township name
-- Co‑managers (if any)
-
-## 11.3 Confirm Access Points
-Identify:
-- Trailheads
-- Parking areas
-- Boat launches
-- Fishing access
-- Scenic overlooks
-- Playgrounds
-- Shelters
-
-## 11.4 Naming Consistency
-Use the **township‑published name** as authoritative.
+The Township Tier **may** surface:
+- Township‑managed Trail Networks  
+- Township‑managed Site Networks  
+- Township‑managed easements  
+- Planned parks and trail corridors (if identity‑bearing)  
 
 ------------------------------------------------------------
-# 12. LOGGING REQUIREMENTS
+# 8. LOGGING REQUIREMENTS
 
-For each township entity, log:
-- Township
-- Entity name
-- Entity type (Site, Sub‑Site, Trail, Trail Segment, Trail Network, Site Network, Access Point)
-- Source dataset
-- URL or reference
-- Access type (if applicable)
-- Notes on co‑management
-- Discovery Tier: **5**
-- Uncertainty or conflicts
+Each discovered entity must include:
+- Full **Discovery Metadata v3.2.2**  
+- All raw source references  
+- All counties (raw)  
+- All conflicts and uncertainties  
+- All parent relationships (for child Sites and Access Points)  
+- All geometry (if available)  
 
-Each county must also produce:
-- Township Sites Found
-- Sub‑Sites Found
-- Trails Found
-- Trail Segments Found
-- Trail Networks Found
-- Site Networks Found
-- Access Points Found
-- Township Pages Used
-- Township Meeting Minutes Used
-- Sources Checked
-- Notes
+All values must be raw and unnormalized.
 
 ------------------------------------------------------------
-# 13. OUTPUT FORMAT
+# 9. OUTPUT REQUIREMENTS
 
-### 13.1 Township Entities
-Name:
-Type: Site / Sub‑Site / Trail / Trail Segment / Trail Network / Site Network
-Township:
-County:
-URL or Source:
-Notes:
-Discovery Tier: 5
+Each township entity must output a **Raw Candidate Record** conforming to:
+- **Discovery Output Specification v3.2.2**  
+- **Discovery Metadata Specification v3.2.2**  
+- The appropriate Schema Module v3.2.2  
+- The appropriate Vocabulary Module v3.2.2  
 
-### 13.2 Access Points
-Name:
-Type: Access Point
-Access Point Type (raw):
-Parent Entity:
-Township:
-County:
-Source:
-Notes:
-Discovery Tier: 5
+No normalized fields may appear in Tier 5 output.
 
 ------------------------------------------------------------
-# 14. INTEGRATION POINTS
+# 10. INTEGRATION POINTS
 
 This module integrates with:
-- Discovery Protocol Module v3.1
-- Site Discovery Sub‑Procedure v3.1
-- Sub‑Site Discovery Sub‑Procedure v1
-- Trail Discovery Sub‑Procedure v1
-- Trail Segment Discovery Sub‑Procedure v1
-- Trail Network Discovery Sub‑Procedure v1
-- Site Network Discovery Sub‑Procedure v1
-- Access Point Discovery Sub‑Procedure v3.1
-- Discovery Metadata Specification v1.0
-- Audit & Logging Module v1.1
-- County Baseline Module v1.1
-- Resolution Module v1
+- **Discovery Protocol Module v3.2.2**  
+- **Discovery Orchestration Module v3.2.2**  
+- **Site Discovery Sub‑Procedure v3.2.2**  
+- **Trail Discovery Sub‑Procedure v3.2.2**  
+- **Trail Segment Discovery Sub‑Procedure v3.2.2**  
+- **Trail Network Discovery Sub‑Procedure v3.2.2**  
+- **Site Network Discovery Sub‑Procedure v3.2.2**  
+- **Access Point Discovery Sub‑Procedure v3.2.2**  
+- **Child Site Rules Module v3.2.2**  
+- **Discovery Metadata Specification v3.2.2**  
+- **Discovery Output Specification v3.2.2**  
+- **Normalization Contracts v3.2.2**  
+- **Resolution Module v3.2.2**  
+- **TSV Output Specifications v3.2.2**  
+- **Audit & Logging Module v3.2.2**  
+- **County Baseline Module v3.2.2**  
 
 No other module may reference this sub‑procedure directly.
 
 ------------------------------------------------------------
-# 15. VERSIONING
-- This module is **Township Discovery Sub‑Procedure v3.1**.
-- Updates to township governance practices or statewide township directories may result in v3.2, v3.3, etc.
-- Any change to tier order or high‑level workflow must be made in the Discovery Protocol Module v3.1.
+# 11. VERSIONING
+
+- This module is **Township Lands Discovery Sub‑Procedure v3.2.2**.  
+- Updates to township governance practices or statewide township directories may result in v3.3, v3.4, etc.  
+- Any change to tier order or workflow must be made in the  
+  **Discovery Protocol Module v3.2.2**.
 
 ------------------------------------------------------------
-# END OF TOWNSHIP DISCOVERY SUB‑PROCEDURE v3.1
+# END OF TOWNSHIP LANDS DISCOVERY SUB‑PROCEDURE v3.2.2

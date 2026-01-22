@@ -1,32 +1,41 @@
-# NATURAL AREAS PROJECT — TRAIL SEGMENT SCHEMA MODULE v1
-Authoritative, versioned schema for Trail Segments in the statewide Natural Areas & Trails system.
+# NATURAL AREAS PROJECT — TRAIL SEGMENT SCHEMA MODULE v3.2.2
+Authoritative, versioned schema for **Trail Segments** in the statewide  
+Natural Areas & Trails system.
 
 This module defines:
 - The Trail Segment entity type  
-- The Trail Segment fields and authoritative field order  
+- The 14 normalized Trail Segment fields (authoritative order)  
 - Field‑level rules  
-- Dependencies on the Trail Segment Vocabulary Module v1  
+- Identity rules  
+- Dependencies on the Trail Segment Vocabulary Module v3.2  
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the Trail Segment Vocabulary Module v1.
+All vocabularies are defined in the **Trail Segment Vocabulary Module v3.2.2**.
 
----
-
+------------------------------------------------------------
 # 1. PURPOSE
-Trail Segments are operational portions of a Trail.  
-They represent continuous, mappable stretches of a Trail that may differ in surface, management, condition, or jurisdiction.
+
+A **Trail Segment** is a continuous, mappable operational portion of a Trail.  
+Segments represent stretches that differ in surface, management, jurisdiction,  
+condition, or operational characteristics.
+
+A Trail Segment is distinct from:
+- The parent Trail  
+- Sites  
+- Access Points  
+- Trail Networks  
+- Site Networks  
 
 This schema:
-- Establishes the Trail Segment record structure  
+- Establishes the authoritative Trail Segment record structure  
 - Defines field‑level rules  
 - Ensures consistency across all counties and data sources  
-- Provides the foundation for Trail Segment normalization, discovery, resolution, and TSV output  
+- Supports discovery, normalization, resolution, and TSV output  
 
-This module is authoritative for Trail Segment structure.
+This module is authoritative for **Trail Segment structure**.
 
----
-
-# 2. TRAIL SEGMENT FIELDS (AUTHORITATIVE ORDER)
+------------------------------------------------------------
+# 2. TRAIL SEGMENT FIELDS (14 FIELDS, AUTHORITATIVE ORDER)
 
 1. **Parent Trail**  
 2. **Segment Name**  
@@ -38,26 +47,21 @@ This module is authoritative for Trail Segment structure.
 8. **GPS Geometry**  
 9. **Description**  
 10. **Notes**  
-11. **Source Confidence**  
-12. **Verification Status**  
-13. **Field Confidence Map**  
-14. **Field Verification Map**
+11. **URL**  
+12. **Map URL**  
+13. **Derived Label** *(computed, not stored)*  
+14. **Parent Trail Network** *(optional)*  
 
 This order is absolute and must never change.
 
----
-
+------------------------------------------------------------
 # 3. FIELD‑BY‑FIELD RULES
-
----
 
 ## 3.1 Parent Trail
 - Must match the exact **Trail Name** of a normalized Trail.  
 - Defines the one‑to‑many relationship between Trails and Trail Segments.  
 - A Trail Segment must have exactly one parent Trail.  
-- Parent–child relationships must be explicitly documented in authoritative sources.  
-
----
+- Parent–child relationships must be explicitly documented.  
 
 ## 3.2 Segment Name
 - Optional.  
@@ -66,8 +70,6 @@ This order is absolute and must never change.
 - Must not be invented.  
 - Unnamed segments must leave this field blank.  
 
----
-
 ## 3.3 County
 - Required.  
 - Must represent the county or counties the segment physically traverses.  
@@ -75,14 +77,10 @@ This order is absolute and must never change.
 - Alphabetical order.  
 - Must not include the word “County.”  
 
----
-
 ## 3.4 Managing Agency
 - Must be an authoritative agency name.  
 - Represents the agency responsible for this specific segment.  
 - Must not be inferred from the parent Trail.  
-
----
 
 ## 3.5 Segment Length (Miles)
 - Numeric only.  
@@ -90,21 +88,15 @@ This order is absolute and must never change.
 - Blank if unknown.  
 - No estimates.  
 
----
-
 ## 3.6 Surface Type
-- Must match a value from the **Trail Segment Vocabulary Module v1**.  
+- Must match a value from the Trail Segment Vocabulary Module v3.2.  
 - Describes the actual surface of the segment (e.g., Paved, Crushed Stone, Natural).  
 - Must not encode use type or origin.  
 
----
-
 ## 3.7 Status
-- Must match a value from the **Trail Segment Vocabulary Module v1**.  
+- Must match a value from the Vocabulary Module.  
 - Examples: Active, Planned, Gap, Closed.  
 - “Gap” refers to a missing or incomplete portion of the Trail.  
-
----
 
 ## 3.8 GPS Geometry
 - Optional.  
@@ -112,50 +104,44 @@ This order is absolute and must never change.
 - Represents the geometry of the segment.  
 - Must be authoritative.  
 
----
-
 ## 3.9 Description
 - 1–3 sentences.  
 - Must describe identity‑defining characteristics of the segment.  
 - May include surface changes, jurisdictional notes, or contextual details.  
 - Must not duplicate Trail‑level description.  
 
----
-
 ## 3.10 Notes
 - Optional free‑text field.  
 - Must not include identity‑defining characteristics.  
 - Use for clarifications, temporary conditions, or contextual notes.  
 
----
+## 3.11 URL
+- Full `https://` URLs only.  
+- Semicolon‑delimit if multiple.  
+- Must reference authoritative segment‑specific sources.  
+- Leave blank if none exist.  
 
-## 3.11 Source Confidence
-- High / Medium / Low.  
-- Represents overall confidence in the Trail Segment record.  
+## 3.12 Map URL
+- Full `https://` URL to an authoritative map or GIS viewer.  
+- May include PDF maps, static images, or interactive GIS layers.  
+- Semicolon‑delimit if multiple.  
+- Leave blank if none.  
 
----
+## 3.13 Derived Label
+- Computed, not stored.
+- Formula:
+  Parent Trail + " — " + Surface Type + " — " + Status
+- Must follow Derived Label rules in the Normalization Contract v3.2.2.
 
-## 3.12 Verification Status
-- Verified / Needs Review / Removed.  
-- Represents the current verification state of the Trail Segment record.  
+## 3.14 Parent Trail Network
+- Optional.  
+- Must match the exact **Trail Network Name**.  
+- Used only when the segment is a documented member of a Trail Network.  
+- Must not be used to represent Trail → Trail Segment relationships.  
 
----
-
-## 3.13 Field Confidence Map
-- JSON object.  
-- Per‑field confidence values.  
-- Must follow the structure defined in the Normalization Contract.  
-
----
-
-## 3.14 Field Verification Map
-- JSON object.  
-- Per‑field verification values.  
-- Must follow the structure defined in the Normalization Contract.  
-
----
-
+------------------------------------------------------------
 # 4. IDENTITY RULES
+
 A Trail Segment is valid only if:
 - It is a continuous, mappable portion of a Trail.  
 - It is documented in authoritative sources.  
@@ -165,16 +151,21 @@ A Trail Segment is valid only if:
 
 If any of these conditions fail, the Trail Segment must not be created.
 
----
-
+------------------------------------------------------------
 # 5. MODULE DEPENDENCIES
+
 This module depends on:
 
-- **Trail Segment Vocabulary Module v1**  
-  (for Surface Type and Status)
+- **Trail Segment Vocabulary Module v3.2.2**  
+  (Surface Type, Status)  
+- **Trail Schema Module v3.2.2**  
+- **Trail Network Schema Module v3.2.2**  
+- **Normalization Contract v3.2.2**  
+- **TSV Output Specification v3.2.2**  
+- **Resolution Module v3.2.2**  
+- **Discovery Protocol Module v3.2.2**  
 
-All other modules (Normalization, TSV Output, Discovery, Resolution, Orchestration) must reference this schema.
+All other modules must reference this schema.
 
----
-
-# END OF TRAIL SEGMENT SCHEMA MODULE v1
+------------------------------------------------------------
+# END OF TRAIL SEGMENT SCHEMA MODULE v3.2.2

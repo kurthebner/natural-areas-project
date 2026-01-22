@@ -1,29 +1,20 @@
-# NATURAL AREAS PROJECT — SITE VOCABULARY MODULE v2.0
-Authoritative, versioned, single‑source‑of‑truth controlled vocabularies for all Site‑level fields in the statewide Natural Areas & Trails system.
+# SITE VOCABULARY MODULE v3.2.2
+Authoritative, versioned, single‑source‑of‑truth controlled vocabularies for all Site‑level fields that use enumerated values.
 
-This module contains:
-- All controlled vocabularies used in the 20‑field Site Schema v2.0  
-- Rules for each vocabulary  
-
-All other modules must reference this module for vocabulary authority.
+This module contains **only** controlled vocabulary lists.  
+All rules, semantics, and field definitions live in the Site Schema Module.
 
 ---
 
-# 1. CATEGORY VOCABULARY (Controlled)
+# 1. CATEGORY (Controlled)
 
-## Allowed Values
-Arboretum  
-Botanical Garden  
-Buffer Zone  
-Camp  
+Campground  
 Cemetery  
 Community Garden  
 Conservation Area  
 Cultural Facility  
-Dam  
+Curated Biological Site  
 Fishing Area  
-Floodplain Area  
-Greenspace  
 Historic Site  
 Hunting Area  
 Memorial  
@@ -33,116 +24,169 @@ Nature Preserve
 Open Space  
 Park  
 Recreation Facility  
-Reservoir  
-Scenic Overlook  
 Water Site  
 Wildlife Area  
 
-## Rules
-- Category expresses the ontological identity of the Site.  
-- Use only approved values.  
-- Do not infer Category.  
-- Category must not describe temporary conditions.  
-- Category must not encode governance or ownership.  
-- Category determines whether Subtype is allowed.  
-- Categories must not represent Trails, Trail Segments, Access Points, or Networks.
-
 ---
 
-# 2. SUBTYPE VOCABULARY (Controlled, Category‑Dependent)
+# 2. SUBTYPE (Controlled, Category‑Dependent)
 
-Subtype is optional.  
-Subtype must match the Category‑specific lists below.
+## A. Park
+Greenspace  
+Neighborhood Park  
+Linear Park  
+Dog Park  
+Playground Park  
+Sports Park  
+Waterfront Park  
+Civic Park  
+Historic Park  
 
----
+## B. Natural Area
+Forest  
+Upland Forest  
+Floodplain Forest  
+Prairie  
+Grassland  
+Meadow  
+Shrubland  
+Savanna  
+Old Field  
+Successional Area  
+Wetland  
+Marsh  
+Fen  
+Bog  
+Swamp  
+Riparian Area  
+Ravine  
+Cliff / Bluff  
+Barrens  
+Dune  
 
-## A. Subtypes for Category = Park
+## C. Nature Preserve
+State Nature Preserve  
+Private Nature Preserve  
+
+## D. Wildlife Area
+State Wildlife Area  
+Federal Wildlife Area  
+Waterfowl Area  
+Migratory Bird Area  
+Wetland Management Area  
+
+## E. Conservation Area
+Restoration Area  
+Habitat Management Area  
+Resource Protection Area  
+Watershed Protection Area  
+Forest Management Area  
+
+## F. Open Space
+Urban Open Space  
+Suburban Open Space  
+Greenbelt  
+Commons  
+Civic Lawn  
+Boulevard Median  
+Campus Open Space  
+
+## G. Recreation Facility
 Sports Complex  
 Athletic Field  
-Playground  
-Dog Park  
 Skate Park  
-Special Use Park  
-Recreational Park  
-Linear Park  
-
-### Rules
-- Use only when the subtype expresses a stable identity.  
-- Do not use for amenities or features.
-
----
-
-## B. Subtypes for Conservation Area / Natural Area / Nature Preserve
-Prairie  
-Fen  
-Wetland  
-Bog  
-Marsh  
-Swamp  
-Riparian Corridor  
-Gorge  
-Ravine  
-Bluff  
-Karst Area  
-Sand Barrens  
-Old‑Growth Forest  
-Prairie Remnant  
-Wetland Complex  
-Mitigation Bank  
-Savanna  
-Grassland  
-
-### Rules
-- Subtype must represent an identity‑bearing landform or ecological unit.  
-- Do not use habitat conditions.  
-- Do not use governance terms.  
-- Do not use restoration terms.
-
----
-
-## C. Subtypes for Category = Cemetery
-Historic Cemetery  
-Active Cemetery  
-Inactive Cemetery  
-Pioneer Cemetery  
-Family Cemetery  
-
-### Rules
-- Use only when explicitly stated in authoritative sources.
-
----
-
-## D. Subtypes for Category = Historic Site
-Archaeological Site  
-Covered Bridge  
-Historic Structure  
-Historic District Fragment  
-Cultural Landscape  
-Industrial Heritage Site  
-Transportation Heritage Site  
-Military Site  
-
-### Rules
-- Subtype must reflect a recognized historic identity.
-
----
-
-## E. Subtypes for Category = Recreation Facility
+Swimming Pool  
 Recreation Center  
-Senior Center  
-Athletic Complex  
-Aquatic Center  
-Community Center  
-Indoor Sports Facility  
+Tennis Complex  
+Pickleball Complex  
+Golf Course  
+Disc Golf Course  
+Ice Rink  
+BMX Track  
 
-### Rules
-- Subtype must reflect a stable facility identity.
+## H. Cultural Facility
+Cultural Center  
+Performing Arts Center  
+Interpretive Center  
+Heritage Center  
+Art Center  
+Visitor Center  
+
+## I. Historic Site
+Historic Landmark  
+Archaeological Site  
+Historic Landscape  
+Battlefield  
+Historic Structure  
+
+## J. Cemetery
+Public Cemetery  
+Private Cemetery  
+Family Cemetery  
+Veterans Cemetery  
+Church Cemetery  
+Green Burial Cemetery  
+Mausoleum Grounds  
+
+## K. Memorial
+War Memorial  
+Veterans Memorial  
+Civic Memorial  
+Monument  
+Memorial Garden  
+Memorial Plaza  
+
+## L. Community Garden
+None  
+
+## M. Campground
+Tent Campground  
+RV Campground  
+Primitive Campground  
+Group Campground  
+Cabin Campground  
+
+## N. Water Site
+Lake  
+Pond  
+Reservoir  
+Harbor  
+Marina  
+Boat Launch Area  
+Fishing Lake  
+Retention Pond  
+
+## O. Curated Biological Site
+Arboretum  
+Botanical Garden  
+Zoo  
+Aquarium  
+Aviary  
+Insectarium  
+Butterfly House  
+Reptile House  
+Biopark  
+Living Museum  
+
+## P. Museum
+History Museum  
+Art Museum  
+Science Museum  
+Children’s Museum  
+Natural History Museum  
+Cultural Museum  
+
+## Q. Hunting Area
+None  
+
+## R. Fishing Area
+None  
 
 ---
 
-# 3. DESIGNATION VOCABULARY (Controlled)
+# 3. DESIGNATION (Controlled)
 
-## A. Federal Designations
+## Federal
 National Park  
 National Monument  
 National Historic Site  
@@ -157,13 +201,13 @@ National Battlefield
 National Cemetery  
 National Register of Historic Places (NRHP)  
 
-## B. State Designations
+## State
 State Park  
 State Nature Preserve  
+State Wildlife Area  
 State Fishing Area  
 State Hunting Area  
 State Memorial  
-State Wildlife Area  
 State Forest  
 State Scenic River  
 State Natural Landmark  
@@ -171,30 +215,23 @@ State Archaeological Preserve
 State Historic Site  
 State Recreation Area  
 
-## C. Local / Special Designations
-County Nature Preserve  
+## Local / Special
 County Historic Landmark  
 Municipal Historic Landmark  
 Local Landmark  
-Local Historic District  
-Certified Arboretum (Level I–IV)  
+Local Nature Preserve  
 Registered Cemetery  
 Protected Wetland  
 Mitigation Bank  
 Conservation Easement  
 Land Trust Preserve  
 
-## D. Blank
-Most Sites have no designation.
-
-### Rules
-- Use only when explicitly stated in authoritative sources.  
-- Do not infer designation.  
-- Do not combine multiple designations unless explicitly documented.
+## None
+None  
 
 ---
 
-# 4. STATUS VOCABULARY (Controlled)
+# 4. STATUS (Controlled)
 
 Active  
 Seasonal  
@@ -205,127 +242,275 @@ Proposed
 Abandoned  
 Closed  
 
-### Rules
-- “Closed” = permanently closed as the entity described.  
-- “Proposed” must be officially referenced.  
-- Do not infer status from imagery alone.
+---
+
+# 5. OWNERSHIP (Controlled)
+
+Federal Government  
+State Government  
+County Government  
+Municipal Government  
+Township Government  
+Land Trust / Conservancy  
+Nonprofit Organization  
+Private Individual  
+Private Corporation  
+Private LLC  
+Private Partnership  
+Homeowners Association (HOA)  
+Private Utility Company  
+Joint Ownership  
+Unknown  
 
 ---
 
-# 5. FEATURES VOCABULARY (Controlled)
+# 6. MANAGEMENT (Controlled)
 
-Arboretum  
-Accessibility Features  
+Federal Agency  
+State Agency  
+County Agency  
+Municipal Agency  
+Township Agency  
+Land Trust / Conservancy  
+Nonprofit Organization  
+Private Landowner  
+Private Corporation  
+Private LLC  
+Homeowners Association (HOA)  
+Private Utility Company  
+Joint Management  
+Unknown  
+
+---
+
+# 7. COORDINATION (Controlled)
+
+Government Partner  
+Land Trust / Conservancy Partner  
+Nonprofit Partner  
+Academic / Research Partner  
+Private Entity Partner  
+Joint Coordination  
+
+---
+
+# 8. FEATURES (Controlled)
+
 ADA Accessible  
 AED  
+Alvar  
 Amphibian Area  
 Amphitheater  
+Apiary  
+Arboretum  
 Archery Range  
 Art Gallery  
-Athletic Fields  
+Art Installation  
+Athletic Field  
 Ballroom  
 Bandstand  
-Baseball Field  
-Basketball Court  
 Beach  
 Bike Rack  
 Bike Repair Station  
 Bird Viewing Area  
 Boardwalk  
+Boat Dock  
+Boat Ramp  
+Bocce Court  
+Bog  
+Bluff  
+Boathouse  
+Bridge  
 Bridle Trail  
+Building Ruins  
 Butterfly or Pollinator Garden  
 Camping  
+Canal Structure  
 Cave or Cavern  
-Climbing Wall  
+Cemetery Section  
+Chapel  
+Cliff  
+Climbing Structure  
 Community Garden  
+Composting Station  
 Conservatory  
-Covered Bridge  
 Covered Shelter  
 Cricket Pitch  
+Culvert  
+Dam  
 Dance Floor  
 Dance Performance Space  
+Demonstration Farm Plot  
+Demonstration Garden  
 Disc Golf Course  
 Dog Park  
+Drainage Ditch  
+Dune  
+Educational Pavilion  
 Electric Vehicle Charging  
 Equestrian Arena  
+Fence  
+Fen  
 Fieldhouse  
+Fire Ring  
+Fire Tower  
 Fishing Area  
+Fitness Station  
 Football Field  
 Football Stadium  
-Gaming Area  
+Fountain  
+Garage  
 Garden  
+Gate  
+Gatehouse  
 Gazebo  
+Glacial Erratic  
+Gorge  
+Greenhouse  
+Grill  
+Habitat Restoration Area  
 Handball Court  
+Hilltop  
+Historic Bridge  
+Historic Canal Segment  
+Historic Cemetery Section  
+Historic Fence Line  
+Historic Foundation  
+Historic Lock  
 Historic Marker  
+Historic Marker Cluster  
+Historic Millrace  
+Historic Road Trace  
+Historic Ruins  
 Historic Structure  
+Historic Well  
 Horseshoe Pitch  
-Hunting Area  
 Ice Rink  
-Interpretive Signage  
+Insectarium  
+Information Board  
+Interpretive Exhibit  
+Interpretive Garden  
+Interpretive Sign  
+Island  
+Kiosk  
 Kite Flying  
+Lake  
 Lacrosse Field  
+Landmark Tree  
+Levee  
+Lodge  
+Lookout Cabin  
+Maintenance Building  
 Marina  
+Marsh  
+Meadow  
 Model Airplane Field  
 Model Rocketry Field  
+Monument  
+Monitoring Station  
 Mountain Bike Trail  
-Multi-use Trail  
+Multi‑use Trail  
+Museum Building  
 Musical Instruments  
 Musical Performance Space  
 Native American Artifacts  
 Native American Cultural Site  
-Native American Earthworks  
+Native American Earthwork  
 Natural Arch  
+Nature Center  
+Nature Play Area  
 Observation Deck  
+Observation Tower  
 Observatory  
+Old‑Growth Stand  
+Orchard  
 Outdoor Art Installation  
-Parking Area  
-Paved Path  
+Outdoor Classroom  
+Overflow Parking  
+Overlook (built)  
+Overlook (natural)  
+Parking Lot  
 Pavilion  
+Peninsula  
 Pickleball Court  
 Picnic Area  
+Picnic Shelter  
+Picnic Table Cluster  
+Pipeline Corridor  
 Pioneer Historic Site  
-Pioneer Re-creation  
-Pistol Range  
+Pioneer Re‑creation  
 Planetarium  
 Playground  
+Pond  
+Pollinator Garden  
+Powerline Corridor  
+Prairie  
 Prairie Restoration  
+Public Art Installation  
+Pump Station  
 Pump Track  
+Ravine  
+Reforestation Area  
+Reptile House  
+Research Plot  
 Restrooms  
+Retaining Wall  
+Retention Basin  
+Ridge  
+Rock Outcrop  
 S&M Dungeon  
-Scenic View / Overlook  
+Scenic View  
+Sculpture  
+Sedge Meadow  
+Shuffleboard Court  
+Silo  
+Sinkhole  
+Skate Park  
+Slide  
+Sledding Hill  
 Shooting Range  
 Shotgun Range  
-Skate Park  
 Ski Slopes  
-Sledding Hill  
 Soccer Pitch  
+Spillway  
+Spring  
+Stable  
+Stage  
+Stormwater Basin  
+Stream Segment  
+Swimming Beach  
 Swimming Pool  
+Swing Set  
 Tennis Court  
 Theatre  
-Trapping Area  
+Topiary  
+Transit Stop  
 Trolley  
 Tropical Garden  
-Unpaved Trail  
+Trapping Area  
+Utility Corridor  
+Valley  
+Vegetable Garden  
+Viewing Platform  
+Vineyard  
+Visitor Center  
 Volleyball Court  
+Wall  
 Water Park  
+Water Tower  
 Watercraft Access  
-Waterfall  
+Waterfall (built)  
+Waterfall (natural)  
 Waterslide  
+Weather Station  
+Weir  
+Wetland  
 Wetland Restoration  
+Wild Animal Rehabilitation  
 Wildlife Observation Area  
 Working Railway  
 Zoo  
 
-### Rules
-- Features describe internal components, not identity‑bearing land units.  
-- Use only approved values.  
-- No site‑defining ecology.  
-- No governance.  
-- No temporary conditions.  
-- Named trails are never Features.  
-- Unnamed trails use the trail‑related Feature terms.  
-- Minor connectors belong in Notes, not Features.
-
 ---
 
-# END OF SITE VOCABULARY MODULE v2.0
+# END OF SITE VOCABULARY MODULE v3.2.2

@@ -1,183 +1,180 @@
-# NATURAL AREAS PROJECT — TSV INTEGRITY CHECK MODULE v3.1
-A deterministic validation module ensuring that all TSV output for all seven
-entity types meets strict delimiter‑integrity, blank‑field, whitespace, and
-field‑alignment requirements before finalization.
+# NATURAL AREAS PROJECT — TSV INTEGRITY CHECK MODULE v3.2.2
+Authoritative, deterministic validation module ensuring that all TSV output for  
+all six entity types meets strict delimiter‑integrity, blank‑field, whitespace,  
+field‑alignment, and multi‑county **representation** rules before finalization.
 
-This module contains no controlled vocabularies.
-All vocabularies are defined in the respective Vocabulary Modules v3.1.
+This module contains no controlled vocabularies.  
+All vocabularies are defined in the respective Vocabulary Modules v3.2.2.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
 This module defines:
 
-- How TSV rows are validated
-- How delimiter counts are checked
-- How blank fields must be represented
-- How whitespace rules are enforced
-- How field alignment is validated for each entity type
-- How anomalies are surfaced
-- How failures halt finalization
-- How results integrate with the Audit & Logging Module v1.1
-- How results integrate with the Processing / Orchestration Module v3.1
+- How TSV rows are validated  
+- How delimiter counts are checked  
+- How blank fields must be represented  
+- How whitespace rules are enforced  
+- How field alignment is validated for each entity type  
+- How integrity‑anchor fields are validated  
+- How **multi‑county and multi‑state representation** is validated  
+- How anomalies are surfaced  
+- How failures halt finalization  
+- How results integrate with the Audit & Logging Module v3.2.2  
+- How results integrate with the Processing / Orchestration Module v3.2.2  
 
 This module ensures:
 
-- Zero delimiter drift
-- Zero misalignment
-- Zero silent formatting errors
-- Deterministic, reproducible TSV output
-- Full compatibility with the v3.1 ontology
+- Zero delimiter drift  
+- Zero misalignment  
+- Zero silent formatting errors  
+- Deterministic, reproducible TSV output  
+- Full compatibility with the v3.2.2 ontology  
 
 ------------------------------------------------------------
 # 2. SCOPE
 
-This module applies to **all seven TSV output types**:
+This module applies to **all six TSV output types**:
 
-- **Site** (25 fields, 24 delimiters)
-- **Sub‑Site** (14 fields, 13 delimiters)
-- **Access Point** (11 fields, 10 delimiters)
-- **Trail** (16 fields, 15 delimiters)
-- **Trail Segment** (15 fields, 14 delimiters)
-- **Trail Network** (12 fields, 11 delimiters)
-- **Site Network** (12 fields, 11 delimiters)
+- **Site** (22 fields, 21 delimiters)  
+- **Access Point** (13 fields, 12 delimiters)  
+- **Trail** (18 fields, 17 delimiters)  
+- **Trail Segment** (14 fields, 13 delimiters)  
+- **Trail Network** (13 fields, 12 delimiters)  
+- **Site Network** (15 fields, 14 delimiters)  
 
 It governs:
 
-- Delimiter rules
-- Blank‑field rules
-- Whitespace rules
-- Field‑position rules
-- Integrity‑anchor rules
-- Multi‑county expansion validation
-- Error surfacing
+- Delimiter rules  
+- Blank‑field rules  
+- Whitespace rules  
+- Field‑position rules  
+- Integrity‑anchor rules  
+- **Multi‑county and multi‑state representation validation**  
+- Error surfacing  
 
 ------------------------------------------------------------
 # 3. DELIMITER REQUIREMENTS (ENTITY‑SPECIFIC)
 
 Each TSV row must contain **exactly** the following number of tab characters:
 
-- **Site**: 24 tabs
-- **Sub‑Site**: 13 tabs
-- **Access Point**: 10 tabs
-- **Trail**: 15 tabs
-- **Trail Segment**: 14 tabs
-- **Trail Network**: 11 tabs
-- **Site Network**: 11 tabs
+- **Site**: 21 tabs  
+- **Access Point**: 12 tabs  
+- **Trail**: 17 tabs  
+- **Trail Segment**: 13 tabs  
+- **Trail Network**: 12 tabs  
+- **Site Network**: 14 tabs  
 
 No more, no fewer.
 
-## 3.1 No internal tabs
+## 3.1 No internal tabs  
 If a field contains a tab, the row fails integrity.
 
-## 3.2 No newline characters
+## 3.2 No newline characters  
 If a field contains a newline, the row fails integrity.
 
 ------------------------------------------------------------
 # 4. BLANK‑FIELD REQUIREMENTS
 
-## 4.1 Blank fields must be true blanks
+## 4.1 Blank fields must be true blanks  
 Represented as:
 
 `\t\t`
 
-## 4.2 No spaces inside blank fields
+## 4.2 No spaces inside blank fields  
 Invalid:
 
-- `\t \t`
-- `\t  \t`
-- `\t\t `
+- `\t \t`  
+- `\t  \t`  
+- `\t\t `  
 - ` \t\t`
 
-## 4.3 No placeholder values
+## 4.3 No placeholder values  
 Invalid:
 
-- `_`
-- `NULL`
-- `""`
+- `_`  
+- `NULL`  
+- `""`  
 - `BLANK`
 
-## 4.4 No collapsed blanks
+## 4.4 No collapsed blanks  
 Adjacent blanks must remain `\t\t`.
 
 ------------------------------------------------------------
 # 5. WHITESPACE REQUIREMENTS
 
-## 5.1 No leading or trailing spaces in any field
+## 5.1 No leading or trailing spaces in any field  
 Invalid:
 
-- `" Park"`
-- `"Park "`
+- `" Park"`  
+- `"Park "`  
 - `" Park "`  
 
-## 5.2 No trailing spaces at end of line
+## 5.2 No trailing spaces at end of line  
 Line must end immediately after the final field.
 
-## 5.3 Internal spaces allowed only when part of the value
-Valid:
-
-- `"Ohio History Connection"`
-
-Invalid:
-
-- `"  Ohio History Connection"`
+## 5.3 Internal spaces allowed only when part of the value  
+Valid: `"Ohio History Connection"`  
+Invalid: `"  Ohio History Connection"`
 
 ------------------------------------------------------------
 # 6. FIELD‑POSITION REQUIREMENTS (ENTITY‑SPECIFIC)
 
-The following fields must appear in the exact positions defined in the v3.1 TSV
-Output Specifications.
+The following fields must appear in the exact positions defined in the  
+v3.2.2 TSV Output Specifications.
 
-## 6.1 Site (25 fields)
-- Derived Label → field 24
-- Parent Site → field 25
+## 6.1 Site (22 fields)
+- Derived Label → field 21  
+- Parent Site → field 22  
 
-## 6.2 Sub‑Site (14 fields)
-- Derived Label → field 13
-- Parent Site (integrity anchor) → field 14
+## 6.2 Access Point (13 fields)
+- Derived Label → field 13  
+- Parent Entities → field 3  
 
-## 6.3 Access Point (11 fields)
-- Derived Label → field 11
-- Parent Site → field 3
+## 6.3 Trail (18 fields)
+- Derived Label → field 17  
+- Trail Name (integrity anchor) → field 1  
 
-## 6.4 Trail (16 fields)
-- Derived Label → field 15
-- Trail Name (integrity anchor) → field 16
+## 6.4 Trail Segment (14 fields)
+- Derived Label → field 13  
+- Parent Trail (integrity anchor) → field 1  
 
-## 6.5 Trail Segment (15 fields)
-- Derived Label → field 14
-- Parent Trail (integrity anchor) → field 15
+## 6.5 Trail Network (13 fields)
+- Derived Label → field 13  
+- Trail Network Name (integrity anchor) → field 1  
 
-## 6.6 Trail Network (12 fields)
-- Derived Label → field 11
-- Network Name (integrity anchor) → field 12
-
-## 6.7 Site Network (12 fields)
-- Derived Label → field 11
-- Network Name (integrity anchor) → field 12
+## 6.6 Site Network (15 fields)
+- Derived Label → field 15  
+- Network Name (integrity anchor) → field 1  
 
 If any field is out of position, the row fails integrity.
 
 ------------------------------------------------------------
-# 7. MULTI‑COUNTY EXPANSION VALIDATION
+# 7. MULTI‑COUNTY AND MULTI‑STATE REPRESENTATION VALIDATION
 
-For all entities that support multi‑county expansion:
+### Universal rule (v3.2.3):
+**All entities are single‑row entities.  
+No entity expands into multiple rows.**
 
-- Each row must contain **exactly one county**.
-- Rows must be emitted in alphabetical county order.
-- All non‑county fields must remain identical across expanded rows.
+### For all six entities:
 
-Entities supporting multi‑county expansion:
+- County / Counties / Counties Included fields must contain a  
+  **semicolon‑delimited, alphabetized list** of counties.  
+- State / States Included fields must contain a  
+  **semicolon‑delimited, alphabetized list** of states (if applicable).  
+- No row may contain more than one TSV record for the same entity.  
+- No entity may emit multiple rows based on counties or states.  
+- No county or state may appear twice.  
+- No trailing semicolons.  
+- No spaces around semicolons.
 
-- Site
-- Sub‑Site
-- Access Point
-- Trail
-- Trail Segment
-- Trail Network
-- Site Network
+### A row fails integrity if:
 
-Failure to meet these rules results in an integrity failure.
+- A county list is not alphabetized  
+- A county list is not semicolon‑delimited  
+- A state list is not semicolon‑delimited  
+- A state list is not alphabetized  
+- Any entity attempts multi‑row expansion  
 
 ------------------------------------------------------------
 # 8. VALIDATION ALGORITHM (DETERMINISTIC)
@@ -196,7 +193,7 @@ All blanks must be true blanks.
 ### Step 6 — Validate field alignment  
 ### Step 7 — Validate whitespace rules  
 ### Step 8 — Validate integrity‑anchor fields  
-### Step 9 — Validate multi‑county expansion (if applicable)  
+### Step 9 — Validate multi‑county and multi‑state representation  
 ### Step 10 — Surface anomalies  
 ### Step 11 — Halt finalization if any row fails  
 
@@ -207,45 +204,46 @@ If any step fails, TSV generation must not proceed.
 
 A row fails integrity if:
 
-- Delimiter count is incorrect
-- A field contains a tab
-- A field contains a newline
-- A blank field contains spaces
-- A field contains trailing spaces
-- Derived Label is misaligned
-- Integrity‑anchor field is misaligned
-- Parent Site / Parent Trail / Parent Network is misaligned
-- Any field is missing
-- Any field is duplicated
-- Any field is out of order
-- Multi‑county expansion is invalid
+- Delimiter count is incorrect  
+- A field contains a tab  
+- A field contains a newline  
+- A blank field contains spaces  
+- A field contains trailing spaces  
+- Derived Label is misaligned  
+- Integrity‑anchor field is misaligned  
+- Parent Site / Parent Trail / Parent Network is misaligned  
+- Any field is missing  
+- Any field is duplicated  
+- Any field is out of order  
+- **County or State fields are not semicolon‑delimited, alphabetized lists**  
+- **Any entity attempts multi‑row expansion**  
 
-All failures must be logged in the Audit & Logging Module v1.1.
+All failures must be logged in the Audit & Logging Module v3.2.2.
 
 ------------------------------------------------------------
 # 10. OUTPUT OF THIS MODULE
 
 For each row:
 
-- Pass / Fail
-- Expected delimiter count
-- Actual delimiter count
-- List of anomalies (if any)
-- Whether the pipeline halted
+- Pass / Fail  
+- Expected delimiter count  
+- Actual delimiter count  
+- List of anomalies (if any)  
+- Whether the pipeline halted  
 
 This output is consumed by:
 
-- Processing / Orchestration Module v3.1
-- Audit & Logging Module v1.1
+- Processing / Orchestration Module v3.2.2  
+- Audit & Logging Module v3.2.2  
 
 ------------------------------------------------------------
 # 11. MODULE DEPENDENCIES
 
 This module depends on:
 
-- **All seven TSV Output Specifications v3.1**
-- **Processing / Orchestration Module v3.1**
-- **Audit & Logging Module v1.1**
+- **All six TSV Output Specifications v3.2.2**  
+- **Processing / Orchestration Module v3.2.2**  
+- **Audit & Logging Module v3.2.2**  
 
 ------------------------------------------------------------
-# END OF TSV INTEGRITY CHECK MODULE v3.1
+# END OF TSV INTEGRITY CHECK MODULE v3.2.2

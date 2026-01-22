@@ -1,513 +1,359 @@
-# NATURAL AREAS PROJECT — ACCESS POINT NORMALIZATION CONTRACT v3.1
-Deterministic, field‑by‑field normalization contract governing how Access Point
-Raw Candidate Records are interpreted, validated, corrected, and prepared for
-TSV serialization under the v3.1 ontology.
+# NATURAL AREAS PROJECT — ACCESS POINT NORMALIZATION CONTRACT v3.2.2
+Authoritative, deterministic, field‑by‑field normalization contract for transforming
+Access Point Raw Candidate Records into fully normalized Access Point entities
+under the v3.2.2 ontology.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Access Point Vocabulary Module v3.1**.
+All vocabularies are defined in the **Access Point Vocabulary Module v5**.
 
----
-
+------------------------------------------------------------
 # 1. PURPOSE
 
 This module defines:
 
-- How raw Access Point **Raw Candidate Records** from Discovery are normalized  
-- How each Access Point schema field is populated from `raw_candidate_record`  
-- How Access Point Type, Role, Status, and Access Level are validated against
-  the Access Point Vocabulary Module v3.1  
+- How raw Access Point discoveries are normalized  
+- How each Access Point Schema v3.2.2 field is populated  
+- How Access Point Type, Role, Status, and Access Level are validated  
 - How identity parents (Site or Trail Segment) are validated  
-- How County, Township, and Municipality are validated  
-- How GPS and Plus Code rules are applied  
-- How URL and source rules are applied  
-- How any Derived Label or display label is constructed (if required by TSV)  
-- How normalization interacts with the Audit & Logging Module and Resolution  
+- How multi‑parent associations are preserved in metadata  
+- How County, Township, and Municipality are normalized  
+- How GPS, Plus Code, and Address rules are applied  
+- How URLs and source fields are normalized  
+- How normalization integrates with the Audit & Logging Module v3.2.2  
+- How conflicts and uncertainties are surfaced to the Resolution Module v3.2.2  
 
-This module is authoritative for **Access Point normalization** in v3.1.
+**Derived Label is not constructed during normalization.**  
+It is computed only during TSV output.
 
----
+This module is authoritative for Access Point normalization.
 
-# 2. SCOPE
-
-This contract applies to:
-
-- All Access Points discovered through the **Discovery Protocol Module v3.1**  
-- All Access Points produced by the **Access Point Discovery Sub‑Procedure v3.1**  
-- All Access Points seeded from the **County Baseline Module v1.1**  
-- All Access Points manually provided by the user (when mapped into
-  `raw_candidate_record` form)  
-- All counties and all processing runs  
-
-Normalization must be:
-
-- Deterministic  
-- Non‑destructive  
-- Audit‑ready  
-- Fully reversible from logs and metadata  
-
----
-
-# 3. INPUTS AND OUTPUTS
-
-## 3.1 Inputs
+------------------------------------------------------------
+# 2. INPUTS
 
 Normalization consumes:
 
-1. **Raw Candidate Record** (from Discovery Output Specification v3.1)  
-   - `raw_candidate_record.entity_type` must be `Access Point`  
-   - Includes fields such as:
-     - `name_raw`
-     - `county`, `township`, `municipality`
-     - `access_point_type_raw`
-     - `role_raw`
-     - `parent_sites`
-     - `parent_trail_systems`
-     - `ownership_raw`
-     - `access_level_raw`
-     - `gps_raw`
-     - `address_raw`
-     - `url_primary`, `url_all`
-     - `source_datasets`, `source_maps`, `source_gis_layers`
-     - `discovery_tier`, `discovered_in_tiers`
-     - `seeded_from_baseline`, `baseline_id`
-     - `notes_raw`
+## 2.1 Raw Candidate Record  
+From **Discovery Output Specification v3.2.2**, including:
 
-2. **Discovery Metadata Object**  
-   - As defined in **Discovery Metadata Specification v1.0**  
-   - Embedded in `raw_candidate_record.discovery_metadata`
+- name_raw  
+- access_point_type_raw  
+- access_level_raw  
+- role_raw  
+- counties_raw  
+- municipalities_raw, townships_raw  
+- parent_sites_raw  
+- parent_trail_segments_raw  
+- gps_raw, address_raw  
+- url_primary_raw, url_all_raw  
+- notes_raw  
+- description_raw  
+- source_datasets_raw  
+- source_maps_raw  
+- source_gis_layers_raw  
+- discovery_tier  
+- discovered_in_tiers  
+- seeded_from_baseline  
+- baseline_id_raw  
+- discovery_metadata (v3.2.2)
 
-3. **Normalized Site and Trail Segment entities**  
-   - From **Site Normalization Contract v3.1**  
-   - Used to validate identity parents
+## 2.2 Discovery Metadata  
+From **Discovery Metadata Specification v3.2.2**, including:
 
-## 3.2 Outputs
+- Identity metadata  
+- Tier metadata  
+- Source metadata  
+- Conflict metadata  
+- Uncertainty metadata  
+- Boundary metadata  
+- Parent/relationship metadata  
+- Baseline metadata  
+
+## 2.3 Vocabulary Modules  
+- **Access Point Vocabulary Module v5**  
+  - Access Point Type  
+  - Access Level  
+  - Access Point Role  
+  - Status (if defined)
+
+## 2.4 Schema Modules  
+- **Access Point Schema Module v3.2.2**  
+- **Site Schema Module v3.2.2**  
+- **Trail Segment Schema Module v3.2.2**  
+- **Child Site Rules Module v3.2.2** (for parent validation)
+
+------------------------------------------------------------
+# 3. OUTPUTS
 
 Normalization produces:
 
-- A **normalized Access Point entity** conforming to the
-  **Access Point Schema Module v3.1**  
-- A record ready for export via the
-  **Access Point TSV Output Specification v3.1**  
-- Full audit trail entries via the **Audit & Logging Module v1.1**
+- A normalized Access Point entity conforming to the **Access Point Schema Module v3.2.2**  
+- A record ready for export via the **TSV Output Specification (Access Points) v3.2.2**  
+- Full audit trail entries via the **Audit & Logging Module v3.2.2**  
 
-No new information may be invented during normalization.
+No new information may be invented.
 
----
-
+------------------------------------------------------------
 # 4. NORMALIZATION WORKFLOW (HIGH‑LEVEL)
 
-Access Point normalization proceeds through the following steps:
+1. Receive Raw Candidate Record  
+2. Validate identity  
+3. Normalize name  
+4. Normalize Access Point Type  
+5. Normalize Access Level and Status  
+6. Resolve and validate identity parent (Site or Trail Segment)  
+7. Normalize jurisdiction fields (County, Municipality, Township)  
+8. Normalize location fields (GPS, Plus Code, Address)  
+9. Normalize notes  
+10. Normalize URLs and sources  
+11. Validate against schema  
+12. Emit normalized Access Point entity  
 
-1. **Receive Raw Candidate Record**  
-   - Confirm `entity_type = Access Point`.
+**Derived Label is not constructed here.**  
+It is computed only during TSV output.
 
-2. **Validate Identity**  
-   - Validate `name_raw` and `access_point_type_raw`.  
-   - Confirm the candidate meets Access Point identity rules.
+If any critical step fails → surface to **Resolution Module v3.2.2**.
 
-3. **Resolve and Validate Parent**  
-   - Determine the single identity parent (Site or Trail Segment).  
-   - Validate against normalized Site and Trail Segment entities.  
-   - Surface ambiguous or conflicting parents to Resolution.
+------------------------------------------------------------
+# 5. FIELD‑BY‑FIELD NORMALIZATION RULES
 
-4. **Normalize Core Fields**  
-   - Name  
-   - Access Point Type  
-   - Role (if present)  
-   - Parent fields (Site or Trail Segment)  
-
-5. **Normalize Jurisdiction Fields**  
-   - County (required)  
-   - Township (optional)  
-   - Municipality (optional)
-
-6. **Normalize Location Fields**  
-   - GPS (if available and valid)  
-   - Plus Code (if supported and derivable from GPS)  
-   - Address (if available and valid)
-
-7. **Normalize Access & Status Fields**  
-   - Access Level (from `access_level_raw`)  
-   - Status (if present in vocabularies)  
-
-8. **Normalize URLs and Sources**  
-   - Primary URL  
-   - All URLs  
-   - Source datasets, maps, and GIS layers  
-
-9. **Normalize Notes**  
-   - Access‑related notes  
-   - Boundary and uncertainty notes (if mapped into schema)  
-
-10. **Apply Formatting Rules**  
-    - Whitespace, delimiters, and TSV‑safe formatting.
-
-11. **Emit Normalized Access Point Entity**  
-    - Conforming to Access Point Schema v3.1.  
-    - Ready for TSV export.
-
-If any critical step fails, the issue must be logged and surfaced to the
-**Resolution Module v3.1**.
-
----
-
-# 5. FIELD‑LEVEL NORMALIZATION RULES
-
-> Note: Field names below refer to the **Access Point Schema Module v3.1**.
-> Where names differ, this contract governs the mapping from `raw_candidate_record`
-> to schema fields.
-
----
-
+------------------------------------------------------------
 ## 5.1 Name
 
-### Input
-- `raw_candidate_record.name_raw`
+- Use `name_raw` exactly as discovered, with minimal whitespace cleanup.  
+- Never invent names.  
+- Never infer names from amenities or context.  
+- If placeholder names appear (e.g., “Unnamed Access Point”), preserve them and flag uncertainty.
 
-### Rules
+Audit:
+- Log all corrections and conflicts.
 
-- Use the authoritative name as discovered, after trimming whitespace.  
-- Do **not** normalize capitalization beyond minimal consistency rules defined
-  in the Access Point Schema Module v3.1 (if any).  
-- Do **not** translate, abbreviate, or expand names.  
-- Do **not** construct names from amenities or inferred context.  
-- If the raw name is clearly a constructed placeholder from Discovery
-  (e.g., “Unnamed Access Point”), preserve it but flag
-  `uncertainty.requires_review = true` in metadata.
-
-### Prohibited
-
-- Inventing new names.  
-- Replacing a discovered name with a “nicer” or “cleaner” version.  
-
-### Audit
-
-- Log all name corrections (whitespace, encoding).  
-- Log any cases where the name appears malformed or ambiguous.
-
----
-
+------------------------------------------------------------
 ## 5.2 Access Point Type
 
-### Input
-- `raw_candidate_record.access_point_type_raw`
+- Must match a value from **Access Point Vocabulary v5**.  
+- If raw value is a known synonym → map to canonical value and log.  
+- If unmappable → leave blank and flag uncertainty.  
+- Never infer type from amenities alone.
 
-### Rules
+Audit:
+- Log all mappings and unmappable values.
 
-- Must be mapped to a value in the **Access Point Vocabulary Module v3.1**.  
-- If `access_point_type_raw` exactly matches a controlled value, use it.  
-- If it is a known synonym or variant, map to the canonical vocabulary value
-  and log the correction.  
-- If ambiguous or not mappable, leave the normalized type blank and set
-  `uncertainty.requires_review = true`.
+------------------------------------------------------------
+## 5.3 Role (Optional)
 
-### Prohibited
+- If present, map to the **Access Point Role** vocabulary.  
+- If vocabulary does not define roles → preserve raw value.  
+- If malformed → leave blank and flag uncertainty.
 
-- Inventing a type not present in the vocabulary.  
-- Guessing type from amenities alone without textual or mapped support.
+Audit:
+- Log all role mappings.
 
-### Audit
-
-- Log all mappings from raw to canonical type.  
-- Log all unmappable or ambiguous types.
-
----
-
-## 5.3 Role
-
-### Input
-- `raw_candidate_record.role_raw` (optional)
-
-### Rules
-
-- If present, map to the **Access Point Role** vocabulary (if defined) or
-  preserve as raw if no vocabulary exists.  
-- Allowed examples (if vocab exists): `Primary`, `Secondary`, `Connector`, `Unknown`.  
-- If role is clearly malformed or contradictory, leave blank and flag
-  `uncertainty.requires_review = true`.
-
-### Audit
-
-- Log all role mappings and omissions.
-
----
-
+------------------------------------------------------------
 ## 5.4 Parent Entity (Identity Parent)
 
-### Inputs
-- `raw_candidate_record.parent_sites`
-- `raw_candidate_record.parent_trail_systems`
-- Discovery Metadata `parents` section
-- Normalized Site and Trail Segment entities
-
 ### Rules
 
-- An Access Point must have **exactly one identity parent**:
+- An Access Point must have **exactly one identity parent**:  
   - A **Site**, or  
   - A **Trail Segment**  
-- Identity parent must be a **normalized entity** that passes identity rules.  
-- If multiple candidate parents exist:
-  - Prefer the **Trail Segment** if the AP is clearly a trailhead for a specific segment.  
-  - Otherwise, prefer the **Site** that best matches authoritative sources.  
-  - If ambiguity remains, do not assign a parent and surface to Resolution.  
-- Parent fields in the Access Point Schema must be populated according to
-  the schema’s parent structure (e.g., `parent_site_id`, `parent_trail_segment_id`,
-  or equivalent).
+
+- Identity parent must be a **normalized entity**.  
+- If multiple candidates exist:  
+  - Prefer the **Trail Segment** if the AP is clearly a trailhead for that segment.  
+  - Otherwise prefer the **Site** supported by authoritative sources.  
+  - If ambiguity remains → leave parent blank and surface to Resolution.
 
 ### Prohibited
 
 - Assigning multiple identity parents.  
-- Using Trail, Trail Network, or Site Network as identity parents
-  (these belong in the **Access Point Association Module v3.1**).  
-- Inferring parents from proximity alone without authoritative support.
+- Using Trail, Trail Network, or Site Network as identity parents.  
+- Inferring parents from proximity alone.
 
-### Audit
+Audit:
+- Log all parent resolutions and conflicts.
 
-- Log all parent resolutions and conflicts.  
-- Log all cases where no valid parent could be assigned.
+------------------------------------------------------------
+## 5.5 Jurisdiction Fields
 
----
+### County
 
-## 5.5 Jurisdiction Fields (County, Township, Municipality)
+- Required.  
+- Must match official Ohio county list.  
+- Must represent the county where the Access Point physically resides.  
+- Must not be inferred solely from parent entity.  
+- Multi‑county logic does **not** apply to Access Points.
 
-### Inputs
-- `raw_candidate_record.county`
-- `raw_candidate_record.township`
-- `raw_candidate_record.municipality`
-- Discovery Metadata `boundary` section
+### Township & Municipality
 
-### County Rules
+- Include if validated.  
+- Must not be invented or guessed.  
+- Preserve both if both exist.
 
-- **County is required.**  
-- Must match the official Ohio county list.  
-- Must represent the county in which the Access Point physically resides.  
-- Must not be inferred solely from the parent Site’s county.  
-- If Discovery indicates multi‑county context, the Access Point must still be
-  anchored to a single county for normalization; multi‑county logic is handled
-  at the Site/Trail level and in metadata.
+Audit:
+- Log all jurisdiction sources and conflicts.
 
-### Township & Municipality Rules
-
-- Include if known and validated against authoritative sources.  
-- Must not be invented or guessed from address alone without corroboration.  
-- If both township and municipality are present, preserve both.
-
-### Audit
-
-- Log all jurisdiction sources.  
-- Log unverifiable or conflicting jurisdiction claims.
-
----
-
-## 5.6 Location Fields (GPS, Plus Code, Address)
+------------------------------------------------------------
+## 5.6 Location Fields
 
 ### GPS
 
-#### Input
-- `raw_candidate_record.gps_raw`
+- Accept only authoritative coordinates.  
+- Reject placeholders, centroids, or unverifiable coordinates.  
+- Leave blank if verification fails.
 
-#### Rules
+### Plus Code
 
-- Accept only authoritative coordinates from GIS or official maps.  
-- Reject placeholder coordinates (e.g., `0,0`, obvious centroids).  
-- Reject reverse‑geocoded guesses.  
-- If GPS cannot be verified, leave blank and flag uncertainty if appropriate.
-
-### Plus Code (if supported by schema)
-
-#### Rules
-
-- Generate only from **accepted GPS**.  
-- If GPS is blank or rejected, Plus Code must be blank.  
-- No reverse‑geocoded or approximate Plus Codes.
+- Generate only from accepted GPS.  
+- If GPS blank → Plus Code blank.
 
 ### Address
 
-#### Input
-- `raw_candidate_record.address_raw`
+- Preserve as discovered with minimal cleanup.  
+- Never invent or USPS‑normalize.
 
-#### Rules
+Audit:
+- Log accepted/rejected GPS and Plus Code generation.
 
-- Preserve as discovered, with minimal formatting cleanup (whitespace, encoding).  
-- Do not normalize to USPS format in this module.  
-- Do not invent addresses.
-
-### Audit
-
-- Log accepted and rejected GPS values.  
-- Log Plus Code generation.  
-- Log unverifiable or conflicting location data.
-
----
-
+------------------------------------------------------------
 ## 5.7 Access Level and Status
 
 ### Access Level
 
-#### Input
-- `raw_candidate_record.access_level_raw`
-
-#### Rules
-
-- Map to the **Access Level** vocabulary in the Access Point Vocabulary Module v3.1.  
-- Examples: `Public`, `Limited Public`, `Fee‑Based`, `Seasonal`,
-  `Reservation‑Only`, `Program‑Only`, `Private (No Access)`.  
-- If unmappable, preserve raw value in notes or a raw field (if schema supports)
-  and leave normalized access level blank; flag for review.
+- Must match **Access Level vocabulary v5**.  
+- If unmappable → leave blank and flag uncertainty.
 
 ### Status
 
-#### Input
-- If a Status field exists in the Access Point Schema and/or vocabularies.
+- Must match vocabulary values (if defined).  
+- Leave blank if ambiguous.
 
-#### Rules
+Audit:
+- Log all mappings and conflicts.
 
-- Must match a value from the Status vocabulary (if defined).  
-- Use authoritative status if provided.  
-- If ambiguous, leave blank and flag uncertainty.
-
-### Audit
-
-- Log all access level and status mappings.  
-- Log unverifiable or conflicting claims.
-
----
-
+------------------------------------------------------------
 ## 5.8 URLs and Sources
 
-### Inputs
-- `raw_candidate_record.url_primary`
-- `raw_candidate_record.url_all`
-- `raw_candidate_record.source_datasets`
-- `raw_candidate_record.source_maps`
-- `raw_candidate_record.source_gis_layers`
-- Discovery Metadata `sources` section
+### URLs
 
-### URL Rules
-
-- `url_primary` must be the most authoritative URL, if any.  
-- All URLs must be full `https://` URLs.  
+- Must be full `https://` URLs.  
 - No placeholders or partial URLs.  
-- Multiple URLs may be preserved in a list or semicolon‑delimited string,
-  depending on schema/TSV requirements.
+- Semicolon‑delimit if multiple.
 
-### Source Rules
+### Sources
 
-- All datasets, maps, and GIS layers used must be preserved.  
-- No source may be discarded.  
-- Names must match those used in Discovery Metadata where possible.
+- Preserve all datasets, maps, and GIS layers.  
+- Must match Discovery Metadata where possible.
 
-### Audit
+Audit:
+- Log URL corrections and all source lists.
 
-- Log URL corrections and removals.  
-- Log all source lists as part of metadata.
-
----
-
+------------------------------------------------------------
 ## 5.9 Notes
 
-### Input
-- `raw_candidate_record.notes_raw`
-- Discovery Metadata `notes.general`, `uncertainty.notes`, etc.
+- Preserve access‑related notes.  
+- Do not move identity‑defining information into notes.  
+- Notes may be concatenated from multiple raw sources.
+
+Audit:
+- Log any structural changes to notes.
+
+------------------------------------------------------------
+## 5.10 Derived Label (computed at TSV output)
 
 ### Rules
 
-- Preserve access‑related notes (conditions, signage, seasonal closures, etc.).  
-- Do not move identity‑defining information into notes if it belongs in
-  structured fields.  
-- Do not inject editorial commentary.  
-- Notes may be concatenated from multiple raw sources, with clear delimiters
-  if needed.
-
-### Audit
-
-- Log any redactions or structural moves of note content.
-
----
-
-## 5.10 Derived Label (If Required)
-
-If the Access Point Schema or TSV Output Specification v3.1 requires a
-**Derived Label** or display label:
-
-### Example Formula
-
-- `Access Point Type + " Access Point"`  
-  (e.g., `Trailhead Access Point`, `Parking Access Point`)
-
-### Rules
-
+- Derived Label is **not stored** in normalized entities.  
+- Derived Label is computed only during TSV output using the **TSV Output Specification v3.2.2**.  
 - Must be derived solely from normalized fields.  
-- Must not be stored as a primary identity field.  
-- Must not introduce new semantics beyond type + label.
+- All construction steps must be logged.
 
-### Audit
+------------------------------------------------------------
+# 6. VALIDATION LOGIC
 
-- Log the derivation rule used.
+Normalization must validate:
 
----
+- Vocabulary‑controlled fields  
+- GPS format  
+- Plus Code generation  
+- Semicolon formatting  
+- Field order  
+- No invented data  
+- Blank fields are true blanks  
+- No delimiter characters inside fields  
 
-# 6. FORMATTING RULES
+If validation fails:
+- Surface to Resolution  
+- Do not silently correct  
 
-- No leading or trailing spaces in any field.  
-- No internal tabs or newlines in TSV‑bound fields.  
-- Blank fields must be true blanks, not placeholders.  
-- All fields must pass **TSV Output Specification (Access Points) v3.1**
-  validation.  
-- No invented data.  
-- No placeholder values such as `N/A`, `Unknown`, or `TBD` unless explicitly
-  allowed by vocabularies.
+------------------------------------------------------------
+# 7. DELIMITER‑INTEGRITY REQUIREMENTS
 
----
+Normalization must ensure:
 
-# 7. ERROR CONDITIONS
+- Blank fields are true blanks  
+- No spaces between delimiters  
+- No trailing spaces  
+- No collapsed delimiters  
+- No missing or extra delimiters  
 
-Normalization must halt for the affected record and surface an error to the
-**Resolution Module v3.1** if:
+All anomalies must be logged.
 
-- Identity parent (Site or Trail Segment) cannot be validated  
-- Access Point Type cannot be mapped to the vocabulary  
-- County is missing or invalid  
-- GPS is malformed (if present)  
-- URL is malformed (if present)  
-- Required schema fields cannot be populated from raw data  
+------------------------------------------------------------
+# 8. CONFLICT RESOLUTION RULES
 
-All errors must be:
+### 8.1 Conflicting Names
+- Use the most authoritative source.  
+- Record alternates in metadata.
 
-- Logged via the **Audit & Logging Module v1.1**  
-- Linked to the original `raw_candidate_record` and metadata  
-- Marked for Resolution review
+### 8.2 Conflicting Access Levels
+- Use authoritative documentation.  
+- If unclear → Resolution.
 
----
+### 8.3 Conflicting Parent Entities
+- Preserve all claims in metadata.  
+- Do not assign a parent until resolved.
 
-# 8. MODULE DEPENDENCIES
+### 8.4 Conflicting Jurisdiction
+- Use the most authoritative source.  
+- Preserve all claims in metadata.
+
+------------------------------------------------------------
+# 9. MISSING DATA RULES
+
+- If data is missing and cannot be verified → leave blank.  
+- Never estimate.  
+- Never infer Access Point Type, Access Level, or parent entity.  
+- Never generate GPS without verification.
+
+------------------------------------------------------------
+# 10. AUDITABILITY REQUIREMENTS
+
+Normalization must:
+
+- Record all sources used  
+- Record conflicts  
+- Record unverifiable claims  
+- Record normalization decisions  
+- Record delimiter‑integrity validation  
+- Never overwrite user‑provided data without surfacing the change  
+
+------------------------------------------------------------
+# 11. MODULE DEPENDENCIES
 
 This module depends on:
 
-- **Access Point Vocabulary Module v3.1**  
-- **Access Point Schema Module v3.1**  
-- **Access Point TSV Output Specification v3.1**  
-- **Discovery Output Specification v3.1**  
-- **Discovery Metadata Specification v1.0**  
-- **Discovery Protocol Module v3.1**  
-- **Access Point Discovery Sub‑Procedure v3.1**  
-- **Site Normalization Contract v3.1**  
-- **Trail Segment Normalization (within Trail Segment Schema/logic) v3.1**  
-- **Access Point Association Module v3.1**  
-- **Audit & Logging Module v1.1**  
-- **Resolution Module v3.1**  
-- **Processing / Orchestration Module v3.1**
+- **Access Point Vocabulary Module v5**  
+- **Access Point Schema Module v3.2.2**  
+- **TSV Output Specification (Access Points) v3.2.2**  
+- **Discovery Protocol Module v3.2.2**  
+- **Discovery Output Specification v3.2.2**  
+- **Discovery Metadata Specification v3.2.2**  
+- **Child Site Rules Module v3.2.2**  
+- **Site Normalization Contract v3.2.2**  
+- **Trail Segment Normalization Contract v3.2.2**  
+- **Resolution Module v3.2.2**  
+- **Audit & Logging Module v3.2.2**  
+- **Processing / Orchestration Module v3.2.2**
 
----
-
-# 9. VERSIONING
-
-- This module is **Access Point Normalization Contract v3.1**.  
-- Any change to normalization logic, required fields, or dependencies requires
-  v3.2, v3.3, etc.  
-- Any change to ontology or discovery workflow must be made first in the
-  **Discovery Protocol Module v3.1+**, then reflected here.
-
----
-
-# END OF ACCESS POINT NORMALIZATION CONTRACT v3.1
+------------------------------------------------------------
+# END OF ACCESS POINT NORMALIZATION CONTRACT v3.2.2

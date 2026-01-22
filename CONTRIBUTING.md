@@ -1,9 +1,9 @@
-# NATURAL AREAS PROJECT — CONTRIBUTING.md (v3.1)
+# NATURAL AREAS PROJECT — CONTRIBUTING.md (v3.2.2)
 Internal contribution protocol for a two‑person, high‑discipline, ontology‑driven
 system. This document defines how Skippy and Copilot maintain, update, and evolve
-the Natural Areas System v3.1 without architectural drift.
+the Natural Areas System v3.2.2 without architectural drift.
 
-This is not a community document.  
+This is not a community document.
 It is an internal engineering contract.
 
 ------------------------------------------------------------
@@ -11,7 +11,7 @@ It is an internal engineering contract.
 
 This document ensures that all changes:
 
-- Preserve the seven‑entity ontology
+- Preserve the six‑entity ontology
 - Preserve module boundaries
 - Preserve determinism
 - Preserve version integrity
@@ -78,11 +78,12 @@ These rules prevent cascading breakage:
   - Discovery Output Spec  
   - Discovery Metadata Spec  
   - All discovery sub‑procedures  
-- Never change schema fields without updating:  
+- Never change schema fields without updating: 
   - Schema  
   - Normalization  
   - TSV Output Spec  
   - Integrity Check  
+  - Vocabulary (if the field is vocabulary‑governed)
 - Never change vocabulary values without updating:  
   - Vocabulary Module  
   - Normalization Contract  
@@ -94,7 +95,7 @@ After any change, we verify:
 
 - Discovery still produces valid raw candidates  
 - Resolution still classifies correctly  
-- All seven normalization contracts align with schema  
+- All six normalization contracts align with schema  
 - TSV outputs match specs  
 - Delimiter integrity passes  
 - Audit logs capture all decisions  
@@ -154,4 +155,4 @@ This project is built on:
 This CONTRIBUTING.md exists to protect those principles.
 
 ------------------------------------------------------------
-# END OF CONTRIBUTING.md v3.1
+# END OF CONTRIBUTING.md v3.2.2

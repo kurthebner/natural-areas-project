@@ -1,77 +1,60 @@
-# NATURAL AREAS PROJECT — SITE NETWORK VOCABULARY MODULE v1
-Authoritative, versioned controlled vocabularies for Site Networks in the statewide
-Natural Areas & Trails system.
+# NATURAL AREAS PROJECT — SITE NETWORK VOCABULARY MODULE v3.2.2
+Authoritative, versioned, single‑source‑of‑truth controlled vocabularies  
+for all Site Network–level fields in the statewide Natural Areas & Trails system.
 
-This module defines:
-- The controlled vocabulary for Site Network fields
-- Field‑level rules for vocabulary usage
-- Dependencies on the Site Network Schema Module v1
+This module contains:
+- All controlled vocabularies used in the Site Network Schema v3.2.2  
+- Definitions and rules for each vocabulary  
+- Clarifications for ambiguous or overlapping values  
 
-This module contains only controlled vocabularies.
-All structural rules are defined in the Site Network Schema Module v1.
-
-------------------------------------------------------------
-# 1. PURPOSE
-The Site Network Vocabulary Module v1 provides the authoritative, statewide‑consistent
-controlled vocabularies required by the Site Network Schema Module v1.
-
-This module:
-- Ensures consistent classification of Site Networks
-- Prevents ambiguous or invented network types
-- Supports normalization, discovery, resolution, and TSV output
-- Establishes a single source of truth for Site Network terminology
-
-This module is authoritative for all Site Network vocabulary.
+All Site Network–related modules must reference this module for vocabulary authority.
 
 ------------------------------------------------------------
-# 2. VOCABULARY FIELDS
-This module defines controlled vocabularies for:
+# 1. NETWORK TYPE VOCABULARY (Controlled)
 
-1. Network Type
+## Allowed Values
+National Heritage Area  
+Local Historic District  
+Scenic River Corridor  
+Conservation Corridor  
+Cultural Landscape Network  
+Watershed Network  
+Greenway Network  
+Ecological Corridor  
+Heritage Corridor  
+Historic Corridor  
+Multi‑Site Recreation Network  
+Multi‑Site Conservation Network  
+Other (explicitly named only)
 
-No other Site Network fields use controlled vocabularies.
-
-------------------------------------------------------------
-# 3. NETWORK TYPE (AUTHORITATIVE LIST)
-Network Type describes the classification of the Site Network.
-Values must be used exactly as written.
-
-Allowed values:
-
-- National Heritage Area
-- Local Historic District
-- Scenic River Corridor
-- Conservation Corridor
-- Cultural Landscape Network
-- Watershed Network
-- Greenway Network
-- Ecological Corridor
-- Heritage Corridor
-- Historic Corridor
-- Multi‑Site Recreation Network
-- Multi‑Site Conservation Network
-
-Rules:
-- Must not encode governance, ownership, or temporary conditions.
-- Must not be inferred; must be documented in authoritative sources.
-- Additional values may be added in future versions as needed.
+## Rules & Clarifications
+- Describes the **identity‑bearing classification** of the Site Network.  
+- Must not encode governance, ownership, or management.  
+- Must not encode temporary conditions or project phases.  
+- Must not be inferred; must be documented in authoritative sources.  
+- “National Heritage Area” applies only to federally designated NHAs.  
+- “Local Historic District” applies only to formally designated districts.  
+- “Scenic River Corridor” applies only to documented scenic river systems.  
+- “Greenway Network” applies to planned or documented greenway systems.  
+- “Other” may be used only when an authoritative source provides a named network type not covered above.  
+- Must not duplicate or conflict with the **Parent Site Network** or **Network Affiliation** fields in Site records.
 
 ------------------------------------------------------------
-# 4. VOCABULARY RULES
-- All values must be used exactly as written.
-- No synonyms, abbreviations, or invented terms.
-- If a Site Network does not clearly match a value, leave the field blank and flag for review.
-- New values may be added only through a versioned update to this module.
+# 2. VOCABULARY RULES
+- All values must be used exactly as written.  
+- No synonyms, abbreviations, or invented terms.  
+- If a Site Network does not clearly match a value, leave the field blank and flag for review.  
+- New values may be added only through a versioned update to this module.  
 
 ------------------------------------------------------------
-# 5. MODULE DEPENDENCIES
+# 3. MODULE DEPENDENCIES
 This module depends on:
 
-- Site Network Schema Module v1  
+- **Site Network Schema Module v3.2.2**  
   (for structural rules and field definitions)
 
-All other modules (Discovery, Normalization, TSV Output, Resolution, Orchestration)
+All other modules (Discovery, Normalization, TSV Output, Resolution, Orchestration)  
 must reference this vocabulary.
 
 ------------------------------------------------------------
-# END OF SITE NETWORK VOCABULARY MODULE v1
+# END OF SITE NETWORK VOCABULARY MODULE v3.2.2

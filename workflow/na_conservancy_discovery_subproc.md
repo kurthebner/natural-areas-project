@@ -1,360 +1,321 @@
-# LAND TRUST & CONSERVANCY DISCOVERY SUB‑PROCEDURE v3.1
-(Land Trusts, Conservancies, Foundations, Nonprofit Conservation Organizations)
+# NATURAL AREAS PROJECT — NONPROFIT CONSERVATION LANDHOLDERS DISCOVERY SUB‑PROCEDURE v3.2.2  
+(Land Trusts, Conservancies, Foundations, Trail Alliances, Greenway Coalitions, Watershed Nonprofits)
 
-Tier 7 of the Discovery Protocol Module v3.1.
+Tier 7 of the **Discovery Protocol Module v3.2.2**.
 
-Land trusts and conservancies are essential contributors to Ohio’s natural areas
-landscape. They hold fee‑simple preserves, conservation easements, trail corridors,
-and partnership lands. Their holdings are often **not** represented in county or
-state datasets, making this tier critical.
+Nonprofit conservation organizations in Ohio include land trusts, conservancies,  
+foundations, watershed groups, trail alliances, and regional greenway coalitions.  
+These organizations hold fee‑simple preserves, conservation easements, trail  
+corridors, and partnership lands. Their holdings are often absent from county or  
+state datasets, making Tier 7 essential for statewide completeness.
 
-This module defines the **detailed rules** for Tier 7 discovery across all seven
-entity types.
+This module defines the **authoritative, deterministic rules** for Tier 7 discovery  
+across all six ontology entity types.
 
 ------------------------------------------------------------
 # 1. PURPOSE
+
 This sub‑procedure defines how the system must:
 
-- Identify all land trust and conservancy **Sites**
-- Identify **Sub‑Sites** within land trust preserves
-- Identify **Trails** and **Trail Segments** on land trust holdings
-- Identify **Trail Networks** (rare but possible)
-- Identify **Site Networks** (e.g., multi‑site conservation corridors)
-- Identify **Access Points** associated with land trust holdings
-- Identify fee‑simple preserves
-- Identify conservation easements that qualify as Sites
-- Identify trail corridors and greenways
-- Distinguish between public‑access and non‑public‑access holdings
-- Identify co‑managed Sites
-- Log uncertainty and boundary cases
-- Produce Raw Candidate Records and Discovery Metadata
+- Identify all nonprofit conservation **Sites**  
+- Identify **child Sites** within preserves (Sites with Parent Site populated)  
+- Identify **Trails**, **Trail Segments**, and **Trail Networks** on nonprofit holdings  
+- Identify **Site Networks** (multi‑site conservation systems)  
+- Identify **Access Points** associated with nonprofit holdings  
+- Identify fee‑simple preserves and qualifying conservation easements  
+- Identify trail corridors, greenways, and linear preserves  
+- Distinguish public‑access vs. non‑public‑access holdings  
+- Identify co‑managed Sites  
+- Log uncertainty and boundary cases  
+- Produce Raw Candidate Records and Discovery Metadata v3.2.2  
 
-This module is referenced **only** by the Discovery Protocol Module v3.1.
+This module is referenced only by the Discovery Protocol Module v3.2.2.
 
 ------------------------------------------------------------
 # 2. SCOPE
+
 This sub‑procedure applies to:
 
-- Local land trusts
-- Regional land trusts
-- Statewide land trusts
-- National land trusts
-- Conservancies and foundations
-- Nonprofit conservation organizations
-- Land trust consortiums and alliances
+### Land Trusts & Conservancies
+- Local, regional, statewide, and national land trusts  
+- Conservancies and conservation foundations  
+
+### Trail & Greenway Organizations
+- Trail alliances  
+- Greenway coalitions  
+- Linear corridor nonprofits  
+
+### Watershed & Habitat Organizations
+- Watershed groups  
+- Habitat restoration nonprofits  
+- Ecological stewardship organizations  
+
+### Conservation Networks
+- Land trust consortiums and alliances  
+- Regional conservation partnerships  
 
 It governs discovery of:
 
-- **Sites**
-- **Sub‑Sites**
-- **Trails**
-- **Trail Segments**
-- **Trail Networks**
-- **Site Networks**
-- **Access Points**
+- **Sites**  
+- **Child Sites**  
+- **Trails**  
+- **Trail Segments**  
+- **Trail Networks**  
+- **Site Networks**  
+- **Access Points**  
 
 This tier sits **below Municipal** and **above Private & Organization‑Based**.
 
 ------------------------------------------------------------
 # 3. REQUIRED SOURCES (ALL MANDATORY)
 
-## 3.1 Land Trust Official Websites
-Check for:
-- Preserves
-- Protected Lands
-- Our Lands
-- Conservation Areas
-- Nature Preserves
-- Public Access
-- Hiking Trails
-- Stewardship
+## 3.1 Official Nonprofit Websites
+Scan for:
+- Preserves  
+- Protected lands  
+- Conservation areas  
+- Nature preserves  
+- Public access  
+- Hiking trails  
+- Stewardship information  
 
-Scan:
-- All preserve pages
-- All project pages
-- All maps
-- All PDF brochures
-- All stewardship reports
+Scan all:
+- Preserve pages  
+- Project pages  
+- Maps  
+- PDF brochures  
+- Stewardship reports  
 
 ## 3.2 Land Trust Alliance (LTA) Directory
 Check for:
-- Member organizations
-- Regional affiliates
-- Contact information
-- Links to official websites
+- Member organizations  
+- Regional affiliates  
+- Contact information  
+- Links to official websites  
 
 ## 3.3 County Auditor / GIS (Parcel Verification)
-Land trust holdings often appear as:
-- Fee‑simple parcels
-- Conservation easements
-- Trail easements
-- Partnership lands
+Nonprofit holdings may appear as:
+- Fee‑simple parcels  
+- Conservation easements  
+- Trail easements  
+- Partnership lands  
 
-GIS is essential for:
-- Confirming county boundaries
-- Confirming ownership
-- Confirming easement status
-- Confirming access points
+GIS is required for:
+- County boundary confirmation  
+- Ownership confirmation  
+- Easement verification  
+- Access point verification  
 
 ## 3.4 Statewide & Regional Conservation Networks
 Check:
-- ONAPA
-- Regional conservation partnerships
-- Watershed groups
-- Greenway coalitions
-
-These often list:
-- Co‑managed preserves
-- Joint acquisitions
-- Trail corridors
+- ONAPA  
+- Regional conservation partnerships  
+- Watershed groups  
+- Greenway coalitions  
 
 ## 3.5 Federal & State Partners
-Land trusts often partner with:
-- ODNR
-- USFWS
-- USACE
-- Local park districts
-- Municipalities
+Nonprofits often partner with:
+- ODNR  
+- USFWS  
+- USACE  
+- Park districts  
+- Municipalities  
 
-These partnerships must be logged.
-
-------------------------------------------------------------
-# 4. SITE DISCOVERY RULES
-
-A land trust Site must be surfaced if:
-
-### ✔ 4.1 It is owned in fee‑simple by the land trust  
-### ✔ 4.2 It is a conservation easement with **public access**  
-### ✔ 4.3 It is a conservation easement with **identity‑bearing status**  
-### ✔ 4.4 It appears on the land trust website  
-### ✔ 4.5 It appears in county GIS as land‑trust‑owned  
-### ✔ 4.6 It appears in partnership announcements  
-### ✔ 4.7 It is identity‑bearing (named, mapped, or designated)  
-
-### ❌ Exclude:
-- Conservation easements with **no public access** and **no identity‑bearing role**
-- Private lands with land trust covenants but no public role
-- Administrative offices
-- Stewardship centers not open to the public
-
-### 4.8 Multi‑County Sites
-If a Site spans multiple counties:
-- Create one Raw Candidate Record per county
-- Use the same name
-- Segment GPS and notes if available
+All partnerships must be logged in metadata.
 
 ------------------------------------------------------------
-# 5. SUB‑SITE DISCOVERY RULES
+# 4. NONPROFIT LAND DISCOVERY CONDITIONS
 
-Surface a **Sub‑Site** when:
-- A named internal unit exists within a preserve
-- A named natural area, management zone, or recreation area is documented
-- A named trail area, overlook area, or habitat unit is identity‑bearing
+## 4.1 Fee‑Simple Ownership
+Surface as a **Site** if:
+- Owned by the nonprofit  
+- Identity‑bearing  
+- Public access exists OR the preserve is named/mapped  
 
-Do **not** surface:
-- Amenities
-- Unnamed management zones
-- Stewardship work areas
-
-------------------------------------------------------------
-# 6. CONSERVATION EASEMENT RULES
-
-A conservation easement becomes a **Site** only if:
-- It has public access
-- It is identity‑bearing
-- It is named or mapped
-- It has a trail, overlook, or access point
-- It is part of a greenway or corridor
+## 4.2 Conservation Easements
+Surface as a **Site** if:
+- Public access exists, OR  
+- The easement is identity‑bearing, OR  
+- It contains trails, overlooks, or access points  
 
 Exclude:
-- Private easements with no public access
-- Agricultural easements with no recreation role
-- Scenic easements with no access
+- Private easements with no public access  
+- Agricultural easements with no recreation role  
+- Scenic easements with no access  
+
+## 4.3 Trail Corridors & Linear Preserves
+Surface as **Sites** if:
+- Named  
+- Mapped  
+- Identity‑bearing  
+- Have one or more Access Points  
+
+## 4.4 Multi‑County Holdings
+- **Record all counties exactly as discovered in `counties_raw`**  
+- **Do NOT segment multi‑county Sites**  
 
 ------------------------------------------------------------
-# 7. TRAIL CORRIDOR DISCOVERY RULES
+# 5. TIER‑ANCHORED VERIFICATION (MANDATORY)
 
-Land trusts often hold:
-- Trail easements
-- Greenway corridors
-- Linear preserves
+## 5.1 Confirm County Boundaries
+- Verify the feature lies within the county  
+- Record all counties in metadata  
+- Do NOT segment multi‑county features  
 
-A trail corridor becomes a **Site** if:
-- It is named
-- It is mapped
-- It has one or more Access Points
-- It is identity‑bearing
-
-Segment multi‑county corridors by county.
-
-------------------------------------------------------------
-# 8. TRAIL DISCOVERY RULES
-
-Surface a **Trail** when:
-- A named trail appears on land trust maps or brochures
-- A named trail appears in partnership announcements
-- A named trail appears in county GIS
-
-------------------------------------------------------------
-# 9. TRAIL SEGMENT DISCOVERY RULES
-
-Surface **Trail Segments** when:
-- Segment‑level geometry exists in county GIS
-- Segment identifiers appear in land trust maps
-
-------------------------------------------------------------
-# 10. TRAIL NETWORK DISCOVERY RULES
-
-Surface a **Trail Network** when:
-- A land trust manages a multi‑trail system
-- A greenway corridor includes multiple Trails
-
-Rare but must be captured.
-
-------------------------------------------------------------
-# 11. SITE NETWORK DISCOVERY RULES
-
-Surface a **Site Network** when:
-- A land trust manages a multi‑site conservation system
-- A watershed‑scale or corridor‑scale network is documented
-
-------------------------------------------------------------
-# 12. ACCESS POINT DISCOVERY RULES
-
-Land trust Access Points must be surfaced when:
-- They appear on land trust maps
-- They appear in land trust brochures
-- They appear in county GIS
-- They appear in partnership announcements
-
-Access Points must include:
-- Name or descriptive label
-- Access Point Type (raw)
-- County
-- Parent entity (Site, Sub‑Site, Trail, Trail Segment)
-- Source(s)
-- Notes
-
-These are passed to the Access Point Discovery Sub‑Procedure v3.1.
-
-------------------------------------------------------------
-# 13. CO‑MANAGEMENT RULES
-
-Land trust Sites are often co‑managed with:
-- Park districts
-- Municipalities
-- Counties
-- ODNR
-- Federal agencies
-
+## 5.2 Confirm Ownership or Easement Status
 Record:
-- Primary manager
-- Co‑managers
-- Notes on stewardship agreements
+- Fee‑simple  
+- Conservation easement  
+- Trail easement  
+- Partnership land  
 
-------------------------------------------------------------
-# 14. COUNTY‑ANCHORED VERIFICATION (MANDATORY)
-
-For each land trust entity:
-
-## 14.1 Confirm County Boundaries
-- Verify the feature lies within the county
-- Segment multi‑county features
-
-## 14.2 Confirm Ownership or Easement Status
-Record:
-- Fee‑simple
-- Conservation easement
-- Trail easement
-- Partnership land
-
-## 14.3 Confirm Access Points
+## 5.3 Confirm Access Points
 Identify:
-- Trailheads
-- Parking areas
-- Boat launches
-- Scenic overlooks
+- Trailheads  
+- Parking areas  
+- Boat launches  
+- Scenic overlooks  
 
-## 14.4 Naming Consistency
-Use the **land trust‑published name** as authoritative.
-
-------------------------------------------------------------
-# 15. LOGGING REQUIREMENTS
-
-For each land trust entity, log:
-- Land trust name
-- Entity name
-- Entity type (Site, Sub‑Site, Trail, Trail Segment, Trail Network, Site Network, Access Point)
-- County
-- Ownership type
-- Source dataset
-- URL or reference
-- Access type (if applicable)
-- Notes on co‑management
-- Discovery Tier: **7**
-- Uncertainty or conflicts
-
-Each county must also produce:
-- Land Trust Sites Found
-- Sub‑Sites Found
-- Trails Found
-- Trail Segments Found
-- Trail Networks Found
-- Site Networks Found
-- Access Points Found
-- Conservation Easements Considered
-- Trail Corridors Found
-- Sources Checked
-- Notes
+## 5.4 Naming
+Use the **nonprofit‑published name** as authoritative.  
+If multiple names appear → record all in metadata.
 
 ------------------------------------------------------------
-# 16. OUTPUT FORMAT
+# 6. DECISION RULES FOR ENTITY CREATION
 
-### 16.1 Land Trust Entities
-Name:
-Type: Site / Sub‑Site / Trail / Trail Segment / Trail Network / Site Network
-Land Trust:
-County:
-Ownership Type:
-URL or Source:
-Notes:
-Discovery Tier: 7
+### 6.1 Site Creation
+A nonprofit feature becomes a **Site** if:
+- Fee‑simple ownership  
+- Public‑access conservation easement  
+- Identity‑bearing easement  
+- Named trail corridor or greenway  
+- Appears on nonprofit website or GIS  
+- Appears in partnership announcements  
 
-### 16.2 Access Points
-Name:
-Type: Access Point
-Access Point Type (raw):
-Parent Entity:
-Land Trust:
-County:
-Source:
-Notes:
-Discovery Tier: 7
+Exclude:
+- Administrative offices  
+- Stewardship centers not open to the public  
+- Private easements with no identity‑bearing role  
+
+### 6.2 Child Site Creation
+Create a **child Site** when:
+- A named internal unit exists within a preserve  
+- A named natural area, management zone, or recreation area is documented  
+- A named trail area, overlook area, or habitat unit is identity‑bearing  
+
+Do **not** surface:
+- Amenities  
+- Unnamed management zones  
+- Stewardship work areas  
+
+### 6.3 Trail Creation
+Surface a **Trail** when:
+- A named trail appears on nonprofit maps or brochures  
+- A named trail appears in partnership announcements  
+- A named trail appears in county GIS  
+
+### 6.4 Trail Segment Creation
+Surface **Trail Segments** when:
+- Segment‑level geometry exists in county GIS  
+- Segment identifiers appear in nonprofit maps  
+
+### 6.5 Trail Network Creation
+Surface a **Trail Network** when:
+- A nonprofit manages a multi‑trail system  
+- A greenway corridor includes multiple Trails  
+
+### 6.6 Site Network Creation
+Surface a **Site Network** when:
+- A nonprofit manages a multi‑site conservation system  
+- A watershed‑scale or corridor‑scale network is documented  
+
+### 6.7 Access Point Creation
+Surface an **Access Point** when:
+- It appears on nonprofit maps  
+- It appears in nonprofit brochures  
+- It appears in county GIS  
+- It appears in partnership announcements  
+
+Access Points must include raw values only:
+- Name or descriptive label  
+- Access Point Type (raw)  
+- County list (raw)  
+- Parent entity  
+- Source(s)  
+- Notes  
 
 ------------------------------------------------------------
-# 17. INTEGRATION POINTS
+# 7. TIER‑SPECIFIC EXPECTATIONS
+
+The Nonprofit Tier **must** surface:
+- All fee‑simple preserves  
+- All identity‑bearing conservation easements  
+- All nonprofit‑managed Trails  
+- All nonprofit‑managed Trail Segments  
+- All nonprofit‑managed Access Points  
+- All named trail corridors and greenways  
+- All multi‑site conservation systems  
+
+The Nonprofit Tier **may** surface:
+- Nonprofit‑managed Trail Networks  
+- Nonprofit‑managed Site Networks  
+- Watershed‑scale or corridor‑scale systems  
+- Partnership lands (if identity‑bearing)  
+
+------------------------------------------------------------
+# 8. LOGGING REQUIREMENTS
+
+Each discovered entity must include:
+- Full **Discovery Metadata v3.2.2**  
+- All raw source references  
+- All counties (raw)  
+- All conflicts and uncertainties  
+- All parent relationships  
+- All geometry (if available)  
+
+All values must be raw and unnormalized.
+
+------------------------------------------------------------
+# 9. OUTPUT REQUIREMENTS
+
+Each nonprofit entity must output a **Raw Candidate Record** conforming to:
+- **Discovery Output Specification v3.2.2**  
+- **Discovery Metadata Specification v3.2.2**  
+- The appropriate Schema Module v3.2.2  
+- The appropriate Vocabulary Module v3.2.2  
+
+No normalized fields may appear in Tier 7 output.
+
+------------------------------------------------------------
+# 10. INTEGRATION POINTS
 
 This module integrates with:
-- Discovery Protocol Module v3.1
-- Site Discovery Sub‑Procedure v3.1
-- Sub‑Site Discovery Sub‑Procedure v1
-- Trail Discovery Sub‑Procedure v1
-- Trail Segment Discovery Sub‑Procedure v1
-- Trail Network Discovery Sub‑Procedure v1
-- Site Network Discovery Sub‑Procedure v1
-- Access Point Discovery Sub‑Procedure v3.1
-- Discovery Metadata Specification v1.0
-- Audit & Logging Module v1.1
-- County Baseline Module v1.1
-- Resolution Module v1
+- **Discovery Protocol Module v3.2.2**  
+- **Discovery Orchestration Module v3.2.2**  
+- **Site Discovery Sub‑Procedure v3.2.2**  
+- **Trail Discovery Sub‑Procedure v3.2.2**  
+- **Trail Segment Discovery Sub‑Procedure v3.2.2**  
+- **Trail Network Discovery Sub‑Procedure v3.2.2**  
+- **Site Network Discovery Sub‑Procedure v3.2.2**  
+- **Access Point Discovery Sub‑Procedure v3.2.2**  
+- **Child Site Rules Module v3.2.2**  
+- **Discovery Metadata Specification v3.2.2**  
+- **Discovery Output Specification v3.2.2**  
+- **Normalization Contracts v3.2.2**  
+- **Resolution Module v3.2.2**  
+- **TSV Output Specifications v3.2.2**  
+- **Audit & Logging Module v3.2.2**  
+- **County Baseline Module v3.2.2**  
 
 No other module may reference this sub‑procedure directly.
 
 ------------------------------------------------------------
-# 18. VERSIONING
-- This module is **Land Trust & Conservancy Discovery Sub‑Procedure v3.1**.
-- Updates to land trust directories or conservation practices may result in v3.2, v3.3, etc.
-- Any change to tier order or high‑level workflow must be made in the Discovery Protocol Module v3.1.
+# 11. VERSIONING
+
+- This module is **Nonprofit Conservation Landholders Discovery Sub‑Procedure v3.2.2**.  
+- Updates to land trust directories or conservation practices may result in v3.3, v3.4, etc.  
+- Any change to tier order or workflow must be made in the  
+  **Discovery Protocol Module v3.2.2**.
 
 ------------------------------------------------------------
-# END OF LAND TRUST & CONSERVANCY DISCOVERY SUB‑PROCEDURE v3.1
+# END OF NONPROFIT CONSERVATION LANDHOLDERS DISCOVERY SUB‑PROCEDURE v3.2.2

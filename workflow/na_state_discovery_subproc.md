@@ -1,297 +1,343 @@
-# STATE LANDS DISCOVERY SUB‑PROCEDURE v3.1
-(ODNR Divisions, State Parks, State Forests, State Nature Preserves, State Wildlife Areas, Scenic Rivers)
+# NATURAL AREAS PROJECT — STATE LANDS DISCOVERY SUB‑PROCEDURE v3.2.2  
+(ODNR Divisions, OHC, ODOT, State Easements, Scenic Rivers)
 
-Tier 2 of the Discovery Protocol Module v3.1.
+Tier 2 of the **Discovery Protocol Module v3.2.2**.
 
-State‑managed lands must be discovered using authoritative ODNR datasets, division‑level
-sources, and county‑anchored verification. Ohio’s state lands include parks, forests,
-wildlife areas, nature preserves, scenic rivers, and other ODNR‑managed units.
+State‑managed lands must be discovered using authoritative ODNR datasets,  
+division‑level sources, quasi‑state sources, and county‑anchored verification.  
+Ohio’s state lands include parks, forests, wildlife areas, nature preserves,  
+scenic rivers, and other ODNR‑managed or state‑affiliated units.  
 
-This module defines the **detailed rules** for Tier 2 discovery across all seven
-entity types.
+This module defines the **authoritative, deterministic rules** for Tier 2 discovery  
+across all six entity types.
 
 ------------------------------------------------------------
 # 1. PURPOSE
+
 This sub‑procedure defines how the system must:
 
-- Identify all state‑managed Sites
-- Identify Sub‑Sites within state Sites
-- Identify Trails, Trail Segments, and Trail Networks on state lands
-- Identify Site Networks (e.g., Scenic River systems)
-- Identify Access Points associated with state Sites
-- Distinguish ODNR divisions and co‑management arrangements
-- Avoid false positives from similarly named places
-- Log uncertainty and boundary cases
-- Produce Raw Candidate Records and Discovery Metadata
+- Identify all state‑managed Sites  
+- Identify **child Sites** within state Sites (Sites with Parent Site populated)  
+- Identify Trails, Trail Segments, and Trail Networks on state lands  
+- Identify Site Networks (e.g., Scenic River systems)  
+- Identify Access Points associated with state Sites  
+- Distinguish ODNR divisions, OHC, ODOT, and co‑management arrangements  
+- Avoid false positives from similarly named places  
+- Log uncertainty and boundary cases  
+- Produce Raw Candidate Records and Discovery Metadata v3.2.2  
 
-This module is referenced **only** by the Discovery Protocol Module v3.1.
+This module is referenced **only** by the Discovery Protocol Module v3.2.2.
 
 ------------------------------------------------------------
 # 2. SCOPE
+
 This sub‑procedure applies to:
 
-- ODNR Division of Parks & Watercraft
-- ODNR Division of Forestry
-- ODNR Division of Wildlife
-- ODNR Division of Natural Areas & Preserves
-- ODNR Scenic Rivers Program
+### Primary State Agencies
+- ODNR Division of Parks & Watercraft  
+- ODNR Division of Forestry  
+- ODNR Division of Wildlife  
+- ODNR Division of Natural Areas & Preserves  
+- ODNR Scenic Rivers Program  
 - ODNR Division of Mineral Resources (surface‑managed lands only)
-- State‑managed easements
-- State‑managed recreation areas
 
-It governs the discovery of:
+### Quasi‑State Organizations
+- **Ohio History Connection (OHC)**  
+  (state memorials, archaeological preserves, historic landscapes)
 
-- **Sites** (state parks, forests, preserves, wildlife areas, scenic river units)
-- **Sub‑Sites** within state Sites
-- **Trails** on state lands
-- **Trail Segments** on state lands
-- **Trail Networks** (e.g., statewide trail systems)
-- **Site Networks** (e.g., Scenic River corridors)
-- **Access Points** associated with state Sites
+### Other State‑Level Landholders
+- **ODOT** (scenic overlooks, bikeway corridors, mitigation lands)  
+- **EPA / DEFA** (mitigation lands; conditional)  
+- **ODA** (agricultural easements; conditional)
+
+### State‑Managed Easements
+- Conservation easements  
+- Scenic River easements  
+- ODNR‑managed access easements  
+
+This tier governs discovery of:
+
+- **Sites**  
+- **Child Sites**  
+- **Trails**  
+- **Trail Segments**  
+- **Trail Networks**  
+- **Site Networks**  
+- **Access Points**  
+
+This tier sits **below Federal** and **above Park District**.
 
 ------------------------------------------------------------
-# 3. REQUIRED STATE SOURCES (ALL MANDATORY)
+# 3. REQUIRED SOURCES (ALL MANDATORY)
 
 ## 3.1 ODNR Division of Parks & Watercraft
 Check for:
-- State parks (→ Sites)
-- Campgrounds (→ Sub‑Sites)
-- Day‑use areas (→ Sub‑Sites)
-- Marinas (→ Sub‑Sites or Access Points)
-- Boat ramps (→ Access Points)
-- Trails (→ Trails, Trail Segments)
+- State parks → Sites  
+- Campgrounds → child Sites  
+- Day‑use areas → child Sites  
+- Marinas → child Sites or Access Points  
+- Boat ramps → Access Points  
+- Trails → Trails, Trail Segments  
 
-Required sources:
-- ODNR park pages
-- ODNR park maps
-- ODNR GIS datasets
+Sources:
+- ODNR park pages  
+- ODNR park maps  
+- ODNR GIS datasets  
 
 ## 3.2 ODNR Division of Forestry
 Check for:
-- State forests (→ Sites)
-- Forest management units (→ Sub‑Sites)
-- Forest trails (→ Trails, Trail Segments)
+- State forests → Sites  
+- Forest management units → child Sites  
+- Forest trails → Trails, Trail Segments  
 
-Required sources:
-- ODNR forestry pages
-- ODNR forest maps
-- ODNR GIS datasets
+Sources:
+- ODNR forestry pages  
+- ODNR forest maps  
+- ODNR GIS datasets  
 
 ## 3.3 ODNR Division of Wildlife
 Check for:
-- Wildlife areas (→ Sites)
-- Hunting units (→ Sub‑Sites)
-- Fishing access points (→ Access Points)
-- Wildlife area trails (→ Trails)
+- Wildlife areas → Sites  
+- Hunting units → child Sites  
+- Fishing access points → Access Points  
+- Wildlife area trails → Trails  
 
-Required sources:
-- ODNR wildlife area pages
-- ODNR wildlife GIS datasets
+Sources:
+- ODNR wildlife area pages  
+- ODNR wildlife GIS datasets  
 
 ## 3.4 ODNR Division of Natural Areas & Preserves
 Check for:
-- State nature preserves (→ Sites)
-- Preserve units (→ Sub‑Sites)
-- Preserve access points (→ Access Points)
-- Preserve trails (→ Trails)
+- State nature preserves → Sites  
+- Preserve units → child Sites  
+- Preserve access points → Access Points  
+- Preserve trails → Trails  
 
-Required sources:
-- DNAP preserve pages
-- DNAP maps
-- DNAP GIS datasets
+Sources:
+- DNAP preserve pages  
+- DNAP maps  
+- DNAP GIS datasets  
 
 ## 3.5 ODNR Scenic Rivers Program
 Check for:
-- Scenic River designations (→ Site Networks)
-- Scenic River access points (→ Access Points)
-- Scenic River segments (→ Trail Segments if linear trails exist)
+- Scenic River designations → Site Networks  
+- Scenic River access points → Access Points  
+- Scenic River segments → Trail Segments (if linear trails exist)  
 
-Required sources:
-- Scenic River program pages
-- Scenic River maps
-- Scenic River GIS datasets
+Sources:
+- Scenic River program pages  
+- Scenic River maps  
+- Scenic River GIS datasets  
 
 ## 3.6 ODNR Mineral Resources
 Check for:
-- Surface‑managed lands only (→ Sites)
-- Public access areas (→ Access Points)
+- Surface‑managed lands → Sites  
+- Public access areas → Access Points  
 
-Required sources:
-- ODNR mineral resources datasets
-
-------------------------------------------------------------
-# 4. COUNTY‑ANCHORED VERIFICATION (MANDATORY)
-
-For each state entity identified, the system must verify:
-
-## 4.1 Parcel Boundaries
-- Confirm the entity lies within the county
-- Segment multi‑county Sites by county
-
-## 4.2 Management Authority
-Record:
-- ODNR division
-- Co‑management (park district, county, municipal)
-- Special agreements (e.g., USACE + ODNR)
-
-## 4.3 Access Points
-Identify:
-- Boat ramps
-- Trailheads
-- Parking areas
-- Scenic overlooks
-- River access points
-- Campground entrances
-
-Access Points must be surfaced as **Access Point candidates** and passed to the
-Access Point Discovery Sub‑Procedure v3.1.
-
-## 4.4 Naming Consistency
-Use the **state‑published name** as the authoritative name.
+Sources:
+- ODNR mineral resources datasets  
 
 ------------------------------------------------------------
-# 5. DECISION RULES FOR ENTITY CREATION
+# 4. STATE LAND DISCOVERY CONDITIONS
 
-### 5.1 Site Creation
-A state‑managed feature becomes a **Site** if:
-- It is ODNR‑owned or ODNR‑managed
-- It is identity‑bearing (named, mapped, or designated)
-- It has public access or recreation infrastructure
-- It influences Access Point logic
+## 4.1 Ohio History Connection (OHC)
+Check for:
+- State memorials → Sites  
+- Archaeological preserves → Sites  
+- Historic landscapes → Sites  
+- Mound sites → Sites  
+- Cultural preserves → Sites  
+
+Sources:
+- OHC site pages  
+- OHC GIS datasets  
+- National Register listings (cross‑reference only)  
+
+## 4.2 ODOT
+Check for:
+- Scenic overlooks → Sites or Access Points  
+- State‑managed bikeway corridors → Trails  
+- Multi‑use paths along state routes → Trails  
+- Mitigation lands → Sites (if identity‑bearing)  
+
+Sources:
+- ODOT GIS  
+- ODOT project pages  
+- ODOT bikeway datasets  
+
+## 4.3 EPA / DEFA (Conditional)
+Include only if:
+- Public access exists  
+- The site is identity‑bearing  
+- The site is managed as a natural area  
 
 Examples:
-- State parks
-- State forests
-- Wildlife areas
-- Nature preserves
-- Scenic River units (if identity‑bearing)
+- Wetland mitigation sites  
+- Stream restoration sites  
+
+## 4.4 ODA (Conditional)
+Include only if:
+- Identity‑bearing  
+- Public access exists  
+- Managed for conservation  
+
+Examples:
+- Demonstration farms  
+- Conservation areas  
+
+------------------------------------------------------------
+# 5. TIER‑ANCHORED VERIFICATION (MANDATORY)
+
+## 5.1 Confirm Boundaries
+- Verify the feature lies within the county  
+- Record all counties exactly as discovered in `counties_raw`  
+- **Do NOT segment multi‑county Sites**  
+- Normalization alphabetizes and semicolon‑delimits the county list  
+
+## 5.2 Confirm Management Authority
+Record:
+- ODNR division  
+- OHC  
+- ODOT  
+- EPA / ODA (if applicable)  
+- Co‑management (park district, county, municipal)  
+
+## 5.3 Confirm Access Points
+Identify:
+- Boat ramps  
+- Trailheads  
+- Parking areas  
+- Scenic overlooks  
+- River access points  
+- Campground entrances  
+
+Access Points must be surfaced as **Access Point candidates** and passed to the  
+**Access Point Discovery Sub‑Procedure v3.2.2**.
+
+## 5.4 Naming
+Record names **exactly as discovered**.  
+If multiple names appear → record all in metadata.
+
+------------------------------------------------------------
+# 6. DECISION RULES FOR ENTITY CREATION
+
+### 6.1 Site Creation
+A state‑managed feature becomes a **Site** if:
+- ODNR‑owned, ODNR‑managed, OHC‑managed, or ODOT‑managed  
+- Identity‑bearing (named, mapped, or designated)  
+- Public access or recreation infrastructure exists  
+- Influences Access Point logic  
 
 Exclude:
-- Administrative offices
-- Maintenance yards
-- Non‑public parcels with no identity
+- Administrative offices  
+- Maintenance yards  
+- Non‑public parcels with no identity  
 
-### 5.2 Sub‑Site Creation
-Create a **Sub‑Site** when:
-- A named internal unit exists within a state Site
-- A campground, day‑use area, or management unit is identity‑bearing
+### 6.2 Child Site Creation
+Create a **child Site** when:
+- A named internal unit exists within a state Site  
+- A campground, day‑use area, or management unit is identity‑bearing  
+- A preserve unit or forest management zone is documented  
 
-### 5.3 Trail Creation
+### 6.3 Trail Creation
 Create a **Trail** when:
-- A named trail appears in ODNR datasets or maps
+- A named trail appears in ODNR, OHC, or ODOT datasets or maps  
 
-### 5.4 Trail Segment Creation
+### 6.4 Trail Segment Creation
 Create a **Trail Segment** when:
-- Segment‑level geometry or identifiers exist
+- Segment‑level geometry or identifiers exist  
 
-### 5.5 Trail Network Creation
+### 6.5 Trail Network Creation
 Create a **Trail Network** when:
-- A statewide or regional multi‑trail system is documented
+- A statewide or regional multi‑trail system is documented  
 
 Examples:
-- Buckeye Trail (if treated as a network)
-- Statewide water trail systems
+- Buckeye Trail (if treated as a network)  
+- Statewide water trail systems  
 
-### 5.6 Site Network Creation
+### 6.6 Site Network Creation
 Create a **Site Network** when:
-- A Scenic River corridor or similar multi‑site designation exists
+- A Scenic River corridor or similar multi‑site designation exists  
 
-### 5.7 Access Point Creation
+### 6.7 Access Point Creation
 Create an **Access Point** when:
-- A visitor‑facing entry location is documented
+- A visitor‑facing entry location is documented  
 
 ------------------------------------------------------------
-# 6. TIER‑SPECIFIC EXPECTATIONS
+# 7. TIER‑SPECIFIC EXPECTATIONS
 
 The State Tier **must** surface:
-
-- All state parks
-- All state forests
-- All wildlife areas
-- All nature preserves
-- All Scenic Rivers
-- All state‑managed trails
-- All state‑managed access points
-- All identity‑bearing Sub‑Sites
+- All state parks  
+- All state forests  
+- All wildlife areas  
+- All nature preserves  
+- All Scenic Rivers  
+- All OHC‑managed state memorials and preserves  
+- All ODOT scenic overlooks and state‑managed bikeways  
+- All state‑managed trails  
+- All state‑managed access points  
+- All identity‑bearing child Sites  
 
 The State Tier **may** surface:
-
-- Statewide trail networks
-- Scenic River Site Networks
-- State‑managed easements
-
-------------------------------------------------------------
-# 7. LOGGING REQUIREMENTS
-
-For each state entity, log:
-- ODNR division
-- Entity name
-- Entity type (Site, Sub‑Site, Trail, Trail Segment, Trail Network, Site Network)
-- County
-- Source dataset
-- URL or reference
-- Access type (if applicable)
-- Notes on co‑management
-- Discovery Tier: **2**
-- Uncertainty or conflicts
-
-Each county must also produce:
-- State Sites Found
-- Sub‑Sites Found
-- Trails Found
-- Trail Segments Found
-- Trail Networks Found
-- Site Networks Found
-- Access Points Found
-- Sources Checked
-- Notes
+- Statewide trail networks  
+- Scenic River Site Networks  
+- State‑managed easements  
+- EPA/ODA conservation lands (conditional)  
 
 ------------------------------------------------------------
-# 8. OUTPUT FORMAT
+# 8. LOGGING REQUIREMENTS
 
-### 8.1 State Entities
-Name:
-Type: Site / Sub‑Site / Trail / Trail Segment / Trail Network / Site Network
-Agency: ODNR Division
-County:
-URL or Source:
-Notes:
-Discovery Tier: 2
+Each discovered entity must include:
+- Full **Discovery Metadata v3.2.2**  
+- All raw source references  
+- All counties (raw)  
+- All conflicts and uncertainties  
+- All parent relationships (for child Sites and Access Points)  
+- All geometry (if available)  
 
-### 8.2 Access Points
-Name:
-Type: Access Point
-Access Point Type (raw):
-Parent Entity:
-County:
-Source:
-Notes:
-Discovery Tier: 2
+All values must be raw and unnormalized.
 
 ------------------------------------------------------------
-# 9. INTEGRATION POINTS
+# 9. OUTPUT REQUIREMENTS
+
+Each state entity must output a **Raw Candidate Record** conforming to:
+- **Discovery Output Specification v3.2.2**  
+- **Discovery Metadata Specification v3.2.2**  
+- The appropriate Schema Module v3.2.2  
+- The appropriate Vocabulary Module v3.2.2  
+
+No normalized fields may appear in Tier 2 output.
+
+------------------------------------------------------------
+# 10. INTEGRATION POINTS
 
 This module integrates with:
-- Discovery Protocol Module v3.1
-- Site Discovery Sub‑Procedure v3.1
-- Sub‑Site Discovery Sub‑Procedure v1
-- Trail Discovery Sub‑Procedure v1
-- Trail Segment Discovery Sub‑Procedure v1
-- Trail Network Discovery Sub‑Procedure v1
-- Site Network Discovery Sub‑Procedure v1
-- Access Point Discovery Sub‑Procedure v3.1
-- Discovery Metadata Specification v1.0
-- Audit & Logging Module v1.1
-- County Baseline Module v1.1
-- Resolution Module v1
+- **Discovery Protocol Module v3.2.2**  
+- **Discovery Orchestration Module v3.2.2**  
+- **Site Discovery Sub‑Procedure v3.2.2**  
+- **Trail Discovery Sub‑Procedure v3.2.2**  
+- **Trail Segment Discovery Sub‑Procedure v3.2.2**  
+- **Trail Network Discovery Sub‑Procedure v3.2.2**  
+- **Site Network Discovery Sub‑Procedure v3.2.2**  
+- **Access Point Discovery Sub‑Procedure v3.2.2**  
+- **Child Site Rules Module v3.2.2**  
+- **Discovery Metadata Specification v3.2.2**  
+- **Discovery Output Specification v3.2.2**  
+- **Normalization Contracts v3.2.2**  
+- **Resolution Module v3.2.2**  
+- **TSV Output Specifications v3.2.2**  
+- **Audit & Logging Module v3.2.2**  
+- **County Baseline Module v3.2.2**  
 
 No other module may reference this sub‑procedure directly.
 
 ------------------------------------------------------------
-# 10. VERSIONING
-- This module is **State Lands Discovery Sub‑Procedure v3.1**.
-- Updates to ODNR datasets may result in v3.2, v3.3, etc.
-- Any change to tier order or high‑level workflow must be made in the Discovery Protocol Module v3.1.
+# 11. VERSIONING
+
+- This module is **State Lands Discovery Sub‑Procedure v3.2.2**.  
+- Updates to ODNR, OHC, ODOT, EPA, or ODA datasets may result in v3.3, v3.4, etc.  
+- Any change to tier order or workflow must be made in the  
+  **Discovery Protocol Module v3.2.2**.
 
 ------------------------------------------------------------
-# END OF STATE LANDS DISCOVERY SUB‑PROCEDURE v3.1
+# END OF STATE LANDS DISCOVERY SUB‑PROCEDURE v3.2.2

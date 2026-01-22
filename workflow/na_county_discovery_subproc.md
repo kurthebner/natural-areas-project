@@ -1,306 +1,321 @@
-# COUNTY DISCOVERY SUB‑PROCEDURE v3.1
-(County Government, County GIS, County Recreation Assets, County‑Hosted Pages)
+# NATURAL AREAS PROJECT — COUNTY LANDS DISCOVERY SUB‑PROCEDURE v3.2.2  
+(County Governments, County GIS, County Recreation Departments, County‑Hosted Municipal/Township Pages)
 
-Tier 4 of the Discovery Protocol Module v3.1.
+Tier 4 of the **Discovery Protocol Module v3.2.2**.
 
-County‑level discovery is one of the most authoritative and information‑rich tiers.
-Counties maintain GIS datasets, recreation pages, planning documents, and in many
-cases host municipal or township subpages. This tier must surface all identity‑bearing
-county‑managed entities across the full 7‑entity ontology.
+Counties in Ohio vary widely in capacity, GIS sophistication, and recreation infrastructure.  
+Some maintain robust GIS systems and recreation departments; others rely on minimal web  
+presence or county‑hosted municipal/township pages. County GIS is often the most  
+authoritative source for park boundaries, trail alignments, and access infrastructure.
 
-This module defines the **detailed rules** for Tier 4 discovery across all seven
-entity types.
+This module defines the **authoritative, deterministic rules** for Tier 4 discovery  
+across all six entity types.
 
 ------------------------------------------------------------
 # 1. PURPOSE
+
 This sub‑procedure defines how the system must:
 
-- Identify all county‑owned or county‑managed **Sites**
-- Identify county‑managed **Sub‑Sites**
-- Identify county‑managed **Trails** and **Trail Segments**
-- Identify county‑managed **Trail Networks** (if any)
-- Identify county‑managed **Site Networks** (rare but possible)
-- Identify county‑managed **Access Points**
-- Identify county‑hosted municipal/township pages
-- Identify county recreation assets
-- Use county GIS as a primary discovery source
-- Log uncertainty and boundary cases
-- Produce Raw Candidate Records and Discovery Metadata
+- Identify county‑owned or county‑managed **Sites**  
+- Identify county‑managed **child Sites** (Sites with Parent Site populated)  
+- Identify county‑managed **Trails** and **Trail Segments**  
+- Identify county‑managed **Trail Networks** (rare)  
+- Identify county‑managed **Site Networks** (rare)  
+- Identify county‑managed **Access Points**  
+- Identify county‑hosted municipal/township pages  
+- Distinguish county management from municipal/township co‑management  
+- Avoid false positives from similarly named places  
+- Log uncertainty and boundary cases  
+- Produce Raw Candidate Records and Discovery Metadata v3.2.2  
 
-This module is referenced **only** by the Discovery Protocol Module v3.1.
+This module is referenced **only** by the Discovery Protocol Module v3.2.2.
 
 ------------------------------------------------------------
 # 2. SCOPE
+
 This sub‑procedure applies to:
 
-- County government websites
-- County GIS systems
-- County recreation departments
-- County planning commissions
-- County commissioners’ pages
-- County‑hosted municipal/township pages
-- County tourism/visitors bureau pages
-- County‑level trail plans
+- County government websites  
+- County GIS systems  
+- County recreation departments  
+- County planning commissions  
+- County commissioners’ pages  
+- County‑hosted municipal/township pages  
+- County tourism or visitors bureau pages  
+- County‑level trail plans  
 
 It governs discovery of:
 
-- **Sites**
-- **Sub‑Sites**
-- **Trails**
-- **Trail Segments**
-- **Trail Networks**
-- **Site Networks**
-- **Access Points**
+- **Sites**  
+- **Child Sites**  
+- **Trails**  
+- **Trail Segments**  
+- **Trail Networks**  
+- **Site Networks**  
+- **Access Points**  
 
-This tier sits **below Park Districts** and **above Townships**.
+This tier sits **below District‑Level Public Landholders** and **above Township**.
 
 ------------------------------------------------------------
 # 3. REQUIRED SOURCES (ALL MANDATORY)
 
 ## 3.1 County Government Website
-Check for:
-- Parks
-- Recreation
-- Facilities
-- Natural Resources
-- Open Space
-- Conservation
-- Trails
-- Outdoor Recreation
+Scan for:
 
-Scan all subpages, including:
-- Hidden or unlinked pages
-- PDF brochures
-- County‑hosted municipal/township pages
-- County recreation guides
+- Parks  
+- Recreation  
+- Facilities  
+- Natural Resources  
+- Open Space / Conservation  
+- Trails  
+- Outdoor Recreation  
+
+Include:
+
+- Hidden or unlinked pages  
+- PDF brochures  
+- County‑hosted municipal/township pages  
+- Recreation guides  
 
 ## 3.2 County GIS (Primary Authoritative Source)
 Check for layers including:
-- Parks (→ Sites)
-- Open space (→ Sites)
-- Conservation lands (→ Sites)
-- Trails (→ Trails, Trail Segments)
-- Recreation facilities (→ Sites or Sub‑Sites)
-- Boat launches (→ Access Points)
-- Fishing access (→ Access Points)
-- Hunting access (→ Access Points)
-- County‑owned parcels (→ Sites)
+
+- Parks → Sites  
+- Open space → Sites  
+- Conservation lands → Sites  
+- Trails → Trails, Trail Segments  
+- Recreation facilities → Sites or child Sites  
+- Boat launches → Access Points  
+- Fishing access → Access Points  
+- Hunting access → Access Points  
+- County‑owned parcels → Sites  
 
 ## 3.3 County Planning Documents
 Check:
-- Comprehensive plans
-- Greenway plans
-- Open space plans
-- Trail plans
-- Recreation master plans
+
+- Comprehensive plans  
+- Greenway plans  
+- Open space plans  
+- Trail plans  
+- Recreation master plans  
 
 ## 3.4 County Commissioners’ Pages
 Check for:
-- Land acquisitions
-- Park resolutions
-- Conservation partnerships
-- Trail funding approvals
+
+- Land acquisitions  
+- Park resolutions  
+- Conservation partnerships  
+- Trail funding approvals  
 
 ## 3.5 County Tourism / Visitors Bureau
 Check for:
-- Parks
-- Trails
-- Natural attractions
-- Outdoor recreation assets
+
+- Parks  
+- Trails  
+- Natural attractions  
+- Outdoor recreation assets  
 
 ## 3.6 County‑Hosted Municipal/Township Pages
 These count as **authoritative** for municipal/township discovery.
 
 ------------------------------------------------------------
-# 4. SITE DISCOVERY RULES
+# 4. COUNTY LAND DISCOVERY CONDITIONS
 
-A county Site must be surfaced if:
+County discovery must account for:
 
-### ✔ 4.1 It is owned or managed by the county  
-### ✔ 4.2 It appears in county GIS  
-### ✔ 4.3 It appears on county recreation pages  
-### ✔ 4.4 It appears in county planning documents  
-### ✔ 4.5 It is identity‑bearing (named, mapped, or designated)  
+## 4.1 County‑Owned vs County‑Managed
+A Site may be:
 
-### ❌ Exclude:
-- Administrative offices
-- Maintenance yards
-- Non‑public facilities
+- Owned by the county  
+- Managed by the county  
+- Co‑managed with municipalities or park districts  
 
-### 4.6 Multi‑County Sites
-If a Site spans multiple counties:
-- Create one Raw Candidate Record per county
-- Use the same name
-- Segment GPS and notes if available
+All must be surfaced if identity‑bearing.
 
-------------------------------------------------------------
-# 5. SUB‑SITE DISCOVERY RULES
+## 4.2 County‑Hosted Municipal/Township Pages
+If the county hosts municipal/township pages:
 
-A Sub‑Site must be surfaced when:
-- A named internal unit exists within a county Site
-- A recreation area, facility, or natural area is identity‑bearing
-- A campground, lake area, or management zone is named
+- Treat them as authoritative  
+- Surface all parks, preserves, trails, and facilities listed  
+- Log the county as the source  
 
-Do **not** surface:
-- Amenities (playgrounds, shelters, overlooks)
-- Temporary zones
-- Unnamed management areas
+Discoveries remain **Tier 4**.
 
-------------------------------------------------------------
-# 6. COUNTY TRAIL SYSTEM DISCOVERY RULES
+## 4.3 County Recreation Departments
+If a recreation department exists:
 
-A county trail system becomes a **Trail** or **Trail Network** if:
-- It is named and mapped
-- It has one or more Access Points
-- It is identity‑bearing
-- It is not fully contained within a single park
+- Scan all program pages  
+- Scan all facility pages  
+- Scan all park listings  
+- Scan all trail listings  
+- Scan all brochures and PDFs  
 
-Segment multi‑county trails by county.
+## 4.4 County Planning Commissions
+Planning documents often contain:
+
+- Unlisted parks  
+- Planned parks  
+- Trail corridors  
+- Access Points  
 
 ------------------------------------------------------------
-# 7. TRAIL SEGMENT DISCOVERY RULES
+# 5. TIER‑ANCHORED VERIFICATION (MANDATORY)
 
-Surface Trail Segments when:
-- Segment‑level geometry exists in county GIS
-- Segment identifiers or names appear in maps or plans
-- Trails are broken into operational sections
+## 5.1 Confirm County Boundaries
+- Verify the feature lies within the county  
+- **Record all counties in `counties_raw`**  
+- **Do NOT segment multi‑county features**  
 
-------------------------------------------------------------
-# 8. SITE NETWORK DISCOVERY RULES
-
-Surface a **Site Network** when:
-- A county‑managed multi‑site system exists
-- A greenway corridor spans multiple Sites
-- A conservation network is formally documented
-
-These are rare but must be captured.
-
-------------------------------------------------------------
-# 9. ACCESS POINT DISCOVERY RULES
-
-County Access Points must be surfaced when:
-- They appear in county GIS
-- They appear on county recreation maps
-- They appear in county brochures
-- They appear in county trail plans
-
-Access Points must include:
-- Name or descriptive label
-- Access Point Type (raw)
-- County
-- Parent entity (Site, Sub‑Site, Trail, Trail Segment)
-- Source(s)
-- Notes
-
-These are passed to the Access Point Discovery Sub‑Procedure v3.1.
-
-------------------------------------------------------------
-# 10. COUNTY‑HOSTED MUNICIPAL/TOWNSHIP PAGES
-
-If the county hosts municipal or township pages:
-- Treat them as authoritative for municipal/township discovery
-- Surface any parks, preserves, trails, or facilities listed
-- Log the county as the source of the municipal/township information
-
-These discoveries remain **Tier 4** because the county is the authoritative host.
-
-------------------------------------------------------------
-# 11. COUNTY‑ANCHORED VERIFICATION (MANDATORY)
-
-For each county entity:
-
-## 11.1 Confirm County Boundaries
-- Verify the feature lies within the county
-- Segment multi‑county features
-
-## 11.2 Confirm Management Authority
+## 5.2 Confirm Management Authority
 Record:
-- County department
-- Co‑managers (if any)
 
-## 11.3 Confirm Access Points
+- County department  
+- Co‑managers (if any)  
+
+## 5.3 Confirm Access Points
 Identify:
-- Trailheads
-- Parking areas
-- Boat launches
-- Fishing access
-- Hunting access
-- Scenic overlooks
 
-## 11.4 Naming Consistency
-Use the **county‑published name** as authoritative.
+- Trailheads  
+- Parking areas  
+- Boat launches  
+- Fishing access  
+- Hunting access  
+- Scenic overlooks  
 
-------------------------------------------------------------
-# 12. LOGGING REQUIREMENTS
+Access Points must be surfaced as **Access Point candidates** and passed to the  
+**Access Point Discovery Sub‑Procedure v3.2.2**.
 
-For each county entity, log:
-- County
-- Entity name
-- Entity type (Site, Sub‑Site, Trail, Trail Segment, Trail Network, Site Network, Access Point)
-- Source dataset
-- URL or reference
-- Access type (if applicable)
-- Notes on co‑management
-- Discovery Tier: **4**
-- Uncertainty or conflicts
-
-Each county must also produce:
-- County Sites Found
-- Sub‑Sites Found
-- Trails Found
-- Trail Segments Found
-- Trail Networks Found
-- Site Networks Found
-- Access Points Found
-- County‑Hosted Municipal/Township Pages Used
-- Sources Checked
-- Notes
+## 5.4 Naming
+Record names **exactly as discovered**.  
+If multiple names appear → record all in metadata.
 
 ------------------------------------------------------------
-# 13. OUTPUT FORMAT
+# 6. DECISION RULES FOR ENTITY CREATION
 
-### 13.1 County Entities
-Name:
-Type: Site / Sub‑Site / Trail / Trail Segment / Trail Network / Site Network
-County:
-URL or Source:
-Notes:
-Discovery Tier: 4
+### 6.1 Site Creation
+A county feature becomes a **Site** if:
 
-### 13.2 Access Points
-Name:
-Type: Access Point
-Access Point Type (raw):
-Parent Entity:
-County:
-Source:
-Notes:
-Discovery Tier: 4
+- County‑owned or county‑managed  
+- Identity‑bearing (named, mapped, or designated)  
+- Public access or recreation infrastructure exists  
+- It influences Access Point logic  
+
+Exclude:
+
+- Administrative buildings  
+- Maintenance yards  
+- Non‑public facilities  
+
+### 6.2 Child Site Creation
+Create a **child Site** when:
+
+- A named internal unit exists within a county Site  
+- A recreation area, campground, or management area is identity‑bearing  
+- A special management zone is documented  
+
+### 6.3 Trail Creation
+Create a **Trail** when:
+
+- A named trail appears in county GIS, plans, or recreation pages  
+
+### 6.4 Trail Segment Creation
+Create a **Trail Segment** when:
+
+- Segment‑level geometry or identifiers exist  
+
+### 6.5 Trail Network Creation
+Create a **Trail Network** when:
+
+- A county‑managed multi‑trail system exists  
+- A greenway corridor spans multiple Trails  
+
+### 6.6 Site Network Creation
+Create a **Site Network** when:
+
+- A county‑managed multi‑site system exists  
+- A conservation or greenway network is formally documented  
+
+### 6.7 Access Point Creation
+Create an **Access Point** when:
+
+- A visitor‑facing entry location is documented  
 
 ------------------------------------------------------------
-# 14. INTEGRATION POINTS
+# 7. TIER‑SPECIFIC EXPECTATIONS
+
+The County Tier **must** surface:
+
+- All county‑owned or county‑managed Sites  
+- All identity‑bearing child Sites  
+- All county‑managed Trails  
+- All county‑managed Trail Segments  
+- All county‑managed Access Points  
+- All parks, preserves, and trails listed on county‑hosted municipal/township pages  
+
+The County Tier **may** surface:
+
+- County‑managed Trail Networks  
+- County‑managed Site Networks  
+- County‑managed easements  
+- Planned parks and trail corridors (if identity‑bearing)  
+
+------------------------------------------------------------
+# 8. LOGGING REQUIREMENTS
+
+Each discovered entity must include:
+
+- Full **Discovery Metadata v3.2.2**  
+- All raw source references  
+- All counties (raw)  
+- All conflicts and uncertainties  
+- All parent relationships (for child Sites and Access Points)  
+- All geometry (if available)  
+
+All values must be raw and unnormalized.
+
+------------------------------------------------------------
+# 9. OUTPUT REQUIREMENTS
+
+Each county entity must output a **Raw Candidate Record** conforming to:
+
+- **Discovery Output Specification v3.2.2**  
+- **Discovery Metadata Specification v3.2.2**  
+- The appropriate Schema Module v3.2.2  
+- The appropriate Vocabulary Module v3.2.2**  
+
+No normalized fields may appear in Tier 4 output.
+
+------------------------------------------------------------
+# 10. INTEGRATION POINTS
 
 This module integrates with:
-- Discovery Protocol Module v3.1
-- Site Discovery Sub‑Procedure v3.1
-- Sub‑Site Discovery Sub‑Procedure v1
-- Trail Discovery Sub‑Procedure v1
-- Trail Segment Discovery Sub‑Procedure v1
-- Trail Network Discovery Sub‑Procedure v1
-- Site Network Discovery Sub‑Procedure v1
-- Access Point Discovery Sub‑Procedure v3.1
-- Discovery Metadata Specification v1.0
-- Audit & Logging Module v1.1
-- County Baseline Module v1.1
-- Resolution Module v1
+
+- **Discovery Protocol Module v3.2.2**  
+- **Discovery Orchestration Module v3.2.2**  
+- **Site Discovery Sub‑Procedure v3.2.2**  
+- **Trail Discovery Sub‑Procedure v3.2.2**  
+- **Trail Segment Discovery Sub‑Procedure v3.2.2**  
+- **Trail Network Discovery Sub‑Procedure v3.2.2**  
+- **Site Network Discovery Sub‑Procedure v3.2.2**  
+- **Access Point Discovery Sub‑Procedure v3.2.2**  
+- **Child Site Rules Module v3.2.2**  
+- **Discovery Metadata Specification v3.2.2**  
+- **Discovery Output Specification v3.2.2**  
+- **Normalization Contracts v3.2.2**  
+- **Resolution Module v3.2.2**  
+- **TSV Output Specifications v3.2.2**  
+- **Audit & Logging Module v3.2.2**  
+- **County Baseline Module v3.2.2**  
 
 No other module may reference this sub‑procedure directly.
 
 ------------------------------------------------------------
-# 15. VERSIONING
-- This module is **County Discovery Sub‑Procedure v3.1**.
-- Updates to county GIS standards or statewide county practices may result in v3.2, v3.3, etc.
-- Any change to tier order or high‑level workflow must be made in the Discovery Protocol Module v3.1.
+# 11. VERSIONING
+
+- This module is **County Lands Discovery Sub‑Procedure v3.2.2**.  
+- Updates to county GIS standards or statewide county practices may result in v3.3, v3.4, etc.  
+- Any change to tier order or workflow must be made in the  
+  **Discovery Protocol Module v3.2.2**.
 
 ------------------------------------------------------------
-# END OF COUNTY DISCOVERY SUB‑PROCEDURE v3.1
+# END OF COUNTY LANDS DISCOVERY SUB‑PROCEDURE v3.2.2

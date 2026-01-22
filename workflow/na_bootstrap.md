@@ -1,7 +1,7 @@
-# NATURAL AREAS PROJECT — SESSION BOOTSTRAP MODULE v3.1
+# NATURAL AREAS PROJECT — SESSION BOOTSTRAP MODULE v3.2.2
 A deterministic startup sequence for activating the full seven‑entity Natural
 Areas System. This module defines the upload order, activation command, and
-session health checks required to initialize the v3.1 architecture.
+session health checks required to initialize the v3.2.2 architecture.
 
 This module contains no controlled vocabularies.
 
@@ -12,29 +12,27 @@ The Session Bootstrap Module ensures:
 
 - All modules load in the correct order
 - No module is missing, duplicated, or overwritten
-- The AI activates the correct v3.1 system state
+- The AI activates the correct v3.2.2 system state
 - All schemas, vocabularies, workflows, and contracts are bound
 - The session is deterministic and reproducible
 
-This is the authoritative ignition file for the Natural Areas System v3.1.
+This is the authoritative ignition file for the Natural Areas System v3.2.2.
 
 ------------------------------------------------------------
 # 2. REQUIRED MODULES AND FILENAMES
 
 All modules must be uploaded exactly as listed below.
 
-## 2.1 Schema Modules (7)
+## 2.1 Schema Modules (6)
 - schema/na_site_schema.md
-- schema/na_sub-site_schema.md
 - schema/na_access_point_schema.md
 - schema/na_trail_schema.md
 - schema/na_trail_segment_schema.md
 - schema/na_trail_network_schema.md
 - schema/na_site_network_schema.md
 
-## 2.2 Vocabulary Modules (7)
+## 2.2 Vocabulary Modules (6)
 - vocabularies/na_site_vocabulary.md
-- vocabularies/na_sub-site_vocabulary.md
 - vocabularies/na_access_point_vocabulary.md
 - vocabularies/na_trail_vocabulary.md
 - vocabularies/na_trail_segment_vocabulary.md
@@ -45,21 +43,21 @@ All modules must be uploaded exactly as listed below.
 - workflow/natural-areas-project.md
 - workflow/na_processing.md
 - workflow/na_discovery_protocol.md
+- workflow/na_discovery_architecture.md
+- workflow/na_discovery_metadata_spec.md
 - workflow/na_resolution.md
 - workflow/na_bootstrap.md  *(this file)*
 
-## 2.4 Normalization Modules (7)
+## 2.4 Normalization Modules (6)
 - normalization/na_site_normalization.md
-- normalization/na_sub-site_normalization.md
 - normalization/na_access_point_normalization.md
 - normalization/na_trail_normalization.md
 - normalization/na_trail_segment_normalization.md
 - normalization/na_trail_network_normalization.md
 - normalization/na_site_network_normalization.md
 
-## 2.5 Output Modules (7)
+## 2.5 Output Modules (6 + Integrity Check)
 - output/na_site_tsv_specs.md
-- output/na_sub-site_tsv_specs.md
 - output/na_access_point_tsv_specs.md
 - output/na_trail_tsv_specs.md
 - output/na_trail_segment_tsv_specs.md
@@ -79,11 +77,11 @@ All modules must be uploaded exactly as listed below.
 
 Modules must be uploaded in this exact sequence:
 
-1. **Schema Modules (7)**
-2. **Vocabulary Modules (7)**
+1. **Schema Modules (6)**
+2. **Vocabulary Modules (6)**
 3. **Workflow & Logic Modules**
-4. **Normalization Modules (7)**
-5. **Output Modules (7 + Integrity Check)**
+4. **Normalization Modules (6)**
+5. **Output Modules (6 + Integrity Check)**
 6. **Audit & Baseline Modules**
 7. **Module Manifest**
 8. **This Bootstrap Module (last)**
@@ -115,12 +113,14 @@ The system is then ready to process counties.
 
 After activation, the AI must verify:
 
-- All seven schema modules are present
-- All seven vocabulary modules are present
-- All seven normalization contracts are present
-- All seven TSV output specifications are present
+- All six schema modules are present
+- All six vocabulary modules are present
+- All six normalization contracts are present
+- All six TSV output specifications are present
 - TSV Integrity Check Module is registered
 - Discovery Protocol is active
+- Discovery Architecture Module is active
+- Discovery Metadata Spec is active
 - Resolution Module is active
 - Processing Orchestration Module is active
 - Audit & Logging Module is active
@@ -140,25 +140,24 @@ baseline file and saying:
 The system will then:
 
 1. Load the county baseline
-2. Run discovery (all seven entities)
+2. Run discovery (all six entities)
 3. Apply resolution rules
 4. Normalize Sites
-5. Normalize Sub‑Sites
-6. Normalize Access Points
-7. Normalize Trails
-8. Normalize Trail Segments
-9. Normalize Trail Networks
-10. Normalize Site Networks
-11. Generate seven TSVs
-12. Run the TSV Integrity Check
-13. Validate cross‑entity relationships
-14. Produce a full audit log
+5. Normalize Access Points
+6. Normalize Trails
+7. Normalize Trail Segments
+8. Normalize Trail Networks
+9. Normalize Site Networks
+10. Generate six TSVs
+11. Run the TSV Integrity Check
+12. Validate cross‑entity relationships
+13. Produce a full audit log
 
 ------------------------------------------------------------
 # 7. VERSIONING
 
-This module is versioned independently.  
+This module is versioned independently.
 Changes to filenames, folder structure, or module list require incrementing the version.
 
 ------------------------------------------------------------
-# END OF SESSION BOOTSTRAP MODULE v3.1
+# END OF SESSION BOOTSTRAP MODULE v3.2.2
