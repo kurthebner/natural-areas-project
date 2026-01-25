@@ -1,31 +1,35 @@
-# NATURAL AREAS PROJECT — COUNTY BASELINE MODULE v3.2.2
+# NATURAL AREAS PROJECT — COUNTY BASELINE MODULE v4.0
+(Tier‑0 Baseline — Non‑Authoritative, Runs After All Other Tiers)
+
 Authoritative definition of how user‑authored county baseline spreadsheets are
-interpreted, preserved, and integrated into the Natural Areas processing pipeline.
+interpreted, preserved, and integrated into the v4.0 Natural Areas pipeline.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the respective Vocabulary Modules v3.2.2.
+All vocabularies are defined in the respective Vocabulary Modules v4.0.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-The County Baseline Module v3.2.2 defines:
+The County Baseline Module v4.0 defines:
 
 - What a county baseline *is*  
 - How baseline spreadsheets are interpreted  
-- How baseline identity is preserved  
-- How baseline integrates with discovery and resolution  
-- How baseline interacts with normalization  
-- How multi‑county baseline entries are handled  
-- How baseline metadata is recorded  
+- How baseline identity is preserved as **Tier‑0 seeds**  
+- How baseline integrates with discovery and resolution in v4.0  
+- How baseline interacts with normalization and the Entity Graph  
+- How multi‑county baseline entries are handled at the raw layer  
+- How baseline metadata is recorded and audited  
 
 This module ensures:
 
-- Deterministic identity seeding  
+- Deterministic identity seeding (Tier‑0 only)  
 - Zero invention  
 - Zero normalization  
 - Zero silent correction  
 - Full auditability  
-- Full compatibility with the v3.2.2 pipeline  
+- Full compatibility with the v4.0 tiered pipeline  
+
+Baselines are **never authoritative** over agency or GIS sources.
 
 ------------------------------------------------------------
 # 2. BASELINE ORIGIN AND NATURE
@@ -48,7 +52,7 @@ Baselines are therefore:
 - Non‑standardized  
 - Identity‑bearing only  
 
-They are authoritative only for **“this entity exists”**, not for any specific field value.
+They are authoritative only for **“this entity probably exists”**, not for any specific field value.
 
 ------------------------------------------------------------
 # 3. SCOPE OF BASELINE CONTENT
@@ -59,15 +63,15 @@ A county baseline may contain **any** of the six entity types:
 - Access Point  
 - Trail  
 - Trail Segment  
-- Trail Network (rare but allowed)  
-- Site Network (rare but allowed)  
+- Trail Network  
+- Site Network  
 
 In practice, baselines are:
 
-- **Mostly Sites**  
-- **Sometimes Access Points**  
-- **Occasionally Trails or Trail Segments**  
-- **Rarely Networks**  
+- Mostly Sites  
+- Sometimes Access Points  
+- Occasionally Trails or Trail Segments  
+- Rarely Networks  
 
 No entity type is required.  
 No entity type is prohibited.
@@ -85,7 +89,7 @@ Baselines are stored as spreadsheets with:
 
 The only required field is:
 
-- **Name** (identity‑bearing)
+- **Name** (identity‑bearing seed)
 
 All other fields are optional and may be:
 
@@ -120,10 +124,10 @@ Baseline fields must never be:
 - Reformatted  
 - Interpreted as authoritative  
 
-Normalization happens later.
+All normalization and schema enforcement occur later in the v4.0 pipeline.
 
 ------------------------------------------------------------
-# 6. MULTI‑COUNTY BASELINE RULES (UNIVERSAL)
+# 6. MULTI‑COUNTY BASELINE RULES (RAW LAYER)
 
 If a baseline entry spans multiple counties:
 
@@ -133,40 +137,48 @@ If a baseline entry spans multiple counties:
 - Do not normalize  
 - Do not infer missing counties  
 
-Normalization later converts raw lists into:
+Later stages apply entity‑specific rules:
 
-- **semicolon‑delimited, alphabetized lists**
+- **Sites / Networks** → multi‑county allowed  
+- **Access Points** → must resolve to a single county or be flagged  
+- **Trails / Trail Segments** → multi‑county allowed  
+
+The baseline layer never enforces entity‑specific county rules.
 
 ------------------------------------------------------------
 # 7. BASELINE IDENTITY RULES
 
-## 7.1 Baseline entries are identity seeds
-Baseline defines the initial list of “things that exist in this county.”
+## 7.1 Baseline entries are Tier‑0 identity seeds
+Baseline defines an initial list of **candidate entities** for a county:
+- “This thing probably exists here.”
 
-## 7.2 Baseline identity overrides discovery identity
-If discovery finds a matching entity:
-- Baseline identity wins  
-- Discovery metadata is merged  
+## 7.2 Baseline never overrides authoritative discovery
+If authoritative discovery finds a matching entity:
+- Authoritative discovery wins  
+- Baseline identity becomes a supporting or conflicting claim  
+- All merges and conflicts are logged  
 
 ## 7.3 Baseline does not determine entity type
 Entity type is determined later by:
 - Discovery  
 - Resolution  
-- Normalization Contracts  
+- Normalization Contracts v4.0  
 
 ## 7.4 Baseline does not determine parent/child relationships
-Parent Site and parent Trail relationships are assigned later.
+Parent Site, Trail, Trail Segment, and network relationships are assigned later.
 
 ## 7.5 Baseline does not determine governance
-Governance is resolved later.
+Governance is resolved later from authoritative sources.
 
 ------------------------------------------------------------
-# 8. BASELINE INTEGRATION RULES
+# 8. BASELINE INTEGRATION RULES (v4.0 PIPELINE)
 
-During Stage 1 (Load Baseline):
+In v4.0, the baseline operates as **Tier‑0** and runs **after** all authoritative tiers.
 
+## 8.1 Stage 1 — Load Baseline (Tier‑0)
 - Load all rows exactly as written  
 - Mark all entries `seeded_from_baseline = true`  
+- Assign a `baseline_id` per row  
 - Preserve all raw fields  
 - Preserve all raw formatting  
 - Preserve all raw county lists  
@@ -174,78 +186,95 @@ During Stage 1 (Load Baseline):
 - Do not expand  
 - Do not infer  
 
-During Stage 2 (Discovery):
-
+## 8.2 Stage 2 — Discovery (Tiers 1–8)
+- Federal, State, District, County, Township, Municipal, Conservancy, Private tiers run first  
 - Discovery may add new entities  
-- Discovery may not override baseline identity  
+- Discovery is not constrained by baseline guesses  
 
-During Stage 3 (Resolution):
+## 8.3 Stage 3 — Resolution (Authoritative + Baseline)
+Resolution receives:
+- Authoritative discovery entities (tiers 1–8)  
+- Baseline entities (Tier‑0)  
 
-- Resolution may override baseline entity type  
-- Resolution may split baseline entries into child Sites if rules require  
+Resolution may:
+- Match baseline entries to discovered entities  
+- Treat unmatched baseline entries as low‑confidence candidates  
+- Override baseline entity type  
+- Split baseline entries into child Sites if rules require  
+
+Baseline is always the **lowest‑authority source**.
 
 ------------------------------------------------------------
 # 9. BASELINE CONFLICT RULES
 
 If baseline conflicts with discovery:
-
-- Baseline identity wins  
-- Discovery metadata is appended  
+- Authoritative discovery + Resolution win  
+- Baseline identity is preserved as a conflicting claim  
 - Conflict is logged  
 
 If baseline conflicts with normalization:
-
-- Normalization applies formatting rules  
-- Baseline identity is preserved  
+- Normalization applies schema rules  
+- Baseline raw values are preserved in provenance  
 - Conflict is logged  
 
 If baseline conflicts with authoritative sources:
-
-- Resolution determines the final identity  
+- Resolution determines the final identity and type  
+- Baseline is treated as a historical/user‑authored claim  
 - All conflicts are logged  
+
+Baseline is **never** allowed to override authoritative agency or GIS data.
 
 ------------------------------------------------------------
 # 10. BASELINE METADATA REQUIREMENTS
 
 For each baseline entry, metadata must record:
 
-- Source (baseline spreadsheet)  
+- Source (baseline spreadsheet identifier)  
 - Original row number  
 - Raw field values  
 - Raw county list  
+- `seeded_from_baseline` flag  
+- `baseline_id`  
 - Any anomalies detected  
 - Any conflicts with discovery  
 - Any conflicts with normalization  
 - Any Resolution overrides  
+
+Metadata must be preserved in the Audit & Logging system.
 
 ------------------------------------------------------------
 # 11. BASELINE OUTPUT
 
 The baseline module produces:
 
-- A county‑scoped identity list  
+- A county‑scoped **Tier‑0 identity seed list**  
 - Raw baseline metadata  
 - A unified baseline state for all six entities  
 
 This output is consumed by:
 
-- Discovery Orchestration Module v3.2  
-- Resolution Module v3.2.2  
-- Normalization Contracts v3.2.2  
-- Audit & Logging Module v3.2.2  
+- Discovery Protocol Module v4.0 (as Tier‑0 inputs)  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- Entity Graph Schema v4.0  
+- Audit & Logging Module v4.0  
+
+Baseline output is never used directly for normalized entities; it always flows through Resolution and Normalization.
 
 ------------------------------------------------------------
 # 12. MODULE DEPENDENCIES
 
 This module depends on:
 
-- All six Schema Modules v3.2.2  
-- All six Vocabulary Modules v3.2.2  
-- Discovery Protocol Module v3.2.2  
-- Resolution Module v3.2.2  
-- Processing Orchestration Module v3.2.2  
-- Audit & Logging Module v3.2.2  
-- Child Site Rules Module v3.2.2  
+- All six Schema Modules v4.0  
+- All six Vocabulary Modules v4.0  
+- Discovery Protocol Module v4.0  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- Processing / Orchestration Module v4.0  
+- Entity Graph Schema v4.0  
+- Audit & Logging Module v4.0  
+- Child Site Rules Module v4.0  
 
 ------------------------------------------------------------
-# END OF COUNTY BASELINE MODULE v3.2.2
+# END OF COUNTY BASELINE MODULE v4.0

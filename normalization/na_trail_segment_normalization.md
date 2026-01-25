@@ -1,27 +1,37 @@
-# NATURAL AREAS PROJECT — TRAIL SEGMENT NORMALIZATION CONTRACT v3.2.2
-Authoritative, deterministic, field‑by‑field normalization contract for transforming
-Trail Segment Raw Candidate Records into fully normalized Trail Segment entities
-under the v3.2.2 ontology.
+# NATURAL AREAS PROJECT — TRAIL SEGMENT NORMALIZATION CONTRACT v4.0
+Authoritative, deterministic, field‑by‑field normalization contract for transforming  
+**Resolved Trail Segment Entities** into fully normalized Trail Segment entities  
+under the v4.0 ontology.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Trail Segment Vocabulary Module v3.2.2**.
+All vocabularies are defined in the **Trail Segment Vocabulary Module v4.0**.
+
+Normalization must be deterministic, provenance‑preserving, and aligned with:
+
+- Trail Segment Schema Module v4.0  
+- Trail Schema Module v4.0 (for parent validation)  
+- Trail Network Schema Module v4.0  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- TSV Output Specification (Trail Segments) v4.0  
+- Audit & Logging Module v4.0  
+
+No invented data is permitted.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
 This module defines:
 
-- How raw Trail Segment discoveries are normalized  
-- How each Trail Segment Schema v3.2.2 field is populated  
+- How resolved Trail Segment entities are normalized  
+- How each Trail Segment Schema v4.0 field is populated  
 - How Segment Type, Surface, Status, and Use are validated  
 - How parent Trail relationships are validated  
 - How geometry, GPS, Plus Code, and URL rules are applied  
 - How multi‑county segments are normalized  
-- How normalization integrates with the Audit & Logging Module v3.2.2  
-- How conflicts and uncertainties are surfaced to the Resolution Module v3.2.2  
-
-**Derived Label is not constructed during normalization.**  
-It is computed only during TSV output.
+- How conflicts and uncertainties are surfaced  
+- How Derived Label is computed (v4.0)  
+- How normalization integrates with audit and provenance  
 
 This module is authoritative for Trail Segment normalization.
 
@@ -30,86 +40,65 @@ This module is authoritative for Trail Segment normalization.
 
 Normalization consumes:
 
-## 2.1 Raw Candidate Record  
-From **Discovery Output Specification v3.2.2**, including:
+## 2.1 Resolved Trail Segment Entity (from Resolution Engine v4.0)
+Including:
 
-- name_raw  
-- parent_trail_raw  
-- counties_raw  
-- municipalities_raw, townships_raw  
-- surface_raw, status_raw, use_raw  
-- gps_raw  
-- geometry_raw  
-- length_raw  
-- url_primary_raw, url_all_raw  
-- notes_raw  
-- description_raw  
-- source_datasets_raw  
-- source_maps_raw  
-- source_gis_layers_raw  
-- discovery_tier  
-- discovered_in_tiers  
-- seeded_from_baseline  
-- baseline_id_raw  
-- discovery_metadata (v3.2.2)
+- name_resolved  
+- parent_trail_resolved  
+- counties_resolved  
+- municipalities_resolved, townships_resolved  
+- surface_resolved, status_resolved, use_resolved  
+- gps_resolved  
+- geometry_resolved  
+- length_resolved  
+- url_primary_resolved, url_all_resolved  
+- notes_resolved  
+- description_resolved  
+- provenance metadata  
+- conflict metadata  
+- uncertainty metadata  
 
-## 2.2 Discovery Metadata  
-From **Discovery Metadata Specification v3.2.2**, including:
+## 2.2 Vocabulary Modules v4.0
+- Segment Types  
+- Segment Surfaces  
+- Segment Uses  
+- Segment Status  
 
-- Identity metadata  
-- Tier metadata  
-- Source metadata  
-- Conflict metadata  
-- Uncertainty metadata  
-- Boundary metadata  
-- Parent/relationship metadata  
-- Baseline metadata  
-
-## 2.3 Vocabulary Modules  
-- **Trail Segment Vocabulary Module v3.2.2**  
-  - Segment Types  
-  - Segment Surfaces  
-  - Segment Uses  
-  - Segment Status  
-
-## 2.4 Schema Modules  
-- **Trail Segment Schema Module v3.2.2**  
-- **Trail Schema Module v3.2.2** (for parent validation)  
-- **Trail Network Schema Module v3.2.2** (for association validation)
+## 2.3 Schema Modules v4.0
+- Trail Segment Schema Module v4.0  
+- Trail Schema Module v4.0  
+- Trail Network Schema Module v4.0  
 
 ------------------------------------------------------------
 # 3. OUTPUTS
 
 Normalization produces:
 
-- A normalized Trail Segment entity conforming to the **Trail Segment Schema Module v3.2.2**  
-- A record ready for export via the **TSV Output Specification (Trail Segments) v3.2.2**  
-- Full audit trail entries via the **Audit & Logging Module v3.2.2**  
+- A **Normalized Trail Segment Entity** conforming to Trail Segment Schema v4.0  
+- A complete normalization provenance record  
+- A record ready for TSV Output and Entity Upsert Engine v4.0  
 
-No new information may be invented.
+Derived Label **is computed during normalization** (v4.0 rule).
 
 ------------------------------------------------------------
 # 4. NORMALIZATION WORKFLOW (HIGH‑LEVEL)
 
-1. Receive Raw Candidate Record  
-2. Validate identity  
-3. Normalize segment name  
-4. Normalize parent Trail  
-5. Normalize Segment Type, Surface, Use, Status  
-6. Normalize jurisdiction fields  
-7. Normalize geometry and GPS  
-8. Normalize length  
-9. Normalize Trail Network associations  
-10. Normalize description  
-11. Normalize notes  
-12. Normalize URLs and sources  
+1. Validate identity  
+2. Normalize segment name  
+3. Normalize parent Trail  
+4. Normalize Segment Type, Surface, Use, Status  
+5. Normalize jurisdiction fields  
+6. Normalize geometry and GPS  
+7. Normalize length  
+8. Normalize Trail Network associations  
+9. Normalize description  
+10. Normalize notes  
+11. Normalize URLs and sources  
+12. Compute Derived Label  
 13. Validate against schema  
 14. Emit normalized Trail Segment entity  
 
-**Derived Label is not constructed here.**  
-It is computed only during TSV output.
-
-If any critical step fails → surface to **Resolution Module v3.2.2**.
+If any critical step fails → surface to Resolution Engine v4.0.
 
 ------------------------------------------------------------
 # 5. FIELD‑BY‑FIELD NORMALIZATION RULES
@@ -117,10 +106,9 @@ If any critical step fails → surface to **Resolution Module v3.2.2**.
 ------------------------------------------------------------
 ## 5.1 Segment Name
 
-- Use `name_raw` exactly as discovered, with minimal whitespace cleanup.  
-- If multiple authoritative names/IDs exist → choose the most authoritative.  
-- Alternate names go in Description.  
-- Never invent names.  
+- Use `name_resolved` exactly as resolved.  
+- Minimal whitespace cleanup only.  
+- Alternate names → Description.  
 - Never infer names from geometry or map labels alone.
 
 Audit:
@@ -131,7 +119,7 @@ Audit:
 
 - Required.  
 - Must match the exact normalized name of a Trail entity.  
-- If parent Trail is not yet normalized → create a placeholder Trail for Resolution.  
+- If parent Trail unresolved → Resolution Engine handles identity resolution.  
 - Never infer parentage from proximity or geometry alone.  
 - A Trail Segment must have exactly one parent Trail.
 
@@ -141,7 +129,7 @@ Audit:
 ------------------------------------------------------------
 ## 5.3 Segment Type
 
-- Must match a value from the Segment Type vocabulary v3.2.2.  
+- Must match Segment Type vocabulary v4.0.  
 - Never infer from surface or status.  
 - If ambiguous → leave blank and flag uncertainty.
 
@@ -184,14 +172,15 @@ Audit:
 - Leave blank if unknown.
 
 ------------------------------------------------------------
-## 5.9 County
+## 5.9 County List
 
 - Required.  
-- Must match official Ohio county list.  
-- Semicolon‑delimit if multi‑county.  
-- Alphabetical order.  
-- Omit the word “County.”  
-- A Trail Segment spanning multiple counties must have **one normalized entity**.
+- Must match official county list.  
+- Semicolon‑delimited.  
+- Alphabetized.  
+- No duplicates.  
+- Never infer counties.  
+- A multi‑county segment is **one entity**, never segmented.
 
 ------------------------------------------------------------
 ## 5.10 Township & Municipality
@@ -212,10 +201,11 @@ Audit:
 ------------------------------------------------------------
 ## 5.12 Geometry
 
-- Use `geometry_raw` exactly as discovered.  
+- Use `geometry_resolved` exactly as provided.  
 - Do not simplify, smooth, or infer geometry.  
 - Preserve coordinate precision.  
-- If geometry is malformed → leave blank and flag uncertainty.
+- If geometry is malformed → leave blank and flag uncertainty.  
+- All geometry conflicts must be preserved in provenance.
 
 ------------------------------------------------------------
 ## 5.13 Plus Code
@@ -248,23 +238,25 @@ Audit:
 - Full `https://` URLs only.  
 - Semicolon‑delimit if multiple.  
 - Must be authoritative.  
-- No placeholders or inferred URLs.
+- No placeholders or inferred URLs.  
+- Normalize by removing tracking parameters.
 
 ------------------------------------------------------------
-## 5.17 Derived Label (computed at TSV output)
+## 5.17 Derived Label (computed during normalization)
 
 ### Rules
 
-- Derived Label is **not stored** in normalized entities.  
-- Derived Label is computed only during TSV output using the **TSV Output Specification v3.2.2**.  
+- Derived Label **is computed here** in v4.0.  
 - Must be derived solely from normalized fields.  
+- Must be deterministic.  
+- Must follow the Derived Label rules in TSV Output Specification v4.0.  
 - All construction steps must be logged.
 
 ------------------------------------------------------------
 # 6. MULTI‑COUNTY NORMALIZATION RULES
 
-- A Trail Segment spanning multiple counties produces **one normalized entity**, not multiple.  
-- The County field contains a **semicolon‑delimited, alphabetized list**.  
+- A Trail Segment spanning multiple counties produces **one normalized entity**.  
+- County List must be semicolon‑delimited and alphabetized.  
 - Boundary metadata must reflect all counties traversed.  
 - Never segment multi‑county Trail Segments.
 
@@ -284,7 +276,7 @@ Normalization must validate:
 - No delimiter characters inside fields  
 
 If validation fails:
-- Surface to Resolution  
+- Surface to Resolution Engine v4.0  
 - Do not silently correct  
 
 ------------------------------------------------------------
@@ -309,16 +301,16 @@ All anomalies must be logged.
 
 ### 9.2 Conflicting Length
 - Use the most authoritative source.  
-- If conflict persists → Resolution.
+- If conflict persists → Resolution Engine v4.0.
 
 ### 9.3 Conflicting Surface, Use, or Status
 - Use authoritative trail system sources.  
-- If unclear → Resolution.
+- If unclear → Resolution Engine v4.0.
 
 ### 9.4 Conflicting Geometry
 - Preserve all geometry claims in metadata.  
 - Use the most authoritative geometry for normalization.  
-- If unclear → Resolution.
+- If unclear → Resolution Engine v4.0.
 
 ------------------------------------------------------------
 # 10. MISSING DATA RULES
@@ -345,18 +337,18 @@ Normalization must:
 
 This module depends on:
 
-- **Trail Segment Vocabulary Module v3.2.2**  
-- **Trail Segment Schema Module v3.2.2**  
-- **Trail Schema Module v3.2.2**  
-- **TSV Output Specification (Trail Segments) v3.2.2**  
-- **Discovery Protocol Module v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- **Trail Normalization Contract v3.2.2**  
-- **Trail Network Normalization Contract v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **Processing / Orchestration Module v3.2.2**
+- Trail Segment Vocabulary Module v4.0  
+- Trail Segment Schema Module v4.0  
+- Trail Schema Module v4.0  
+- TSV Output Specification (Trail Segments) v4.0  
+- Discovery Protocol Module v4.0  
+- Discovery Output Specification v4.0  
+- Discovery Metadata Specification v4.0  
+- Trail Normalization Contract v4.0  
+- Trail Network Normalization Contract v4.0  
+- Resolution Engine v4.0  
+- Audit & Logging Module v4.0  
+- Processing / Orchestration Module v4.0  
 
 ------------------------------------------------------------
-# END OF TRAIL SEGMENT NORMALIZATION CONTRACT v3.2.2
+# END OF TRAIL SEGMENT NORMALIZATION CONTRACT v4.0

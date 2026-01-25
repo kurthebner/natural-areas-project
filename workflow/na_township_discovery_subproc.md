@@ -1,20 +1,23 @@
-# NATURAL AREAS PROJECT — TOWNSHIP LANDS DISCOVERY SUB‑PROCEDURE v3.2.2  
-(Ohio Townships, Township Websites, Township‑Hosted Pages, Township Recreation Assets)
+# NATURAL AREAS PROJECT  
+# TOWNSHIP LANDS DISCOVERY SUB‑PROCEDURE v4.0  
+(Ohio Townships, Township Websites, County‑Hosted Township Pages, Township Recreation Assets)
 
-Tier 5 of the **Discovery Protocol Module v3.2.2**.
+Tier 5 of the **Discovery Protocol Module v4.0**.
 
-Townships in Ohio vary widely in capacity, web presence, and documentation.  
-Some maintain full recreation pages; others have no website at all. Township parks  
-may exist even when no recreation department exists, and many township parks are  
-hidden on non‑indexed subpages.
+Townships in Ohio vary dramatically in capacity, documentation quality, and web presence.  
+Some maintain full recreation pages; others have no website at all. Township parks may be
+hidden on non‑indexed subpages, embedded PDFs, or county‑hosted pages.
 
-This module defines the **authoritative, deterministic rules** for Tier 5 discovery  
-across all six entity types.
+This module defines the authoritative, deterministic Tier‑5 discovery rules for township‑owned
+and township‑managed natural areas within the v4.0 Raw → Resolution → Normalization → Entity Graph pipeline.
+
+This module contains no controlled vocabularies.  
+All vocabularies are defined in the appropriate v4.0 Vocabulary Modules.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-This sub‑procedure defines how the system must:
+The Township Lands Discovery Sub‑Procedure v4.0 defines how Tier 5 must:
 
 - Identify township‑owned or township‑managed **Sites**  
 - Identify township‑managed **child Sites**  
@@ -25,9 +28,14 @@ This sub‑procedure defines how the system must:
 - Identify township recreation assets even when no recreation department exists  
 - Identify township pages hosted by the county  
 - Surface uncertainty and conflicts  
-- Produce Raw Candidate Records and Discovery Metadata v3.2.2  
+- Produce Raw Discovery Records v4.0  
+- Produce Discovery Metadata v4.0  
 
-This module is referenced **only** by the Discovery Protocol Module v3.2.2.
+This module is referenced only by:
+
+- Discovery Protocol Module v4.0  
+- Discovery Orchestration Module v4.0  
+- Tier Sub‑Procedure Template v4.0  
 
 ------------------------------------------------------------
 # 2. SCOPE
@@ -44,21 +52,23 @@ This sub‑procedure applies to:
 
 It governs discovery of:
 
-- **Sites**  
-- **Child Sites**  
-- **Trails**  
-- **Trail Segments**  
-- **Trail Networks**  
-- **Site Networks**  
-- **Access Points**  
+- Sites  
+- Child Sites  
+- Trails  
+- Trail Segments  
+- Trail Networks  
+- Site Networks  
+- Access Points  
 
-This tier sits **below County** and **above Municipal**.
+Tier 5 sits **below County** and **above Municipal**.
 
 ------------------------------------------------------------
-# 3. REQUIRED SOURCES (ALL MANDATORY)
+# 3. AUTHORITATIVE SOURCES (MANDATORY)
+
+Tier 5 must enumerate and recursively explore the following authoritative sources.
 
 ## 3.1 Township Website (If Exists)
-Check for:
+Scan for:
 - Parks  
 - Recreation  
 - Facilities  
@@ -98,7 +108,7 @@ Check for:
 - Recreation layers  
 
 ## 3.5 Township Social Media (Conditional)
-Township social media is **authoritative only if**:
+Township social media is authoritative only if:
 - Explicitly designated as official by the township, OR  
 - Linked from the township website, OR  
 - Linked from the county website  
@@ -108,10 +118,12 @@ If official:
 - Facility openings  
 - Trail access information  
 
-If not official → **exclude**.
+If not official → exclude.
+
+All sources must be logged in **Discovery Metadata v4.0**.
 
 ------------------------------------------------------------
-# 4. TOWNSHIP LAND DISCOVERY CONDITIONS
+# 4. DOMAIN RULES FOR TOWNSHIP DISCOVERY
 
 ## 4.1 Township‑Owned vs Township‑Managed
 A Site may be:
@@ -142,40 +154,42 @@ must still be surfaced if identity‑bearing.
 These are authoritative for township discovery but remain **Tier 5**.
 
 ------------------------------------------------------------
-# 5. TIER‑ANCHORED VERIFICATION (MANDATORY)
+# 5. ENUMERATIVE + RECURSIVE DISCOVERY RULES
 
-## 5.1 Confirm Township Boundaries
-- Verify the feature lies within the township  
-- Record all counties in `counties_raw`  
-- Do NOT segment multi‑township or multi‑county features  
+Tier 5 must use both enumerative and recursive discovery.
 
-## 5.2 Confirm Management Authority
-Record:
-- Township name  
-- Co‑managers (if any)  
+## 5.1 Enumerative Discovery (Listing Pages)
+Tier 5 must enumerate:
+- All township park listings  
+- All township recreation pages  
+- All township facility listings  
+- All township PDFs  
+- All county‑hosted township pages  
 
-## 5.3 Confirm Access Points
-Identify:
-- Trailheads  
-- Parking areas  
-- Boat launches  
-- Fishing access  
-- Scenic overlooks  
-- Playgrounds  
-- Shelters  
+## 5.2 Recursive Discovery (URL Propagation)
+Tier 5 must recursively follow:
+- Internal links within township domains  
+- Internal links within county‑hosted township pages  
+- Internal links within township‑linked social media (if official)  
 
-Access Points must be surfaced as **Access Point candidates** and passed to the  
-**Access Point Discovery Sub‑Procedure v3.2.2**.
+Recursion must stop when:
+- The domain is not on the allowlist  
+- The page is not relevant to Sites, Trails, or Access Points  
+- The page is administrative or non‑recreational  
 
-## 5.4 Naming
-Use the **township‑published name** as authoritative.  
-If multiple names appear → record all in metadata.
+## 5.3 Recursion Allowlist
+- *.township.*  
+- *.townshipoh.gov  
+- *.oh.gov (township subdomains)  
+- *.countyoh.gov (county‑hosted township pages)  
+- *.co.*.us (legacy township domains)  
+- *.facebook.com/* (only if official)  
 
 ------------------------------------------------------------
-# 6. DECISION RULES FOR ENTITY CREATION
+# 6. ENTITY CREATION RULES (TIER‑SPECIFIC)
 
 ### 6.1 Site Creation
-A township feature becomes a **Site** if:
+Create a **Site** when:
 - Township‑owned or township‑managed  
 - Identity‑bearing (named, mapped, or designated)  
 - Public access or recreation infrastructure exists  
@@ -193,7 +207,7 @@ Create a **child Site** when:
 - A recreation area, facility, or natural area is identity‑bearing  
 - A playground, shelter area, or lake area is formally named  
 
-Do **not** surface:
+Do not surface:
 - Amenities without identity  
 - Temporary zones  
 - Unnamed management areas  
@@ -242,7 +256,7 @@ Access Points must include raw values only:
 ------------------------------------------------------------
 # 7. TIER‑SPECIFIC EXPECTATIONS
 
-The Township Tier **must** surface:
+Tier 5 **must** surface:
 - All township‑owned or township‑managed Sites  
 - All identity‑bearing child Sites  
 - All township‑managed Trails  
@@ -250,17 +264,18 @@ The Township Tier **must** surface:
 - All township‑managed Access Points  
 - All parks, preserves, and trails listed on county‑hosted township pages  
 
-The Township Tier **may** surface:
+Tier 5 **may** surface:
 - Township‑managed Trail Networks  
 - Township‑managed Site Networks  
 - Township‑managed easements  
 - Planned parks and trail corridors (if identity‑bearing)  
 
 ------------------------------------------------------------
-# 8. LOGGING REQUIREMENTS
+# 8. METADATA REQUIREMENTS
 
 Each discovered entity must include:
-- Full **Discovery Metadata v3.2.2**  
+
+- Full **Discovery Metadata v4.0**  
 - All raw source references  
 - All counties (raw)  
 - All conflicts and uncertainties  
@@ -272,11 +287,12 @@ All values must be raw and unnormalized.
 ------------------------------------------------------------
 # 9. OUTPUT REQUIREMENTS
 
-Each township entity must output a **Raw Candidate Record** conforming to:
-- **Discovery Output Specification v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- The appropriate Schema Module v3.2.2  
-- The appropriate Vocabulary Module v3.2.2  
+Each township entity must output a **Raw Discovery Record** conforming to:
+
+- **Discovery Output Specification v4.0**  
+- **Discovery Metadata Specification v4.0**  
+- The appropriate Schema Module v4.0  
+- The appropriate Vocabulary Module v4.0  
 
 No normalized fields may appear in Tier 5 output.
 
@@ -284,32 +300,26 @@ No normalized fields may appear in Tier 5 output.
 # 10. INTEGRATION POINTS
 
 This module integrates with:
-- **Discovery Protocol Module v3.2.2**  
-- **Discovery Orchestration Module v3.2.2**  
-- **Site Discovery Sub‑Procedure v3.2.2**  
-- **Trail Discovery Sub‑Procedure v3.2.2**  
-- **Trail Segment Discovery Sub‑Procedure v3.2.2**  
-- **Trail Network Discovery Sub‑Procedure v3.2.2**  
-- **Site Network Discovery Sub‑Procedure v3.2.2**  
-- **Access Point Discovery Sub‑Procedure v3.2.2**  
-- **Child Site Rules Module v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Normalization Contracts v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **TSV Output Specifications v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **County Baseline Module v3.2.2**  
 
-No other module may reference this sub‑procedure directly.
+- Discovery Protocol Module v4.0  
+- Discovery Orchestration Module v4.0  
+- Tier Sub‑Procedure Template v4.0  
+- All Entity Discovery Sub‑Procedures v4.0  
+- Child Site Rules Module v4.0  
+- Discovery Metadata Specification v4.0  
+- Discovery Output Specification v4.0  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- TSV Output Specifications v4.0  
+- Audit & Logging Module v4.0  
+- County Baseline Module v4.0  
 
 ------------------------------------------------------------
 # 11. VERSIONING
 
-- This module is **Township Lands Discovery Sub‑Procedure v3.2.2**.  
-- Updates to township governance practices or statewide township directories may result in v3.3, v3.4, etc.  
-- Any change to tier order or workflow must be made in the  
-  **Discovery Protocol Module v3.2.2**.
+- This module is **Township Lands Discovery Sub‑Procedure v4.0**.  
+- Updates to township governance practices or statewide township directories may result in v4.1, v4.2, etc.  
+- Any change to tier order or workflow must be made in the Discovery Protocol Module v4.0.
 
 ------------------------------------------------------------
-# END OF TOWNSHIP LANDS DISCOVERY SUB‑PROCEDURE v3.2.2
+# END OF TOWNSHIP LANDS DISCOVERY SUB‑PROCEDURE v4.0

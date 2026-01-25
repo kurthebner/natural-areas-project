@@ -1,10 +1,12 @@
-# NATURAL AREAS PROJECT — TSV INTEGRITY CHECK MODULE v3.2.2
+# NATURAL AREAS PROJECT  
+# TSV INTEGRITY CHECK MODULE v4.0  
 Authoritative, deterministic validation module ensuring that all TSV output for  
 all six entity types meets strict delimiter‑integrity, blank‑field, whitespace,  
-field‑alignment, and multi‑county **representation** rules before finalization.
+field‑alignment, identity‑anchor, and multi‑county/state representation rules  
+before finalization.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the respective Vocabulary Modules v3.2.2.
+All vocabularies are defined in the respective Vocabulary Modules v4.0.
 
 ------------------------------------------------------------
 # 1. PURPOSE
@@ -16,12 +18,13 @@ This module defines:
 - How blank fields must be represented  
 - How whitespace rules are enforced  
 - How field alignment is validated for each entity type  
-- How integrity‑anchor fields are validated  
+- How identity‑anchor fields are validated  
+- How parent‑entity fields are validated  
 - How **multi‑county and multi‑state representation** is validated  
 - How anomalies are surfaced  
 - How failures halt finalization  
-- How results integrate with the Audit & Logging Module v3.2.2  
-- How results integrate with the Processing / Orchestration Module v3.2.2  
+- How results integrate with the Audit & Logging Module v4.0  
+- How results integrate with the Processing / Orchestration Module v4.0  
 
 This module ensures:
 
@@ -29,7 +32,7 @@ This module ensures:
 - Zero misalignment  
 - Zero silent formatting errors  
 - Deterministic, reproducible TSV output  
-- Full compatibility with the v3.2.2 ontology  
+- Full compatibility with the v4.0 ontology  
 
 ------------------------------------------------------------
 # 2. SCOPE
@@ -49,7 +52,8 @@ It governs:
 - Blank‑field rules  
 - Whitespace rules  
 - Field‑position rules  
-- Integrity‑anchor rules  
+- Identity‑anchor rules  
+- Parent‑entity rules  
 - **Multi‑county and multi‑state representation validation**  
 - Error surfacing  
 
@@ -108,7 +112,7 @@ Invalid:
 
 - `" Park"`  
 - `"Park "`  
-- `" Park "`  
+- `" Park "`
 
 ## 5.2 No trailing spaces at end of line  
 Line must end immediately after the final field.
@@ -121,7 +125,7 @@ Invalid: `"  Ohio History Connection"`
 # 6. FIELD‑POSITION REQUIREMENTS (ENTITY‑SPECIFIC)
 
 The following fields must appear in the exact positions defined in the  
-v3.2.2 TSV Output Specifications.
+v4.0 TSV Output Specifications.
 
 ## 6.1 Site (22 fields)
 - Derived Label → field 21  
@@ -133,26 +137,26 @@ v3.2.2 TSV Output Specifications.
 
 ## 6.3 Trail (18 fields)
 - Derived Label → field 17  
-- Trail Name (integrity anchor) → field 1  
+- Trail Name (identity anchor) → field 1  
 
 ## 6.4 Trail Segment (14 fields)
 - Derived Label → field 13  
-- Parent Trail (integrity anchor) → field 1  
+- Parent Trail (identity anchor) → field 1  
 
 ## 6.5 Trail Network (13 fields)
 - Derived Label → field 13  
-- Trail Network Name (integrity anchor) → field 1  
+- Network Name (identity anchor) → field 1  
 
 ## 6.6 Site Network (15 fields)
 - Derived Label → field 15  
-- Network Name (integrity anchor) → field 1  
+- Network Name (identity anchor) → field 1  
 
 If any field is out of position, the row fails integrity.
 
 ------------------------------------------------------------
 # 7. MULTI‑COUNTY AND MULTI‑STATE REPRESENTATION VALIDATION
 
-### Universal rule (v3.2.3):
+### Universal rule (v4.0):
 **All entities are single‑row entities.  
 No entity expands into multiple rows.**
 
@@ -192,10 +196,11 @@ All blanks must be true blanks.
 ### Step 5 — Validate no internal newlines  
 ### Step 6 — Validate field alignment  
 ### Step 7 — Validate whitespace rules  
-### Step 8 — Validate integrity‑anchor fields  
-### Step 9 — Validate multi‑county and multi‑state representation  
-### Step 10 — Surface anomalies  
-### Step 11 — Halt finalization if any row fails  
+### Step 8 — Validate identity‑anchor fields  
+### Step 9 — Validate parent‑entity fields  
+### Step 10 — Validate multi‑county and multi‑state representation  
+### Step 11 — Surface anomalies  
+### Step 12 — Halt finalization if any row fails  
 
 If any step fails, TSV generation must not proceed.
 
@@ -210,7 +215,7 @@ A row fails integrity if:
 - A blank field contains spaces  
 - A field contains trailing spaces  
 - Derived Label is misaligned  
-- Integrity‑anchor field is misaligned  
+- Identity‑anchor field is misaligned  
 - Parent Site / Parent Trail / Parent Network is misaligned  
 - Any field is missing  
 - Any field is duplicated  
@@ -218,7 +223,7 @@ A row fails integrity if:
 - **County or State fields are not semicolon‑delimited, alphabetized lists**  
 - **Any entity attempts multi‑row expansion**  
 
-All failures must be logged in the Audit & Logging Module v3.2.2.
+All failures must be logged in the Audit & Logging Module v4.0.
 
 ------------------------------------------------------------
 # 10. OUTPUT OF THIS MODULE
@@ -233,17 +238,17 @@ For each row:
 
 This output is consumed by:
 
-- Processing / Orchestration Module v3.2.2  
-- Audit & Logging Module v3.2.2  
+- Processing / Orchestration Module v4.0  
+- Audit & Logging Module v4.0  
 
 ------------------------------------------------------------
 # 11. MODULE DEPENDENCIES
 
 This module depends on:
 
-- **All six TSV Output Specifications v3.2.2**  
-- **Processing / Orchestration Module v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
+- **All six TSV Output Specifications v4.0**  
+- **Processing / Orchestration Module v4.0**  
+- **Audit & Logging Module v4.0**  
 
 ------------------------------------------------------------
-# END OF TSV INTEGRITY CHECK MODULE v3.2.2
+# END OF TSV INTEGRITY CHECK MODULE v4.0

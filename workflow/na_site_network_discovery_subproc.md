@@ -1,52 +1,58 @@
-# NATURAL AREAS PROJECT — SITE NETWORK DISCOVERY SUB‑PROCEDURE v3.2.2
-Authoritative, versioned sub‑procedure for discovering **Site Networks** in the
-statewide Natural Areas & Trails system.
+# NATURAL AREAS PROJECT
+# SITE NETWORK DISCOVERY SUB‑PROCEDURE v4.0
+(Authoritative Sub‑Procedure for Discovering Site Networks)
 
-This module defines:
-- The Site Network discovery workflow  
-- Required sources  
-- Identity rules for Site Network candidates  
-- Tier‑specific expectations  
-- Output requirements  
-- Integration points  
+This module defines the authoritative, deterministic workflow for discovering
+**Site Networks** across all discovery tiers within the v4.0  
+Raw → Resolution → Normalization → Entity Graph pipeline.
+
+This document supersedes all v3.x Site Network discovery logic.  
+It introduces enumerative + recursive discovery, raw‑layer output, and
+provenance‑driven extraction.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Site Network Vocabulary Module v3.2.2**.
+All vocabularies are defined in the **Site Network Vocabulary Module v4.0**.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-The Site Network Discovery Sub‑Procedure v3.2.2 provides the authoritative,
-deterministic workflow for discovering **Site Networks** across all eight
-discovery tiers.
+The Site Network Discovery Sub‑Procedure v4.0 provides the authoritative workflow for:
 
-A Site Network is:
-- A **named, identity‑bearing umbrella entity**  
+- Identifying Site Network candidates  
+- Extracting raw, unnormalized metadata  
+- Supporting enumerative and recursive discovery  
+- Preventing misclassification across the six‑entity ontology  
+- Recording tier and URL provenance  
+- Emitting Raw Discovery Records v4.0  
+- Emitting Discovery Metadata v4.0  
+- Integrating cleanly with Site, Trail Network, and Trail discovery  
+- Feeding the Resolution Engine v4.0  
+
+A **Site Network** is:
+
+- A named, identity‑bearing umbrella entity  
 - Composed of multiple Sites  
 - Documented in authoritative sources  
 - Distinct from its member Sites  
-
-This sub‑procedure ensures:
-- Consistent identification of Site Networks  
-- Prevention of misclassification as Sites or child Sites  
-- Proper metadata capture  
-- Clean integration with Trail Network and Site discovery  
+- Not a marketing label or informal grouping  
+- Not a single Site with multiple child Sites  
 
 This module is authoritative for Site Network discovery.
 
 ------------------------------------------------------------
 # 2. SCOPE
 
-This sub‑procedure applies to all eight discovery tiers:
+This sub‑procedure applies to all discovery tiers:
 
 1. Federal  
 2. State  
-3. Park District  
+3. District  
 4. County  
 5. Township  
 6. Municipal  
-7. Land Trust & Conservancy  
-8. Private & Organization‑Based  
+7. Conservancy  
+8. Private  
+9. Tier‑0 Baseline (non‑authoritative; runs last)
 
 Each tier must surface Site Network candidates when applicable.
 
@@ -56,6 +62,7 @@ Each tier must surface Site Network candidates when applicable.
 Each tier must check the following for Site Network references:
 
 - Official agency websites  
+- Authoritative listing/index pages (e.g., `/heritage/`, `/corridors/`)  
 - GIS systems and interactive maps  
 - Planning documents (master plans, corridor plans, heritage plans)  
 - Stewardship or management plans  
@@ -68,7 +75,7 @@ Each tier must check the following for Site Network references:
 - Multi‑site program pages  
 - Regional conservation or heritage initiatives  
 
-All sources must be logged in **Discovery Metadata v3.2.2**.
+All sources must be logged in **Discovery Metadata v4.0**.
 
 ------------------------------------------------------------
 # 4. IDENTITY RULES FOR SITE NETWORK CANDIDATES
@@ -88,8 +95,18 @@ If any condition fails, the candidate must not be created.
 ------------------------------------------------------------
 # 5. DISCOVERY WORKFLOW
 
+The Site Network Discovery Sub‑Procedure v4.0 participates in both:
+
+- **Enumerative discovery** (via Tier Sub‑Procedures)  
+- **Recursive discovery** (via URL propagation)  
+
+This section defines the Site Network‑specific extraction workflow.
+
+------------------------------------------------------------
 ## 5.1 Step 1 — Identify Named Multi‑Site Systems
+
 Search all required sources for:
+
 - Named corridors  
 - Heritage areas  
 - Historic districts  
@@ -99,145 +116,182 @@ Search all required sources for:
 - Multi‑site conservation programs  
 - Multi‑site recreation networks  
 
-Record each appearance as a **Raw Candidate Record**.
+Record each appearance as a raw Site Network candidate.
 
+------------------------------------------------------------
 ## 5.2 Step 2 — Verify Identity‑Bearing Name
+
 A Site Network must have:
+
 - A documented, stable name  
 - Not a temporary project name  
 - Not a marketing slogan  
 
 If ambiguous, flag for review in metadata.
 
+------------------------------------------------------------
 ## 5.3 Step 3 — Confirm Multi‑Site Composition
+
 The candidate must include:
+
 - Two or more Sites  
 - Documented membership  
 - Explicit geographic or thematic linkage  
 
 Do not infer membership.
 
-## 5.4 Step 4 — Extract Raw Metadata
-Extract only **raw, unnormalized** values:
+------------------------------------------------------------
+## 5.4 Step 4 — Extract Required Metadata (Raw Fields)
 
-- network_name_raw  
-- alternate_names_raw  
-- network_type_raw  
-- counties_raw  
-- states_raw (if multi‑state)  
-- managing_agency_raw  
-- secondary_managing_agencies_raw  
-- description_raw  
-- history_raw  
-- url_primary_raw  
-- url_all_raw  
-- notes_raw  
+Extract **all raw, unnormalized values** required for downstream processing:
 
-**Discovery Metadata fields (required):**
-- source_confidence_raw  
-- verification_status_raw  
-- field_confidence_map_raw  
-- field_verification_map_raw  
+### Identity & Classification
+- `network_name_raw`  
+- `alternate_names_raw`  
+- `network_type_raw`  
 
-**Source tracking fields:**
-- source_datasets  
-- source_maps  
-- source_gis_layers  
+### Descriptive
+- `description_raw`  
+- `history_raw`  
+- `notes_raw`  
 
-No normalization is permitted.
+### Spatial
+- `counties_raw`  
+- `states_raw` (if multi‑state)  
 
+### Governance
+- `managing_agency_raw`  
+- `secondary_managing_agencies_raw`  
+
+### URLs
+- `url_primary_raw`  
+- `url_all_raw`  
+- `map_url_raw`  
+
+### Source Tracking
+- `source_datasets`  
+- `source_maps`  
+- `source_gis_layers`  
+
+### Tier Tracking
+- `source_tier`  
+- `source_system`  
+- `source_url`  
+- `parent_url` (if propagated)  
+
+### Baseline Tracking
+- `seeded_from_baseline`  
+- `baseline_id`  
+
+All values must be raw and unnormalized.
+
+------------------------------------------------------------
 ## 5.5 Step 5 — Log Member Sites (Non‑Authoritative)
-Record all Sites referenced as members.  
-Membership becomes authoritative during normalization.
 
-## 5.6 Step 6 — Emit Raw Candidate Record
-Produce a Raw Candidate Site Network Record conforming to the  
-**Discovery Output Specification v3.2.2**.
+Record all Sites referenced as members.  
+Membership becomes authoritative during Resolution + Normalization.
+
+------------------------------------------------------------
+## 5.6 Step 6 — Emit Raw Discovery Record
+
+Produce a Raw Discovery Record following:
+
+- **Discovery Output Specification v4.0**  
+- **Discovery Metadata Specification v4.0**  
+- **Site Network Schema Module v4.0**  
 
 ------------------------------------------------------------
 # 6. TIER‑SPECIFIC EXPECTATIONS
 
 ## 6.1 Federal Tier
 Must surface:
+
 - National Heritage Areas  
 - National Scenic River Corridors  
 - Multi‑state heritage or conservation networks  
 
 ## 6.2 State Tier
 Must surface:
+
 - State Scenic River Corridors  
 - Statewide heritage or conservation networks  
 - Multi‑county ecological corridors  
 
-## 6.3 Park District Tier
+## 6.3 District Tier
 May surface:
+
 - Regional greenway networks  
 - Multi‑park heritage or conservation initiatives  
 
 ## 6.4 County Tier
 May surface:
+
 - Countywide historic districts  
 - Countywide conservation corridors  
 - Watershed‑scale networks  
 
 ## 6.5 Township & Municipal Tiers
 May surface:
+
 - Local historic districts  
 - Local cultural landscape networks  
 
-## 6.6 Land Trust & Conservancy Tier
+## 6.6 Conservancy Tier
 May surface:
+
 - Multi‑site conservation networks  
 - Ecological corridors  
 - Watershed networks  
 
-## 6.7 Private & Organization‑Based Tier
+## 6.7 Private Tier
 May surface:
+
 - Privately managed heritage or conservation networks  
 - Multi‑site campus‑scale networks  
 
 ------------------------------------------------------------
-# 7. CONSOLIDATION RULES
+# 7. CONSOLIDATION (REMOVED IN v4.0)
 
-During consolidation:
-- Merge identical Site Network names across tiers.  
-- Preserve all conflicting metadata.  
-- Do not merge networks with different documented names.  
-- Align member Sites with normalized Site records.  
-- Maintain all source references.  
-- Apply **Resolution Module v3.2.2** for ambiguous cases.  
+Discovery v4.0 performs **no consolidation**.
+
+All consolidation is performed by the **Resolution Engine v4.0**, which:
+
+- Merges identical Site Networks across tiers  
+- Preserves conflicts  
+- Aligns member Sites with normalized Site records  
+- Preserves provenance  
 
 ------------------------------------------------------------
 # 8. OUTPUT REQUIREMENTS
 
 Each Site Network candidate must output:
 
-- A **Raw Candidate Record** (unnormalized)  
-- Raw values only  
-- Complete **Discovery Metadata v3.2.2**  
+- All fields required by the **Site Network Schema Module v4.0**  
+- **Discovery Metadata v4.0**  
 - Raw member Site references  
-- No normalized fields  
-- No Derived Label  
-- No TSV rows (unless developer preview is explicitly requested)  
+- Raw values only (no normalization)  
 
 Output must conform to:
-- **Discovery Metadata Specification v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Resolution Module v3.2.2**  
+
+- **Discovery Metadata Specification v4.0**  
+- **Discovery Output Specification v4.0**  
+- **Normalization Engine v4.0** (downstream)  
 
 ------------------------------------------------------------
 # 9. INTEGRATION POINTS
 
 This module integrates with:
-- **Discovery Protocol Module v3.2.2**  
-- **Site Network Schema Module v3.2.2**  
-- **Site Network Vocabulary Module v3.2.2**  
-- **Site Discovery Sub‑Procedure v3.2.2**  
-- **Trail Network Discovery Sub‑Procedure v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **Normalization Contracts v3.2.2**  
-- **TSV Output Specifications v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
+
+- **Discovery Protocol Module v4.0**  
+- **Tier Sub‑Procedure Template v4.0**  
+- **Site Network Schema Module v4.0**  
+- **Site Network Vocabulary Module v4.0**  
+- **Site Discovery Sub‑Procedure v4.0**  
+- **Trail Network Discovery Sub‑Procedure v4.0**  
+- **Resolution Engine v4.0**  
+- **Normalization Engine v4.0**  
+- **TSV Output Specifications v4.0**  
+- **Audit & Logging Module v4.0**  
 
 ------------------------------------------------------------
-# END OF SITE NETWORK DISCOVERY SUB‑PROCEDURE v3.2.2
+# END OF SITE NETWORK DISCOVERY SUB‑PROCEDURE v4.0

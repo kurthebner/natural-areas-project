@@ -1,10 +1,10 @@
-# NATURAL AREAS PROJECT — MODULE MANIFEST v3.2.2
+# NATURAL AREAS PROJECT — MODULE MANIFEST v4.0
 Authoritative manifest of all modules in the statewide Natural Areas & Trails
-System, aligned to the six‑entity ontology and the v3.2.2 discovery,
-normalization, and orchestration architecture.
+System, aligned to the six‑entity ontology and the v4.0 discovery,
+normalization, resolution, and orchestration architecture.
 
 This manifest defines:
-- All active modules
+- All active v4.0 modules
 - The authoritative domain of each module
 - Module‑to‑module dependencies
 - Repository structure
@@ -17,19 +17,19 @@ This module contains no controlled vocabularies.
 
 This manifest provides:
 
-- A complete list of all active modules
-- The authoritative domain of each module
+- A complete list of all active v4.0 modules  
+- The authoritative domain of each module  
 - The dependency graph across schemas, vocabularies, normalization, discovery,
-  orchestration, and output
-- The repository structure
-- Versioning rules
+  resolution, orchestration, and output  
+- The repository structure  
+- Versioning rules  
 
 This ensures architectural clarity, determinism, and zero duplication of rules.
 
 ------------------------------------------------------------
 # 2. ACTIVE MODULES (AUTHORITATIVE LIST)
 
-Mapped directly to the actual repository structure.
+Mapped directly to the actual repository structure (excluding .docx files).
 
 ------------------------------------------------------------
 # 2.1 Schema Modules (Entity Definitions)
@@ -41,9 +41,10 @@ Mapped directly to the actual repository structure.
 `schema/na_trail_network_schema.md`  
 `schema/na_site_network_schema.md`  
 `schema/na_child_site_rules.md`  
-`schema/na_discovery_architecture.md`
+`schema/na_discovery_architecture.md`  
+`schema/na_entity_graph_schema.md`
 
-*(Note: Sub‑Sites and Access Point Association modules are deprecated and removed.)*
+*(Note: Sub‑Sites and Access Point Association modules remain deprecated.)*
 
 ------------------------------------------------------------
 # 2.2 Vocabulary Modules
@@ -63,7 +64,9 @@ Mapped directly to the actual repository structure.
 `normalization/na_trail_normalization.md`  
 `normalization/na_trail_segment_normalization.md`  
 `normalization/na_trail_network_normalization.md`  
-`normalization/na_site_network_normalization.md`
+`normalization/na_site_network_normalization.md`  
+`normalization/na_normalization_engine.md`  
+`normalization/na_entity_upsert_engine.md`
 
 ------------------------------------------------------------
 # 2.4 Discovery System (Stem + Leaf Modules)
@@ -92,8 +95,6 @@ Mapped directly to the actual repository structure.
 `workflow/na_site_network_discovery_subproc.md`  
 `workflow/na_access_point_discovery_subproc.md`
 
-*(Note: Sub‑Site discovery is removed.)*
-
 ------------------------------------------------------------
 # 2.5 Output Modules
 
@@ -111,7 +112,8 @@ Mapped directly to the actual repository structure.
 `workflow/natural-areas-project.md`  
 `workflow/na_bootstrap.md`  
 `workflow/na_processing.md`  
-`workflow/na_resolution.md`
+`workflow/na_resolution.md`  
+`workflow/na_resolution_engine.md`
 
 ------------------------------------------------------------
 # 2.7 Audit & Baseline Modules
@@ -158,7 +160,7 @@ Mapped directly to the actual repository structure.
                               |
                               v
                    +---------------------+
-                   |  Resolution Module  |
+                   |  Resolution Engine  |
                    +----------+----------+
                               |
                               v
@@ -210,13 +212,16 @@ natural-areas-project/
 │   ├── na_trail_normalization.md  
 │   ├── na_trail_segment_normalization.md  
 │   ├── na_trail_network_normalization.md  
-│   └── na_site_network_normalization.md  
+│   ├── na_site_network_normalization.md  
+│   ├── na_normalization_engine.md  
+│   └── na_entity_upsert_engine.md  
 │  
 ├── workflow/  
 │   ├── natural-areas-project.md  
 │   ├── na_bootstrap.md  
 │   ├── na_processing.md  
 │   ├── na_resolution.md  
+│   ├── na_resolution_engine.md  
 │   ├── na_discovery_protocol.md  
 │   ├── na_discovery_metadata_spec.md  
 │   ├── na_discovery_output_spec.md  
@@ -265,7 +270,8 @@ natural-areas-project/
 # 6. MODULE STATUS
 
 All modules listed here are active, authoritative, and aligned with the
-six‑entity ontology and the v3.2.2 discovery and orchestration architecture.
+six‑entity ontology and the v4.0 discovery, normalization, resolution,
+and orchestration architecture.
 
 ------------------------------------------------------------
-# END OF MODULE MANIFEST v3.2.2
+# END OF MODULE MANIFEST v4.0

@@ -1,9 +1,9 @@
-# NATURAL AREAS PROJECT — TRAIL VOCABULARY MODULE v3.2.2
+# NATURAL AREAS PROJECT — TRAIL VOCABULARY MODULE v4.0
 Authoritative, versioned, single‑source‑of‑truth controlled vocabularies  
 for all Trail‑level fields in the statewide Natural Areas & Trails system.
 
 This module contains:
-- All controlled vocabularies used in the Trail Schema v3.2.2  
+- All controlled vocabularies used in the Trail Schema v4.0  
 - Definitions and rules for each vocabulary  
 - Clarifications for ambiguous or overlapping values  
 
@@ -27,15 +27,15 @@ Other (explicitly named only)
 
 ## Rules & Clarifications
 - Describes the **primary intended use** of the Trail.  
-- Must not encode surface or origin.  
-- “Multi‑Use” is allowed only when explicitly documented.  
-- “Bicycling” refers to general bicycle use on paved or hard‑surface trails.  
-- “Mountain Bike” refers to MTB‑specific singletrack or natural‑surface trails.  
+- Must not encode surface, origin, or designation.  
+- “Multi‑Use” allowed only when explicitly documented.  
+- “Bicycling” = general bicycle use on paved or hard‑surface trails.  
+- “Mountain Bike” = MTB‑specific singletrack or natural‑surface trails.  
 - “BMX” applies only to linear BMX trails, not closed‑loop parks.  
-- “Pump Track” applies only when the facility is explicitly documented as a **trail**.  
+- “Pump Track” applies only when explicitly documented as a **trail**.  
 - “Snowmobile” and “Cross Country Ski” require explicit documentation.  
-- “Other” may be used only when an authoritative source provides a named use type not covered above.  
-- Must not include activities (e.g., Walking, Running) or conditions (e.g., Accessible).
+- “Other” allowed only when an authoritative source provides a named use not covered above.  
+- Must not include activities (Walking, Running) or conditions (Accessible).  
 
 ------------------------------------------------------------
 # 2. TRAIL SURFACE TYPE VOCABULARY (Controlled)
@@ -52,11 +52,11 @@ Other (explicitly named only)
 
 ## Rules & Clarifications
 - Describes the **predominant surface type** of the Trail.  
-- “Paved” includes asphalt and concrete; these must not be used as separate Trail‑level values.  
+- “Paved” includes asphalt and concrete; these must not appear as separate values.  
 - “Natural Surface” includes dirt, soil, grass, or unimproved tread.  
-- “Water” applies to water trails.  
-- “Mixed” is allowed only when explicitly documented.  
-- “Other” may be used only when an authoritative source provides a named surface type not covered above.
+- “Water” applies only to water trails.  
+- “Mixed” allowed only when explicitly documented.  
+- “Other” allowed only when an authoritative source provides a named surface type not covered above.  
 
 ------------------------------------------------------------
 # 3. TRAIL ORIGIN TYPE VOCABULARY (Controlled)
@@ -73,12 +73,12 @@ Other (explicitly named only)
 
 ## Rules & Clarifications
 - Describes the **historical or structural origin** of the Trail.  
-- Must not be inferred; must be documented.  
+- Must not be inferred; must be explicitly documented.  
 - “Rail Trail” applies to former railroad corridors.  
 - “Canal Towpath” includes cases where sources use “Towpath” alone.  
 - “Historic Route” requires explicit documentation.  
 - “Greenway Corridor” applies only to planned or documented greenway systems.  
-- “Other” may be used only when an authoritative source provides a named origin type not covered above.
+- “Other” allowed only when an authoritative source provides a named origin type not covered above.  
 
 ------------------------------------------------------------
 # 4. TRAIL STATUS VOCABULARY (Controlled)
@@ -92,9 +92,10 @@ Closed
 
 ## Rules & Clarifications
 - Status describes the **Trail as a whole**, not individual segments.  
-- “Gap” refers to a missing or incomplete portion of an otherwise continuous Trail.  
+- “Gap” = a missing or incomplete portion of an otherwise continuous Trail.  
 - “Planned” and “Under Construction” require explicit documentation.  
-- Leave blank if status is ambiguous or unverifiable.
+- “Closed” = permanently closed.  
+- Leave blank if status is ambiguous or unverifiable.  
 
 ------------------------------------------------------------
-# END OF TRAIL VOCABULARY MODULE v3.2.2
+# END OF TRAIL VOCABULARY MODULE v4.0

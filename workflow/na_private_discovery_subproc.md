@@ -1,125 +1,139 @@
-# NATURAL AREAS PROJECT — PRIVATE & ORGANIZATION‑BASED DISCOVERY SUB‑PROCEDURE v3.2.2  
-(Private Nature Preserves, Camps, Retreat Centers, Scout Camps, Church Camps, Fraternal Lands, HOA Open Space, Corporate Lands)
+# NATURAL AREAS PROJECT
+# PRIVATE & ORGANIZATION‑BASED DISCOVERY SUB‑PROCEDURE v4.0
+(Tier 8 — Private Nature Preserves, Camps, Retreat Centers, Scout Camps, Church Camps, Fraternal Lands, HOA Open Space, Corporate Lands)
 
-Tier 8 of the **Discovery Protocol Module v3.2.2**.
+This module defines the authoritative, deterministic Tier‑8 discovery rules for private and organization‑based lands within the v4.0 Raw → Resolution → Normalization → Entity Graph pipeline.
 
-Private and organization‑based lands are highly variable, inconsistently documented,  
-and often partially accessible. Some are fully public; some are seasonally public;  
-some are identity‑bearing but private; some have no public role. Tier 8 provides  
-the final sweep to ensure statewide completeness.
+It supersedes all v3.x private‑tier logic and is fully aligned with:
 
-This module defines the **authoritative, deterministic workflow** for Tier 8  
-discovery across all six ontology entity types.
+- Discovery Protocol Module v4.0
+- Discovery Metadata Specification v4.0
+- Tier Sub‑Procedure Template v4.0
+- Discovery Orchestration Module v4.0
+
+This module contains no controlled vocabularies.  
+All vocabularies are defined in the appropriate v4.0 Vocabulary Modules.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-This sub‑procedure defines how the system must:
+The Private & Organization‑Based Discovery Sub‑Procedure v4.0 defines how Tier 8 must:
 
-- Identify private or organization‑based **Sites**  
-- Identify **child Sites** within private holdings  
-- Identify private **Trails** and **Trail Segments**  
-- Identify private **Trail Networks** (rare)  
-- Identify private **Site Networks** (rare)  
-- Identify private **Access Points** when public or limited access exists  
-- Distinguish public, limited, and private access  
-- Identify identity‑bearing private natural areas  
-- Identify private preserves owned by nonprofits or foundations  
-- Log uncertainty and boundary cases  
-- Produce Raw Candidate Records and Discovery Metadata v3.2.2  
+- Identify private or organization‑based Sites
+- Identify child Sites within private holdings
+- Identify Trails, Trail Segments, and Trail Networks on private lands
+- Identify Site Networks (rare but possible)
+- Identify Access Points associated with private holdings
+- Distinguish public, limited, and private access levels
+- Identify identity‑bearing private natural areas
+- Identify private preserves owned by nonprofits or foundations
+- Identify private trail systems with public or limited access
+- Handle multi‑county private holdings
+- Log uncertainty, conflicts, and boundary cases
+- Produce Raw Discovery Records v4.0
+- Produce Discovery Metadata v4.0
 
-This module is referenced only by the Discovery Protocol Module v3.2.2.
+This module is referenced only by:
+
+- Discovery Protocol Module v4.0
+- Discovery Orchestration Module v4.0
+- Tier Sub‑Procedure Template v4.0
 
 ------------------------------------------------------------
 # 2. SCOPE
 
 This sub‑procedure applies to:
 
-- Private nature preserves  
-- Private campgrounds  
-- Church camps  
-- Scout camps  
-- Fraternal organization lands  
-- HOA open space  
-- Corporate campuses with natural areas  
-- Private hunting/fishing clubs  
-- Private retreat centers  
-- Private trail systems  
-- Private foundations with land holdings  
+- Private nature preserves
+- Private campgrounds
+- Church camps
+- Scout camps
+- Fraternal organization lands
+- HOA open space
+- Corporate campuses with natural areas
+- Private hunting/fishing clubs
+- Private retreat centers
+- Private trail systems
+- Private foundations with land holdings
 
-It governs discovery of:
+Tier 8 governs discovery of:
 
-- **Sites**  
-- **Child Sites**  
-- **Trails**  
-- **Trail Segments**  
-- **Trail Networks**  
-- **Site Networks**  
-- **Access Points**  
+- Sites
+- Child Sites
+- Trails
+- Trail Segments
+- Trail Networks
+- Site Networks
+- Access Points
 
-This tier sits **below Land Trusts & Conservancies** and is the final discovery tier.
+Tier 8 is the final discovery tier and must surface all identity‑bearing private lands relevant to recreation, access, or natural area identity.
 
 ------------------------------------------------------------
-# 3. REQUIRED SOURCES (ALL MANDATORY)
+# 3. AUTHORITATIVE SOURCES (MANDATORY)
+
+Tier 8 must enumerate and recursively explore all authoritative private‑sector sources.
 
 ## 3.1 Official Websites
 Scan for:
-- Nature Preserve  
-- Camp  
-- Retreat Center  
-- Outdoor Center  
-- Hiking Trails  
-- Natural Area  
-- Open Space  
-- Wildlife Area  
+- Nature preserve
+- Camp
+- Retreat center
+- Outdoor center
+- Hiking trails
+- Natural area
+- Open space
+- Wildlife area
 
 Scan all:
-- Facility pages  
-- Program pages  
-- Maps  
-- PDF brochures  
+- Facility pages
+- Program pages
+- Maps
+- PDF brochures
+- Reservation pages (if they reveal identity‑bearing Sites or child Sites)
 
 ## 3.2 County Auditor / GIS (Parcel Verification)
 Private holdings often appear as:
-- Private preserves  
-- Private campgrounds  
-- Private recreation areas  
-- HOA open space  
-- Corporate natural areas  
+- Private preserves
+- Private campgrounds
+- Private recreation areas
+- HOA open space
+- Corporate natural areas
 
 GIS is required for:
-- County boundary confirmation  
-- Ownership confirmation  
-- Access point verification  
-- Parcel extent verification  
+- County boundary confirmation
+- Ownership confirmation
+- Access point verification
+- Parcel extent verification
+- Multi‑county detection
 
 ## 3.3 Statewide & Regional Directories
 Check:
-- Ohio campground directories  
-- Ohio tourism directories  
-- Regional recreation guides  
-- Scout council property lists  
-- Church camp directories  
-- Fraternal organization property lists  
+- Ohio campground directories
+- Ohio tourism directories
+- Regional recreation guides
+- Scout council property lists
+- Church camp directories
+- Fraternal organization property lists
 
 ## 3.4 Organizational Partners
 Private lands may appear in:
-- Land trust partnership announcements  
-- County planning documents  
-- Regional trail plans  
-- Watershed group projects  
+- Land trust partnership announcements
+- County planning documents
+- Regional trail plans
+- Watershed group projects
 
 ## 3.5 Social Media (Conditional)
-Private organization social media is **authoritative only if**:
-- Explicitly designated as official  
-- Linked from the organization’s website  
-- Linked from a county or municipal website  
+Private organization social media is authoritative only if:
+- Explicitly designated as official, OR
+- Linked from the organization’s website, OR
+- Linked from a county or municipal website
 
 If official:
-- Scan for park/trail announcements  
-- Scan for access information  
+- Scan for trail announcements
+- Scan for access information
+- Scan for seasonal closures or access restrictions
 
-If not official → **exclude**.
+If not official → exclude.
 
 ------------------------------------------------------------
 # 4. PRIVATE LAND DISCOVERY CONDITIONS
@@ -131,203 +145,207 @@ A private or organization‑based Site must be surfaced if:
 ### ✔ Appears in authoritative directories  
 ### ✔ Appears in county GIS as a recreation or natural area  
 ### ✔ Is a private preserve owned by a nonprofit or foundation  
-### ✔ Is a private trail system with public access  
+### ✔ Is a private trail system with public or limited access  
 ### ✔ Is a private campground with natural area components  
 ### ✔ Is a private retreat center with trails or natural areas  
 
 ### ❌ Exclude:
-- Private lands with no public access and no identity‑bearing role  
-- HOA open space with no public access  
-- Corporate campuses with no public access  
-- Private hunting clubs with no public access  
-- Private farms with no recreation role  
-- Private residences  
+- Private lands with no public access and no identity‑bearing role
+- HOA open space with no public access
+- Corporate campuses with no public access
+- Private hunting clubs with no public access
+- Private farms with no recreation role
+- Private residences
 
 ## 4.9 Limited‑Access Sites
 If access is:
-- Seasonal  
-- Fee‑based  
-- Reservation‑only  
-- Program‑only  
+- Seasonal
+- Fee‑based
+- Reservation‑only
+- Program‑only
 
-→ **Include**, but record access limitations in Notes.
+→ Include, but record access limitations in metadata.
 
 ## 4.10 Multi‑County Sites
-- **Record all counties exactly as discovered in `counties_raw`**  
-- **Do NOT segment multi‑county Sites**  
-- Normalization alphabetizes and semicolon‑delimits the county list  
+- Do not segment multi‑county Sites
+- Record all counties exactly as discovered in `counties_raw`
 
 ------------------------------------------------------------
-# 5. CHILD SITE DISCOVERY RULES
+# 5. ENUMERATIVE + RECURSIVE DISCOVERY RULES
 
-Surface a **child Site** when:
-- A named internal unit exists within a private Site  
-- A named natural area, recreation area, or facility is documented  
-- A named lake area, trail area, or program area is identity‑bearing  
+Tier 8 must use both enumerative and recursive discovery.
 
-Do **not** surface:
-- Amenities without identity  
-- Temporary zones  
-- Unnamed management areas  
+## 5.1 Enumerative Discovery (Listing Pages)
+Enumerate:
+- Camp listings
+- Preserve listings
+- Trail listings
+- Facility listings
+- Map index pages
+- Directory‑linked pages
 
-------------------------------------------------------------
-# 6. PRIVATE TRAIL SYSTEM DISCOVERY RULES
+Extract all first‑level entity URLs.
 
-A private trail system becomes a **Trail** or **Trail Network** if:
-- It is named  
-- It is mapped  
-- It has public or limited public access  
-- It is identity‑bearing  
+## 5.2 Recursive Discovery (URL Propagation)
+Follow internal links for:
+- Trails
+- Maps
+- Access
+- Facilities
+- Natural areas
+- Program areas
 
-### Multi‑County Trails
-- **Record all counties in metadata**  
-- **Do NOT segment the trail**  
-
-------------------------------------------------------------
-# 7. TRAIL SEGMENT DISCOVERY RULES
-
-Surface **Trail Segments** when:
-- Segment‑level geometry exists in county GIS  
-- Segment identifiers appear in maps or brochures  
+Respect recursion limits and allowlists.
 
 ------------------------------------------------------------
-# 8. SITE NETWORK DISCOVERY RULES
+# 6. ENTITY CREATION RULES
 
-Surface a **Site Network** when:
-- A private organization manages a multi‑site system  
-- A corridor‑scale or campus‑scale network is documented  
+## 6.1 Site Creation
+A private feature becomes a Site if:
+- Identity‑bearing
+- Public or limited public access exists
+- Appears in authoritative directories
+- Appears in county GIS as a recreation/natural area
+- Is a private preserve owned by a nonprofit or foundation
+- Is a private trail system with public access
+- Is a private campground with natural area components
+- Is a private retreat center with trails or natural areas
 
-Rare but must be captured.
+Exclude:
+- Administrative offices
+- Indoor‑only facilities
+- Private easements with no identity‑bearing role
 
-------------------------------------------------------------
-# 9. ACCESS POINT DISCOVERY RULES
+## 6.2 Child Site Creation
+Create a child Site when:
+- A named internal unit exists within a private Site
+- A named natural area, recreation area, or facility is documented
+- A named lake area, trail area, or program area is identity‑bearing
 
-Private Access Points must be surfaced when:
-- They appear on official maps  
-- They appear in brochures  
-- They appear in county GIS  
-- They appear in directories  
-- They appear in partnership announcements  
+Do not surface:
+- Unnamed amenities
+- Temporary zones
+- Unnamed management areas
 
-Access Points must include raw values only:
-- Name or descriptive label  
-- Access Point Type (raw)  
-- County list (raw)  
-- Parent entity (Site, child Site, Trail, Trail Segment)  
-- Access level (raw)  
-- Source(s)  
-- Notes (including access limitations)  
+## 6.3 Trail Creation
+Surface a Trail when:
+- A named trail appears on official maps or brochures
+- A named trail appears in directories
+- A named trail appears in county GIS
+- A named trail appears in partnership announcements
 
-These are passed to the **Access Point Discovery Sub‑Procedure v3.2.2**.
+## 6.4 Trail Segment Creation
+Surface Trail Segments when:
+- Segment‑level geometry exists in county GIS
+- Segment identifiers appear in maps or brochures
 
-------------------------------------------------------------
-# 10. ACCESS LEVEL CLASSIFICATION (RAW)
+## 6.5 Trail Network Creation
+Surface a Trail Network when:
+- A private organization manages a multi‑trail system
+- A corridor‑scale or campus‑scale network is documented
 
-Discovery must record **raw access level**, not normalized values:
+## 6.6 Site Network Creation
+Surface a Site Network when:
+- A private organization manages a multi‑site system
+- A corridor‑scale or campus‑scale network is documented
 
-- Public  
-- Limited Public  
-- Fee‑Based  
-- Seasonal  
-- Reservation‑Only  
-- Program‑Only  
-- Private (No Access)  
+## 6.7 Access Point Creation
+Surface an Access Point when:
+- It appears on official maps
+- It appears in brochures
+- It appears in county GIS
+- It appears in directories
+- It appears in partnership announcements
 
-Normalization assigns final values.
-
-------------------------------------------------------------
-# 11. COUNTY‑ANCHORED VERIFICATION (MANDATORY)
-
-## 11.1 Confirm County Boundaries
-- Verify the feature lies within the county  
-- **Record all counties in metadata**  
-- **Do NOT segment multi‑county features**  
-
-## 11.2 Confirm Ownership
-Record raw ownership type:
-- Private individual  
-- Private organization  
-- Nonprofit  
-- Foundation  
-- Fraternal organization  
-- Church  
-- Scout council  
-- HOA  
-- Corporate entity  
-
-## 11.3 Confirm Access Points
-Identify:
-- Trailheads  
-- Parking areas  
-- Boat launches  
-- Scenic overlooks  
-- Camp entrances  
-- Program‑only entrances  
-
-## 11.4 Naming
-Use the **organization’s published name** as authoritative.
+Access Points must include raw:
+- Name or descriptive label
+- Access Point Type
+- County list
+- Parent entity
+- Access level
+- Sources
+- Notes (including access limitations)
 
 ------------------------------------------------------------
-# 12. LOGGING REQUIREMENTS
+# 7. TIER‑SPECIFIC EXPECTATIONS
+
+Tier 8 must surface:
+- All identity‑bearing private Sites
+- All identity‑bearing child Sites
+- All private Trails
+- All private Trail Segments
+- All private Access Points
+- All private trail systems with public or limited access
+- All private preserves owned by nonprofits or foundations
+
+Tier 8 may surface:
+- Private Trail Networks
+- Private Site Networks
+- Corridor‑scale or campus‑scale systems
+- Partnership lands (if identity‑bearing)
+
+Tier 8 must not surface:
+- Non‑identity‑bearing private lands
+- HOA/private amenities with no public access
+- Corporate campuses with no public access
+- Private hunting clubs with no public access
+
+------------------------------------------------------------
+# 8. METADATA REQUIREMENTS
 
 Each discovered entity must include:
-- Full **Discovery Metadata v3.2.2**  
-- Organization name (raw)  
-- Entity name (raw)  
-- County list (`counties_raw`)  
-- Entity type (raw)  
-- Ownership type (raw)  
-- Access level (raw)  
-- Source dataset  
-- URL or reference  
-- Notes on access limitations  
-- Discovery Tier: **8**  
-- Uncertainty or conflicts  
+- Full Discovery Metadata v4.0
+- All raw source references
+- All counties (raw)
+- All conflicts and uncertainties
+- All parent relationships
+- All geometry (if available)
+- Raw access level
+- Raw ownership type
 
 All values must be raw and unnormalized.
 
 ------------------------------------------------------------
-# 13. OUTPUT REQUIREMENTS
+# 9. OUTPUT REQUIREMENTS
 
-Each private or organization‑based entity must output a **Raw Candidate Record** conforming to:
+Each private or organization‑based entity must output:
+- Raw Discovery Record v4.0
+- Discovery Metadata v4.0
+- Schema Module v4.0 compliance
+- Vocabulary Module v4.0 compliance
 
-- **Discovery Output Specification v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- The appropriate Schema Module v3.2.2  
-- The appropriate Vocabulary Module v3.2.2  
-
-No normalized fields may appear in Tier 8 output.
-
-------------------------------------------------------------
-# 14. INTEGRATION POINTS
-
-This module integrates with:
-- **Discovery Protocol Module v3.2.2**  
-- **Discovery Orchestration Module v3.2.2**  
-- **Site Discovery Sub‑Procedure v3.2.2**  
-- **Trail Discovery Sub‑Procedure v3.2.2**  
-- **Trail Segment Discovery Sub‑Procedure v3.2.2**  
-- **Trail Network Discovery Sub‑Procedure v3.2.2**  
-- **Site Network Discovery Sub‑Procedure v3.2.2**  
-- **Access Point Discovery Sub‑Procedure v3.2.2**  
-- **Child Site Rules Module v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Normalization Contracts v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **TSV Output Specifications v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **County Baseline Module v3.2.2**  
-
-No other module may reference this sub‑procedure directly.
+Discovery must not:
+- Normalize
+- Correct
+- Dedupe
+- Infer
+- Invent
+- Silently modify
 
 ------------------------------------------------------------
-# 15. VERSIONING
+# 10. INTEGRATION POINTS
 
-- This module is **Private & Organization‑Based Discovery Sub‑Procedure v3.2.2**.  
-- Updates to private recreation directories or organizational practices may result in v3.3, v3.4, etc.  
-- Any change to tier order or workflow must be made in the  
-  **Discovery Protocol Module v3.2.2**.
+Integrates with:
+- Discovery Protocol Module v4.0
+- Discovery Orchestration Module v4.0
+- Tier Sub‑Procedure Template v4.0
+- All Entity Discovery Sub‑Procedures v4.0
+- Child Site Rules Module v4.0
+- Discovery Metadata Specification v4.0
+- Discovery Output Specification v4.0
+- Normalization Engine v4.0
+- Resolution Engine v4.0
+- Entity Upsert Engine v4.0
+- TSV Output Specifications v4.0
+- Audit & Logging Module v4.0
+- County Baseline Module v4.0
 
 ------------------------------------------------------------
-# END OF PRIVATE & ORGANIZATION‑BASED DISCOVERY SUB‑PROCEDURE v3.2.2
+# 11. VERSIONING
+
+- This module is Private & Organization‑Based Discovery Sub‑Procedure v4.0.
+- Updates to private recreation directories or organizational practices may result in v4.1, v4.2, etc.
+- Tier order changes must be made in the Discovery Protocol Module v4.0.
+
+------------------------------------------------------------
+# END OF PRIVATE & ORGANIZATION‑BASED DISCOVERY SUB‑PROCEDURE v4.0

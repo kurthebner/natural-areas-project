@@ -1,28 +1,29 @@
-# NATURAL AREAS PROJECT — TRAIL TSV OUTPUT SPECIFICATION v3.2.2
+# NATURAL AREAS PROJECT — TRAIL TSV OUTPUT SPECIFICATION v4.0
 Authoritative, deterministic formatting‑layer specification defining exactly how  
-Trail records are serialized into tab‑separated values (TSV) with guaranteed  
-delimiter integrity, zero drift, and full compatibility with the v3.2.2 ontology.
+**Normalized Trail Entities v4.0** are serialized into tab‑separated values (TSV)  
+with guaranteed delimiter integrity, zero drift, and full compatibility with the  
+v4.0 ontology and Entity Graph Schema v4.0.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Trail Vocabulary Module v3.2.2**.  
-All field definitions are defined in the **Trail Schema Module v3.2.2**.
+All vocabularies are defined in the **Trail Vocabulary Module v4.0**.  
+All field definitions are defined in the **Trail Schema Module v4.0**.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
 This module defines:
 
-- The canonical TSV field order for Trails (v3.2.2)  
+- The canonical TSV field order for Trails (v4.0)  
 - Delimiter rules  
 - Blank‑field rules  
 - Whitespace rules  
 - Derived Label placement rules  
 - Network Affiliation and Parent Trail Network placement rules  
-- **Multi‑county representation rules**  
+- **Multi‑county representation rules (universal v4.0 rule)**  
 - Validation requirements  
 - Error conditions  
-- Integration with the TSV Integrity Check Module  
-- Integration with the v3.2.2 Processing / Orchestration Module  
+- Integration with the TSV Integrity Check Module v4.0  
+- Integration with the Processing / Orchestration Module v4.0  
 
 This specification is authoritative for **Trail TSV formatting**.
 
@@ -31,10 +32,10 @@ This specification is authoritative for **Trail TSV formatting**.
 
 This specification applies to:
 
-- All **normalized Trail records** (v3.2.2)  
+- All **Normalized Trail Entities v4.0**  
 - All counties and all processing runs  
 - All automated or manual TSV exports  
-- All Trail normalization workflows  
+- All normalization workflows  
 - All multi‑entity orchestration pipelines  
 
 It governs:
@@ -44,11 +45,12 @@ It governs:
 - Blank‑field representation  
 - Derived Label placement  
 - Network Affiliation placement  
+- Parent Trail Network placement  
 - **Multi‑county representation**  
 - Validation requirements  
 
 ------------------------------------------------------------
-# 3. FIELD ORDER (AUTHORITATIVE, v3.2.2)
+# 3. FIELD ORDER (AUTHORITATIVE, v4.0)
 
 Trail TSV output must contain exactly **18 fields** in the following order:
 
@@ -58,12 +60,12 @@ Trail TSV output must contain exactly **18 fields** in the following order:
 4. Trail Surface Type  
 5. Trail Origin Type  
 6. Total Length (Miles)  
-7. Counties Traversed  
-8. Primary Managing Agency  
-9. Secondary Managing Agencies  
-10. Status  
-11. Description  
-12. Trail History  
+7. **Counties Traversed**  
+8. Ownership  
+9. Management  
+10. Coordination  
+11. Status  
+12. Description  
 13. URL  
 14. Map URL  
 15. Notes  
@@ -71,28 +73,26 @@ Trail TSV output must contain exactly **18 fields** in the following order:
 17. Derived Label  
 18. Parent Trail Network  
 
-This order is absolute and must never change.
-
+This order is absolute and must never change.  
 No additional fields may be added.  
 No fields may be removed or reordered.
 
 ------------------------------------------------------------
-# 4. MULTI‑COUNTY REPRESENTATION RULES (v3.2.2)
+# 4. MULTI‑COUNTY REPRESENTATION RULES (v4.0)
 
 Trails are **not expanded** into multiple TSV rows.
 
 If a Trail spans multiple counties:
 
-- The **Counties Traversed** field must contain a **semicolon‑delimited, alphabetized list** of all counties.  
+- The **Counties Traversed** field must contain a **semicolon‑delimited, alphabetized list**.  
 - The field must not include the word “County”.  
-- The Trail must appear as **a single TSV row**, regardless of how many counties it traverses.
+- The Trail must appear as **a single TSV row**, regardless of how many counties it traverses.  
+- No inference is permitted; only documented counties may be included.  
 
 Example:
 
 - Normalized counties: `Delaware;Franklin;Union`  
-- TSV output: `Delaware;Franklin;Union`
-
-Multi‑county logic is handled at the **Trail level**, not by row expansion.
+- TSV output: `Delaware;Franklin;Union`  
 
 ------------------------------------------------------------
 # 5. DELIMITER RULES
@@ -157,27 +157,21 @@ Valid: `"North Ridge Trail"`
 Invalid: `"  North Ridge Trail"`
 
 ------------------------------------------------------------
-# 8. DERIVED LABEL RULES
+# 8. DERIVED LABEL RULES (v4.0)
 
 ## 8.1 Derived Label is always field 17
 It must appear in the 17th column.
 
-## 8.2 Derived Label is computed but not stored in the normalized dataset
-Derived Label (v3.2.2) is defined in the **Normalization Contract**.  
-The schema specifies the formula:
+## 8.2 Derived Label is computed during normalization (v4.0)
+Derived Label is **not** computed during TSV output.
 
-**Trail Use Type + " — " + Primary Managing Agency + " — " + Status**
-
-## 8.3 Formatting rules
-- No parentheses  
+## 8.3 Derived Label must match the normalized value exactly
+- No additional formatting  
 - No trailing punctuation  
-- No additional descriptors  
-- Must match normalized field values exactly  
+- No inferred descriptors  
 
-Invalid:
-
-- `"Hiking — ODNR — Active (Main)"`  
-- `"Multi‑Use — Metro Parks — Active,"`
+## 8.4 Derived Label formula is defined in the Trail Normalization Contract v4.0
+TSV output must not modify or reinterpret it.
 
 ------------------------------------------------------------
 # 9. NETWORK AFFILIATION RULES
@@ -228,11 +222,11 @@ Each field appears exactly once.
 - No row expansion occurs for Trails.
 
 ------------------------------------------------------------
-# 12. TSV GENERATION ALGORITHM
+# 12. TSV GENERATION ALGORITHM (v4.0)
 
-**Step 1 — Receive normalized 18‑field Trail record**  
-**Step 2 — Normalize Counties Traversed into a semicolon‑delimited, alphabetized list**  
-**Step 3 — Compute Derived Label for the record**  
+**Step 1 — Receive normalized 18‑field Trail entity**  
+**Step 2 — Validate Counties Traversed formatting (semicolon‑delimited, alphabetized)**  
+**Step 3 — Validate Derived Label (already computed)**  
 **Step 4 — Validate no internal tabs**  
 **Step 5 — Validate no internal newlines**  
 **Step 6 — Validate whitespace rules**  
@@ -240,7 +234,7 @@ Each field appears exactly once.
 **Step 8 — Join fields with tab characters**  
 **Step 9 — Validate delimiter count (must be 17)**  
 **Step 10 — Validate blank‑field representation**  
-**Step 11 — Emit row**
+**Step 11 — Emit row**  
 
 If any step fails, TSV generation must halt and surface an error.
 
@@ -260,12 +254,12 @@ TSV generation must halt if:
 - Field order incorrect  
 - Field missing  
 - Field duplicated  
-- **Counties Traversed field incorrectly formatted (not semicolon‑delimited, not alphabetized)**  
+- **Counties Traversed incorrectly formatted (not semicolon‑delimited, not alphabetized)**  
 
-All errors must be logged in the Audit & Logging Module.
+All errors must be logged in the Audit & Logging Module v4.0.
 
 ------------------------------------------------------------
-# 14. INTEGRATION WITH TSV INTEGRITY CHECK
+# 14. INTEGRATION WITH TSV INTEGRITY CHECK v4.0
 
 The TSV Integrity Check must:
 
@@ -275,7 +269,7 @@ The TSV Integrity Check must:
 - Revalidate Derived Label placement  
 - Revalidate Network Affiliation placement  
 - Revalidate Parent Trail Network placement  
-- **Validate Counties Traversed field formatting (semicolon‑delimited, alphabetized)**  
+- **Validate Counties Traversed formatting (semicolon‑delimited, alphabetized)**  
 - Surface anomalies  
 - Halt finalization if any row fails  
 
@@ -286,12 +280,12 @@ Together, this specification and the TSV Integrity Check guarantee drift‑free 
 
 This module depends on:
 
-- **Trail Schema Module v3.2.2**  
-- **Trail Vocabulary Module v3.2.2**  
-- **Trail Normalization Contract v3.2.2**  
-- **TSV Integrity Check Module v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **Processing / Orchestration Module v3.2.2**
+- Trail Schema Module v4.0  
+- Trail Vocabulary Module v4.0  
+- Trail Normalization Contract v4.0  
+- TSV Integrity Check Module v4.0  
+- Audit & Logging Module v4.0  
+- Processing / Orchestration Module v4.0  
 
 ------------------------------------------------------------
-# END OF TRAIL TSV OUTPUT SPECIFICATION v3.2.2
+# END OF TRAIL TSV OUTPUT SPECIFICATION v4.0

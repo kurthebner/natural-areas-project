@@ -1,9 +1,9 @@
-# NATURAL AREAS PROJECT — TRAIL NETWORK VOCABULARY MODULE v3.2.2
+# NATURAL AREAS PROJECT — TRAIL NETWORK VOCABULARY MODULE v4.0
 Authoritative, versioned, single‑source‑of‑truth controlled vocabularies  
 for all Trail Network–level fields in the statewide Natural Areas & Trails system.
 
 This module contains:
-- All controlled vocabularies used in the Trail Network Schema v3.2.2  
+- All controlled vocabularies used in the Trail Network Schema v4.0  
 - Definitions and rules for each vocabulary  
 - Clarifications for ambiguous or overlapping values  
 
@@ -33,8 +33,9 @@ Other (explicitly named only)
 - “County Trail Network” and “Municipal Trail Network” apply only when the network is formally documented at that level.  
 - “Multi‑Jurisdictional Trail Network” applies when the network spans multiple agencies or jurisdictions and is formally recognized as such.  
 - “Other” may be used only when an authoritative source provides a named network type not covered above.  
-- Must not be inferred from the number of Trails or the geographic extent.  
-- Must not duplicate or conflict with the **Parent Trail Network** field in Trail records.
+- Must not be inferred from the number of Trails, the geographic extent, or the number of participating agencies.  
+- Must not duplicate, conflict with, or be inferred from the **Parent Trail Network** field in Trail or Trail Segment records.  
+- Must not encode Trail roles, Trail types, or designations.  
 
 ------------------------------------------------------------
-# END OF TRAIL NETWORK VOCABULARY MODULE v3.2.2
+# END OF TRAIL NETWORK VOCABULARY MODULE v4.0

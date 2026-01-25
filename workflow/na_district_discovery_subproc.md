@@ -1,74 +1,80 @@
-# NATURAL AREAS PROJECT — DISTRICT‑LEVEL PUBLIC LANDHOLDERS DISCOVERY SUB‑PROCEDURE v3.2.2  
-(Park Districts, Metro Parks, Joint Recreation Districts, Conservancy Districts, Watershed Districts, Special Districts)
+# NATURAL AREAS PROJECT
+# DISTRICT‑LEVEL PUBLIC LANDHOLDERS DISCOVERY SUB‑PROCEDURE v4.0
+(Tier 3 — Park Districts, Metro Parks, Joint Recreation Districts, Conservancy Districts, Watershed Districts, Special Districts)
 
-Tier 3 of the **Discovery Protocol Module v3.2.2**.
+This module defines the authoritative, deterministic Tier‑3 discovery rules for
+district‑level public landholders within the v4.0 Raw → Resolution → Normalization →
+Entity Graph pipeline.
 
-District‑level public landholders in Ohio include park districts, metro parks, joint  
-recreation districts, conservancy districts, watershed districts, and other special  
-districts with statutory authority to own, manage, or operate natural areas, parks,  
-trails, lakes, flood‑control lands, and recreation infrastructure. These districts  
-vary widely in size, governance, and documentation, and may span multiple counties.
+This document supersedes all v3.x district‑tier discovery logic.
 
-This module defines the **authoritative, deterministic rules** for Tier 3 discovery  
-across all six entity types.
+This module contains no controlled vocabularies.  
+All vocabularies are defined in the appropriate v4.0 Vocabulary Modules.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-This sub‑procedure defines how the system must:
+The District‑Level Public Landholders Discovery Sub‑Procedure v4.0 defines how Tier 3 must:
 
-- Identify all district‑managed **Sites**  
-- Identify **child Sites** within district Sites (Sites with Parent Site populated)  
-- Identify district‑managed **Trails**, **Trail Segments**, and **Trail Networks**  
-- Identify district‑managed **Site Networks**  
-- Identify **Access Points** associated with district Sites and Trails  
-- Distinguish district management from municipal, township, county, or state co‑management  
+- Identify all district‑managed Sites  
+- Identify child Sites within district Sites  
+- Identify Trails, Trail Segments, and Trail Networks managed by districts  
+- Identify Site Networks managed by districts  
+- Identify Access Points associated with district Sites and Trails  
+- Distinguish district management from municipal, township, county, state, or federal co‑management  
 - Identify conservancy district lands, watershed district lands, and flood‑control lands  
 - Avoid false positives from similarly named places  
 - Log uncertainty and boundary cases  
-- Produce Raw Candidate Records and Discovery Metadata v3.2.2  
+- Produce Raw Discovery Records v4.0  
+- Produce Discovery Metadata v4.0  
 
-This module is referenced **only** by the Discovery Protocol Module v3.2.2.
+This module is referenced only by:
+
+- Discovery Protocol Module v4.0  
+- Discovery Orchestration Module v4.0  
+- Tier Sub‑Procedure Template v4.0  
 
 ------------------------------------------------------------
 # 2. SCOPE
 
-This sub‑procedure applies to:
+This sub‑procedure applies to all district‑level public landholders in Ohio.
 
-### Park & Recreation Districts
+## 2.1 Park & Recreation Districts
 - County park districts  
 - Metro parks systems  
 - Joint recreation districts  
 
-### Conservancy & Watershed Districts
+## 2.2 Conservancy & Watershed Districts
 - Muskingum Watershed Conservancy District (MWCD)  
 - Miami Conservancy District  
 - Joint conservancy districts  
 - Watershed districts  
 - Flood‑control districts  
 
-### Special Districts
+## 2.3 Special Districts
 - Districts with statutory authority to own/manage natural areas  
 - Districts managing lakes, reservoirs, or floodplain corridors  
 - Districts with recreation or conservation mandates  
 
 This tier governs discovery of:
 
-- **Sites**  
-- **Child Sites**  
-- **Trails**  
-- **Trail Segments**  
-- **Trail Networks**  
-- **Site Networks**  
-- **Access Points**  
+- Sites  
+- Child Sites  
+- Trails  
+- Trail Segments  
+- Trail Networks  
+- Site Networks  
+- Access Points  
 
-This tier sits **below State** and **above County**.
+Tier 3 sits **below State** and **above County**.
 
 ------------------------------------------------------------
-# 3. REQUIRED SOURCES (ALL MANDATORY)
+# 3. AUTHORITATIVE SOURCES (MANDATORY)
 
-## 3.1 Official District Website
-Check for:
+Tier 3 must enumerate and recursively explore the following authoritative sources.
+
+## 3.1 Official District Websites
+Required sources:
 - Park or property lists → Sites  
 - Facility lists → child Sites  
 - Trail pages → Trails  
@@ -77,43 +83,46 @@ Check for:
 - District‑managed programs or networks → Site Networks, Trail Networks  
 
 ## 3.2 District GIS
-Check for:
+Required sources:
 - District boundaries → Sites  
 - Internal units → child Sites  
 - Trail geometry → Trails, Trail Segments  
 - Access point layers → Access Points  
 
 ## 3.3 District Brochures & Maps
-Check for:
+Required sources:
 - Named parks → Sites  
 - Named internal areas → child Sites  
 - Named trails → Trails  
 - Trailheads, parking, boat access → Access Points  
 
 ## 3.4 County Auditor / County GIS
-Check for:
+Required sources:
 - Parcels owned by the district → Sites  
 - Parcels leased or co‑managed → Sites or child Sites  
 
 ## 3.5 Partner Agencies
-Check for:
+Required sources:
 - Co‑managed parks  
 - Joint recreation districts  
 - Shared trail systems  
 - USACE partnerships (e.g., MWCD lakes)  
 
-All sources must be logged in **Discovery Metadata v3.2.2**.
+All sources must be logged in **Discovery Metadata v4.0**.
 
 ------------------------------------------------------------
-# 4. DISTRICT‑LEVEL DISCOVERY CONDITIONS
+# 4. DOMAIN RULES FOR DISTRICT‑LEVEL DISCOVERY
 
 ## 4.1 Multi‑County Districts
-Districts may span multiple counties.  
+Districts may span multiple counties.
+
+Rules:
 - **Do NOT segment multi‑county Sites**  
 - Record all counties in `counties_raw`  
 
 ## 4.2 Conservancy Districts
-Examples: MWCD, Miami Conservancy District  
+Examples: MWCD, Miami Conservancy District
+
 Check for:
 - Lakes and reservoirs → Sites  
 - Recreation areas → Sites or child Sites  
@@ -140,39 +149,39 @@ Districts may co‑manage Sites with:
 Record all co‑management in metadata.
 
 ------------------------------------------------------------
-# 5. TIER‑ANCHORED VERIFICATION (MANDATORY)
+# 5. ENUMERATIVE + RECURSIVE DISCOVERY RULES
 
-## 5.1 Confirm Boundaries
-- Verify the feature lies within the county  
-- Record **all counties** in `counties_raw`  
-- **Do NOT segment multi‑county entities**  
-- Normalization alphabetizes and semicolon‑delimits the county list  
+Tier 3 must use both enumerative and recursive discovery.
 
-## 5.2 Confirm Management Authority
-Record:
-- District name  
-- District type (park district, conservancy district, watershed district, etc.)  
-- Co‑management (municipal, township, county, ODNR, USACE)  
+## 5.1 Enumerative Discovery (Listing Pages)
+Tier 3 must enumerate:
+- All district property listings  
+- All district trail listings  
+- All district facility listings  
+- All district‑managed program listings  
+- All district GIS datasets  
 
-## 5.3 Confirm Access Points
-Identify:
-- Trailheads  
-- Parking areas  
-- Boat ramps  
-- Scenic overlooks  
-- Recreation area entrances  
-- Shoreline access points  
-- River access points  
+## 5.2 Recursive Discovery (URL Propagation)
+Tier 3 must recursively follow:
+- Internal links within district domains  
+- Internal links within partner agency domains (if relevant)  
 
-Access Points must be surfaced as **Access Point candidates** and passed to the  
-**Access Point Discovery Sub‑Procedure v3.2.2**.
+Recursion must stop when:
+- The domain is not on the allowlist  
+- The page is not relevant to Sites, Trails, or Access Points  
+- The page is administrative or non‑recreational  
 
-## 5.4 Naming
-Use the **district‑published name** as authoritative.  
-If multiple names appear → record all in metadata.
+## 5.3 Recursion Allowlist
+- *.metroparks.*  
+- *.parkdistrict.*  
+- *.parks.*  
+- *.conservancy.*  
+- *.watershed.*  
+- *.mwcd.*  
+- *.usace.army.mil (for partnerships only)*  
 
 ------------------------------------------------------------
-# 6. DECISION RULES FOR ENTITY CREATION
+# 6. ENTITY CREATION RULES (TIER‑SPECIFIC)
 
 ### 6.1 Site Creation
 Create a **Site** when:
@@ -189,7 +198,7 @@ Exclude:
 ### 6.2 Child Site Creation
 Create a **child Site** when:
 - A named internal unit exists within a district Site  
-- It meets the **Child Site Rules Module v3.2.2**  
+- It meets the **Child Site Rules Module v4.0**  
 
 ### 6.3 Trail Creation
 Create a **Trail** when:
@@ -216,7 +225,7 @@ Create an **Access Point** when:
 ------------------------------------------------------------
 # 7. TIER‑SPECIFIC EXPECTATIONS
 
-The District‑Level Tier **must** surface:
+Tier 3 **must** surface:
 - All district‑managed Sites  
 - All identity‑bearing child Sites  
 - All district‑managed Trails  
@@ -225,7 +234,7 @@ The District‑Level Tier **must** surface:
 - All conservancy district Sites (e.g., MWCD lakes, recreation areas)  
 - All watershed/flood‑control district Sites  
 
-The District‑Level Tier **may** surface:
+Tier 3 **may** surface:
 - District‑managed Trail Networks  
 - District‑managed Site Networks  
 - District‑managed easements  
@@ -233,10 +242,11 @@ The District‑Level Tier **may** surface:
 - Multi‑lake or multi‑river systems  
 
 ------------------------------------------------------------
-# 8. LOGGING REQUIREMENTS
+# 8. METADATA REQUIREMENTS
 
 Each discovered entity must include:
-- Full **Discovery Metadata v3.2.2**  
+
+- Full **Discovery Metadata v4.0**  
 - All raw source references  
 - All counties (raw)  
 - All conflicts and uncertainties  
@@ -248,11 +258,12 @@ All values must be raw and unnormalized.
 ------------------------------------------------------------
 # 9. OUTPUT REQUIREMENTS
 
-Each district‑level entity must output a **Raw Candidate Record** conforming to:
-- **Discovery Output Specification v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- The appropriate Schema Module v3.2.2  
-- The appropriate Vocabulary Module v3.2.2  
+Each district‑level entity must output a **Raw Discovery Record** conforming to:
+
+- **Discovery Output Specification v4.0**  
+- **Discovery Metadata Specification v4.0**  
+- The appropriate Schema Module v4.0  
+- The appropriate Vocabulary Module v4.0  
 
 No normalized fields may appear in Tier 3 output.
 
@@ -260,32 +271,26 @@ No normalized fields may appear in Tier 3 output.
 # 10. INTEGRATION POINTS
 
 This module integrates with:
-- **Discovery Protocol Module v3.2.2**  
-- **Discovery Orchestration Module v3.2.2**  
-- **Site Discovery Sub‑Procedure v3.2.2**  
-- **Trail Discovery Sub‑Procedure v3.2.2**  
-- **Trail Segment Discovery Sub‑Procedure v3.2.2**  
-- **Trail Network Discovery Sub‑Procedure v3.2.2**  
-- **Site Network Discovery Sub‑Procedure v3.2.2**  
-- **Access Point Discovery Sub‑Procedure v3.2.2**  
-- **Child Site Rules Module v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Normalization Contracts v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **TSV Output Specifications v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **County Baseline Module v3.2.2**  
 
-No other module may reference this sub‑procedure directly.
+- Discovery Protocol Module v4.0  
+- Discovery Orchestration Module v4.0  
+- Tier Sub‑Procedure Template v4.0  
+- All Entity Discovery Sub‑Procedures v4.0  
+- Child Site Rules Module v4.0  
+- Discovery Metadata Specification v4.0  
+- Discovery Output Specification v4.0  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- TSV Output Specifications v4.0  
+- Audit & Logging Module v4.0  
+- County Baseline Module v4.0  
 
 ------------------------------------------------------------
 # 11. VERSIONING
 
-- This module is **District‑Level Public Landholders Discovery Sub‑Procedure v3.2.2**.  
-- Updates to district governance or datasets may result in v3.3, v3.4, etc.  
-- Any change to tier order or workflow must be made in the  
-  **Discovery Protocol Module v3.2.2**.
+- This module is **District‑Level Public Landholders Discovery Sub‑Procedure v4.0**.  
+- Updates to district governance or datasets may result in v4.1, v4.2, etc.  
+- Any change to tier order or workflow must be made in the Discovery Protocol Module v4.0.
 
 ------------------------------------------------------------
-# END OF DISTRICT‑LEVEL PUBLIC LANDHOLDERS DISCOVERY SUB‑PROCEDURE v3.2.2
+# END OF DISTRICT‑LEVEL PUBLIC LANDHOLDERS DISCOVERY SUB‑PROCEDURE v4.0

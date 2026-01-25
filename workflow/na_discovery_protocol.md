@@ -1,6 +1,6 @@
 # NATURAL AREAS PROJECT
-# DISCOVERY PROTOCOL MODULE v3.2.2
-(Full Multi‑Entity Discovery Framework, Updated to Child Site Ontology, Multi‑County Rule, and Multi‑Parent Access Points)
+# DISCOVERY PROTOCOL MODULE v4.0
+(Full Multi‑Entity Discovery Framework, Updated to Raw Layer Architecture, Enumerative + Recursive Discovery, Tier‑0 Baseline Integration, Multi‑Table Entity Graph, and Provenance‑Driven Resolution)
 
 Authoritative, versioned protocol for discovering all six entity types in the
 statewide Natural Areas & Trails system.
@@ -13,16 +13,25 @@ This module defines:
 - Entity‑specific discovery rules  
 - Cross‑entity relationship rules  
 - Metadata requirements  
-- Output requirements  
-- Integration points  
+- Raw output requirements  
+- Integration points with Resolution, Normalization, and Entity Upsert  
+- Provenance and audit requirements  
 
-This module supersedes v3.1 and updates the ontology to represent internal units
-as **child Sites** (Sites with Parent Site) governed by the **Child Site Rules Module v3.2.2**.
+This module supersedes v3.2.2 and updates the ontology and architecture to the
+**Raw → Resolution → Normalization → Entity Graph pipeline**, including:
+
+- Enumerative (sibling) discovery  
+- Recursive (child) discovery  
+- Tier‑0 Baseline Loader  
+- Multi‑table SQLite entity graph  
+- Provenance‑rich raw records  
+- Deterministic, reproducible discovery runs  
+- Explicit separation of discovery vs. resolution vs. normalization  
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-Discovery Protocol v3.2.2 provides the authoritative, deterministic workflow for
+Discovery Protocol v4.0 provides the authoritative, deterministic workflow for
 discovering:
 
 1. Site (including child Sites)  
@@ -37,24 +46,25 @@ This protocol:
 - Defines the unified discovery architecture  
 - Ensures consistency across all counties and data sources  
 - Prevents misclassification between entity types  
-- Produces Raw Candidate Records for all six entities  
-- Produces Discovery Metadata for all six entities  
-- Integrates with normalization, resolution, and TSV output  
-- Enforces no normalization, no invention, and no silent correction during discovery  
+- Produces **Raw Discovery Records** for all six entities  
+- Produces **Discovery Metadata** for all six entities  
+- Integrates with Resolution, Normalization, and TSV output  
+- Enforces **no normalization, no invention, and no silent correction** during discovery  
 
 This module is authoritative for discovery logic.
 
 ------------------------------------------------------------
 # 2. SCOPE
 
-Discovery Protocol v3.2.2 governs:
+Discovery Protocol v4.0 governs:
 
 - All eight discovery tiers (Federal → Private)  
+- Tier‑0 Baseline Loader  
 - All six entity types  
 - All authoritative sources  
 - All cross‑entity relationships  
 - All discovery metadata  
-- All logical consolidation rules  
+- All raw output rules  
 
 This protocol applies to:
 
@@ -66,6 +76,7 @@ This protocol applies to:
 - Municipalities  
 - Land trusts & conservancies  
 - Private organizations  
+- Operator‑provided baseline spreadsheets  
 
 ------------------------------------------------------------
 # 3. ENTITY TYPES (AUTHORITATIVE)
@@ -73,13 +84,11 @@ This protocol applies to:
 Discovery must surface candidates for all six identity‑bearing entities:
 
 ## 3.1 Site
-
 Identity‑bearing land units (parks, preserves, forests, wildlife areas, etc.),
 including internal identity‑bearing units that qualify as **child Sites** under the
-**Child Site Rules Module v3.2.2**.
+**Child Site Rules Module v4.0**.
 
-Child Sites are discovered **exclusively through the Site Discovery Sub‑Procedure v3.2.2**.
-No standalone child‑site discovery track exists in v3.2.2.
+Child Sites are discovered **exclusively through the Site Discovery Sub‑Procedure v4.0**.
 
 ## 3.2 Trail
 Identity‑bearing linear corridors.
@@ -94,21 +103,23 @@ Umbrella entities composed of multiple Trails.
 Umbrella entities composed of multiple Sites.
 
 ## 3.6 Access Point
-Visitor‑facing navigational entry locations.
+Visitor‑facing navigational entry locations.  
+Access Points may have **multiple parent entities** (Sites, Trails, Trail Segments).
 
 ------------------------------------------------------------
 # 4. DISCOVERY TIERS
 
 Discovery proceeds through the eight authoritative tiers:
 
-1. Federal   
-2. State   
-3. District-Level 
+1. Federal  
+2. State  
+3. District‑Level  
 4. County  
 5. Township  
-6. Municipal 
-7. Conservancy 
-8. Private
+6. Municipal  
+7. Conservancy  
+8. Private  
+9. **Tier‑0 Baseline** (operator‑provided; runs last)
 
 Each tier must surface candidates for all six entity types when applicable.
 
@@ -127,8 +138,10 @@ Each tier must check:
 - Partnership announcements  
 - County‑hosted pages  
 - Municipal/township‑hosted pages  
+- Conservancy and land‑trust pages  
+- Private organization pages  
 
-All sources must be logged in Discovery Metadata.
+All sources must be logged in **Discovery Metadata v4.0**.
 
 ------------------------------------------------------------
 # 6. ENTITY‑SPECIFIC DISCOVERY RULES
@@ -136,54 +149,48 @@ All sources must be logged in Discovery Metadata.
 Discovery must use the authoritative sub‑procedure for each entity type:
 
 ## 6.1 Site Discovery
-
-Use **Site Discovery Sub‑Procedure v3.2.2**.  
+Use **Site Discovery Sub‑Procedure v4.0**.  
 Must surface:
 
 - Top‑level Sites  
-- Child Sites (internal identity‑bearing units)  
-- Parent Site relationships for child Sites, following the **Child Site Rules Module v3.2.2**  
-
-**Note:**  
-Child Sites are discovered *only* through the Site Discovery Sub‑Procedure.  
-The former Child Site Discovery Sub‑Procedure has been retired.
+- Child Sites  
+- Parent Site relationships  
 
 ## 6.2 Trail Discovery
-Use **Trail Discovery Sub‑Procedure v3.2.2**.
+Use **Trail Discovery Sub‑Procedure v4.0**.
 
 ## 6.3 Trail Segment Discovery
-Use **Trail Segment Discovery Sub‑Procedure v3.2.2**.
+Use **Trail Segment Discovery Sub‑Procedure v4.0**.
 
 ## 6.4 Trail Network Discovery
-Use **Trail Network Discovery Sub‑Procedure v3.2.2**.
+Use **Trail Network Discovery Sub‑Procedure v4.0**.
 
 ## 6.5 Site Network Discovery
-Use **Site Network Discovery Sub‑Procedure v3.2.2**.  
-A Site Network must be an umbrella entity composed of multiple Sites.
+Use **Site Network Discovery Sub‑Procedure v4.0**.
 
 ## 6.6 Access Point Discovery
-Use **Access Point Discovery Sub‑Procedure v3.2.2**.
+Use **Access Point Discovery Sub‑Procedure v4.0**.
 
 ------------------------------------------------------------
 # 7. CROSS‑ENTITY RELATIONSHIP RULES
 
 Discovery must identify and record:
 
-- Site → child Site relationships (Sites with Parent Site)  
-- Trail → Trail Segment relationships  
-- Trail Network → Trail relationships  
-- Site Network → Site relationships  
-- **Access Point → Parent Entity relationships (Sites, Trails, Trail Segments; multiple allowed)**  
+- Site → child Site  
+- Trail → Trail Segment  
+- Trail Network → Trail  
+- Site Network → Site  
+- **Access Point → Parent Entities (multiple allowed)**  
 
-All relationships must be logged in **Discovery Metadata v3.2.2**.
+All relationships must be logged in **Discovery Metadata v4.0**.
 
 ------------------------------------------------------------
-# 8. MULTI‑COUNTY RULE (UPDATED)
+# 8. MULTI‑COUNTY RULE (UNCHANGED)
 
 Discovery must follow the authoritative multi‑county rule:
 
 ### ✔ 8.1 No segmentation  
-Discovery must **never** segment multi‑county entities into multiple records.
+Discovery must **never** segment multi‑county entities.
 
 ### ✔ 8.2 Record all counties  
 Discovery must record **all counties** in which the entity appears.
@@ -194,119 +201,135 @@ Discovery Metadata must store the raw county list exactly as discovered.
 ### ✔ 8.4 Normalization rule  
 Normalization writes the county list as a **semicolon‑delimited, alphabetized list**.
 
-### Applies to:
-- Sites  
-- Child Sites  
-- Trails  
-- Trail Segments  
-- Trail Networks  
-- Site Networks  
-- Access Points  
+Applies to all six entity types.
 
 ------------------------------------------------------------
-# 9. CONSOLIDATION RULES (LOGICAL)
+# 9. DISCOVERY MODES (NEW IN v4.0)
 
-After all tiers produce raw candidates, Discovery must support consolidation
-according to these logical rules (execution is defined in the Orchestration Module v3.2.2):
+Discovery v4.0 operates in two complementary modes:
 
-## 9.1 Sites
-Merge identical Sites across tiers, including child Sites.  
-Preserve Parent Site relationships for child Sites.
+## 9.1 Enumerative Discovery (siblings)
+Performed by **Tier Sub‑Procedures**.
 
-## 9.2 Trails
-Merge identical Trails across tiers.
+Enumerative discovery must:
 
-## 9.3 Trail Segments
-Merge identical segments and align with parent Trails.
+- Identify authoritative listing/index pages (e.g., `/parks/`, `/trails/`, `/locations/`)  
+- Extract **all first‑level entity URLs**  
+- Queue each for entity detection and extraction  
 
-## 9.4 Trail Networks
-Merge identical networks and align with member Trails.
+This ensures discovery of siblings such as:
 
-## 9.5 Site Networks
-Merge identical networks and align with member Sites.
+- `/parks/englewood`  
+- `/parks/foreman`  
+- `/parks/argyll`  
 
-## 9.6 Access Points
-Merge identical Access Points and assign identity parents  
-(Sites, Trails, and/or Trail Segments).
+## 9.2 Recursive Discovery (children)
+Performed by the **Discovery Engine + URL Propagation Module**.
 
-Rules:
+Recursive discovery must:
 
-- No normalization during consolidation  
-- No invention of missing values  
-- All conflicts must be preserved in metadata  
+- Extract internal links from entity pages  
+- Follow allowed patterns (e.g., `trails`, `maps`, `facilities`)  
+- Queue child URLs  
+- Enforce depth and count limits  
+- Record `parent_url` for provenance  
+
+This ensures discovery of deeper pages such as:
+
+- `/parks/englewood/trails`  
+- `/parks/englewood/maps`  
 
 ------------------------------------------------------------
-# 10. METADATA REQUIREMENTS
+# 10. CONSOLIDATION RULES (REVISED)
 
-Discovery must produce a complete **Discovery Metadata Object v3.2.2** for every entity.
+In v4.0, **Discovery does not consolidate entities**.
+
+Consolidation is performed exclusively by the **Resolution Engine v4.0**, which:
+
+- Merges identical entities across tiers  
+- Applies tier precedence  
+- Applies authority weighting  
+- Preserves conflicts  
+- Preserves provenance  
+- Aligns parent/child relationships  
+- Aligns network membership  
+- Aligns Access Point parent sets  
+
+Discovery produces **raw, unmerged, unnormalized** records.
+
+------------------------------------------------------------
+# 11. METADATA REQUIREMENTS
+
+Discovery must produce a complete **Discovery Metadata Object v4.0** for every raw record.
 
 Metadata must include:
 
-- Identity metadata  
+- Identity metadata (raw)  
 - Tier metadata  
 - Source metadata  
-- Conflict metadata  
-- Uncertainty metadata  
-- **Parent metadata (Access Points only; Sites, Trails, Trail Segments)**  
-- Boundary metadata  
-- **County list (raw)**  
-- **Access level (raw)** when applicable  
+- Parent URL (if propagated)  
+- Conflict indicators (raw)  
+- Uncertainty indicators (raw)  
+- Parent entity hints (Access Points)  
+- Boundary metadata (raw)  
+- County list (raw)  
+- Access level (raw)  
 - Notes  
 
 Metadata must conform to:
 
-- **Discovery Metadata Specification v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
+- **Discovery Metadata Specification v4.0**  
+- **Audit & Logging Module v4.0**  
 
 ------------------------------------------------------------
-# 11. OUTPUT FORMAT
+# 12. OUTPUT FORMAT
 
-Discovery must output **Raw Candidate Records v3.2.2** for all six entities:
-
-- Site  
-- Trail  
-- Trail Segment  
-- Trail Network  
-- Site Network  
-- Access Point  
+Discovery must output **Raw Discovery Records v4.0** for all six entities.
 
 All outputs must conform to:
 
-- **Discovery Output Specification v3.2.2**  
-- The six Schema Modules v3.2.2  
-- The six Vocabulary Modules v3.2.2  
+- **Discovery Output Specification v4.0**  
+- The six Schema Modules v4.0  
+- The six Vocabulary Modules v4.0  
 
-No normalization, no invention, and no silent correction is permitted.
+Discovery must not:
 
-Discovery may generate TSV previews of intermediate states when explicitly requested by the operator.  
-These previews do not replace Raw Candidate Records and are not used by downstream modules.
+- Normalize  
+- Correct  
+- Dedupe  
+- Infer  
+- Invent  
+- Silently modify  
+
+Discovery may generate TSV previews when explicitly requested.
 
 ------------------------------------------------------------
-# 12. INTEGRATION POINTS
+# 13. INTEGRATION POINTS
 
 This module integrates with:
 
-- All six Schema Modules v3.2.2  
-- All six Vocabulary Modules v3.2.2  
-- All Discovery Sub‑Procedures v3.2.2  
-- Discovery Metadata Specification v3.2.2  
-- Discovery Output Specification v3.2.2  
-- **Normalization Contracts v3.2.2**  
-- **TSV Output Specifications v3.2.2**  
-- Resolution Module v3.2.2  
-- County Baseline Module v3.2.2  
-- Processing / Orchestration Module v3.2.2  
+- All six Schema Modules v4.0  
+- All six Vocabulary Modules v4.0  
+- All Discovery Sub‑Procedures v4.0  
+- Discovery Metadata Specification v4.0  
+- Discovery Output Specification v4.0  
+- **Resolution Engine v4.0**  
+- **Normalization Engine v4.0**  
+- **Entity Upsert Engine v4.0**  
+- **Baseline Loader v4.0**  
+- **Processing / Orchestration Module v4.0**  
 
-**Note:**  
-The Access Point Association Module has been retired and must not be referenced.  
-The Child Site Discovery Sub‑Procedure has been retired; child Sites are discovered exclusively through the Site Discovery Sub‑Procedure.
+Retired modules:
 
-------------------------------------------------------------
-# 13. VERSIONING
-
-This module is **Discovery Protocol Module v3.2.2**.  
-Sub‑procedures may advance to v3.2.2+ without requiring a bump to the Protocol version.  
-Future updates may produce v3.3, v3.4, etc.
+- Access Point Association Module  
+- Child Site Discovery Sub‑Procedure  
 
 ------------------------------------------------------------
-# END OF DISCOVERY PROTOCOL MODULE v3.2.2
+# 14. VERSIONING
+
+This module is **Discovery Protocol Module v4.0**.  
+Sub‑procedures may advance to v4.0+ without requiring a bump to the Protocol version.  
+Future updates may produce v4.1, v4.2, etc.
+
+------------------------------------------------------------
+# END OF DISCOVERY PROTOCOL MODULE v4.0

@@ -1,144 +1,146 @@
-# NATURAL AREAS PROJECT — SITE NORMALIZATION CONTRACT v3.2.2
-Authoritative, deterministic, field‑by‑field normalization contract for transforming
-Raw Candidate Records into fully normalized Site entities under the v3.2.2 ontology.
+# NATURAL AREAS PROJECT  
+# SITE NORMALIZATION CONTRACT v4.0  
+(Authoritative Field‑Level Rules for Normalizing Resolved Site Entities)
 
-This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Site Vocabulary Module v3.2.2**.
+This module defines the entity‑specific normalization rules applied by the  
+**Normalization Engine v4.0** to produce a fully normalized **Site** entity  
+conforming to the **Site Schema Module v4.0** and ready for insertion into the  
+**Entity Graph Schema v4.0**.
+
+This contract contains no controlled vocabularies.  
+All vocabularies are defined in the **Site Vocabulary Module v4.0**.
+
+This contract is authoritative for Site normalization only.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-This module defines:
+The Site Normalization Contract v4.0 defines:
 
-- How raw Site discoveries are normalized  
-- How each Site Schema v3.2.2 field is populated  
-- How Category, Subtype, Designation, Status, Features, and Network Affiliation are validated  
-- How parent relationships (Site → Site) are validated using the **Child Site Rules Module v3.2.2**  
-- How GPS, Plus Code, Address, and URL rules are applied  
-- How normalization integrates with the Audit & Logging Module v3.2.2  
-- How conflicts and uncertainties are surfaced to the Resolution Module v3.2.2  
+- How a Resolved Site is transformed into a Normalized Site  
+- How each Site Schema v4.0 field is validated and normalized  
+- How Category, Subtype, Designation, Status, Features, and Network Affiliation are normalized  
+- How parent–child relationships are validated using the **Child Site Rules Module v4.0**  
+- How GPS, Plus Code, Address, and jurisdiction fields are normalized  
+- How normalization interacts with the **Normalization Engine v4.0**  
+- How provenance, conflicts, and uncertainties are recorded  
+- How normalized entities integrate with the **Entity Upsert Engine v4.0**
 
-**Derived Label is not constructed during normalization.**  
+Normalization must:
+
+- Never invent data  
+- Never infer governance, ownership, or identity  
+- Never silently correct malformed values  
+- Always log normalization decisions  
+
+Derived Label is not computed here.  
 It is computed only during TSV output.
-
-This module is authoritative for Site normalization.
 
 ------------------------------------------------------------
 # 2. INPUTS
 
 Normalization consumes:
 
-## 2.1 Raw Candidate Record  
-From **Discovery Output Specification v3.2.2**, including:
+## 2.1 Resolved Entity Object  
+From **Resolution Engine v4.0**, including:
+
+- resolved identity key  
+- resolved entity_type = "Site"  
+- resolved parent_site (if any)  
+- resolved county set  
+- resolved governance, ownership, category, subtype  
+- resolved conflicts and uncertainties  
+
+## 2.2 Raw Discovery Record v4.0  
+Including:
 
 - name_raw  
 - counties_raw  
-- municipalities_raw, townships_raw  
+- township_raw, municipality_raw  
 - ownership_raw, access_level_raw  
-- gps_raw, address_raw  
-- url_primary_raw, url_all_raw  
-- network_affiliations_raw  
+- gps_raw, geometry_raw  
+- address_raw  
+- url_primary, url_all  
 - parent_site_raw  
 - notes_raw  
 - description_raw  
-- source_datasets_raw  
-- source_maps_raw  
-- source_gis_layers_raw  
-- discovery_tier  
-- discovered_in_tiers  
-- seeded_from_baseline  
-- baseline_id_raw  
-- discovery_metadata (v3.2.2)
+- source_* fields  
+- discovery_tier, discovered_in_tiers  
+- seeded_from_baseline, baseline_id  
+- discovery_metadata  
 
-## 2.2 Discovery Metadata  
-From **Discovery Metadata Specification v3.2.2**, including:
+## 2.3 Vocabulary Modules v4.0  
+- Category  
+- Subtype  
+- Designation  
+- Status  
+- Features  
+- Network Affiliation  
 
-- Identity metadata  
-- Tier metadata  
-- Source metadata  
-- Conflict metadata  
-- Uncertainty metadata  
-- Boundary metadata  
-- Parent/relationship metadata  
-- Baseline metadata  
-
-## 2.3 Vocabulary Modules  
-- **Site Vocabulary Module v3.2.2**  
-  - Category  
-  - Subtype  
-  - Designation  
-  - Status  
-  - Features  
-  - Network Affiliation  
-
-## 2.4 Schema Modules  
-- **Site Schema Module v3.2.2**  
-- **Child Site Rules Module v3.2.2**  
-- **Site Network Schema Module v3.2.2** (for affiliation validation)
+## 2.4 Schema Modules v4.0  
+- Site Schema Module v4.0  
+- Child Site Rules Module v4.0  
+- Site Network Schema Module v4.0 (for affiliation validation)
 
 ------------------------------------------------------------
 # 3. OUTPUTS
 
 Normalization produces:
 
-- A normalized Site entity conforming to the **Site Schema Module v3.2.2**  
-- A record ready for export via the **TSV Output Specification (Sites) v3.2.2**  
-- Full audit trail entries via the **Audit & Logging Module v3.2.2**  
+- A **Normalized Site Object v4.0** conforming to the Site Schema Module v4.0  
+- A **Normalization Provenance Record**  
+- A **Validation Result Object** (warnings, errors)  
+- A normalized entity ready for the **Entity Upsert Engine v4.0**
 
 No new information may be invented.
 
 ------------------------------------------------------------
 # 4. NORMALIZATION WORKFLOW (HIGH‑LEVEL)
 
-1. Receive Raw Candidate Record  
-2. Validate identity  
+1. Receive Resolved Site  
+2. Validate identity and entity_type  
 3. Normalize name  
 4. Normalize Category, Subtype, Designation, Status  
-5. Normalize ownership, management, coordination  
+5. Normalize governance, ownership, coordination  
 6. Normalize Network Affiliation  
-7. Normalize jurisdiction fields (County, Municipality, Township)  
+7. Normalize jurisdiction fields (county_list, municipality, township)  
 8. Normalize location fields (GPS, Plus Code, Address)  
 9. Normalize acreage  
 10. Normalize features  
-11. Normalize notes  
-12. Normalize URLs and sources  
-13. Validate Parent Site relationship using **Child Site Rules Module v3.2.2**  
-14. Validate against schema  
-15. Emit normalized Site entity  
+11. Normalize description  
+12. Normalize notes  
+13. Normalize URLs and sources  
+14. Validate Parent Site relationship (Child Site Rules v4.0)  
+15. Validate against Site Schema v4.0  
+16. Emit Normalized Site + provenance  
 
-**Derived Label is not constructed here.**  
-It is computed only during TSV output.
-
-If any critical step fails → surface to **Resolution Module v3.2.2**.
+If any critical step fails → return error to Normalization Engine v4.0.
 
 ------------------------------------------------------------
 # 5. FIELD‑BY‑FIELD NORMALIZATION RULES
 
-------------------------------------------------------------
 ## 5.1 Name
 
-- Use `name_raw` exactly as discovered, with minimal whitespace cleanup.  
-- If multiple authoritative names exist → choose the most authoritative.  
-- Former names go in Description.  
-- Never invent names.  
-- Never infer names from amenities or features.
+- Use `name_raw` with minimal whitespace cleanup.  
+- If multiple authoritative names exist → Resolution Engine v4.0 chooses.  
+- Former names → appended to Description.  
+- Never infer names.  
+- Never derive names from amenities or features.
 
-Audit:
-- Log all name conflicts.  
-- Log all corrections.
+Provenance: log all name conflicts and corrections.
 
 ------------------------------------------------------------
 ## 5.2 Category
 
-- Must match a value from the Site Vocabulary Module v3.2.2.  
+- Must match a controlled value from Site Vocabulary Module v4.0.  
 - Never infer from amenities, features, or trail presence.  
-- If ambiguous → leave blank and flag uncertainty.
+- If ambiguous → leave blank and log uncertainty.
 
 ------------------------------------------------------------
 ## 5.3 Subtype
 
 - Optional.  
-- Must match the Category‑dependent subtype list.  
+- Must match subtype list for the chosen Category.  
 - Must not describe habitat conditions or temporary states.  
 - Leave blank if no subtype applies.
 
@@ -155,39 +157,50 @@ Audit:
 
 - Must match vocabulary values.  
 - “Closed” = permanently closed.  
-- “Proposed” must be officially documented.  
-- Never infer from imagery.
+- “Proposed” must be explicitly documented.  
+- Never infer from imagery or social media.
 
 ------------------------------------------------------------
 ## 5.6 Ownership
 
-- Use `ownership_raw` if authoritative.  
-- Must match vocabulary values (Federal, State, Park District, County, Township, Municipal, Land Trust, Private, Foundation, Corporate, HOA).  
-- Never infer ownership.  
-- Leave blank if unknown.
+- Use `ownership_raw` only if it contains the **actual legal name** of the owning entity.
+- Must not use generic categories (e.g., “State Government”, “Municipal Agency”).
+- Must not encode management, governance, designation, or temporary conditions.
+- Must not be inferred from signage alone.
+- Leave blank if ownership cannot be verified from authoritative sources.
+- All decisions must be logged in normalization provenance.
 
 ------------------------------------------------------------
-## 5.7 Management
 
-- Use operational manager(s).  
-- Semicolon‑delimit if multiple.  
-- If same as Ownership → repeat explicitly.  
-- Leave blank if unknown.
+## 5.7 Governance / Management
+
+- Use the **actual name(s)** of the operational managing organization(s).
+- Semicolon‑delimit if multiple managers are formally documented.
+- Must not use generic categories (e.g., “County Agency”, “Nonprofit Organization”).
+- Must not encode ownership, designation, or access rules.
+- If governance is identical to ownership, repeat explicitly.
+- Leave blank if unverifiable.
+- All decisions must be logged in normalization provenance.
 
 ------------------------------------------------------------
+
 ## 5.8 Coordination
 
-- Only formal coordinating entities.  
-- Leave blank if none.
+- Use only **formally documented partner organization names**.
+- Must not use generic categories (e.g., “Government Partner”, “Nonprofit Partner”).
+- Must not duplicate Ownership or Governance.
+- Must not encode temporary volunteer activity or informal relationships.
+- Leave blank if no documented coordination exists.
+- All decisions must be logged in normalization provenance.
 
 ------------------------------------------------------------
 ## 5.9 Network Affiliation
 
 - Normalize only documented affiliations.  
 - Semicolon‑delimit if multiple.  
-- Must match known organizations or networks.  
-- Must not be used for parent–child relationships.  
+- Must match known networks or organizations.  
 - Must not imply hierarchy or ownership.  
+- Must not be used for parent–child relationships.  
 - Must be supported by authoritative sources.
 
 ------------------------------------------------------------
@@ -215,29 +228,29 @@ Audit:
 - Leave blank if unknown.
 
 ------------------------------------------------------------
-## 5.13 Jurisdiction (Municipality/Township)
+## 5.13 Jurisdiction (Municipality / Township)
 
 - Must match authoritative jurisdiction names.  
 - Semicolon‑delimit if multiple.  
 - Must not include county names.  
-- If many jurisdictions → use jurisdiction of Address.
+- If multiple jurisdictions → use jurisdiction of Address.
 
 ------------------------------------------------------------
-## 5.14 County
+## 5.14 County List
 
 - Required.  
 - Must match official Ohio county list.  
-- Semicolon‑delimit if multi‑county.  
-- Alphabetical order.  
+- Alphabetized.  
+- Semicolon‑delimited.  
 - Omit the word “County.”  
-- A Site spanning multiple counties must have **one normalized entity**.
+- Multi‑county Sites must produce one normalized entity.
 
 ------------------------------------------------------------
 ## 5.15 GPS Coordinates
 
 - Format: `lat,lon` (no space).  
 - Accept only authoritative coordinates.  
-- Reject placeholders, centroids, or unverifiable coordinates.  
+- Reject placeholders, centroids, unverifiable coordinates.  
 - Leave blank if verification fails.
 
 ------------------------------------------------------------
@@ -258,7 +271,7 @@ Audit:
 ------------------------------------------------------------
 ## 5.18 Notes
 
-- Optional free‑text.  
+- Optional free text.  
 - Must not include identity‑defining ecology.  
 - Must not include internal features.  
 - Use for temporary closures, access restrictions, historical notes.
@@ -272,22 +285,21 @@ Audit:
 - No placeholders or inferred URLs.
 
 ------------------------------------------------------------
-## 5.20 Derived Label (computed at TSV output)
+## 5.20 Derived Label (TSV‑Only)
 
-### Rules
-- Derived Label is **not stored** in normalized entities.  
-- Derived Label is computed only during TSV output using the **TSV Output Specification v3.2.2**.  
-- Must be derived solely from normalized fields.  
-- All construction steps must be logged.
+- Not stored in normalized entities.  
+- Computed only during TSV output.  
+- Derived solely from normalized fields.  
+- All construction steps logged.
 
 ------------------------------------------------------------
 ## 5.21 Parent Site
 
 - Leave blank for top‑level Sites.  
-- Must match normalized parent Site name.  
+- Must match normalized parent Site ID (not name).  
 - A Site may have only one parent.  
 - Parent–child relationships must be explicit in authoritative sources.  
-- Must follow the **Child Site Rules Module v3.2.2**.
+- Must follow **Child Site Rules Module v4.0**.
 
 ------------------------------------------------------------
 # 6. VALIDATION LOGIC
@@ -298,14 +310,16 @@ Normalization must validate:
 - GPS format  
 - Plus Code generation  
 - Semicolon formatting  
-- Field order  
+- Field types  
 - No invented data  
 - Blank fields are true blanks  
 - No delimiter characters inside fields  
 
 If any field fails validation:
+
 - Surface the issue  
 - Do not silently correct  
+- Log in normalization provenance  
 
 ------------------------------------------------------------
 # 7. DELIMITER‑INTEGRITY REQUIREMENTS
@@ -328,15 +342,15 @@ All anomalies must be logged.
 - Record alternates in Description.
 
 ### 8.2 Conflicting Ownership
-- Flag for Resolution; never infer.
+- Flag for Resolution Engine v4.0; never infer.
 
 ### 8.3 Conflicting Acreage
 - Use the most authoritative source.  
-- If conflict persists → Resolution.
+- If conflict persists → Resolution Engine v4.0.
 
 ### 8.4 Conflicting Network Affiliations
 - Use authoritative documentation.  
-- If unclear → Resolution.
+- If unclear → Resolution Engine v4.0.
 
 ------------------------------------------------------------
 # 9. MISSING DATA RULES
@@ -356,23 +370,23 @@ Normalization must:
 - Record unverifiable claims  
 - Record normalization decisions  
 - Record delimiter‑integrity validation  
-- Never overwrite user‑provided data without surfacing the change  
+- Never overwrite user‑provided data without logging the change  
 
 ------------------------------------------------------------
 # 11. MODULE DEPENDENCIES
 
 This module depends on:
 
-- **Site Vocabulary Module v3.2.2**  
-- **Site Schema Module v3.2.2**  
-- **TSV Output Specification (Sites) v3.2.2**  
-- **Discovery Protocol Module v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- **Child Site Rules Module v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **Processing / Orchestration Module v3.2.2**
+- Site Vocabulary Module v4.0  
+- Site Schema Module v4.0  
+- Discovery Protocol Module v4.0  
+- Discovery Output Specification v4.0  
+- Discovery Metadata Specification v4.0  
+- Child Site Rules Module v4.0  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- Entity Graph Schema v4.0  
+- Audit & Logging Module v4.0  
 
 ------------------------------------------------------------
-# END OF SITE NORMALIZATION CONTRACT v3.2.2
+# END OF SITE NORMALIZATION CONTRACT v4.0

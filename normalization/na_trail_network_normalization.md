@@ -1,27 +1,36 @@
-# NATURAL AREAS PROJECT — TRAIL NETWORK NORMALIZATION CONTRACT v3.2.2
-Authoritative, deterministic, field‑by‑field normalization contract for transforming
-Trail Network Raw Candidate Records into fully normalized Trail Network entities
-under the v3.2.2 ontology.
+# NATURAL AREAS PROJECT — TRAIL NETWORK NORMALIZATION CONTRACT v4.0
+Authoritative, deterministic, field‑by‑field normalization contract for transforming  
+**Resolved Trail Network Entities** into fully normalized Trail Network entities  
+under the v4.0 ontology.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Trail Network Vocabulary Module v3.2.2**.
+All vocabularies are defined in the **Trail Network Vocabulary Module v4.0**.
+
+Normalization must be deterministic, provenance‑preserving, and aligned with:
+
+- Trail Network Schema Module v4.0  
+- Trail Schema Module v4.0 (for member validation)  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- TSV Output Specification (Trail Networks) v4.0  
+- Audit & Logging Module v4.0  
+
+No invented data is permitted.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
 This module defines:
 
-- How raw Trail Network discoveries are normalized  
-- How each Trail Network Schema v3.2.2 field is populated  
-- How Network Type, Status, and Designation are validated  
+- How resolved Trail Network entities are normalized  
+- How each Trail Network Schema v4.0 field is populated  
+- How Network Type is validated  
 - How member Trails are validated and linked  
 - How multi‑county and multi‑state networks are normalized  
 - How URLs, notes, and metadata are handled  
-- How normalization integrates with the Audit & Logging Module v3.2.2  
-- How conflicts and uncertainties are surfaced to the Resolution Module v3.2.2  
-
-**Derived Label is not constructed during normalization.**  
-It is computed only during TSV output.
+- How Derived Label is computed (v4.0)  
+- How conflicts and uncertainties are surfaced  
+- How normalization integrates with audit and provenance  
 
 This module is authoritative for Trail Network normalization.
 
@@ -30,81 +39,60 @@ This module is authoritative for Trail Network normalization.
 
 Normalization consumes:
 
-## 2.1 Raw Candidate Record  
-From **Discovery Output Specification v3.2.2**, including:
+## 2.1 Resolved Trail Network Entity (from Resolution Engine v4.0)
+Including:
 
-- name_raw  
-- network_type_raw  
-- counties_raw  
-- states_raw  
-- managing_agency_raw  
-- managing_agencies_secondary_raw  
-- url_primary_raw, url_all_raw  
-- member_trails_raw  
-- notes_raw  
-- description_raw  
-- source_datasets_raw  
-- source_maps_raw  
-- source_gis_layers_raw  
-- discovery_tier  
-- discovered_in_tiers  
-- seeded_from_baseline  
-- baseline_id_raw  
-- discovery_metadata (v3.2.2)
+- name_resolved  
+- network_type_resolved  
+- counties_resolved  
+- states_resolved  
+- managing_agency_primary_resolved  
+- managing_agencies_secondary_resolved  
+- url_primary_resolved, url_all_resolved  
+- member_trails_resolved  
+- notes_resolved  
+- description_resolved  
+- history_resolved  
+- provenance metadata  
+- conflict metadata  
+- uncertainty metadata  
 
-## 2.2 Discovery Metadata  
-From **Discovery Metadata Specification v3.2.2**, including:
+## 2.2 Vocabulary Modules v4.0
+- Network Types  
 
-- Identity metadata  
-- Tier metadata  
-- Source metadata  
-- Conflict metadata  
-- Uncertainty metadata  
-- Boundary metadata  
-- Parent/relationship metadata  
-- Baseline metadata  
-
-## 2.3 Vocabulary Modules  
-- **Trail Network Vocabulary Module v3.2.2**  
-  - Network Types  
-  - Network Status  
-  - Network Designations  
-
-## 2.4 Schema Modules  
-- **Trail Network Schema Module v3.2.2**  
-- **Trail Schema Module v3.2.2** (for member validation)
+## 2.3 Schema Modules v4.0
+- Trail Network Schema Module v4.0  
+- Trail Schema Module v4.0  
 
 ------------------------------------------------------------
 # 3. OUTPUTS
 
 Normalization produces:
 
-- A normalized Trail Network entity conforming to the **Trail Network Schema Module v3.2.2**  
-- A record ready for export via the **TSV Output Specification (Trail Networks) v3.2.2**  
-- Full audit trail entries via the **Audit & Logging Module v3.2.2**  
+- A **Normalized Trail Network Entity** conforming to Trail Network Schema v4.0  
+- A complete normalization provenance record  
+- A record ready for TSV Output and Entity Upsert Engine v4.0  
 
-No new information may be invented.
+Derived Label **is computed during normalization** (v4.0 rule).
 
 ------------------------------------------------------------
 # 4. NORMALIZATION WORKFLOW (HIGH‑LEVEL)
 
-1. Receive Raw Candidate Record  
-2. Validate identity  
-3. Normalize network name  
-4. Normalize Network Type  
-5. Normalize jurisdiction fields (Counties, States)  
-6. Normalize managing agencies  
-7. Normalize member Trails  
-8. Normalize description  
+1. Validate identity  
+2. Normalize network name  
+3. Normalize Network Type  
+4. Normalize jurisdiction fields (Counties, States)  
+5. Normalize managing agencies  
+6. Normalize member Trails  
+7. Normalize description  
+8. Normalize history  
 9. Normalize notes  
 10. Normalize URLs and sources  
-11. Validate against schema  
-12. Emit normalized Trail Network entity  
+11. Compute Derived Label  
+12. Validate against schema  
+13. Emit normalized Trail Network entity  
 
-**Derived Label is not constructed here.**  
-It is computed only during TSV output.
-
-If any critical step fails → surface to **Resolution Module v3.2.2**.
+If any critical step fails → surface to Resolution Engine v4.0.
 
 ------------------------------------------------------------
 # 5. FIELD‑BY‑FIELD NORMALIZATION RULES
@@ -112,9 +100,9 @@ If any critical step fails → surface to **Resolution Module v3.2.2**.
 ------------------------------------------------------------
 ## 5.1 Network Name
 
-- Use `name_raw` exactly as discovered, with minimal whitespace cleanup.  
-- If multiple authoritative names exist → choose the most authoritative.  
-- Alternate names go in Description.  
+- Use `name_resolved` exactly as resolved.  
+- Minimal whitespace cleanup only.  
+- Alternate names → Alternate Names field.  
 - Never invent names.  
 - Never infer names from member Trails or branding.
 
@@ -124,7 +112,7 @@ Audit:
 ------------------------------------------------------------
 ## 5.2 Network Type
 
-- Must match a value from the **Network Type vocabulary v3.2.2**.  
+- Must match a value from the Network Type vocabulary v4.0.  
 - Never infer from member Trails alone.  
 - If ambiguous → leave blank and flag uncertainty.
 
@@ -132,64 +120,67 @@ Audit:
 - Log all mappings and unmappable values.
 
 ------------------------------------------------------------
-## 5.3 Designation (if schema supports)
+## 5.3 Managing Agency (Primary)
 
-- Must match vocabulary values.  
-- Semicolon‑delimit if multiple.  
-- Never infer.  
-- Leave blank if unverifiable.
-
-------------------------------------------------------------
-## 5.4 Managing Agency (Primary)
-
-- Use `managing_agency_raw` if authoritative.  
-- Must match vocabulary values (Federal, State, Park District, County, Municipal, Land Trust, Private, etc.).  
-- Never infer from member Trails.  
-- Leave blank if unknown.
+- Must be authoritative.  
+- Must not be inferred from member Trails.  
+- Leave blank if unknown.  
+- Must not encode governance hierarchy.
 
 ------------------------------------------------------------
-## 5.5 Managing Agencies (Secondary)
+## 5.4 Managing Agencies (Secondary)
 
 - Semicolon‑delimit if multiple.  
 - Must be authoritative.  
+- Must not duplicate the primary agency.  
 - Never infer from Trail‑level management.
 
 ------------------------------------------------------------
-## 5.6 Counties
+## 5.5 County List
 
-- Normalize using the **official Ohio county list**.  
-- Semicolon‑delimit if multi‑county.  
-- Alphabetical order.  
-- Omit the word “County.”  
+- Normalize using the official county list.  
+- Semicolon‑delimited.  
+- Alphabetized.  
+- Must not include the word “County.”  
 - Never infer from member Trails unless explicitly documented.  
-- A Trail Network spanning multiple counties must have **one normalized entity**.
+- A multi‑county network is **one entity**, never segmented.
 
 ------------------------------------------------------------
-## 5.7 States (if multi‑state)
+## 5.6 States Included
 
 - Use authoritative state abbreviations (e.g., OH, IN, KY).  
 - Semicolon‑delimit if multiple.  
+- Alphabetized.  
 - Never infer from member Trails unless explicitly documented.
 
 ------------------------------------------------------------
-## 5.8 Member Trails
+## 5.7 Member Trails
 
 - Must match **normalized Trail names**.  
 - Semicolon‑delimit if multiple.  
 - Never infer membership.  
-- If a member Trail is not yet normalized → create placeholder for Resolution.  
-- If membership is ambiguous → flag uncertainty.
+- If a member Trail is unresolved → Resolution Engine handles identity.  
+- If ambiguous → flag uncertainty.
 
 Audit:
 - Log all membership conflicts and unverifiable claims.
 
 ------------------------------------------------------------
-## 5.9 Description
+## 5.8 Description
 
 - 1–3 sentences.  
 - Must describe identity‑defining characteristics of the network.  
 - Include naming history and alternate names.  
+- Must not include Trail‑level or Segment‑level details.  
 - Must not include amenities or temporary conditions.
+
+------------------------------------------------------------
+## 5.9 History
+
+- Optional.  
+- Must be factual and sourced.  
+- May include origin, designation events, or major changes.  
+- Must not include speculative or inferred history.
 
 ------------------------------------------------------------
 ## 5.10 Notes
@@ -197,7 +188,7 @@ Audit:
 - Optional free‑text.  
 - Must not include identity‑defining characteristics.  
 - Must not include Trail‑level details.  
-- Use for temporary closures, access restrictions, historical notes.
+- Use for clarifications, temporary conditions, or contextual notes.
 
 ------------------------------------------------------------
 ## 5.11 URLs
@@ -205,24 +196,26 @@ Audit:
 - Full `https://` URLs only.  
 - Semicolon‑delimit if multiple.  
 - Must be authoritative.  
+- Tracking parameters must be removed.  
 - No placeholders or inferred URLs.
 
 ------------------------------------------------------------
-## 5.12 Derived Label (computed at TSV output)
+## 5.12 Derived Label (computed during normalization)
 
 ### Rules
 
-- Derived Label is **not stored** in normalized entities.  
-- Derived Label is computed only during TSV output using the **TSV Output Specification v3.2.2**.  
+- Derived Label is **computed here** in v4.0.  
 - Must be derived solely from normalized fields.  
+- Must follow the Derived Label rules in the TSV Output Specification v4.0.  
+- Must be deterministic.  
 - All construction steps must be logged.
 
 ------------------------------------------------------------
 # 6. MULTI‑COUNTY AND MULTI‑STATE NORMALIZATION RULES
 
-- A Trail Network spanning multiple counties or states produces **one normalized entity**, not multiple.  
-- The County field contains a **semicolon‑delimited, alphabetized list**.  
-- The State field contains a **semicolon‑delimited, alphabetized list**.  
+- A Trail Network spanning multiple counties or states produces **one normalized entity**.  
+- County List must be semicolon‑delimited and alphabetized.  
+- States Included must be semicolon‑delimited and alphabetized.  
 - Boundary metadata must reflect all counties and states traversed.  
 - Never segment multi‑county or multi‑state networks.
 
@@ -239,7 +232,7 @@ Normalization must validate:
 - No delimiter characters inside fields  
 
 If validation fails:
-- Surface to Resolution  
+- Surface to Resolution Engine v4.0  
 - Do not silently correct  
 
 ------------------------------------------------------------
@@ -260,11 +253,11 @@ All anomalies must be logged.
 
 ### 9.1 Conflicting Names
 - Use the most authoritative source.  
-- Record alternates in Description.
+- Record alternates in Alternate Names.
 
 ### 9.2 Conflicting Network Type
 - Use authoritative regional or statewide sources.  
-- If unclear → Resolution.
+- If unclear → Resolution Engine v4.0.
 
 ### 9.3 Conflicting Membership
 - Preserve all claims.  
@@ -279,7 +272,7 @@ All anomalies must be logged.
 
 - If data is missing and cannot be verified → leave blank.  
 - Never estimate.  
-- Never infer membership, designation, or jurisdiction.  
+- Never infer membership or jurisdiction.  
 - Never generate URLs without verification.
 
 ------------------------------------------------------------
@@ -299,16 +292,16 @@ Normalization must:
 
 This module depends on:
 
-- **Trail Network Vocabulary Module v3.2.2**  
-- **Trail Network Schema Module v3.2.2**  
-- **Trail Schema Module v3.2.2**  
-- **TSV Output Specification (Trail Networks) v3.2.2**  
-- **Discovery Protocol Module v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **Processing / Orchestration Module v3.2.2**
+- Trail Network Vocabulary Module v4.0  
+- Trail Network Schema Module v4.0  
+- Trail Schema Module v4.0  
+- TSV Output Specification (Trail Networks) v4.0  
+- Discovery Protocol Module v4.0  
+- Discovery Output Specification v4.0  
+- Discovery Metadata Specification v4.0  
+- Resolution Engine v4.0  
+- Audit & Logging Module v4.0  
+- Processing / Orchestration Module v4.0  
 
 ------------------------------------------------------------
-# END OF TRAIL NETWORK NORMALIZATION CONTRACT v3.2.2
+# END OF TRAIL NETWORK NORMALIZATION CONTRACT v4.0

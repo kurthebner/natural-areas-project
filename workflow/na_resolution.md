@@ -1,41 +1,47 @@
-# NATURAL AREAS PROJECT — RESOLUTION MODULE v3.2.2
-A deterministic, system‑wide decision framework for resolving ambiguous,
-borderline, or multi‑identity cases across **all six entity types** during
-discovery, resolution, normalization, and TSV preparation.
+# NATURAL AREAS PROJECT
+# RESOLUTION MODULE v4.0
+(Authoritative System‑Wide Decision Framework for Entity Identity, Conflict Resolution, and Cross‑Tier Alignment)
+
+This module defines the authoritative, deterministic rules for resolving all ambiguous,
+borderline, conflicting, or multi‑identity cases across **all six entity types** during
+the Raw → Resolution → Normalization → Entity Graph pipeline.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the respective Vocabulary Modules v3.2.2.
+All vocabularies are defined in the respective Vocabulary Modules v4.0.
 
 This module overrides ambiguity in all other modules.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-The Resolution Module defines how Copilot resolves all ambiguous or borderline
-cases that arise during:
+The Resolution Module v4.0 defines how the system resolves all ambiguous or
+borderline cases that arise during:
 
-- Discovery (what counts as each entity type)  
-- Entity‑type determination (Site vs. Access Point vs. Trail, etc.)  
-- Classification across all six entities (including Site categories, Trail and Segment types, and Access Point roles)  
-- Normalization (all fields across all six entities)  
-- Parent Site assignment (child Sites)  
-- Multi‑county interpretation  
-- Network membership interpretation  
+- Discovery (what counts as each entity type)
+- Entity‑type determination (Site vs. Trail vs. Access Point, etc.)
+- Classification across all six entities (including Site categories, Trail and Segment types, and Access Point roles)
+- Parent Site assignment (child Sites)
+- Multi‑county interpretation
+- Network membership interpretation
+- Cross‑tier conflict reconciliation
+- Provenance‑aware identity merging
+- Integration with the Entity Graph
 
 This module ensures:
 
 - Zero improvisation  
 - Zero silent assumptions  
 - Deterministic, repeatable decisions  
-- Full alignment with Schema Modules, Vocabulary Modules, Discovery Protocol,  
-  Normalization Contracts, and TSV Output Specifications  
+- Full alignment with Schema Modules, Vocabulary Modules, Discovery Protocol v4.0,
+  Discovery Metadata Specification v4.0, Normalization Engine v4.0, and TSV Output Specifications v4.0  
+- Full preservation of raw discovery values  
+- Full provenance‑driven conflict handling  
 
 ------------------------------------------------------------
 # 2. GENERAL PRINCIPLES (APPLIES TO ALL ENTITIES)
 
 ## 2.1 Identity First
-Classification is based on the **ontological identity** of the object, not its
-amenities, activities, or marketing language.
+Classification is based on **ontological identity**, not amenities, activities, or marketing language.
 
 ## 2.2 Governance ≠ Category
 Ownership or management never determines Category or entity type.
@@ -49,17 +55,15 @@ Amenities never determine entity type.
 If something is an amenity, it belongs in **Features**, not as an entity.
 
 ## 2.5 When in Doubt, Choose the More General Identity
-If an object could be two things, choose the broader identity unless a formal
-designation dictates otherwise.
+If an object could be two things, choose the broader identity unless a formal designation dictates otherwise.
 
 ## 2.6 Never Infer Governance
 Ownership, Management, and Designation must never be inferred.  
 Ambiguity triggers a flag, not a guess.
 
 ## 2.7 Identity‑Bearing Units May Be Split
-Large parks, forests, preserves, and trail systems may contain internal
-identity‑bearing units.  
-These become **child Sites** when they meet the Internal Parcel Rule.
+Large parks, forests, preserves, and trail systems may contain internal identity‑bearing units.  
+These become **child Sites** when they meet the criteria in the **Child Site Rules Module v4.0**.
 
 ## 2.8 Access Points Are Never Sites
 Trailheads, boat ramps, parking areas, and entrances are **Access Points**, not Sites.
@@ -77,6 +81,14 @@ Non‑identity‑bearing path fragments are **geometry**, not Features.
 ## 2.12 Networks Are Not Trails or Sites
 Networks are collections of Trails or Sites, not physical land units.
 
+## 2.13 Provenance Always Wins
+When sources conflict, the system must rely on provenance metadata:
+- Tier precedence  
+- Source system  
+- Discovery path  
+- Extraction method  
+- Raw values  
+
 ------------------------------------------------------------
 # 3. ENTITY‑TYPE RESOLUTION RULES
 
@@ -85,13 +97,13 @@ These rules determine what entity type a baseline or discovered object becomes.
 ## 3.1 Site
 A Site is a **named, bounded, physical land unit** with its own identity.
 
-## 3.2 Child Site (formerly Sub‑Site)
+## 3.2 Child Site
 A child Site is a named, bounded, identity‑bearing unit **within a parent Site**  
-that meets the criteria in the **Child Site Rules Module v3.2.2**.  
+that meets the criteria in the **Child Site Rules Module v4.0**.  
 It is represented as a **Site with a Parent Site value**, not a separate entity type.
 
 ## 3.3 Access Point
-A location of entry to a Site or Trail.
+A visitor‑facing location of entry to a Site, Trail, or Trail Segment.
 
 ## 3.4 Trail
 A **named, linear, identity‑bearing route**.
@@ -231,7 +243,7 @@ A Site or child Site must be:
 
 If not, it is a Feature.
 
-Child Site determination must follow the **Child Site Rules Module v3.2.2**.
+Child Site determination must follow the **Child Site Rules Module v4.0**.
 
 ------------------------------------------------------------
 # 9. TRAIL SEGMENT IDENTITY RULE
@@ -250,7 +262,7 @@ If a path fragment is:
 - Not operationally meaningful  
 - Not recognized by the managing agency  
 
-…it is **geometry**, not a Trail Segment and not a Feature.
+…it is **geometry**, not a Trail Segment.
 
 ------------------------------------------------------------
 # 10. NETWORK RESOLUTION RULES
@@ -268,68 +280,76 @@ If a path fragment is:
 ------------------------------------------------------------
 # 11. CONFLICT RESOLUTION OVERRIDES
 
-## 11.1 Category Conflicts
+## 11.1 Tier Precedence
+Lower‑numbered tiers override higher‑numbered tiers.
+
+## 11.2 Category Conflicts
 Resolution Module overrides all other modules.
 
-## 11.2 Governance Conflicts
+## 11.3 Ownership / Management Conflicts
 Normalization rules apply unless ambiguous → Resolution decides.
 
-## 11.3 Trail Role Conflicts
+## 11.4 Trail Role Conflicts
 Resolution overrides all other modules.
 
-## 11.4 Ecological Identity Conflicts
+## 11.5 Ecological Identity Conflicts
 Ecology informs Description only.
 
-## 11.5 Entity‑Type Conflicts
+## 11.6 Entity‑Type Conflicts
 Resolution determines final entity type.
 
-## 11.6 Parent Site Conflicts
-Resolution applies the **Child Site Rules Module v3.2.2** to determine whether a
-Parent Site relationship is valid.
+## 11.7 Parent Site Conflicts
+Resolution applies the **Child Site Rules Module v4.0**.
 
-## 11.7 Multi‑County Conflicts (Universal Rule)
+## 11.8 Multi‑County Conflicts (Universal Rule)
 
-For all six entity types (Site, Child Site, Access Point, Trail, Trail Segment,
-Trail Network, Site Network):
+For all six entity types:
 
-- Each entity must be represented as **one record**, regardless of the number of
-  counties it spans.
-- The County field must contain **all applicable counties**, formatted as a
-  **semicolon‑delimited, alphabetized list**.
+- Each entity must be represented as **one record**, regardless of the number of counties it spans.
+- The county list must contain **all applicable counties**, formatted as a **semicolon‑delimited, alphabetized list**.
 - No entity may be duplicated or segmented based on county boundaries.
-- Boundary metadata must be preserved in Discovery Metadata but does not trigger
-  record duplication.
-- If authoritative sources disagree on county boundaries, the Resolution Module
-  determines the final county list.
+- Boundary metadata must be preserved in Discovery Metadata.
+- If authoritative sources disagree, Resolution determines the final county list.
 - No inference is permitted; only documented county assignments may be used.
 
-## 11.8 Parent–Child Identity Conflicts
+## 11.9 Parent–Child Identity Conflicts
 
 A child Site may not override or redefine the identity of its parent Site.
 
 If an internal unit appears to have equal or greater identity than the parent, Resolution determines whether:
-- the internal unit is actually the true Site, and
+
+- the internal unit is actually the true Site, and  
 - the former parent becomes a child Site or a Feature.  
+
 Identity precedence is determined by authoritative naming, not size or prominence.
 
-## 11.9 Developer Preview TSVs
-- TSV previews generated during Discovery are non‑authoritative.  
-- Resolution must rely only on Raw Candidate Records and Discovery Metadata, not preview TSVs.  
-- Preview TSVs must not influence entity‑type determination or conflict resolution.
+## 11.10 Provenance Conflicts
+Resolution uses:
+
+- Tier precedence  
+- Source system  
+- Discovery path  
+- Extraction method  
+- Raw values  
+
+## 11.11 Developer Preview TSVs
+Preview TSVs generated during Discovery are non‑authoritative.  
+Resolution must rely only on Raw Discovery Records and Discovery Metadata.
 
 ------------------------------------------------------------
 # 12. MODULE DEPENDENCIES
 
 This module depends on:
 
-- All six Schema Modules v3.2.2  
-- All six Vocabulary Modules v3.2.2  
-- All six Normalization Contracts v3.2.2  
-- Discovery Protocol Module v3.2.2  
-- County Baseline Module v3.2.2  
-- Processing / Orchestration Module v3.2.2  
-- **Child Site Rules Module v3.2.2**  
-- Audit & Logging Module v3.2.2  
+- All six Schema Modules v4.0  
+- All six Vocabulary Modules v4.0  
+- All six Normalization Modules v4.0  
+- Discovery Protocol Module v4.0  
+- Discovery Orchestration Module v4.0  
+- County Baseline Module v4.0  
+- Processing Orchestration Module v4.0  
+- **Child Site Rules Module v4.0**  
+- Audit & Logging Module v4.0  
 
 ------------------------------------------------------------
-# END OF RESOLUTION MODULE v3.2.2
+# END OF RESOLUTION MODULE v4.0

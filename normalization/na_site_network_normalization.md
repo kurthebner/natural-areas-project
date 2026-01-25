@@ -1,267 +1,238 @@
-# NATURAL AREAS PROJECT — SITE NETWORK NORMALIZATION CONTRACT v3.2.2
-Authoritative, deterministic, field‑by‑field normalization contract for transforming
-Site Network Raw Candidate Records into fully normalized Site Network entities
-under the v3.2.2 ontology.
+# NATURAL AREAS PROJECT
+# SITE NETWORK NORMALIZATION CONTRACT v4.0
+(Authoritative Field‑Level Rules for Normalizing Resolved Site Network Entities)
 
-This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Site Network Vocabulary Module v3.2.2**.
+This module defines the v4.0 normalization rules applied by the
+Normalization Engine v4.0 to transform Resolved Site Network entities into
+Normalized Site Network Objects v4.0 ready for insertion into the
+Entity Graph Schema v4.0.
+
+This contract contains no controlled vocabularies.
+All vocabularies are defined in the Site Network Vocabulary Module v4.0.
+
+This module is authoritative for Site Network normalization only.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-This module defines:
+The Site Network Normalization Contract v4.0 defines:
 
-- How raw Site Network discoveries are normalized  
-- How each Site Network Schema v3.2.2 field is populated  
-- How Network Type, Status, and Designation are validated  
-- How member Sites are validated and linked  
+- How a Resolved Site Network becomes a Normalized Site Network  
+- How each Site Network Schema v4.0 field is validated and normalized  
+- How Network Type and Status are normalized  
 - How multi‑county and multi‑state networks are normalized  
-- How URLs, notes, and metadata are handled  
-- How Derived Label is constructed **only at TSV output time**  
-- How normalization integrates with the Audit & Logging Module v3.2.2  
-- How conflicts and uncertainties are surfaced to the Resolution Module v3.2.2  
+- How URLs, notes, and description fields are normalized  
+- How normalization interacts with the Normalization Engine v4.0  
+- How provenance, conflicts, and uncertainties are recorded  
+- How normalized entities integrate with the Entity Upsert Engine v4.0  
 
-This module is authoritative for Site Network normalization.
+Normalization must:
+
+- Never invent data  
+- Never infer membership, governance, or identity  
+- Never silently correct malformed values  
+- Always log normalization decisions  
+
+Derived Label is **not** computed here.  
+It is computed only during TSV output.
 
 ------------------------------------------------------------
 # 2. INPUTS
 
 Normalization consumes:
 
-## 2.1 Raw Candidate Record  
-From **Discovery Output Specification v3.2.2**, including:
+## 2.1 Resolved Entity Object
+From Resolution Engine v4.0, including:
+
+- resolved identity key  
+- resolved entity_type = "Site Network"  
+- resolved network_type  
+- resolved county set  
+- resolved state set  
+- resolved status  
+- resolved member Site set (if any)  
+- resolved conflicts and uncertainties  
+
+## 2.2 Raw Discovery Record v4.0
+Including:
 
 - name_raw  
 - network_type_raw  
 - counties_raw  
 - states_raw  
-- managing_agency_raw  
-- managing_agencies_secondary_raw  
+- status_raw  
 - url_primary_raw, url_all_raw  
 - member_sites_raw  
 - notes_raw  
 - description_raw  
-- source_datasets_raw  
-- source_maps_raw  
-- source_gis_layers_raw  
-- discovery_tier  
-- discovered_in_tiers  
-- seeded_from_baseline  
-- baseline_id_raw  
-- discovery_metadata (v3.2.2)
+- source_* fields  
+- discovery_tier, discovered_in_tiers  
+- seeded_from_baseline, baseline_id  
+- discovery_metadata  
 
-## 2.2 Discovery Metadata  
-From **Discovery Metadata Specification v3.2.2**, including:
+## 2.3 Vocabulary Modules v4.0
+- Site Network Vocabulary Module v4.0  
+- Site Vocabulary Module v4.0 (for member validation)
 
-- Identity metadata  
-- Tier metadata  
-- Source metadata  
-- Conflict metadata  
-- Uncertainty metadata  
-- Boundary metadata  
-- Parent/relationship metadata  
-- Baseline metadata  
-
-## 2.3 Vocabulary Modules  
-- **Site Network Vocabulary Module v3.2.2**  
-  - Network Types  
-  - Network Status  
-  - Network Designations  
-
-## 2.4 Schema Modules  
-- **Site Network Schema Module v3.2.2**  
-- **Site Schema Module v3.2.2** (for member validation)
+## 2.4 Schema Modules v4.0
+- Site Network Schema Module v4.0  
+- Site Schema Module v4.0 (for member validation)
 
 ------------------------------------------------------------
 # 3. OUTPUTS
 
 Normalization produces:
 
-- A normalized Site Network entity conforming to the **Site Network Schema Module v3.2.2**  
-- A record ready for export via the **TSV Output Specification (Site Networks) v3.2.2**  
-- Full audit trail entries via the **Audit & Logging Module v3.2.2**  
+- A Normalized Site Network Object v4.0 conforming to the Site Network Schema Module v4.0  
+- A Normalization Provenance Record  
+- A Validation Result Object (warnings, errors)  
+- A normalized entity ready for the Entity Upsert Engine v4.0  
 
 No new information may be invented.
 
 ------------------------------------------------------------
 # 4. NORMALIZATION WORKFLOW (HIGH‑LEVEL)
 
-1. Receive Raw Candidate Record  
-2. Validate identity  
-3. Normalize network name  
+1. Receive Resolved Site Network  
+2. Validate identity and entity_type  
+3. Normalize Network Name  
 4. Normalize Network Type  
-5. Normalize jurisdiction fields (counties, states)  
-6. Normalize managing agencies  
+5. Normalize Status  
+6. Normalize jurisdiction fields (Counties Traversed, States Included)  
 7. Normalize member Sites  
-8. Normalize description  
-9. Normalize notes  
-10. Normalize URLs and sources  
-11. Apply multi‑county and multi‑state rules  
-12. Validate against schema  
-13. Emit normalized Site Network entity  
+8. Normalize Description  
+9. Normalize Notes  
+10. Normalize URLs  
+11. Validate against Site Network Schema v4.0  
+12. Emit Normalized Site Network + provenance  
 
-**Derived Label is not constructed here.**  
+Derived Label is not constructed here.  
 It is computed only during TSV output.
 
-If any critical step fails → surface to **Resolution Module v3.2.2**.
+If any critical step fails → return error to Normalization Engine v4.0.
 
 ------------------------------------------------------------
 # 5. FIELD‑BY‑FIELD NORMALIZATION RULES
 
-------------------------------------------------------------
 ## 5.1 Network Name
 
-### Rules
-- Use `name_raw` exactly as discovered, with minimal whitespace cleanup.  
-- If multiple authoritative names exist → choose the most authoritative.  
-- Alternate names go in Description.  
-- Never invent names.  
-- Never infer names from member Sites or branding alone.
+Rules:
+- Use name_raw with minimal whitespace cleanup.  
+- If multiple authoritative names exist → Resolution chooses.  
+- Alternate names must not be merged into the name field.  
+- Never infer names from member Sites or branding.  
+- Never invent names.
 
-### Audit
+Audit:
 - Log all name conflicts.  
 - Log all corrections.
 
 ------------------------------------------------------------
 ## 5.2 Network Type
 
-### Rules
-- Must match a value from the **Network Type vocabulary v3.2.2**.  
-- Never infer from member Sites alone.  
-- If ambiguous → leave blank and flag uncertainty.
+Rules:
+- Must match a controlled value from the Site Network Vocabulary Module v4.0.  
+- Never infer from member Sites, geography, or management.  
+- If ambiguous → leave blank and log uncertainty (Resolution should have resolved this).  
+- Must not encode governance or hierarchy.
 
 ------------------------------------------------------------
-## 5.3 Network Status (if schema supports)
+## 5.3 Status
 
-### Rules
-- Must match vocabulary values.  
-- Semicolon‑delimit if multiple.  
-- Never infer.  
+Rules:
+- Must match a controlled value from the Site Network Vocabulary Module v4.0.  
+- “Proposed” must be explicitly documented.  
+- Never infer status from member Sites or planning documents.  
 - Leave blank if unverifiable.
 
 ------------------------------------------------------------
-## 5.4 Network Designation (if schema supports)
+## 5.4 Counties Traversed
 
-### Rules
-- Must match vocabulary values.  
-- Semicolon‑delimit if multiple.  
-- Never infer.  
-- Leave blank if unverifiable.
-
-------------------------------------------------------------
-## 5.5 Managing Agency (Primary)
-
-### Rules
-- Use `managing_agency_raw` if authoritative.  
-- Must match vocabulary values (Federal, State, Park District, County, Municipal, Land Trust, Private, etc.).  
-- Never infer from member Sites.  
-- Leave blank if unknown.
-
-------------------------------------------------------------
-## 5.6 Managing Agencies (Secondary)
-
-### Rules
-- Semicolon‑delimit if multiple.  
-- Must be authoritative.  
-- Never infer from Site‑level management.
-
-------------------------------------------------------------
-## 5.7 Counties
-
-### Rules
-- Normalize using the **official Ohio county list**.  
-- Semicolon‑delimit if multi‑county.  
-- Alphabetical order.  
-- Omit the word “County.”  
+Rules:
+- Required.  
+- Must match official Ohio county names (minus the word “County”).  
+- Alphabetized.  
+- Semicolon‑delimited.  
+- Must reflect the **resolved county set**.  
 - Never infer from member Sites unless explicitly documented.  
-- Never segment multi‑county networks.
+- Never segment multi‑county networks.  
+- Must follow the universal multi‑county rule v4.0.
 
 ------------------------------------------------------------
-## 5.8 States (if multi‑state)
+## 5.5 States Included (if multi‑state)
 
-### Rules
-- Use authoritative state abbreviations (e.g., OH, IN, KY).  
-- Semicolon‑delimit if multiple.  
+Rules:
+- Use authoritative state names or abbreviations as defined in the schema.  
+- Alphabetized.  
+- Semicolon‑delimited.  
+- Must reflect the **resolved state set**.  
 - Never infer from member Sites unless explicitly documented.
 
 ------------------------------------------------------------
-## 5.9 Member Sites
+## 5.6 Member Sites
 
-### Rules
-- Must match **normalized Site names**.  
+Rules:
+- Must reference **normalized Site IDs**, not names.  
 - Semicolon‑delimit if multiple.  
 - Never infer membership.  
-- If a member Site is not yet normalized → create a placeholder for Resolution.  
-- If membership is ambiguous → flag uncertainty.
+- Normalization must accept the resolved member Site set exactly as provided.  
+- If a member Site is unresolved → this is a Resolution error, not a normalization decision.  
+- Member Sites must be identity‑bearing Sites, not Features or Access Points.
 
-### Audit
+Audit:
 - Log all membership conflicts.  
 - Log unverifiable membership claims.
 
 ------------------------------------------------------------
-## 5.10 Description
+## 5.7 Description
 
-### Rules
+Rules:
 - 1–3 sentences.  
 - Must describe identity‑defining characteristics of the network.  
-- Include naming history and alternate names.  
+- May include naming history and alternate names.  
 - Must not include amenities or temporary conditions.  
-- Must not include Site‑level descriptions.
+- Must not include Site‑level descriptions.  
+- Must not describe individual member Sites.
 
 ------------------------------------------------------------
-## 5.11 Notes
+## 5.8 Notes
 
-### Rules
-- Optional free‑text.  
+Rules:
+- Optional free text.  
 - Must not include identity‑defining ecology.  
 - Must not include Site‑level or child‑Site‑level details.  
-- Use for temporary closures, access restrictions, historical notes.
+- Use for temporary closures, access restrictions, or contextual notes.
 
 ------------------------------------------------------------
-## 5.12 URLs
+## 5.9 URLs
 
-### Rules
+Rules:
 - Full https:// URLs only.  
 - Semicolon‑delimit if multiple.  
 - Must be authoritative.  
-- No placeholders or inferred URLs.
+- No placeholders or inferred URLs.  
+- Must not include broken or malformed URLs.
 
 ------------------------------------------------------------
-## 5.13 Derived Label (computed at TSV output)
-
-### Rules
-- Derived Label is **not stored** in normalized entities.  
-- Derived Label is computed only during TSV output using the **TSV Output Specification v3.2.2**.  
-- Must be derived solely from normalized fields.  
-- All construction steps must be logged.
-
-------------------------------------------------------------
-# 6. MULTI‑COUNTY AND MULTI‑STATE NORMALIZATION RULES
-
-- A Site Network spanning multiple counties or states produces **one normalized entity**, not multiple.  
-- The County field contains a **semicolon‑delimited, alphabetized list**.  
-- The State field contains a **semicolon‑delimited, alphabetized list**.  
-- Boundary metadata must reflect all counties and states included.  
-- Never segment multi‑county or multi‑state networks.
-
-------------------------------------------------------------
-# 7. VALIDATION LOGIC
+# 6. VALIDATION LOGIC
 
 Normalization must validate:
 
 - All vocabulary‑controlled fields  
 - Semicolon formatting  
-- Field order  
+- Field types  
 - No invented data  
 - Blank fields are true blanks  
 - No delimiter characters inside fields  
+- Member Site references are valid normalized Site IDs  
 
 If any field fails validation:
 - Surface the issue  
 - Do not silently correct  
+- Log in normalization provenance  
 
 ------------------------------------------------------------
-# 8. DELIMITER‑INTEGRITY REQUIREMENTS
+# 7. DELIMITER‑INTEGRITY REQUIREMENTS
 
 Normalization must ensure:
 
@@ -274,34 +245,38 @@ Normalization must ensure:
 All anomalies must be logged.
 
 ------------------------------------------------------------
-# 9. CONFLICT RESOLUTION RULES
+# 8. CONFLICT RESOLUTION RULES
 
-### 9.1 Conflicting Names
-- Use the most authoritative source.  
+8.1 Conflicting Names:  
+- Use the most authoritative source (Resolution decides).  
 - Record alternates in Description.
 
-### 9.2 Conflicting Network Type
-- Use authoritative regional or statewide sources.  
-- If unclear → Resolution.
+8.2 Conflicting Network Type:  
+- Must defer to Resolution.  
+- Never infer.
 
-### 9.3 Conflicting Membership
-- Preserve all claims.  
-- Flag for Resolution.
+8.3 Conflicting Status:  
+- Use authoritative documentation.  
+- If unclear → Resolution Engine v4.0.
 
-### 9.4 Conflicting Jurisdiction (Counties/States)
-- Use the most authoritative source.  
-- Preserve all claims in metadata.
+8.4 Conflicting County or State Lists:  
+- Use authoritative documentation.  
+- If conflict persists → Resolution Engine v4.0.
+
+8.5 Conflicting Membership:  
+- Must defer entirely to Resolution.  
+- Normalization does not adjudicate membership.
 
 ------------------------------------------------------------
-# 10. MISSING DATA RULES
+# 9. MISSING DATA RULES
 
 - If data is missing and cannot be verified → leave blank.  
 - Never estimate.  
-- Never infer membership, designation, or jurisdiction.  
-- Never generate URLs without verification.
+- Never infer Network Type, Status, or membership.  
+- Never infer counties or states from member Sites.  
 
 ------------------------------------------------------------
-# 11. AUDITABILITY REQUIREMENTS
+# 10. AUDITABILITY REQUIREMENTS
 
 Normalization must:
 
@@ -310,23 +285,23 @@ Normalization must:
 - Record unverifiable claims  
 - Record normalization decisions  
 - Record delimiter‑integrity validation  
-- Never overwrite user‑provided data without surfacing the change  
+- Never overwrite user‑provided data without logging the change  
 
 ------------------------------------------------------------
-# 12. MODULE DEPENDENCIES
+# 11. MODULE DEPENDENCIES
 
 This module depends on:
 
-- **Site Network Vocabulary Module v3.2.2**  
-- **Site Network Schema Module v3.2.2**  
-- **Site Schema Module v3.2.2**  
-- **TSV Output Specification (Site Networks) v3.2.2**  
-- **Discovery Protocol Module v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **Processing / Orchestration Module v3.2.2**
+- Site Network Vocabulary Module v4.0  
+- Site Network Schema Module v4.0  
+- Site Schema Module v4.0  
+- Discovery Protocol Module v4.0  
+- Discovery Output Specification v4.0  
+- Discovery Metadata Specification v4.0  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- Entity Graph Schema v4.0  
+- Audit & Logging Module v4.0  
 
 ------------------------------------------------------------
-# END OF SITE NETWORK NORMALIZATION CONTRACT v3.2.2
+# END OF SITE NETWORK NORMALIZATION CONTRACT v4.0

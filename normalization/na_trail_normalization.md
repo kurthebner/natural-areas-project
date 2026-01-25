@@ -1,113 +1,110 @@
-# NATURAL AREAS PROJECT — TRAIL NORMALIZATION CONTRACT v3.2.2
-Authoritative, deterministic, field‑by‑field normalization contract for transforming
-Trail Raw Candidate Records into fully normalized Trail entities under the v3.2.2 ontology.
+# NATURAL AREAS PROJECT
+# TRAIL NORMALIZATION CONTRACT v4.0
+(Authoritative, Deterministic Normalization Rules for Trail Entities)
+
+This module defines the authoritative, deterministic rules for transforming
+**Resolved Trail Entities** into **Normalized Trail Entities** under the v4.0 ontology.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Trail Vocabulary Module v3.2.2**.
+All vocabularies are defined in the **Trail Vocabulary Module v4.0**.
+
+Normalization must be deterministic, provenance‑preserving, and fully aligned with:
+
+- Trail Schema Module v4.0  
+- Resolution Module v4.0  
+- Normalization Engine v4.0  
+- TSV Output Specification (Trails) v4.0  
+- Audit & Logging Module v4.0  
+- TSV Integrity Check Module v4.0  
+
+No invented data is permitted.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-This module defines:
+The Trail Normalization Contract v4.0 defines:
 
-- How raw Trail discoveries are normalized  
-- How each Trail Schema v3.2.2 field is populated  
-- How Trail Type, Surface, Use, Status, and Designation are validated  
-- How Trail → Trail Network relationships are validated  
-- How GPS, Plus Code, Address, and URL rules are applied  
+- How each Trail field is normalized  
+- How vocabulary‑controlled fields are validated  
 - How multi‑county Trails are normalized  
-- How normalization integrates with the Audit & Logging Module v3.2.2  
-- How conflicts and uncertainties are surfaced to the Resolution Module v3.2.2  
+- How GPS, Plus Code, and Address fields are validated  
+- How Trail Network membership is normalized  
+- How Derived Labels are computed  
+- How normalization integrates with audit and provenance  
+- How conflicts and unverifiable claims are surfaced  
 
-**Derived Label is not constructed during normalization.**  
-It is computed only during TSV output.
+Normalization produces:
 
-This module is authoritative for Trail normalization.
+- A **Normalized Trail Entity**  
+- A complete normalization provenance record  
+- A record ready for Entity Upsert Engine v4.0  
 
 ------------------------------------------------------------
 # 2. INPUTS
 
 Normalization consumes:
 
-## 2.1 Raw Candidate Record  
-From **Discovery Output Specification v3.2.2**, including:
+## 2.1 Resolved Trail Entity (from Resolution Engine v4.0)
+Including:
 
-- name_raw  
-- counties_raw  
-- municipalities_raw, townships_raw  
-- ownership_raw, management_raw  
-- gps_raw, address_raw  
-- url_primary_raw, url_all_raw  
-- source_datasets_raw  
-- source_maps_raw  
-- source_gis_layers_raw  
-- parent_trail_networks_raw  
-- notes_raw  
-- description_raw  
-- discovery_tier  
-- discovered_in_tiers  
-- seeded_from_baseline  
-- baseline_id_raw  
-- discovery_metadata (v3.2.2)
+- name_resolved  
+- trail_type_resolved  
+- surface_resolved  
+- use_resolved  
+- designation_resolved  
+- ownership_resolved  
+- management_resolved  
+- coordination_resolved  
+- counties_resolved  
+- gps_resolved  
+- address_resolved  
+- parent_trail_networks_resolved  
+- description_resolved  
+- notes_resolved  
+- provenance metadata  
+- conflict metadata  
 
-## 2.2 Discovery Metadata  
-From **Discovery Metadata Specification v3.2.2**, including:
+## 2.2 Vocabulary Modules v4.0
+- Trail Types  
+- Trail Surfaces  
+- Trail Uses  
+- Trail Designations  
+- Status values  
 
-- Identity metadata  
-- Tier metadata  
-- Source metadata  
-- Conflict metadata  
-- Uncertainty metadata  
-- Boundary metadata  
-- Parent/relationship metadata  
-- Baseline metadata  
-
-## 2.3 Vocabulary Modules  
-- **Trail Vocabulary Module v3.2.2**  
-  - Trail Types  
-  - Trail Surfaces  
-  - Trail Uses  
-  - Trail Status  
-  - Trail Designations  
-
-## 2.4 Schema Modules  
-- **Trail Schema Module v3.2.2**  
-- **Trail Segment Schema Module v3.2.2**  
-- **Trail Network Schema Module v3.2.2**
+## 2.3 Schema Modules v4.0
+- Trail Schema Module v4.0  
+- Trail Segment Schema Module v4.0  
+- Trail Network Schema Module v4.0  
 
 ------------------------------------------------------------
 # 3. OUTPUTS
 
 Normalization produces:
 
-- A normalized Trail entity conforming to the **Trail Schema Module v3.2.2**  
-- A record ready for export via the **TSV Output Specification (Trails) v3.2.2**  
-- Full audit trail entries via the **Audit & Logging Module v3.2.2**  
+- A **Normalized Trail Entity** conforming to Trail Schema v4.0  
+- A complete normalization provenance record  
+- A record ready for TSV Output and Entity Upsert Engine v4.0  
 
-No new information may be invented.
+Derived Label **is computed here** in v4.0 (not in TSV output).
 
 ------------------------------------------------------------
 # 4. NORMALIZATION WORKFLOW (HIGH‑LEVEL)
 
-1. Receive Raw Candidate Record  
-2. Validate identity  
-3. Normalize name  
-4. Normalize Trail Type, Surface, Use, Designation  
-5. Normalize ownership, management, coordination  
-6. Normalize jurisdiction fields  
-7. Normalize location fields (GPS, Plus Code, Address)  
-8. Normalize length  
-9. Normalize Trail Network membership  
-10. Normalize description  
-11. Normalize notes  
-12. Normalize URLs and sources  
-13. Validate against schema  
-14. Emit normalized Trail entity  
+1. Validate identity  
+2. Normalize name  
+3. Normalize Trail Type, Surface, Use, Designation  
+4. Normalize Ownership, Management, Coordination  
+5. Normalize counties  
+6. Normalize GPS, Plus Code, Address  
+7. Normalize length  
+8. Normalize Trail Network membership  
+9. Normalize description and notes  
+10. Normalize URLs and sources  
+11. Compute Derived Label  
+12. Validate against schema  
+13. Emit normalized Trail entity  
 
-**Derived Label is not constructed here.**  
-It is computed only during TSV output.
-
-If any critical step fails → surface to **Resolution Module v3.2.2**.
+If any critical step fails → surface to Resolution Engine v4.0.
 
 ------------------------------------------------------------
 # 5. FIELD‑BY‑FIELD NORMALIZATION RULES
@@ -115,11 +112,10 @@ If any critical step fails → surface to **Resolution Module v3.2.2**.
 ------------------------------------------------------------
 ## 5.1 Name
 
-- Use `name_raw` exactly as discovered, with minimal whitespace cleanup.  
-- If multiple authoritative names exist → choose the most authoritative.  
-- Alternate names go in Description.  
-- Never invent names.  
-- Never infer names from segments, networks, or amenities.
+- Use `name_resolved` exactly as resolved.  
+- Minimal whitespace cleanup only.  
+- Alternate names → Description.  
+- Never infer names from segments, networks, or amenities.  
 
 Audit:
 - Log all name conflicts and corrections.
@@ -127,23 +123,23 @@ Audit:
 ------------------------------------------------------------
 ## 5.2 Trail Type
 
-- Must match a value from the Trail Type vocabulary v3.2.2.  
+- Must match Trail Type vocabulary v4.0.  
 - Never infer from surface, use, or amenities.  
-- If ambiguous → leave blank and flag uncertainty.
+- If ambiguous → leave blank and flag uncertainty.  
 
 ------------------------------------------------------------
 ## 5.3 Trail Surface
 
 - Must match vocabulary values.  
 - Semicolon‑delimit if multiple.  
-- Never infer from imagery alone.
+- Never infer from imagery alone.  
 
 ------------------------------------------------------------
 ## 5.4 Trail Use
 
 - Must match vocabulary values.  
 - Semicolon‑delimit if multiple.  
-- Never infer from amenities or signage alone.
+- Never infer from signage alone.  
 
 ------------------------------------------------------------
 ## 5.5 Designation
@@ -151,29 +147,27 @@ Audit:
 - Must match vocabulary values.  
 - Semicolon‑delimit if multiple.  
 - Never infer.  
-- Leave blank if unverifiable.
+- Leave blank if unverifiable.  
 
 ------------------------------------------------------------
 ## 5.6 Ownership
 
-- Use `ownership_raw` if authoritative.  
-- Must match vocabulary values (Federal, State, Park District, County, Township, Municipal, Land Trust, Private, Foundation, Corporate, HOA).  
+- Must match vocabulary values.  
 - Never infer ownership.  
-- Leave blank if unknown.
+- Leave blank if unknown.  
 
 ------------------------------------------------------------
 ## 5.7 Management
 
 - Use operational manager(s).  
 - Semicolon‑delimit if multiple.  
-- If same as Ownership → repeat explicitly.  
-- Leave blank if unknown.
+- Leave blank if unknown.  
 
 ------------------------------------------------------------
 ## 5.8 Coordination
 
 - Only formal coordinating entities.  
-- Leave blank if none.
+- Leave blank if none.  
 
 ------------------------------------------------------------
 ## 5.9 Description
@@ -181,7 +175,7 @@ Audit:
 - 1–3 sentences.  
 - Must describe identity‑defining characteristics of the Trail.  
 - Include naming history and alternate names.  
-- Must not include amenities or temporary conditions.
+- Must not include amenities or temporary conditions.  
 
 ------------------------------------------------------------
 ## 5.10 Status
@@ -189,7 +183,7 @@ Audit:
 - Must match vocabulary values.  
 - “Closed” = permanently closed.  
 - “Proposed” must be officially documented.  
-- Never infer from imagery.
+- Never infer from imagery.  
 
 ------------------------------------------------------------
 ## 5.11 Address
@@ -197,7 +191,7 @@ Audit:
 - Use authoritative address if available.  
 - Partial address allowed if verifiable.  
 - Never invent.  
-- Leave blank if none.
+- Leave blank if none.  
 
 ------------------------------------------------------------
 ## 5.12 Length (Miles)
@@ -205,17 +199,18 @@ Audit:
 - Numeric only.  
 - No units.  
 - Never estimate.  
-- Leave blank if unknown.
+- Leave blank if unknown.  
 
 ------------------------------------------------------------
-## 5.13 County
+## 5.13 County List
 
 - Required.  
-- Must match official Ohio county list.  
-- Semicolon‑delimit if multi‑county.  
-- Alphabetical order.  
-- Omit the word “County.”  
-- A Trail spanning multiple counties must have **one normalized entity**.
+- Must match official county list.  
+- Semicolon‑delimited.  
+- Alphabetized.  
+- No duplicates.  
+- Never infer counties.  
+- A multi‑county Trail is **one entity**, never segmented.  
 
 ------------------------------------------------------------
 ## 5.14 Township & Municipality
@@ -223,7 +218,7 @@ Audit:
 - Must match authoritative jurisdiction names.  
 - Semicolon‑delimit if multiple.  
 - Must not include county names.  
-- If many jurisdictions → use jurisdiction of Address.
+- If many jurisdictions → use jurisdiction of Address.  
 
 ------------------------------------------------------------
 ## 5.15 GPS Coordinates
@@ -231,13 +226,13 @@ Audit:
 - Format: `lat,lon` (no space).  
 - Accept only authoritative coordinates.  
 - Reject placeholders, centroids, or unverifiable coordinates.  
-- Leave blank if verification fails.
+- Leave blank if verification fails.  
 
 ------------------------------------------------------------
 ## 5.16 Plus Code
 
 - Generate only from accepted GPS.  
-- If GPS blank → Plus Code blank.
+- If GPS blank → Plus Code blank.  
 
 ------------------------------------------------------------
 ## 5.17 Trail Network Membership
@@ -245,7 +240,7 @@ Audit:
 - Must match normalized Trail Network names.  
 - Semicolon‑delimit if multiple.  
 - Never infer membership.  
-- If ambiguous → flag uncertainty.
+- If ambiguous → flag uncertainty.  
 
 Audit:
 - Log all membership conflicts.
@@ -256,7 +251,7 @@ Audit:
 - Optional free‑text.  
 - Must not include identity‑defining characteristics.  
 - Must not include internal features or segment‑level details.  
-- Use for temporary closures, access restrictions, historical notes.
+- Use for temporary closures, access restrictions, historical notes.  
 
 ------------------------------------------------------------
 ## 5.19 URLs
@@ -264,25 +259,27 @@ Audit:
 - Full `https://` URLs only.  
 - Semicolon‑delimit if multiple.  
 - Must be authoritative.  
-- No placeholders or inferred URLs.
+- No placeholders or inferred URLs.  
+- Normalize by removing tracking parameters.  
 
 ------------------------------------------------------------
-## 5.20 Derived Label (computed at TSV output)
+## 5.20 Derived Label (computed during normalization)
 
 ### Rules
 
-- Derived Label is **not stored** in normalized entities.  
-- Derived Label is computed only during TSV output using the **TSV Output Specification v3.2.2**.  
+- Derived Label **is computed here** in v4.0.  
 - Must be derived solely from normalized fields.  
-- All construction steps must be logged.
+- Must be deterministic.  
+- Must follow the Derived Label rules in TSV Output Specification v4.0.  
+- All construction steps must be logged.  
 
 ------------------------------------------------------------
 # 6. MULTI‑COUNTY NORMALIZATION RULES
 
-- A Trail spanning multiple counties produces **one normalized entity**, not multiple.  
-- The County field contains a **semicolon‑delimited, alphabetized list**.  
+- A Trail spanning multiple counties produces **one normalized entity**.  
+- County list must be semicolon‑delimited and alphabetized.  
 - Boundary metadata must reflect all counties traversed.  
-- Never segment multi‑county Trails.
+- Never segment multi‑county Trails.  
 
 ------------------------------------------------------------
 # 7. VALIDATION LOGIC
@@ -299,7 +296,7 @@ Normalization must validate:
 - No delimiter characters inside fields  
 
 If validation fails:
-- Surface to Resolution  
+- Surface to Resolution Engine v4.0  
 - Do not silently correct  
 
 ------------------------------------------------------------
@@ -320,19 +317,19 @@ All anomalies must be logged.
 
 ### 9.1 Conflicting Names
 - Use the most authoritative source.  
-- Record alternates in Description.
+- Record alternates in Description.  
 
 ### 9.2 Conflicting Length
 - Use the most authoritative source.  
-- If conflict persists → Resolution.
+- If conflict persists → Resolution Engine v4.0.  
 
 ### 9.3 Conflicting Trail Type, Surface, or Use
 - Use authoritative trail system sources.  
-- If unclear → Resolution.
+- If unclear → Resolution Engine v4.0.  
 
 ### 9.4 Conflicting Network Membership
 - Preserve all claims.  
-- Flag for Resolution.
+- Flag for Resolution Engine v4.0.  
 
 ------------------------------------------------------------
 # 10. MISSING DATA RULES
@@ -340,7 +337,7 @@ All anomalies must be logged.
 - If data is missing and cannot be verified → leave blank.  
 - Never estimate.  
 - Never infer ownership, designation, or length.  
-- Never generate GPS without verification.
+- Never generate GPS without verification.  
 
 ------------------------------------------------------------
 # 11. AUDITABILITY REQUIREMENTS
@@ -359,17 +356,17 @@ Normalization must:
 
 This module depends on:
 
-- **Trail Vocabulary Module v3.2.2**  
-- **Trail Schema Module v3.2.2**  
-- **TSV Output Specification (Trails) v3.2.2**  
-- **Discovery Protocol Module v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- **Trail Network Normalization Contract v3.2.2**  
-- **Trail Segment Normalization Contract v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **Processing / Orchestration Module v3.2.2**
+- Trail Vocabulary Module v4.0  
+- Trail Schema Module v4.0  
+- TSV Output Specification (Trails) v4.0  
+- Discovery Protocol Module v4.0  
+- Discovery Output Specification v4.0  
+- Discovery Metadata Specification v4.0  
+- Trail Network Normalization Contract v4.0  
+- Trail Segment Normalization Contract v4.0  
+- Resolution Module v4.0  
+- Audit & Logging Module v4.0  
+- Processing / Orchestration Module v4.0  
 
 ------------------------------------------------------------
-# END OF TRAIL NORMALIZATION CONTRACT v3.2.2
+# END OF TRAIL NORMALIZATION CONTRACT v4.0

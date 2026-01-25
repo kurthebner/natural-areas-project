@@ -1,11 +1,11 @@
-# NATURAL AREAS PROJECT — TRAIL NETWORK TSV OUTPUT SPECIFICATION v3.2.2
+# NATURAL AREAS PROJECT — TRAIL NETWORK TSV OUTPUT SPECIFICATION v4.0
 Authoritative, deterministic formatting‑layer specification defining exactly how  
 Trail Network records are serialized into tab‑separated values (TSV) with guaranteed  
-delimiter integrity, zero drift, and full compatibility with the v3.2.2 ontology.
+delimiter integrity, zero drift, and full compatibility with the v4.0 ontology.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Trail Network Vocabulary Module v3.2.2**.  
-All field definitions are defined in the **Trail Network Schema Module v3.2.2**.
+All vocabularies are defined in the **Trail Network Vocabulary Module v4.0**.  
+All field definitions are defined in the **Trail Network Schema Module v4.0**.
 
 ------------------------------------------------------------
 # 1. PURPOSE
@@ -20,8 +20,8 @@ This module defines:
 - **Multi‑county and multi‑state representation rules**  
 - Validation requirements  
 - Error conditions  
-- Integration with the TSV Integrity Check Module  
-- Integration with the v3.2.2 Processing / Orchestration Module  
+- Integration with the TSV Integrity Check Module v4.0  
+- Integration with the Processing / Orchestration Module v4.0  
 
 This specification is authoritative for **Trail Network TSV formatting**.
 
@@ -30,7 +30,7 @@ This specification is authoritative for **Trail Network TSV formatting**.
 
 This specification applies to:
 
-- All **normalized Trail Network records** (v3.2.2)  
+- All **Normalized Trail Network Entities v4.0**  
 - All counties and all processing runs  
 - All automated or manual TSV exports  
 - All Trail Network normalization workflows  
@@ -46,7 +46,7 @@ It governs:
 - Validation requirements  
 
 ------------------------------------------------------------
-# 3. FIELD ORDER (AUTHORITATIVE, v3.2.2)
+# 3. FIELD ORDER (AUTHORITATIVE, v4.0)
 
 Trail Network TSV output must contain exactly **13 fields** in the following order:
 
@@ -55,7 +55,7 @@ Trail Network TSV output must contain exactly **13 fields** in the following ord
 3. Network Type  
 4. Description  
 5. History  
-6. Counties Included  
+6. **Counties Traversed**  
 7. States Included  
 8. Primary Managing Agency  
 9. Secondary Managing Agencies  
@@ -64,31 +64,30 @@ Trail Network TSV output must contain exactly **13 fields** in the following ord
 12. Notes  
 13. Derived Label  
 
-This order is absolute and must never change.
-
+This order is absolute and must never change.  
 No additional fields may be added.  
 No fields may be removed or reordered.
 
 ------------------------------------------------------------
-# 4. MULTI‑COUNTY AND MULTI‑STATE REPRESENTATION RULES (v3.2.2)
+# 4. MULTI‑COUNTY AND MULTI‑STATE REPRESENTATION RULES (v4.0)
 
 Trail Networks are **not expanded** into multiple TSV rows.
 
 If a Trail Network spans multiple counties:
 
-- The **Counties Included** field must contain a **semicolon‑delimited, alphabetized list** of all counties.  
+- The **Counties Traversed** field must contain a **semicolon‑delimited, alphabetized list** of all counties.  
 - The field must not include the word “County”.  
-- The Trail Network must appear as **a single TSV row**, regardless of how many counties it spans.
+- The Trail Network must appear as **a single TSV row**, regardless of how many counties it spans.  
 
 If a Trail Network spans multiple states:
 
 - The **States Included** field must contain a **semicolon‑delimited, alphabetized list** of all states.  
-- State abbreviations or full names must follow the normalization contract.
+- State abbreviations or full names must follow the normalization contract.  
 
 Example:
 
-- Counties: `Delaware;Franklin;Union`  
-- States: `Ohio;Pennsylvania`  
+- Counties Traversed: `Delaware;Franklin;Union`  
+- States Included: `Ohio;Pennsylvania`  
 
 Multi‑county and multi‑state logic is handled at the **Trail Network level**, not by row expansion.
 
@@ -155,22 +154,20 @@ Valid: `"Ohio to Erie Trail System"`
 Invalid: `"  Ohio to Erie Trail System"`
 
 ------------------------------------------------------------
-# 8. DERIVED LABEL RULES
+# 8. DERIVED LABEL RULES (v4.0)
 
 ## 8.1 Derived Label is always field 13
 It must appear in the final column.
 
-## 8.2 Derived Label is computed but not stored in the normalized dataset
-Derived Label (v3.2.2) is defined in the **Trail Network Normalization Contract**.  
-The schema specifies the formula:
-
-**Network Type + " — " + Primary Managing Agency**
+## 8.2 Derived Label is computed during normalization, not TSV output
+Derived Label (v4.0) is defined in the **Trail Network Normalization Contract v4.0**.  
+TSV output must not modify or recompute Derived Label.
 
 ## 8.3 Formatting rules
 - No parentheses  
 - No trailing punctuation  
 - No additional descriptors  
-- Must match normalized field values exactly  
+- Must match the normalized Derived Label exactly  
 
 Invalid:
 
@@ -193,24 +190,24 @@ Unknown fields → blank field (`\t\t`).
 Each field appears exactly once.
 
 ## 9.5 Multi‑county and multi‑state Trail Networks remain single rows
-- **Counties Included** is a semicolon‑delimited, alphabetized list.  
+- **Counties Traversed** is a semicolon‑delimited, alphabetized list.  
 - **States Included** is a semicolon‑delimited, alphabetized list.  
 - No row expansion occurs for Trail Networks.
 
 ------------------------------------------------------------
 # 10. TSV GENERATION ALGORITHM
 
-**Step 1 — Receive normalized 13‑field Trail Network record**  
-**Step 2 — Normalize Counties Included into a semicolon‑delimited, alphabetized list**  
-**Step 3 — Normalize States Included into a semicolon‑delimited, alphabetized list**  
-**Step 4 — Compute Derived Label for the record**  
+**Step 1 — Receive normalized 13‑field Trail Network entity**  
+**Step 2 — Validate Counties Traversed as semicolon‑delimited, alphabetized**  
+**Step 3 — Validate States Included as semicolon‑delimited, alphabetized**  
+**Step 4 — Validate Derived Label (already computed)**  
 **Step 5 — Validate no internal tabs**  
 **Step 6 — Validate no internal newlines**  
 **Step 7 — Validate whitespace rules**  
 **Step 8 — Join fields with tab characters**  
 **Step 9 — Validate delimiter count (must be 12)**  
 **Step 10 — Validate blank‑field representation**  
-**Step 11 — Emit row**
+**Step 11 — Emit row**  
 
 If any step fails, TSV generation must halt and surface an error.
 
@@ -228,13 +225,13 @@ TSV generation must halt if:
 - Field order incorrect  
 - Field missing  
 - Field duplicated  
-- **Counties Included incorrectly formatted (not semicolon‑delimited, not alphabetized)**  
+- **Counties Traversed incorrectly formatted (not semicolon‑delimited, not alphabetized)**  
 - **States Included incorrectly formatted (not semicolon‑delimited, not alphabetized)**  
 
-All errors must be logged in the Audit & Logging Module.
+All errors must be logged in the Audit & Logging Module v4.0.
 
 ------------------------------------------------------------
-# 12. INTEGRATION WITH TSV INTEGRITY CHECK
+# 12. INTEGRATION WITH TSV INTEGRITY CHECK v4.0
 
 The TSV Integrity Check must:
 
@@ -242,7 +239,7 @@ The TSV Integrity Check must:
 - Revalidate blank‑field representation  
 - Revalidate whitespace rules  
 - Revalidate Derived Label placement  
-- **Validate Counties Included formatting (semicolon‑delimited, alphabetized)**  
+- **Validate Counties Traversed formatting (semicolon‑delimited, alphabetized)**  
 - **Validate States Included formatting (semicolon‑delimited, alphabetized)**  
 - Surface anomalies  
 - Halt finalization if any row fails  
@@ -254,12 +251,12 @@ Together, this specification and the Integrity Check guarantee drift‑free Trai
 
 This module depends on:
 
-- **Trail Network Schema Module v3.2.2**  
-- **Trail Network Vocabulary Module v3.2.2**  
-- **Trail Network Normalization Contract v3.2.2**  
-- **TSV Integrity Check Module v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **Processing / Orchestration Module v3.2.2**
+- **Trail Network Schema Module v4.0**  
+- **Trail Network Vocabulary Module v4.0**  
+- **Trail Network Normalization Contract v4.0**  
+- **TSV Integrity Check Module v4.0**  
+- **Audit & Logging Module v4.0**  
+- **Processing / Orchestration Module v4.0**  
 
 ------------------------------------------------------------
-# END OF TRAIL NETWORK TSV OUTPUT SPECIFICATION v3.2.2
+# END OF TRAIL NETWORK TSV OUTPUT SPECIFICATION v4.0

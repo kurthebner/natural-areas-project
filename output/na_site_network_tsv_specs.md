@@ -1,11 +1,11 @@
-# NATURAL AREAS PROJECT — SITE NETWORK TSV OUTPUT SPECIFICATION v3.2.2
+# NATURAL AREAS PROJECT — SITE NETWORK TSV OUTPUT SPECIFICATION v4.0
 Authoritative, deterministic formatting‑layer specification defining exactly how  
 Site Network records are serialized into tab‑separated values (TSV) with guaranteed  
-delimiter integrity, zero drift, and full compatibility with the v3.2.2 ontology.
+delimiter integrity, zero drift, and full compatibility with the v4.0 ontology.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the **Site Network Vocabulary Module v3.2.2**.  
-All field definitions are defined in the **Site Network Schema Module v3.2.2**.
+All vocabularies are defined in the **Site Network Vocabulary Module v4.0**.  
+All field definitions are defined in the **Site Network Schema Module v4.0**.
 
 ------------------------------------------------------------
 # 1. PURPOSE
@@ -20,8 +20,8 @@ This module defines:
 - **Multi‑county and multi‑state representation rules**  
 - Validation requirements  
 - Error conditions  
-- Integration with the TSV Integrity Check Module  
-- Integration with the v3.2.2 Processing / Orchestration Module  
+- Integration with the TSV Integrity Check Module v4.0  
+- Integration with the Processing / Orchestration Module v4.0  
 
 This specification is authoritative for **Site Network TSV formatting**.
 
@@ -30,7 +30,7 @@ This specification is authoritative for **Site Network TSV formatting**.
 
 This specification applies to:
 
-- All **normalized Site Network records** (v3.2.2)  
+- All **normalized Site Network records** (v4.0)  
 - All counties and all processing runs  
 - All automated or manual TSV exports  
 - All Site Network normalization workflows  
@@ -46,7 +46,7 @@ It governs:
 - Validation requirements  
 
 ------------------------------------------------------------
-# 3. FIELD ORDER (AUTHORITATIVE, v3.2.2)
+# 3. FIELD ORDER (AUTHORITATIVE, v4.0)
 
 Site Network TSV output must contain exactly **15 fields** in the following order:
 
@@ -54,8 +54,8 @@ Site Network TSV output must contain exactly **15 fields** in the following orde
 2. Alternate Names  
 3. Network Type  
 4. Status  
-5. Counties  
-6. States  
+5. Counties Traversed  
+6. States Included  
 7. Primary Managing Agency  
 8. Secondary Managing Agencies  
 9. Network Affiliation  
@@ -72,26 +72,26 @@ No additional fields may be added.
 No fields may be removed or reordered.
 
 ------------------------------------------------------------
-# 4. MULTI‑COUNTY AND MULTI‑STATE REPRESENTATION RULES (v3.2.2)
+# 4. MULTI‑COUNTY AND MULTI‑STATE REPRESENTATION RULES (v4.0)
 
 Site Networks are **not expanded** into multiple TSV rows.
 
 If a Site Network spans multiple counties:
 
-- The **Counties** field must contain a **semicolon‑delimited, alphabetized list** of all counties.  
+- The **Counties Traversed** field must contain a **semicolon‑delimited, alphabetized list** of all counties.  
 - The field must not include the word “County”.  
-- The Site Network must appear as **a single TSV row**, regardless of how many counties it spans.
+- The Site Network must appear as **a single TSV row**, regardless of how many counties it spans.  
+- Must follow the **universal multi‑county rule v4.0**.
 
 If a Site Network spans multiple states:
 
-- The **States** field must contain a **semicolon‑delimited, alphabetized list** of all states.  
-- State abbreviations or full names must follow the normalization contract.  
+- The **States Included** field must contain a **semicolon‑delimited, alphabetized list** of all states.  
+- State names or abbreviations must follow the normalization contract.  
 
 Example:
 
-- Normalized counties: `Delaware;Franklin;Union`  
-- Normalized states: `Ohio;Pennsylvania`  
-- TSV output: `Delaware;Franklin;Union` in Counties, `Ohio;Pennsylvania` in States.
+- Counties Traversed: `Delaware;Franklin;Union`  
+- States Included: `Ohio;Pennsylvania`  
 
 Multi‑county and multi‑state logic is handled at the **Site Network level**, not by row expansion.
 
@@ -164,7 +164,7 @@ Invalid: `"  National Heritage Area"`
 It must appear in the final column.
 
 ## 8.2 Derived Label is computed but not stored in the normalized dataset
-Derived Label (v3.2.2) is defined in the **Site Network Normalization Contract**.  
+Derived Label (v4.0) is defined in the **Site Network Normalization Contract v4.0**.  
 The schema specifies the formula:
 
 **Network Type + " — " + Primary Managing Agency**
@@ -196,16 +196,16 @@ Unknown fields → blank field (`\t\t`).
 Each field appears exactly once.
 
 ## 9.5 Multi‑county and multi‑state Site Networks remain single rows
-- The **Counties** field contains a semicolon‑delimited, alphabetized list.  
-- The **States** field contains a semicolon‑delimited, alphabetized list.  
+- **Counties Traversed** is a semicolon‑delimited, alphabetized list.  
+- **States Included** is a semicolon‑delimited, alphabetized list.  
 - No row expansion occurs for Site Networks.
 
 ------------------------------------------------------------
 # 10. TSV GENERATION ALGORITHM
 
 **Step 1 — Receive normalized 15‑field Site Network record**  
-**Step 2 — Normalize Counties into a semicolon‑delimited, alphabetized list**  
-**Step 3 — Normalize States into a semicolon‑delimited, alphabetized list**  
+**Step 2 — Normalize Counties Traversed into a semicolon‑delimited, alphabetized list**  
+**Step 3 — Normalize States Included into a semicolon‑delimited, alphabetized list**  
 **Step 4 — Compute Derived Label for the record**  
 **Step 5 — Validate no internal tabs**  
 **Step 6 — Validate no internal newlines**  
@@ -214,7 +214,7 @@ Each field appears exactly once.
 **Step 9 — Join fields with tab characters**  
 **Step 10 — Validate delimiter count (must be 14)**  
 **Step 11 — Validate blank‑field representation**  
-**Step 12 — Emit row**
+**Step 12 — Emit row**  
 
 If any step fails, TSV generation must halt and surface an error.
 
@@ -232,10 +232,10 @@ TSV generation must halt if:
 - Field order incorrect  
 - Field missing  
 - Field duplicated  
-- **Counties field incorrectly formatted (not semicolon‑delimited, not alphabetized)**  
-- **States field incorrectly formatted (not semicolon‑delimited, not alphabetized)**  
+- **Counties Traversed incorrectly formatted (not semicolon‑delimited, not alphabetized)**  
+- **States Included incorrectly formatted (not semicolon‑delimited, not alphabetized)**  
 
-All errors must be logged in the Audit & Logging Module.
+All errors must be logged in the Audit & Logging Module v4.0.
 
 ------------------------------------------------------------
 # 12. INTEGRATION WITH TSV INTEGRITY CHECK
@@ -246,8 +246,8 @@ The TSV Integrity Check must:
 - Revalidate blank‑field representation  
 - Revalidate whitespace rules  
 - Revalidate Derived Label placement  
-- **Validate Counties field formatting (semicolon‑delimited, alphabetized)**  
-- **Validate States field formatting (semicolon‑delimited, alphabetized)**  
+- **Validate Counties Traversed formatting (semicolon‑delimited, alphabetized)**  
+- **Validate States Included formatting (semicolon‑delimited, alphabetized)**  
 - Surface anomalies  
 - Halt finalization if any row fails  
 
@@ -258,12 +258,12 @@ Together, this specification and the Integrity Check guarantee drift‑free Site
 
 This module depends on:
 
-- **Site Network Schema Module v3.2.2**  
-- **Site Network Vocabulary Module v3.2.2**  
-- **Site Network Normalization Contract v3.2.2**  
-- **TSV Integrity Check Module v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **Processing / Orchestration Module v3.2.2**
+- **Site Network Schema Module v4.0**  
+- **Site Network Vocabulary Module v4.0**  
+- **Site Network Normalization Contract v4.0**  
+- **TSV Integrity Check Module v4.0**  
+- **Audit & Logging Module v4.0**  
+- **Processing / Orchestration Module v4.0**  
 
 ------------------------------------------------------------
-# END OF SITE NETWORK TSV OUTPUT SPECIFICATION v3.2.2
+# END OF SITE NETWORK TSV OUTPUT SPECIFICATION v4.0

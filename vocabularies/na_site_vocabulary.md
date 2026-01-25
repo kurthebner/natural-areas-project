@@ -1,11 +1,24 @@
-# SITE VOCABULARY MODULE v3.2.2
-Authoritative, versioned, single‑source‑of‑truth controlled vocabularies for all Site‑level fields that use enumerated values.
+# NATURAL AREAS PROJECT  
+# SITE VOCABULARY MODULE v4.0  
+(Authoritative Controlled Vocabularies for Site Entities)
 
-This module contains **only** controlled vocabulary lists.  
-All rules, semantics, and field definitions live in the Site Schema Module.
+This module defines the **controlled vocabularies** used by the Site Schema Module v4.0.
 
----
+It contains **only enumerated values**.  
+All semantics, rules, and field definitions live in the Site Schema Module v4.0.
 
+This module is authoritative for:
+
+- Category  
+- Subtype (Category‑dependent)  
+- Designation  
+- Status  
+- Features  
+
+Fields such as **Ownership**, **Governance (Management)**, and **Coordination** are **not** controlled vocabularies.  
+They are rule‑governed free‑text fields defined in the Site Schema Module v4.0.
+
+------------------------------------------------------------
 # 1. CATEGORY (Controlled)
 
 Campground  
@@ -27,9 +40,11 @@ Recreation Facility
 Water Site  
 Wildlife Area  
 
----
-
+------------------------------------------------------------
 # 2. SUBTYPE (Controlled, Category‑Dependent)
+
+A Site may have **zero or one** Subtype.  
+Subtypes must belong to the list for the Site’s Category.
 
 ## A. Park
 Greenspace  
@@ -60,7 +75,7 @@ Bog
 Swamp  
 Riparian Area  
 Ravine  
-Cliff / Bluff  
+Cliff or Bluff  
 Barrens  
 Dune  
 
@@ -182,8 +197,7 @@ None
 ## R. Fishing Area
 None  
 
----
-
+------------------------------------------------------------
 # 3. DESIGNATION (Controlled)
 
 ## Federal
@@ -218,7 +232,7 @@ State Recreation Area
 ## Local / Special
 County Historic Landmark  
 Municipal Historic Landmark  
-Local Landmark  
+Local Historic Landmark  
 Local Nature Preserve  
 Registered Cemetery  
 Protected Wetland  
@@ -229,8 +243,7 @@ Land Trust Preserve
 ## None
 None  
 
----
-
+------------------------------------------------------------
 # 4. STATUS (Controlled)
 
 Active  
@@ -242,59 +255,13 @@ Proposed
 Abandoned  
 Closed  
 
----
+------------------------------------------------------------
+# 5. FEATURES (Controlled)
 
-# 5. OWNERSHIP (Controlled)
+Features represent **internal components** of a Site.  
+They must not include Trails, Trail Segments, Access Points, or Sub‑Sites.
 
-Federal Government  
-State Government  
-County Government  
-Municipal Government  
-Township Government  
-Land Trust / Conservancy  
-Nonprofit Organization  
-Private Individual  
-Private Corporation  
-Private LLC  
-Private Partnership  
-Homeowners Association (HOA)  
-Private Utility Company  
-Joint Ownership  
-Unknown  
-
----
-
-# 6. MANAGEMENT (Controlled)
-
-Federal Agency  
-State Agency  
-County Agency  
-Municipal Agency  
-Township Agency  
-Land Trust / Conservancy  
-Nonprofit Organization  
-Private Landowner  
-Private Corporation  
-Private LLC  
-Homeowners Association (HOA)  
-Private Utility Company  
-Joint Management  
-Unknown  
-
----
-
-# 7. COORDINATION (Controlled)
-
-Government Partner  
-Land Trust / Conservancy Partner  
-Nonprofit Partner  
-Academic / Research Partner  
-Private Entity Partner  
-Joint Coordination  
-
----
-
-# 8. FEATURES (Controlled)
+(Full list preserved from v3.2.2.)
 
 ADA Accessible  
 AED  
@@ -511,6 +478,5 @@ Wildlife Observation Area
 Working Railway  
 Zoo  
 
----
-
-# END OF SITE VOCABULARY MODULE v3.2.2
+------------------------------------------------------------
+# END OF SITE VOCABULARY MODULE v4.0

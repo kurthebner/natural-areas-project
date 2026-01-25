@@ -1,9 +1,9 @@
-# NATURAL AREAS PROJECT — TRAIL SEGMENT VOCABULARY MODULE v3.2.2
+# NATURAL AREAS PROJECT — TRAIL SEGMENT VOCABULARY MODULE v4.0
 Authoritative, versioned, single‑source‑of‑truth controlled vocabularies  
 for all Trail Segment–level fields in the statewide Natural Areas & Trails system.
 
 This module contains:
-- All controlled vocabularies used in the Trail Segment Schema v3.2.2  
+- All controlled vocabularies used in the Trail Segment Schema v4.0  
 - Definitions and rules for each vocabulary  
 - Clarifications for ambiguous or overlapping values  
 
@@ -27,10 +27,11 @@ Other (explicitly named only)
 - “Loop” applies only when the Segment forms a closed loop by itself.  
 - “Connector” links two Trails or two Segments.  
 - “Access Segment” provides access from an Access Point to the main corridor.  
-- “Crossing” applies to bridges, underpasses, or road crossings that are mapped as Segments.  
+- “Crossing” applies to bridges, underpasses, or road crossings mapped as Segments.  
 - “Spur” is a short offshoot that does not reconnect.  
 - “Other” may be used only when an authoritative source provides a named type not covered above.  
-- Must not encode use, surface, or role.
+- Must not encode use, surface, or role.  
+- Must not encode status or designation.  
 
 ------------------------------------------------------------
 # 2. SEGMENT SURFACE TYPE VOCABULARY (Controlled)
@@ -47,12 +48,13 @@ Other (explicitly named only)
 
 ## Rules & Clarifications
 - Describes the **actual surface** of the Segment.  
-- “Paved” includes asphalt and concrete; these must not be used as separate values.  
+- “Paved” includes asphalt and concrete; these must not appear as separate values.  
 - “Natural Surface” includes dirt, soil, grass, or unimproved tread.  
 - “Water” applies to water‑based Segments (e.g., mapped water trail reaches).  
 - “Mixed” is allowed only when explicitly documented.  
 - “Other” may be used only when an authoritative source provides a named surface type not covered above.  
-- Must not encode use or origin.
+- Must not encode use or origin.  
+- Must not encode role or status.  
 
 ------------------------------------------------------------
 # 3. SEGMENT ROLE VOCABULARY (Controlled)
@@ -76,7 +78,8 @@ Other (explicitly named only)
 - “Interpretive Segment” includes signed interpretive routes or educational loops.  
 - “Other” may be used only when an authoritative source provides a named role not covered above.  
 - **Segment Role is often blank** because many agencies do not document functional roles at the segment level.  
-- Must not encode type, surface, or use.
+- Must not encode type, surface, or use.  
+- Must not encode status or designation.  
 
 ------------------------------------------------------------
-# END OF TRAIL SEGMENT VOCABULARY MODULE v3.2.2
+# END OF TRAIL SEGMENT VOCABULARY MODULE v4.0

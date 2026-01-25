@@ -1,11 +1,12 @@
-# NATURAL AREAS PROJECT — AUDIT & LOGGING MODULE v3.2.2
-A deterministic, system‑wide framework for recording, storing, and surfacing all  
-decisions, sources, conflicts, formatting transformations, normalization actions,  
-county/state list behaviors, and delimiter‑integrity checks made during the  
-Natural Areas processing pipeline for **all six entity types**.
+# NATURAL AREAS PROJECT  
+# AUDIT & LOGGING MODULE v4.0  
+Authoritative, deterministic, system‑wide framework for recording, storing, and  
+surfacing all decisions, sources, conflicts, formatting transformations,  
+normalization actions, county/state list behaviors, and delimiter‑integrity  
+checks made during the Natural Areas processing pipeline for **all six entity types**.
 
 This module contains no controlled vocabularies.  
-All vocabularies are defined in the respective Vocabulary Modules v3.2.2.
+All vocabularies are defined in the respective Vocabulary Modules v4.0.
 
 ------------------------------------------------------------
 # 1. PURPOSE
@@ -29,6 +30,7 @@ This module ensures:
 - No silent formatting drift occurs  
 - All conflicts are visible  
 - All delimiter‑integrity issues are surfaced  
+- All identity‑anchor validations are logged  
 - The entire pipeline is reproducible at any time  
 
 ------------------------------------------------------------
@@ -63,7 +65,8 @@ Logging applies to:
 - Every delimiter‑integrity anomaly  
 - Every **county/state list normalization**  
 - Every Derived Label construction  
-- Every integrity‑anchor validation  
+- Every identity‑anchor validation  
+- Every parent‑site validation  
 
 ------------------------------------------------------------
 # 3. LOG STRUCTURE
@@ -76,16 +79,17 @@ Each processing run produces a structured log with the following sections.
 - County or region processed  
 - Timestamp (start and end)  
 - Module versions used:  
-  - All six Schema Modules v3.2.2  
-  - All six Vocabulary Modules v3.2.2  
-  - All six Normalization Contracts v3.2.2  
-  - All six TSV Output Specifications v3.2.2  
-  - TSV Integrity Check Module v3.2.2  
-  - Discovery Protocol Module v3.2.2  
-  - Discovery Output Specification v3.2.2  
-  - Resolution Module v3.2.2  
-  - Processing / Orchestration Module v3.2.2  
-  - Audit & Logging Module v3.2.2  
+  - All six Schema Modules v4.0  
+  - All six Vocabulary Modules v4.0  
+  - All six Normalization Contracts v4.0  
+  - All six TSV Output Specifications v4.0  
+  - TSV Integrity Check Module v4.0  
+  - Discovery Protocol Module v4.0  
+  - Discovery Output Specification v4.0  
+  - Resolution Engine v4.0  
+  - Normalization Engine v4.0  
+  - Processing / Orchestration Module v4.0  
+  - Audit & Logging Module v4.0  
   - County Baseline Module  
 
 ------------------------------------------------------------
@@ -169,17 +173,20 @@ For each entity:
 - Any formatting corrections  
 - Controlled vocabulary assignments  
 - Derived Label construction details  
-- Integrity‑anchor validation  
+- Identity‑anchor validation  
+- Parent‑site validation  
 - **County/state list normalization:**  
   - Final semicolon‑delimited list  
   - Alphabetical ordering  
   - Duplicate removal  
   - Source of county/state assignments  
   - Any unverifiable county/state claims  
-- Parent/child relationship validation  
 - URL normalization  
 - GPS normalization  
 - Plus Code normalization (if applicable)  
+- Management normalization (free‑text, rule‑governed)  
+- Ownership normalization (free‑text, rule‑governed)  
+- Coordination normalization (free‑text, rule‑governed)  
 
 ------------------------------------------------------------
 ## 3.9 Delimiter‑Integrity Log
@@ -197,7 +204,7 @@ For each TSV row:
   - Collapsed blank fields  
   - Misaligned fields  
   - Misaligned Derived Label  
-  - Misaligned integrity anchor  
+  - Misaligned identity anchor  
   - Misaligned parent entity  
 
 ### Corrective Action
@@ -246,7 +253,7 @@ For **all six entities**:
 - Alphabetical ordering  
 - Duplicate detection  
 
-## 4.11 Integrity Anchors Must Be Validated  
+## 4.11 Identity Anchors Must Be Validated  
 For Trails, Trail Segments, Trail Networks, Site Networks, Sites, and Access Points.
 
 ## 4.12 Developer Preview TSVs  
@@ -289,7 +296,8 @@ A valid audit trail must allow the user to:
 - Confirm all delimiter‑integrity checks passed  
 - Confirm all six entity types were processed correctly  
 - Confirm **county/state list normalization** was correct  
-- Confirm Derived Labels and integrity anchors were correct  
+- Confirm Derived Labels and identity anchors were correct  
+- Confirm parent‑site relationships were validated correctly  
 
 ------------------------------------------------------------
 # 8. PIPELINE INTEGRATION
@@ -311,14 +319,16 @@ It produces the final audit output of Stage 7.
 
 This module depends on:
 
-- All six Schema Modules v3.2.2  
-- All six Vocabulary Modules v3.2.2  
-- All six Normalization Contracts v3.2.2  
-- All six TSV Output Specifications v3.2.2  
-- TSV Integrity Check Module v3.2.2  
-- Discovery Protocol Module v3.2.2  
-- Resolution Module v3.2.2  
-- Processing / Orchestration Module v3.2.2  
+- All six Schema Modules v4.0  
+- All six Vocabulary Modules v4.0  
+- All six Normalization Contracts v4.0  
+- All six TSV Output Specifications v4.0  
+- TSV Integrity Check Module v4.0  
+- Discovery Protocol Module v4.0  
+- Discovery Output Specification v4.0  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- Processing / Orchestration Module v4.0  
 
 ------------------------------------------------------------
-# END OF AUDIT & LOGGING MODULE v3.2.2
+# END OF AUDIT & LOGGING MODULE v4.0

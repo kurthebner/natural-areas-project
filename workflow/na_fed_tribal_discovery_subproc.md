@@ -1,41 +1,44 @@
-# NATURAL AREAS PROJECT — FEDERAL & TRIBAL LANDS DISCOVERY SUB‑PROCEDURE v3.2.2  
-(USFS, NPS, USFWS, USACE, BLM, DoD, Tribal Lands)
+# NATURAL AREAS PROJECT
+# FEDERAL & TRIBAL LANDS DISCOVERY SUB‑PROCEDURE v4.0
+(Tier 1 — U.S. Federal Agencies & Tribal Lands)
 
-Tier 1 of the **Discovery Protocol Module v3.2.2**.
+This module defines the authoritative, deterministic Tier‑1 discovery rules for
+federal and tribal lands within the v4.0 Raw → Resolution → Normalization →
+Entity Graph pipeline.
 
-Federal and tribal lands must be discovered using authoritative federal datasets and  
-county‑anchored verification. Ohio contains several types of federal lands—National  
-Forest, National Wildlife Refuges, National Park units, USACE reservoirs, and DoD  
-installations—but these are unevenly distributed across the state.  
+This document supersedes all v3.x federal/tribal discovery logic.  
+It introduces enumerative + recursive discovery, raw‑layer output, and
+provenance‑driven extraction.
 
-Ohio has **no federally recognized tribal reservations or trust lands**, but tribal  
-cultural sites and tribal fee‑simple ownership may exist.  
-
-This module defines the **authoritative, deterministic rules** for Tier 1 discovery  
-across all six entity types.
+This module contains no controlled vocabularies.  
+All vocabularies are defined in the appropriate v4.0 Vocabulary Modules.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
-This sub‑procedure defines how the system must:
+The Federal & Tribal Lands Discovery Sub‑Procedure v4.0 defines how Tier 1 must:
 
 - Identify all federal Sites  
-- Identify tribal lands and tribal ownership  
-- Identify tribal cultural Sites  
+- Identify tribal lands, tribal ownership, and tribal cultural Sites  
 - Identify Trails, Trail Segments, and Trail Networks on federal lands  
-- Identify **child Sites** within federal Sites (Sites with Parent Site populated)  
+- Identify child Sites within federal Sites  
 - Identify Access Points associated with federal or tribal Sites  
 - Distinguish federal management from state/local co‑management  
 - Avoid false positives from similarly named places  
 - Log uncertainty and boundary cases  
-- Produce Raw Candidate Records and Discovery Metadata v3.2.2  
+- Produce Raw Discovery Records v4.0  
+- Produce Discovery Metadata v4.0  
 
-This module is referenced **only** by the Discovery Protocol Module v3.2.2.
+This module is referenced only by:
+
+- Discovery Protocol Module v4.0  
+- Discovery Orchestration Module v4.0  
+- Tier Sub‑Procedure Template v4.0  
 
 ------------------------------------------------------------
 # 2. SCOPE
 
-This sub‑procedure applies to:
+This sub‑procedure applies to all federal agencies and tribal land categories:
 
 - U.S. Forest Service (USFS)  
 - National Park Service (NPS)  
@@ -45,113 +48,87 @@ This sub‑procedure applies to:
 - Department of Defense (DoD)  
 - Tribal trust land registries  
 - Tribal fee‑simple ownership  
-- Tribal cultural sites  
+- Tribal cultural Sites  
 
 It governs discovery of:
 
-- **Sites** (federal or tribal)  
-- **Child Sites**  
-- **Trails**  
-- **Trail Segments**  
-- **Trail Networks**  
-- **Site Networks**  
-- **Access Points**  
+- Sites (federal or tribal)  
+- Child Sites  
+- Trails  
+- Trail Segments  
+- Trail Networks  
+- Site Networks  
+- Access Points  
 
-This tier sits **above State** and is the highest tier in the discovery hierarchy.
+Tier 1 is the highest‑authority tier in the discovery hierarchy.
 
 ------------------------------------------------------------
-# 3. REQUIRED SOURCES (ALL MANDATORY)
+# 3. AUTHORITATIVE SOURCES (MANDATORY)
+
+Tier 1 must enumerate and recursively explore the following authoritative sources.
 
 ## 3.1 U.S. Forest Service (USFS)
 Ohio’s only National Forest: **Wayne National Forest**
 
-Check for:
+Required sources:
 - Forest boundary datasets  
-- Recreation areas → Sites or child Sites  
-- Trailheads → Access Points  
-- Campgrounds → child Sites or Access Points  
-- Special management areas → child Sites  
+- Recreation area pages  
+- USFS trail datasets  
 - USFS recreation maps  
-- USFS trail datasets → Trails, Trail Segments  
+- Special management area datasets  
+- Campground datasets  
+- Trailhead datasets  
 
 ## 3.2 National Park Service (NPS)
-Check for all NPS unit types:
-- National Parks  
-- National Historical Parks  
-- National Monuments  
-- National Memorials  
-- National Historic Sites  
-- National Battlefields  
-- National Heritage Areas → Site Networks  
-
 Required sources:
 - NPS unit pages  
 - NPS boundary datasets  
 - NPS recreation maps  
 - NPS trail datasets  
+- National Heritage Area documentation  
 
 ## 3.3 U.S. Fish & Wildlife Service (USFWS)
-Check for:
-- National Wildlife Refuges  
-- Waterfowl Production Areas  
-- Conservation easements  
-- Refuge‑managed access points  
-
 Required sources:
-- USFWS refuge pages  
-- USFWS boundary datasets  
+- Refuge pages  
+- Refuge boundary datasets  
 - USFWS recreation maps  
 - USFWS trail datasets  
+- Waterfowl Production Area datasets  
 
 ## 3.4 U.S. Army Corps of Engineers (USACE)
-Check for:
-- Reservoirs  
-- Flood control lands  
-- Recreation areas  
-- Boat ramps  
-- Campgrounds  
-- Trails  
-
 Required sources:
 - USACE project pages  
 - USACE recreation maps  
 - USACE facility datasets  
+- Boat ramp datasets  
+- Campground datasets  
 
 ## 3.5 Bureau of Land Management (BLM)
-Ohio has:
-- Minimal BLM mineral rights holdings  
-- No BLM recreation areas  
-- No BLM surface‑managed lands  
+Ohio has minimal BLM surface holdings.
 
-Still required:
+Required sources:
 - BLM parcel datasets  
 - BLM easement datasets  
 - BLM mineral rights datasets  
 
 ## 3.6 Department of Defense (DoD)
-Check for:
-- Military bases  
-- Training areas  
-- Formerly Used Defense Sites (FUDS)  
-- Restricted lands  
-
 Required sources:
 - DoD installation datasets  
 - FUDS datasets  
 - DoD environmental restoration maps  
 
-All sources must be logged in **Discovery Metadata v3.2.2**.
+All sources must be logged in **Discovery Metadata v4.0**.
 
 ------------------------------------------------------------
-# 4. FEDERAL & TRIBAL DISCOVERY CONDITIONS
+# 4. DOMAIN RULES FOR FEDERAL & TRIBAL DISCOVERY
 
 ## 4.1 Tribal Trust Lands
-- Check federal tribal land registries  
-- If none found → record “None in Ohio” in metadata  
+- Check federal tribal land registries.  
+- If none exist in Ohio → record “None in Ohio” in metadata.  
 
 ## 4.2 Tribal Reservations
-- Check BIA datasets  
-- If none found → record “None in Ohio” in metadata  
+- Check BIA datasets.  
+- If none exist in Ohio → record “None in Ohio” in metadata.  
 
 ## 4.3 Tribal Fee‑Simple Ownership
 Check county auditor / GIS for parcels owned by:
@@ -159,51 +136,55 @@ Check county auditor / GIS for parcels owned by:
 - Tribal corporations  
 - Tribal cultural organizations  
 
-If found → record as a **Site**, with tribal classification stored in metadata.
+If found → record as a **Site**, with tribal classification in metadata.
 
 ## 4.4 Tribal Cultural Sites
-These are **not tribal lands**, but may be relevant:
+These are **not tribal lands**, but must be discovered:
 - Mound sites  
 - Archaeological sites  
 - Cultural landscapes  
 - Burial grounds  
 
-Record as **Sites**, with “Cultural Site — not tribal land” stored in metadata.
+Record as **Sites**, with metadata noting “Cultural Site — not tribal land.”
 
 ------------------------------------------------------------
-# 5. TIER‑ANCHORED VERIFICATION (MANDATORY)
+# 5. ENUMERATIVE + RECURSIVE DISCOVERY RULES
 
-## 5.1 Confirm Boundaries
-- Verify the feature lies within the county  
-- **Record all counties in `counties_raw`**  
-- **Do NOT segment multi‑county entities**  
+Tier 1 must use both enumerative and recursive discovery.
 
-## 5.2 Confirm Management Authority
-Record:
-- Federal agency  
-- State co‑management  
-- Local co‑management  
+## 5.1 Enumerative Discovery (Listing Pages)
+Tier 1 must enumerate:
+- All federal unit listing pages  
+- All recreation area listings  
+- All trail listings  
+- All facility listings  
+- All boundary datasets  
 
-## 5.3 Confirm Access Points
-Identify:
-- Boat ramps  
-- Trailheads  
-- Scenic overlooks  
-- Recreation areas  
-- Parking areas  
+## 5.2 Recursive Discovery (URL Propagation)
+Tier 1 must recursively follow:
+- Internal links within federal domains  
+- Internal links within tribal registries  
+- Internal links within USACE project pages  
 
-Access Points must be surfaced as **Access Point candidates** and passed to the  
-**Access Point Discovery Sub‑Procedure v3.2.2**.
+Recursion must stop when:
+- The domain is not on the allowlist  
+- The page is not relevant to Sites, Trails, or Access Points  
+- The page is a non‑recreational administrative page  
 
-## 5.4 Naming
-Record names **exactly as discovered**.  
-If multiple names appear → record all in metadata.
+## 5.3 Recursion Allowlist
+- *.nps.gov  
+- *.fs.usda.gov  
+- *.fws.gov  
+- *.usace.army.mil  
+- *.blm.gov  
+- *.defense.gov  
+- *.bia.gov  
 
 ------------------------------------------------------------
-# 6. DECISION RULES FOR ENTITY CREATION
+# 6. ENTITY CREATION RULES (TIER‑SPECIFIC)
 
 ### 6.1 Site Creation
-A federal or tribal feature becomes a **Site** if:
+Create a **Site** when:
 - Federally owned or federally managed  
 - Identity‑bearing (named, mapped, or designated)  
 - Public access or recreation infrastructure exists  
@@ -211,10 +192,10 @@ A federal or tribal feature becomes a **Site** if:
 
 Exclude:
 - Federal office buildings  
-- Federal courthouses  
+- Courthouses  
 - Post offices  
+- Non‑recreational DoD facilities  
 - BLM mineral rights with no surface access  
-- DoD administrative buildings  
 
 ### 6.2 Child Site Creation
 Create a **child Site** when:
@@ -245,7 +226,7 @@ Create an **Access Point** when:
 ------------------------------------------------------------
 # 7. TIER‑SPECIFIC EXPECTATIONS
 
-The Federal Tier **must** surface:
+Tier 1 **must** surface:
 - All federal Sites  
 - All tribal Sites (if any)  
 - All child Sites within federal Sites  
@@ -256,22 +237,23 @@ The Federal Tier **must** surface:
 - All federal or tribal Access Points  
 - All tribal cultural Sites  
 
-The Federal Tier **may** surface:
+Tier 1 **may** surface:
 - BLM mineral rights Sites (if identity‑bearing)  
 - DoD recreation areas (if public access exists)  
 - Federal easements (if identity‑bearing)  
 
-The Federal Tier **must not** surface:
+Tier 1 **must not** surface:
 - Administrative buildings  
 - Non‑public federal facilities  
 - Non‑identity‑bearing parcels  
 - Tribal cultural Sites as tribal land  
 
 ------------------------------------------------------------
-# 8. LOGGING REQUIREMENTS
+# 8. METADATA REQUIREMENTS
 
 Each discovered entity must include:
-- Full **Discovery Metadata v3.2.2**  
+
+- Full **Discovery Metadata v4.0**  
 - All raw source references  
 - All counties (raw)  
 - All conflicts and uncertainties  
@@ -283,11 +265,12 @@ All values must be raw and unnormalized.
 ------------------------------------------------------------
 # 9. OUTPUT REQUIREMENTS
 
-Each federal or tribal entity must output a **Raw Candidate Record** conforming to:
-- **Discovery Output Specification v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- The appropriate Schema Module v3.2.2  
-- The appropriate Vocabulary Module v3.2.2  
+Each federal or tribal entity must output a **Raw Discovery Record** conforming to:
+
+- **Discovery Output Specification v4.0**  
+- **Discovery Metadata Specification v4.0**  
+- The appropriate Schema Module v4.0  
+- The appropriate Vocabulary Module v4.0  
 
 No normalized fields may appear in Tier 1 output.
 
@@ -295,32 +278,26 @@ No normalized fields may appear in Tier 1 output.
 # 10. INTEGRATION POINTS
 
 This module integrates with:
-- **Discovery Protocol Module v3.2.2**  
-- **Discovery Orchestration Module v3.2.2**  
-- **Site Discovery Sub‑Procedure v3.2.2**  
-- **Trail Discovery Sub‑Procedure v3.2.2**  
-- **Trail Segment Discovery Sub‑Procedure v3.2.2**  
-- **Trail Network Discovery Sub‑Procedure v3.2.2**  
-- **Site Network Discovery Sub‑Procedure v3.2.2**  
-- **Access Point Discovery Sub‑Procedure v3.2.2**  
-- **Child Site Rules Module v3.2.2**  
-- **Discovery Metadata Specification v3.2.2**  
-- **Discovery Output Specification v3.2.2**  
-- **Normalization Contracts v3.2.2**  
-- **Resolution Module v3.2.2**  
-- **TSV Output Specifications v3.2.2**  
-- **Audit & Logging Module v3.2.2**  
-- **County Baseline Module v3.2.2**  
 
-No other module may reference this sub‑procedure directly.
+- Discovery Protocol Module v4.0  
+- Discovery Orchestration Module v4.0  
+- Tier Sub‑Procedure Template v4.0  
+- All Entity Discovery Sub‑Procedures v4.0  
+- Child Site Rules Module v4.0  
+- Discovery Metadata Specification v4.0  
+- Discovery Output Specification v4.0  
+- Resolution Engine v4.0  
+- Normalization Engine v4.0  
+- TSV Output Specifications v4.0  
+- Audit & Logging Module v4.0  
+- County Baseline Module v4.0  
 
 ------------------------------------------------------------
 # 11. VERSIONING
 
-- This module is **Federal & Tribal Lands Discovery Sub‑Procedure v3.2.2**.  
-- Updates to federal datasets or tribal registries may result in v3.3, v3.4, etc.  
-- Any change to tier order or workflow must be made in the  
-  **Discovery Protocol Module v3.2.2**.
+- This module is **Federal & Tribal Lands Discovery Sub‑Procedure v4.0**.  
+- Updates to federal datasets or tribal registries may result in v4.1, v4.2, etc.  
+- Any change to tier order or workflow must be made in the Discovery Protocol Module v4.0.
 
 ------------------------------------------------------------
-# END OF FEDERAL & TRIBAL LANDS DISCOVERY SUB‑PROCEDURE v3.2.2
+# END OF FEDERAL & TRIBAL LANDS DISCOVERY SUB‑PROCEDURE v4.0
