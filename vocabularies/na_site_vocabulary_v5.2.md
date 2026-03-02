@@ -489,8 +489,7 @@ Retaining Wall
 Retention Basin  
 Ridge  
 Rock Outcrop  
-S&M Dungeon  
-Scenic View  
+Scenic View
 Sculpture  
 Sedge Meadow  
 Shooting Range  

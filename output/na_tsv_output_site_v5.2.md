@@ -4,17 +4,17 @@
 
 This module defines the authoritative, deterministic rules for serializing
 normalized Site entities into tab-separated values (TSV) with guaranteed
-delimiter integrity, zero drift, and full compatibility with the v5.2 ontology.
+delimiter integrity, zero drift, and full compatibility with the v5.x ontology.
 
 This module contains no controlled vocabularies.
 All vocabularies are defined in the Site Vocabulary Module v5.x.
-All field definitions are defined in the Site Schema Module v5.2.
+All field definitions are defined in the Site Schema Module v5.x.
 All normalization rules are defined in the Site Normalization Contract v5.x.
 
 ------------------------------------------------------------
 # CHANGES FROM v5.0 → v5.2
 
-- Added new field: partner_agencies (schema v5.2)
+- Added new field: partner_agencies (schema v5.x)
 - Removed deprecated fields:
   - Map URL (removed from schema in v5.0)
   - Derived Label (removed from schema in v5.0; no longer computed)
@@ -22,7 +22,7 @@ All normalization rules are defined in the Site Normalization Contract v5.x.
   - URL → url_primary
   - Parent Site → parent_site_id
   - Site ID → site_id
-- Updated canonical field order to match schema v5.2
+- Updated canonical field order to match schema v5.x
 - Field count changed from 26 → **25**
 - Updated validation rules to reflect new organizational field cluster:
   ownership, governance, partner_agencies, coordination
@@ -232,7 +232,7 @@ The TSV Integrity Check must:
 
 This module depends on:
 
-- Site Schema Module v5.2
+- Site Schema Module v5.x
 - Site Vocabulary Module v5.x
 - Site Normalization Contract v5.x
 - Child Site Rules Module v5.x

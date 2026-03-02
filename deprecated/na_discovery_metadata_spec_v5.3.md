@@ -2,7 +2,7 @@
 # DISCOVERY METADATA SPECIFICATION v5.3
 Authoritative Metadata Structure for Raw Discovery Layer
 
-Discovery Metadata is the audit backbone of the v5.3 Discovery System. It records how each entity was discovered, where it came from, what URLs led to it, what uncertainties remain, and how the raw record fits into the enumerative and recursive discovery model.
+Discovery Metadata is the audit backbone of the v5.2 Discovery System. It records how each entity was discovered, where it came from, what URLs led to it, what uncertainties remain, and how the raw record fits into the enumerative and recursive discovery model.
 
 This specification defines the required metadata fields, their structure, and their semantics for all six entity types.
 
@@ -25,23 +25,21 @@ No other module may reference this specification directly.
   - partner_agencies_raw
   - coordination_raw
 - Added Raw Field Preservation section, grouped by entity type and alphabetized within each group.
-- Updated Identity Metadata to align with Site Schema v5.x.
-- Updated Provenance and Lineage semantics to match v5.x recursion rules.
+- Updated Identity Metadata to align with Site Schema v5.2.
+- Updated Provenance and Lineage semantics to match v5.2 recursion rules.
 - Expanded Conflict Metadata to include partner_agencies_conflicts and geometry_conflicts.
-- Updated Uncertainty Metadata rules for v5.x.
+- Updated Uncertainty Metadata rules for v5.2.
 - Updated Parent Metadata rules for Access Points.
-- Updated Baseline Metadata for v5.x Tier‑0 integration.
+- Updated Baseline Metadata for v5.2 Tier‑0 integration.
 - Added explicit prohibitions for GIS-derived fields during discovery.
 - Added placeholders for non‑Site entity types pending schema review.
-- Renamed notes_raw to identity_notes_raw throughout Identity Metadata and Raw Field Preservation
-  to align with Discovery Output Specification v5.3.
 
 ------------------------------------------------------------
 # 1. PURPOSE
 
 This specification defines:
 
-- The metadata fields required for every Raw Discovery Record v5.x
+- The metadata fields required for every Raw Discovery Record v5.2
 - The structure of metadata for all six entity types
 - How provenance, lineage, and recursion must be recorded
 - How conflicts and uncertainties must be preserved
@@ -72,7 +70,7 @@ It governs:
 ------------------------------------------------------------
 # 3. METADATA STRUCTURE OVERVIEW
 
-Each Raw Discovery Record v5.x must include a Discovery Metadata Object containing:
+Each Raw Discovery Record v5.2 must include a Discovery Metadata Object containing:
 
 1. Identity Metadata  
 2. Organizational Metadata  
@@ -114,7 +112,7 @@ identity:
   accessibility_raw: (string, optional — Trails and Trail Segments only)
   url_primary_raw: (string, optional)
   urls_raw: [list of URLs, optional]
-  identity_notes_raw: (string, optional)
+  notes_raw: (string, optional)
 
 Rules:
 
@@ -137,7 +135,7 @@ Rules:
 - features_raw must be preserved exactly as discovered. No categorization or vocabulary matching occurs during discovery.
 - difficulty_raw and accessibility_raw must only be populated if explicitly stated by an authoritative source. No inference is permitted.
 - url_primary_raw and urls_raw must be preserved exactly as discovered, including tracking parameters.
-- identity_notes_raw must be preserved exactly as discovered. No interpretation or normalization is permitted.
+- notes_raw must be preserved exactly as discovered. No interpretation or normalization is permitted.
 
 ------------------------------------------------------------
 # 5. ORGANIZATIONAL METADATA
@@ -349,7 +347,7 @@ General Rules:
 - Raw fields must appear in the Raw Discovery Record even if blank.
 
 ------------------------------------------------------------
-## 15.1 SITE RAW FIELDS (FULL v5.3 LIST, ALPHABETICAL)
+## 15.1 SITE RAW FIELDS (FULL v5.2 LIST, ALPHABETICAL)
 
 ### acres_raw
 - Preserve exactly as discovered.
@@ -396,7 +394,7 @@ General Rules:
 - Preserve exactly as discovered.
 - No title‑case correction or punctuation normalization.
 
-### identity_notes_raw
+### notes_raw
 - Preserve exactly as discovered.
 
 ### ownership_raw
@@ -425,29 +423,29 @@ General Rules:
 - Order must not be changed.
 
 ------------------------------------------------------------
-## 15.2 TRAIL RAW FIELDS (PENDING v5.x SCHEMA REVIEW)
+## 15.2 TRAIL RAW FIELDS (PENDING v5.2 SCHEMA REVIEW)
 
-Raw field preservation rules for Trail entities will be added after the Trail Schema v5.x update.
-
-------------------------------------------------------------
-## 15.3 TRAIL SEGMENT RAW FIELDS (PENDING v5.x SCHEMA REVIEW)
-
-Raw field preservation rules for Trail Segment entities will be added after the Trail Segment Schema v5.x update.
+Raw field preservation rules for Trail entities will be added after the Trail Schema v5.2 update.
 
 ------------------------------------------------------------
-## 15.4 TRAIL NETWORK RAW FIELDS (PENDING v5.x SCHEMA REVIEW)
+## 15.3 TRAIL SEGMENT RAW FIELDS (PENDING v5.2 SCHEMA REVIEW)
 
-Raw field preservation rules for Trail Network entities will be added after the Trail Network Schema v5.x update.
-
-------------------------------------------------------------
-## 15.5 SITE NETWORK RAW FIELDS (PENDING v5.x SCHEMA REVIEW)
-
-Raw field preservation rules for Site Network entities will be added after the Site Network Schema v5.x update.
+Raw field preservation rules for Trail Segment entities will be added after the Trail Segment Schema v5.2 update.
 
 ------------------------------------------------------------
-## 15.6 ACCESS POINT RAW FIELDS (PENDING v5.x SCHEMA REVIEW)
+## 15.4 TRAIL NETWORK RAW FIELDS (PENDING v5.2 SCHEMA REVIEW)
 
-Raw field preservation rules for Access Point entities will be added after the Access Point Schema v5.x update.
+Raw field preservation rules for Trail Network entities will be added after the Trail Network Schema v5.2 update.
+
+------------------------------------------------------------
+## 15.5 SITE NETWORK RAW FIELDS (PENDING v5.2 SCHEMA REVIEW)
+
+Raw field preservation rules for Site Network entities will be added after the Site Network Schema v5.2 update.
+
+------------------------------------------------------------
+## 15.6 ACCESS POINT RAW FIELDS (PENDING v5.2 SCHEMA REVIEW)
+
+Raw field preservation rules for Access Point entities will be added after the Access Point Schema v5.2 update.
 
 ------------------------------------------------------------
 # 16. NOTES
@@ -490,7 +488,7 @@ metadata:
     accessibility_raw:
     url_primary_raw:
     urls_raw:
-    identity_notes_raw:
+    notes_raw:
 
   organizational:
     ownership_raw:
@@ -571,7 +569,7 @@ metadata:
       gps_lon_raw:
       location_raw:
       name_raw:
-      identity_notes_raw:
+      notes_raw:
       ownership_raw:
       partner_agencies_raw:
       status_raw:
@@ -580,19 +578,19 @@ metadata:
       urls_raw:
 
     trail:
-      _pending_schema_update: "Raw field preservation rules for Trail entities will be added after the Trail Schema v5.x update."
+      _pending_schema_update: "Raw field preservation rules for Trail entities will be added after the Trail Schema v5.2 update."
 
     trail_segment:
-      _pending_schema_update: "Raw field preservation rules for Trail Segment entities will be added after the Trail Segment Schema v5.x update."
+      _pending_schema_update: "Raw field preservation rules for Trail Segment entities will be added after the Trail Segment Schema v5.2 update."
 
     trail_network:
-      _pending_schema_update: "Raw field preservation rules for Trail Network entities will be added after the Trail Network Schema v5.x update."
+      _pending_schema_update: "Raw field preservation rules for Trail Network entities will be added after the Trail Network Schema v5.2 update."
 
     site_network:
-      _pending_schema_update: "Raw field preservation rules for Site Network entities will be added after the Site Network Schema v5.x update."
+      _pending_schema_update: "Raw field preservation rules for Site Network entities will be added after the Site Network Schema v5.2 update."
 
     access_point:
-      _pending_schema_update: "Raw field preservation rules for Access Point entities will be added after the Access Point Schema v5.x update."
+      _pending_schema_update: "Raw field preservation rules for Access Point entities will be added after the Access Point Schema v5.2 update."
 
 ------------------------------------------------------------
 # 18. INTEGRATION POINTS
@@ -615,12 +613,12 @@ Metadata must be passed unchanged through all downstream modules until Resolutio
 
 This module depends on:
 
-- Site Schema Module v5.x
-- Trail Schema Module v5.x (pending v5.x update)  
-- Trail Segment Schema Module v5.x (pending v5.x update)  
-- Trail Network Schema Module v5.x (pending v5.x update)  
-- Site Network Schema Module v5.x (pending v5.x update)  
-- Access Point Schema Module v5.x (pending v5.x update)  
+- Site Schema Module v5.2  
+- Trail Schema Module v5.x (pending v5.2 update)  
+- Trail Segment Schema Module v5.x (pending v5.2 update)  
+- Trail Network Schema Module v5.x (pending v5.2 update)  
+- Site Network Schema Module v5.x (pending v5.2 update)  
+- Access Point Schema Module v5.x (pending v5.2 update)  
 - Discovery Output Specification v5.x  
 - Discovery Protocol Module v5.x  
 - Discovery Orchestration Module v5.x  
