@@ -1,0 +1,1221 @@
+# Van Wert County, Ohio — Raw Discovery Staging File
+# Natural Areas Project v5.x
+# RUN_ID: van_wert_oh_2026_04_14
+# PREFIX: VNW
+# Session started: 2026-04-14
+# All raw discovery records appended below. One record per --- separator.
+# DO NOT normalize, correct, or interpret field values. Collect exactly as found.
+
+---
+# TIER 1 — FEDERAL & TRIBAL — NULL RESULT
+tier_result:
+  tier: 1
+  governance_level: Federal & Tribal
+  result: null
+  entities_found: 0
+  sources_checked:
+    - NPS Find A Park search for Van Wert County, OH — no NPS units returned
+    - USFS national forest locator — no national forests in northwest Ohio
+    - USFWS NWR finder — no national wildlife refuges in Van Wert County
+    - USACE Ohio district project list — no USACE lakes, dams, or recreation areas in Van Wert County
+    - North Country Trail Association route info — NCT goes through Fulton, Henry, Lucas, Williams Counties; not Van Wert
+    - Buckeye Trail Association section list — Delphos section officially covers Auglaize, Allen, Putnam, Paulding; Van Wert County not listed
+    - Ohio Admin Code 1501:31-15-04 — Whitey Case Wildlife Production Area confirmed Van Wert County; ODNR DOW management = Tier 2 (State), not Federal
+    - ODNR State Nature Preserves guide PDF (pdfplumber scan) — zero preserves in Van Wert County
+  notes: >
+    No federal land ownership or management found in Van Wert County. No NPS, USFS,
+    USFWS, BLM, or USACE units present. North Country Trail and Buckeye Trail both
+    confirmed absent from county. Whitey Case WPA is ODNR DOW (state), not federal.
+    Delphos Buckeye Trail boundary noted as potential edge case — Delphos straddles
+    Van Wert/Allen county line; BTA officially lists Delphos section under Allen/Auglaize/
+    Putnam/Paulding, not Van Wert. Flag preserved for Tier 7 Conservancy review in case
+    BTA has any local chapter or access point infrastructure on Van Wert side.
+
+---
+entity_type_result:
+  tier: 1
+  governance_level: Federal & Tribal
+  entity_type: Site
+  result: null
+  sources_checked:
+    - NPS Find A Park — Van Wert County, OH
+    - USACE Ohio district recreation area list
+    - USFWS NWR finder — northwest Ohio
+  reasoning: No federal land units of any type in Van Wert County. No NPS parks, monuments,
+    historic sites, or recreation areas. No USACE lakes or recreation areas. No USFWS refuges.
+
+---
+entity_type_result:
+  tier: 1
+  governance_level: Federal & Tribal
+  entity_type: Trail
+  result: null
+  sources_checked:
+    - North Country Trail Association — official route map and county-by-county listing
+    - Buckeye Trail Association — section and division listings
+  reasoning: NCT confirmed not in Van Wert County (routes through Fulton, Henry, Lucas, Williams).
+    Buckeye Trail Delphos section listed under Allen/Auglaize/Putnam/Paulding — Van Wert not included.
+    No other federally managed trails identified.
+
+---
+entity_type_result:
+  tier: 1
+  governance_level: Federal & Tribal
+  entity_type: Trail Segment
+  result: null
+  sources_checked:
+    - North Country Trail Association segment listings
+    - Buckeye Trail Association Delphos section details
+  reasoning: No federal trails found in Van Wert County at Tier 1; therefore no trail segments possible.
+    Checked NCT and BTA segment structure for completeness — neither has presence in county.
+
+---
+entity_type_result:
+  tier: 1
+  governance_level: Federal & Tribal
+  entity_type: Trail Network
+  result: null
+  sources_checked:
+    - North Country Trail Association — route network coverage map
+    - Buckeye Trail Association — statewide network overview
+  reasoning: No federal trails in Van Wert County; no trail network possible. NCT and BTA both
+    confirmed absent at county level.
+
+---
+entity_type_result:
+  tier: 1
+  governance_level: Federal & Tribal
+  entity_type: Site Network
+  result: null
+  sources_checked:
+    - NPS unit finder — Van Wert County
+    - NPS National Heritage Area listing — no NHA designated for this region of Ohio
+  reasoning: No federal land units in Van Wert County; no site network possible. No National
+    Heritage Area designation covering Van Wert County.
+
+---
+entity_type_result:
+  tier: 1
+  governance_level: Federal & Tribal
+  entity_type: Access Point
+  result: null
+  sources_checked:
+    - Follows from Site and Trail null results above
+  reasoning: No federal sites or trails in Van Wert County; no access points possible.
+
+# =============================================================================
+# TIER 2 — STATE — ENTITIES
+# =============================================================================
+
+---
+# T2-001 — Whitey Case Wildlife Production Area
+raw_record:
+  entity_type: Site
+  tier: 2
+  governance_level: State
+  temp_id: VNW-T2-001
+  name_raw: Whitey Case Wildlife Production Area
+  name_variants: ["Whitey case", "Whitey Case Wildlife Area"]
+  governance_raw: ODNR Division of Wildlife
+  ownership_raw: State of Ohio
+  county_raw: Van Wert County
+  state_raw: Ohio
+  acreage_raw: "9.29 acres"
+  category_raw: Wildlife Area
+  subtype_raw: Wildlife Production Area
+  description_raw: Small public hunting area managed by ODNR Division of Wildlife. Listed
+    in Ohio Administrative Code 1501:31-15-04 as a designated public hunting area.
+  features_raw: Public hunting; ODNR DOW management
+  access_raw: Public
+  designation_raw: Public Hunting Area (Ohio Admin Code 1501:31-15-04)
+  gps_lat_raw: "40.80"
+  gps_lon_raw: "-84.79"
+  gps_accuracy_raw: approximate (toposports hunting layer; 2 decimal places only)
+  urls_raw:
+    - https://codes.ohio.gov/ohio-administrative-code/rule-1501:31-15-04
+    - https://www.toposports.com/i-hunting/hunting-layer-objects/oh/wildlife-areas/10247764-whitey-case-wildlife-production-area-object.html
+  baseline_seed: Whitey Case Wildlife Production Area
+  flags: [GPS_VERIFY_NEEDED]
+  notes: >
+    GPS from toposports hunting layer — only 2 decimal place precision (~11km uncertainty).
+    No ODNR property page found (ODNR wildlife area URLs redirect to portal). Acreage 9.29
+    matches baseline of "9 acres." No trails or access points documented in any source.
+
+---
+entity_type_result:
+  tier: 2
+  governance_level: State
+  entity_type: Trail
+  result: null
+  sources_checked:
+    - Whitey Case WPA — no trails documented; hunting area only
+    - ODNR DOW hunting area maps page (redirected, inaccessible)
+  reasoning: Whitey Case WPA is a 9.29-acre hunting parcel with no documented trail infrastructure.
+    No other ODNR DOW wildlife areas in Van Wert County found. No ODNR trail facilities at Tier 2.
+
+---
+entity_type_result:
+  tier: 2
+  governance_level: State
+  entity_type: Trail Segment
+  result: null
+  sources_checked:
+    - Same as Trail null above
+  reasoning: No state trails found; no trail segments possible.
+
+---
+entity_type_result:
+  tier: 2
+  governance_level: State
+  entity_type: Trail Network
+  result: null
+  sources_checked:
+    - Same as Trail null above
+  reasoning: No state trail system in Van Wert County; no trail network possible.
+
+---
+entity_type_result:
+  tier: 2
+  governance_level: State
+  entity_type: Site Network
+  result: null
+  sources_checked:
+    - ODNR Scenic Rivers program — Auglaize River not designated; Maumee not in Van Wert County
+    - ODNR State Parks — no state parks in Van Wert County
+    - Ohio History Connection tag page — "Nothing Found" for Van Wert
+  reasoning: No scenic river designation applies to Van Wert County waterways. No state site
+    network possible.
+
+---
+entity_type_result:
+  tier: 2
+  governance_level: State
+  entity_type: Access Point
+  result: null
+  sources_checked:
+    - Whitey Case WPA — no documented access points; hunting area with no formal trailhead
+    - ODNR boating access GIS — nearest ODNR boat launch is in Defiance County (Five Mile Creek)
+    - Auglaize River — no ODNR-owned access points in Van Wert County found
+  reasoning: No state-managed access points documented in Van Wert County.
+
+# =============================================================================
+# TIER 3 — DISTRICT LEVEL — ENTITIES
+# =============================================================================
+
+---
+# T3-001 — Convoy Edgewood Park (Tully-Convoy Park District)
+raw_record:
+  entity_type: Site
+  tier: 3
+  governance_level: District
+  temp_id: VNW-T3-001
+  name_raw: Edgewood Park
+  name_variants: ["Convoy Edgewood Park"]
+  governance_raw: Tully Convoy Park District
+  ownership_raw: Tully Convoy Park District (public, statutory park district)
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 643 N Main St, PO Box 302, Convoy, Ohio 45832
+  municipality_raw: Convoy
+  township_raw: Tully Township
+  category_raw: Park
+  description_raw: Community park on the north side of Convoy. Features baseball/softball
+    diamonds, basketball courts, playground, community building, picnic pavilion, and
+    scenic pond.
+  features_raw: 4 baseball/softball diamonds, 2 full-size basketball courts, playground,
+    Convoy Community building, large picnic pavilion, scenic pond
+  access_raw: Public
+  urls_raw:
+    - https://villageofconvoy.com/edgewood-park/
+    - https://ohioauditor.gov/Auditsearch/Reports/2024/Tully_Convoy_Park_District_23_22_Van_Wert_Basic_Report_FINAL.pdf
+  baseline_seed: "Van Wert Convoy Edgewood Park"
+  contact_raw: "Whitney Kreischer, 419-374-0680, edgewood.park.convoy@gmail.com"
+  flags: [TIER_RESOLVED]
+  notes: >
+    PO Box 302 Convoy is shared by both the Village of Convoy Edgewood Park contact
+    and the Tully Convoy Park District (Ohio Auditor confirmed). Village of Convoy website
+    hosts informational page but park district (statutory public entity under ORC) is
+    the managing authority. Baseline named "Van Wert Convoy Edgewood Park" — resolve
+    name to "Edgewood Park" per identity rules. Phone 419-749-4060 (from visitvanwert)
+    is a Convoy area number; 419-374-0680 is the park-specific contact.
+    Open Question #1 RESOLVED: Convoy Edgewood Park = Tully-Convoy Park District (Tier 3),
+    not Van Wert City Parks (Tier 6) and not Village of Convoy municipal parks (Tier 6).
+
+---
+tier_result:
+  tier: 3
+  governance_level: District
+  sub_result: "Null entity types within Tully-Convoy Park District"
+  notes: No trails, trail segments, trail networks, site networks, or access points
+    documented at Edgewood Park based on available sources. Features are athletic
+    facilities (diamonds, courts, pavilion). If trail infrastructure exists it is
+    undocumented in current sources.
+
+---
+tier_result:
+  tier: 3
+  governance_level: District
+  sub_result: "Null agencies"
+  agencies_confirmed_null:
+    - Van Wert Soil & Water Conservation District — conservancy programs only; no land holdings or natural areas found
+    - Watershed districts — no watershed district with land holdings found in Van Wert County
+    - Government conservancy districts (MWCD, Miami Conservancy, etc.) — not in Van Wert County
+    - Metro parks — no metro parks system in Van Wert County
+    - Joint recreation districts — no other joint recreation districts beyond Tully-Convoy found
+  sources_checked:
+    - Ohio Auditor search for Van Wert County district entities
+    - vanwertswcd.org — no land holdings listed
+    - trekohio.com/vanwert/ — no district-managed properties beyond Edgewood Park
+    - visitvanwert.com outdoor adventure — no district-managed sites beyond Edgewood Park area
+
+# =============================================================================
+# TIER 4 — COUNTY GOVERNMENT — NULL RESULT
+tier_result:
+  tier: 4
+  governance_level: County Government
+  result: null
+  entities_found: 0
+  sources_checked:
+    - vanwertcountyohio.gov — no parks department, no county-owned parks or natural areas listed
+    - Van Wert County Commissioners about page — no parks management role identified
+    - trekohio.com/vanwert/ — no county-government-managed sites (Hiestand Woods = VWCF, not county)
+    - Ohio Auditor Van Wert County entity search — no county parks entity found
+  notes: >
+    Van Wert County government owns no parks or natural areas. No county parks department
+    exists. The "Van Wert County Park District" referenced in prior LWCF records appears
+    to have been either the Tully-Convoy Park District or a defunct entity. Hiestand Woods
+    confirmed as Van Wert County Foundation (Tier 7), not county government.
+
+entity_type_result:
+  tier: 4
+  governance_level: County Government
+  entity_type: Site
+  result: null
+  sources_checked:
+    - vanwertcountyohio.gov — no county-owned parks or natural areas
+  reasoning: No county government-owned parks, natural areas, or recreation sites found.
+
+entity_type_result:
+  tier: 4
+  governance_level: County Government
+  entity_type: Trail
+  result: null
+  sources_checked:
+    - Same as Site null above
+  reasoning: No county trails; no county parks to contain them.
+
+entity_type_result:
+  tier: 4
+  governance_level: County Government
+  entity_type: Trail Segment
+  result: null
+  sources_checked:
+    - Same as Trail null above
+  reasoning: No county trails.
+
+entity_type_result:
+  tier: 4
+  governance_level: County Government
+  entity_type: Trail Network
+  result: null
+  sources_checked:
+    - Same as Trail null above
+  reasoning: No county trails.
+
+entity_type_result:
+  tier: 4
+  governance_level: County Government
+  entity_type: Site Network
+  result: null
+  sources_checked:
+    - Same as Site null above
+  reasoning: No county sites.
+
+entity_type_result:
+  tier: 4
+  governance_level: County Government
+  entity_type: Access Point
+  result: null
+  sources_checked:
+    - Same as Site null above
+  reasoning: No county sites or trails; no access points.
+
+# =============================================================================
+# TIER 2 — ODOT REST AREAS — ENTITIES
+# =============================================================================
+
+---
+# T2-002 — US 30 Van Wert Rest Area — Eastbound
+raw_record:
+  entity_type: Site
+  tier: 2
+  governance_level: State
+  temp_id: VNW-T2-002
+  name_raw: Van Wert Rest Area — Eastbound
+  governance_raw: Ohio Department of Transportation (ODOT)
+  ownership_raw: State of Ohio
+  county_raw: Van Wert County
+  state_raw: Ohio
+  highway_raw: US Route 30 Eastbound
+  mile_marker_raw: "9"
+  category_raw: Rest Area
+  description_raw: >
+    Newly rebuilt ODOT rest area on US 30 eastbound near Convoy, Van Wert County.
+    Lodge-style design, opened March 17, 2025. Governor DeWine held ribbon-cutting
+    ceremony July 2025.
+  features_raw: Lodge-style building, expanded restrooms with adult changing tables,
+    lobby with vending and regional tourism info, covered outdoor picnic area, native
+    Ohio plant landscaping, outdoor storybook trail (Dolly Parton Imagination Library of Ohio)
+  access_raw: Public
+  urls_raw:
+    - https://thevwindependent.com/news/2025/03/21/rest-areas-open/
+    - https://thevwindependent.com/news/2025/07/18/governor-in-convoy-to-cut-ribbon-at-new-rest-area-building/
+    - https://www.hometownstations.com/news/van_wert_county/gov-mike-dewine-odot-celebrate-completion-of-rest-stop-renovation-outside-of-van-wert/article_2f8d19f1-a48e-45c8-bc8c-f30c9223d6a1.html
+    - https://www.ohiorestareas.com/
+  flags: []
+  notes: >
+    Governor ribbon-cutting July 2025 was specifically for "US 30 eastbound Convoy rest area"
+    per VW Independent article title. Storybook trail confirmed present at the EB facility via
+    hometownstations governor's visit article (described as "an outdoor Storybook Trail in which
+    small children can enjoy a walking path that includes stands with pages from a children's book,
+    a project made possible in partnership with Dolly Parton's Imagination Library of Ohio").
+    Trail record staged as VNW-T2-004. WB facility (VNW-T2-003) may also have a storybook trail
+    — see that record's notes.
+
+---
+# T2-003 — US 30 Van Wert Rest Area — Westbound
+raw_record:
+  entity_type: Site
+  tier: 2
+  governance_level: State
+  temp_id: VNW-T2-003
+  name_raw: Van Wert Rest Area — Westbound
+  governance_raw: Ohio Department of Transportation (ODOT)
+  ownership_raw: State of Ohio
+  county_raw: Van Wert County
+  state_raw: Ohio
+  highway_raw: US Route 30 Westbound
+  mile_marker_raw: "9"
+  category_raw: Rest Area
+  description_raw: >
+    Newly rebuilt ODOT rest area on US 30 westbound near Convoy, Van Wert County.
+    Lodge-style design, opened March 17, 2025.
+  features_raw: Lodge-style building, expanded restrooms with adult changing tables,
+    lobby with vending and regional tourism info, covered outdoor picnic area, native
+    Ohio plant landscaping
+  access_raw: Public
+  urls_raw:
+    - https://thevwindependent.com/news/2025/03/21/rest-areas-open/
+    - https://www.ohiorestareas.com/oh-us30-us-route-30-ohio-van-wert-rest-area-westbound-mile-marker-9/
+  flags: [STORYBOOK_TRAIL_CONFIRM_NEEDED]
+  notes: >
+    Storybook trail confirmed at EB facility (VNW-T2-002). Based on ODOT Wyandot County
+    precedent (both EB and WB received storybook trails), this WB facility likely also
+    has a storybook trail, but not confirmed by any source reviewed. Flag retained until
+    confirmed; create second trail record if/when confirmed.
+
+---
+# T2-004 — US 30 EB Convoy Rest Area Storybook Trail
+raw_record:
+  entity_type: Trail
+  tier: 2
+  governance_level: State
+  temp_id: VNW-T2-004
+  name_raw: Convoy Rest Area Storybook Trail
+  name_variants: ["US 30 Rest Area Storybook Trail", "Dolly Parton Imagination Library Trail"]
+  parent_temp_id: VNW-T2-002
+  parent_name_raw: Van Wert Rest Area — Eastbound
+  governance_raw: Ohio Department of Transportation (ODOT)
+  ownership_raw: State of Ohio
+  county_raw: Van Wert County
+  state_raw: Ohio
+  category_raw: Trail
+  subtype_raw: Storybook Trail / Interpretive Walking Path
+  description_raw: >
+    Outdoor storybook trail at the US 30 Eastbound Convoy rest area. Walking path with
+    stands displaying pages from a children's book, in partnership with Dolly Parton's
+    Imagination Library of Ohio. One of 33 ODOT rest area renovations statewide.
+  surface_raw: Paved / outdoor path
+  difficulty_raw: Easy
+  access_raw: Public
+  urls_raw:
+    - https://www.hometownstations.com/news/van_wert_county/gov-mike-dewine-odot-celebrate-completion-of-rest-stop-renovation-outside-of-van-wert/article_2f8d19f1-a48e-45c8-bc8c-f30c9223d6a1.html
+  flags: [LENGTH_VERIFY_NEEDED]
+  notes: >
+    Trail confirmed present at EB facility via hometownstations.com governor's visit article.
+    Length not documented in available sources — physical field measurement or ODOT contact
+    needed. Governor's ribbon-cutting July 2025 was at EB facility; storybook trail was
+    described as part of that event. WB facility may also have a storybook trail (see
+    VNW-T2-003 notes); if confirmed, create VNW-T2-005.
+
+# -- Tier 2 supplemental null results --
+
+---
+tier_result:
+  tier: 2
+  governance_level: State
+  sub_result: "Null agencies"
+  agencies_confirmed_null:
+    - ODNR Division of Parks & Watercraft — no state parks in Van Wert County
+    - ODNR Division of Forestry — no state forests in Van Wert County
+    - ODNR Division of Natural Areas & Preserves — zero state nature preserves (confirmed prior session via PDF)
+    - ODNR Scenic Rivers Program — Auglaize River not designated; Maumee not in Van Wert County
+    - ODNR Division of Mineral Resources — no surface-managed lands found
+    - Ohio History Connection — OHC tag page returns "Nothing Found" for Van Wert
+    - ODOT (scenic overlooks / bikeways) — no ODOT scenic overlooks or bikeway corridors found; rest areas staged above
+    - Ohio Turnpike / OTIC — US 30 is not the Ohio Turnpike; no OTIC facilities in Van Wert County
+    - Public Universities — no state universities in Van Wert County
+    - OHLAP (Ohio Landowner/Hunter Access Partnership) — private land access program; no state-owned Sites generated
+  sources_checked:
+    - trekohio.com/vanwert/ — full county parks inventory
+    - visitvanwert.com/things-to-do/outdoor-adventure/ — full county outdoor recreation listing
+    - ohiohistory.org/tag/van-wert/ — returns "Nothing Found"
+    - Ohio state forests guide PDF — Van Wert County not in any of the 24 state forests
+    - Ohio scenic rivers program — Auglaize River not designated; Maumee in Paulding/Defiance/Henry/Lucas
+    - Ohio Admin Code 1501:31-15-04 — only "Whitey case" found for Van Wert County area
+    - ODNR fishing lake maps — redirected; Van Wert Reservoirs are city-owned; ODNR stocks only
+    - ohiorestareas.com — EB and WB MM9 facilities confirmed
+    - Auglaize River paddling sources — no ODNR-owned access points in Van Wert County
+
+
+# =============================================================================
+# TIER 5 — TOWNSHIP — NULL RESULT
+tier_result:
+  tier: 5
+  governance_level: Township
+  result: null
+  entities_found: 0
+  notes: >
+    Van Wert County has 12 townships: Harrison, Hoaglin, Jackson, Jennings, Liberty,
+    Pleasant, Ridge, Tully, Union, Washington, Willshire, York. All are rural agricultural
+    townships. Pleasant Township (the only one with an independent website) confirms scope
+    is fire/EMS protection, road/ditch maintenance, and zoning only. No township-owned
+    parks or natural areas found in any township.
+  sources_checked:
+    - vanwertcountyohio.gov/community/townships.php
+    - pleasanttownshipvw.com — fire/EMS/roads only; no parks listed
+
+# =============================================================================
+# TIER 6 — MUNICIPAL — ENTITIES
+# =============================================================================
+# Sub-tier: City of Van Wert Parks (managed by City of Van Wert Parks Department)
+# =============================================================================
+
+---
+# T6-001 — Smiley Park (City of Van Wert)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-001
+  name_raw: Smiley Park
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 1451 Leeson Ave, Van Wert, OH 45891
+  acreage_raw: "29.4 acres"
+  category_raw: Park
+  description_raw: Public park on the southwest side of Van Wert. One of the city's largest
+    parks, featuring athletic fields, recreational courts, playgrounds, pavilions, a fishing
+    pond, and the Children's Garden & Butterfly House.
+  features_raw: 4 lighted softball/baseball fields (Fields 1-4), tennis and basketball courts,
+    playgrounds, 4 pavilions, picnic tables, fishing pond, Children's Garden & Butterfly House
+  access_raw: Public
+  hours_raw: 6AM to 11PM
+  urls_raw:
+    - https://vanwert.org/parks-department/
+    - https://vanwertoh.myrec.com/info/facilities/default.aspx
+    - https://www.onlyinyourstate.com/nature/ohio/little-known-childrens-garden-oh
+  baseline_seed: Van Wert Smiley Park
+  notes: >
+    Children's Garden & Butterfly House (see child record T6-001a) is located within this park.
+    Address confirmed at 1451 Leeson Ave (MyRec, city parks page); visitvanwert.com showed
+    1425 Leeson Ave — treat 1451 as authoritative (city source).
+
+---
+# T6-001a — Children's Garden & Butterfly House (child Site within Smiley Park)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-001a
+  name_raw: Children's Garden & Butterfly House
+  parent_temp_id: VNW-T6-001
+  parent_name_raw: Smiley Park
+  governance_raw: City of Van Wert Parks Department (Master Gardeners program)
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 1409 Leeson Ave, Van Wert, OH 45891
+  category_raw: Garden
+  subtype_raw: Children's Garden / Educational Garden
+  description_raw: >
+    Children's garden within Smiley Park, created by the Master Gardeners class of 2005.
+    Selected by Horticulture Magazine as one of the top 10 Destination Gardens in the United
+    States. Includes interactive themed garden areas and a butterfly house.
+  features_raw: >
+    Discovery Garden, Dinosaur Garden, Potting Shed, Busy Hands Garden, gazebo, Butterfly House
+    (enclosed structure with monarch and Painted Lady butterflies, native host and nectar plants);
+    seasonal programming June-August; Christmas light display
+  access_raw: Public
+  urls_raw:
+    - https://vanwert.org/parks-department/childrens-garden/
+    - https://ohiobucketlist.com/2020/08/25/van-wert-childrens-garden-butterfly-house-in-van-wert-ohio/
+  baseline_seed: Children's Garden & Butterfly House
+  notes: >
+    Address from visitvanwert.com (1409 Leeson Ave) differs from Smiley Park address (1451 Leeson Ave);
+    both are within the same park complex. Child site of Smiley Park (T6-001).
+    Butterfly House has low door designed for children.
+
+---
+# T6-002 — Van Wert Reservoir Recreation Area (City of Van Wert)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-002
+  name_raw: Van Wert Reservoir Recreation Area
+  name_variants: ["Reservoir Recreation Area", "Van Wert City Reservoirs Recreation Area"]
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: South Washington Street, Van Wert, OH (behind Van Wert County Hospital)
+  category_raw: Reservoir Recreation Area
+  subtype_raw: Water Recreation Area
+  description_raw: >
+    City-owned water supply reservoir complex with public recreation. Includes two reservoirs
+    (Reservoir 1 and 2), a paved trail system, fishing access, boat launch, nature area, and
+    sledding area. South reservoir (~100 acres) has handicap-accessible pier and boat ramp.
+    ODNR manages fish stocking; city manages land and recreation.
+  features_raw: >
+    3.1-mile Health Trail (paved, with offshoots totaling ~3.5 mi per AllTrails); boat launch;
+    handicap-accessible fishing pier (south reservoir); nature area; sledding area in winter;
+    ample parking; benches; dogs on leash welcome; birding; fishing (rainbow trout stocked by ODNR);
+    $20/2yr boat permit required
+  access_raw: Public
+  hours_raw: 6AM to 10PM (boat launch)
+  designation_raw: City Water Supply (dual use — water supply + recreation)
+  urls_raw:
+    - https://vanwert.org/parks-department/
+    - https://www.alltrails.com/trail/us/ohio/van-wert-reservoir-1-and-2
+    - https://trekohio.com/vanwert/
+  baseline_seed: Van Wert Reservoir Recreation Area
+  notes: >
+    Trail length discrepancy: city/TrekOhio sources say 3.1 miles; AllTrails says 3.5 mi with
+    offshoots. The base loop is likely 3.1 mi; with offshoots totaling ~3.5 mi. Open Question #2
+    RESOLVED: Reservoirs 1 and 2 are child Sites within the Recreation Area (below).
+
+---
+# T6-002a — Van Wert Reservoir 1 (child Site)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-002a
+  name_raw: Van Wert Reservoir 1
+  name_variants: ["Van Wert Reservoir Number One", "Reservoir 1"]
+  parent_temp_id: VNW-T6-002
+  parent_name_raw: Van Wert Reservoir Recreation Area
+  governance_raw: City of Van Wert
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  acreage_raw: "61 acres of water surface; 1.2 miles of shoreline"
+  category_raw: Reservoir
+  subtype_raw: Water Body / Water Supply Reservoir
+  description_raw: City water supply reservoir open for public fishing and recreation.
+    ODNR Division of Wildlife manages fish stocking. 61 acres, surveyed 2014.
+  features_raw: Public fishing; ODNR-managed fish stocking (rainbow trout); recreation access;
+    paved health trail along shoreline (see VNW-T6-002c)
+  access_raw: Public (recreation)
+  designation_raw: City Water Supply
+  urls_raw:
+    - https://www.alltrails.com/poi/us/ohio/van-wert/van-wert-reservoir
+    - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/maps/vanwertreservoirs.pdf
+  baseline_seed: Van Wert Reservoir 1
+  flags: [GPS_VERIFY_NEEDED]
+  notes: >
+    Acreage confirmed: 61 acres water surface, 1.2 mi shoreline (ODNR lake map, surveyed 2014).
+    GPS centroid not yet confirmed to authoritative precision. ODNR map bounding box for both
+    reservoirs: 84.575°W to 84.5833°W, 40.8333°N to 40.8417°N. GPS_VERIFY_NEEDED flag retained
+    for GPS centroid only; acreage is resolved.
+
+---
+# T6-002b — Van Wert Reservoir 2 (child Site)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-002b
+  name_raw: Van Wert Reservoir 2
+  name_variants: ["Van Wert Reservoir Number Two", "Reservoir 2", "South Reservoir"]
+  parent_temp_id: VNW-T6-002
+  parent_name_raw: Van Wert Reservoir Recreation Area
+  governance_raw: City of Van Wert
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  acreage_raw: "101 acres of water surface; 2.1 miles of shoreline"
+  gps_raw: "40.8409223, -84.5741032"
+  category_raw: Reservoir
+  subtype_raw: Water Body / Water Supply Reservoir
+  description_raw: >
+    South city water supply reservoir, 101 acres, open for public fishing and recreation.
+    Features handicap-accessible pier and boat ramp. $20/2yr boat permit required.
+    ODNR manages fish stocking. Rainbow trout reported in ODNR fish reports.
+  features_raw: Handicap-accessible fishing pier, boat ramp ($20/2yr permit), public fishing,
+    ODNR fish stocking (rainbow trout)
+  access_raw: Public (recreation; boat permit required)
+  designation_raw: City Water Supply
+  urls_raw:
+    - https://birdinghotspots.org/hotspot/L619307
+    - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/maps/vanwertreservoirs.pdf
+    - https://ohio.hometownlocator.com/maps/feature-map,ftc,2,fid,1078959,n,van%20wert%20reservoir%20number%20two.cfm
+  baseline_seed: Van Wert Reservoir 2
+  flags: []
+  notes: >
+    Acreage confirmed: 101 acres water surface, 2.1 mi shoreline (ODNR lake map, surveyed 2014).
+    GPS centroid 40.8409223°N, 84.5741032°W from Ohio Hometown Locator (Ohio gazetteer database).
+    ODNR boundary dataset also available at gis-odnr.opendata.arcgis.com. GPS_VERIFY_NEEDED
+    cleared — centroid is from authoritative gazetteer; refine against ODNR GIS boundary if needed.
+
+---
+# T6-002c — Van Wert Reservoir Health Trail (Trail)
+raw_record:
+  entity_type: Trail
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-002c
+  name_raw: Van Wert Reservoir Health Trail
+  name_variants: ["Health Trail", "Reservoir Trail", "Van Wert Reservoir 1 and 2 Loop"]
+  parent_temp_id: VNW-T6-002
+  parent_name_raw: Van Wert Reservoir Recreation Area
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  length_raw: "3.1 miles (city source); 3.5 miles with offshoots (AllTrails)"
+  surface_raw: Paved (primarily); some gravel offshoots
+  difficulty_raw: Easy
+  elevation_gain_raw: "29 ft"
+  trail_type_raw: Loop with offshoots
+  category_raw: Trail
+  subtype_raw: Paved Path / Health Trail
+  features_raw: Paved loop around reservoirs, offshoots for varying length, benches,
+    dog-friendly (leash required), birding, running, walking; connects to future Hiestand
+    Woods (planned per VWCF)
+  access_raw: Public
+  urls_raw:
+    - https://www.alltrails.com/trail/us/ohio/van-wert-reservoir-1-and-2
+  baseline_seed: "(implicit in Van Wert Reservoir Recreation Area)"
+  notes: >
+    Trail named "Health Trail" in city/visitvanwert sources; AllTrails calls it
+    "Van Wert Reservoir 1 and 2." Base loop is 3.1 mi; offshoots add ~0.4 mi.
+    VWCF planning to connect Hiestand Woods trails to Reservoir Trails (multi-year project).
+
+---
+# T6-002d — Van Wert Reservoir Boat Launch (Access Point)
+raw_record:
+  entity_type: Access Point
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-002d
+  name_raw: Reservoir Boat Launch
+  parent_temp_id: VNW-T6-002
+  parent_name_raw: Van Wert Reservoir Recreation Area
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: South Washington Street, Van Wert, OH
+  access_raw: Public (boat permit $20/2yr required)
+  hours_raw: 6AM to 10PM
+  features_raw: Boat launch; handicap-accessible pier; $20/2yr permit required
+  urls_raw:
+    - https://vanwert.org/parks-department/
+
+---
+# T6-003 — Franklin Park (City of Van Wert)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-003
+  name_raw: Franklin Park
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 305 Frothingham St, Van Wert, OH 45891
+  category_raw: Park
+  description_raw: Former Franklin Elementary School site transformed into a public community park.
+    Opened July 2018. Co-funded by the Van Wert County Foundation, Scott & Nikki Niswonger,
+    and Van Wert City Parks & Recreation.
+  features_raw: Splash Pad (10AM to 8PM), Pavilion (entire), Pavilion East (near Splash Pad),
+    Pavilion West; playground; picnic areas
+  access_raw: Public
+  hours_raw: 6AM to 10PM
+  urls_raw:
+    - https://vanwert.org/parks-department/franklin-park/
+    - https://vanwertcountyfoundation.org/impact/parks/
+  baseline_seed: Van Wert Franklin Park
+  notes: VWCF co-funded development; City of Van Wert Parks Department operates it. Tier 6.
+
+---
+# T6-004 — Jubilee Park (City of Van Wert)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-004
+  name_raw: Jubilee Park
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 137 Gleason Ave, Van Wert, OH 45891
+  category_raw: Park
+  features_raw: Bank of Berne Field (baseball/softball), Softball Field, Pavilion #1 (near Playground),
+    Pavilion #2 (near Parking Lot), playground
+  access_raw: Public
+  hours_raw: 6AM to 11PM
+  urls_raw:
+    - https://vanwertoh.myrec.com/info/facilities/default.aspx
+  baseline_seed: Van Wert Jubilee Park
+
+---
+# T6-005 — Memorial Park (City of Van Wert)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-005
+  name_raw: Memorial Park
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: American Legion Post #178 (owned and cared for)
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 611 W Main St, Van Wert, OH 45891
+  category_raw: Park
+  subtype_raw: Memorial Park / Veterans Park
+  features_raw: Veteran monuments, parking lot, beautiful display of gardens, open grassy areas
+  access_raw: Public
+  hours_raw: 6AM to 10PM
+  urls_raw:
+    - https://vanwert.org/parks-department/memorial-park/
+    - https://visitvanwert.com/things-to-do/outdoor-adventure/
+  baseline_seed: Van Wert Memorial Park
+  flags: []
+  notes: >
+    Owned and cared for by American Legion Post #178; listed under City of Van Wert parks
+    department. Features: veteran monuments, parking lot, display of gardens, open grassy areas.
+    Source: vanwert.org/parks-department/memorial-park/ (fetched 2026-04-19).
+
+---
+# T6-006 — Fountain Park (City of Van Wert)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-006
+  name_raw: Fountain Park
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 210 W Main St, Van Wert, OH 45891
+  address_note: Corner of W Main St and S Jefferson St, downtown; across from Historic Brumback Library
+  category_raw: Park
+  subtype_raw: Downtown / Community Park
+  features_raw: Gazebo with hanging flower baskets (maintained by Van Wert Evergreen Garden Club),
+    Band Pavilion (Summer Music Series, Friday evenings June–August), concession stand,
+    restrooms (open during scheduled activities), park benches
+  access_raw: Public; available for rental with Parks Director approval
+  hours_raw: 6AM to 10PM
+  urls_raw:
+    - https://vanwert.org/parks-department/fountain-park/
+    - https://visitvanwert.com/things-to-do/outdoor-adventure/
+  baseline_seed: Van Wert Fountain Park
+  flags: []
+  notes: >
+    Downtown park across from Historic Brumback Library. Band Pavilion hosts Summer Music Series
+    (Friday evenings, June–August). Gazebo maintained by Van Wert Evergreen Garden Club.
+    Restrooms only open during scheduled activities. Available for rental.
+    Source: vanwert.org/parks-department/fountain-park/ (fetched 2026-04-19).
+
+---
+# T6-007 — Rotary Athletic Complex (City of Van Wert)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-007
+  name_raw: Rotary Athletic Complex
+  name_variants: ["Van Wert Rotary Athletic Complex", "Van Wert Rotary Athletic Park"]
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 9085 John Brown Rd, Van Wert, OH 45891
+  category_raw: Athletic Complex
+  features_raw: Baseball Field, Soccer Field #1, Soccer Field #2, Soccer Field #3
+  access_raw: Public
+  hours_raw: 6AM to 11PM
+  urls_raw:
+    - https://vanwertoh.myrec.com/info/facilities/default.aspx
+    - https://visitvanwert.com/things-to-do/outdoor-adventure/
+  baseline_seed: Van Wert Rotary Athletic Complex
+
+---
+# T6-008 — Rotary Dog Park (City of Van Wert)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-008
+  name_raw: Rotary Dog Park
+  name_variants: ["Van Wert Dog Park"]
+  governance_raw: City of Van Wert Parks Department
+  ownership_raw: City of Van Wert
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 1264 S Washington St, Van Wert, OH 45891
+  category_raw: Dog Park
+  features_raw: Pavilion; off-leash dog area
+  access_raw: Public
+  hours_raw: 6AM to 10PM
+  urls_raw:
+    - https://vanwertoh.myrec.com/info/facilities/default.aspx
+    - https://visitvanwert.com/things-to-do/outdoor-adventure/
+  notes: >
+    visitvanwert.com lists as "Van Wert Dog Park"; MyRec lists as "Rotary Dog Park."
+    Not in original baseline — discovered during Tier 6 research.
+
+# =============================================================================
+# Tier 6 — Village of Ohio City
+# =============================================================================
+
+---
+# T6-009 — Ohio City Fireman's Park (Village of Ohio City)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-009
+  name_raw: Fireman's Park
+  name_variants: ["Ohio City Fireman's Park", "Firemen's Park"]
+  governance_raw: Village of Ohio City
+  ownership_raw: Village of Ohio City
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: St. Rt. 118, Ohio City, OH 45874
+  category_raw: Park
+  access_raw: Public
+  hours_raw: "6:00 AM to 10:00 PM (daily)"
+  urls_raw:
+    - https://visitvanwert.com/things-to-do/outdoor-adventure/
+  baseline_seed: Ohio City Fireman's Park
+  flags: [DETAILS_INCOMPLETE]
+  notes: >
+    Features not documented in available web sources. Village of Ohio City website
+    (villageofohiocity.org) lists Memory Park (a veterans memorial) and Warrior Trail but
+    does not include Fireman's Park. Address and hours from visitvanwert.com (St. Rt. 118,
+    Ohio City; 419-965-2000). DETAILS_INCOMPLETE flag retained — direct contact with Village
+    of Ohio City needed to document features.
+
+---
+# T6-010 — Warrior Trail (Village of Ohio City)
+raw_record:
+  entity_type: Trail
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-010
+  name_raw: Warrior Trail
+  name_variants: ["Ohio City Greenway Project Warrior Trail"]
+  governance_raw: Village of Ohio City
+  ownership_raw: Village of Ohio City
+  county_raw: Van Wert County
+  state_raw: Ohio
+  length_raw: "2.6 miles"
+  surface_raw: Asphalt and gravel
+  difficulty_raw: Easy
+  trail_type_raw: Rail-trail (linear)
+  endpoints_raw: Liberty Union Road (Liberty Township) to US-127 (Ohio City)
+  category_raw: Trail
+  subtype_raw: Rail-Trail / Multi-Use Path
+  features_raw: Paved multi-use path; covered picnic shelter at 214 S Main St, Ohio City;
+    small parking lot at shelter; suitable for biking, walking, wheelchair access
+  access_raw: Public
+  urls_raw:
+    - https://www.traillink.com/trail/warrior-trail/
+    - https://www.villageofohiocity.org/warrior-trail
+  notes: >
+    Project called "Ohio City Greenway Project 'Warrior Trail'" per TrailLink reference to
+    villageofohiocity.org. Not in baseline — discovered during Tier 6 research.
+    Trail starts/ends in Liberty Township (at Liberty Union Rd) and Ohio City (at US-127).
+    The Liberty Township endpoint is outside municipality limits — trail governance stays Tier 6
+    (primary manager is Village of Ohio City).
+
+# =============================================================================
+# Tier 6 — Village of Middle Point
+# =============================================================================
+
+---
+# T6-011 — Middle Point Ball Park (Village of Middle Point)
+raw_record:
+  entity_type: Site
+  tier: 6
+  governance_level: Municipal
+  temp_id: VNW-T6-011
+  name_raw: Middle Point Ball Park
+  name_variants: ["Middle Point Ballpark"]
+  governance_raw: Village of Middle Point
+  ownership_raw: Village of Middle Point
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 406 N Adams St, Middle Point, OH 45867
+  category_raw: Athletic Park
+  access_raw: Public
+  urls_raw:
+    - https://visitvanwert.com/things-to-do/outdoor-adventure/
+  notes: >
+    Not in original baseline — discovered during Tier 6 research from visitvanwert.com.
+    Features not documented beyond address.
+
+# =============================================================================
+# Tier 6 — Delphos (RESOLVED: all parks Allen County — Van Wert County NULL)
+# =============================================================================
+
+tier_result:
+  tier: 6
+  governance_level: Municipal
+  sub_result: "Delphos — RESOLVED: all city parks in Allen County (Marion Twp); Van Wert County (Washington Twp) NULL"
+  notes: >
+    OPEN QUESTION #3 RESOLVED (2026-04-19). Delphos straddles Allen County (Marion Township,
+    eastern portion, ~70% of city population) and Van Wert County (Washington Township, western
+    portion, ~30%). The Miami-Erie Canal (now Canal Street) is the county boundary within Delphos.
+    East of the canal = Allen County; west of the canal = Van Wert County.
+
+    All five Delphos city parks are in Allen County (Marion Township):
+    - Stadium Park (1101 N Jefferson St, 30 ac): CONFIRMED Allen County via ohiostadiums.com
+    - Waterworks Park (600 Spencerville Rd, 18 ac): east side of city = Allen County
+    - Leisure Park (Lima Ave, 20 ac): north commercial corridor = Allen County
+    - Garfield Park (South Clay St, 5 ac): Allen County
+    - Suever Park (South Clay St, 8 ac): Allen County
+
+    Supporting evidence:
+    (1) ohiostadiums.com explicitly lists Stadium Park as Allen County
+    (2) visitvanwert.com does NOT list any Delphos parks — consistent with no Van Wert County parks
+    (3) Canal Street boundary documented by multiple sources: "at Delphos the canal is now the
+        boundary between Allen and Van Wert counties"
+    (4) Delphos Gillmor Reservoir (walking trail, 30 ac) also in Allen County
+
+    Van Wert County portion of Delphos (Washington Township side) is residential only — no parks.
+    Delphos = Tier 6 NULL for Van Wert County. Open Question #3 closed.
+
+  park_addresses_confirmed:
+    Stadium Park: "1101 N Jefferson St, Delphos OH 45833 — 30 acres — Allen County"
+    Waterworks Park: "600 Spencerville Rd, Delphos OH 45833 — 18 acres — Allen County"
+    Leisure Park: "Lima Ave, Delphos OH 45833 — 20 acres — Allen County"
+    Garfield Park: "South Clay St, Delphos OH 45833 — 5 acres — Allen County"
+    Suever Park: "South Clay St, Delphos OH 45833 — 8 acres — Allen County"
+
+  sources_checked:
+    - ohiostadiums.com/stadium.php?id=1765 — Stadium Park = Allen County (confirmed)
+    - delphoschamber.com/community/parks-pool/ — park addresses extracted
+    - en.wikipedia.org/wiki/Delphos,_Ohio — canal = county boundary; 70% Allen / 30% Van Wert
+    - visitvanwert.com/outdoor-adventure — Delphos not listed = no Van Wert County parks
+    - Multiple sources: "at Delphos the canal is now the boundary between Allen and Van Wert counties"
+
+# =============================================================================
+# Tier 6 — Private — Van-Del Drive-In
+# =============================================================================
+
+---
+# T8-001 — Van-Del Drive-In (Private)
+raw_record:
+  entity_type: Site
+  tier: 8
+  governance_level: Private
+  temp_id: VNW-T8-001
+  name_raw: Van-Del Drive-In
+  governance_raw: Private (drive-in theater operator)
+  ownership_raw: Private
+  county_raw: Van Wert County
+  state_raw: Ohio
+  municipality_raw: Middle Point
+  category_raw: Drive-In Theater
+  access_raw: Private / Pay-to-enter
+  baseline_seed: Van-Del Drive-In (Middle Point, private)
+  notes: >
+    Private entertainment venue (drive-in theater). Per IMP-073, private entertainment and
+    recreation venues including drive-in theaters (including defunct/abandoned) are in scope
+    for NAP Tier 8. Staged as normal Tier 8 Site; no exclusion flag. Baseline seed confirmed.
+  flags: []
+
+
+# =============================================================================
+# TIER 7 — CONSERVANCY / NONPROFIT LAND TRUST — ENTITIES
+# =============================================================================
+
+---
+# T7-001 — Hiestand Woods Park & Preserve (Van Wert County Foundation)
+raw_record:
+  entity_type: Site
+  tier: 7
+  governance_level: Conservancy
+  temp_id: VNW-T7-001
+  name_raw: Hiestand Woods Park and Preserve
+  name_variants: ["Hiestand Woods Park", "Hiestand Woods"]
+  governance_raw: Van Wert County Foundation
+  ownership_raw: Van Wert County Foundation (501c3 community foundation)
+  county_raw: Van Wert County
+  state_raw: Ohio
+  address_raw: 1510 Hospital Dr, Van Wert, OH 45891
+  acreage_raw: "78 acres"
+  category_raw: Park / Nature Preserve
+  description_raw: >
+    "Hiestand Woods Park, established in 1945, boasts a park area & nature preserve. Over
+    the years construction of shelter houses, a playground, and paths in the nature preserve
+    have created a truly special place." Originally the wooded portion of the Hiestand family
+    farm; preserved through the Van Wert County Foundation using the Clara Anderson estate funds.
+  features_raw: >
+    Shelter houses, playground, nature preserve paths; ongoing multi-year modernization project
+    adding: restrooms, expanded parking, water fountains, fitness stations, elevated boardwalk
+    pathway, "Ninja Warrior Challenge Course" stations; planned trail connection to Van Wert
+    Reservoir Trails (VWCF multi-year project)
+  access_raw: Public
+  urls_raw:
+    - https://vanwertcountyfoundation.org/impact/parks/hiestand-woods-park/
+    - https://www.facebook.com/hiestandwoodspark/
+  baseline_seed: Hiestand Woods
+  notes: >
+    TrekOhio initially misidentified as "County Park managed by Van Wert County" — confirmed
+    as VWCF-owned and managed (Tier 7). Acreage 78 from VWCF page. VWCF planning to connect
+    Hiestand Woods trail paths to city Reservoir Trails system. Nature preserve paths exist
+    but trail length/surface not documented in available sources.
+    Facebook page: "Hiestand Woods Park and Preserve"
+
+---
+tier_result:
+  tier: 7
+  governance_level: Conservancy
+  sub_result: "Other conservancy/nonprofit holdings"
+  notes: >
+    West Central Ohio Land Conservancy (WCOLC) serves Van Wert County as part of its
+    7-county service area (Allen, Auglaize, Hancock, Hardin, Mercer, Putnam, Van Wert).
+    No specific Van Wert County land holdings or easements found in public sources.
+    Buckeye Trail Association: Delphos section officially listed under Allen/Auglaize/Putnam/
+    Paulding — no BTA infrastructure confirmed in Van Wert County at Tier 7.
+    Van Wert County Foundation: only confirmed nonprofit land holder (Hiestand Woods).
+  sources_checked:
+    - vanwertcountyfoundation.org/impact/parks/ — VWCF manages Hiestand Woods and co-funded Franklin Park
+    - wcolc.org/land-protection — serves Van Wert County but no Van Wert County holdings listed
+    - Buckeye Trail Association section listing — Van Wert County not included in any BTA section
+
+entity_type_result:
+  tier: 7
+  governance_level: Conservancy
+  entity_type: Trail
+  result: null
+  sources_checked:
+    - Hiestand Woods — nature preserve paths exist but length/surface not documented; insufficient
+      data to create a Trail record; flag for field verification
+  reasoning: Hiestand Woods has informal nature preserve paths but no trail documentation (name,
+    length, surface) found in available sources. Trail record pending field verification.
+    VWCF modernization plans include elevated boardwalk — stage trail record after completion data available.
+
+entity_type_result:
+  tier: 7
+  governance_level: Conservancy
+  entity_type: Trail Segment
+  result: null
+  sources_checked:
+    - Same as Trail null above
+  reasoning: No documented trail segments at Tier 7 entities.
+
+entity_type_result:
+  tier: 7
+  governance_level: Conservancy
+  entity_type: Trail Network
+  result: null
+  sources_checked:
+    - No multi-trail network documented at any Tier 7 entity
+  reasoning: No trail network at Tier 7.
+
+entity_type_result:
+  tier: 7
+  governance_level: Conservancy
+  entity_type: Site Network
+  result: null
+  sources_checked:
+    - VWCF holds only one site (Hiestand Woods); no multi-site network
+  reasoning: No site network at Tier 7.
+
+entity_type_result:
+  tier: 7
+  governance_level: Conservancy
+  entity_type: Access Point
+  result: null
+  sources_checked:
+    - Hiestand Woods — 1510 Hospital Dr is primary access; no formal trailhead/parking lot
+      documented; pending field verification
+  reasoning: No documented formal access points at Tier 7 entities.
+
+# =============================================================================
+# DISCOVERY COMPLETE — VAN WERT COUNTY
+# All 8 tiers processed. See session log for summary.
+# =============================================================================
+
+# =============================================================================
+# SUPPLEMENTAL T6 DISCOVERY — 2026-06-09 batch resolution phase
+# Source: PAD-US 4.0 Fee layer cross-check during quality review
+# =============================================================================
+
+---
+entity_type: Site
+name_raw: Wesley Park
+counties_raw: [Van Wert]
+county_primary: Van Wert
+ownership_raw: City Land
+governance_raw: City of Van Wert
+description_raw: Municipal park in the City of Van Wert, Pleasant Township.
+features_raw:
+location_raw: Van Wert, OH (Pleasant Township)
+acres_raw: 3
+gps_lat_raw: 40.876673
+gps_lon_raw: -84.590475
+urls_raw: []
+identity_notes_raw: "PAD-US 4.0 Fee source. GPS is PAD-US polygon centroid — field verify."
+last_verified_date: "2026-06-09"
+field_verified: false
+discovery_tier: 6
+seeded_from_baseline: false
+baseline_id:
+
+---
+entity_type: Site
+name_raw: Bresler Park
+counties_raw: [Van Wert]
+county_primary: Van Wert
+ownership_raw: City Land
+governance_raw: Blue Creek Township
+description_raw: Community park in northern Van Wert County, Blue Creek Township area.
+features_raw:
+location_raw: Blue Creek Township, Van Wert County, OH
+acres_raw: 8
+gps_lat_raw: 40.990788
+gps_lon_raw: -84.588517
+urls_raw: []
+identity_notes_raw: "PAD-US 4.0 Fee source. GPS is PAD-US polygon centroid — field verify."
+last_verified_date: "2026-06-09"
+field_verified: false
+discovery_tier: 6
+seeded_from_baseline: false
+baseline_id:
+
+# NOTE: Grover Hill Community Park (PAD-US 18ac) appeared in Van Wert bbox query
+# but township_lookup confirms Latty Township = Paulding County.
+# BBOX FALSE POSITIVE — catalog under Paulding County T6 discovery run.

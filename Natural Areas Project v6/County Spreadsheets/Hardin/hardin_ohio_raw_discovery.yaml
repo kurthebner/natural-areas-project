@@ -1,0 +1,4455 @@
+county: Hardin
+state: Ohio
+run_id: hardin_ohio_2026_06_01
+prefix: OH-HAR
+session_date: '2026-06-01'
+status: IN PROGRESS
+records:
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - USFS Wayne National Forest — entirely in southeast Ohio; Hardin County is northwest
+      Ohio; no USFS land in county
+    - 'NPS Ohio units (nps.gov/state/oh/list.htm) — 8 units: Charles Young Buffalo
+      Soldiers NM (Greene), Cuyahoga Valley NP (Cuyahoga/Summit), Dayton Aviation
+      Heritage NHP (Montgomery/Greene), First Ladies NHS (Stark), Hopewell Culture
+      NHP (Ross), James A. Garfield NHS (Lake), Perry''s Victory Memorial (Ottawa),
+      William Howard Taft NHS (Hamilton); none in Hardin County'
+    - 'NPS Trails in Ohio: North Country NST (northern Ohio lake counties) and Lewis
+      & Clark NHT (Ohio River/south); neither routes through Hardin County'
+    - USFWS — Ottawa NWR, Cedar Point NWR (Ottawa Co), West Sister Island NWR (Lake
+      Erie); no refuge or WPA in Hardin County
+    - USACE — Blanchard River Watershed feasibility study covers Hardin County drainage
+      basin but is a planning study only; no existing USACE recreation project in
+      Hardin County
+    - BLM — minimal Ohio surface holdings; none in Hardin County
+    - DoD — no military installations in Hardin County
+    - 'VA NCA national cemeteries in Ohio: Ohio Western Reserve NC (Medina Co), Dayton
+      NC (Montgomery Co); neither in Hardin County'
+    - 'VA NCA Soldiers Lots in Ohio: Woodland Cemetery SL (Cuyahoga/Cleveland), Camp
+      Chase Confederate Cemetery (Franklin/Columbus), Confederate Stockade Cemetery
+      (Erie/Sandusky Bay); none in Hardin County'
+    - 'Grove Cemetery Kenton: Union Cemetery (locally operated), not VA-administered
+      Soldiers Lot'
+    - 'Tribal trust land: Ohio has no federally recognized tribal trust land; all
+      cessions completed by 1840s'
+    reasoning: No federal or tribal land units with recreational or natural area identity
+      exist in Hardin County. All federal agencies searched; none have managed land
+      in the county. VA NCA has no facilities in Hardin County. Tribal land is a standard
+      Ohio null.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Trailthing
+    result: 'null'
+    sources_checked:
+    - Same as Sites — no federal land units in Hardin County from which Trailthings
+      could originate
+    - North Country NST does not route through Hardin County
+    - Lewis & Clark NHT does not route through Hardin County
+    reasoning: No federal or tribal land in Hardin County; no federal trail infrastructure
+      present.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - 'NPS National Heritage Areas: Ohio has two NHAs: Ohio and Erie Canalway (northeast/central
+      Ohio canal corridor) and National Aviation Heritage Area (8 counties: Montgomery,
+      Greene, Miami, Clark, Warren, Champaign, Shelby, Auglaize); Hardin County is
+      in neither'
+    - nps.gov/heritageareas/ reviewed; no other NHA covering Hardin County identified
+    reasoning: No National Heritage Areas or other formal federal multi-site designations
+      encompass Hardin County. Rule 1 threshold not met. No T1 Site Networks.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - No federal Sites or Trailthings in Hardin County; no federal access points possible
+    reasoning: No federal entities to generate access points.
+- entity_type: Site
+  name_raw: Lawrence Woods State Nature Preserve
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Natural Areas and Preserves
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: 'Largest known mature forest in northwest Ohio; home to numerous
+    rare plant and animal species. Multiple forest community types depending on elevation:
+    oak-hickory on highest/driest sites grading to beech-maple, beech-oak-red maple,
+    and maple-ash-oak swamp communities. Large trees of many species including white,
+    yellow, red, and bur oaks, beech, white ash, shagbark hickory, red maple, sugar
+    maple, and sycamore. Substantial buttonbush swamps inundated for most of the year.
+    Heart-leaf plantain (Plantago cordata), an Ohio endangered species known from
+    only three state sites, occurs here. Excellent for birding and spring wildflowers.'
+  habitat_type_raw: Old-growth/mature upland forest (oak-hickory, beech-maple); buttonbush
+    swamp wetlands; spring wildflower groundlayer
+  features_raw: 1.1-mile accessible boardwalk; hiking; birding; summer and spring
+    wildflowers; wetlands; woods
+  access_notes_raw: Open 1/2 hour before sunrise to 1/2 hour after sunset. Stay on
+    designated trails. Pets not permitted. No restrooms.
+  location_raw: 13278 County Road 190, Kenton, OH 43326; approximately 4 miles south
+    of Kenton
+  acres_raw: '1034.93'
+  gps_lat_raw: '40.6833'
+  gps_lon_raw: '-83.6092'
+  boundary_document_raw: null
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lawrence-woods-state-nature-preserve
+  - https://naturepreserves.ohiodnr.gov/lawrencewoods
+  ebird_hotspot_id: L324903
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Lawrence Woods State Nature Preserve
+- entity_type: Site
+  name_raw: Lawrence Woods Wildlife Area
+  counties_raw:
+  - Hardin
+  - Wyandot
+  county_primary: Hardin
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Wildlife area located on the north side of County Road 190 opposite
+    Lawrence Woods State Nature Preserve. Adjacent to old-growth forest preserve complex.
+    Includes grassland habitat and upland fields; ODNR Division of Wildlife grassland
+    bird research conducted at the property (2023). Wheelchair accessible trail documented.
+    Spans Hardin and Wyandot counties.
+  habitat_type_raw: Upland grassland; upland fields; adjacent to mature old-growth
+    forest; restored/managed agricultural land
+  features_raw: Hunting; trapping; wildlife viewing; wheelchair accessible trail
+  access_notes_raw: Public hunting and trapping. ODNR website page notes more information
+    coming soon; detailed amenity list not yet published.
+  location_raw: North side of County Road 190 opposite Lawrence Woods State Nature
+    Preserve, near Kenton, Hardin County; also extends into Wyandot County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lawrence-woods-wildlife-area
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/LawrenceWoods.pdf
+  ebird_hotspot_id: L36417313
+  identity_notes_raw: CROSS_COUNTY_CANDIDATE — spans Hardin and Wyandot counties per
+    eBird hotspot county label and ODNR research documents referencing both counties.
+    Wyandot County not yet run under v6. Provisional Hardin-prefixed ID; hold pending
+    Wyandot County run per Scenario A. Acreage not confirmed — ODNR page says coming
+    soon.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Lawrence Woods Wildlife Area
+- entity_type: Site
+  name_raw: Andreoff Wildlife Area
+  counties_raw:
+  - Hardin
+  - Wyandot
+  county_primary: Hardin
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: Ducks Unlimited; Pheasants Forever; USDA Wetlands Reserve
+    Program; H2Ohio program (Wyandot County portion)
+  coordination_raw: null
+  description_raw: 'Approximately 861-acre wildlife area spanning Hardin and Wyandot
+    counties. Consists of two Hardin County tracts (north: 584 acres; south: 135 acres)
+    plus an H2Ohio-funded Wyandot County addition. All tracts are former agricultural
+    land restored through the USDA Wetlands Reserve Program. Habitat includes restored
+    wetlands, native warm-season grassland, and a 36-acre woodlot on the south tract.
+    Northern site just south of Forest; southern site south of Kenton adjacent to
+    the Lawrence Woods complex. Dedicated October 5, 2019. Named for Alexander Andreoff
+    of Pheasants Forever. The H2Ohio Wyandot County portion is open to public wildlife
+    viewing, hunting, and trapping.'
+  habitat_type_raw: Restored wetlands; native warm-season grassland/prairie; woodlot
+    (36 acres on south tract)
+  features_raw: Hunting; trapping; wildlife viewing; waterfowl habitat
+  access_notes_raw: Two separate Hardin County tracts with different road access.
+    H2Ohio Wyandot County portion also publicly accessible.
+  location_raw: 'North tract: County Road 205 and Township Road 50, just south of
+    Forest, Hardin County. South tract: County Road 190 west of OH-292, south of Kenton,
+    Hardin County. Wyandot County portion: location TBD from Wyandot County run.'
+  acres_raw: 861 total approximate (584 north Hardin + 135 south Hardin + H2Ohio Wyandot
+    portion TBD)
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/AndreoffWA.pdf
+  - https://www.ducks.org/newsroom/conservationists-dedicate-ohios-andreoff-wildlife-area
+  ebird_hotspot_id: L14044415
+  identity_notes_raw: 'CROSS_COUNTY_CANDIDATE — spans Hardin and Wyandot counties.
+    Hardin County: two tracts (north 584 acres + south 135 acres). Wyandot County:
+    H2Ohio-funded addition, size TBD. Wyandot County not yet run under v6. Provisional
+    Hardin-prefixed ID; hold pending Wyandot County pipeline run per Scenario A. eBird
+    hotspot L12331122 labeled Wyandot Co., 1.6 miles from Hardin Co. Rd. 205 hotspot,
+    confirming cross-county extent.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Trailthing
+  name_raw: Lawrence Woods Boardwalk
+  source_term_raw: accessible boardwalk
+  source_hierarchy_context_raw: Sole trail at Lawrence Woods State Nature Preserve;
+    listed under Available Trails > Hiking Trails; 1.1 miles of accessible boardwalk
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_id_raw: null
+  site_parent_raw: Lawrence Woods State Nature Preserve
+  parent_site_network_raw: null
+  member_trailthing_names_raw: null
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Natural Areas and Preserves
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Accessible boardwalk trail through old-growth forest and buttonbush
+    swamp habitats at Lawrence Woods State Nature Preserve. Provides access to rare
+    plant communities including sites where Ohio-endangered Heart-leaf plantain occurs.
+    Primary access to the preserve interior.
+  use_type_raw: Hiking; birding
+  surface_type_raw: Boardwalk
+  origin_type_raw: null
+  status_raw: Open
+  difficulty_raw: null
+  accessibility_raw: ADA accessible boardwalk
+  total_length_raw: 1.1 miles
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lawrence-woods-state-nature-preserve
+  maps_raw: []
+  identity_notes_raw: eBird sub-hotspot L3930284 (Lawrence Woods State Nature Preserve--Woods
+    Boardwalk) corresponds to this trail.
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - ODNR DNAP — 1 SNP in Hardin County; Rule 2 threshold (2+ member sites) not met
+      for county-scoped network
+    - ODNR Division of Wildlife — 2 wildlife areas both cross-county; no qualifying
+      county-scoped portfolio network
+    - ODNR Scenic Rivers — Blanchard and Scioto are not designated scenic rivers;
+      no scenic river in Hardin County
+    - No NHAs or other formal multi-site state designations encompassing Hardin County
+      found
+    reasoning: No T2 Site Network threshold met for Hardin County. Single SNP; two
+      cross-county wildlife areas; no scenic river; no state multi-site umbrella.
+- entity_type: Access Point
+  name_raw: Lawrence Woods State Nature Preserve Entrance
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_sites_raw:
+  - Lawrence Woods State Nature Preserve
+  parent_trailthings_raw:
+  - Lawrence Woods Boardwalk
+  governance_raw: ODNR Division of Natural Areas and Preserves
+  description_raw: Parking area and boardwalk trailhead at the preserve entrance on
+    County Road 190. Gateway to 1.1-mile accessible boardwalk through old-growth forest
+    and wetlands.
+  features_raw: Parking; boardwalk trailhead; no restrooms; no pets
+  location_raw: 13278 County Road 190, Kenton, OH 43326
+  gps_lat_raw: '40.6833'
+  gps_lon_raw: '-83.6092'
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/lawrence-woods-state-nature-preserve
+  identity_notes_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Access Point
+  name_raw: Andreoff Wildlife Area North Tract Access
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_sites_raw:
+  - Andreoff Wildlife Area
+  parent_trailthings_raw: []
+  governance_raw: ODNR Division of Wildlife
+  description_raw: Public access to the northern 584-acre tract of Andreoff Wildlife
+    Area, just south of Forest. Restored wetland and native grassland habitat; primary
+    road access.
+  features_raw: Parking; hunting access; wildlife viewing; waterfowl observation
+  location_raw: County Road 205 and Township Road 50, south of Forest, Hardin County
+  gps_lat_raw: null
+  gps_lon_raw: null
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/AndreoffWA.pdf
+  identity_notes_raw: eBird hotspot L14044415 (Andreoff Wildlife Area--Hardin Co.
+    Rd. 205) at or near this access.
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Access Point
+  name_raw: Andreoff Wildlife Area South Tract Access
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_sites_raw:
+  - Andreoff Wildlife Area
+  parent_trailthings_raw: []
+  governance_raw: ODNR Division of Wildlife
+  description_raw: Public access to the southern 135-acre tract of Andreoff Wildlife
+    Area, south of Kenton near the Lawrence Woods complex. Restored wetlands, native
+    grassland, and woodlot.
+  features_raw: Parking; hunting access; wildlife viewing; wetland access
+  location_raw: County Road 190 west of OH-292, south of Kenton, Hardin County
+  gps_lat_raw: null
+  gps_lon_raw: null
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/AndreoffWA.pdf
+  identity_notes_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type_result:
+    tier: 2
+    governance_level: State — Additional Null Sources
+    entity_type: Multiple
+    result: null_items_documented
+    null_items:
+    - ODNR State Parks — none in Hardin County
+    - ODNR State Forests — none in Hardin County
+    - ODOT rest stops — baseline null confirmed; US-30 rest areas in Allen Co. and
+      Wyandot Co. boundary, not Hardin; no US-68 rest areas
+    - Ohio History Connection — no OHC site in Hardin County; Fort Amanda is in Auglaize
+      County
+    - OTIC — Ohio Turnpike (I-80/90) does not pass through Hardin County
+    - Public universities — ONU (Ada) is private; no public university in Hardin County
+    - ODNR Scenic Rivers — Blanchard and Scioto not among Ohio 17 designated scenic
+      rivers
+    - ODNR Water Trails — Blanchard River Water Trail managed by Hancock Park District;
+      all access points in Hancock County
+    - ODNR river/stream fishing maps — 12 entries total; none for Hardin County rivers
+    - ODNR fishing lake maps — no ODNR-managed fishing lakes in Hardin County
+    - EPA/DEFA, ODA — no publicly accessible conservation lands identified in Hardin
+      County
+    sources_checked:
+    - ohiodnr.gov hunting-area-maps, fishing-lake-maps, river-stream-fishing-maps
+    - ohiodnr.gov scenic-rivers-program, ohio-water-trails
+    - ohiohistory.org/visit/browse-historic-sites/
+    - transportation.ohio.gov/home/traveling/rest-areas
+    - SORP_Parcels_2023.csv — 10 NATURAL RESOURCES parcels in Hardin County confirmed
+- entity_type: Site
+  name_raw: Hardin County Veterans Memorial Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Hardin County Veterans Memorial Park District
+  governance_raw: Board of Park Commissioners, Hardin County Veterans Memorial Park
+    District
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: 26-acre county park district property centered on Boy Scout Lake
+    (4.1 acres). Created July 30, 1946 by order of the Hardin County Probate Court;
+    governed by Board of Park Commissioners appointed by the Probate Judge. District
+    covers Buck, Cessna, Goshen, Lynn, Pleasant, and Washington Townships plus the
+    City of Kenton. Features a 4.1-acre fishing lake (no license required), paved
+    walking path, dog run, children's playground, and three shelter houses. Entirely
+    handicap accessible. First paved walking path segment completed 2009.
+  habitat_type_raw: null
+  features_raw: Boy Scout Lake (4.1 acres, fishing); paved walking path; dog run area;
+    children's playground (swings, slides, jungle gym); three shelter houses with
+    power outlets; charcoal grills; two full basketball courts; three parking lots;
+    handicap accessible; no license required for fishing
+  access_notes_raw: null
+  location_raw: 15906 OH-309, Kenton, OH 43326
+  acres_raw: '26'
+  gps_lat_raw: '40.6470'
+  gps_lon_raw: '-83.6095'
+  boundary_document_raw: null
+  urls_raw:
+  - https://hardinvetspark.org/
+  ebird_hotspot_id: null
+  identity_notes_raw: Statutory park district (T3) under ORC. Board of Park Commissioners
+    appointed by Hardin County Probate Judge. Not a county-managed park (T4). District
+    created 1946.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 3
+  seeded_from_baseline: true
+  baseline_id: Hardin County Veterans Memorial Park
+- entity_type: Site
+  name_raw: Boy Scout Lake
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Hardin County Veterans Memorial Park District
+  governance_raw: Board of Park Commissioners, Hardin County Veterans Memorial Park
+    District
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: 4.1-acre lake within Hardin County Veterans Memorial Park. Named
+    "Boy Scout Lake" from original plans for a boys' camp. Primary fishing feature
+    of the park — no fishing license required. Shelter house located at the north
+    end. Walking path circles the lake.
+  habitat_type_raw: Pond/lake; park setting
+  features_raw: Fishing (no license required); shelter house at north end; paved walking
+    path; fishing access
+  access_notes_raw: null
+  location_raw: Within Hardin County Veterans Memorial Park, 15906 OH-309, Kenton,
+    OH 43326
+  acres_raw: '4.1'
+  gps_lat_raw: '40.6470'
+  gps_lon_raw: '-83.6095'
+  boundary_document_raw: null
+  urls_raw:
+  - https://hardinvetspark.org/
+  ebird_hotspot_id: null
+  identity_notes_raw: Child site of Hardin County Veterans Memorial Park. Named feature
+    with distinct recreational identity (fishing, shelter house, lake circuit trail).
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 3
+  seeded_from_baseline: true
+  baseline_id: Boy Scout Lake
+- entity_type: Site
+  name_raw: Silver Creek Center for Environmental Studies
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Hardin Soil and Water Conservation District
+  governance_raw: Hardin Soil and Water Conservation District
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: 25-acre educational and natural area managed by the Hardin SWCD
+    on the north side of State Route 67 approximately 2-3 miles west of Kenton. Features
+    a wooded area with paved handicap-accessible trail leading to a small wetland
+    with bridge access. Mowed walking paths continue beyond the wetland to a shelter
+    house and throughout the property. Self-guided nature trail with markers identifying
+    trees and plants. Scenic woodlands, meadow, and streamlet. Used for environmental
+    education (4-H groups, school programs). Named for Silver Creek which flows through
+    or near the property.
+  habitat_type_raw: Wooded upland; small wetland; meadow; streamlet
+  features_raw: Paved handicap-accessible trail; small wetland with bridge; mowed
+    walking paths; shelter house; self-guided nature trail with interpretive markers;
+    no restrooms; educational programming available
+  access_notes_raw: Open to groups and families. Group visits require reservations;
+    contact SWCD at (419) 673-0456. No restrooms. Educational programming available
+    for groups.
+  location_raw: 12525 State Route 67W, Kenton, OH 43326; on north side of SR-67, 2-3
+    miles west of Kenton
+  acres_raw: '25'
+  gps_lat_raw: '40.625433'
+  gps_lon_raw: '-83.649567'
+  boundary_document_raw: null
+  urls_raw:
+  - https://hardincountyohio.gov/swcd-silver-creek-environmental-center/
+  ebird_hotspot_id: null
+  identity_notes_raw: SWCD-managed natural area; T3 per IMP-004 (Soil & Water Conservation
+    Districts under ORC Chapter 1515). Not in baseline; discovered via TrekOhio overview
+    page.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 3
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Trailthing
+  name_raw: Veterans Memorial Park Walking Path
+  source_term_raw: paved walking path
+  source_hierarchy_context_raw: Described as a paved walking path within Hardin County
+    Veterans Memorial Park; circles Boy Scout Lake; first half completed in 2009;
+    listed under park amenities alongside walking paths
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_id_raw: null
+  site_parent_raw: Hardin County Veterans Memorial Park
+  parent_site_network_raw: null
+  member_trailthing_names_raw: null
+  ownership_raw: Hardin County Veterans Memorial Park District
+  governance_raw: Board of Park Commissioners, Hardin County Veterans Memorial Park
+    District
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Paved walking path within the Veterans Memorial Park, circling
+    Boy Scout Lake. First half of path completed in 2009 along with dog park construction.
+    Baseline notes fitness stations and benches along route.
+  use_type_raw: Walking
+  surface_type_raw: Paved
+  origin_type_raw: null
+  status_raw: Open
+  difficulty_raw: null
+  accessibility_raw: Paved; park described as entirely handicap accessible
+  total_length_raw: null
+  urls_raw:
+  - https://hardinvetspark.org/
+  maps_raw: []
+  identity_notes_raw: Baseline entry "Hardin County Veterans Memorial Park Trail"
+    describes this as a walking trail around Boy Scout Lake with fitness stations
+    and benches.
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 3
+  seeded_from_baseline: true
+  baseline_id: Hardin County Veterans Memorial Park Trail
+- entity_type: Trailthing
+  name_raw: Silver Creek Paved Trail
+  source_term_raw: paved handicap trail
+  source_hierarchy_context_raw: Described as a paved handicap trail through a wooded
+    area leading to a small wetland with bridge access; part of the Silver Creek Center
+    trail system; mowed walking paths continue beyond the paved section
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_id_raw: null
+  site_parent_raw: Silver Creek Center for Environmental Studies
+  parent_site_network_raw: null
+  member_trailthing_names_raw: null
+  ownership_raw: Hardin Soil and Water Conservation District
+  governance_raw: Hardin Soil and Water Conservation District
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Paved handicap-accessible trail at the Silver Creek Center for
+    Environmental Studies. Leads through wooded area to a small wetland with bridge.
+    Primary accessible route for the nature center; connects to mowed paths throughout
+    the property.
+  use_type_raw: Walking; nature education
+  surface_type_raw: Paved; mowed paths
+  origin_type_raw: null
+  status_raw: Open
+  difficulty_raw: null
+  accessibility_raw: ADA accessible (paved handicap trail)
+  total_length_raw: null
+  urls_raw:
+  - https://hardincountyohio.gov/swcd-silver-creek-environmental-center/
+  maps_raw: []
+  identity_notes_raw: Trail map available on SWCD website (front and back of Silver
+    Creek sections). Mowed paths extend beyond paved section; treat as part of same
+    trail system.
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 3
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type_result:
+    tier: 3
+    governance_level: District
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - Hardin County Veterans Memorial Park District — single site; Rule 2 threshold
+      (2+ member sites) not met
+    - Hardin SWCD — single site (Silver Creek Center); threshold not met
+    - Maumee Watershed Conservancy District — flood control only; no recreation lands
+      in Hardin County
+    - Upper Scioto Drainage and Conservancy District — river maintenance/drainage
+      only; no recreation lands
+    reasoning: No T3 district manages multiple natural area Sites in Hardin County.
+      All four T3 districts confirmed; none meet Site Network threshold.
+- entity_type: Access Point
+  name_raw: Hardin County Veterans Memorial Park Main Entrance
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_sites_raw:
+  - Hardin County Veterans Memorial Park
+  parent_trailthings_raw:
+  - Veterans Memorial Park Walking Path
+  governance_raw: Board of Park Commissioners, Hardin County Veterans Memorial Park
+    District
+  description_raw: Primary entrance and parking area for Veterans Memorial Park on
+    OH-309. Access to Boy Scout Lake, dog run, playground, shelter houses, and paved
+    walking path.
+  features_raw: Three parking lots; fishing lake access; dog run; playground; shelter
+    houses; walking path trailhead
+  location_raw: 15906 OH-309, Kenton, OH 43326
+  gps_lat_raw: '40.6470'
+  gps_lon_raw: '-83.6095'
+  urls_raw:
+  - https://hardinvetspark.org/
+  identity_notes_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 3
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Access Point
+  name_raw: Silver Creek Center for Environmental Studies Entrance
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_sites_raw:
+  - Silver Creek Center for Environmental Studies
+  parent_trailthings_raw:
+  - Silver Creek Paved Trail
+  governance_raw: Hardin Soil and Water Conservation District
+  description_raw: Entrance and parking area for Silver Creek Center on SR-67W west
+    of Kenton. Turn right at Silver Creek Environmental Center sign just beyond the
+    bridge. Trailhead for paved accessible trail and mowed paths.
+  features_raw: Parking; paved trail trailhead; no restrooms; group use by reservation
+  location_raw: 12525 State Route 67W, Kenton, OH 43326; just beyond bridge on SR-67W
+    heading west
+  gps_lat_raw: '40.625433'
+  gps_lon_raw: '-83.649567'
+  urls_raw:
+  - https://hardincountyohio.gov/swcd-silver-creek-environmental-center/
+  identity_notes_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 3
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type_result:
+    tier: 3
+    governance_level: District — Pre-Enumeration and Null Sources
+    entity_type: Multiple
+    result: null_items_documented
+    ohio_auditor_canvass:
+      date: '2026-06-01'
+      url: https://www.auditor.state.oh.us/AuditSearch/Entities
+      note: Ohio Auditor entity search website returned error page; pre-enumeration
+        completed via alternative sources (park website, SWCD website, WebSearch,
+        audit report citations)
+      county_filter: Hardin
+      entity_types_searched:
+      - Park Districts
+      - Joint Recreation Districts
+      - Conservancy Districts
+      - Watershed Districts
+      - Soil and Water Conservation Districts
+      - Special Districts
+      entities_found:
+      - Hardin County Veterans Memorial Park District (park district; statutory under
+        ORC; Board of Park Commissioners)
+      - Hardin Soil and Water Conservation District (SWCD; ORC Chapter 1515)
+      - Maumee Watershed Conservancy District (multi-county conservancy district;
+        ORC 6101; 15 counties including Hardin)
+      - Upper Scioto Drainage and Conservancy District (drainage/conservancy district;
+        Hardin County; formed 1915)
+      - Kenton-Hardin General Health District (health district; not recreation/natural
+        areas)
+      web_dark_districts: None — all four relevant districts have web presence or
+        audit documentation
+    null_items:
+    - Maumee Watershed Conservancy District — flood control and drainage projects
+      only; no recreation lands or natural area Sites in Hardin County
+    - Upper Scioto Drainage and Conservancy District — river maintenance only (log
+      jam removal, bank maintenance); no recreation access or natural area Sites
+    - Kenton-Hardin General Health District — health services; not a park/conservation
+      entity
+    - No joint recreation districts found in Hardin County
+    - No metroparks system in Hardin County
+    sources_checked:
+    - hardinvetspark.org
+    - hardincountyohio.gov/swcd-about/
+    - hardincountyohio.gov/swcd-silver-creek-environmental-center/
+    - sites.google.com/view/usdcd
+    - maumeewatershed.com
+    - trekohio.com/hardin/
+    - ohioauditor.gov — audit reports for Upper Scioto DCD and Kenton-Hardin Health
+      District
+    - agri.ohio.gov/divisions/soil-and-water-conservation
+- entity_type_result:
+    tier: 4
+    governance_level: County
+    entity_type: All
+    result: 'null'
+    sources_checked:
+    - hardincountyohio.gov — county homepage; no parks/recreation department page;
+      no county park links; county website is primarily administrative (commissioners,
+      auditor, health, SWCD)
+    - hardincountyohio.gov — SWCD section (Silver Creek Center already captured at
+      T3 per IMP-004)
+    - 'NRHP Hardin County — 7 listings (Wikipedia): Ada Pennsylvania Station and Railroad
+      Park (Ada, village-managed T6); Hardin County Courthouse (downtown Kenton, not
+      natural area); Kenton Courthouse Square Historic District (downtown, not natural
+      area); Kenton Public Library (Carnegie library, not natural area); Mount Victory
+      Historic District (village, not natural area); North Main-North Detroit Street
+      Historic District (residential, not natural area); Zimmerman Kame (McDonald
+      Township — NRHP 1974, glacial kame/archaeological site, private farmland, tree-covered,
+      no public access infrastructure, no county ownership confirmed)'
+    - Saulisberry Park / France Lake — 200-acre City of Kenton facility at 13344 SR-67W;
+      administered by City of Kenton parks and recreation; former stone quarry with
+      lake; T6 entity; deferred to Tier 6
+    - Hardin County Fairgrounds — county-owned fair facility; agricultural/event venue;
+      not a natural area; out of scope
+    - County financial records — E02 TRAILER & RECREATIONAL PARK enterprise fund;
+      likely Hardin County Fairgrounds RV parking or campground; agricultural fair
+      facility; not a natural area
+    - Veterans Memorial Park District — already captured at T3 as statutory park district
+    - 'Hardin County Chamber/Tourism — hardinvisit.com check: no county-managed natural
+      area Sites identified beyond entities already captured at higher tiers'
+    reasoning: 'Hardin County government does not operate a county parks department
+      or county-owned natural area Sites independent of the Veterans Memorial Park
+      District (T3). NRHP check complete: Zimmerman Kame is on private agricultural
+      land with no public access; all other NRHP listings are historic urban structures
+      without natural area character. Saulisberry Park/France Lake (200 ac, quarry
+      lake) is City of Kenton-managed; deferred to T6. County fairgrounds excluded
+      (not a natural area). No T4 natural area Sites, Trailthings, Site Networks,
+      or Access Points.'
+    deferred_to_t6:
+    - Saulisberry Park / France Lake Campground — 13344 SR-67W, Kenton; City of Kenton
+      parks and recreation; 200 acres; France Lake (former quarry); fishing, camping,
+      hiking, playground, dirt bike track; eBird hotspot L3661530; no swimming; permit
+      required for lake activities
+    - Ada Pennsylvania Station and Railroad Park — 112 E. Central Ave., Ada; NRHP
+      1998; Village of Ada entity; confirm village governance at T6
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Sites (Parks/Recreation)
+    result: 'null'
+    pre_enumeration:
+      source: Townships_Officials2022-2023.xlsx — Hardin County filter
+      date: '2026-06-01'
+      townships_confirmed:
+      - Blanchard
+      - Buck
+      - Cessna
+      - Dudley
+      - Goshen
+      - Hale
+      - Jackson
+      - Liberty
+      - Lynn
+      - Marion
+      - McDonald
+      - Pleasant
+      - Roundhead
+      - Taylor Creek
+      - Washington
+      total: 15
+      defunct_candidates: None — all 15 present in OTA roster
+    township_results:
+      Blanchard: No website found; no parks; within Veterans Memorial Park District
+        service area; cemeteries enumerated below
+      Buck: No website found; no parks; within Veterans Memorial Park District; cemeteries
+        enumerated below
+      Cessna: 'Website: cessnatwp.org (confirmed Hardin County); no parks listed;
+        within Veterans Memorial Park District; cemeteries enumerated below'
+      Dudley: No website found; no parks; cemeteries enumerated below
+      Goshen: 'Website: goshentwpoh.org (confirmed Hardin County — address 21012 CR
+        100, Kenton OH); no parks listed; cemeteries maintained by township road department'
+      Hale: No website found; no parks; cemeteries enumerated below
+      Jackson: No dedicated Hardin County Jackson Township website confirmed; no parks;
+        cemeteries enumerated below
+      Liberty: No dedicated website; Liberty Township audit confirms cemetery services
+        and road/bridge/fire only; no parks; cemeteries below
+      Lynn: No website found; no parks; within Veterans Memorial Park District; cemeteries
+        below
+      Marion: No dedicated Hardin County Marion Township website found; search overwhelmed
+        by Marion County/City results; no parks found
+      McDonald: No website found; no parks; Zimmerman Kame in McDonald Twp is on private
+        land (already addressed at T4); cemeteries below
+      Pleasant: 'Website: pleasant-township.org (confirmed Hardin County — 555 W.
+        Franklin St., Kenton, OH); no parks listed; within Veterans Memorial Park
+        District; "Pleasant Township Green Parcel" (baseline) not confirmed — will
+        be unconfirmed baseline seed; cemeteries below'
+      Roundhead: No official website; Facebook page; Wikipedia notes community has
+        "a Park" but no name, governance, or confirmation of public access; staging
+        as unconfirmed; cemeteries below
+      Taylor Creek: No website; county hosts official contact info; no parks; cemeteries
+        below
+      Washington: No website; search overwhelmed by wrong-county results; no parks;
+        Dola Cemetery noted; cemeteries below
+    sources_checked:
+    - cessnatwp.org
+    - goshentwpoh.org
+    - pleasant-township.org
+    - Wikipedia township articles for all 15
+    - Hardin County official contacts PDF (hardincountyohio.gov)
+    - Hardin County Cemeteries (sites.rootsweb.com/~ohcps/hardin.html)
+    - Ohio Auditor audit reports (Liberty Township audit)
+- entity_type: Site
+  name_raw: McKendree Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Goshen Township trustees, Hardin County
+  governance_raw: Goshen Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Goshen Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: SE side of CR 265, 1/2 mile north of TR 235 and TR 120, Goshen Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Goshen Township-maintained cemetery per Goshen Township website.
+    Road department maintains grounds.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Shanks Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Goshen Township trustees, Hardin County
+  governance_raw: Goshen Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Goshen Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: CR 215, 300 yards east of Rev Horn Run, Goshen Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Goshen Township-maintained cemetery per Goshen Township website.
+    Road department maintains grounds.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Cessna Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Cessna Township trustees, Hardin County
+  governance_raw: Cessna Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Cessna Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: 1/4 mile SE from SR 701 and TR 105, Cessna Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Cessna Township cemetery per cessnatwp.org. Alternate names:
+    Obenour Cemetery. c.1840.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Ft. McArthur Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Cessna Township trustees, Hardin County
+  governance_raw: Cessna Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Cessna Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: South of CR 106 and east of TR 125, Cessna Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: c.1812; 16 graves; Cessna Township. Cessna Township website
+    lists cemeteries; township-maintained assumed.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Grant Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Pleasant Township trustees, Hardin County
+  governance_raw: Pleasant Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Pleasant Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: North side TR 74, west of SR 53, north of Kenton, Pleasant Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Pleasant Township cemetery per pleasant-township.org/grant-cemetary.
+    Still accepting burials.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Woodlawn Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Liberty Township trustees, Hardin County
+  governance_raw: Liberty Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Liberty Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: Corner of CR 60 and west side of SR 235, Liberty Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Liberty Township cemetery per audit (township provides cemetery
+    services). Alternate name: Old Washington Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Woodlawn (New) Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Liberty Township trustees, Hardin County
+  governance_raw: Liberty Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Liberty Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: Corner of CR 60 and east side of SR 235, Liberty Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Liberty Township cemetery, new section east of SR 235.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Fairview-McDonald Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: McDonald Township trustees, Hardin County
+  governance_raw: McDonald Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in McDonald Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: 5302 SR 67, west of Kenton, McDonald Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Active, well-maintained cemetery with mature trees. eBird hotspot
+    L30884117. Ownership: McDonald Township trustees assumed based on maintenance
+    and naming pattern.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Dunkirk Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Blanchard Township trustees, Hardin County
+  governance_raw: Blanchard Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Blanchard Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: NW corner of SR 68 and TR 40, Blanchard Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Township cemetery in Blanchard Township. Village of Dunkirk
+    located in Blanchard Township; cemetery governance TBD (township vs. village).
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Hall Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Blanchard Township trustees, Hardin County
+  governance_raw: Blanchard Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Blanchard Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: East of TR 165 and 600 feet south of TR 46, Blanchard Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Blanchard Township cemetery per Hardin County WPA plat maps
+    and rootsweb list.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Roundhead Cemetery (Old)
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Roundhead Township trustees, Hardin County
+  governance_raw: Roundhead Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Roundhead Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: 2465 CR 190, east of SR 235, north side, Roundhead Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Roundhead Township cemetery, c.1836. Alternate name: Old Church
+    Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Roundhead Cemetery (New)
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Roundhead Township trustees, Hardin County
+  governance_raw: Roundhead Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Roundhead Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: 2800 CR 190, 1/4 mile east of SR 235, south side, Roundhead Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Roundhead Township cemetery, c.1880.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Henkle/Hinkle Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Roundhead Township trustees, Hardin County
+  governance_raw: Roundhead Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Roundhead Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: NW corner SR 67 and SR 235, Roundhead Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: c.1825-1938. Historical township cemetery, Roundhead Township.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Dola Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Washington Township trustees, Hardin County
+  governance_raw: Washington Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Washington Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: North side SR 81, Washington Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Washington Township cemetery. Alternate name: Washington Cemetery.
+    Dola is a community in Washington Township.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Hale Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Hale Township trustees, Hardin County
+  governance_raw: Hale Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Hale Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: North side SR 273 west of Mount Victory, east of TR 179, Hale Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Hale Township cemetery.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Ridgeway Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Hale Township trustees, Hardin County
+  governance_raw: Hale Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Hale Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: West side of TR 179, south of SR 273, Hale Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Hale Township cemetery; near Ridgeway village.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Patterson Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Jackson Township trustees, Hardin County
+  governance_raw: Jackson Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Jackson Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: TR 195 north of SR 81 on east side, Jackson Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Jackson Township cemetery. Alternate name: New Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Hueston Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Jackson Township trustees, Hardin County
+  governance_raw: Jackson Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Jackson Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: CR 183 and CR 20, west of Forest, Jackson Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: c.1831, Jackson Township.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Gunn Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Lynn Township trustees, Hardin County
+  governance_raw: Lynn Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Lynn Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: 300 ft south of SR 67, west of CR 95, Lynn Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Norman Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Lynn Township trustees, Hardin County
+  governance_raw: Lynn Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Lynn Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: West side CR 115, south of SR 67W, Lynn Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Seig Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Taylor Creek Township trustees, Hardin County
+  governance_raw: Taylor Creek Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Taylor Creek Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: CR 200, east of US 68, Taylor Creek Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Yelverton Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Taylor Creek Township trustees, Hardin County
+  governance_raw: Taylor Creek Township trustees, Hardin County
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Township cemetery in Taylor Creek Township, Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery; public access
+  access_notes_raw: null
+  location_raw: East side of CR 115 at TR 210, Taylor Creek Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Sloan Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Roundhead Community Park (name unconfirmed)
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: null
+  governance_raw: null
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Wikipedia describes the Roundhead community as having "a Park"
+    among its features (alongside a volunteer fire department, church, and two cemeteries).
+    No further details on name, ownership, acreage, or public access found.
+  habitat_type_raw: null
+  features_raw: null
+  access_notes_raw: null
+  location_raw: Roundhead community, Roundhead Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://en.wikipedia.org/wiki/Roundhead,_Ohio
+  ebird_hotspot_id: null
+  identity_notes_raw: IDENTITY_UNCONFIRMED — Wikipedia mentions "a Park" in Roundhead
+    community but no name, ownership, governance, or public access details found.
+    May be informal open space or may not meet cataloging threshold. Requires field
+    verification or authoritative source.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 5
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - All 15 Hardin County townships checked — no township manages multiple Sites
+      forming a qualifying network
+    reasoning: No township in Hardin County manages multiple named natural area Sites.
+      Township parks are null; cemeteries are individual Sites. Rule 2 threshold (2+
+      member Sites under a conservation/land-holding org) not met.
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - No township-managed Sites with formal AP infrastructure found beyond cemetery
+      entrances (which are not stadalone APs)
+    reasoning: No qualifying Access Points for T5 township entities. Cemetery entrances
+      are not cataloged as separate APs.
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Trailthing
+    result: 'null'
+    sources_checked:
+    - All 15 townships checked — no township-managed trail infrastructure found
+    reasoning: No township-managed trails in Hardin County.
+- entity_type_result:
+    tier: 5
+    governance_level: Township — Unconfirmed Baseline Seeds
+    entity_type: Site
+    result: unconfirmed_baseline_seeds
+    seeds:
+    - baseline_id: Pleasant Township Green Parcel
+      status: UNCONFIRMED_BASELINE_SEED
+      tiers_searched:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      sources_checked: pleasant-township.org; Hardin County rootsweb; SORP CSV; WebSearch
+      hold_detail: 'Baseline entry "Pleasant Township Green Parcel" describes informal
+        open space with informal recreation managed by Pleasant Township trustees.
+        Pleasant Township website does not mention any parks. No authoritative source
+        documents a managed natural area by this name. Likely informal open space
+        without formal identity. Hold_reason: unconfirmed_baseline_seed.'
+- entity_type: Site
+  name_raw: Saulisberry Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: City of Kenton Parks & Recreation
+  governance_raw: City of Kenton Parks & Recreation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: 167-acre former stone quarry site west of Kenton featuring France
+    Lake (quarry lake) for fishing, boating, and kayaking. Includes a campground with
+    33 campsites (electric, water/electric, and full hookup options), primitive tent
+    camping, and monthly hookup sites. Playground, basketball court, picnic tables
+    scattered around the lake, kayak launcher. Permit required for lake activities;
+    purchased through City of Kenton. No swimming permitted.
+  habitat_type_raw: Former quarry lake; open water; grassy areas; flat terrain
+  features_raw: France Lake (fishing, boating, kayaking, no swimming); 33 campsites;
+    tent camping; electric/water hookups; kayak launcher; basketball court; playground;
+    picnic tables; permit required for lake activities
+  access_notes_raw: null
+  location_raw: 13344 State Route 67W, Kenton, OH 43326
+  acres_raw: '167.4'
+  gps_lat_raw: '40.6209'
+  gps_lon_raw: '-83.6374'
+  boundary_document_raw: null
+  urls_raw:
+  - https://cityofkenton.recdesk.com/Community/Facility/Detail?facilityId=1
+  - https://www.hipcamp.com/en-US/land/ohio-saulisberry-park-france-lake-campground-2ejhwxd1
+  ebird_hotspot_id: L3661530
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Saulisberry Park
+- entity_type: Site
+  name_raw: France Lake
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: City of Kenton Parks & Recreation
+  governance_raw: City of Kenton Parks & Recreation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Former stone quarry lake at Saulisberry Park, west of Kenton. Used
+    for fishing, boating, and kayaking. No swimming permitted. Permit required for
+    lake activities. Surrounded by flat grassy campground terrain.
+  habitat_type_raw: Former quarry lake; open water
+  features_raw: Fishing; boating; kayaking; no swimming; kayak launcher; permit required
+  access_notes_raw: null
+  location_raw: Within Saulisberry Park, 13344 State Route 67W, Kenton, OH 43326
+  acres_raw: null
+  gps_lat_raw: '40.6209'
+  gps_lon_raw: '-83.6374'
+  boundary_document_raw: null
+  urls_raw:
+  - https://cityofkenton.recdesk.com/Community/Facility/Detail?facilityId=1
+  ebird_hotspot_id: null
+  identity_notes_raw: Child site of Saulisberry Park. Former quarry; identity-bearing
+    lake within the park.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Boy Scout Lake
+- entity_type: Site
+  name_raw: C.E. Wharton Memorial Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: City of Kenton Parks & Recreation
+  governance_raw: City of Kenton Parks & Recreation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: 21.4-acre municipal park in Kenton featuring an 18-hole disc golf
+    course that hosts local tournaments. Walking and running paths through green space.
+    Leisure Playground; basketball and soccer facilities. Wharton Park Bark Park (dog
+    park) located within the park. Known as a premier disc golf venue in Hardin County.
+  habitat_type_raw: null
+  features_raw: 18-hole disc golf course; Leisure Playground; basketball court; soccer
+    court; walking/running paths; Bark Park (dog park); 21.4 acres
+  access_notes_raw: null
+  location_raw: Kenton, OH (specific address TBD)
+  acres_raw: '21.4'
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://cityofkenton.com/parks/
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: C.E. Wharton Memorial Park
+- entity_type: Site
+  name_raw: Home Run Memorial Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: City of Kenton Parks & Recreation
+  governance_raw: City of Kenton Parks & Recreation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: 40.8-acre baseball and softball complex in Kenton. Seven fields
+    with a 1/2-mile walking track, full concession stand with board office and umpire
+    locker room, indoor batting cages, picnic areas, and parking for approximately
+    400 cars. Home of Kenton Little League.
+  habitat_type_raw: null
+  features_raw: 7 baseball/softball fields; 1/2-mile walking track; indoor batting
+    cages; concession stand; picnic areas; parking 400+ cars
+  access_notes_raw: null
+  location_raw: 13625 State Route 292, Kenton, OH 43326
+  acres_raw: '40.8'
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://www.kentonlittleleague.com/Default.aspx?tabid=1389798
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Gene Autry Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: City of Kenton Parks & Recreation
+  governance_raw: City of Kenton Parks & Recreation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Small downtown memorial park at the corner of Market Street and
+    State Route 309, dedicated June 26, 2004. Features a 30x80-foot mural of Gene
+    Autry (painted on adjacent building wall) on his horse Champion. Park includes
+    a bench adorned with wagon wheels, shrubs, and a stone commemorating Gene Autry's
+    connection to Kenton. Primarily a mural/memorial experience; small urban green
+    space.
+  habitat_type_raw: null
+  features_raw: Gene Autry mural (30x80 ft); memorial bench; stone marker; small urban
+    green space
+  access_notes_raw: null
+  location_raw: Corner of Market Street and State Route 309, downtown Kenton, OH
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://www.lasr.net/travel/city.php?TravelTo=OH0506007&Attraction_ID=OH0506007a005&VA=Y
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Pioneer Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: City of Kenton Parks & Recreation
+  governance_raw: City of Kenton Parks & Recreation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Municipal park on King Street in Kenton offering green space for
+    walking and running.
+  habitat_type_raw: null
+  features_raw: Open green space; walking; running
+  access_notes_raw: null
+  location_raw: King Street, Kenton, OH
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://cityofkenton.com/parks/
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Pioneer Park
+- entity_type: Site
+  name_raw: Murray Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: City of Kenton Parks & Recreation
+  governance_raw: City of Kenton Parks & Recreation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Small municipal park located on North Cherry Street in Kenton,
+    situated around a small water body.
+  habitat_type_raw: null
+  features_raw: Small water body; green space; open space
+  access_notes_raw: null
+  location_raw: 511-599 N Cherry St, Kenton, OH 43326
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://cityofkenton.com/parks/
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site Network
+  network_name_raw: City of Kenton Parks & Recreation
+  network_type_raw: Municipal Recreation System
+  org_type_raw: Municipal Department
+  status_raw: Active
+  ownership_raw: null
+  governance_raw: City of Kenton Parks & Recreation Department
+  partner_agencies_raw: null
+  coordination_raw: null
+  counties_raw:
+  - Hardin
+  states_raw: null
+  member_count_raw: null
+  member_site_names_raw: Saulisberry Park; C.E. Wharton Memorial Park; Home Run Memorial
+    Park; Gene Autry Park; Pioneer Park; Murray Park
+  description_raw: City of Kenton municipal park system managed by the Parks & Recreation
+    Department. Operates multiple parks and recreation facilities across Kenton including
+    Saulisberry Park/France Lake Campground, Wharton Memorial Park (disc golf), Home
+    Run Memorial Park (baseball complex), Gene Autry Park, Pioneer Park, and Murray
+    Park.
+  identity_notes_raw: 'SITE_NETWORK_PROVISIONAL — City of Kenton Parks & Recreation;
+    first member site cataloged 2026-06-01; 6+ member sites expected. Threshold: Rule
+    3 — Municipal Department, 3+ in-scope member Sites confirmed.'
+  notes_raw: null
+  urls_raw:
+  - https://cityofkenton.com/parks/
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Access Point
+  name_raw: Saulisberry Park Entrance
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_sites_raw:
+  - Saulisberry Park
+  parent_trailthings_raw: []
+  governance_raw: City of Kenton Parks & Recreation
+  description_raw: Main entrance to Saulisberry Park and France Lake Campground on
+    SR-67W west of Kenton.
+  features_raw: Parking; campsite check-in; lake access; permit sales
+  location_raw: 13344 State Route 67W, Kenton, OH 43326
+  gps_lat_raw: '40.6209'
+  gps_lon_raw: '-83.6374'
+  urls_raw:
+  - https://cityofkenton.recdesk.com/Community/Facility/Detail?facilityId=1
+  identity_notes_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Access Point
+  name_raw: Home Run Memorial Park Entrance
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_sites_raw:
+  - Home Run Memorial Park
+  parent_trailthings_raw: []
+  governance_raw: City of Kenton Parks & Recreation
+  description_raw: Main entrance to Home Run Memorial Park baseball complex on SR
+    292.
+  features_raw: Parking (400+ cars); field access; concession
+  location_raw: 13625 State Route 292, Kenton, OH 43326
+  gps_lat_raw: null
+  gps_lon_raw: null
+  urls_raw:
+  - https://www.kentonlittleleague.com/Default.aspx?tabid=1389798
+  identity_notes_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Ada War Memorial Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Village of Ada
+  governance_raw: Village of Ada
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Large municipal park covering 70+ acres in the Village of Ada,
+    established in the 1930s as a memorial to World War I veterans. Features a historic
+    log cabin from the early 19th century restored as a public museum. Contains a
+    stocked fishing pond for fishing, boating, and picnicking. Several hiking trails
+    wind through wooded areas. Recreational amenities include playground, picnic shelters,
+    basketball court, and pavilion. Ice skating in winter.
+  habitat_type_raw: Wooded areas; stocked pond; open park lawns
+  features_raw: Historic log cabin museum; stocked fishing pond; hiking trails; playground;
+    picnic shelters; basketball court; pavilion; ice skating (winter); 70+ acres
+  access_notes_raw: null
+  location_raw: 401 N Park Dr, Ada, OH 45810
+  acres_raw: 70+
+  gps_lat_raw: '40.7683'
+  gps_lon_raw: '-83.8250'
+  boundary_document_raw: null
+  urls_raw:
+  - https://www.adaoh.gov/taxonomy/term/56
+  - https://www.facebook.com/AdaWarMemoralPark/
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Ada Memorial Park
+- entity_type: Site
+  name_raw: Ada Railroad Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Village of Ada
+  governance_raw: Village of Ada
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Historic village park at the site of the former Ada Pennsylvania
+    Railroad Station. The village purchased the lot in 1958. Features a surface parking
+    lot, park benches, picnic tables, and new plantings while retaining historic configuration,
+    open space, view sheds, and memorial cannon. NRHP-listed (1998) as "Ada Pennsylvania
+    Station and Railroad Park" — a former railroad station building associated with
+    the park.
+  habitat_type_raw: null
+  features_raw: Historic railroad station context; open green space; park benches;
+    picnic tables; memorial cannon; parking; NRHP listed
+  access_notes_raw: null
+  location_raw: 112 E Central Ave, Ada, OH 45810
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://www.adaoh.gov/
+  - https://www.historic-structures.com/oh/ada/ada-pennsylvania-station/
+  ebird_hotspot_id: null
+  identity_notes_raw: 'NRHP #98001014 — "Ada Pennsylvania Station and Railroad Park"
+    listed 1998. Village-managed park on former railroad station site.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Ada Railroad Park
+- entity_type: Trailthing
+  name_raw: Ada Railroad Park Path
+  source_term_raw: linear park
+  source_hierarchy_context_raw: Baseline describes as "short paved path extending
+    from Ada Railroad Park; no signage or formal designation." Village of Ada manages
+    Ada Railroad Park.
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_id_raw: null
+  site_parent_raw: Ada Railroad Park
+  parent_site_network_raw: null
+  member_trailthing_names_raw: null
+  ownership_raw: Village of Ada
+  governance_raw: Village of Ada
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Short paved path extending from Ada Railroad Park. Baseline notes
+    no signage or formal designation. Part of the Ada Railroad Park historic complex.
+  use_type_raw: Walking
+  surface_type_raw: Paved
+  origin_type_raw: null
+  status_raw: null
+  difficulty_raw: null
+  accessibility_raw: null
+  total_length_raw: null
+  urls_raw:
+  - https://www.adaoh.gov/
+  maps_raw: []
+  identity_notes_raw: Baseline entry "Ada Railroad Park Path" describes this. Baseline
+    also notes "Ada Trail Spur (Unmarked)" as a separate short segment — may be the
+    same entity or an extension. See unconfirmed baseline seeds.
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Ada Railroad Park Path
+- entity_type: Access Point
+  name_raw: Ada War Memorial Park Main Entrance
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_sites_raw:
+  - Ada War Memorial Park
+  parent_trailthings_raw: []
+  governance_raw: Village of Ada
+  description_raw: Main entrance to Ada War Memorial Park on N Park Dr.
+  features_raw: Parking; trail access; pond access; log cabin museum access; playground
+  location_raw: 401 N Park Dr, Ada, OH 45810
+  gps_lat_raw: '40.7683'
+  gps_lon_raw: '-83.8250'
+  urls_raw:
+  - https://www.adaoh.gov/
+  identity_notes_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Gormley Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Village of Forest
+  governance_raw: Village of Forest
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Village park on Mary Street on the east side of Forest. Features
+    a beautiful stocked pond, scenic walking trails, playgrounds, softball/baseball
+    fields, tennis courts, basketball courts, and sand volleyball courts. Three pavilion
+    buildings available for rental (including an All-Weather Pavilion with AC, kitchen,
+    and capacity for 115 people). Gazebo. Home of the Jackson-Forest Fire Department's
+    annual Tree Town Festival in July.
+  habitat_type_raw: Stocked pond; park lawns; wooded edges
+  features_raw: Stocked pond; walking trails; playground; softball/baseball fields;
+    tennis courts; basketball courts; sand volleyball; gazebo; 3 pavilions (rentable);
+    Tree Town Festival site
+  access_notes_raw: null
+  location_raw: Mary Street, Forest, OH 45843 (east side of village)
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://www.villageofforest.com/parks-and-recreation/
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Gormley Park
+- entity_type: Site
+  name_raw: Ranger Sports Complex
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Village of Forest
+  governance_raw: Village of Forest
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Multi-field soccer complex on the site of the former Riverdale
+    Forest Elementary School on West Dixon Street in Forest. Home of the Riverdale
+    Youth Soccer Club (member of Black Swamp Soccer League). Hosts soccer practices
+    and games from multiple area communities each spring and fall. Site of the Riverdale
+    Spring Classic Soccer Tournament in May, drawing 2000+ visitors. Features a pavilion
+    built with a Nature Works Grant (2011), handicap accessible restrooms, concession
+    area, and covered picnic area.
+  habitat_type_raw: null
+  features_raw: Soccer fields; Nature Works grant pavilion; handicap accessible restrooms;
+    concession; covered picnic area; parking
+  access_notes_raw: null
+  location_raw: West Dixon Street, Forest, OH 45843 (former Riverdale Forest Elementary
+    site)
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://www.villageofforest.com/parks-and-recreation/
+  ebird_hotspot_id: null
+  identity_notes_raw: Former elementary school site. Village-managed complex hosting
+    Riverdale Youth Soccer Club.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Ranger Sports Complex
+- entity_type: Site
+  name_raw: Dunkirk Community Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Village of Dunkirk
+  governance_raw: Village of Dunkirk
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Village park in Dunkirk. Features playground equipment, ball field,
+    and picnic shelter.
+  habitat_type_raw: null
+  features_raw: Playground; ball field; picnic shelter
+  access_notes_raw: null
+  location_raw: Dunkirk, OH 45836
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://villageofdunkirk.com/
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Dunkirk Community Park
+- entity_type: Site
+  name_raw: McGuffey Village Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Village of McGuffey
+  governance_raw: Village of McGuffey
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Village park in McGuffey featuring playground equipment (slides,
+    swings, monkey bars, tether ball) located near the pool area. Gazebo along the
+    south border of the former railroad right-of-way. Small community park with active
+    recreational use.
+  habitat_type_raw: null
+  features_raw: Playground (slides, swings, monkey bars, tether ball); gazebo; pool
+    area adjacency; former railroad ROW edge
+  access_notes_raw: null
+  location_raw: McGuffey, OH 45859
+  acres_raw: null
+  gps_lat_raw: '40.6932'
+  gps_lon_raw: '-83.7835'
+  boundary_document_raw: null
+  urls_raw:
+  - https://www.facebook.com/villageofmcguffey/
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: McGuffey Village Park
+- entity_type: Site
+  name_raw: Mount Victory Village Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Village of Mount Victory
+  governance_raw: Village of Mount Victory
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Community park in Mount Victory featuring a walking path, natural
+    toddler playground, baseball diamond with new lights, basketball court, concession
+    stand, bleachers, and shelter houses. Walking path completed in phases 2018-2020.
+    Natural toddler playground area completed Spring 2020. Ongoing community improvement
+    project funded through grants and donations led by Mt. Victory CIC (Community
+    Improvement Corporation). Community Building (Sportsman's Club) on site available
+    for rentals.
+  habitat_type_raw: null
+  features_raw: Walking path; natural toddler playground; baseball diamond; basketball
+    court; concession stand; bleachers; shelter houses; Community Building (rentable)
+  access_notes_raw: null
+  location_raw: Mount Victory, OH 43340
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://mountvictory.com/village-park-progress/
+  - https://www.mountvictoryohio.gov/
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Mount Victory Park
+- entity_type: Site
+  name_raw: Ray Brown Memorial Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Village of Alger
+  governance_raw: Village of Alger
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Community park and baseball complex in Alger, officially dedicated
+    May 14, 2026 as Ray Brown Memorial Park in honor of Baseball Hall of Fame player
+    Ray Brown (born Alger, 1908; Negro League star with Pittsburgh Homestead Grays;
+    inducted 2006). Features a 30x80-foot mural of Ray Brown painted by Ohio Northern
+    University alumna Aubrey Davis. Original Alger ballpark site with baseball diamonds,
+    playground, and pavilions; refurbished with ODNR grants in 2021 and 2023. Dedicated
+    at event attended by Ohio Governor Mike DeWine.
+  habitat_type_raw: null
+  features_raw: Baseball diamonds; playground; pavilions; Ray Brown mural; ODNR-grant-refurbished
+    facilities
+  access_notes_raw: null
+  location_raw: Alger, OH 45812
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://www.limaohio.com/top-stories/2026/05/14/alger-residents-celebrate-opening-of-ray-brown-memorial-park/
+  ebird_hotspot_id: null
+  identity_notes_raw: Renamed/rededicated as Ray Brown Memorial Park at grand opening
+    May 14, 2026. Formerly known as Alger Ballpark. ODNR grant refurbishments 2021
+    and 2023. Not in baseline — new entity.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — Unconfirmed Baseline Seeds
+    entity_type: Multiple
+    result: unconfirmed_baseline_seeds
+    seeds:
+    - baseline_id: Ada Trail Spur (Unmarked)
+      status: UNCONFIRMED_BASELINE_SEED
+      hold_detail: Baseline describes a short paved segment extending from Ada Railroad
+        Park with no signage or formal designation. No authoritative source found
+        confirming a distinct trail entity separate from Ada Railroad Park Path. May
+        be same entity as Ada Railroad Park Path or an informal extension. Hold pending
+        field verification.
+    - baseline_id: Simon Kenton Trail (Planned Extension)
+      status: UNCONFIRMED_BASELINE_SEED
+      hold_detail: 'Baseline describes a proposed/planned extension of a regional
+        trail network into Hardin County — not yet constructed as of baseline date.
+        No authoritative source found confirming active construction or formal designation.
+        Status: Planned only. Not a catalogable entity until constructed or formally
+        designated.'
+    - baseline_id: Kenton Greenbelt Parcel
+      status: UNCONFIRMED_BASELINE_SEED
+      hold_detail: Baseline describes wooded and grassy parcel along river near Kenton
+        with informal trails and wildlife sightings. Unknown ownership. No authoritative
+        source found confirming public ownership, formal access, or managed identity.
+        Likely informal open space or private land.
+    - baseline_id: Ada Reservoir
+      status: UNCONFIRMED_BASELINE_SEED
+      hold_detail: Baseline GPS (40.7685,-83.8232) matches Ada War Memorial Park location
+        (40.7683,-83.8250). The stocked fishing pond described in Ada War Memorial
+        Park is likely the same entity as "Ada Reservoir." If the Ada Reservoir is
+        the pond inside Ada Memorial Park, it is captured as a feature of that Site,
+        not a separate entity. If it is a separate municipal water reservoir, it would
+        be out of scope (utility infrastructure). Hold pending field verification
+        to confirm identity.
+    - baseline_id: Ada Reservoir Woodlot Buffer
+      status: UNCONFIRMED_BASELINE_SEED
+      hold_detail: Baseline describes wooded edge and drainage swale adjacent to Ada
+        Reservoir with informal access and habitat value. No authoritative source
+        confirms a managed natural area identity. GPS matches Ada Memorial Park cluster.
+        Likely informal edge habitat; does not meet cataloging threshold as a distinct
+        managed Site.
+    - baseline_id: Kenton Water Treatment Plant Buffer
+      status: UNCONFIRMED_BASELINE_SEED
+      hold_detail: Baseline describes grassy and wooded buffer surrounding municipal
+        water infrastructure north of Kenton. Managed by City of Kenton. Access is
+        restricted (buffer only). Does not meet public access threshold for cataloging
+        as a natural area Site.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — Additional Sources and Nulls
+    entity_type: Multiple
+    result: documented
+    municipality_results:
+      Kenton: cityofkenton.com confirmed; 7+ parks cataloged; city pool (920 W Franklin
+        St) and skate park noted as built facilities, not natural area Sites; Kenton
+        Greenbelt Parcel = unconfirmed baseline seed
+      Ada: adaoh.gov confirmed; Ada War Memorial Park (70+ ac) and Ada Railroad Park
+        cataloged; Ada Railroad Park Path (Trailthing) staged; Ada Trail Spur and
+        Ada Reservoir = unconfirmed baseline seeds
+      Forest: villageofforest.com confirmed; Gormley Park and Ranger Sports Complex
+        cataloged
+      Dunkirk: villageofdunkirk.com confirmed; Dunkirk Community Park cataloged from
+        baseline (parks page 404 — using baseline data)
+      McGuffey: No official website; Village Facebook only; McGuffey Village Park
+        cataloged from Facebook/search descriptions; McGuffey Reservoir = unconfirmed
+        baseline seed (unknown ownership)
+      Mount Victory: mountvictoryohio.gov and mountvictory.com confirmed; Mount Victory
+        Village Park cataloged
+      Alger: No official website; Lima News article and bloggerbill.com; Ray Brown
+        Memorial Park cataloged (opened May 14, 2026)
+      Patterson: Village of 130 people; no official website; no parks found; null
+      Ridgeway: Village spans Hardin AND Logan counties (population 314); no parks
+        found; null for natural area entities
+    sources_checked:
+    - cityofkenton.com/parks
+    - cityofkenton.recdesk.com
+    - adaoh.gov
+    - villageofforest.com/parks-and-recreation/
+    - villageofdunkirk.com
+    - facebook.com/villageofmcguffey
+    - mountvictoryohio.gov, mountvictory.com
+    - limaohio.com (Ray Brown Memorial Park)
+    - bloggerbill.com/ohio/hardin-county/alger-oh-things-to-do
+    - Wikipedia articles for Patterson and Ridgeway
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: All
+    result: 'null'
+    sources_checked:
+    - West Central Ohio Land Conservancy (WCOLC) — wcolc.org; confirmed serves Hardin
+      County; ~3,148 acres protected across 7-county service area; all holdings are
+      agricultural conservation easements; no named public-access natural area preserves
+      found in Hardin County
+    - The Nature Conservancy Ohio — nature.org/ohio; no TNC preserves in Hardin County;
+      closest is Big Darby headwaters (Logan County) and Kitty Todd (Lucas County)
+    - Black Swamp Conservancy (BSC) — service area does not include Hardin County
+      (Erie, Fulton, Henry, Lucas, Ottawa, Putnam, Sandusky, Seneca, Van Wert, Williams,
+      Wood)
+    - North Central Ohio Land Conservancy (NCOLC) — ncolc.org; serves Richland County
+      area; not applicable to Hardin County
+    - ONAPA preserve map — onapa.org/preserve-map.html; ONAPA provides stewardship
+      for ODNR state nature preserves; Lawrence Woods SNP already cataloged at T2;
+      ONAPA is not a separate landowner
+    - Simon Kenton Trail/Pathfinders — trail currently ends in Logan/Champaign Counties;
+      no Hardin County segment constructed or formally designated
+    - Land Trust Alliance directory — landtrustalliance.org; only WCOLC identified
+      as serving Hardin County
+    - General WebSearch for Hardin County land trusts and conservation nonprofits
+      — no additional organizations found
+    reasoning: No nonprofit conservation organization holds named, identity-bearing,
+      publicly accessible natural area Sites in Hardin County. WCOLC is the primary
+      land trust serving Hardin County but holds only agricultural conservation easements
+      (consistent with prior county run results for Paulding and Putnam Counties).
+      All other regional land trusts are outside the county service area. Simon Kenton
+      Trail planned extension into Hardin County is not yet constructed (unconfirmed
+      baseline seed). No T7 entities for Hardin County.
+- entity_type: Site
+  name_raw: Memorial Park Golf Club
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Hardin County Golf Foundation
+  governance_raw: Hardin County Golf Foundation
+  partner_agencies_raw: Hardin County Veterans Memorial Park District (adjacent land)
+  coordination_raw: null
+  description_raw: 18-hole public golf course along the Scioto River in Kenton, Ohio.
+    Originally designed by Barry Serafin in 1929. The Hardin County Golf Foundation
+    expanded to 18 holes in 1991 by purchasing land on both sides of the Scioto River
+    with the anticipation of eventually deeding the land to the Veterans Memorial
+    Park District. Par 72, approximately 6,300 yards, course rating 69.7.
+  habitat_type_raw: null
+  features_raw: 18 holes; Par 72; ~6,300 yards; public access; along Scioto River
+  access_notes_raw: Public course; open tee times available.
+  location_raw: 15906 OH-309, Kenton, OH 43326 (adjacent to Veterans Memorial Park)
+  acres_raw: null
+  gps_lat_raw: '40.6470'
+  gps_lon_raw: '-83.6095'
+  boundary_document_raw: null
+  urls_raw:
+  - https://www.memorialparkgolfclub.com/
+  ebird_hotspot_id: null
+  identity_notes_raw: Public access — open tee times. Managed by Hardin County Golf
+    Foundation (nonprofit). Adjacent to Hardin County Veterans Memorial Park. Designed
+    1929 by Barry Serafin. Expanded to 18 holes 1991.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Trailthing
+  name_raw: ONU Green Monster Trail
+  source_term_raw: paved trail
+  source_hierarchy_context_raw: Described as the "Green Monster," an emerald paved
+    trail on the Ohio Northern University campus in Ada; 2.5 miles; offers nature
+    views and the Remington Walk (American western art)
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  parent_id_raw: null
+  site_parent_raw: null
+  parent_site_network_raw: null
+  member_trailthing_names_raw: null
+  ownership_raw: Ohio Northern University
+  governance_raw: Ohio Northern University
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: 2.5-mile paved campus trail at Ohio Northern University in Ada
+    (private institution, T8). Known as the "Green Monster" for its emerald color.
+    Offers views of nature, changing seasons, and features the Remington Walk of American
+    western art. Open to campus community and visitors.
+  use_type_raw: Walking; running; campus recreation
+  surface_type_raw: Paved (emerald)
+  origin_type_raw: null
+  status_raw: Open
+  difficulty_raw: null
+  accessibility_raw: Paved; campus accessibility assumed
+  total_length_raw: 2.5 miles
+  urls_raw:
+  - https://www.innatonu.com/best-local-hikes/
+  maps_raw: []
+  identity_notes_raw: ONU is a private United Methodist-affiliated university (T8
+    entity). Campus in Ada, Hardin County. Trail is on private university campus land.
+    Open to public/visitors.
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Hickory Grove Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Amish congregation (private religious)
+  governance_raw: Amish congregation (private religious)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Church Cemetery (Amish) in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: North side of TR 265, near Dudley Township line, Buck Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Amish cemetery — private religious congregation ownership. Not
+    township-managed.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Grassy Point Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Amish congregation (private religious)
+  governance_raw: Amish congregation (private religious)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Church Cemetery (Amish) in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SE corner SR 292 and CR 200, Hale Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Amish cemetery — private religious congregation ownership.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Saint Johns Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Saint Johns / Saint Paul congregation
+  governance_raw: Saint Johns / Saint Paul congregation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Church Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: West side TR 25, 1/2 mile north of CR 60, Liberty Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Saint Paul Cemetery. Religious congregation
+    ownership.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Grove Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Grove Union / Saint Marys Catholic congregation
+  governance_raw: Grove Union / Saint Marys Catholic congregation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Church Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: Jacob Parrot Blvd (CR 171) between SR 67 and SR 309, Kenton/Pleasant
+    Township, Hardin County. c.1872
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate names: Grove Union Cemetery, Saint Mary''s Cemetery.
+    c.1872. Church/union cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Pleasant Hill (New) Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Pleasant Hill Church congregation
+  governance_raw: Pleasant Hill Church congregation
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Church Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SR 235 north of SR 67 and CR 150, east side at church, Roundhead Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Cemetery at church location. Distinct from Pleasant Hill Old
+    Cemetery (township-owned at same road).
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Briedenbaugh Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: Near SW corner of CR 64 and CR 167, Blanchard Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Draper Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 660 feet north of CR 70, Blanchard Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Fry Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 800 feet east of CR 135, 1/2 mi TR 40, Blanchard Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Lynch Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Show Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: CR 167 near Blanchard River, Blanchard Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Sorgen Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 500 ft south of CR 60, east of CR 135, Blanchard Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Hatcher Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SR 31, Buck Township, Hardin County. c.1882
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: GNIS-listed.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Lynn Grove Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SR 3 north of TR 265, Buck Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Wolfcreek Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SR 31 north of TR 265, Buck Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Indian Burial Grounds (Buck Township)
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (heritage site)
+  governance_raw: Unknown (heritage site)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Archaeological/Heritage Site in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: North of TR 184 and east of CR 155, Buck Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: GNIS-listed heritage site. Burial grounds of pre-historic or
+    indigenous origin. Not a township cemetery. Ownership and public access status
+    unconfirmed. GNIS-only — active status unconfirmed; verify before upsert.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Behler Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 800 feet west of CR 135 and 1320 feet south of CR 90, Cessna Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Cessna Cemetery (different from the main Cessna
+    Cemetery staged at T5). No easement noted.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Bunn Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: South side of CR 106 and 880 feet west of CR 135, Cessna Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Wheeler Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Fulton Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: East side of TR 115 and 1/4 mile south of US 309, Cessna Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Huntersville Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: TR 74 east of CR 75 and north of SR 309, Cessna Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Salem Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family/church)
+  governance_raw: Unknown (private/family/church)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: North of TR 80 and west of CR 135, Cessna Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Strahm Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: NE 1/4 mile on 526 north of TR 106, Cessna Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Craig Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 40 feet off CR 200, between CR 219 and TR 217, Dudley Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Fisher Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: NE corner CR 200 and CR 219 on Wildcat Creek, Dudley Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Hepburn Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: North side of CR 144, east of CR 265 and Pfeiffer Station, Dudley
+    Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Lee Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Vanfleet Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: South CR 144, Dudley Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Otterbein Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family/church)
+  governance_raw: Unknown (private/family/church)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SE corner of CR 190 and CR 209, Dudley Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Otterbien Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Pfeiffer Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: CR 144 between TR 205 and TR 209, Dudley Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Morrison Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Ward Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: West side of TR 24, 1000 feet off SR 309, Dudley Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Hastings Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Wheeler Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: Marion CR 29 between CR 219 and 2405, 100 yards north side, Dudley
+    Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 4 graves. Very small family plot.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Dille Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: Old Mt. Victory, south off Marion Street, east of SR 31, Hale Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Pioneer Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Jennings Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: West part of Hale Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Rarey Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: A.K. Rarey farm on SR 292, west side, south of CR 190, Hale Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Andrews Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Schurtzer Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: Curve near intersection CR 20 and CR 2, south side, Hale Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Mt. Pleasant Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Briggs Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: West of Forest, north side of railroad, Jackson Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Glenn Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: East Lima Street, Forest, Jackson Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Price-Patterson Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: TR 195 north of SR 81 at Patterson on west side, Jackson Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Old Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Armorsville Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: CR 15, 1/2 mile south of CR 10, east side, Liberty Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Candler Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 50 feet NE CR 15 and TR 30, Liberty Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Kindle Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 250 feet north of TR 30, east of CR 15, Liberty Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: McClure Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Maysville Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 300 ft north SR 309, east of Allen/Hardin line, Liberty Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: McElroy Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: East side CR 65, 900 feet north of CR 20, Liberty Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Thorn Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SR 235 and TR 30, SE corner, Liberty Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Carman Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: South side SR 309, 1 mile east of Maysville, Marion Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Preston Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: South side CR 90, south of SR 309, east of Alger, Marion Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Shadley Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: North side CR 90, 1 mile west of SR 195, Marion Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 4 markers. Very small.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Fultz Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: East of CR 75, north of SR 67, behind church, McDonald Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate names: Fuls Cemetery, Lightner Cemetery. c.1835.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Harvey Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 5226 SR 67, south side across from Fairview Cemetery, McDonald Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Indian Burial Grounds (McDonald Township)
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (heritage site)
+  governance_raw: Unknown (heritage site)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Archaeological/Heritage Site in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: TR 39 (Reed Road) east side, McDonald Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: GNIS-listed heritage site. Burial grounds of pre-historic or
+    indigenous origin. Near Zimmerman Kame area. GNIS-only — active status unconfirmed;
+    verify before upsert.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: McArthur Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 16481 Reed Road (TR 39), 1/2 mile south back lane, McDonald Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Poe Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 3463 CR 200, east of SR 235, 1/2 mile from Roundhead Township, in
+    woods, McDonald Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Chesney Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: Pleasant Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: County Home Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Hardin County (former county home)
+  governance_raw: Hardin County (former county home)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Private Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: CR 1143A, 1/2 mile south of SR 309, Kenton/Pleasant Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: Cemetery associated with former county infirmary/home. County
+    government or successor entity governance.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Pioneer Cemetery (Kenton)
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/historical)
+  governance_raw: Unknown (private/historical)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Private Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: Corner of Franklin and Sciota Street, Kenton, Pleasant Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Osborn Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 222 Harrison Street, Kenton/Pleasant Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 2 markers. Very small.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Spitzer Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: South of TR 104 between TR 189 and CR 195, Pleasant Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: No easement noted.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Bowdle Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 15346 SR 117, north of SR 67, west side of road on hill, Roundhead
+    Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: H. Hemphill Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: TR 180, Roundhead Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Marsh Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 14553 NE corner TR 152 and TR 21, Roundhead Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 2 graves. Very small.
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Pleasant Hill (Old) Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/township)
+  governance_raw: Unknown (private/township)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SR 235 north of SR 67 and CR 150, west side, Roundhead Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Rutledge Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 15609 SR 117, north of SR 67, west field, Roundhead Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Rutedge Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Schneider Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: 200 yards north TR 160, Roundhead Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Bailey Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SW corner CR 155, off CR 200, in field near tree, Taylor Creek Township,
+    Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Collins Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Wroten Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: CR 180, south side of road, between CR 115 and TR 119, Taylor Creek
+    Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Jones Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: North side CR 14, east of CR 95, Washington Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: 'Alternate name: Kridler-Helms Cemetery.'
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Smith Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: NW corner SR 701 and TR 105, Washington Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Waggoner Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: SE corner SR 81 and CR 135, Washington Township, Hardin County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Wagner Cemetery
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Unknown (private/family)
+  governance_raw: Unknown (private/family)
+  partner_agencies_raw: null
+  coordination_raw: null
+  description_raw: Family Cemetery in Hardin County, Ohio.
+  habitat_type_raw: null
+  features_raw: Cemetery
+  access_notes_raw: null
+  location_raw: Between CR 115 and TR 105, south of SR 81, Washington Township, Hardin
+    County
+  acres_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  boundary_document_raw: null
+  urls_raw:
+  - https://sites.rootsweb.com/~ohcps/hardin.html
+  ebird_hotspot_id: null
+  identity_notes_raw: null
+  township_raw: null
+  municipality_raw: null
+  last_verified_date: '2026-06-01'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type_result:
+    tier: 8
+    governance_level: Private
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - No private multi-site organization with 3+ identity-bearing natural area Sites
+      found in Hardin County
+    reasoning: No private or organizational Site Network threshold met.
+- entity_type_result:
+    tier: 8
+    governance_level: Private — Sources and Methods
+    entity_type: Multiple
+    result: documented
+    golf_courses:
+      method: GolfWeather.com, GolfNow.com, golfday.us, direct search
+      result: Memorial Park Golf Club is the only confirmed golf course in Hardin
+        County, OH. No country clubs, semi-private, or 9-hole courses found.
+    gnis_cemetery_enumeration:
+      source: sites.rootsweb.com/~ohcps/hardin.html (community-maintained GNIS supplement)
+      note: OhioGenealogyExpress.com Hardin page 404 (URL changed); rootsweb list
+        used as primary enumeration source. Covers all 15 townships. All named cemeteries
+        staged at T5 (township-owned) or T8 (church/family/private).
+      total_staged_t5: 22
+      total_staged_t8_cemeteries: 52
+    private_camps:
+      result: No private camp, scout camp, church camp, or retreat center with natural
+        area identity confirmed in Hardin County. Cross Oak Camp = Auglaize County.
+        Camp Cotubic = Logan County. Great Oaks BSA District serves Hardin but no
+        camp facility within county.
+    private_preserves:
+      result: No private nature preserves or nonprofit-owned natural areas beyond
+        those captured at T7.
+    university:
+      result: ONU Metzger Nature Center = Tuscarawas County (not Hardin). ONU campus
+        (Ada) is private (T8); Green Monster Trail staged as T8 Trailthing. No ONU-owned
+        natural area with formal public access on Ada campus identified beyond campus
+        trail.
+    hunting_preserves:
+      result: No licensed private hunting preserves found in Hardin County.
+    sources_checked:
+    - memorialparkgolfclub.com
+    - golfweather.com
+    - golfnow.com
+    - onu.edu (Metzger Nature Center, Green Monster)
+    - sites.rootsweb.com/~ohcps/hardin.html
+    - crossoakcamp.com (Auglaize County)
+    - campcotubic.com (Logan County)
+    - ODNR hunting preserves — no Hardin County entries found
+- entity_type: Site
+  name_raw: Ohio Northern University Campus
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: Private University
+  governance_raw: Ohio Northern University
+  description_raw: Private United Methodist-affiliated university campus in Ada, Hardin
+    County. Includes campus green spaces, walking trails (Green Monster Trail, TT-0005),
+    and outdoor recreational facilities open to campus community and visitors.
+  features_raw:
+  - walking trail (Green Monster)
+  - campus open space
+  - outdoor recreation
+  location_raw: Ada, OH 45810
+  gps_lat_raw: 40.765886
+  gps_lon_raw: -83.823826
+  urls_raw:
+  - https://www.onu.edu/
+  identity_notes_raw: T8 private institution. Required as site_parent for TT-0005
+    ONU Green Monster Trail.
+  last_verified_date: '2026-06-09'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  batch_resolution_note: Added 2026-06-09 as site_parent for OH-HAR-TT-0005. Upserted
+    as OH-HAR-S-0137.
+- entity_type: Site
+  name_raw: Ball Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: City Land
+  governance_raw: City of Kenton Parks & Recreation
+  location_raw: Kenton, OH 43326
+  acres_raw: 6
+  last_verified_date: '2026-06-09'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+  identity_notes_raw: GPS pending — see manual_review_queue OH-HAR-S-0138.
+  batch_resolution_note: Added 2026-06-09 supplemental T6. Upserted as OH-HAR-S-0138.
+- entity_type: Site
+  name_raw: Glendale Skate Park
+  counties_raw:
+  - Hardin
+  county_primary: Hardin
+  ownership_raw: City Land
+  governance_raw: City of Kenton Parks & Recreation
+  location_raw: Kenton, OH 43326
+  acres_raw: 1
+  last_verified_date: '2026-06-09'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+  identity_notes_raw: GPS pending — see manual_review_queue OH-HAR-S-0139.
+  batch_resolution_note: Added 2026-06-09 supplemental T6. Upserted as OH-HAR-S-0139.
+discovery_notes:
+- entity_type: _discovery_note
+  note: 'T2 SUPPLEMENT — WPA 32 (47ac) and WPA 43 (40ac): CONFIRMED NOT IN HARDIN
+    COUNTY. PAD-US 4.0 GDB Fee layer query of full Hardin County bbox returned zero
+    USFWS/WPA entries. These WPAs are in an adjacent county. Do not catalog under
+    Hardin.'
+  date: '2026-06-09'
+- entity_type: _discovery_note
+  note: 'T4/TT SUPPLEMENT — Marion Tallgrass Trail (30ac, County Land, LREC): CONFIRMED
+    NOT IN HARDIN COUNTY. PAD-US GDB centroid at 40.601N,-83.303W; full polygon bbox
+    -83.420 to -83.185W. Township lookup at western end (-83.42W) = Montgomery Township,
+    Marion County. All sampled points return Marion County townships. Catalog under
+    Marion County T4 when processed.'
+  date: '2026-06-09'

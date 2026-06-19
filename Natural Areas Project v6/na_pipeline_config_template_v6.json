@@ -1,0 +1,150 @@
+{
+  "_schema": "na_pipeline_config_v2",
+  "_usage": "Copy to County_Spreadsheets/{County Name}/{county}_{state}_pipeline_config.json and fill in all fields. Use na_generate_config_v6.py to scaffold from raw discovery YAML. Run with: python utilities/na_run_county.py --county-dir 'County_Spreadsheets/{County Name}'",
+
+  "county":        "COUNTY NAME",
+  "state":         "Ohio",
+  "run_id":        "county_oh_YYYY_MM_DD",
+  "run_date":      "YYYY-MM-DD",
+  "prefix":        "XXX",
+  "records_input": 0,
+  "bbox":          [0.0, 0.0, 0.0, 0.0],
+  "run_notes":     "",
+
+  "_gps_note": "gps_queries: Nominatim query string per entity_id (Sites and APs only — Trailthings are multi-location, no GPS). fallback_gps: [lat, lon] used when Nominatim returns null. fallback_conf: optional confidence override (MED for precomputed; LOW is default).",
+  "gps_queries": {
+    "OH-XXX-S-001": "123 Main St, Town, Ohio"
+  },
+  "fallback_gps": {
+    "OH-XXX-S-001": [41.0000, -83.0000]
+  },
+  "fallback_conf": {
+    "OH-XXX-S-001": "MED"
+  },
+
+  "_entities_note": "Four entity types in v6: sites, trailthings, site_networks, access_points. Trail/trail_segment/trail_network keys are removed. All entity lists are normalization output. Empty lists are valid — do not omit keys.",
+
+  "sites": [
+    {
+      "site_id":             "OH-XXX-S-001",
+      "name":                "",
+      "category":            "",
+      "subtype":             "",
+      "designation":         "",
+      "status":              "Active",
+      "ownership":           "",
+      "governance":          "",
+      "partner_agencies":    "",
+      "coordination":        "",
+      "description":         "",
+      "habitat_type":        "",
+      "features_raw":        "",
+      "features":            "",
+      "access_notes":        "",
+      "location":            "",
+      "acres":               null,
+      "counties":            "COUNTY NAME",
+      "township":            "",
+      "municipality":        "",
+      "gps_lat":             null,
+      "gps_lon":             null,
+      "gps_confidence":      "NONE",
+      "plus_code":           "",
+      "notes":               "",
+      "url_primary":         "",
+      "urls":                "",
+      "last_verified_date":  "",
+      "field_verified":      false,
+      "parent_site_id":      "",
+      "identity_notes":      "",
+      "status_flag":         "",
+      "hold_detail":         ""
+    }
+  ],
+
+  "trailthings": [
+    {
+      "trailthing_id":             "OH-XXX-TT-001",
+      "name":                      "",
+      "alternate_names":           "",
+      "source_term":               "",
+      "source_hierarchy_context":  "",
+      "parent_id":                 "",
+      "site_parent_id":            "",
+      "parent_site_network_id":    "",
+      "use_type":                  "",
+      "surface_type":              "",
+      "origin_type":               "",
+      "org_type":                  "",
+      "status":                    "",
+      "difficulty":                "",
+      "accessibility":             "",
+      "ownership":                 "",
+      "governance":                "",
+      "partner_agencies":          "",
+      "coordination":              "",
+      "counties":                  "COUNTY NAME",
+      "states_included":           "",
+      "total_length":              null,
+      "description":               "",
+      "trail_history":             "",
+      "identity_notes":            "",
+      "notes":                     "",
+      "url":                       "",
+      "maps":                      "",
+      "status_flag":               "",
+      "hold_detail":               ""
+    }
+  ],
+
+  "site_networks": [
+    {
+      "network_id":       "OH-XXX-SN-001",
+      "name":             "",
+      "network_type":     "",
+      "org_type":         "",
+      "status":           "Active",
+      "ownership":        "",
+      "governance":       "",
+      "partner_agencies": "",
+      "coordination":     "",
+      "counties":         "COUNTY NAME",
+      "states_included":  "",
+      "member_count":     null,
+      "member_site_ids":  "",
+      "description":      "",
+      "identity_notes":   "",
+      "notes":            "",
+      "url":              "",
+      "status_flag":      "",
+      "hold_detail":      ""
+    }
+  ],
+
+  "access_points": [
+    {
+      "access_point_id":    "OH-XXX-AP-001",
+      "name":               "",
+      "ap_type":            "",
+      "status":             "Active",
+      "parent_entity_type": "Site",
+      "parent_entity_id":   "OH-XXX-S-001",
+      "counties":           "COUNTY NAME",
+      "township":           "",
+      "municipality":       "",
+      "location":           "",
+      "gps_lat":            null,
+      "gps_lon":            null,
+      "gps_confidence":     "NONE",
+      "plus_code":          "",
+      "features":           "",
+      "identity_notes":     "",
+      "notes":              "",
+      "url_primary":        "",
+      "last_verified_date": "",
+      "field_verified":     false,
+      "status_flag":        "",
+      "hold_detail":        ""
+    }
+  ]
+}

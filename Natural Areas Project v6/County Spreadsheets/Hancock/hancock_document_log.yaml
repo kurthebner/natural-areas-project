@@ -1,0 +1,33 @@
+county: Hancock
+county_prefix: OH-HAN
+document_log:
+
+  - filename: 2026-06-11_T3_Blanchard-River-Water-Trail-Map-Guide.pdf
+    date_downloaded: "2026-06-11"
+    tier: T3
+    description: >
+      Blanchard River Water Trail Map Guide (Hancock Park District + ODNR). 37.6-mile
+      designated water trail from Blanchard River Nature Preserve to Blanchard Landing,
+      entirely within Hancock County. 11 access points with GPS coordinates. Published
+      by Hancock Park District (hancockparks.com).
+    source_url: "https://dam.assets.ohio.gov/image/upload/odnr/watertrails/BlanchardRiverMapGuide.pdf"
+    notes: >
+      Pre-staged before Hancock County discovery run. Obtained during Hardin County
+      ODNR Water Trails research (2026-06-11). The Blanchard River originates in Hardin
+      County but the designated water trail is entirely in Hancock County. This PDF is
+      the authoritative access point inventory for Tier 3 discovery (Hancock Park District
+      manages the trail cooperatively with ODNR). Key entities to catalog:
+        - Blanchard River Water Trail (Trailthing, T3, Hancock Park District)
+        - 11 access points with published GPS
+      Access point GPS coordinates from PDF:
+        Blanchard River Nature Preserve: 40.84407, -83.55662
+        Island Park: 40.90053, -83.55966
+        Jackson Landing: 40.99228, -83.55674
+        Riverbend Recreation Area: 41.03450, -83.56081
+        Eastpoint Area: 41.03802, -83.61284
+        Zonta Landing at Riverside Park Waterfront: 41.04412, -83.63018
+        Waterfalls Area: 41.04177, -83.63053
+        Riverside Landing at Riverside Park Waterfront: 41.04202, -83.63224
+        Great Karg Well Historical Site: 41.04356, -83.65511
+        Liberty Landing: 41.05637, -83.69364
+        Blanchard Landing: 41.04610, -83.78857

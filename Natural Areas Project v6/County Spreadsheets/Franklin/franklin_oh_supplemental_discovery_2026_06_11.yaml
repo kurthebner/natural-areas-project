@@ -1,0 +1,1039 @@
+county: Franklin
+state: Ohio
+run_type: supplemental_discovery
+base_pipeline_date: 2026-03-25
+supplemental_date: 2026-06-11
+session_notes: 'Supplemental T6/T7/T8 discovery pass. Targeting known gaps: Grove
+  City (~16-20 parks), Gahanna pocket parks, New Albany district rec areas, Westerville
+  gaps, Upper Arlington gaps, address partials (Obetz/Valleyview/ Urbancrest/Lockbourne/Riverlea/Marble
+  Cliff/Whitehall/Grandview Heights), T7 COLT/Columbus Audubon/TNC Darby Creek, T8
+  private.
+
+  '
+records:
+- entity_type: Site
+  name_raw: Burr Avenue Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Grandview Heights Parks & Recreation
+  category_raw: Park
+  location_raw: 850 Burr Ave, Grandview Heights OH
+  gps_lat_raw: 39.9767408
+  gps_lon_raw: -83.0272483
+  urls_raw:
+  - https://www.grandviewheights.org/110/Parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  identity_notes_raw: Sourced from grandviewheights.gov parks page; GPS from Nominatim
+    850 Burr Ave
+- entity_type: Site
+  name_raw: First Avenue Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Grandview Heights Parks & Recreation
+  category_raw: Park
+  location_raw: 850 First Ave, Grandview Heights OH
+  gps_lat_raw: 39.9816491
+  gps_lon_raw: -83.0404106
+  urls_raw:
+  - https://www.grandviewheights.org/110/Parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Virginia Ave Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Grandview Heights Parks & Recreation
+  category_raw: Park
+  location_raw: 1227 Parkway Dr N, Grandview Heights OH
+  gps_lat_raw: 39.9835508
+  gps_lon_raw: -83.0331324
+  urls_raw:
+  - https://www.grandviewheights.org/110/Parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Yard Street Green Space
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Grandview Heights Parks & Recreation
+  category_raw: Open Space
+  location_raw: 785 Yard St, Grandview Heights OH
+  gps_lat_raw: 39.9818419
+  gps_lon_raw: -83.0273416
+  urls_raw:
+  - https://www.grandviewheights.org/110/Parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Grandview Center
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Grandview Heights Parks & Recreation
+  category_raw: Recreation Facility
+  location_raw: 1515 Goodale Blvd, Grandview Heights OH
+  gps_lat_raw: 39.9768962
+  gps_lon_raw: -83.0457684
+  urls_raw:
+  - https://www.grandviewheights.org/110/Parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Goodale Green Space
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Grandview Heights Parks & Recreation
+  category_raw: Open Space
+  location_raw: Goodale Blvd & Urlin Ave, Grandview Heights OH
+  urls_raw:
+  - https://www.grandviewheights.org/110/Parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  identity_notes_raw: GPS not resolved via Nominatim; held for GPS acquisition
+- entity_type: identity_note
+  note: 'Parkway Park (1115 Oxley Rd, GPS 39.9817,-83.0352) = OH-FR-S-0992 Junction
+    Park (35m GPS match). Not a new discovery; ALT NAME: ''Parkway Park'' per grandviewheights.gov'
+- entity_type: identity_note
+  note: 'Grandview Heights Memorial Park (1135 W Second Ave, GPS 39.9833,-83.0334)
+    = OH-FR-S-0976 Parkway Mini (74m GPS match). Not a new discovery; ALT NAME: ''Grandview
+    Heights Memorial Park'' per grandviewheights.gov'
+- entity_type: Site
+  name_raw: Burbank Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Upper Arlington Parks & Recreation
+  category_raw: Park
+  description_raw: Peaceful neighborhood green space featuring open lawn, trees, and
+    a walking path.
+  gps_lat_raw: 40.0530279
+  gps_lon_raw: -83.08408
+  urls_raw:
+  - https://www.upperarlingtonoh.gov/189/Parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Sunny 95 Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Upper Arlington Parks & Recreation
+  category_raw: Park
+  description_raw: Lively community hub with sports courts, athletic fields, scenic
+    walking paths, a tranquil pond, and the Amelita Mirolo Barn event facility.
+  features_raw: Athletic field; restrooms; barn event facility; walking paths; pond;
+    picnic area
+  gps_lat_raw: 40.0466135
+  gps_lon_raw: -83.0616952
+  urls_raw:
+  - https://www.upperarlingtonoh.gov/Facilities/Facility/Details/Sunny-95-Park-19
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: First Responders Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Westerville Parks & Recreation
+  category_raw: Park
+  location_raw: 374 W Main St, Westerville OH 43081
+  description_raw: Memorial park honoring first responders with lighted flagpole,
+    memorial entry plaza, seating wall, and benches.
+  features_raw: Benches; lighted flagpole; memorial/entry plaza; seating wall; nighttime
+    lighting
+  gps_lat_raw: 40.1252799
+  gps_lon_raw: -82.9437784
+  urls_raw:
+  - https://parks.westerville.org/about-us/current-projects-and-future-plans/first-responders-park
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Hoff Woods Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Westerville Parks & Recreation
+  category_raw: Park
+  location_raw: 556 McCorkle Blvd, Westerville OH 43081
+  description_raw: Woodland park with athletic facilities, lighted courts, fishing
+    access, and shelter.
+  features_raw: Ball diamond; sand volleyball; lighted tennis; basketball; pickleball;
+    playground; shelter; fishing; woodland
+  gps_lat_raw: 40.1382022
+  gps_lon_raw: -82.9214149
+  urls_raw:
+  - https://parks.westerville.org/parks-trails/parks/hoff-woods-park
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Millstone Creek Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Westerville Parks & Recreation
+  category_raw: Park
+  location_raw: 745 N Spring Rd, Westerville OH 43081
+  description_raw: Park along Millstone Creek featuring managed wetlands, inclusive
+    playground, boardwalk, gazebo, and wetland overlook.
+  features_raw: Basketball; sports fields; nature path; gazebo; boardwalk; boundless
+    playground; sand pit; overlook; shelter; wetland
+  gps_lat_raw: 40.1433443
+  gps_lon_raw: -82.9017954
+  urls_raw:
+  - https://parks.westerville.org/parks-trails/parks/millstone-creek-park
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Olde Town Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Westerville Parks & Recreation
+  category_raw: Park
+  location_raw: 108 Old County Line Rd, Westerville OH 43081
+  description_raw: Neighborhood park in historic Old County Line area with shelter,
+    pathway, playground, and picnic area.
+  features_raw: Shelter; recreation pathway; playground; picnic area
+  gps_lat_raw: 40.1332729
+  gps_lon_raw: -82.9279925
+  urls_raw:
+  - https://parks.westerville.org/parks-trails/parks/olde-town-park
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Johnston-McVay Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Westerville Parks & Recreation
+  category_raw: Park
+  location_raw: 480 S Hempstead Rd, Westerville OH 43081
+  description_raw: Park with bike path, nature area, playground, picnic area, and
+    waterway access.
+  features_raw: Bike path; nature area; parking; playground; picnic area; waterway
+  gps_lat_raw: 40.112759
+  gps_lon_raw: -82.8971486
+  urls_raw:
+  - https://parks.westerville.org/about-us/current-projects-and-future-plans/featured-park
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Hanby Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Westerville Parks & Recreation
+  category_raw: Park
+  location_raw: 115 E Park St, Westerville OH 43081
+  acres_raw: '3.75'
+  description_raw: Specialty park named for Westerville composer Benjamin Hanby; features
+    Presidential Oak Grove, sprayground, playground, and Ohio to Erie Trail access.
+  features_raw: Presidential Oak Grove; playground; sprayground; train depot shelter;
+    Ohio to Erie Trail; lockers; year-round restrooms
+  gps_lat_raw: 40.1232312
+  gps_lon_raw: -82.9270163
+  urls_raw:
+  - https://parks.westerville.org/parks-trails/parks/hanby-park
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  identity_notes_raw: DISTINCT from OH-FR-S-0768 Benjamin Hanby Park (0.13ac memorial,
+    290 W Main St). Hanby Park (3.75ac, 115 E Park St) is a full park; Benjamin Hanby
+    Park is a small memorial plaza. Both in MORPC as separate entries.
+- entity_type: Site
+  name_raw: Otterbein Lake
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Westerville Parks & Recreation
+  category_raw: Park
+  location_raw: via 221 W Main St, Westerville OH
+  description_raw: Small lake with fishing access, overlook, and pathway adjacent
+    to Alum Creek North Park.
+  features_raw: Fishing; overlook; pathway
+  gps_lat_raw: 40.1228098
+  gps_lon_raw: -82.9406878
+  urls_raw:
+  - https://parks.westerville.org/parks-trails/parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Sycamore Trail Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Westerville Parks & Recreation
+  category_raw: Park
+  description_raw: Park along the Sycamore trail corridor in northern Westerville.
+  gps_lat_raw: 40.1464716
+  gps_lon_raw: -82.939581
+  urls_raw:
+  - https://parks.westerville.org/parks-trails/parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Mariner's Cove and Wetland
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Westerville Parks & Recreation
+  category_raw: Natural Area
+  location_raw: via Fisherman's Dr and Wake Dr, Westerville OH
+  description_raw: Small wetland and cove feature with boardwalk, benches, and pond
+    accessible from Fisherman's Drive.
+  features_raw: Boardwalk; pond; benches; wetland
+  urls_raw:
+  - https://parks.westerville.org/parks-trails/parks
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  identity_notes_raw: GPS not resolved via Nominatim; held for GPS acquisition
+- entity_type: Site
+  name_raw: Marsh Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Grove City
+  category_raw: Cemetery
+  acres_raw: '0.3216'
+  description_raw: Small cemetery in Grove City.
+  urls_raw: []
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  identity_notes_raw: 0.3216ac per MORPC; no GPS obtained via Nominatim; held pending
+    GPS acquisition
+- entity_type: Site
+  name_raw: Hoover Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  governance_raw: City of Grove City
+  category_raw: Cemetery
+  acres_raw: '0.0246'
+  description_raw: Very small family cemetery plot in Grove City.
+  urls_raw: []
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 6
+  seeded_from_baseline: false
+  identity_notes_raw: 0.0246ac per MORPC; no GPS obtained; held pending GPS acquisition
+- entity_type: tier_result
+  tier: 7
+  governance_level: Conservancy & Land Trust
+  result: partial
+  entities_found: 0
+  sources_checked:
+  - PAD-US 4.0 Ohio fee layer — no Central Ohio Land Trust entries
+  - PAD-US 4.0 Easements layer — no COLT entries
+  - 'Web search: COCLT = affordable housing CLT (not conservation); Coalition of Ohio
+    Land Trusts = network, does not hold land'
+  - 'DB: OH-FR-S-1183 Darby Creek Conservation Area already present (governance=Columbus
+    Rec & Parks, 105ac)'
+  notes: TNC Darby Creek already in DB as S-1183 (city-owned, TNC conservation history).
+    COLT = affordable housing CLT, not a natural areas org. Columbus Audubon has no
+    independent Franklin County properties.
+- tier_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    org: Audubon Ohio / National Audubon Society
+    result: already_in_db
+    entities_found: 1
+    notes: Grange Insurance Audubon Center (OH-FR-S-1021) confirmed in DB — 5ac, governance=Audubon
+      Ohio (National Audubon Society); partnership with City of Columbus Recreation
+      & Parks and Columbus and Franklin County Metro Parks; 39.9441,-83.0130. No additional
+      discoveries.
+    sources_checked:
+    - DB query on governance LIKE '%audubon%'
+- entity_type: Site
+  name_raw: Hellbranch Run Riparian Corridor Protection
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private (conservation easement)
+  governance_raw: Franklin Soil and Water Conservation District
+  description_raw: Conservation easement protecting a riparian corridor along Hellbranch
+    Run, held by the Franklin Soil and Water Conservation District. Protects stream
+    bank, riparian vegetation, and water quality along a tributary of the Big Darby
+    Creek watershed.
+  habitat_type_raw: Riparian corridor; stream bank
+  acres_raw: '17'
+  gps_lat_raw: null
+  gps_lon_raw: null
+  identity_notes_raw: gps_unresolvable=true — linear riparian corridor easement on
+    private land; no public access point documented
+  urls_raw: []
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: null
+  source: PAD-US 4.0 Ohio Easements layer (EsmtHldr=Franklin Soil and Water Conservation
+    District)
+  db_id: OH-FR-S-1241
+- entity_type: Site
+  name_raw: Johnson Road Riparian Protection Area
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private (conservation easement)
+  governance_raw: Franklin Soil and Water Conservation District
+  description_raw: Conservation easement protecting a riparian area along Johnson
+    Road in southwestern Franklin County, held by the Franklin Soil and Water Conservation
+    District. Large-acreage riparian buffer protecting stream corridor and adjacent
+    wetland habitat.
+  habitat_type_raw: Riparian corridor; riparian buffer
+  acres_raw: '84'
+  gps_lat_raw: null
+  gps_lon_raw: null
+  identity_notes_raw: gps_unresolvable=true — linear riparian corridor easement on
+    private land; no public access point documented
+  urls_raw: []
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: null
+  source: PAD-US 4.0 Ohio Easements layer (EsmtHldr=Franklin Soil and Water Conservation
+    District)
+  db_id: OH-FR-S-1242
+- tier_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust (NRCS/WRP)
+    result: not_cataloged
+    entities_found: 0
+    notes: PAD-US Easements lists 5 'Wetlands Reserve Program (WRP), Franklin, OH'
+      entries (31, 201, 370, 20, 33 acres) held by NRCS. No individual site names
+      or GPS provided in PAD-US CSV layer — these are program-level aggregations.
+      Cannot catalog as individual sites without specific location data. Flagged for
+      future GDB-layer analysis.
+    sources_checked:
+    - PADUS4_0_State_OH_Easements.csv filtered for Franklin
+- entity_type: Site
+  name_raw: New Agudas Achim Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9177
+  gps_lon_raw: -82.9344
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280540; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1213
+- entity_type: Site
+  name_raw: Beth Jacob Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9165
+  gps_lon_raw: -82.9333
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280520; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1214
+- entity_type: Site
+  name_raw: Galloway Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9092
+  gps_lon_raw: -83.1613
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280554; approximate vicinity: Galloway'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1215
+- entity_type: Site
+  name_raw: Hockman Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.8822
+  gps_lon_raw: -82.8138
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280583; approximate vicinity: Canal Winchester'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1216
+- entity_type: Site
+  name_raw: Jefferson Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 40.0004
+  gps_lon_raw: -82.8096
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280596; approximate vicinity: Groveport'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1217
+- entity_type: Site
+  name_raw: Powell Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9127
+  gps_lon_raw: -82.8286
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280638; approximate vicinity: Canal Winchester'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1218
+- entity_type: Site
+  name_raw: Riverside Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 40.0381
+  gps_lon_raw: -82.9284
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280651; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1219
+- entity_type: Site
+  name_raw: Saint John Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 40.0921
+  gps_lon_raw: -83.1581
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280669; approximate vicinity: Dublin'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1220
+- entity_type: Site
+  name_raw: Saint Josephs Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.8245
+  gps_lon_raw: -82.9982
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280677; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1221
+- entity_type: Site
+  name_raw: Seeds Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.8089
+  gps_lon_raw: -83.0747
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280684; approximate vicinity: Grove City'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1222
+- entity_type: Site
+  name_raw: Tifereth Israel Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9175
+  gps_lon_raw: -82.9323
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280700; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1223
+- entity_type: Site
+  name_raw: Truro Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9143
+  gps_lon_raw: -82.8622
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280703; approximate vicinity: Canal Winchester'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1224
+- entity_type: Site
+  name_raw: Watkins Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.8745
+  gps_lon_raw: -82.988
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280706; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1225
+- entity_type: Site
+  name_raw: Arlington Burial Park
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.8566
+  gps_lon_raw: -82.8185
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280513; approximate vicinity: Canal Winchester'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1226
+- entity_type: Site
+  name_raw: Forest Lawn Memorial Gardens
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9815
+  gps_lon_raw: -82.8482
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280551; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1227
+- entity_type: Site
+  name_raw: Primitive Baptist Church Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9526
+  gps_lon_raw: -82.8007
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280640; approximate vicinity: Canal Winchester'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1228
+- entity_type: Site
+  name_raw: Feebleminded Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9509
+  gps_lon_raw: -83.0421
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280547; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1229
+- entity_type: Site
+  name_raw: Headley Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 40.0431
+  gps_lon_raw: -82.8068
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280577; approximate vicinity: New Albany'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1230
+- entity_type: Site
+  name_raw: McKendree Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 40.0351
+  gps_lon_raw: -82.9622
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280615; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1231
+- entity_type: Site
+  name_raw: Middletown Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.8245
+  gps_lon_raw: -82.8296
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280620; approximate vicinity: Canal Winchester'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1232
+- entity_type: Site
+  name_raw: New Albany Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 40.0812
+  gps_lon_raw: -82.8097
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280629; approximate vicinity: New Albany'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1233
+- entity_type: Site
+  name_raw: Saint James Lutheran Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9807
+  gps_lon_raw: -83.1497
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280664; approximate vicinity: Hilliard'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1234
+- entity_type: Site
+  name_raw: Saint Johns Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 40.0884
+  gps_lon_raw: -83.0169
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280674; approximate vicinity: Worthington'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1235
+- entity_type: Site
+  name_raw: Saint Pauls Lutheran Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 40.1184
+  gps_lon_raw: -82.8743
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280679; approximate vicinity: Westerville'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1236
+- entity_type: Site
+  name_raw: Sandy Corners Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 40.0802
+  gps_lon_raw: -83.1573
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280682; approximate vicinity: Dublin'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1237
+- entity_type: Site
+  name_raw: Temple Israel Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9463
+  gps_lon_raw: -83.0228
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280694; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1238
+- entity_type: Site
+  name_raw: Salem Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.9142
+  gps_lon_raw: -83.1077
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280660; approximate vicinity: Grove City'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1239
+- entity_type: Site
+  name_raw: Walnut Hill Cemetery
+  counties_raw:
+  - Franklin
+  county_primary: Franklin
+  ownership_raw: Private
+  governance_raw: Private
+  description_raw: Private cemetery in Franklin County, Ohio, enumerated from GNIS
+    Ohio 2021 archive.
+  gps_lat_raw: 39.8609
+  gps_lon_raw: -82.9777
+  urls_raw: []
+  identity_notes_raw: 'GNIS feature_id=280705; approximate vicinity: Columbus'
+  last_verified_date: '2026-06-11'
+  field_verified: false
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+  source: GNIS Ohio 2021 archive (OH_Features_GNIS_20210825.txt)
+  db_id: OH-FR-S-1240
+- tier_result:
+    tier: 8
+    governance_level: Private
+    entity_type: Golf Courses
+    result: complete
+    entities_found: 0
+    notes: DB already contains 26 golf courses (Golf Course subtype) and 1 disc golf
+      course in Franklin County from original pipeline. No additional golf courses
+      identified in supplemental pass.
+    sources_checked:
+    - DB query on subtype LIKE '%Golf%'
+- tier_result:
+    tier: 8
+    governance_level: Private
+    result: complete
+    entities_found: 28
+    notes: 'T8 GNIS cemetery enumeration: 28 new cemeteries added (OH-FR-S-1213 through
+      OH-FR-S-1240). All have GPS from GNIS. DB already contained 111 cemeteries from
+      original pipeline; GNIS had 91 total entries, 28 not matched. Golf courses:
+      27 already in DB (26 standard, 1 disc golf). Private nature reserves: PAD-US
+      checked; no additional private reserves identified beyond SWCD easements (cataloged
+      under T7). WRP parcels: 5 entries in PAD-US Easements not individually cataloged
+      (program-level aggregations, no GPS).'
+    sources_checked:
+    - GNIS Ohio 2021 archive (na_gnis_query.py)
+    - DB query golf courses
+    - PADUS4_0_State_OH.csv
+    - PADUS4_0_State_OH_Easements.csv
+null_results: []
