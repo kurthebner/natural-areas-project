@@ -1,14 +1,5 @@
-# Large GIS source data - v6
-Natural Areas Project v6/GIS_Assets/
-Natural Areas Project v6/OH_geodatabase_wetlands.gdb/
-Natural Areas Project v6/PADUS4_0_StateOH.gdb/
-Natural Areas Project v6/PADUS3_0_State_OH_GeoPackage.zip
-Natural Areas Project v6/PADUS4_0_State_OH.csv
-Natural Areas Project v6/PADUS4_0_State_OH_Easments.csv
-Natural Areas Project v6/PADUS4_0_State_OH_GDB.zip
-Natural Areas Project v6/NWI_OH_GDB.zip
-Natural Areas Project v6/OH_Features_GNIS_20210825.txt
-Natural Areas Project v6/SORP_Parcels_2023.csv
+# Large GIS source data
+Source Data/
 
 # Python
 __pycache__/
