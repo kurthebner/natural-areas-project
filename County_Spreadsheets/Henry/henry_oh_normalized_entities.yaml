@@ -1,0 +1,1527 @@
+run_id: henry_oh_2026_04_20
+county: Henry
+state: Ohio
+norm_date: '2026-04-26'
+records_input: 50
+normalized: 49
+held: 1
+fatal_rejects: 0
+entities_by_type:
+  Site: 30
+  Trail: 7
+  Trail Segment: 6
+  Access Point: 6
+normalized_entities:
+- entity_id: HEN_S_001
+  entity_type: Site
+  name: Big Creek Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of McClure
+  governance: Village of McClure
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: McClure, OH 43534
+  acres: ''
+  counties: Henry
+  municipality: Damascus
+  township: Damascus
+  gps_lat: 41.368215
+  gps_lon: -83.93994
+  plus_code: 86HR9396+72
+  features: Ball Diamond;Pickleball Court;Playground
+  features_raw: Pickleball court (new fence installation per village council 2024),
+    playground (swing set planned), ball fields
+  notes: ''
+  identity_notes: Village council approved fence for pickleball court and swing set
+    area (2024). Facebook page confirms identity. Address not confirmed — map verification
+    required.
+  url_primary: https://www.facebook.com/pages/Big-Creek-Park-Mcclure-Ohio/143710152892303
+  urls: https://www.facebook.com/pages/Big-Creek-Park-Mcclure-Ohio/143710152892303;https://www.northwestsignal.net/news/article_3441b3ee-9598-11ef-844e-270c4ceb73c3.html
+  parent_site_id: ''
+  derived_label: Big Creek Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_002
+  entity_type: Site
+  name: Deshler Crossroads Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of Deshler
+  governance: Village of Deshler
+  partner_agencies: ''
+  coordination: ''
+  description: Railfan park at the intersection of two major CSX Transportation rail
+    lines, offering prime train-watching opportunities with approximately 50-70 trains
+    passing through daily.
+  location: Deshler, OH 43516 (at intersection of CSX rail lines)
+  acres: ''
+  counties: Henry
+  municipality: Bartlow
+  township: Bartlow
+  gps_lat: 41.217095
+  gps_lon: -83.893776
+  plus_code: 86HR6484+RF
+  features: Camping;Historic Marker;Pavilion;Picnic Area
+  features_raw: Covered shelter/pavilion, picnic tables, railroad history informational
+    displays, radio scanner speaker (railroad frequencies), 120VAC charging outlets,
+    RV/tent camping area (first come first served)
+  notes: ''
+  identity_notes: Also known locally as Deshler Railroad Park. Primary attraction
+    is railfan train-watching at CSX diamond crossing. Camping is informal/primitive.
+    Mulberry St, Deshler, OH 43516 —
+  url_primary: https://www.facebook.com/DeshlerCrossroadsPark/
+  urls: https://www.facebook.com/DeshlerCrossroadsPark/;https://villageofdeshler.com/
+  parent_site_id: ''
+  derived_label: Deshler Crossroads Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_003
+  entity_type: Site
+  name: Deshler Reservoir Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of Deshler
+  governance: Village of Deshler
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: Deshler, OH 43516
+  acres: ''
+  counties: Henry
+  municipality: Bartlow
+  township: Bartlow
+  gps_lat: 41.20304
+  gps_lon: -83.901743
+  plus_code: 86HR633X+68
+  features: Picnic Area
+  features_raw: Reservoir, fishing, scenic picnic areas
+  notes: ''
+  identity_notes: Partially Confirmed publicly accessible with fishing and picnic.
+    Exact parcel count/names (Reservoir 1 vs 2) unresolved — map verification required.
+  url_primary: https://villageofdeshler.com/
+  urls: https://villageofdeshler.com/
+  parent_site_id: ''
+  derived_label: Deshler Reservoir Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_005
+  entity_type: Site
+  name: East Riverdowns Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: E. Front St & Jefferson St, Napoleon, OH 43545
+  acres: ''
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.392628
+  gps_lon: -84.117267
+  plus_code: 86HQ9VVM+33
+  features: Ball Diamond;Horseshoe Pitch;Playground
+  features_raw: Arboretum, tree nursery, 2 softball fields, horseshoes, playground,
+    shelter, volleyball
+  notes: ''
+  identity_notes: Contains Napoleon Dog Park as a named child facility. Main St, Napoleon,
+    OH 43545 —
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  parent_site_id: ''
+  derived_label: East Riverdowns Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_007
+  entity_type: Site
+  name: Fredrick Steward Memorial Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of Liberty Center
+  governance: Village of Liberty Center
+  partner_agencies: Arbor Day Foundation
+  coordination: ''
+  description: ''
+  location: Liberty Center, OH 43532
+  acres: ''
+  counties: Henry
+  municipality: Liberty
+  township: Liberty
+  gps_lat: 41.443713
+  gps_lon: -84.004747
+  plus_code: 86HQCXVW+F4
+  features: Tennis Court
+  features_raw: Tennis courts, Arbor Day Foundation tree plantings
+  notes: ''
+  identity_notes: Baseline listed as "Steward Park." Full name is Fredrick Steward
+    Memorial Park. Amenities from search snippet. Address not confirmed — map verification
+    required. org (m=250688)
+  url_primary: https://lcvillage.com/
+  urls: https://lcvillage.com/
+  parent_site_id: ''
+  derived_label: Fredrick Steward Memorial Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_008
+  entity_type: Site
+  name: Glenwood Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: 521 Glenwood Ave, Napoleon, OH 43545
+  acres: ''
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.386553
+  gps_lon: -84.142184
+  plus_code: 86HQ9VP5+J4
+  features: Ball Diamond;Basketball Court;Playground;Swimming Pool
+  features_raw: Golf course (Napoleon Golf Club), swimming pool (Napoleon Aquatic
+    Center), youth baseball fields (including Veterans Field/pony league), Kidz Kingdom
+    playground, Fourth of July event site, basketball court, shelters
+  notes: ''
+  identity_notes: Veterans Field (pony league baseball) is a named field within Glenwood
+    Park — not a standalone park. Baseline "Veterans Park" (0.5 ac) likely refers
+    to Veterans Field within Glenwood.
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/parks;https://napoleongolfclub.com/
+  parent_site_id: ''
+  derived_label: Glenwood Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_010
+  entity_type: Site
+  name: Hamler Memorial Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of Hamler
+  governance: Village of Hamler
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: Hamler, OH 43524
+  acres: ''
+  counties: Henry
+  municipality: Marion
+  township: Marion
+  gps_lat: 41.230605
+  gps_lon: -84.036733
+  plus_code: 86HQ6XJ7+68
+  features: ''
+  features_raw: ''
+  notes: ''
+  identity_notes: 'listed on village website (hamlerohio.com) and as birding hotspot
+    "Hamler City Park" (eBird L3680027). Address and amenities not confirmed from
+    available sources. Map verification required. Note: Hamler Community Park Inc.
+    (HEN-F-10, Summerfest association, SR 109 north edge) is a separate private entity
+    → T8.'
+  url_primary: https://hamlerohio.com/
+  urls: https://hamlerohio.com/;https://birdinghotspots.org/hotspot/L3680027
+  parent_site_id: ''
+  derived_label: Hamler Memorial Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_016
+  entity_type: Site
+  name: Holgate Village Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of Holgate
+  governance: Village of Holgate
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: Holgate, OH 43527
+  acres: ''
+  counties: Henry
+  municipality: Pleasant
+  township: Pleasant
+  gps_lat: 41.250101
+  gps_lon: -84.127079
+  plus_code: 86HQ7V2F+25
+  features: Basketball Court
+  features_raw: Basketball court, asphalt overlay (CDBG grant project)
+  notes: ''
+  identity_notes: Referenced in village CDBG grant application as "community park"
+    alongside Old School Park. Baseline names this "Holgate Village Park." Exact address
+    not confirmed — map verification required.
+  url_primary: https://www.holgateohio.com/
+  urls: https://www.holgateohio.com/
+  parent_site_id: ''
+  derived_label: Holgate Village Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_020
+  entity_type: Site
+  name: Meyerholtz Wildlife Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: 1781-1799 W. Riverview Ave, Napoleon, OH 43545
+  acres: '21.5'
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.370975
+  gps_lon: -84.152449
+  plus_code: 86HQ9RCX+92
+  features: Parking Lot;Picnic Area
+  features_raw: Wildlife park, birding area, open shelterhouse, picnic tables, open
+    grass area, walking/jogging path, parking
+  notes: ''
+  identity_notes: Listed as birding hotspot (eBird L3683369). Address from Waze/Google
+    Maps record. Riverview Ave, Napoleon, OH 43545 —
+  url_primary: https://birdinghotspots.org/hotspot/L3683369
+  urls: https://birdinghotspots.org/hotspot/L3683369
+  parent_site_id: ''
+  derived_label: Meyerholtz Wildlife Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_021
+  entity_type: Site
+  name: Napoleon Dog Park
+  category: Park
+  subtype: Dog Park
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: Girl Scouts (original construction)
+  coordination: ''
+  description: ''
+  location: E. Front St & Jefferson St, Napoleon, OH 43545 (within East Riverdowns
+    Park)
+  acres: ''
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.390001
+  gps_lon: -84.119848
+  plus_code: 86HQ9VRJ+23
+  features: Dog Park
+  features_raw: Off-leash dog park, membership required
+  notes: ''
+  identity_notes: Child site of East Riverdowns Park. Original build was a Girl Scout
+    project. Front St, Napoleon, OH 43545 —
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/dog-park
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/dog-park
+  parent_site_id: ''
+  derived_label: 'Napoleon Dog Park (Park: Dog Park)'
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_022
+  entity_type: Site
+  name: New Bavaria Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of New Bavaria
+  governance: Village of New Bavaria
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: Thomas St, New Bavaria, OH 43548
+  acres: ''
+  counties: Henry
+  municipality: Pleasant
+  township: Pleasant
+  gps_lat: 41.20317
+  gps_lon: -84.168809
+  plus_code: 86HQ6R3J+7F
+  features: ''
+  features_raw: ''
+  notes: ''
+  identity_notes: 'GPS 41.2031701,-84.1688089 from Maps detail card. Baseline seed:
+    "New Bavaria Village Park." Resolves partial null from T6 web discovery. No village
+    website found; Maps listing is authoritative confirmation.'
+  url_primary: https://www.google.com/maps/place/New+Bavaria+Park/@41.2031701,-84.1688089,17z
+  urls: https://www.google.com/maps/place/New+Bavaria+Park/@41.2031701,-84.1688089,17z
+  parent_site_id: ''
+  derived_label: New Bavaria Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_024
+  entity_type: Site
+  name: Oakwood Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: 1400 Oakwood Ave, Napoleon, OH 43545
+  acres: '52.0'
+  counties: Henry
+  municipality: Harrison
+  township: Harrison
+  gps_lat: 41.391007
+  gps_lon: -84.099919
+  plus_code: 86HQ9WR2+C2
+  features: Ball Diamond;Basketball Court;Fishing Area;Football Field;Hiking Trail;Restrooms;Volleyball
+    Court
+  features_raw: Fishing lake, wooded hiking trails, 1-mile walking path (handicap
+    accessible), 4 ball diamonds, batting cages, basketball court, football field,
+    volleyball court, 2 open-air shelters, year-round restrooms
+  notes: ''
+  identity_notes: ''
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  parent_site_id: ''
+  derived_label: Oakwood Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_025
+  entity_type: Site
+  name: Oberhaus Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: Napoleon Lions Club; Napoleon Rotary Club
+  coordination: ''
+  description: ''
+  location: 750 W. Maumee St, Napoleon, OH 43545
+  acres: ''
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.379899
+  gps_lon: -84.134252
+  plus_code: 86HQ9VH8+X7
+  features: Hiking Trail
+  features_raw: Maumee River frontage, 250-ft public boat dock, 1/2-mile walking path,
+    Lions/Rotary community building (year-round rentals)
+  notes: ''
+  identity_notes: Maumee Ave, Napoleon, OH 43545 —
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  parent_site_id: ''
+  derived_label: Oberhaus Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_026
+  entity_type: Site
+  name: Old School Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of Holgate
+  governance: Village of Holgate
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: S. Wilhelm St / Frazier St, Holgate, OH 43527
+  acres: ''
+  counties: Henry
+  municipality: Pleasant
+  township: Pleasant
+  gps_lat: 41.247915
+  gps_lon: -84.133775
+  plus_code: 86HQ6VX8+5F
+  features: Hiking Trail;Playground
+  features_raw: Walking trail, playground (swings, slides, interactive play features),
+    seating elements
+  notes: ''
+  identity_notes: Confirmed via Facebook Ohioans Historical Exploration post and village
+    CDBG grant application. Grant included playground equipment upgrade. Wilhelm St
+    & Frazier Ave, Holgate, OH 43527 —
+  url_primary: https://www.holgateohio.com/
+  urls: https://www.holgateohio.com/
+  parent_site_id: ''
+  derived_label: Old School Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_027
+  entity_type: Site
+  name: Ritter Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: ''
+  coordination: ''
+  description: Passive park along the Maumee River featuring a historic 1930s stone
+    shelter, walking path, and ODNR-funded boat launch with restrooms, parking, and
+    retaining wall.
+  location: 1111 W. Riverview Ave, Napoleon, OH 43545
+  acres: ''
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.37933
+  gps_lon: -84.145657
+  plus_code: 86HQ9VH3+PP
+  features: Hiking Trail;Parking Lot;Restrooms;Watercraft Access
+  features_raw: Historic 1930s stone shelter, walking path, ODNR Watercraft grant-funded
+    boat launch, restrooms, parking, retaining wall
+  notes: ''
+  identity_notes: 'Baseline had two rows for Ritter Park (one 5.6 ac "West Riverview
+    Avenue", one at 1130 W. Riverview Ave no acreage) and a separate "Boatramp Facility"
+    at 14.8 ac. Official site confirms one park at 1111 W. Riverview with integrated
+    boat launch. Acreage conflict unresolved — may include adjacent parcel. Address
+    discrepancy: official site says 1111 W. Riverview, baseline said 1130 W. Riverview.
+    Riverview Ave (shelter address), Napoleon, OH — Riverview Ave'
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  parent_site_id: ''
+  derived_label: Ritter Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_028
+  entity_type: Site
+  name: Swearingen Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: S. Perry St & E. Barnes Ave, Napoleon, OH 43545
+  acres: ''
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.384757
+  gps_lon: -84.120347
+  plus_code: 86HQ9VMH+WV
+  features: Basketball Court;Picnic Area;Playground
+  features_raw: Skateboard park, basketball court, playground, picnic tables
+  notes: ''
+  identity_notes: Perry St, Napoleon, OH 43545 —
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  parent_site_id: ''
+  derived_label: Swearingen Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_029
+  entity_type: Site
+  name: Veterans Memorial Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of Liberty Center
+  governance: Village of Liberty Center
+  partner_agencies: Liberty Center Historical Society
+  coordination: ''
+  description: ''
+  location: Liberty Center, OH 43532
+  acres: ''
+  counties: Henry
+  municipality: Liberty
+  township: Liberty
+  gps_lat: 41.448054
+  gps_lon: -84.018893
+  plus_code: 86HQCXXJ+6C
+  features: Restrooms
+  features_raw: Veteran recognition banners (in design phase), restroom facility (grant-funded,
+    planned)
+  notes: ''
+  identity_notes: Referenced in NW Signal article about grant funding for restroom
+    facility. Historical Society designing veteran banners. Address not confirmed
+    — map verification required. org (m=279652)
+  url_primary: https://lcvillage.com/
+  urls: https://lcvillage.com/;https://www.northwestsignal.net/news/article_8bcd45d5-429c-43cb-bc8f-339e8597f63a.html
+  parent_site_id: ''
+  derived_label: Veterans Memorial Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_030
+  entity_type: Site
+  name: Vorwerk Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: E. Riverview Ave, Napoleon, OH 43545
+  acres: '24.5'
+  counties: Henry
+  municipality: Liberty
+  township: Liberty
+  gps_lat: 41.410194
+  gps_lon: -84.088819
+  plus_code: 86HQCW66+3F
+  features: Fishing Area;Hiking Trail;Parking Lot;Picnic Area;Restrooms
+  features_raw: Picnic tables, grills, restrooms (portable, accessible/unisex), fishing
+    access, hiking trails, drinking fountains, parking
+  notes: ''
+  identity_notes: GPS from Ohio Trail Towns detail record during discovery — treat
+    as approximate until GPS acquisition pass confirmation. Riverview Ave, Napoleon,
+    OH 43545 — 410147,-84.090012
+  url_primary: https://napoleon.recdesk.com/Community/Facility/Detail?facilityId=29
+  urls: https://napoleon.recdesk.com/Community/Facility/Detail?facilityId=29;https://ohiotrailtowns.org/towns/napoleon/restrooms/vorwerk
+  parent_site_id: ''
+  derived_label: Vorwerk Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_031
+  entity_type: Site
+  name: Wayne Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: City of Napoleon
+  governance: City of Napoleon Parks and Recreation
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: ''
+  acres: '13.0'
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.366357
+  gps_lon: -84.154157
+  plus_code: 86HQ9R8W+G8
+  features: Pavilion;Picnic Area;Volleyball Court
+  features_raw: Small rustic shelter (capacity ~25 people, warmer months rental),
+    large open areas for picnicking, volleyball court
+  notes: ''
+  identity_notes: address not published on official site; booking at City Building,
+    255 W. Riverview Ave, Napoleon. Acreage from Napoleon Parks System PDF (2014).
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/shelter-houses/wayne-park
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/shelter-houses/wayne-park
+  parent_site_id: ''
+  derived_label: Wayne Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_T_001
+  entity_type: Trail
+  name: Blue Trail
+  use_type: ''
+  surface_type: ''
+  origin_type: ''
+  status: ''
+  difficulty: Easy
+  total_length_miles: '1.2'
+  counties: Henry
+  governance: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies: ''
+  description: ''
+  accessibility: ''
+  identity_notes: 'Trail within Mary Jane Thurston State Park. Length: 1.2 mi, difficulty:
+    Easy, per ODNR property page. Parent site: Mary Jane Thurston State Park (this
+    run, T2).'
+  notes: ''
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  parent_site_id: HEN_S_018
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_T_002
+  entity_type: Trail
+  name: Miami & Erie Canal Towpath Hiking Trail
+  use_type: ''
+  surface_type: ''
+  origin_type: Canal Towpath
+  status: ''
+  difficulty: ''
+  total_length_miles: ''
+  counties: Defiance;Henry;Wood
+  governance: Henry County Park District
+  partner_agencies: ''
+  description: Adjacent to Maumee River; runs east-west across Henry County along
+    former Miami & Erie Canal route. Western terminus near Independence Dam State
+    Park (Defiance/Henry county line); eastern terminus near Providence Dam Metropark
+    (Wood County).
+  accessibility: ''
+  identity_notes: Multi-county trail. Managed by Henry County Park District on state-owned
+    canal lands leased from Ohio.
+  notes: ''
+  url_primary: http://henrycountyparks.blogspot.com/
+  urls: http://henrycountyparks.blogspot.com/;http://henrycountyparks.blogspot.com/p/trail-maps.html;http://www.henrycountyparks.org
+  parent_site_id: ''
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_T_003
+  entity_type: Trail
+  name: Orange Trail
+  use_type: ''
+  surface_type: ''
+  origin_type: ''
+  status: ''
+  difficulty: Easy
+  total_length_miles: '0.5'
+  counties: Henry
+  governance: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies: ''
+  description: ''
+  accessibility: ''
+  identity_notes: 'Trail within Mary Jane Thurston State Park. Length: 0.5 mi, difficulty:
+    Easy, per ODNR property page. Parent site: Mary Jane Thurston State Park (this
+    run, T2).'
+  notes: ''
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  parent_site_id: HEN_S_018
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_T_004
+  entity_type: Trail
+  name: Storybook Trail
+  use_type: Hiking
+  surface_type: ''
+  origin_type: ''
+  status: ''
+  difficulty: Easy
+  total_length_miles: '0.45'
+  counties: Henry
+  governance: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies: ''
+  description: ''
+  accessibility: ''
+  identity_notes: 'Trail within Mary Jane Thurston State Park. Length: 0.45 mi, difficulty:
+    Easy, per ODNR property page. Parent site: Mary Jane Thurston State Park (this
+    run, T2).'
+  notes: ''
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  parent_site_id: HEN_S_018
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_T_005
+  entity_type: Trail
+  name: Tow Path
+  use_type: ''
+  surface_type: ''
+  origin_type: Canal Towpath
+  status: ''
+  difficulty: Easy
+  total_length_miles: '0.3'
+  counties: Henry;Wood
+  governance: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies: ''
+  description: ''
+  accessibility: ''
+  identity_notes: 'Trail within Mary Jane Thurston State Park — 0.3 mi portion within
+    park, continues into Grand Rapids village (Wood County). Likely segment of the
+    historic Miami and Erie Canal Towpath / Buckeye Trail corridor. Multi-county trail;
+    only the MJTSP-managed segment (0.3 mi, Henry County) staged here at T2. Difficulty:
+    Easy per ODNR property page. Parent site: Mary Jane Thurston State Park (this
+    run, T2).'
+  notes: ''
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  parent_site_id: HEN_S_018
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_T_006
+  entity_type: Trail
+  name: Wabash Cannonball Trail
+  use_type: ''
+  surface_type: ''
+  origin_type: Rail Trail
+  status: ''
+  difficulty: ''
+  total_length_miles: '46'
+  counties: Fulton;Henry;Lucas;Williams
+  governance: Northwest Ohio Rails-to-Trails Association (NORTA)
+  partner_agencies: Metroparks Toledo; Liberty Center Historical Society (depot restoration);
+    Ohio Department of Natural Resources; North Country Trail Association
+  description: ''
+  accessibility: Paved (Lucas County/eastern sections); cinder, gravel, dirt, grass
+    (Henry County South Fork section)
+  identity_notes: 'Multi-county trail with two named forks: North Fork (Maumee to
+    Montpelier, ~46 mi) and South Fork (Maumee to Liberty Center, ~18 mi). Henry County
+    is on South Fork only (~6 mi in Washington Twp). Total length: ~64-66 miles. Former
+    Wabash Railroad corridor; South Fork built 1855. North Country NST certified portions.
+    Trail ends at Henry CR 7 (Pleasantview Dr) where NORTA ownership officially ends;
+    Liberty Center depot section managed by Liberty Center/LCHS beyond that point.
+    Multi-county entity — first staged in Henry County run; cross-ref NCT (OSM rel
+    11140513, DEF run). HEN-F-07 RESOLVED via NORTA trail-access page.'
+  notes: ''
+  url_primary: https://www.wabashcannonballtrail.org/
+  urls: https://www.wabashcannonballtrail.org/;https://www.wabashcannonballtrail.org/about/;https://www.wabashcannonballtrail.org/trail-access/;https://en.wikipedia.org/wiki/Wabash_Cannonball_Trail;https://www.traillink.com/trail/wabash-cannonball-trail/;https://northcountrytrail.org/trail/affiliates/norta/
+  parent_site_id: ''
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_T_007
+  entity_type: Trail
+  name: Yellow Trail
+  use_type: ''
+  surface_type: ''
+  origin_type: ''
+  status: ''
+  difficulty: Easy
+  total_length_miles: '0.5'
+  counties: Henry
+  governance: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies: ''
+  description: ''
+  accessibility: ''
+  identity_notes: 'Trail within Mary Jane Thurston State Park. Length: 0.5 mi, difficulty:
+    Easy, per ODNR property page. Parent site: Mary Jane Thurston State Park (this
+    run, T2).'
+  notes: ''
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  parent_site_id: HEN_S_018
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_TS_001
+  entity_type: Trail Segment
+  name: Damascus Leg
+  segment_type: ''
+  surface_type: ''
+  status: ''
+  difficulty: ''
+  segment_length_miles: ''
+  counties: Henry
+  governance: Henry County Park District
+  description: ''
+  accessibility: ''
+  identity_notes: Named for Damascus Township. Henry County only. Eastern terminus
+    at SR 109 near Damascus Township.
+  notes: ''
+  url_primary: ''
+  urls: ''
+  parent_trail_id: HEN_T_002
+  geometry: ''
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_TS_002
+  entity_type: Trail Segment
+  name: Independence Leg
+  segment_type: ''
+  surface_type: ''
+  status: ''
+  difficulty: ''
+  segment_length_miles: ''
+  counties: Defiance;Henry
+  governance: Henry County Park District
+  description: ''
+  accessibility: ''
+  identity_notes: Named segment of the MW&E Canal Towpath. Straddles Defiance/Henry
+    county line. Western terminus at Independence Dam SP (ODNR state park, already
+    staged in DEF run).
+  notes: ''
+  url_primary: ''
+  urls: ''
+  parent_trail_id: HEN_T_002
+  geometry: ''
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_TS_003
+  entity_type: Trail Segment
+  name: Napoleon Leg
+  segment_type: ''
+  surface_type: ''
+  status: ''
+  difficulty: ''
+  segment_length_miles: ''
+  counties: Henry
+  governance: Henry County Park District
+  description: ''
+  accessibility: ''
+  identity_notes: Runs through Napoleon. Western terminus at Meyerholtz Park (Napoleon
+    city park — T6 entity). Eastern terminus at Henry County Hospital.
+  notes: ''
+  url_primary: ''
+  urls: ''
+  parent_trail_id: HEN_T_002
+  geometry: ''
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_TS_004
+  entity_type: Trail Segment
+  name: Renegade Leg
+  segment_type: ''
+  surface_type: ''
+  status: ''
+  difficulty: ''
+  segment_length_miles: ''
+  counties: Henry
+  governance: Henry County Park District
+  description: ''
+  accessibility: ''
+  identity_notes: Named for Simon Girty (historical figure). Henry County only. Eastern
+    terminus at Napoleon.
+  notes: ''
+  url_primary: ''
+  urls: ''
+  parent_trail_id: HEN_T_002
+  geometry: ''
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_TS_005
+  entity_type: Trail Segment
+  name: Wabash Cannonball Trail - South Fork
+  segment_type: ''
+  surface_type: Natural Surface
+  status: ''
+  difficulty: ''
+  segment_length_miles: '18'
+  counties: Henry;Lucas
+  governance: Northwest Ohio Rails-to-Trails Association (NORTA)
+  description: ''
+  accessibility: Cinder, gravel, dirt, grass (Henry County section); paved through
+    Lucas County
+  identity_notes: 'Named operational segment of WCT. Runs from Fallen Timbers Battlefield
+    Area in Maumee (Lucas Co) SW to Liberty Center (Henry Co); ~18 miles total per
+    NORTA. Henry County section ~6 miles in Washington Township; surface cinder/gravel/dirt/grass.
+    Western terminus GPS 41.451114,-83.989429 (Wikipedia geohack). Named fork per
+    NORTA official page and Wikipedia. Parent: Wabash Cannonball Trail.'
+  notes: ''
+  url_primary: https://www.wabashcannonballtrail.org/trail-access/
+  urls: https://www.wabashcannonballtrail.org/trail-access/;https://en.wikipedia.org/wiki/Wabash_Cannonball_Trail
+  parent_trail_id: HEN_T_006
+  geometry: ''
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_TS_006
+  entity_type: Trail Segment
+  name: WideWater Section
+  segment_type: ''
+  surface_type: ''
+  status: ''
+  difficulty: ''
+  segment_length_miles: ''
+  counties: Henry;Wood
+  governance: Henry County Park District
+  description: ''
+  accessibility: ''
+  identity_notes: Named WideWater (historic canal engineering term for widened canal
+    section). Eastern terminus at Providence Dam Metropark (Wood County / Metroparks
+    Toledo entity). Multi-county (Henry + Wood).
+  notes: ''
+  url_primary: ''
+  urls: ''
+  parent_trail_id: HEN_T_002
+  geometry: ''
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_AP_001
+  entity_type: Access Point
+  name: Mary Jane Thurston State Park Boat Launch Ramp
+  access_point_type: Boat Ramp
+  status: ''
+  features: Boat launch ramp
+  county: Henry
+  municipality: Damascus
+  township: Damascus
+  gps_lat: 41.411925
+  gps_lon: -83.884997
+  plus_code: 86HRC468+Q2
+  address: Mary Jane Thurston State Park, 1466 SR 65, McClure, OH 43534
+  identity_notes: 'Boat launch ramp listed on MJTSP property page alongside marina.
+    Source states ''1 boat launch ramp + marina.'' Staged as separate Access Point
+    from marina; co-located or same structure — resolution engine to evaluate. Parent
+    site: Mary Jane Thurston State Park. | GPS LOW confidence: co-located with parent
+    MJTSP (HEN_S_018) coordinate — verify AP-specific location.'
+  notes: ''
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  parent_entity_id: HEN_S_018
+  parent_entity_type: Site
+  derived_label: Mary Jane Thurston State Park Boat Launch Ramp (Boat Ramp)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_AP_002
+  entity_type: Access Point
+  name: Mary Jane Thurston State Park Marina
+  access_point_type: Boat Launch
+  status: ''
+  features: Marina
+  county: Henry
+  municipality: Damascus
+  township: Damascus
+  gps_lat: 41.411925
+  gps_lon: -83.884997
+  plus_code: 86HRC468+Q2
+  address: Mary Jane Thurston State Park, 1466 SR 65, McClure, OH 43534
+  identity_notes: 'Marina listed on MJTSP property page. Source states ''1 boat launch
+    ramp + marina.'' Staged as Access Point per §6.7 (visitor-facing entry on water).
+    Resolution engine should evaluate whether marina warrants child Site designation
+    (§6.2) if identity-bearing; flagged for review. Parent site: Mary Jane Thurston
+    State Park. | GPS LOW confidence: co-located with parent MJTSP (HEN_S_018) coordinate
+    — verify AP-specific location.'
+  notes: ''
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  parent_entity_id: HEN_S_018
+  parent_entity_type: Site
+  derived_label: Mary Jane Thurston State Park Marina (Boat Launch)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_AP_003
+  entity_type: Access Point
+  name: Oberhaus Park Boat Dock
+  access_point_type: Boat Launch
+  status: ''
+  features: 250-ft public boat dock on the Maumee River
+  county: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.379899
+  gps_lon: -84.134252
+  plus_code: 86HQ9VH8+X7
+  address: 750 W. Maumee St, Napoleon, OH 43545
+  identity_notes: Child access point of Oberhaus Park. Public boat dock on Maumee
+    River.
+  notes: ''
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  parent_entity_id: HEN_S_025
+  parent_entity_type: Site
+  derived_label: Oberhaus Park Boat Dock (Boat Launch)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_AP_004
+  entity_type: Access Point
+  name: Ritter Park Boat Launch
+  access_point_type: Boat Launch
+  status: ''
+  features: Boat launch, restrooms, parking, retaining wall
+  county: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.37933
+  gps_lon: -84.145657
+  plus_code: 86HQ9VH3+PP
+  address: 1111 W. Riverview Ave, Napoleon, OH 43545
+  identity_notes: Child access point of Ritter Park. Baseline listed boat ramp separately
+    at 14.8 ac — confirmed to be part of Ritter Park, not separate parcel.
+  notes: ''
+  url_primary: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  urls: https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  parent_entity_id: HEN_S_027
+  parent_entity_type: Site
+  derived_label: Ritter Park Boat Launch (Boat Launch)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_AP_005
+  entity_type: Access Point
+  name: WCT Henry CR 6C Trailhead
+  access_point_type: Trailhead
+  status: ''
+  features: Parking; picnic table; information kiosk
+  county: Henry
+  municipality: Washington
+  township: Washington
+  gps_lat: 41.450715
+  gps_lon: -83.990451
+  plus_code: 86HRF225+7R
+  address: Henry County Road 6C between CR U and CR T, approximately 1 mile east of
+    Liberty Center, OH
+  identity_notes: 'Named "Henry County Road 6C" access point on NORTA trail-access
+    page. GPS from embedded Google Maps iframe: !2d-83.9904512488154!3d41.450714611344075
+    → 41.450715,-83.990451. Baseline HEN-F-07 listed two WCT trailheads; this is the
+    second one (CR 6C). Liberty Center Depot is the other (T6, already staged). NORTA
+    ownership ends ~0.5 mi west at Henry CR 7 (Pleasantview Dr). Parent trail: Wabash
+    Cannonball Trail / WCT South Fork.'
+  notes: ''
+  url_primary: https://www.wabashcannonballtrail.org/trail-access/
+  urls: https://www.wabashcannonballtrail.org/trail-access/
+  parent_entity_id: HEN_T_006
+  parent_entity_type: Trail
+  derived_label: WCT Henry CR 6C Trailhead (Trailhead)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_AP_006
+  entity_type: Access Point
+  name: Wabash Cannonball Trail Liberty Center Depot Trailhead
+  access_point_type: Trailhead
+  status: ''
+  features: Fix-it station, information kiosk, Ohio historical marker (Wabash Depot),
+    parking across Wabash Street from depot
+  county: Henry
+  municipality: Liberty
+  township: Liberty
+  gps_lat: 41.443728
+  gps_lon: -84.009326
+  plus_code: 86HQCXVR+F7
+  address: Wabash St, Liberty Center, OH 43532 (at restored railroad depot)
+  identity_notes: 'Partially This is the Liberty Center south terminus trailhead.
+    The second HEN-F-07 entry is likely the Holgate trailhead — not yet confirmed.
+    NORTA manages WCT (T7 entity). org/trail-access/ embedded map (41.443728,-84.009326);
+    also confirmed by NORTA description: fix-it station, info kiosk, Ohio historical
+    marker, parking across Wabash St from depot; NORTA ownership ends at Henry CR
+    7 (Pleasantview Dr); HEN-F-07 RESOLVED'
+  notes: ''
+  url_primary: https://www.wabashcannonballtrail.org/trail-access/
+  urls: https://www.wabashcannonballtrail.org/trail-access/;https://www.hmdb.org/m.asp?m=172744
+  parent_entity_id: HEN_T_006
+  parent_entity_type: Trail
+  derived_label: Wabash Cannonball Trail Liberty Center Depot Trailhead (Trailhead)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_004
+  entity_type: Site
+  name: Dr. John Bloomfield Home & Carriage House Museum
+  category: Museum
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Henry County Historical Society
+  governance: Henry County Historical Society (HCHS)
+  partner_agencies: ''
+  coordination: ''
+  description: The beautiful Victorian Queen Anne style Dr. John Bloomfield Home &
+    Carriage House Museum, built in 1894 and totally restored, serves as the main
+    museum for the Henry County Historical Society. All HCHS facilities have been
+    restored to their near-original appearance and house large collections of period
+    furnishings, textiles, china, silver, and more dating from the early 1800s through
+    the 1930s.
+  location: 229 W Clinton St, Napoleon, Ohio (across from Napoleon Public Library)
+  acres: ''
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.39134
+  gps_lon: -84.127327
+  plus_code: 86HQ9VRF+G3
+  features: ''
+  features_raw: Victorian Queen Anne historic house museum; Carriage house; Period
+    furnishing collections
+  notes: ''
+  identity_notes: 'Main HCHS museum site. Publicly accessible historic site managed
+    by HCHS nonprofit. Address 229 W Clinton St, Napoleon OH. Victorian Queen Anne
+    house c. 1894. Gray-area entity for NAP — historic museum, not a natural area
+    per se; HCHS seeded from T4 session log (henrycountyhistory.org referral). HEN-F-09
+    partial — OHC recheck did not find Henry County state historic sites. | GPS confidence:
+    HIGH (Stage 3 acquisition: Nominatim address query: ''229 W Clinton St, Napoleon,
+    OH 43545'')'
+  url_primary: https://henrycountyhistory.org
+  urls: https://henrycountyhistory.org
+  parent_site_id: ''
+  derived_label: Dr. John Bloomfield Home & Carriage House Museum (Museum)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_006
+  entity_type: Site
+  name: Florida Wildlife Area
+  category: Wildlife Area
+  subtype: State Wildlife Area
+  designation: State Wildlife Area
+  status: Active
+  ownership: State of Ohio
+  governance: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: 1 mile northeast of Florida, Henry County, Ohio
+  acres: '3.0'
+  counties: Henry
+  municipality: Flatrock
+  township: Flatrock
+  gps_lat: 41.332353
+  gps_lon: -84.179489
+  plus_code: 86HQ8RJC+W6
+  features: ''
+  features_raw: 'Natural features: River, Woods; Activities: Hunting; Trails: Buckeye
+    Trail'
+  notes: 'Florida, Flatrock Township, Henry County, Ohio, United ). Verify before
+    mapping. GPS: ODNR GIS polygon centroid — DOW_Services/Roads_ParkingAreas/FeatureServer
+    layer 28 (official DOW parcel boundary, queried 2026-04-27) GPS: ODNR GIS polygon
+    centroid — DOW_Services/Roads_ParkingAreas/FeatureServer layer 28 (official DOW
+    parcel boundary, queried 2026-04-27)'
+  identity_notes: '3 acres. Located 1 mile NE of Florida, Henry County. Acquisition
+    began 1962. Buckeye Trail runs through this property — BT is a T7 entity (Buckeye
+    Trail Association); trail presence noted here for cross-reference but not re-staged
+    at T2. Note: village of Florida is in Henry County (confirmed county seat area).
+    | GPS confidence: LOW (Stage 3 acquisition: LOW: city centroid fallback — ''Florida,
+    Henry County, Ohio'') | GPS upgraded: LOW centroid → HIGH (ODNR GIS parcel, 2026-04-27)
+    | GPS upgraded: LOW centroid → HIGH (ODNR GIS parcel, 2026-04-27)'
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/florida-wildlife-area
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/florida-wildlife-area;https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Florida.pdf
+  parent_site_id: ''
+  derived_label: 'Florida Wildlife Area (Wildlife Area: State Wildlife Area)'
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_009
+  entity_type: Site
+  name: Hamler Community Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Hamler Summerfest non-profit organization (Hamler Community Park Inc.)
+  governance: Hamler Summerfest / Hamler Community Park Inc.
+  partner_agencies: Hamler Country Fest Committee
+  coordination: ''
+  description: Hamler Community Park is a 13-acre privately owned community park on
+    the edge of Hamler, purchased in 1974 for $21,000 by the Hamler Summerfest non-profit
+    organization. The park hosts the annual Hamler Summerfest German Heritage festival
+    (last weekend of July) and the Hamler Country Fest, and is open as a community
+    park year-round. A 100'x250' steel structure (built 1988) houses basketball and
+    tennis courts for public use.
+  location: SR 109, north edge of Hamler, OH (Marion Township)
+  acres: ''
+  counties: Henry
+  municipality: Marion
+  township: Marion
+  gps_lat: 41.229216
+  gps_lon: -84.034111
+  plus_code: 86HQ6XH8+M9
+  features: ADA Accessible;Basketball Court;Community Center;Playground;Tennis Court
+  features_raw: 13 acres; 100'x250' steel structure with basketball courts; tennis
+    courts; playground; permanent fencing (ADA concrete); beer garden; wedding venue;
+    cell tower on corner
+  notes: GPS is LOW confidence (city/village centroid — No exact park match; using
+    Hamler centroid. Hamler, Marion Township, Henry County, Ohio, United Stat). Verify
+    before mapping.
+  identity_notes: 'Private nonprofit community park owned by Hamler Summerfest org.
+    Located on SR 109 at north edge of Hamler (Marion Township). Year-round public
+    use (basketball/tennis in steel structure). Annual Hamler Summerfest (2026 dates:
+    July 24-25-26) and Country Fest. 100% volunteer/privately funded. "No tax money
+    whatsoever." Pipeline: determine whether private nonprofit community park meets
+    NAP inclusion threshold. Source: hamlersf.com/50-year-history.html. | GPS confidence:
+    LOW (Stage 3 acquisition: LOW: city centroid fallback — ''Hamler, Henry County,
+    Ohio'')'
+  url_primary: https://hamlersf.com/
+  urls: https://hamlersf.com/;https://hamlersf.com/50-year-history.html
+  parent_site_id: ''
+  derived_label: Hamler Community Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_011
+  entity_type: Site
+  name: Henry County Fairgrounds
+  category: Recreation Facility
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Henry County Agricultural Society
+  governance: Henry County Agricultural Society
+  partner_agencies: Henry County Historical Society (HCHS operates Historic Complex
+    on grounds)
+  coordination: ''
+  description: The Henry County Fairgrounds is the home of the annual Henry County
+    Fair, governed by the Henry County Agricultural Society. The Ag Society meets
+    monthly at the fair office on-site. A new 43,750-square-foot events center is
+    under construction at the north end of the fairgrounds.
+  location: 821 S Perry Street, Napoleon, OH 43545
+  acres: ''
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.381644
+  gps_lon: -84.120723
+  plus_code: 86HQ9VJH+MP
+  features: Community Center;Historic Structure
+  features_raw: Annual county fair; events center (under construction ~2024); historic
+    complex (HCHS); fair office
+  notes: ''
+  identity_notes: 'Henry County Agricultural Society = governing body for Henry County
+    Fair. Address 821 S Perry St, Napoleon OH 43545. T8 private/quasi-public — Agricultural
+    Society is a statutory nonprofit under Ohio law. HCHS Fairgrounds Historic Complex
+    (T7 entity, staged separately) is physically located on these grounds. Note: new
+    43,750 sf events center at north end of fairgrounds (2024 construction bid). |
+    GPS confidence: HIGH (Stage 3 acquisition: Nominatim address query: ''821 S Perry
+    St, Napoleon, OH 43545'')'
+  url_primary: https://henrycountyohio.gov/270/Henry-County-Agricultural-Society
+  urls: https://henrycountyohio.gov/270/Henry-County-Agricultural-Society;https://henrycountyfairgrounds.com/
+  parent_site_id: ''
+  derived_label: Henry County Fairgrounds (Recreation Facility)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_012
+  entity_type: Site
+  name: Henry County Historical Society Fairgrounds Historic Complex
+  category: Historic Site
+  subtype: Historic Landscape
+  designation: ''
+  status: Active
+  ownership: Henry County Agricultural Society (Fairgrounds); managed by Henry County
+    Historical Society (HCHS)
+  governance: Henry County Historical Society (HCHS)
+  partner_agencies: Henry County Agricultural Society
+  coordination: ''
+  description: Historic Complex at the Henry County Fairgrounds  Contains several
+    historic buildings and structures including the Nathaniel Hartman Log Home c.
+    1860-1866, the 1897 Emmanuel Lutheran One Room Schoolhouse & Museum, the Ag Building,
+    Smokehouse, and the c. 1910 Historic Gazebo.
+  location: Henry County Fairgrounds, Napoleon, Ohio
+  acres: ''
+  counties: Henry
+  municipality: Napoleon
+  township: Napoleon
+  gps_lat: 41.381644
+  gps_lon: -84.120723
+  plus_code: 86HQ9VJH+MP
+  features: Gazebo;Historic Structure
+  features_raw: Nathaniel Hartman Log Home c. 1860-1866; 1897 Emmanuel Lutheran One
+    Room Schoolhouse & Museum; Ag Building; Smokehouse; c. 1910 Historic Gazebo; period
+    furnishing collections
+  notes: ''
+  identity_notes: 'HCHS-managed outdoor historic complex physically located on Henry
+    County Fairgrounds property (T8 venue/Agricultural Society). Outdoor historic
+    building cluster with grounds — qualifies as outdoor/historic site for NAP staging.
+    Fairgrounds itself is T8 candidate (Ag Society). This HCHS complex is T7 (historical
+    nonprofit management). | GPS confidence: HIGH (Stage 3 acquisition: Nominatim
+    address query: ''821 S Perry St, Napoleon, OH 43545'') | Category corrected Recreation
+    Facility→Historic Site (Stage 3 patch): entity is outdoor historic building collection,
+    not a rec facility.'
+  url_primary: https://henrycountyhistory.org
+  urls: https://henrycountyhistory.org
+  parent_site_id: ''
+  derived_label: Henry County Historical Society Fairgrounds Historic Complex — Historic
+    Site — Historic Landscape
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_017
+  entity_type: Site
+  name: Liberty Center Firemen's Park
+  category: Park
+  subtype: ''
+  designation: ''
+  status: Active
+  ownership: Village of Liberty Center
+  governance: Village of Liberty Center
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: Liberty Center, OH 43532
+  acres: ''
+  counties: Henry
+  municipality: Liberty
+  township: Liberty
+  gps_lat: 41.443385
+  gps_lon: -84.008835
+  plus_code: 86HQCXVR+9F
+  features: ''
+  features_raw: ''
+  notes: GPS is LOW confidence (city/village centroid — No exact park match; using
+    Liberty Center centroid. Liberty Center, Liberty Township, Henry County, ). Verify
+    before mapping.
+  identity_notes: 'existence confirmed via Facebook page and locale.online listing.
+    Address and amenities not confirmed from available sources. Map verification required.
+    | GPS confidence: LOW (Stage 3 acquisition: LOW: city centroid fallback — ''Liberty
+    Center, Henry County, Ohio'')'
+  url_primary: https://facebook.com/pages/Liberty-Center-Firemens-Park/235301483291577
+  urls: https://facebook.com/pages/Liberty-Center-Firemens-Park/235301483291577;https://lcvillage.com/
+  parent_site_id: ''
+  derived_label: Liberty Center Firemen's Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_018
+  entity_type: Site
+  name: Mary Jane Thurston State Park
+  category: Park
+  subtype: ''
+  designation: State Park
+  status: Active
+  ownership: State of Ohio
+  governance: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies: ''
+  coordination: ''
+  description: Situated along the historic Maumee State Scenic River, Mary Jane Thurston
+    State Park's 105 acres offer a variety of day-use and overnight activities.
+  location: 1466 SR 65, McClure, OH 43534
+  acres: '105.0'
+  counties: Henry
+  municipality: Damascus
+  township: Damascus
+  gps_lat: 41.411925
+  gps_lon: -83.884997
+  plus_code: 86HRC468+Q2
+  features: Archery Range;Boat Ramp;Camping;Hiking Trail;Marina;Picnic Area;Watercraft
+    Access
+  features_raw: Archery range; boat launch ramp (1); marina; camping - electric hookup;
+    camping - primitive/tent; Day Lodge (seats 50); fishing; hunting - shoreline trapping
+    and waterfowl; hunting - archery; picnicking - 2 areas along river; trails (Storybook
+    Trail, Blue Trail, Orange Trail, Tow Path, Yellow Trail)
+  notes: ''
+  identity_notes: 'ACREAGE CONFLICT: ODNR property page states 105 acres; baseline
+    seed and OSM record 591 acres. Record ODNR-stated value (105) in acres_raw; resolution
+    engine to arbitrate. Park named after Mary Jane Thurston, who bequeathed 14 acres
+    in 1928; park dedicated 1968. Phone: (419) 832-7662. Manager: Jeremy Babcock.
+    The Tow Path trail (0.3 mi within park) continues into Grand Rapids village (Wood
+    County) — Tow Path is a multi-county trail; only the MJTSP segment is staged at
+    T2 here. NCT co-routes with Buckeye Trail along Miami & Erie Canal Towpath through
+    this park area — see DEF run cross-reference for NCT staging. | GPS confidence:
+    MED (Stage 3 acquisition: Nominatim query: ''Mary Jane Thurston State Park, Henry
+    County, Ohio'')'
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  parent_site_id: ''
+  derived_label: Mary Jane Thurston State Park (Park)
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_013
+  entity_type: Site
+  name: Henry County Wildlife Area 1
+  category: Wildlife Area
+  subtype: State Wildlife Area
+  designation: State Wildlife Area
+  status: Active
+  ownership: State of Ohio
+  governance: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: ''
+  acres: ''
+  counties: Henry
+  municipality: Richfield
+  township: Richfield
+  gps_lat: 41.323055
+  gps_lon: -83.890652
+  plus_code: 86HR84F5+6P
+  features: ''
+  features_raw: ''
+  notes: ''
+  identity_notes: 'Confirmed as a distinct unit from ODNR Hunting Area Maps listing
+    page. Official ODNR name: ''Henry County 1'' on listing page; full name ''Henry
+    County Wildlife Area 1'' inferred — normalize to official ODNR name in resolution.
+    PDF map at Henry_1.pdf could not be fetched (redirect cancelled); acreage and
+    precise location unknown. | GPS: HIGH confidence — ODNR GIS parcel centroid (DOW_Services
+    layer 28, 2026-04-27)'
+  url_primary: https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_1.pdf
+  urls: https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_1.pdf
+  parent_site_id: ''
+  derived_label: 'Henry County Wildlife Area 1 (Wildlife Area: State Wildlife Area)'
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_014
+  entity_type: Site
+  name: Henry County Wildlife Area 2
+  category: Wildlife Area
+  subtype: State Wildlife Area
+  designation: State Wildlife Area
+  status: Active
+  ownership: State of Ohio
+  governance: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: ''
+  acres: ''
+  counties: Henry
+  municipality: Flatrock
+  township: Flatrock
+  gps_lat: 41.322366
+  gps_lon: -84.161557
+  plus_code: 86HQ8RCQ+W9
+  features: ''
+  features_raw: ''
+  notes: ''
+  identity_notes: 'Confirmed as a distinct unit from ODNR Hunting Area Maps listing
+    page. Official ODNR name: ''Henry County 2'' on listing page. PDF map at Henry_2.pdf
+    could not be fetched (redirect cancelled); acreage and precise location unknown.
+    | GPS: HIGH confidence — ODNR GIS parcel centroid (DOW_Services layer 28, 2026-04-27)'
+  url_primary: https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_2.pdf
+  urls: https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_2.pdf
+  parent_site_id: ''
+  derived_label: 'Henry County Wildlife Area 2 (Wildlife Area: State Wildlife Area)'
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_015
+  entity_type: Site
+  name: Henry County Wildlife Area 3
+  category: Wildlife Area
+  subtype: State Wildlife Area
+  designation: State Wildlife Area
+  status: Active
+  ownership: State of Ohio
+  governance: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: ''
+  acres: ''
+  counties: Henry
+  municipality: Monroe
+  township: Monroe
+  gps_lat: 41.277479
+  gps_lon: -84.077872
+  plus_code: 86HQ7WGC+XV
+  features: ''
+  features_raw: ''
+  notes: ''
+  identity_notes: 'Confirmed as a distinct unit from ODNR Hunting Area Maps listing
+    page. Official ODNR name: ''Henry County 3'' on listing page. PDF map at Henry_3.pdf
+    could not be fetched (redirect cancelled); acreage and precise location unknown.
+    | GPS: HIGH confidence — ODNR GIS parcel centroid (DOW_Services layer 28, 2026-04-27)'
+  url_primary: https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_3.pdf
+  urls: https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_3.pdf
+  parent_site_id: ''
+  derived_label: 'Henry County Wildlife Area 3 (Wildlife Area: State Wildlife Area)'
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'
+- entity_id: HEN_S_023
+  entity_type: Site
+  name: North Turkeyfoot Wildlife Area
+  category: Wildlife Area
+  subtype: State Wildlife Area
+  designation: State Wildlife Area
+  status: Active
+  ownership: State of Ohio
+  governance: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies: ''
+  coordination: ''
+  description: ''
+  location: 2 miles southeast of Liberty Center, Henry County, Ohio
+  acres: '458.0'
+  counties: Henry
+  municipality: Washington
+  township: Washington
+  gps_lat: 41.411469
+  gps_lon: -83.989405
+  plus_code: 86HRC266+H6
+  features: Hiking Trail
+  features_raw: 'Natural features: River, Woods, Brush; Activities: Boating, Hunting,
+    Hiking, Birding, Fishing; Trails: Buckeye Trail, Hiking Trails, Hunter Access'
+  notes: ''
+  identity_notes: '458 acres. Located 2 miles SE of Liberty Center, Henry County.
+    Baseline seed address: CR 424, Liberty Center OH. Acquisition: 1969–2013 via multiple
+    state funds and donations. Buckeye Trail runs through this property — BT is a
+    T7 entity (Buckeye Trail Association); trail presence noted here for cross-reference
+    but not re-staged at T2. | GPS: HIGH confidence — ODNR GIS parcel centroid (DOW_Services
+    layer 28, 2026-04-27)'
+  url_primary: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/north-turkeyfoot-wildlife-area
+  urls: https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/north-turkeyfoot-wildlife-area;https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/NorthTurkeyfoot.pdf
+  parent_site_id: ''
+  derived_label: 'North Turkeyfoot Wildlife Area (Wildlife Area: State Wildlife Area)'
+  created_at: '2026-04-26'
+  updated_at: '2026-04-26'

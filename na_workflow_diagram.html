@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Natural Areas Project — Workflow Diagram</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    font-size: 13px;
+    padding: 24px;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #1a1a1a;
+  }
+  .subtitle {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+
+  .workflow {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  .phase-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #888;
+    margin-top: 4px;
+    padding-left: 2px;
+  }
+
+  .row-single { display: flex; }
+  .row-multi { display: flex; gap: 6px; }
+
+  .block {
+    border-radius: 7px;
+    padding: 9px 13px;
+    flex: 1;
+    cursor: pointer;
+    transition: filter 0.15s, transform 0.1s;
+    position: relative;
+    border: 1.5px solid transparent;
+  }
+  .block:hover { filter: brightness(0.94); transform: translateY(-1px); }
+  .block:active { transform: translateY(0); }
+
+  .block-title { font-weight: 700; font-size: 12px; line-height: 1.3; }
+  .block-sub { font-size: 11px; opacity: 0.75; margin-top: 2px; line-height: 1.3; }
+  .block-imp { font-size: 10px; font-weight: 600; opacity: 0.6; margin-top: 3px; }
+
+  .c-orient  { background: #e8f0fe; border-color: #4285f4; color: #1a3a7a; }
+  .c-boot    { background: #e6f4ea; border-color: #34a853; color: #1a4a2a; }
+  .c-t1      { background: #fce8d6; border-color: #ea6c00; color: #5a2800; }
+  .c-t2      { background: #fde8d0; border-color: #f08030; color: #5a2800; }
+  .c-t3      { background: #fdf3d0; border-color: #f0b030; color: #5a3800; }
+  .c-t4      { background: #fafad0; border-color: #d4c020; color: #4a3a00; }
+  .c-t5      { background: #e8fadc; border-color: #60c030; color: #2a4a10; }
+  .c-t6      { background: #d8f4e4; border-color: #30b060; color: #0a4020; }
+  .c-t7      { background: #d0ede8; border-color: #20a080; color: #0a3830; }
+  .c-t8      { background: #d0e8f0; border-color: #2090b0; color: #0a3040; }
+  .c-pipe    { background: #ede8f8; border-color: #7c4dbd; color: #3a1a6a; }
+  .c-gate    { background: #f8e8f0; border-color: #bd4d88; color: #6a1a40; }
+  .c-human   { background: #fde8e8; border-color: #d04040; color: #6a1010; }
+  .c-upsert  { background: #e8e8e8; border-color: #555;    color: #1a1a1a; }
+  .c-quality { background: #e8f8f0; border-color: #2ab07a; color: #0a4030; }
+
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    color: #aaa;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .tier-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  .tier-grid .block { padding: 8px 10px; }
+
+  .detail-panel {
+    background: #f5f5f5;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    padding: 12px 16px;
+    min-height: 56px;
+    transition: all 0.2s;
+  }
+  .detail-panel .dp-title { font-weight: 700; font-size: 12px; margin-bottom: 4px; }
+  .detail-panel .dp-body { font-size: 11.5px; line-height: 1.6; color: #444; }
+  .detail-panel .dp-hint { font-size: 10.5px; color: #888; font-style: italic; }
+
+  .legend {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 6px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10.5px;
+    color: #555;
+  }
+  .legend-dot {
+    width: 10px; height: 10px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  .footer {
+    max-width: 860px;
+    margin: 16px auto 0;
+    font-size: 10.5px;
+    color: #aaa;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<div style="max-width:860px; margin:0 auto 16px;">
+  <h1>Natural Areas Project — Workflow Diagram</h1>
+  <div class="subtitle">v5.22 · Last updated 2026-05-20 · Click any block for details</div>
+</div>
+
+<div class="workflow">
+
+  <div class="phase-label">Session Startup</div>
+
+  <div class="row-multi">
+    <div class="block c-orient" onclick="show('orient')">
+      <div class="block-title">Project Orientation</div>
+      <div class="block-sub">List root · Read manifest · Confirm dirs</div>
+      <div class="block-imp">IMP-112 — Every session</div>
+    </div>
+    <div class="block c-boot" onclick="show('boot')">
+      <div class="block-title">County Bootstrap</div>
+      <div class="block-sub">Session files · DB MC check · Baseline</div>
+      <div class="block-imp">New county only</div>
+    </div>
+    <div class="block c-quality" onclick="show('resume')">
+      <div class="block-title">Resume Check</div>
+      <div class="block-sub">Read handoff · Verify tier vs. §6 · Read sub-proc</div>
+      <div class="block-imp">Resumed county only</div>
+    </div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="phase-label">Discovery — 8 Tiers (complete all 6 entity types per tier before advancing)</div>
+
+  <div class="tier-grid">
+    <div class="block c-t1" onclick="show('t1')">
+      <div class="block-title">T1 Federal &amp; Tribal</div>
+      <div class="block-sub">NPS · USFS · BLM · VA NCA</div>
+    </div>
+    <div class="block c-t2" onclick="show('t2')">
+      <div class="block-title">T2 State</div>
+      <div class="block-sub">ODNR · DNR · Public universities</div>
+    </div>
+    <div class="block c-t3" onclick="show('t3')">
+      <div class="block-title">T3 District</div>
+      <div class="block-sub">Metroparks · Conservancy districts</div>
+    </div>
+    <div class="block c-t4" onclick="show('t4')">
+      <div class="block-title">T4 County</div>
+      <div class="block-sub">County parks · MORPC CSV cross-ref</div>
+    </div>
+    <div class="block c-t5" onclick="show('t5')">
+      <div class="block-title">T5 Township</div>
+      <div class="block-sub">OTA roster first · 12 townships typical</div>
+    </div>
+    <div class="block c-t6" onclick="show('t6')">
+      <div class="block-title">T6 Municipal</div>
+      <div class="block-sub">Cities &amp; villages · Map verify all</div>
+    </div>
+    <div class="block c-t7" onclick="show('t7')">
+      <div class="block-title">T7 Conservancy</div>
+      <div class="block-sub">Land trusts · Nature conservancies</div>
+    </div>
+    <div class="block c-t8" onclick="show('t8')">
+      <div class="block-title">T8 Private</div>
+      <div class="block-sub">Golf · Cemeteries (GNIS) · Commercial rec</div>
+    </div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="phase-label">Pipeline — Stages 1–6</div>
+
+  <div class="row-multi">
+    <div class="block c-pipe" onclick="show('s1')">
+      <div class="block-title">Stage 1 — Resolution</div>
+      <div class="block-sub">Pass 1 (all entities) · Pass 2 (APs)</div>
+    </div>
+    <div class="block c-pipe" onclick="show('s2')">
+      <div class="block-title">Stage 2 — GPS</div>
+      <div class="block-sub">Fill-forward · Acquire · Gate (held)</div>
+      <div class="block-imp">IMP-031 · IMP-069</div>
+    </div>
+    <div class="block c-pipe" onclick="show('s3')">
+      <div class="block-title">Stage 3 — Normalize</div>
+      <div class="block-sub">Blocking gate · Vocab · Township/muni</div>
+      <div class="block-imp">IMP-113 held vocab</div>
+    </div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="row-multi">
+    <div class="block c-pipe" onclick="show('s4')">
+      <div class="block-title">Stage 4 — TSV Output</div>
+      <div class="block-sub">6 files · Held excluded · Unmapped logged</div>
+      <div class="block-imp">IMP-113 · IMP-116</div>
+    </div>
+    <div class="block c-gate" onclick="show('s45')">
+      <div class="block-title">Stage 4.5 — Vocab Gate</div>
+      <div class="block-sub">HALTS on any violation · features checked</div>
+    </div>
+    <div class="block c-pipe" onclick="show('s5')">
+      <div class="block-title">Stage 5 — Integrity Check</div>
+      <div class="block-sub">Non-halting · GPS · IDs · Vocab candidates</div>
+    </div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="row-single">
+    <div class="block c-human" onclick="show('s55')">
+      <div class="block-title">⏸ Stage 5.5 — Human Review Gate — PIPELINE HALTS</div>
+      <div class="block-sub">Counts · Category/subtype · GPS plausibility · Held entities · AP→Site reclassification check</div>
+      <div class="block-imp">IMP-114 · Explicit confirmation required before Stage 6</div>
+    </div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="row-single">
+    <div class="block c-upsert" onclick="show('s6')">
+      <div class="block-title">Stage 6 — Database Upsert → natural_areas_v5.db</div>
+      <div class="block-sub">MC county format scan · DDL all 3 table groups · ON CONFLICT DO UPDATE · Provenance written</div>
+      <div class="block-imp">IMP-115 pre-scan · IMP-087 DDL</div>
+    </div>
+  </div>
+
+  <div class="arrow">↓</div>
+
+  <div class="row-single">
+    <div class="block c-quality" onclick="show('quality')">
+      <div class="block-title">Quality &amp; Improvement</div>
+      <div class="block-sub">PAD-US completeness gate · Vocabulary compliance audit · County mismatch review · IMP tracker update</div>
+    </div>
+  </div>
+
+  <div class="detail-panel" id="detail">
+    <div class="dp-hint">Click any block above to see details.</div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#4285f4"></div>Orientation</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#ea6c00"></div>T1–T4 Discovery</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#60c030"></div>T5–T8 Discovery</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#7c4dbd"></div>Pipeline stages</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#d04040"></div>Human gate (halts)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#555"></div>DB upsert</div>
+  </div>
+
+</div>
+
+<div class="footer">
+  Natural Areas Project v5.22 · na_module_manifest_v5.22.md · na_improvement_tracker.md
+</div>
+
+<script>
+const details = {
+  orient: {
+    title: "Project Orientation Protocol (IMP-112)",
+    body: `Run at the start of every session — new or resumed — before touching any data.<br>
+1. <strong>ls</strong> the project root to confirm authoritative directories exist.<br>
+2. Read the highest-versioned <code>na_module_manifest_v5.*.md</code> — it is the single source for current filenames.<br>
+3. Derive exact filenames from the manifest only. Never use memory or session summaries.<br>
+4. Prohibited: <code>deprecated/</code> and <code>Natural Areas supplelmental files/</code>.<br>
+5. No broad globs (<code>**/*.md</code>) — they surface deprecated files first.`
+  },
+  boot: {
+    title: "County Bootstrap (new counties only)",
+    body: `1. Create county folder: <code>County_Spreadsheets/{County}/</code><br>
+2. Create: raw_discovery YAML, handoff.md, session_log.md, config JSON.<br>
+3. Query DB for existing MC entities referencing this county (cross-county resolution §5).<br>
+4. Pull county baseline file if available.<br>
+5. Record known MC entities in handoff "Known Multi-County Entities" section.`
+  },
+  resume: {
+    title: "Resumed Session Protocol (IMP-074)",
+    body: `1. Run IMP-112 orientation first — always.<br>
+2. Read the county handoff.md to find current tier status.<br>
+3. Read <code>na_discovery_orchestration_v5.3.md</code> §6 and verify the handoff tier label matches the canonical tier order. Module wins on any disagreement.<br>
+4. Read the sub-procedure for the current tier before any work begins — not optional.`
+  },
+  t1: {
+    title: "Tier 1 — Federal & Tribal",
+    body: `Sub-procedure: <code>na_fed_tribal_discovery_subproc_v5.3.md</code><br>
+Sources: NPS, USFS, BLM, US Army Corps, FWS, tribal nations.<br>
+<strong>§3.7 VA National Cemetery Administration is mandatory</strong> — check cem.va.gov for national cemeteries and Soldiers' Lots.<br>
+NNL designation = federal attribute only; entity stays at its management tier (IMP-006).<br>
+NHA designations: no federal land ownership; individual sites stay at management tier (IMP-007).`
+  },
+  t2: {
+    title: "Tier 2 — State",
+    body: `Sub-procedure: <code>na_state_discovery_subproc_v5.5.md</code><br>
+Sources: ODNR state parks/forests/nature preserves, scenic rivers, state wildlife areas.<br>
+<strong>Public universities = Tier 2</strong> (arboreta, research wetlands, natural areas on campus). Private universities = Tier 8 (IMP-003).<br>
+ODNR-designated water trails: management tier governs; ODNR designation is a status attribute (IMP-009).<br>
+Scenic rivers: Water Site (category), subtype=River, designation=State Scenic River (IMP-019).`
+  },
+  t3: {
+    title: "Tier 3 — District (Metroparks, Conservancy Districts)",
+    body: `Sub-procedure: <code>na_district_discovery_subproc_v5.7.md</code><br>
+<strong>Ohio Auditor pre-enumeration (§3.0) is the MANDATORY FIRST STEP</strong> — search ohioauditor.gov for all park/special district entity types before any other source.<br>
+Covers: Metroparks, Park Districts, Conservancy Districts, Soil & Water Conservation Districts (SWCD = Tier 3, IMP-004).<br>
+Enumerate to Pre-Discovery Checklist; web-dark entities require documented null with Auditor Canvass Block format.`
+  },
+  t4: {
+    title: "Tier 4 — County",
+    body: `Sub-procedure: <code>na_county_discovery_subproc_v5.3.md</code><br>
+Sources: County parks/rec departments, county engineer, county auditor GIS.<br>
+<strong>For 15 MORPC-covered counties</strong>: cross-reference <code>Parks_and_Open_Space_7241389496048841555.csv</code> to confirm county-managed entities are captured before closing the tier.<br>
+County fairgrounds and county-owned golf courses: in scope (IMP-002).`
+  },
+  t5: {
+    title: "Tier 5 — Township",
+    body: `Sub-procedure: <code>na_township_discovery_subproc_v5.4.md</code><br>
+<strong>Enumerate townships from <code>Townships_Officials2022-2023.xlsx</code> first</strong> (filter by County Name; 1,307 active townships). Absence from OTA roster = defunct candidate (IMP-005).<br>
+Use Website column for trustee/fiscal officer pages as primary discovery source.<br>
+Verify county identity for township websites before treating as authoritative (IMP-012 wrong-county hazard).<br>
+Defunct township: zero entity records; document historical context and ORC confirmation.`
+  },
+  t6: {
+    title: "Tier 6 — Municipal (Cities & Villages)",
+    body: `Sub-procedure: <code>na_municipal_discovery_subproc_v5.9.md</code><br>
+<strong>Never skip a village because it seems too small.</strong> Never mark a village 0 parks without map-based verification.<br>
+Always view Google Maps directly for each municipality.<br>
+For 15 MORPC-covered counties: cross-reference <code>Parks_and_Open_Space_7241389496048841555.csv</code> filtered by Jurisdiction before closing tier.<br>
+JS-rendered / FacetWP listing pages: iterate all pages before treating list as complete (IMP-013).<br>
+&gt;100 parks: alphabetical batching, 100/batch (IMP-001).`
+  },
+  t7: {
+    title: "Tier 7 — Conservancy & Land Trust",
+    body: `Sub-procedure: <code>na_conservancy_discovery_subproc_v5.3.md</code><br>
+Sources: The Nature Conservancy, Western Reserve Land Conservancy, local land trusts, conservancies with Ohio Auditor registration.<br>
+Check PAD-US for conservancy-managed parcels not listed on organization websites.<br>
+Conservation easements on private land without public access: out of scope unless managing entity operates public programming.`
+  },
+  t8: {
+    title: "Tier 8 — Private",
+    body: `Sub-procedure: <code>na_private_discovery_subproc_v5.3.md</code><br>
+<strong>All golf courses regardless of access type</strong> — public, semi-private, members-only, closed/former (IMP-110).<br>
+<strong>Cemetery enumeration: GNIS mandatory cross-reference first</strong> — OhioGenealogyExpress.com → PeopleLegacy → USGS GNIS state file (IMP-111). List must be written to handoff Captured Source Data.<br>
+Commercial outdoor rec, outdoor amphitheaters, public campgrounds: in scope (IMP-073).<br>
+Private universities: Tier 8 (IMP-003).`
+  },
+  s1: {
+    title: "Stage 1 — Resolution Engine",
+    body: `Module: <code>na_resolution_engine_v5.5.md</code><br>
+<strong>Pass 1</strong>: Groups all discovered entities by identity. Detects duplicates, cross-tier variants, and cross-county candidates. Applies field authority rules. Produces merged canonical records.<br>
+<strong>Pass 2</strong>: Access Points only — resolves parent references (Trail, Trail Segment, Site) after Pass 1 canonical IDs are assigned.<br>
+Phase 0 (before grouping): MC candidate detection for cross-county entities.`
+  },
+  s2: {
+    title: "Stage 2 — GPS Acquisition",
+    body: `Module: <code>na_gps_acquisition_v5.3.md</code><br>
+<strong>2a Fill-Forward (IMP-031)</strong>: Load GPS acquired in any prior run. Do not overwrite previously acquired coordinates.<br>
+<strong>2b Acquisition</strong>: MORPC GIS layer is primary for 15-county region (96%+ coverage). Nominatim geocoding as fallback.<br>
+<strong>2c GPS Gate — Sites</strong>: Any Site without GPS and without <code>gps_unresolvable=true</code> → <code>held_entities</code> with <code>hold_reason=gps_missing</code>.<br>
+<strong>2d GPS Gate — APs</strong>: Same rule for Access Points.`
+  },
+  s3: {
+    title: "Stage 3 — Normalization Engine (Mandatory Blocking Gate)",
+    body: `Module: <code>na_normalization_engine_v5.8.md</code><br>
+<strong>No TSV output may proceed until every entity has an outcome: normalized, rejected, or held.</strong><br>
+Intra-normalization hold: child entities (APs, child Sites) whose parent is held → moved to held_entities with <code>hold_reason=parent_held</code>.<br>
+Canonical HELD_* hold_reason vocabulary enforced — 6 valid values only (IMP-113).<br>
+Vocabulary failures on required fields = FATAL REJECT (pipeline halts).<br>
+Township/municipality derived from GPS via point-in-polygon (IMP-066).`
+  },
+  s4: {
+    title: "Stage 4 — TSV Output",
+    body: `Read output spec for each entity type present before writing code.<br>
+<strong>Held entities excluded from all TSV files</strong> — they appear only in <code>held_entities</code> table (IMP-113).<br>
+Sites: 25 columns (fixed order). <code>site_id</code> and <code>features_raw</code> are DB-only — not in TSV.<br>
+Unmapped feature tokens logged to <code>normalization_provenance</code> as vocabulary expansion candidates (IMP-116).<br>
+Files with zero entities still get written (header row only).`
+  },
+  s45: {
+    title: "Stage 4.5 — Vocabulary Validation Gate (HALTS)",
+    body: `<strong>Pipeline halts on any violation.</strong><br>
+Validates: every category (18-value list), every subtype (per-category list), every designation, every status, and <strong>every features term against the §6.2 allowed features list</strong>.<br>
+The features check was added after 18 violations passed undetected in Fulton County — always include it.<br>
+Fix all violations before proceeding to Stage 5.`
+  },
+  s5: {
+    title: "Stage 5 — TSV Integrity Check (Non-Halting)",
+    body: `Module: <code>na_tsv_integrity_check_v5.3.md</code><br>
+Non-halting — logs warnings for review, does not stop the pipeline.<br>
+Checks: GPS presence/absence counts, all parent_site_id references resolve, no duplicate IDs within run, held entities each have a corresponding held_entities record.<br>
+<strong>Surfaces vocabulary expansion candidates</strong>: any <code>unmapped_token_dropped</code> provenance records from Normalization Step 5 (IMP-116) are listed here for future FEATURE_MAP additions.`
+  },
+  s55: {
+    title: "Stage 5.5 — Human Review Gate (PIPELINE HALTS)",
+    body: `<strong>Do not proceed to Stage 6 until a human has reviewed and confirmed.</strong><br>
+Review checklist:<br>
+• Entity counts reasonable — no unexpected zeros or inflated counts<br>
+• Category/subtype assignments substantively correct<br>
+• GPS coordinates plausible (spot-check against map)<br>
+• Held entities expected — no surprises<br>
+• <strong>AP→Site reclassification check (IMP-114)</strong>: any AP with acres_raw + description_raw + distinct governance → candidate for reclassification; see AP Normalization §10a<br>
+Explicit confirmation ("TSV looks good, proceed") required. Silence is not confirmation.`
+  },
+  s6: {
+    title: "Stage 6 — Database Upsert",
+    body: `<strong>Pre-upsert MC county format scan (IMP-115)</strong>: query DB for any MC entity with <code>"; "</code> in counties field (semicolon+space). Fix before running.<br>
+<strong>DDL required for all 3 table groups (IMP-087)</strong>: primary entity tables, relationship tables (site_parent, trail_to_segment…), operational tables (held_entities, manual_review_queue…), provenance tables (run_metadata, normalization_provenance…).<br>
+Upsert with <code>ON CONFLICT DO UPDATE</code>. Provenance tables populated during run — not deferred.<br>
+Key DB column name differences: <code>urls</code> (not url_secondary), <code>surface_type</code> (not surface), <code>network_id</code> (not site_network_id), <code>resolution_run</code> (not resolution_action).`
+  },
+  quality: {
+    title: "Quality & Improvement",
+    body: `Module: <code>na-quality.md</code><br>
+<strong>PAD-US Completeness Gate</strong>: post-pipeline cross-check against Protected Areas Database of the US; flag unmatched public lands entries.<br>
+<strong>Vocabulary Compliance Audit</strong>: load vocab from authoritative modules (never hardcode); check controlled fields only; free-text fields excluded.<br>
+<strong>County Mismatch Review</strong>: entities flagged <code>county_mismatch</code> by GPS county validation (IMP-067) reviewed in manual_review_queue.<br>
+<strong>IMP Tracker</strong>: add any new protocol gaps discovered during county work to <code>na_improvement_tracker.md</code> Section 1 immediately.`
+  }
+};
+
+function show(key) {
+  const d = details[key];
+  if (!d) return;
+  const panel = document.getElementById('detail');
+  panel.innerHTML = `<div class="dp-title">${d.title}</div><div class="dp-body">${d.body}</div>`;
+}
+</script>
+</body>
+</html>

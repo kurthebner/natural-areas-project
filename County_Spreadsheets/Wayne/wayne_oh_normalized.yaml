@@ -1,0 +1,1105 @@
+# NORMALIZATION OUTPUT — WAYNE COUNTY, OHIO
+# Generated: 2026-03-08 | Engine: v5.5 | Records: 79 input → 73 normalized, 6 held, 0 rejected
+#
+# HELD ENTITIES:
+#   T2-004  Killbuck Marsh WA — multi_county (Holmes)
+#   T2-007  Killbuck Marsh Obs. Trail — identity_uncertain
+#   T2-012  Funk Bottoms WA — multi_county (Ashland)
+#   T5-002  Chippewa Twp Nature Preserve trails — identity_uncertain
+#   T7-002  Sippo Valley Trail — multi_county (Stark)
+#   T7-004  Holmes County Trail — multi_county (Holmes)
+
+# T2-001 — Brown
+record_id: T2-001
+  name: "Brown"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "The Nature Conservancy"
+  governance: "Ohio Department of Natural Resources, Division of Natural Areas & Preserves (dedicated State Nature Preserve)"
+  gps_lat: 40.682973
+  gps_lon: -82.067569
+  plus_code: "86GVMWMJ+5X"
+  gps_status: CONFIRMED
+  discovery_tier: 2
+
+# T2-002 — Johnson Woods State Nature Preserve
+record_id: T2-002
+  name: "Johnson Woods State Nature Preserve"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Ohio Department of Natural Resources"
+  governance: "Ohio Department of Natural Resources, Division of Natural Areas & Preserves"
+  gps_lat: 40.888626
+  gps_lon: -81.744192
+  plus_code: "86GWV7Q4+F8"
+  gps_status: CONFIRMED
+  discovery_tier: 2
+
+# T2-003 — Shreve Lake Wildlife Area
+record_id: T2-003
+  name: "Shreve Lake Wildlife Area"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Ohio Department of Natural Resources"
+  governance: "Ohio Department of Natural Resources, Division of Wildlife"
+  gps_lat: 40.682994
+  gps_lon: -82.044038
+  plus_code: "86GVMXM4+59"
+  gps_status: CONFIRMED
+  discovery_tier: 2
+
+# T2-005 — Brown
+record_id: T2-005
+  name: "Brown"
+  entity_type: Trail
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "The Nature Conservancy"
+  governance: "Ohio Department of Natural Resources, Division of Natural Areas & Preserves (dedicated State Nature Preserve); managed by The Nature Conservancy"
+  gps_lat: 40.682973
+  gps_lon: -82.067569
+  plus_code: "86GVMWMJ+5X"
+  gps_status: CONFIRMED
+  discovery_tier: 2
+
+# T2-006 — Johnson Woods Boardwalk Trail
+record_id: T2-006
+  name: "Johnson Woods Boardwalk Trail"
+  entity_type: Trail
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Ohio Department of Natural Resources"
+  governance: "Ohio Department of Natural Resources, Division of Natural Areas & Preserves"
+  gps_lat: 40.888626
+  gps_lon: -81.744192
+  plus_code: "86GWV7Q4+F8"
+  gps_status: CONFIRMED
+  discovery_tier: 2
+
+# T2-008 — Shreve Lake Boat Launch
+record_id: T2-008
+  name: "Shreve Lake Boat Launch"
+  entity_type: Access Point
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Ohio Department of Natural Resources"
+  governance: "Ohio Department of Natural Resources, Division of Wildlife"
+  gps_lat: 40.68314
+  gps_lon: -82.04612
+  plus_code: "86GVMXM3+7H"
+  gps_status: CONFIRMED
+  discovery_tier: 2
+
+# T2-009 — Shreve Lake Fishing Pier
+record_id: T2-009
+  name: "Shreve Lake Fishing Pier"
+  entity_type: Access Point
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Ohio Department of Natural Resources"
+  governance: "Ohio Department of Natural Resources, Division of Wildlife"
+  gps_lat: 40.68314
+  gps_lon: -82.04612
+  plus_code: "86GVMXM3+7H"
+  gps_status: CONFIRMED
+  discovery_tier: 2
+
+# T2-010 — Killbuck Marsh Wildlife Area — Carrie Lane Parking Area
+record_id: T2-010
+  name: "Killbuck Marsh Wildlife Area — Carrie Lane Parking Area"
+  entity_type: Access Point
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Ohio Department of Natural Resources"
+  governance: "Ohio Department of Natural Resources, Division of Wildlife"
+  gps_lat: 40.671349
+  gps_lon: -81.966247
+  plus_code: "86GWM2CM+GG"
+  gps_status: CONFIRMED
+  discovery_tier: 2
+
+# T2-011 — Killbuck Marsh Wildlife Area — Wright Marsh Parking Area
+record_id: T2-011
+  name: "Killbuck Marsh Wildlife Area — Wright Marsh Parking Area"
+  entity_type: Access Point
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Ohio Department of Natural Resources"
+  governance: "Ohio Department of Natural Resources, Division of Wildlife"
+  gps_lat: 40.671349
+  gps_lon: -81.966247
+  plus_code: "86GWM2CM+GG"
+  gps_status: CONFIRMED
+  discovery_tier: 2
+
+# T3-001 — Barnes Preserve
+record_id: T3-001
+  name: "Barnes Preserve"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Wayne County Park District"
+  governance: "Wayne County Park District (Ohio statutory park district, ORC Chapter 1545; commissioners appointed by Probate Judge)"
+  gps_lat: 40.781233
+  gps_lon: -81.89694
+  plus_code: "86GWQ4J3+F6"
+  gps_status: CONFIRMED
+  discovery_tier: 3
+
+# T3-002 — Koehler
+record_id: T3-002
+  name: "Koehler"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Wayne County Park District"
+  governance: "Wayne County Park District (child site within Barnes Preserve)"
+  gps_lat: 40.781233
+  gps_lon: -81.89694
+  plus_code: "86GWQ4J3+F6"
+  gps_status: CONFIRMED
+  discovery_tier: 3
+
+# T3-003 — Casey
+record_id: T3-003
+  name: "Casey"
+  entity_type: Trail
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Wayne County Park District"
+  governance: "Wayne County Park District"
+  gps_lat: 40.781233
+  gps_lon: -81.89694
+  plus_code: "86GWQ4J3+F6"
+  gps_status: CONFIRMED
+  discovery_tier: 3
+
+# T3-004 — Barnes Preserve Main Entrance — Romich Pavilion Parking
+record_id: T3-004
+  name: "Barnes Preserve Main Entrance — Romich Pavilion Parking"
+  entity_type: Access Point
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Wayne County Park District"
+  governance: "Wayne County Park District"
+  gps_lat: 40.781233
+  gps_lon: -81.89694
+  plus_code: "86GWQ4J3+F6"
+  gps_status: CONFIRMED
+  discovery_tier: 3
+
+# T5-001 — Chippewa Township Nature Preserve
+record_id: T5-001
+  name: "Chippewa Township Nature Preserve"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Chippewa Township"
+  governance: "Chippewa Township"
+  gps_lat: 40.6624
+  gps_lon: -81.7025
+  plus_code: "86GWM76X+X2"
+  gps_status: CONFIRMED
+  discovery_tier: 5
+
+# T5-003 — Chippewa Township Nature Preserve — Galehouse Road Entrance
+record_id: T5-003
+  name: "Chippewa Township Nature Preserve — Galehouse Road Entrance"
+  entity_type: Access Point
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Chippewa Township"
+  governance: "Chippewa Township"
+  gps_lat: 40.6624
+  gps_lon: -81.7025
+  plus_code: "86GWM76X+X2"
+  gps_status: CONFIRMED
+  discovery_tier: 5
+
+# T6-001 — Wooster Memorial Park
+record_id: T6-001
+  name: "Wooster Memorial Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster (Public Properties Maintenance Division)"
+  gps_lat: 40.811007
+  gps_lon: -82.023044
+  plus_code: "86GVRX6G+CQ"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-002 — Wooster Memorial Park Trail System
+record_id: T6-002
+  name: "Wooster Memorial Park Trail System"
+  entity_type: Trail
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster"
+  gps_lat: 40.811007
+  gps_lon: -82.023044
+  plus_code: "86GVRX6G+CQ"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-003 — Wooster Memorial Park — Silver Road Main Entrance
+record_id: T6-003
+  name: "Wooster Memorial Park — Silver Road Main Entrance"
+  entity_type: Access Point
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster"
+  gps_lat: 40.813192
+  gps_lon: -82.027884
+  plus_code: "86GVRX7C+7R"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-004 — Wooster Memorial Park — Kenwood Acres ADA Entrance
+record_id: T6-004
+  name: "Wooster Memorial Park — Kenwood Acres ADA Entrance"
+  entity_type: Access Point
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster"
+  gps_lat: 40.811392
+  gps_lon: -82.020704
+  plus_code: "86GVRX6H+HP"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-005 — Oak Hill Park
+record_id: T6-005
+  name: "Oak Hill Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster (Public Properties Maintenance Division)"
+  gps_lat: 40.836059
+  gps_lon: -81.955606
+  plus_code: "86GWR2PV+CQ"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-006 — Donald and Alice Noble Trail
+record_id: T6-006
+  name: "Donald and Alice Noble Trail"
+  entity_type: Trail
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster"
+  gps_lat: 40.836059
+  gps_lon: -81.955606
+  plus_code: "86GWR2PV+CQ"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-007 — Freedlander Park
+record_id: T6-007
+  name: "Freedlander Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster (Parks & Recreation)"
+  gps_lat: 40.838412
+  gps_lon: -81.935627
+  plus_code: "86GWR3Q7+9P"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-008 — Christmas Run Park
+record_id: T6-008
+  name: "Christmas Run Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster (Parks & Recreation)"
+  gps_lat: 40.806486
+  gps_lon: -81.9467
+  plus_code: "86GWR343+H8"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-009 — Grosjean Park
+record_id: T6-009
+  name: "Grosjean Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster (Parks)"
+  gps_lat: 40.792605
+  gps_lon: -81.928697
+  plus_code: "86GWQ3VC+2G"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-010 — Walton Woods Park
+record_id: T6-010
+  name: "Walton Woods Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster (Parks)"
+  gps_lat: 40.810102
+  gps_lon: -81.962528
+  plus_code: "86GWR26P+2X"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-011 — Diller Park
+record_id: T6-011
+  name: "Diller Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster (Parks)"
+  gps_lat: 40.814196
+  gps_lon: -81.938734
+  plus_code: "86GWR376+MG"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-012 — Gerstenslager Park
+record_id: T6-012
+  name: "Gerstenslager Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster (Parks)"
+  gps_lat: 40.814625
+  gps_lon: -81.914602
+  plus_code: "86GWR37P+V5"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-013 — Stan Miller Park
+record_id: T6-013
+  name: "Stan Miller Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Wooster"
+  governance: "City of Wooster (Parks)"
+  gps_lat: 40.826899
+  gps_lon: -81.923812
+  plus_code: "86GWR3GG+QF"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-014 — Orr Park
+record_id: T6-014
+  name: "Orr Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "City of Orrville"
+  governance: "City of Orrville (Safety-Service Department)"
+  gps_lat: 40.84461
+  gps_lon: -81.77245
+  plus_code: "86GWR6VH+R2"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-015 — Gailey Park
+record_id: T6-015
+  name: "Gailey Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Orrville"
+  township: ""
+  ownership: "City of Orrville"
+  governance: "City of Orrville"
+  gps_lat: 40.835667
+  gps_lon: -81.755116
+  plus_code: "86GWR6PV+7X"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-015b — Orrville Dog Park
+record_id: T6-015b
+  name: "Orrville Dog Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Orrville"
+  township: ""
+  ownership: "City of Orrville"
+  governance: "City of Orrville"
+  gps_lat: 40.845003
+  gps_lon: -81.768516
+  plus_code: "86GWR6WJ+2H"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-016 — Morton Salt Park
+record_id: T6-016
+  name: "Morton Salt Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Rittman"
+  township: ""
+  ownership: "City of Rittman"
+  governance: "City of Rittman"
+  gps_lat: 40.974809
+  gps_lon: -81.780212
+  plus_code: "86GWX6F9+WW"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-017 — Vincent & Rose Tricomi Memorial Park
+record_id: T6-017
+  name: "Vincent & Rose Tricomi Memorial Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Rittman"
+  township: ""
+  ownership: "City of Rittman"
+  governance: "City of Rittman"
+  gps_lat: 40.97636
+  gps_lon: -81.77133
+  plus_code: "86GWX6GH+GF"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-018 — Rotary Park Tennis Courts
+record_id: T6-018
+  name: "Rotary Park Tennis Courts"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Rittman"
+  township: ""
+  ownership: "City of Rittman"
+  governance: "City of Rittman"
+  gps_lat: 40.97466
+  gps_lon: -81.79961
+  plus_code: "86GWX6F2+V5"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-021 — Martin Fritz Memorial Park
+record_id: T6-021
+  name: "Martin Fritz Memorial Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Rittman"
+  township: ""
+  ownership: "City of Rittman"
+  governance: "City of Rittman"
+  gps_lat: 40.977685
+  gps_lon: -81.773434
+  plus_code: "86GWX6HG+3J"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-022 — First Street Ashton Hall Park
+record_id: T6-022
+  name: "First Street Ashton Hall Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Rittman"
+  township: ""
+  ownership: "City of Rittman"
+  governance: "City of Rittman"
+  gps_lat: 40.971419
+  gps_lon: -81.783235
+  plus_code: "86GWX6C8+HP"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-023 — Central Park
+record_id: T6-023
+  name: "Central Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Rittman"
+  township: ""
+  ownership: "City of Rittman"
+  governance: "City of Rittman"
+  gps_lat: 40.971054
+  gps_lon: -81.786664
+  plus_code: "86GWX6C7+C8"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-024 — E.J. Young Grand View Park
+record_id: T6-024
+  name: "E.J. Young Grand View Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Rittman"
+  township: ""
+  ownership: "City of Rittman"
+  governance: "City of Rittman"
+  gps_lat: 40.970631
+  gps_lon: -81.791067
+  plus_code: "86GWX6C5+7H"
+  gps_status: APPROXIMATE
+  discovery_tier: 6
+
+# T6-025 — Washington Street Park
+record_id: T6-025
+  name: "Washington Street Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Rittman"
+  township: ""
+  ownership: "City of Rittman"
+  governance: "City of Rittman"
+  gps_lat: 40.97968
+  gps_lon: -81.793922
+  plus_code: "86GWX6H4+VC"
+  gps_status: APPROXIMATE
+  discovery_tier: 6
+
+# T6-026 — William J. Robertson Nature Preserve
+record_id: T6-026
+  name: "William J. Robertson Nature Preserve"
+  entity_type: Site
+  county: Wayne
+  municipality: "City of Rittman"
+  township: ""
+  ownership: "City of Rittman"
+  governance: "City of Rittman"
+  gps_lat: 40.977441
+  gps_lon: -81.764589
+  plus_code: "86GWX6GP+X5"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-019 — Apple Creek Park
+record_id: T6-019
+  name: "Apple Creek Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "Village of Apple Creek"
+  township: "East Union Township"
+  ownership: "Village of Apple Creek"
+  governance: "Village of Apple Creek"
+  gps_lat: 40.750882
+  gps_lon: -81.830626
+  plus_code: "86GWQ529+9P"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-Burbank-001 — Burbank Community Park
+record_id: T6-Burbank-001
+  name: "Burbank Community Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "Village of Burbank"
+  township: ""
+  ownership: "Village of Burbank"
+  governance: "Village of Burbank"
+  gps_lat: 40.988786
+  gps_lon: -81.996069
+  plus_code: "86GWX2Q3+GH"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-020 — Creston Community Park
+record_id: T6-020
+  name: "Creston Community Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "Village of Creston"
+  township: ""
+  ownership: "Village of Creston"
+  governance: "Village of Creston"
+  gps_lat: 40.98912
+  gps_lon: -81.892377
+  plus_code: "86GWX4Q5+J2"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-020b — Brooklyn Park
+record_id: T6-020b
+  name: "Brooklyn Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "Village of Creston"
+  township: ""
+  ownership: "Village of Creston"
+  governance: "Village of Creston"
+  gps_lat: 40.988632
+  gps_lon: -81.890036
+  plus_code: "86GWX4Q5+FX"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-D-001 — Memorial Park
+record_id: T6-D-001
+  name: "Memorial Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Doylestown"
+  governance: "Village of Doylestown"
+  gps_lat: 40.975713
+  gps_lon: -81.695668
+  plus_code: "86GWX8G3+7P"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-D-002 — Paridon Park
+record_id: T6-D-002
+  name: "Paridon Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Doylestown"
+  governance: "Village of Doylestown"
+  gps_lat: 40.969172
+  gps_lon: -81.698788
+  plus_code: "86GWX892+MF"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-D-003 — Gilcrest Park
+record_id: T6-D-003
+  name: "Gilcrest Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Doylestown"
+  governance: "Village of Doylestown"
+  gps_lat: 40.97744
+  gps_lon: -81.69901
+  plus_code: "86GWX8G2+X9"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-Fred-001 — Fredericksburg Community Park
+record_id: T6-Fred-001
+  name: "Fredericksburg Community Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "Village of Fredericksburg"
+  township: ""
+  ownership: "Village of Fredericksburg"
+  governance: "Village of Fredericksburg"
+  gps_lat: 40.678705
+  gps_lon: -81.86952
+  plus_code: "86GWM4HJ+F5"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-M-001 — Robert Brooker Nature Preserve
+record_id: T6-M-001
+  name: "Robert Brooker Nature Preserve"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Marshallville"
+  governance: "Village of Marshallville"
+  gps_lat: 40.901336
+  gps_lon: -81.727713
+  plus_code: "86GWW72C+GW"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-M-002 — Marshallville Tigers Trail
+record_id: T6-M-002
+  name: "Marshallville Tigers Trail"
+  entity_type: Trail
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Marshallville"
+  governance: "Village of Marshallville"
+  gps_lat: 40.901336
+  gps_lon: -81.727713
+  plus_code: "86GWW72C+GW"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-M-003 — Dwayne Groll Trail
+record_id: T6-M-003
+  name: "Dwayne Groll Trail"
+  entity_type: Trail
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Marshallville"
+  governance: "Village of Marshallville"
+  gps_lat: 40.901336
+  gps_lon: -81.727713
+  plus_code: "86GWW72C+GW"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-027 — Solar Trail
+record_id: T6-027
+  name: "Solar Trail"
+  entity_type: Trail
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Marshallville"
+  governance: "Village of Marshallville"
+  gps_lat: 40.901336
+  gps_lon: -81.727713
+  plus_code: "86GWW72C+GW"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-028 — Robert Brooker Nature Preserve — Heartland Trail Trailhead (Euclid Street)
+record_id: T6-028
+  name: "Robert Brooker Nature Preserve — Heartland Trail Trailhead (Euclid Street)"
+  entity_type: Access Point
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Marshallville / Rails to Trails of Wayne County"
+  governance: "Village of Marshallville (for RBNP); Rails to Trails of Wayne County (for Heartland Trail)"
+  gps_lat: 40.90068
+  gps_lon: -81.727749
+  plus_code: "86GWW72C+7W"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-029 — Marshallville Community Park
+record_id: T6-029
+  name: "Marshallville Community Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Marshallville"
+  governance: "Village of Marshallville"
+  gps_lat: 40.900306
+  gps_lon: -81.737956
+  plus_code: "86GWW726+4R"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-MtEaton-001 — Mt Eaton Community Park
+record_id: T6-MtEaton-001
+  name: "Mt Eaton Community Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "Village of Mt Eaton"
+  township: ""
+  ownership: "Village of Mt Eaton"
+  governance: "Village of Mt Eaton"
+  gps_lat: 40.698537
+  gps_lon: -81.700587
+  plus_code: "86GWM7XX+CQ"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-Shreve-001 — Shreve Village Park
+record_id: T6-Shreve-001
+  name: "Shreve Village Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "Village of Shreve"
+  township: ""
+  ownership: "Village of Shreve"
+  governance: "Village of Shreve"
+  gps_lat: 40.689009
+  gps_lon: -82.017811
+  plus_code: "86GVMXQJ+JV"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-Shreve-002 — Harold Miller Park
+record_id: T6-Shreve-002
+  name: "Harold Miller Park"
+  entity_type: Site
+  county: Wayne
+  municipality: "Village of Shreve"
+  township: ""
+  ownership: "Village of Shreve"
+  governance: "Village of Shreve"
+  gps_lat: 40.679412
+  gps_lon: -82.019446
+  plus_code: "86GVMXHJ+Q6"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-030 — Smithville Village Park
+record_id: T6-030
+  name: "Smithville Village Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of Smithville"
+  governance: "Village of Smithville"
+  gps_lat: 40.863101
+  gps_lon: -81.857337
+  plus_code: "86GWV47V+63"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T6-031 — Drake Park
+record_id: T6-031
+  name: "Drake Park"
+  entity_type: Site
+  county: Wayne
+  municipality: ""
+  township: ""
+  ownership: "Village of West Salem"
+  governance: "Village of West Salem"
+  gps_lat: 40.967464
+  gps_lon: -82.117952
+  plus_code: "86GVXV8J+XR"
+  gps_status: CONFIRMED
+  discovery_tier: 6
+
+# T7-001 — County Line Trail
+record_id: T7-001
+  name: "County Line Trail"
+  entity_type: Trail
+  county: Wayne
+  municipality: "discovery_tier: 7"
+  township: "municipality_raw:"
+  ownership: "Rails to Trails of Wayne County (501(c)(3) nonprofit)"
+  governance: "Rails to Trails of Wayne County"
+  gps_lat: 40.971878
+  gps_lon: -81.776917
+  plus_code: "86GWX6CF+Q6"
+  gps_status: CONFIRMED
+  discovery_tier: 7
+
+# T7-003 — Heartland Trail
+record_id: T7-003
+  name: "Heartland Trail"
+  entity_type: Trail
+  county: Wayne
+  municipality: "discovery_tier: 7"
+  township: "municipality_raw:"
+  ownership: "Rails to Trails of Wayne County (501(c)(3) nonprofit)"
+  governance: "Rails to Trails of Wayne County; City of Orrville (ODOT grant project inspection/oversight for Orrville section)"
+  gps_lat: 40.84069
+  gps_lon: -81.769863
+  plus_code: "86GWR6RJ+73"
+  gps_status: CONFIRMED
+  discovery_tier: 7
+
+# T7-TN-001 — Rails to Trails of Wayne County Trail System
+record_id: T7-TN-001
+  name: "Rails to Trails of Wayne County Trail System"
+  entity_type: Trail Network
+  county: Wayne
+  municipality: "discovery_tier: 7"
+  township: "municipality_raw:"
+  ownership: "Rails to Trails of Wayne County (County Line Trail, Heartland Trail, Wayne County section of Sippo Valley Trail)"
+  governance: "Rails to Trails of Wayne County"
+  gps_lat: 40.971878
+  gps_lon: -81.776917
+  plus_code: "86GWX6CF+Q6"
+  gps_status: CONFIRMED
+  discovery_tier: 7
+
+# T7-AP-001 — County Line Trail — Rittman Trailhead
+record_id: T7-AP-001
+  name: "County Line Trail — Rittman Trailhead"
+  entity_type: Access Point
+  county: Wayne
+  municipality: "discovery_tier: 7"
+  township: "municipality_raw:"
+  ownership: "Rails to Trails of Wayne County"
+  governance: "Rails to Trails of Wayne County"
+  gps_lat: 40.971878
+  gps_lon: -81.776917
+  plus_code: "86GWX6CF+Q6"
+  gps_status: CONFIRMED
+  discovery_tier: 7
+
+# T7-AP-002 — County Line Trail — Creston Trailhead
+record_id: T7-AP-002
+  name: "County Line Trail — Creston Trailhead"
+  entity_type: Access Point
+  county: Wayne
+  municipality: "discovery_tier: 7"
+  township: "municipality_raw:"
+  ownership: "Rails to Trails of Wayne County"
+  governance: "Rails to Trails of Wayne County"
+  gps_lat: 40.98918
+  gps_lon: -81.89246
+  plus_code: "86GWX4Q5+M2"
+  gps_status: CONFIRMED
+  discovery_tier: 7
+
+# T7-AP-003 — County Line Trail — Kauffman Avenue Sterling Access
+record_id: T7-AP-003
+  name: "County Line Trail — Kauffman Avenue Sterling Access"
+  entity_type: Access Point
+  county: Wayne
+  municipality: "discovery_tier: 7"
+  township: "municipality_raw:"
+  ownership: "Rails to Trails of Wayne County"
+  governance: "Rails to Trails of Wayne County"
+  gps_lat: 40.970757
+  gps_lon: -81.850588
+  plus_code: "86GWX4CX+8Q"
+  gps_status: CONFIRMED
+  discovery_tier: 7
+
+# T7-AP-004 — Sippo Valley Trail — Dalton Trailhead
+record_id: T7-AP-004
+  name: "Sippo Valley Trail — Dalton Trailhead"
+  entity_type: Access Point
+  county: Wayne
+  municipality: "discovery_tier: 7"
+  township: "municipality_raw:"
+  ownership: "Rails to Trails of Wayne County"
+  governance: "Rails to Trails of Wayne County"
+  gps_lat: 40.796528
+  gps_lon: -81.691498
+  plus_code: "86GWQ8W5+JC"
+  gps_status: CONFIRMED
+  discovery_tier: 7
+
+# T7-AP-005 — Heartland Trail — West Market Street Trailhead (Orrville)
+record_id: T7-AP-005
+  name: "Heartland Trail — West Market Street Trailhead (Orrville)"
+  entity_type: Access Point
+  county: Wayne
+  municipality: "discovery_tier: 7"
+  township: "municipality_raw:"
+  ownership: "Rails to Trails of Wayne County"
+  governance: "Rails to Trails of Wayne County"
+  gps_lat: 40.84069
+  gps_lon: -81.769863
+  plus_code: "86GWR6RJ+73"
+  gps_status: CONFIRMED
+  discovery_tier: 7
+
+# T7-AP-006 — Holmes County Trail — Fredericksburg Trailhead
+record_id: T7-AP-006
+  name: "Holmes County Trail — Fredericksburg Trailhead"
+  entity_type: Access Point
+  county: Wayne
+  municipality: "discovery_tier: 7"
+  township: "municipality_raw:"
+  ownership: "Holmes County Rails-to-Trails Coalition"
+  governance: "Holmes County Rails-to-Trails Coalition"
+  gps_lat: 40.675335
+  gps_lon: -81.8734
+  plus_code: "86GWM4GG+4J"
+  gps_status: CONFIRMED
+  discovery_tier: 7
+
+# T8-001 — Secrest Arboretum
+record_id: T8-001
+  name: "Secrest Arboretum"
+  entity_type: Site
+  county: Wayne
+  municipality: "discovery_tier: 8"
+  township: "municipality_raw:"
+  ownership: "The Ohio State University (OSU) — College of Food, Agricultural, and Environmental Sciences (CFAES)"
+  governance: "Ohio State University — CFAES; part of Ohio Agricultural Research and Development Center (OARDC) Wooster Campus"
+  gps_lat: 40.782984
+  gps_lon: -81.917203
+  plus_code: "86GWQ3MM+54"
+  gps_status: CONFIRMED
+  discovery_tier: 8
+
+# T8-002 — Vulture
+record_id: T8-002
+  name: "Vulture"
+  entity_type: Site
+  county: Wayne
+  municipality: "discovery_tier: 8"
+  township: "municipality_raw:"
+  ownership: "New private landowner (property auctioned December 31, 2025; new owner identity not publicly disclosed as of 2026-03-07; trail access continuing under Friends of Vultures Knob 501(c)(3) arrangement)"
+  governance: "Friends of Vultures Knob (501(c)(3) public charity) — manages trail access and maintenance on privately owned land"
+  gps_lat: 40.85097
+  gps_lon: -81.9806
+  plus_code: "86GWV229+9Q"
+  gps_status: CONFIRMED
+  discovery_tier: 8
+
+# T8-TR-001 — Vulture
+record_id: T8-TR-001
+  name: "Vulture"
+  entity_type: Trail
+  county: Wayne
+  municipality: "discovery_tier: 8"
+  township: "municipality_raw:"
+  ownership: "New private landowner (transferred Dec 31, 2025; see T8-002 for detail)"
+  governance: "Friends of Vultures Knob (501(c)(3) nonprofit)"
+  gps_lat: 40.85097
+  gps_lon: -81.9806
+  plus_code: "86GWV229+9Q"
+  gps_status: CONFIRMED
+  discovery_tier: 8
+
+# T8-AP-001 — Secrest Arboretum — Williams Road Entrance
+record_id: T8-AP-001
+  name: "Secrest Arboretum — Williams Road Entrance"
+  entity_type: Access Point
+  county: Wayne
+  municipality: "discovery_tier: 8"
+  township: "municipality_raw:"
+  ownership: "Ohio State University (OARDC)"
+  governance: "Ohio State University — CFAES / OARDC"
+  gps_lat: 40.782984
+  gps_lon: -81.917203
+  plus_code: "86GWQ3MM+54"
+  gps_status: CONFIRMED
+  discovery_tier: 8
+
+# T8-AP-002 — Vulture
+record_id: T8-AP-002
+  name: "Vulture"
+  entity_type: Access Point
+  county: Wayne
+  municipality: "discovery_tier: 8"
+  township: "municipality_raw:"
+  ownership: "New private landowner (transferred Dec 31, 2025; see T8-002 for detail)"
+  governance: "Friends of Vultures Knob"
+  gps_lat: 40.85097
+  gps_lon: -81.9806
+  plus_code: "86GWV229+9Q"
+  gps_status: CONFIRMED
+  discovery_tier: 8

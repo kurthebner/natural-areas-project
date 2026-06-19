@@ -1,0 +1,47 @@
+Park Name	Inferred Tags
+Academy Park	Trail Access, Ball Diamonds, Basketball, Athletic Complex
+Anheuser Busch Sports Park	Sports Fields, Soccer, Parking
+Berliner Sports Park	Baseball, Softball, Concessions, Tournament Facility
+Big Walnut Park	Trails, Nature Area, Creek Access
+Blackburn Park	Playground, Basketball, Shelter, Open Space
+Clinton-Como Park	Playground, Shelter, Basketball, Baseball
+Dodge Park	Pool, Recreation Center, Playground, Basketball
+Driving Park	Baseball, Basketball, Playground, Recreation Center
+Glen Echo Park	Nature Trail, Ravine, Passive Recreation
+Goodale Park	Playground, Pond, Walking Paths, Historic Features
+Hayden Falls Park	Waterfall, Boardwalk, Scenic Overlook, Nature Preserve
+Indian Mound Park	Mound, Historic Site, Passive Recreation
+Krumm Park	Baseball, Basketball, Playground, Fishing Pond
+Lazelle Woods Park	Trails, Playground, Shelter, Nature Area
+Marion Franklin Park	Recreation Center, Pool, Playground, Basketball
+McCoy Park	Playground, Shelter, Basketball, Open Field
+Nafzger Park	Playground, Basketball, Shelter
+Schiller Park	Historic Park, Gardens, Amphitheater, Walking Paths
+Scioto Audubon Metro Park	Climbing Wall, Trails, Dog Park, Wetlands, Birding
+Sullivant Gardens Park	Playground, Sprayground, Basketball, Community Garden
+Tuttle Park	Recreation Center, Pool, Playground, Trails
+Whetstone Park	Rose Garden, Trails, Playground, Shelter, Ravine
+Willis Park	Playground, Basketball, Open Space
+Woodward Park	Nature Preserve, Trails, Community Garden, Urban Forestry
+
+Park Name	Inferred Tags
+Academy Park	Trail Access, Ball Diamonds, Basketball, Athletic Complex
+Anheuser Busch Sports Park	Sports Fields, Soccer, Parking
+Big Walnut Park	Trails, Nature Area, Creek Access
+Blackburn Park	Playground, Basketball, Shelter, Open Space
+Clinton-Como Park	Playground, Shelter, Basketball, Baseball
+Dodge Park	Pool, Recreation Center, Playground, Basketball
+Driving Park	Baseball, Basketball, Playground, Recreation Center
+Glen Echo Park	Nature Trail, Ravine, Passive Recreation
+Goodale Park	Playground, Pond, Walking Paths, Historic Features
+Hayden Falls Park	Waterfall, Boardwalk, Scenic Overlook, Nature Preserve
+Indian Mound Park	Mound, Historic Site, Passive Recreation
+Krumm Park	Baseball, Basketball, Playground, Fishing Pond
+Lazelle Woods Park	Trails, Playground, Shelter, Nature Area
+Marion Franklin Park	Recreation Center, Pool, Playground, Basketball
+McCoy Park	Playground, Shelter, Basketball, Open Field
+Nafzger Park	Playground, Basketball, Shelter
+Schiller Park	Historic Park, Gardens, Amphitheater, Walking Paths
+Sullivant Gardens Park	Playground, Sprayground, Basketball, Community Garden
+Tuttle Park	Recreation Center, Pool, Playground, Trails
+Willis Park	Playground, Basketball, Open Space

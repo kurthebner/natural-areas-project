@@ -1,0 +1,320 @@
+PRELOADED|SAN-S-001||[41.341917, -83.130833]
+PRELOADED|SAN-S-002||[41.4161632, -82.9443582]
+ACCEPTED|SAN-S-006|Ron Abraham Forest, Sandusky County, Ohio|41.2611082,-83.0761884
+NULL|SAN-S-007|Aldrich Pond Wildlife Area, Sandusky County, Ohio|
+NULL|SAN-AP-001|Pickerel Creek Wildlife Area SR 6 observation deck, Sandusky County, Ohio|
+ACCEPTED|SAN-AP-007|201 Walnut Street, Fremont, Ohio|41.355695,-83.101152
+ACCEPTED|SAN-S-009|2134 County Road 260, Vickery, Ohio|41.3801124,-82.9376758
+ACCEPTED|SAN-S-010|2020 Old Oak Harbor Road, Fremont, Ohio|41.3658487,-83.1367028
+ACCEPTED|SAN-S-011|720 South Main Street, Lindsey, Ohio|41.410524,-83.221298
+NULL|SAN-S-012|2700 County Road 259, Fremont, Ohio|
+ACCEPTED|SAN-S-013|1329 Tiffin Street, Fremont, Ohio|41.331177,-83.1233166
+NULL|SAN-S-014|3861 County Road 184, Fremont, Ohio|
+NULL|SAN-S-015|Green Creek Township Reserve, Sandusky County, Ohio|
+NULL|SAN-S-016|Muddy Creek Reserve, Rice Township, Sandusky County, Ohio|
+NULL|SAN-S-017|1515 County Road 9, Fremont, Ohio|
+ACCEPTED|SAN-S-018|1616 North River Road, Fremont, Ohio|41.3630913,-83.0929109
+NULL|SAN-S-019|Ringneck Ridge, 2026 Township Road 74, Gibsonburg, Ohio|
+NULL|SAN-S-020|Shelley Wetland, Bellevue, Sandusky County, Ohio|
+NULL|SAN-S-021|2091 County Road 292, Bellevue, Ohio|
+ACCEPTED|SAN-S-022|2341 County Road 213, Clyde, Ohio|41.3240773,-82.9552758
+ACCEPTED|SAN-S-023|925 South Main Street, Gibsonburg, Ohio|41.3742643,-83.3203848
+ACCEPTED|SAN-S-024|925 South Main Street, Gibsonburg, Ohio|41.3742643,-83.3203848
+ACCEPTED|SAN-S-025|910 South Main Street, Gibsonburg, Ohio|41.372944,-83.3229861
+NULL|SAN-S-026|5013 County Road 65, Gibsonburg, Ohio|
+NULL|SAN-S-027|1330 County Road 66, Gibsonburg, Ohio|
+NULL|SAN-S-028|2409 South State Route 53, Fremont, Ohio|
+ACCEPTED|SAN-T-002|925 South Main Street, Gibsonburg, Ohio|41.3742643,-83.3203848
+NULL|SAN-T-003|5013 County Road 65, Gibsonburg, Ohio|
+NULL|SAN-AP-004|2091 County Road 292, Bellevue, Ohio|
+NULL|SAN-AP-005|1630 Walter Avenue, Fremont, Ohio|
+NULL|SAN-AP-006|2409 South State Route 53, Fremont, Ohio|
+NULL|SAN-S-029|2220 Tiffin Road, Fremont, Ohio|
+NULL|SAN-S-030|Chudzinski-Johannsen Park, Fremont, Ohio|
+NULL|SAN-S-031|Hydraulic Square, Fremont, Ohio|
+NULL|SAN-S-032|Sandusky Township Park, Fremont, Ohio|
+NULL|SAN-S-033|1225 Oakwood Street, Fremont, Ohio|
+NULL|SAN-S-034|Smith Cemetery, Jackson Township, Sandusky County, Ohio|
+ACCEPTED|SAN-S-035|West Union Cemetery, Gibsonburg, Ohio|41.383916,-83.3373576
+NULL|SAN-S-036|Briar Hill Cemetery, Rice Township, Sandusky County, Ohio|
+NULL|SAN-S-037|Greenwood Cemetery, Rice Township, Sandusky County, Ohio|
+NULL|SAN-S-038|Hineline Cemetery, Rice Township, Sandusky County, Ohio|
+NULL|SAN-S-039|LaPrairie Cemetery, Rice Township, Sandusky County, Ohio|
+NULL|SAN-S-040|Faith Lutheran Cemetery, Rice Township, Sandusky County, Ohio|
+NULL|SAN-S-041|363 North Erlin Road, Fremont, Ohio|
+ACCEPTED|SAN-S-042|1800 US Route 6, Fremont, Ohio|41.3422,-83.134024
+NULL|SAN-S-043|Schoch Cemetery, County Road 233, Fremont, Ohio|
+NULL|SAN-S-044|Green Creek Burial Ground, County Road 265, Fremont, Ohio|
+ACCEPTED|SAN-S-045|2529 Oak Harbor Road, Fremont, Ohio|41.3620481,-83.136704
+NULL|SAN-S-046|880 County Road 128, Fremont, Ohio|
+NULL|SAN-S-047|551 County Road 128, Fremont, Ohio|
+NULL|SAN-S-048|Chestnut Grove Cemetery, US Route 23, Scott Township, Sandusky County, Ohio|
+NULL|SAN-S-049|Parkhurst Cemetery, State Route 101, Townsend Township, Sandusky County, Ohio|
+NULL|SAN-S-050|Tew Cemetery, State Route 101, Townsend Township, Sandusky County, Ohio|
+ACCEPTED|SAN-S-051|Lindsey Cemetery, Lindsey, Ohio|41.4208752,-83.2122373
+NULL|SAN-S-052|Washington Chapel Cemetery, Washington Township, Sandusky County, Ohio|
+NULL|SAN-S-053|Hessville Cemetery, State Route 600, Washington Township, Sandusky County, Ohio|
+NULL|SAN-S-054|Westwood Cemetery, State Route 105, Woodville Township, Sandusky County, Ohio|
+NULL|SAN-S-055|Woodville Township Cemetery, County Road 30, Woodville, Ohio|
+NULL|SAN-S-056|Sugar Creek Cemetery, US Route 20, Woodville, Ohio|
+NULL|SAN-S-057|Ellsworth Cemetery, State Route 101, York Township, Sandusky County, Ohio|
+NULL|SAN-S-058|Wales Corners Cemetery, County Road 175, York Township, Sandusky County, Ohio|
+NULL|SAN-S-059|York Chapel Cemetery, County Road 292, York Township, Sandusky County, Ohio|
+NULL|SAN-S-060|Gilbert Cemetery, County Road 177, York Township, Sandusky County, Ohio|
+NULL|SAN-S-061|Wickwyre Cemetery, County Road 308, York Township, Sandusky County, Ohio|
+NULL|SAN-S-062|Green Creek Township Cemetery, Sandusky County, Ohio|
+ACCEPTED|SAN-S-063|1313 Oak Harbor Road, Fremont, Ohio|41.3613085,-83.136589
+ACCEPTED|SAN-S-064|601 St Joseph Street, Fremont, Ohio|41.3387031,-83.0950847
+ACCEPTED|SAN-S-065|1400 Birchard Avenue, Fremont, Ohio|41.3441875,-83.1282015
+ACCEPTED|SAN-S-066|1019 Birchard Avenue, Fremont, Ohio|41.3443851,-83.122966
+ACCEPTED|SAN-S-067|329 Avis Street, Fremont, Ohio|41.3428358,-83.1113643
+NULL|SAN-S-068|Corner of State Street and Front Street, Fremont, Ohio|
+ACCEPTED|SAN-S-069|610 Morrison Street, Fremont, Ohio|41.3366981,-83.1063404
+ACCEPTED|SAN-S-070|1111 Tiffin Street, Fremont, Ohio|41.334049,-83.120908
+ACCEPTED|SAN-S-071|344 2nd Street, Fremont, Ohio|41.3493313,-83.1061892
+NULL|SAN-AP-008|End of North Street, Fremont, Ohio|
+NULL|SAN-AP-009|Miles Newton Bridge, Fremont, Ohio|
+ACCEPTED|SAN-S-072|110 Cherry Boulevard, Bellevue, Ohio|41.2648103,-82.8339586
+NULL|SAN-S-073|Amsden Street Park, Bellevue, Ohio|
+NULL|SAN-S-074|Buckingham Drive Park, Bellevue, Ohio|
+NULL|SAN-S-075|Ellis Avenue Park, Bellevue, Ohio|
+ACCEPTED|SAN-S-076|Kern Street Park, Bellevue, Ohio|41.2739429,-82.8304148
+NULL|SAN-S-077|Ridge Drive Park, Bellevue, Ohio|
+NULL|SAN-S-078|Robert Peters Athletic Field, Bellevue, Ohio|
+ACCEPTED|SAN-S-082|240 South Main Street, Lindsey, Ohio|41.4198817,-83.2209231
+ACCEPTED|SAN-S-083|135 East Cherry Street, Clyde, Ohio|41.3028044,-82.9736439
+ACCEPTED|SAN-S-084|246 South Street, Clyde, Ohio|41.2999715,-82.9828669
+NULL|SAN-S-085|Vine Street Park, Clyde, Ohio|
+NULL|SAN-S-086|South Main Street at Raccoon Creek Reservoir, Clyde, Ohio|
+NULL|SAN-S-087|Mulberry Street at South Street, Clyde, Ohio|
+NULL|SAN-S-088|Raccoon Creek Reservoir, South Main Street, Clyde, Ohio|
+ACCEPTED|SAN-S-089|422 East McPherson Highway, Clyde, Ohio|41.3085702,-82.9702637
+NULL|SAN-S-090|West Yeasting Street at Gibson Street, Gibsonburg, Ohio|
+ACCEPTED|SAN-S-091|West Madison Street, Gibsonburg, Ohio|41.384526,-83.3391995
+NULL|SAN-S-092|East Stone Street at North Main Street, Gibsonburg, Ohio|
+NULL|SAN-S-093|Silver Rock Park, Township Road 42, Gibsonburg, Ohio|
+NULL|SAN-T-004|Silver Rock Park, Gibsonburg, Ohio|
+NULL|SAN-S-094|Main Street at Fort Findlay Road, Woodville, Ohio|
+ACCEPTED|SAN-S-095|Erie Street, Woodville, Ohio|41.450803,-83.3691538
+NULL|SAN-S-096|West First Street, Woodville, Ohio|
+OOB|SAN-S-097|Main Street, Woodville, Ohio|39.2551178,-84.0109371
+NULL|SAN-S-098|Cemetery Drive, Woodville, Ohio|
+NULL|SAN-S-099|3728 West Hayes Avenue, Fremont, Ohio|
+ACCEPTED|SAN-S-100|2340 East State Street, Fremont, Ohio|41.3435373,-83.0723295
+ACCEPTED|SAN-S-101|1959 South Main Street, Clyde, Ohio|41.2891729,-82.9751412
+NULL|SAN-S-102|4900 County Road 16, Woodville, Ohio|
+NULL|SAN-S-103|6029 State Route 101 East, Clyde, Ohio|
+ACCEPTED|SAN-S-104|1313 Tiffin Street, Fremont, Ohio|41.3314854,-83.1229827
+ACCEPTED|SAN-S-106|5690 County Road 237, Clyde, Ohio|41.3240773,-82.9552758
+ACCEPTED|SAN-S-108|County Home Cemetery, Sandusky County, Ohio|41.3607952,-83.0813314
+NULL|SAN-S-109|Old Fremont Cemetery, Fremont, Ohio|
+ACCEPTED|SAN-S-110|Green Springs Cemetery, Green Springs, Ohio|41.2590554,-83.0565087
+ACCEPTED|SAN-S-111|Reformed Church Cemetery, Bellevue, Ohio|41.2702192,-82.8486655
+NULL|SAN-S-112|Saint Ann Cemetery, Sandusky County, Ohio|
+NULL|SAN-S-113|Saint Joseph Cemetery, Sandusky County, Ohio|
+ACCEPTED|SAN-S-114|Saint Lawrence Cemetery, Sandusky County, Ohio|41.3965999,-83.3141567
+NULL|SAN-S-115|Saint Mary's Cemetery, Sandusky County, Ohio|
+NULL|SAN-S-116|Saint Paul's Cemetery, Sandusky County, Ohio|
+ACCEPTED|SAN-S-117|Saint Philomena Cemetery, Sandusky County, Ohio|41.4257857,-83.0670189
+ACCEPTED|SAN-S-118|Mount Lebanon Cemetery, Sandusky County, Ohio|41.3157017,-83.0785935
+ACCEPTED|SAN-S-119|Trinity Cemetery, Sandusky County, Ohio|41.2780253,-83.3501322
+ACCEPTED|SAN-S-120|North Union Cemetery, Sandusky County, Ohio|41.3981948,-83.3127409
+ACCEPTED|SAN-S-121|Greenlawn Memory Gardens, Sandusky County, Ohio|41.320589,-83.0196919
+ACCEPTED|SAN-S-122|Bakertown Cemetery, Sandusky County, Ohio|41.2882161,-83.0155112
+ACCEPTED|SAN-S-123|Bowlus Cemetery, Sandusky County, Ohio|41.3532242,-83.1742624
+ACCEPTED|SAN-S-124|Collins Cemetery, Sandusky County, Ohio|41.4379008,-83.329806
+ACCEPTED|SAN-S-125|Colwell Cemetery, Sandusky County, Ohio|41.2698183,-82.9798552
+ACCEPTED|SAN-S-126|Dana Cemetery, Sandusky County, Ohio|41.3285742,-83.052683
+ACCEPTED|SAN-S-127|Decker Cemetery, Sandusky County, Ohio|41.2663936,-83.131855
+ACCEPTED|SAN-S-128|Fuller Cemetery, Sandusky County, Ohio|41.3655273,-82.9118518
+ACCEPTED|SAN-S-129|Halters Cemetery, Sandusky County, Ohio|41.2900715,-83.1757308
+ACCEPTED|SAN-S-130|Hayes Cemetery, Sandusky County, Ohio|41.340053,-83.1301306
+ACCEPTED|SAN-S-131|Hill Cemetery, Sandusky County, Ohio|41.2633005,-83.1676531
+ACCEPTED|SAN-S-132|Hite Cemetery, Sandusky County, Ohio|41.2682049,-83.1902647
+ACCEPTED|SAN-S-133|Lathrop Cemetery, Sandusky County, Ohio|41.3928301,-83.0110269
+ACCEPTED|SAN-S-134|Ludwig Cemetery, Sandusky County, Ohio|41.3237581,-83.1964129
+ACCEPTED|SAN-S-135|McCreary Farm Cemetery, Sandusky County, Ohio|41.3917191,-82.9824149
+ACCEPTED|SAN-S-136|McGormley Cemetery, Sandusky County, Ohio|41.2997008,-83.1019483
+ACCEPTED|SAN-S-137|Metzgar Cemetery, Sandusky County, Ohio|41.3257928,-83.3012956
+ACCEPTED|SAN-S-138|Overmyer Cemetery, Sandusky County, Ohio|41.4160595,-83.2211806
+ACCEPTED|SAN-S-139|Pember Farm Cemetery, Sandusky County, Ohio|41.3345554,-83.3795536
+ACCEPTED|SAN-S-140|Quinshan Cemetery, Sandusky County, Ohio|41.3536589,-83.3598492
+ACCEPTED|SAN-S-141|Shawl Cemetery, Sandusky County, Ohio|41.3325525,-83.2121439
+ACCEPTED|SAN-S-142|Whittlesey Cemetery, Sandusky County, Ohio|41.3411305,-83.1217771
+
+=== PASS 2 RESULTS ===
+Entities in fallback_gps at start of pass 2: 68
+NULL_P2|SAN-S-012|Decoy Marsh, Fremont, Ohio|
+NULL_P2|SAN-S-012|Decoy Marsh, Sandusky County, Ohio|
+NULL_P2|SAN-S-014|Franklin Rosa Wildlife Preserve, Fremont, Ohio|
+NULL_P2|SAN-S-014|Rosa Wildlife Preserve, Sandusky County, Ohio|
+NULL_P2|SAN-S-015|Green Creek Reserve, Clyde, Ohio|
+NULL_P2|SAN-S-015|Green Creek Township Park, Sandusky County, Ohio|
+NULL_P2|SAN-S-016|Muddy Creek Reserve, Fremont, Ohio|
+NULL_P2|SAN-S-016|Muddy Creek Reserve, Sandusky County, Ohio|
+NULL_P2|SAN-S-017|Mull Covered Bridge, Fremont, Ohio|
+ACCEPTED_P2|SAN-S-017|Mull Covered Bridge, Sandusky County, Ohio|41.2608545,-83.1845162
+NULL_P2|SAN-S-019|Ringneck Ridge, Gibsonburg, Ohio|
+NULL_P2|SAN-S-019|Ringneck Ridge, Sandusky County, Ohio|
+NULL_P2|SAN-S-020|Shelley Wetland, Bellevue, Ohio|
+NULL_P2|SAN-S-020|Shelley Wetland, Sandusky County, Ohio|
+NULL_P2|SAN-S-021|Tea Kaufman Homestead, Bellevue, Ohio|
+NULL_P2|SAN-S-021|Tea Kaufman Homestead, Sandusky County, Ohio|
+NULL_P2|SAN-S-026|White Star Barn, Gibsonburg, Ohio|
+NULL_P2|SAN-S-026|5013 Township Road 65, Gibsonburg, Ohio|
+NULL_P2|SAN-S-027|Doug Haubert Wetland, Gibsonburg, Ohio|
+NULL_P2|SAN-S-027|Doug Haubert Wetland, Sandusky County, Ohio|
+NULL_P2|SAN-S-028|Wolf Creek Park, Fremont, Ohio|
+ACCEPTED_P2|SAN-S-028|Wolf Creek Park, Sandusky County, Ohio|41.2656973,-83.1663722
+NULL_P2|SAN-T-003|Waggoner's Run Trail, Gibsonburg, Ohio|
+NULL_P2|SAN-T-003|Waggoner's Run, Sandusky County, Ohio|
+NULL_P2|SAN-AP-004|Tea Kaufman Homestead Access, Bellevue, Ohio|
+ACCEPTED_P2|SAN-AP-004|2091 CR 292, Bellevue, Sandusky County, Ohio|41.271092,-82.8593206
+NULL_P2|SAN-AP-005|1630 Walter Avenue, Fremont, Ohio|
+NULL_P2|SAN-AP-005|Mosser Park, Fremont, Ohio|
+NULL_P2|SAN-AP-006|Wolf Creek Park canoe launch, Fremont, Ohio|
+ACCEPTED_P2|SAN-AP-006|2409 SR 53, Fremont, Sandusky County, Ohio|41.3292485,-83.1476915
+NULL_P2|SAN-AP-008|Sand Docks, Fremont, Ohio|
+NULL_P2|SAN-AP-008|Sandusky River boat launch, North Street, Fremont, Ohio|
+NULL_P2|SAN-AP-009|Miles Newton Bridge, Fremont, Ohio|
+NULL_P2|SAN-AP-009|Sandusky River fishing access, downtown Fremont, Ohio|
+NULL_P2|SAN-S-029|Conner Park, Fremont, Ohio|
+NULL_P2|SAN-S-029|2220 Tiffin Road, Fremont, Sandusky County, Ohio|
+NULL_P2|SAN-S-030|Tindall Bridge Park, Fremont, Ohio|
+NULL_P2|SAN-S-030|Chudzinski Johannsen Park, Fremont, Ohio|
+NULL_P2|SAN-S-031|Hydraulic Square Park, Fremont, Ohio|
+NULL_P2|SAN-S-031|Ballville Township Park, Fremont, Ohio|
+NULL_P2|SAN-S-032|Sandusky Township Park, Oak Harbor Road, Fremont, Ohio|
+NULL_P2|SAN-S-032|Sandusky Township recreational park, Sandusky County, Ohio|
+NULL_P2|SAN-S-033|1225 Oakwood Street, Fremont, Sandusky County, Ohio|
+NULL_P2|SAN-S-033|Oakwood Cemetery Fremont Ohio|
+NULL_P2|SAN-S-085|Gus Wolf Park, Clyde, Ohio|
+NULL_P2|SAN-S-085|Vine Street Park, Clyde, Sandusky County, Ohio|
+ACCEPTED_P2|SAN-S-086|Hendricks Park, Clyde, Ohio|41.2910278,-82.9755469
+NULL_P2|SAN-S-087|Paden Park, Clyde, Ohio|
+NULL_P2|SAN-S-087|Mulberry Street park, Clyde, Sandusky County, Ohio|
+ACCEPTED_P2|SAN-S-088|Raccoon Creek Reservoir, Clyde, Ohio|41.2898876,-82.9784313
+NULL_P2|SAN-S-090|Central Park, Gibsonburg, Ohio|
+NULL_P2|SAN-S-090|Gibsonburg central park Ohio|
+ACCEPTED_P2|SAN-S-092|Williams Park, Gibsonburg, Ohio|41.3874533,-83.3162542
+NULL_P2|SAN-S-093|Silver Rock Park, Gibsonburg, Ohio|
+NULL_P2|SAN-S-093|Silver Rock Park Sandusky County Ohio|
+NULL_P2|SAN-T-004|Silver Rock Park trail, Gibsonburg, Ohio|
+NULL_P2|SAN-T-004|Silver Rock Park, Sandusky County, Ohio|
+NULL_P2|SAN-S-094|Busdiecker Park, Woodville, Ohio|
+NULL_P2|SAN-S-094|Fort Findlay Road and Main Street, Woodville, Sandusky County, Ohio|
+NULL_P2|SAN-S-096|Veterans Park, Woodville, Ohio|
+NULL_P2|SAN-S-096|First Street park, Woodville, Ohio|
+NULL_P2|SAN-S-097|Limelite Eagle Park, Woodville, Sandusky County, Ohio|
+NULL_P2|SAN-S-097|US Route 20, Woodville, Ohio 43469|
+NULL_P2|SAN-S-098|Woodville Cemetery, Cemetery Drive, Woodville, Ohio|
+NULL_P2|SAN-S-098|Woodville Municipal Cemetery, Sandusky County, Ohio|
+NULL_P2|SAN-S-099|Sycamore Hills Golf Club, Fremont, Ohio|
+NULL_P2|SAN-S-099|Sycamore Hills Golf Course, Sandusky County, Ohio|
+NULL_P2|SAN-S-102|Hidden Hills Golf Club, Woodville, Ohio|
+NULL_P2|SAN-S-102|Hidden Hills Golf Course, Sandusky County, Ohio|
+NULL_P2|SAN-S-103|Sleepy Hollow Golf Course, Clyde, Ohio|
+NULL_P2|SAN-S-103|6029 State Route 101, Clyde, Sandusky County, Ohio|
+NULL_P2|SAN-S-041|Beeler Cemetery, Fremont, Ohio|
+NULL_P2|SAN-S-041|North Erlin Road cemetery, Fremont, Ohio|
+NULL_P2|SAN-S-043|Schoch Cemetery, Fremont, Ohio|
+ACCEPTED_P2|SAN-S-043|Schoch Cemetery, Sandusky County, Ohio|41.3567704,-83.0412
+NULL_P2|SAN-S-044|Green Creek Burial Ground, Riley Township, Sandusky County, Ohio|
+NULL_P2|SAN-S-044|Green Creek burial ground cemetery Ohio|
+NULL_P2|SAN-S-046|Four Mile House Cemetery, Sandusky County, Ohio|
+NULL_P2|SAN-S-046|Four Mile House Cemetery, Fremont, Ohio|
+NULL_P2|SAN-S-047|Slates Cemetery, Fremont, Ohio|
+NULL_P2|SAN-S-047|Slates Cemetery, Sandusky County, Ohio|
+NULL_P2|SAN-S-048|Chestnut Grove Cemetery, Fremont, Ohio|
+OOB_P2|SAN-S-048|Chestnut Grove Cemetery Ohio|41.3761306,-81.8952034
+NULL_P2|SAN-S-049|Parkhurst Cemetery, Sandusky County, Ohio|
+NULL_P2|SAN-S-049|Parkhurst Cemetery, Bellevue, Ohio|
+ACCEPTED_P2|SAN-S-050|Tew Cemetery, Sandusky County, Ohio|41.3676911,-82.856351
+ACCEPTED_P2|SAN-S-052|Washington Chapel Cemetery, Sandusky County, Ohio|41.36045,-83.2378175
+ACCEPTED_P2|SAN-S-053|Hessville Cemetery, Sandusky County, Ohio|41.3942893,-83.2465473
+NULL_P2|SAN-S-054|Westwood Cemetery, Woodville, Ohio|
+ACCEPTED_P2|SAN-S-054|Westwood Cemetery, Sandusky County, Ohio|41.4503366,-83.3857544
+NULL_P2|SAN-S-055|Woodville Township Cemetery, Woodville, Ohio|
+NULL_P2|SAN-S-055|Woodville Township Cemetery, Sandusky County, Ohio|
+NULL_P2|SAN-S-056|Sugar Creek Cemetery, Woodville, Ohio|
+NULL_P2|SAN-S-056|Sugar Creek Cemetery, Sandusky County, Ohio|
+NULL_P2|SAN-S-057|Ellsworth Cemetery, Fremont, Ohio|
+ACCEPTED_P2|SAN-S-057|Ellsworth Cemetery, Sandusky County, Ohio|41.3298567,-82.9264007
+NULL_P2|SAN-S-058|Wales Corners Cemetery, Sandusky County, Ohio|
+NULL_P2|SAN-S-058|Wales Corners Cemetery, Ohio|
+ACCEPTED_P2|SAN-S-059|York Chapel Cemetery, Sandusky County, Ohio|41.2799189,-82.898989
+NULL_P2|SAN-S-060|Gilbert Cemetery, York Township, Ohio|
+ACCEPTED_P2|SAN-S-060|Gilbert Cemetery, Sandusky County, Ohio|41.2775872,-82.9183005
+NULL_P2|SAN-S-061|Wickwyre Cemetery, York Township, Ohio|
+NULL_P2|SAN-S-061|Wickwyre Cemetery, Sandusky County, Ohio|
+NULL_P2|SAN-S-068|State Street and Front Street park, Fremont, Ohio|
+ACCEPTED_P2|SAN-S-068|Tschumy Corner, Fremont, Ohio|41.3472112,-83.113371
+NULL_P2|SAN-S-073|Amsden Park, Bellevue, Ohio|
+NULL_P2|SAN-S-073|Amsden Street, Bellevue, Sandusky County, Ohio|
+NULL_P2|SAN-S-074|Buckingham Park, Bellevue, Ohio|
+NULL_P2|SAN-S-074|Buckingham Drive park, Bellevue, Ohio|
+ACCEPTED_P2|SAN-S-075|Ellis Park, Bellevue, Ohio|41.2675128,-82.8459825
+ACCEPTED_P2|SAN-S-077|Ridge Park, Bellevue, Ohio|41.274828,-82.8223723
+NULL_P2|SAN-S-078|Robert Peters Athletic Field, Bellevue, Ohio|
+NULL_P2|SAN-S-078|Greenwood Heights athletic field, Bellevue, Ohio|
+
+=== PASS 3 RESULTS ===
+NULL_P3|SAN-S-012|2770 County Road 259, Fremont, Ohio
+ACCEPTED_P3|SAN-S-012|2770 CR 259, Fremont, Sandusky County, Ohio|41.349385,-83.1547888
+ACCEPTED_P3|SAN-S-014|3861 CR 184, Fremont, Sandusky County, Ohio|41.2752671,-83.0910848
+NULL_P3|SAN-S-019|1818 Township Road 74, Gibsonburg, Ohio
+NULL_P3|SAN-S-019|2026 Township Road 74, Gibsonburg, Ohio
+NULL_P3|SAN-S-020|CR 292 and Township Road 177, Bellevue, Ohio
+NULL_P3|SAN-S-020|County Road 292 at Township Road 177, Sandusky County, Ohio
+ACCEPTED_P3|SAN-S-021|County Road 292, Bellevue, Sandusky County, Ohio|41.2808232,-82.8591929
+NULL_P3|SAN-AP-005|1630 Walter Avenue, Fremont, Sandusky County, Ohio
+NULL_P3|SAN-AP-005|Mosser Park, 1630 Walter Avenue, Fremont, Ohio
+NULL_P3|SAN-AP-008|North Street boat ramp, Fremont, Ohio
+ACCEPTED_P3|SAN-AP-008|600 North Street, Fremont, Ohio|41.3613319,-83.1222343
+NULL_P3|SAN-AP-009|Miles Newton Bridge fishing access, Sandusky River, Fremont, Ohio
+ACCEPTED_P3|SAN-AP-009|State Street, Fremont, Sandusky County, Ohio|41.3520403,-83.1250278
+NULL_P3|SAN-S-029|2220 Tiffin Road, Fremont, Sandusky County, Ohio
+NULL_P3|SAN-S-029|Tiffin Road park, Fremont, Ohio
+NULL_P3|SAN-S-033|Oakwood Cemetery, Fremont, Ohio
+ACCEPTED_P3|SAN-S-033|Oakwood Cemetery, Sandusky County, Ohio|41.3303358,-83.1384893
+ACCEPTED_P3|SAN-S-085|Vine Street, Clyde, Sandusky County, Ohio|41.3029499,-82.9846303
+NULL_P3|SAN-S-090|Central Park Gibsonburg Ohio
+NULL_P3|SAN-S-090|Gibsonburg village park Ohio
+NULL_P3|SAN-S-093|Silver Rock Park, west of Gibsonburg, Ohio
+ACCEPTED_P3|SAN-S-093|Township Road 42 Gibsonburg Ohio|41.3910034,-83.3001901
+NULL_P3|SAN-T-004|Silver Rock Park, west of Gibsonburg, Sandusky County, Ohio
+NULL_P3|SAN-T-004|Silver Rock Quarry trail Ohio
+NULL_P3|SAN-S-094|US Route 20 at Fort Findlay Road, Woodville, Ohio
+OOB_P3|SAN-S-094|Woodville Ohio US 20 park|41.6090913,-83.4750265
+NULL_P3|SAN-S-096|Veterans Park, Woodville, Ohio
+NULL_P3|SAN-S-096|West First Street, Woodville, Sandusky County, Ohio
+NULL_P3|SAN-S-097|Woodville Ohio 43469 US Route 20
+ACCEPTED_P3|SAN-S-097|43 West Main Street, Woodville, Ohio|41.4509489,-83.3642571
+NULL_P3|SAN-S-098|Woodville Cemetery, County Road 907, Woodville, Ohio
+ACCEPTED_P3|SAN-S-098|Woodville Ohio cemetery|41.3536589,-83.3598492
+NULL_P3|SAN-S-099|Sycamore Hills Golf, 3728 West Hayes Avenue, Fremont, Ohio
+NULL_P3|SAN-S-099|3728 W Hayes Ave Fremont OH
+NULL_P3|SAN-S-102|Hidden Hills Golf, County Road 16, Woodville, Ohio
+NULL_P3|SAN-S-102|CR 16 Woodville Ohio golf
+NULL_P3|SAN-S-103|Sleepy Hollow Golf, 6029 State Route 101 East, Clyde, Ohio
+ACCEPTED_P3|SAN-S-103|6029 SR 101 E Clyde Ohio|41.2953389,-82.974936
+NULL_P3|SAN-S-030|Tindall Bridge Park, Fremont, Ohio
+NULL_P3|SAN-S-030|Sandusky River park, Tindall Road, Fremont, Ohio
+NULL_P3|SAN-S-031|Hydraulic Square, Ballville, Fremont, Ohio
+ACCEPTED_P3|SAN-S-031|Fremont Ohio Ballville park|41.343998,-83.1234701
+NULL_P3|SAN-S-041|Beeler Cemetery, Erlin Road, Fremont, Ohio
+OOB_P3|SAN-S-041|Beeler Cemetery Ohio|40.2208753,-84.6366106
+NULL_P3|SAN-S-044|Green Creek Burial Ground, County Road 265, Fremont, Ohio
+NULL_P3|SAN-S-044|Riley Township cemetery, Fremont, Ohio
+NULL_P3|SAN-S-046|Four Mile House Cemetery, County Road 128, Fremont, Ohio
+NULL_P3|SAN-S-046|Four Mile House Cemetery Ohio
+NULL_P3|SAN-S-047|Slates Cemetery, County Road 128, Fremont, Ohio
+NULL_P3|SAN-S-047|Slates Cemetery Ohio
+NULL_P3|SAN-S-055|Woodville Township Cemetery, Lime Road, Woodville, Ohio
+NULL_P3|SAN-S-055|Woodville Township Cemetery Ohio
+NULL_P3|SAN-S-056|Sugar Creek Cemetery, Woodville, Ohio
+NULL_P3|SAN-S-056|Sugar Creek Cemetery Sandusky County Ohio
+NULL_P3|SAN-S-058|Wales Corners Cemetery, York Township, Ohio
+ACCEPTED_P3|SAN-S-058|Wales Corners Ohio cemetery|41.3164961,-82.9016617
+NULL_P3|SAN-S-061|Wickwyre Cemetery, Ohio
+NULL_P3|SAN-S-061|Wickwyre Cemetery York Township Ohio

@@ -1,0 +1,1926 @@
+# Scioto County, Ohio — Raw Discovery Staging File
+# County: Scioto | State: Ohio | FIPS: 39145
+# Bootstrap date: 2026-03-28
+# Discoverer: Claude (Cowork session)
+# Format: one YAML record per entity, separated by ---
+# Fields: all _raw; no normalization; no township/municipality
+#
+# Entity ID prefix: SC-
+#   Sites:          SC-S-0001, SC-S-0002, ...
+#   Trails:         SC-T-0001, SC-T-0002, ...
+#   Trail Segments: SC-TS-0001, ...
+#   Trail Networks: SC-TN-0001, ...
+#   Site Networks:  SC-SN-0001, ...
+#   Access Points:  SC-AP-0001, ...
+#
+# Append records below this line. Never hold records in chat.
+# ============================================================
+
+---
+entity_type: Site
+name_raw: "Wayne National Forest - Ironton Unit"
+county_primary: Scioto
+counties_raw: ["Lawrence County, Ohio", "Gallia County, Ohio", "Scioto County, Ohio", "Jackson County, Ohio"]
+ownership_raw: "United States federal government"
+governance_raw: "USDA Forest Service, Wayne National Forest, Ironton Ranger District"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "National Forest"
+acres_raw: "107,090 (Ironton Unit total; Scioto County portion is dispersed non-contiguous parcels)"
+location_raw: "Ironton Ranger District; ranger station at Pedro, Ohio; Scioto County parcels are dispersed across the county"
+description_raw: "The Ironton Unit is the southernmost of three units comprising Wayne National Forest, Ohio's only national forest. The unit covers 107,090 acres across Lawrence, Gallia, Scioto, and Jackson counties, with over two-thirds of acreage in Lawrence County. Primary developed recreation areas (Lake Vesuvius Recreation Area, Hanging Rock OHV Trail System) are located in Lawrence County. The Scioto County portion consists of dispersed non-contiguous federal parcels used for dispersed hiking, hunting, and wildlife habitat."
+features_raw: "Hiking; Horseback riding; OHV trails; Hunting; Fishing; Dispersed camping; Wildlife viewing"
+gps_lat_raw: 38.6091579
+gps_lon_raw: -82.6480994
+urls_raw:
+  - "https://www.fs.usda.gov/r09/wayne"
+  - "https://www.fs.usda.gov/r09/wayne/recreation/ironton-ranger-district-ironton-area-0"
+identity_notes_raw: "Multi-county entity; Scioto County is one of four counties in the Ironton Unit. The unit is a non-contiguous 'checkerboard' pattern of federal ownership mixed with private land. No specific named recreation sites confirmed within Scioto County parcels from web research; Lake Vesuvius (143 ac lake, campgrounds, beach, 25+ mi hiking, 46-mi horse trails) and Hanging Rock OHV (26 mi) are in Lawrence County; Symmes Creek trail system is in Gallia County. WNF website blocked during discovery — Scioto County trail inventory incomplete, flagged for verification."
+discovery_tier: 1
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Alum Rock"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: ""
+governance_raw: ""
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Area type 'Pillar' in GNIS"
+acres_raw: ""
+location_raw: "Scioto County, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: "GPS_NEEDED"
+gps_lon_raw: "GPS_NEEDED"
+urls_raw: []
+identity_notes_raw: "GNIS feature type: Pillar (natural rock formation or prominent rock outcrop). Federally recognized geographic name. GPS coordinates not confirmed through available web sources during discovery — GNIS database and USGS topo viewer blocked. Land ownership and management entity unknown; may be on private land, state forest, or national forest. Flagged for GPS acquisition and ownership verification."
+discovery_tier: 1
+seeded_from_baseline: true
+baseline_id: "4"
+
+---
+entity_type: Site
+name_raw: "High Rock"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: ""
+governance_raw: ""
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Area type 'Pillar' in GNIS"
+acres_raw: ""
+location_raw: "USGS Greenup topographic quad, Scioto County, Ohio; near Ohio River"
+description_raw: "Natural rock pillar feature in Scioto County, near the Ohio River. Elevation approximately 781 feet (238 meters) above sea level."
+features_raw: ""
+gps_lat_raw: "38.5884126"
+gps_lon_raw: "-82.7973891"
+urls_raw:
+  - "https://ohio.hometownlocator.com/maps/feature-map,ftc,1,fid,1076045,n,high rock.cfm"
+  - "https://www.mountainzone.com/mountains/ohio/scioto-oh/pillar/high-rock-30/"
+identity_notes_raw: "GNIS feature type: Pillar (natural rock formation). Federally recognized geographic name. GPS 38.5884126 N, -82.7973891 W from hometownlocator.com citing GNIS; elevation ~781 ft (238 m); on USGS Greenup topographic quad. Location is near Ohio River — Greenup quad covers both Ohio and Kentucky sides of river; Ohio county attribution per GNIS record. Land ownership and management entity unknown. GNIS feature ID: 1076045 (per hometownlocator URL)."
+discovery_tier: 1
+seeded_from_baseline: true
+baseline_id: "15"
+
+# ============================================================
+# TIER 2 — STATE
+# ============================================================
+
+---
+entity_type: Site
+name_raw: "Shawnee State Forest"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio", "Adams County, Ohio"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+partner_agencies_raw: "Shawnee Bridle Club (trail maintenance partnership)"
+coordination_raw: ""
+category_raw: "State Forest"
+acres_raw: "63,747"
+location_raw: "13291 US-52, West Portsmouth, Ohio 45663; Scioto and Adams counties; western Appalachian foothills"
+description_raw: "Ohio's largest state forest at 63,747 acres, spanning Scioto and Adams counties in the Appalachian foothills near the Ohio River. Nicknamed 'The Little Smokies' for its rugged terrain and fog-filled hollows. Contains approximately 8,000 acres of designated wilderness — the largest contiguous wilderness in Ohio. Managed for timber, recreation, and wildlife habitat. Contains the Shawnee Backpack Trail (40+ mi, includes Buckeye Trail and North Country Trail segments), 60+ miles of bridle trails, mountain bike trails (recently added), and numerous day hiking trails."
+features_raw: "Backpacking; Hiking; Horseback riding; Mountain biking; Hunting; Fishing; Dispersed camping; Horsemen's campground (20 sites near Bear Lake); Wildlife viewing; Wilderness area (~8,000 ac); Bridle trails (60+ mi)"
+gps_lat_raw: "38.7032684"
+gps_lon_raw: "-83.0888916"
+phone_raw: "(740) 858-6685"
+urls_raw:
+  - "https://forestry.ohiodnr.gov/shawnee"
+  - "https://www.backpackohio.com/trails/shawnee-state-forest-backpack-trail/"
+  - "https://www.sohiotrails.org/trails/shawnee-backpacking-trail/"
+  - "https://www.trailforks.com/region/shawnee-state-forest-36317/"
+identity_notes_raw: "Largest state forest in Ohio. Entity encompasses Shawnee State Forest management unit; Shawnee State Park (SC-S-0005 pending) is a separate 1,095-acre ODNR Parks unit adjacent to and surrounded by the Forest, administered by a different ODNR division. Child historic sites: CCC Memorial to Company 1545 (Ohio Historic Site #50, SC-S-0009 pending) and Copperhead Fire Tower (Ohio Historic Site #6, SC-S-0010 pending). Wilderness: approximately 8,000-acre designated wilderness area is the largest contiguous wilderness in Ohio. Horsemen's camp: 20-site facility near Bear Lake on State Forest Service Road 6. Mountain bike trails confirmed to exist at Shawnee State Forest (Trailforks page for 'Shawnee State Forest, West Portsmouth Mountain Biking Trails') but specific named trails not confirmed from web search — flagged PENDING VERIFICATION. GPS is headquarters reference point (38.7032684, -83.0888916) at 13291 US-52, West Portsmouth, OH 45663 — forest spans two counties; no meaningful centroid exists. GPS confirmed via Google Maps. Primary county: Scioto (county of record for forest headquarters and majority of use). Scioto County Shawnee Bridge to Bridge Route: 36-mile shared-roadway bicycle route from Otway Covered Bridge to Mackletree Bridge passing through portions of the forest — assess for Trail entity at Tier 8 or note."
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: "26"
+
+---
+entity_type: Site
+name_raw: "Shawnee State Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Parks and Watercraft"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "State Park"
+acres_raw: "1,095 (park documentation/AllTrails; baseline record shows 1,163 — discrepancy noted)"
+location_raw: "4404 OH-125, West Portsmouth, Ohio 45663; surrounded by Shawnee State Forest"
+description_raw: "A 1,095-acre state park nestled within Shawnee State Forest, offering a full range of park amenities. Features Shawnee State Lodge (50 rooms), two lakes (Roosevelt Lake and Turkey Creek Lake, 68 acres combined), a marina on the Ohio River (72 docks), 10 hiking trails, and a campground opened in 2023. The Black Bear Disc Golf Course is on-site. Mini golf available. A golf course operated until 2019 then closed."
+features_raw: "Hiking (10 trails); Lodging (Shawnee Lodge, 50 rooms); Marina (Ohio River, 72 docks); Camping (campground opened 2023); Fishing; Boating; Disc golf (Black Bear course); Mini golf; Two lakes (Roosevelt Lake and Turkey Creek Lake, 68 ac total)"
+gps_lat_raw: "38.7397953"
+gps_lon_raw: "-83.2035869"
+phone_raw: "(740) 858-6652"
+urls_raw:
+  - "https://parks.ohiodnr.gov/shawnee"
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/parkmaps/shawneeparkmap.pdf"
+identity_notes_raw: "GPS confirmed via Google Maps (38.7397953, -83.2035869); address: 4404 OH-125, West Portsmouth, OH 45663. Acreage discrepancy: baseline records 1,163 ac; AllTrails and park literature show 1,095 ac; both figures preserved. Shawnee State Park is distinct from Shawnee State Forest (SC-S-0004) and is administered by ODNR Division of Parks and Watercraft (not Division of Forestry). The Shawnee Backpack Trail (SC-T-0001) traverses both units. Day hiking trails within the park boundary (Lampblack, Park Loop, Knighton, Lookout, Campground Loop) are separate Trail entities (SC-T-0002 through SC-T-0006). Golf course closed 2019; area repurposed for Black Bear Disc Golf Course. Campground opened 2023 — new facility not in pre-2023 documentation."
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: "27"
+
+---
+entity_type: Site
+name_raw: "Gladys Riley Golden-star State Nature Preserve"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia (fee ownership of larger 230-acre parcel)"
+governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves (state nature preserve designation); Arc of Appalachia (on-the-ground management)"
+partner_agencies_raw: "Arc of Appalachia"
+coordination_raw: "State-private partnership: ODNR designates and oversees SNP; Arc of Appalachia owns land and manages preserve"
+category_raw: "State Nature Preserve"
+acres_raw: "186 (ODNR SNP designation boundary); 230 (Arc of Appalachia total preserve — see identity notes)"
+location_raw: "Tick Ridge-Koenig Hill Rd, Otway, Ohio 45657; Scioto County, Ohio"
+description_raw: "A State Nature Preserve protecting golden star lily (Erythronium rostellatum), an Ohio Threatened species, and one of the finest examples of this rare wildflower community in the state. The ODNR state nature preserve designation covers 186 acres within the larger 230-acre Arc of Appalachia preserve. Features a floodplain trail and an oak-hickory hillside trail. Permit required for access."
+features_raw: "Hiking (two trails: floodplain trail and oak-hickory hillside trail); Rare plant observation (golden star lily, Ohio Threatened); Wildflower study; Permit required"
+gps_lat_raw: "38.8506197"
+gps_lon_raw: "-83.2018817"
+urls_raw:
+  - "https://naturepreserves.ohiodnr.gov/gladysriley"
+  - "https://arcofappalachia.org/gladys-riley-golden-star-lily-preserve/"
+identity_notes_raw: "GPS confirmed via Google Maps (38.8506197, -83.2018817); access via Tick Ridge-Koenig Hill Rd, Otway, OH 45657. Dual-record entity: this record represents the ODNR state nature preserve designation (186 acres). The Arc of Appalachia owns the full 230-acre parcel, recorded separately as 'Gladys Riley Golden Star Lily Preserve' at Tier 8. The 44-acre difference reflects a 2015 Arc of Appalachia acquisition of 118 adjacent acres; the ODNR SNP boundary was set at 186 ac prior to that expansion and has not been revised to encompass the full Arc parcel. These are not duplicate records: ODNR manages the conservation designation; Arc manages the land. Acreage discrepancy documented per pre-discovery analysis. Two trails confirmed: floodplain trail (lower) and oak-hickory hillside trail (upper). Permit required — contact ODNR DNAP."
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: "12"
+
+---
+entity_type: Site
+name_raw: "Raven Rock State Nature Preserve"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "State Nature Preserve"
+acres_raw: "95 (ODNR permit access page and ODNR Natural Arches page; earlier secondary source said 98 — 95 confirmed from ODNR)"
+location_raw: "Scioto County, Ohio"
+description_raw: "A 95-acre permit-only state nature preserve protecting a dramatic Mississippian sandstone landscape featuring three natural arches (largest span approximately 10 feet) and an overlook approximately 500 feet above the valley floor — identified as the tallest known natural overlook in Ohio. A 1.25-mile one-way hiking trail provides access. Home to the potentially threatened blackjack oak (Quercus marilandica) and the state endangered small-flowered scorpion weed (Phacelia dubia). Dedicated as a state nature preserve in 1996."
+features_raw: "Hiking (1 hiking trail / 1.25-mile one-way); Three natural sandstone arches; 500-ft overlook (tallest known in Ohio); Rare geology; Rare plant species; Permit required"
+gps_lat_raw: "38.7186598"
+gps_lon_raw: "-83.0547332"
+urls_raw:
+  - "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/raven-rock-state-nature-preserve"
+identity_notes_raw: "GPS confirmed via Google Maps (38.7186598, -83.0547332). Acres corrected to 95 from ODNR sources (permit access page lists 95; ODNR Natural Arches page cites 1996 dedication at 95 ac; prior secondary source had 98). Dedicated 1996 (not 1993 as noted in some secondary sources). Mississippian sandstone bedrock. Three natural arches; largest ~10-ft span. 500-ft overlook — tallest known in Ohio. Rare species confirmed from ODNR page: blackjack oak (Quercus marilandica, potentially threatened) and small-flowered scorpion weed (Phacelia dubia, state endangered). Natural features: Unique Geology, Wildflowers, Woods. 1 named hiking trail per ODNR page. Permit required — contact ODNR DNAP. ODNR URL updated to new format (ohiodnr.gov/go-and-do/...). ODNR also maintains a page for 'Raven Rock Arch' — assess whether separate child Site entity or feature page for same preserve before creating child record."
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: "21"
+
+---
+entity_type: Site
+name_raw: "Scioto Brush Creek State Nature Preserve"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "State Nature Preserve"
+acres_raw: "30"
+location_raw: "Tatman-Coe Rd, McDermott, Ohio 45652; within the Scioto Brush Creek watershed, Scioto County"
+description_raw: "A 30-acre permit-only state nature preserve on Scioto Brush Creek protecting exceptional aquatic biodiversity and riparian habitat. The creek supports over 70 fish species including longnose gar and rosyside dace. Features mature trees, spring wildflowers, and rare species. ODNR has added new facilities to this preserve (date and details not confirmed). The broader Scioto Brush Creek was designated Ohio's 17th State Scenic River in November 2025, covering 25.1 river miles from the Adams-Scioto county line to the confluence with the Scioto River."
+features_raw: "Nature study; Aquatic biodiversity; Rare species observation; Spring wildflowers; Mature trees; New facilities (details not confirmed); Permit required"
+gps_lat_raw: "38.8414307"
+gps_lon_raw: "-83.0949596"
+urls_raw:
+  - "https://naturepreserves.ohiodnr.gov/sciotobrushcreek"
+  - "http://naturepreserves.ohiodnr.gov/natural-areas-preserves-home/post/new-facilities-at-scioto-brush-creek-state-nature-preserve"
+identity_notes_raw: "GPS confirmed via Google Maps (38.8414307, -83.0949596); access via Tatman-Coe Rd, McDermott, OH 45652. ODNR preserve page blocked during discovery; acreage (30 ac) and permit-only status confirmed from secondary sources. New facilities reference per ODNR news post — details unavailable due to page block; may include parking, signage, or trail infrastructure. Scioto Brush Creek State Nature Preserve (this record) is distinct from Scioto Brush Creek State Scenic River (SC-S-0012 pending): the SNP is a 30-acre land parcel; the Scenic River is a 25.1-mile water corridor designation, both managed by ODNR DNAP."
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: "24"
+
+---
+entity_type: Site
+name_raw: "CCC Memorial to Company 1545"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry (within Shawnee State Forest)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "ODNR Historic Site"
+acres_raw: ""
+location_raw: "Within Shawnee State Forest, Scioto County, Ohio"
+description_raw: "Ohio Historic Site #50. A memorial to Civilian Conservation Corps Company 1545, which performed conservation and forest development work in Shawnee State Forest during the New Deal era of the 1930s. Located within the bounds of Shawnee State Forest."
+features_raw: "Historic interpretation; Memorial; CCC history"
+gps_lat_raw: "GPS_NEEDED"
+gps_lon_raw: "GPS_NEEDED"
+urls_raw: []
+parent_site_raw: ["Shawnee State Forest"]
+identity_notes_raw: "ODNR Historic Site #50. Parent entity: Shawnee State Forest (SC-S-0004 pending). Child site of the forest; no independent public access point — accessed via Shawnee State Forest road system. CCC Company 1545 performed Depression-era conservation work at Shawnee; the memorial commemorates their contribution. Exact location within the forest not confirmed from web research — GPS flagged for acquisition. No dedicated ODNR web page found during discovery."
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: "6"
+
+---
+entity_type: Site
+name_raw: "Copperhead Fire Tower"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry (within Shawnee State Forest)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "ODNR Historic Site"
+acres_raw: ""
+location_raw: "Copperhead Hill, State Forest Service Road 6, West Portsmouth, Ohio 45663; within Shawnee State Forest"
+description_raw: "Ohio Historic Site #6. The first fire lookout tower built in Ohio, constructed in 1924. A 60-foot steel tower on Copperhead Hill at an elevation exceeding 1,200 feet, affording a 360-degree panoramic view of Shawnee State Forest and the Ohio River valley. The tower has been restored and is open for climbing at visitors' own risk. Listed on the National Historic Lookout Register."
+features_raw: "Historic fire tower (60-ft steel, 1924); 360-degree panoramic view; Tower climbing at own risk; Restored; National Historic Lookout Register"
+gps_lat_raw: "38.7726088"
+gps_lon_raw: "-83.1714841"
+urls_raw:
+  - "https://www.alltrails.com/trail/us/ohio/copperhead-firetower-and-bear-lake"
+parent_site_raw: ["Shawnee State Forest"]
+identity_notes_raw: "GPS confirmed via Google Maps (38.7726088, -83.1714841); West Portsmouth, OH 45663 (within Shawnee State Forest on State Forest Service Road 6). ODNR Historic Site #6. Parent entity: Shawnee State Forest (SC-S-0004 pending). First fire tower in Ohio (1924); 60-foot steel construction. Copperhead Hill elevation >1,200 ft. National Historic Lookout Register confirmed. Tower restored and re-opened; visitors may climb at own risk. The named AllTrails trail 'Copperhead Firetower and Bear Lake' (SC-T-0009) provides access to this site from a trailhead within the forest."
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: "9"
+
+---
+entity_type: Site
+name_raw: "Shawnee State University — Deal Arboretum and Campus Trails"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "State of Ohio (Shawnee State University, state institution)"
+governance_raw: "Shawnee State University"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "University Arboretum"
+acres_raw: ""
+location_raw: "940 Second Street, Portsmouth, Ohio 45662 (Shawnee State University campus)"
+description_raw: "The Shawnee State University campus hosts the Deal Arboretum, an ArbNet Level 2 accredited arboretum named after Professor Robert Deal. The arboretum contains over 400 trees representing approximately 100 species, integrated throughout the campus grounds. Four named self-guided tree trails provide structured walking routes: Appalachian Tree Trail, Around the World Tree Trail, Relics of the Past Tree Trail, and Medicinal Tree Trail. The campus and trails are publicly open."
+features_raw: "Self-guided tree trails (4 named trails); 400+ trees; ~100 species; ArbNet Level 2 accreditation; Public access; Campus arboretum"
+gps_lat_raw: "38.7398"
+gps_lon_raw: "-82.9977"
+urls_raw:
+  - "https://www.shawnee.edu/campus-life/trees/campus-trails"
+identity_notes_raw: "ArbNet Level 2 accreditation (more rigorous than basic Level 1). Named after Professor Robert Deal. Four named tree trails are Trail entities (SC-T-0010 through SC-T-0013 pending). Publicly open — not restricted to SSU students or staff. GPS is an approximate campus centroid derived from known street address; arboretum has no single GPS centroid. Clark Planetarium (also on SSU campus) excluded per pre-discovery analysis: university building with no confirmed conservation or natural areas function. Campus trails URL: https://www.shawnee.edu/campus-life/trees/campus-trails (blocked during discovery — SSU trail names confirmed from search snippets)."
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: "28"
+
+---
+entity_type: Site
+name_raw: "Scioto Brush Creek State Scenic River"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio", "Adams County, Ohio"]
+ownership_raw: "State designation (Ohio Scenic Rivers Program; water corridor)"
+governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "State Scenic River"
+acres_raw: ""
+location_raw: "25.1 river miles from Adams-Scioto county line to confluence with Scioto River, Scioto County, Ohio"
+description_raw: "Ohio's 17th State Scenic River, designated by Governor DeWine in November 2025. The designation covers 25.1 miles of Scioto Brush Creek from the Adams-Scioto county line downstream to the creek's confluence with the Scioto River. Protects exceptional aquatic biodiversity (70+ fish species including longnose gar and rosyside dace), native hardwood riparian habitat, and 171 documented plant and animal species. ODNR and partners manage approximately 23,000 acres of public land within the Scioto Brush Creek watershed, including state forests, nature preserves, and natural areas."
+features_raw: "Paddling; Fishing; Aquatic biodiversity (70+ fish species); Riparian habitat; Scenic river corridor; Watershed conservation"
+gps_lat_raw: ""
+gps_lon_raw: ""
+urls_raw:
+  - "https://naturepreserves.ohiodnr.gov/sciotobrushcreek"
+  - "https://spectrumnews1.com/oh/columbus/news/2025/11/20/scioto-brush-creek-named-ohio-s-17th-state-scenic-river"
+identity_notes_raw: "Designated November 2025 — post-knowledge-cutoff; confirmed via web search during Scioto County discovery. Scioto Brush Creek State Scenic River is distinct from Scioto Brush Creek State Nature Preserve (SC-S-0008): the SNP is a 30-acre land parcel; the Scenic River is a 25.1-mile water corridor designation. Both managed by ODNR DNAP under different programs. Multi-county: corridor spans Adams and Scioto counties. Primary county: Scioto (downstream/confluence end). GPS: no meaningful centroid for a 25.1-mile river corridor — blank. Not in baseline seeds; discovered during Tier 2 state research. Ohio Scenic Rivers designation does not confer public land ownership; it is a regulatory/conservation designation."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- TIER 2 TRAILS ---
+
+---
+entity_type: Trail
+name_raw: "Shawnee Backpack Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio", "Adams County, Ohio"]
+parent_site_raw: ["Shawnee State Forest", "Shawnee State Park"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry (primary); Division of Parks and Watercraft (portion through State Park)"
+use_type_raw: "Hiking; Backpacking"
+surface_type_raw: ""
+difficulty_raw: "Difficult"
+length_raw: "40+ miles (main loop); North Loop ~23 miles; South Loop ~17 miles"
+description_raw: "Ohio's signature state forest backpack trail, traversing 40+ miles of rugged ridges and hollows through the Shawnee wilderness. The main loop offers a shorter 23-mile North Loop and a 17-mile South Loop option. Blazed orange throughout. The trail overlaps with the Buckeye Trail (yellow blaze) and the North Country National Scenic Trail (blue blaze) for portions of the route. Passes through approximately 8,000 acres of designated wilderness within Shawnee State Forest. Multiple backcountry campsites."
+features_raw: "Backpacking; Multi-day capable; Wilderness traversal; Buckeye Trail overlap; North Country Trail (NCT) overlap; Orange blazes; Backcountry camping"
+maps_urls_raw:
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/forestry/maps/shawnee_backpack.pdf"
+  - "https://www.sohiotrails.org/trails/shawnee-backpacking-trail/"
+  - "https://www.backpackohio.com/trails/shawnee-state-forest-backpack-trail/"
+identity_notes_raw: "Primary parent: Shawnee State Forest (SC-S-0004 pending). Secondary parent: Shawnee State Park (SC-S-0005 pending) — trail traverses park boundary. Orange blaze throughout; overlaps Buckeye Trail (yellow) and North Country Trail (NCT, blue). North Loop (~23 mi) and South Loop (~17 mi) are route options within the 40+ mi main circuit, not separately named trails — do not create separate Trail entities for loops. Multi-county: spans Scioto and Adams counties. Trail is the most significant recreational trail in Scioto County. Shawnee Bridle Trail Network (SC-TN-0001 pending) is a separate equestrian system on different routes."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Lampblack Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State Park"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Parks and Watercraft"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: ""
+length_raw: "1.5 miles"
+description_raw: "A 1.5-mile hiking trail at Shawnee State Park traversing oak-hickory forest on high, dry ridgetops."
+features_raw: "Oak-hickory forest; Ridgetop views; Day hiking"
+maps_urls_raw:
+  - "https://www.alltrails.com/parks/us/ohio/shawnee-state-park"
+identity_notes_raw: "Parent: Shawnee State Park (SC-S-0005 pending). AllTrails listed. Length 1.5 miles confirmed. Surface type and difficulty rating not confirmed from available search results."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Park Loop Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State Park"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Parks and Watercraft"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: ""
+length_raw: "4.1 miles"
+description_raw: "The most popular day hiking trail at Shawnee State Park, a 4.1-mile loop with 538 feet of elevation gain. Rated 4.6 stars on AllTrails."
+features_raw: "Day hiking; Loop trail; 538 ft elevation gain"
+maps_urls_raw:
+  - "https://www.alltrails.com/parks/us/ohio/shawnee-state-park"
+identity_notes_raw: "Parent: Shawnee State Park (SC-S-0005 pending). AllTrails listed; 4.6-star rating. Length 4.1 miles; elevation gain 538 ft confirmed. Most popular day hike at the park. Surface type and ODNR difficulty rating not confirmed."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Knighton Nature Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State Park"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Parks and Watercraft"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: ""
+length_raw: ""
+description_raw: "A nature trail at Shawnee State Park connecting Shawnee State Lodge to the Turkey Creek Lake area."
+features_raw: "Nature trail; Lodge access; Turkey Creek Lake access; Short walk"
+maps_urls_raw:
+  - "https://www.alltrails.com/parks/us/ohio/shawnee-state-park"
+identity_notes_raw: "Parent: Shawnee State Park (SC-S-0005 pending). Route confirmed: connects Shawnee State Lodge to Turkey Creek Lake area. Namesake not confirmed (likely a benefactor or park staff member). Length not confirmed from available search results."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Lookout Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State Park"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Parks and Watercraft"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: ""
+length_raw: ""
+description_raw: "A hiking trail at Shawnee State Park featuring an overlook shelter and multiple scenic overlooks of the surrounding Shawnee State Forest."
+features_raw: "Overlook shelter; Multiple overlooks; Scenic views of Shawnee State Forest"
+maps_urls_raw:
+  - "https://www.alltrails.com/parks/us/ohio/shawnee-state-park"
+identity_notes_raw: "Parent: Shawnee State Park (SC-S-0005 pending). Named for its prominent overlook feature. AllTrails listed. Length and difficulty not confirmed."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Campground Loop Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State Park"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Parks and Watercraft"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: "Easy"
+length_raw: ""
+description_raw: "A short loop trail at the Shawnee State Park campground, suitable for campers wanting a brief hike without leaving the campground area."
+features_raw: "Campground access; Short loop; Easy hiking"
+maps_urls_raw:
+  - "https://www.alltrails.com/parks/us/ohio/shawnee-state-park"
+identity_notes_raw: "Parent: Shawnee State Park (SC-S-0005 pending). Located at or adjacent to the park campground (opened 2023). Designed for campground visitors. Length not confirmed."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Shawnee Forest Day Hike Trail — East Loop"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State Forest"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: ""
+length_raw: "7.2 miles"
+description_raw: "The East Loop of the Shawnee State Forest Day Hike Trail system, blazed in blue. A 7.2-mile loop through Shawnee State Forest ridges and hollows designed for day hiking without backpacking gear."
+features_raw: "Day hiking; Blue blazes; Forest ridges and hollows"
+maps_urls_raw:
+  - "https://www.alltrails.com/parks/us/ohio/shawnee-state-park"
+identity_notes_raw: "Parent: Shawnee State Forest (SC-S-0004 pending). Blue blaze confirmed. Length 7.2 miles confirmed. Companion to West Loop (SC-T-0008 pending). Distinct from Shawnee Backpack Trail (SC-T-0001), which is orange-blazed and multi-day. ODNR formal trail name not confirmed — AllTrails name used."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Shawnee Forest Day Hike Trail — West Loop"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State Forest"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: ""
+length_raw: ""
+description_raw: "The West Loop of the Shawnee State Forest Day Hike Trail system. A multi-mile day hiking loop through Shawnee State Forest."
+features_raw: "Day hiking; Forest ridges and hollows"
+maps_urls_raw:
+  - "https://www.alltrails.com/parks/us/ohio/shawnee-state-park"
+identity_notes_raw: "Parent: Shawnee State Forest (SC-S-0004 pending). Companion to East Loop (SC-T-0007). Length not confirmed. Blue blaze presumed (same system as East Loop) but not confirmed. ODNR formal trail name not confirmed."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Copperhead Firetower and Bear Lake Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State Forest"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: ""
+length_raw: ""
+description_raw: "A trail within Shawnee State Forest providing access to the Copperhead Fire Tower (Ohio's first fire tower, 1924; ODNR Historic Site #6) and Bear Lake. The approach climbs Copperhead Hill to an elevation exceeding 1,200 feet."
+features_raw: "Historic fire tower access; Bear Lake; Ridgetop hiking; 1,200+ ft elevation; 360-degree view"
+maps_urls_raw:
+  - "https://www.alltrails.com/trail/us/ohio/copperhead-firetower-and-bear-lake"
+identity_notes_raw: "Parent: Shawnee State Forest (SC-S-0004 pending). Named trail documented on AllTrails. Trail provides access to Copperhead Fire Tower (SC-S-0010 pending). Trail name is the AllTrails community name; ODNR formal trail name not confirmed — may match or differ. Bear Lake is a small forest lake near the horsemen's campground. Length and difficulty not confirmed."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Appalachian Tree Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State University — Deal Arboretum and Campus Trails"]
+ownership_raw: "State of Ohio (Shawnee State University)"
+governance_raw: "Shawnee State University"
+use_type_raw: "Walking; Arboretum trail"
+surface_type_raw: ""
+difficulty_raw: "Easy"
+length_raw: ""
+description_raw: "A self-guided tree trail on the Shawnee State University campus featuring Appalachian native tree species, part of the Level 2 ArbNet-accredited Deal Arboretum."
+features_raw: "Self-guided; Tree identification; Appalachian native trees; Campus walking; Public access"
+maps_urls_raw:
+  - "https://www.shawnee.edu/campus-life/trees/campus-trails"
+identity_notes_raw: "Parent: Shawnee State University / Deal Arboretum (SC-S-0011 pending). One of four named tree trails in the Deal Arboretum system. Length not confirmed."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Around the World Tree Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State University — Deal Arboretum and Campus Trails"]
+ownership_raw: "State of Ohio (Shawnee State University)"
+governance_raw: "Shawnee State University"
+use_type_raw: "Walking; Arboretum trail"
+surface_type_raw: ""
+difficulty_raw: "Easy"
+length_raw: ""
+description_raw: "A self-guided tree trail on the Shawnee State University campus featuring trees from around the world, part of the Level 2 ArbNet-accredited Deal Arboretum."
+features_raw: "Self-guided; Tree identification; International tree species; Campus walking; Public access"
+maps_urls_raw:
+  - "https://www.shawnee.edu/campus-life/trees/campus-trails"
+identity_notes_raw: "Parent: Shawnee State University / Deal Arboretum (SC-S-0011 pending). One of four named tree trails. Features trees with global origins. Length not confirmed."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Relics of the Past Tree Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State University — Deal Arboretum and Campus Trails"]
+ownership_raw: "State of Ohio (Shawnee State University)"
+governance_raw: "Shawnee State University"
+use_type_raw: "Walking; Arboretum trail"
+surface_type_raw: ""
+difficulty_raw: "Easy"
+length_raw: ""
+description_raw: "A self-guided tree trail on the Shawnee State University campus featuring ancient or evolutionarily relict tree species, part of the Level 2 ArbNet-accredited Deal Arboretum."
+features_raw: "Self-guided; Tree identification; Ancient and relict tree species; Campus walking; Public access"
+maps_urls_raw:
+  - "https://www.shawnee.edu/campus-life/trees/campus-trails"
+identity_notes_raw: "Parent: Shawnee State University / Deal Arboretum (SC-S-0011 pending). One of four named tree trails. Features trees with ancient lineages or relict evolutionary status. Length not confirmed."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Medicinal Tree Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Shawnee State University — Deal Arboretum and Campus Trails"]
+ownership_raw: "State of Ohio (Shawnee State University)"
+governance_raw: "Shawnee State University"
+use_type_raw: "Walking; Arboretum trail"
+surface_type_raw: ""
+difficulty_raw: "Easy"
+length_raw: ""
+description_raw: "A self-guided tree trail on the Shawnee State University campus featuring trees with known medicinal properties and ethnobotanical significance, part of the Level 2 ArbNet-accredited Deal Arboretum."
+features_raw: "Self-guided; Tree identification; Medicinal trees; Ethnobotany; Campus walking; Public access"
+maps_urls_raw:
+  - "https://www.shawnee.edu/campus-life/trees/campus-trails"
+identity_notes_raw: "Parent: Shawnee State University / Deal Arboretum (SC-S-0011 pending). One of four named tree trails. Features trees with pharmaceutical, medicinal, or ethnobotanical significance. Length not confirmed."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- TIER 2 TRAIL NETWORKS ---
+
+---
+entity_type: Trail Network
+name_raw: "Shawnee Bridle Trail Network"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio", "Adams County, Ohio"]
+parent_site_raw: ["Shawnee State Forest"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+network_type_raw: "Equestrian trail network"
+total_length_raw: "60+ miles"
+member_trails_raw: []
+description_raw: "An extensive equestrian trail network within Shawnee State Forest totaling more than 60 miles of bridle trails. Associated with a 20-site horsemen's campground near Bear Lake. Individual named trail segments within the network are not confirmed from available search results and are flagged for verification."
+features_raw: "Horseback riding; 60+ miles of bridle trails; Horsemen's campground (20 sites near Bear Lake); Multi-day equestrian capable"
+maps_urls_raw:
+  - "https://forestry.ohiodnr.gov/shawnee"
+identity_notes_raw: "Parent: Shawnee State Forest (SC-S-0004 pending). Total length 60+ miles confirmed. Individual named trail segments not confirmed during discovery — member_trails_raw is empty; flagged PENDING VERIFICATION for trail enumeration. Horsemen's campground (20 sites near Bear Lake) is a companion facility. Multi-county: spans Scioto and Adams counties. Shawnee Bridle Club is referenced as a trail maintenance partner."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Access Point
+name_raw: "Shawnee State Park / Shawnee Backpack Trail — Main Trailhead Parking"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ap_type_raw: "Trailhead"
+gps_lat_raw: "38.740963"
+gps_lon_raw: "-83.205171"
+address_raw: "St Forest Rd 2, Blue Creek, OH 45616"
+parent_site_raw: ["Shawnee State Park", "Shawnee State Forest"]
+parent_trail_raw: ["Shawnee Backpack Trail"]
+description_raw: "Primary trailhead parking area for the Shawnee Backpack Trail, located on State Forest Road 2 within or adjacent to Shawnee State Park. Provides vehicle parking for backpackers and day hikers accessing the 40+ mile backpack trail circuit."
+features_raw: "Parking; Trailhead access; Shawnee Backpack Trail access"
+urls_raw: []
+identity_notes_raw: "GPS confirmed via Google Maps (38.740963, -83.205171); address: St Forest Rd 2, Blue Creek, OH 45616. This is the main trailhead/parking area for the Shawnee Backpack Trail. Dual parent: Shawnee State Park (SC-S-0005) and Shawnee State Forest (SC-S-0004) — trail traverses both units and trailhead sits at or near the park/forest boundary. First confirmed Access Point for Scioto County."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Access Point
+name_raw: "Shawnee State Forest Headquarters"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ap_type_raw: "Parking Area"
+gps_lat_raw: "38.7032684"
+gps_lon_raw: "-83.0888916"
+address_raw: "13291 US-52, West Portsmouth, OH 45663"
+parent_site_raw: ["Shawnee State Forest"]
+parent_trail_raw: []
+description_raw: "The Shawnee State Forest headquarters facility on US-52. Provides public parking and serves as the primary administrative access point for Shawnee State Forest. Visitors may obtain maps and permits here."
+features_raw: "Parking; Forest headquarters; Information; Maps and permits available; Restrooms likely"
+urls_raw:
+  - "https://forestry.ohiodnr.gov/shawnee"
+identity_notes_raw: "GPS confirmed via Google Maps (38.7032684, -83.0888916); address: 13291 US-52, West Portsmouth, OH 45663. Phone: (740) 858-6685. This is the same GPS reference point used for the Shawnee State Forest Site record (SC-S-0004) — the HQ coordinates double as the primary parking/access point. Access Point type: Parking Area (administrative access, not a trailhead per se)."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Access Point
+name_raw: "Shawnee State Park Marina — Ohio River Boat Launch"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ap_type_raw: "Marina"
+gps_lat_raw: "38.6771559"
+gps_lon_raw: "-83.1092679"
+address_raw: "Nile Township, OH 45684"
+parent_site_raw: ["Shawnee State Park"]
+parent_trail_raw: []
+description_raw: "The Shawnee State Park marina and boat launch facility on the Ohio River, with 72 dock slips. Provides water access to the Ohio River for boaters and anglers."
+features_raw: "Boat launch; Marina; 72 dock slips; Ohio River access; Fishing access"
+urls_raw:
+  - "https://parks.ohiodnr.gov/shawnee"
+identity_notes_raw: "GPS confirmed via Google Maps (38.6771559, -83.1092679); Nile Township, OH 45684. Marina operates 72 dock slips on the Ohio River. This is a separate facility from the main park lodge/trail complex — located on the river approximately 3.5 miles south-southeast of the main park entrance. Access Point type: Marina (with boat launch capability)."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- TIER 2 MISS (discovered during Tier 4 county research) ---
+
+---
+entity_type: Site
+name_raw: "Brush Creek State Forest"
+county_primary: Scioto
+counties_raw: ["Adams County, Ohio", "Pike County, Ohio", "Scioto County, Ohio"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "State Forest"
+acres_raw: "well over 13,000"
+location_raw: "Unglaciated hill country of south central Ohio, spanning Adams, Pike, and Scioto counties; former HQ on State Route 73 approximately 1 mile west of Rarden, Scioto County; currently administered from Pike State Forest, 334 Lapperell Road, Latham, OH 45646"
+description_raw: "Located in the unglaciated hill country of south central Ohio, Brush Creek State Forest was established in 1928 with the acquisition of 285 acres of land. This and other early land acquisitions were originally part of Shawnee State Forest. As acreage and distances grew, the need to form a separate state forest unit became apparent in order to properly manage these scattered land holdings. In the early 1950s, a new state forest was formed and drew its name from a major stream in the area known as Scioto Brush Creek. Formerly, the forest headquarters and service center were established along State Route 73 about one mile west of the village of Rarden in western Scioto County. Today, Brush Creek State Forest comprises well over 13,000 acres of productive hardwood forest land. The vast majority of these acres is made up of steep hillsides, deep hollows, and narrow ridge tops."
+features_raw: "Hunting; Hiking; Horseback riding; Mushroom and berry picking; Historical stone quarries; Stone Quarry trail; Coffee Hollow & Crabtree Cemetery bridle trail; Wildlife viewing; Forest roads"
+gps_lat_raw: 38.9287286
+gps_lon_raw: -83.2659582
+urls_raw:
+  - "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/brush-creek-state-forest"
+  - "https://cdn.outerspatial.com/uploads/media_file/uploaded_file/2529/brushcreek.pdf"
+identity_notes_raw: "TIER 2 MISS — discovered during Tier 4 county research via Scioto County government recreation page. Not in baseline seeds. Multi-county state forest spanning Adams, Pike, and Scioto counties. Former HQ was on SR-73 near Rarden in western Scioto County; administrative office has moved to Pike State Forest (334 Lapperell Road, Latham, OH 45646, Pike County). Phone (740) 858-6685 shared with Shawnee State Forest administration. GPS not confirmed — no authoritative coordinate for the Scioto County portion published on ODNR page; blank pending GPS acquisition. Currently administered from Pike State Forest."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Stone Quarry Trail"
+county_primary: Scioto
+counties_raw: ["Adams County, Ohio", "Pike County, Ohio", "Scioto County, Ohio"]
+parent_site_raw: ["Brush Creek State Forest"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: ""
+accessibility_raw: ""
+length_raw: ""
+description_raw: "A hiking trail within Brush Creek State Forest passing historical stone quarry features."
+features_raw: "Hiking; Historical stone quarries; Wildlife viewing"
+urls_raw:
+  - "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/brush-creek-state-forest"
+identity_notes_raw: "Named trail at Brush Creek State Forest listed on ODNR property page under 'Favorite Things to Do.' Length and specific location within the multi-county forest not confirmed. Parent: Brush Creek State Forest. Trail county attribution uncertain — may be primarily in Adams, Pike, or Scioto County portion of forest."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Coffee Hollow & Crabtree Cemetery Bridle Trail"
+county_primary: Scioto
+counties_raw: ["Adams County, Ohio", "Pike County, Ohio", "Scioto County, Ohio"]
+parent_site_raw: ["Brush Creek State Forest"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+use_type_raw: "Equestrian"
+surface_type_raw: ""
+difficulty_raw: ""
+accessibility_raw: ""
+length_raw: ""
+description_raw: "A bridle trail within Brush Creek State Forest passing through Coffee Hollow and near the Crabtree Cemetery historic site."
+features_raw: "Horseback riding; Historic cemetery viewpoint; Forest hollows"
+urls_raw:
+  - "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/brush-creek-state-forest"
+identity_notes_raw: "Named bridle trail at Brush Creek State Forest listed on ODNR property page under 'Favorite Things to Do.' Length and specific location within the multi-county forest not confirmed. Parent: Brush Creek State Forest. Trail county attribution uncertain — may be primarily in Adams, Pike, or Scioto County portion of forest."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "River Otter Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Scioto Brush Creek State Nature Preserve"]
+ownership_raw: "State of Ohio"
+governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves"
+use_type_raw: "Hiking"
+surface_type_raw: ""
+difficulty_raw: ""
+accessibility_raw: ""
+length_raw: "1.5 miles"
+description_raw: "A 1.5-mile linear loop trail located on the east side of Tatman-Coe Road in Union Township, running along the north bank of Scioto Brush Creek. The trail affords excellent views of the deep pools in the creek that lie within the preserve. The preserve offers excellent birding in all seasons, particularly during migration."
+features_raw: "Hiking; Birding; Creek views; Riparian habitat; Deep pool viewing"
+urls_raw:
+  - "https://www.sciotoheritagetrail.com/river-otter-trail.html"
+  - "https://naturepreserves.ohiodnr.gov/sciotobrushcreek"
+identity_notes_raw: "TIER 2 MISS — discovered during Tier 4 county research via Scenic Scioto Heritage Trail website. Not in baseline seeds. Trail located at Tatman-Coe Road, Union Township — same address as Scioto Brush Creek State Nature Preserve (SC-S-0008). Trail is within the preserve (source: Scioto Heritage Trail page states 'the deep pools in the creek that lie within the preserve'). Parent: Scioto Brush Creek State Nature Preserve (SC-S-0008 pending). Length 1.5 miles confirmed by source."
+discovery_tier: 2
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- TIER 4 — COUNTY ---
+
+---
+entity_type: Site
+name_raw: "Earl Thomas Conley Riverside Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Scioto County"
+governance_raw: "Scioto County (County Commissioners / Scioto County Parks Department)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "County Park"
+acres_raw: "81.2"
+location_raw: "15888 U.S. 52, West Portsmouth, OH 45663"
+description_raw: "Earl Thomas Conley Riverside Park is located at 15888 U.S. 52 West of Portsmouth and is named for local native and Country Music legend Earl Thomas Conley. The park features 81.2 acres of natural landscape along the Scioto and Ohio rivers, offering picnic shelters, a walking and biking trail, fit path, frisbee golf, splash pad, pump track and more. The Allan W. Eckert Trail offers visitors views of the banks and bottom lands at the confluence of the Scioto and the Ohio Rivers."
+features_raw: "Picnic shelters; Walking and biking trail (Allan W. Eckert Trail); Fit path; Frisbee golf; Splash pad (Doug Coleman Memorial Splash Pad); Pump track (Red Bull Pump Track — largest in Ohio); Tennis courts; Beach volleyball courts; Basketball courts; Baseball field; Parking; Restrooms"
+gps_lat_raw: 38.7180754
+gps_lon_raw: -83.0471828
+urls_raw:
+  - "https://www.sciotoheritagetrail.com/earl-thomas-conley-park.html"
+  - "https://www.discoveringanew.com/blog-4/earl-thomas-conley-riverside-park-a-day-of-family-fun-in-the-sun"
+identity_notes_raw: "County-managed park confirmed via Scioto County Commissioners (Commissioner Scottie Powell referenced construction projects; ETC Park Manager Brian Howard manages the park). Address 15888 US-52 is in unincorporated West Portsmouth area. Note: portsmouthohio.org (City of Portsmouth website) also references the splash pad at ETC Park — city may have some involvement or the website is a regional information site; county management confirmed from news sources and county recreation page listing. Doug Coleman Memorial Splash Pad is a named feature/child facility within the park — not staged as separate child Site (recreational facility, not natural area character). Red Bull Pump Track is also a named feature. Allan W. Eckert Trail is a named trail at the park — staged separately. Baseline seed: Earl Thomas Conley Park (listed in baseline as Portsmouth City Park — corrected to Scioto County per research)."
+discovery_tier: 4
+seeded_from_baseline: true
+baseline_id: "baseline-etc-park"
+
+---
+entity_type: Trail
+name_raw: "Allan W. Eckert Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+parent_site_raw: ["Earl Thomas Conley Riverside Park"]
+ownership_raw: "Scioto County"
+governance_raw: "Scioto County (County Commissioners / Scioto County Parks Department)"
+use_type_raw: "Walking; Biking"
+surface_type_raw: ""
+difficulty_raw: ""
+accessibility_raw: ""
+length_raw: ""
+description_raw: "A walking and biking trail at Earl Thomas Conley Riverside Park offering views of the banks and bottom lands at the confluence of the Scioto and Ohio Rivers."
+features_raw: "Walking; Biking; River confluence views; Scioto River banks; Ohio River bottom lands"
+urls_raw:
+  - "https://www.sciotoheritagetrail.com/earl-thomas-conley-park.html"
+identity_notes_raw: "Named trail within Earl Thomas Conley Riverside Park (Tier 4). Trail named after Allan W. Eckert, prolific Ohio historical author. Trail length not confirmed. Parent: Earl Thomas Conley Riverside Park. Sources describe it as offering 'a view of the banks and bottom lands at the confluence of the Scioto and the Ohio Rivers.'"
+discovery_tier: 4
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Access Point
+name_raw: "Burkes Point Boat Ramp"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ap_type_raw: "Boat Launch"
+gps_lat_raw: "38.68880000"
+gps_lon_raw: "-82.87650278"
+address_raw: "75 Riverside Drive, Wheelersburg, OH 45694"
+parent_site_raw: []
+parent_trail_raw: []
+description_raw: "A public boat ramp on the Ohio River in the Wheelersburg area of Porter Township, Scioto County."
+features_raw: "Boat launch; Ohio River access; Trailer parking"
+urls_raw:
+  - "https://www.fishing.org/ramps/ohio/wheelersburg/burkes-point-ramp"
+identity_notes_raw: "Managing agency not confirmed from available sources. Listed on Scioto County government recreation page (sciotocountyoh.com) under 'Other Attractions.' Location is in Porter Township near Wheelersburg. GPS from fishing.org (38.68880000, -82.87650278) — treat as approximate; not confirmed from authoritative source. County website listing suggests county or county-adjacent governance; ODNR, Army Corps, or county management all possible. Flag: GOVERNANCE_UNCERTAIN — verify managing entity before final tier assignment."
+discovery_tier: 4
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- TIER 5 — TOWNSHIP ---
+
+---
+entity_type: Site
+name_raw: "Porter Township Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Porter Township"
+governance_raw: "Porter Township"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Township Park"
+acres_raw: ""
+location_raw: "12063 Gallia Pike, Wheelersburg, OH 45694"
+description_raw: ""
+features_raw: "Picnic shelter (reservable by Porter Township residents at Trustee office); Township community park"
+gps_lat_raw: 38.7347016
+gps_lon_raw: -82.8574216
+urls_raw:
+  - "https://www.portertwp.com/new/parks-and-recreation/township-park/"
+identity_notes_raw: "Confirmed from Porter Township official website (portertwp.com). Listed under Parks & Recreation section as 'Porter Township Community Park.' Shelter reservations must be made in person at Trustee's office (1535 Dogwood Ridge Rd., Wheelersburg, OH 45694). Baseline seed confirmed."
+discovery_tier: 5
+seeded_from_baseline: true
+baseline_id: "baseline-porter-township-park"
+
+---
+entity_type: Site
+name_raw: "Friendship Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Nile Township"
+governance_raw: "Nile Township"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Township Park"
+acres_raw: ""
+location_raw: "Friendship, Scioto County, Ohio (near US Highway 52)"
+description_raw: "Friendship Park is open March-October. Community park in Nile Township's Friendship community."
+features_raw: "3 picnic shelters (A, B, C); Shelter A: near bathrooms, electrical outlets, picnic tables, 2 grills; Shelter B: near main parking lot, picnic tables, 2 grills; Shelter C: near US 52, picnic tables, 2 grills; Shelters on first-come-first-served basis; Baseball field; Basketball court; Tennis court (with pickleball lines); Swings; Merry-go-round; Small playground; Park closes at 11 pm"
+gps_lat_raw: 38.6961365
+gps_lon_raw: -83.1013517
+urls_raw:
+  - "http://www.niletownship.org/parks.html"
+identity_notes_raw: "Found on Nile Township official website (niletownship.org). Park is open March through October seasonally. Located in the Friendship community within Nile Township (postal city Friendship, OH 45630). Exact street address not provided on township website. NOT a baseline seed — new find at Tier 5."
+discovery_tier: 5
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Clay Township Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Clay Township"
+governance_raw: "Clay Township"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Township Park"
+acres_raw: ""
+location_raw: "Clay Township, Scioto County, Ohio (near Rosemount CDP)"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: "38.78624"
+gps_lon_raw: "-82.97119"
+urls_raw:
+  - "https://mapcarta.com/W558928341"
+identity_notes_raw: "Confirmed as Clay Township, Scioto County Ohio via Mapcarta (OpenStreetMap way 558928341). GPS: 38.78624°N, 82.97119°W — from OpenStreetMap; treat as approximate until confirmed from authoritative source. Located near Rosemount CDP, Rosemount Nazarene Parsonage, and Rosemount Community Church. Clay High School is 1.25 miles northwest; Southern Ohio Medical Center (Portsmouth) is 2.5 miles south. Township fiscal officer contact: 740-666-3014 ext 104 (from web search snippet referencing park shelter reservations). NOT a baseline seed — new find at Tier 5. No official township website found for Clay Township, Scioto County."
+discovery_tier: 5
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Vernon Township Community Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Vernon Township"
+governance_raw: "Vernon Township"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Township Park"
+acres_raw: ""
+location_raw: "4168 Turkey Foot Rd., Vernon Township, Scioto County, Ohio"
+description_raw: "Situated at 4168 Turkey Foot Rd., the park offers recreational opportunities for residents."
+features_raw: "Township community park; Used for community events (Trunk or Treat)"
+gps_lat_raw: 38.7385332
+gps_lon_raw: -82.7406111
+urls_raw:
+  - "https://www.scvernontwp.com/about"
+identity_notes_raw: "Confirmed from Vernon Township official website (scvernontwp.com/about). Listed under 'Community Facilities' section: 'Vernon Township Community Park — Situated at 4168 Turkey Foot Rd., the park offers recreational opportunities for residents. For more information, contact the township garage.' Homepage also references 'Trunk or Treat at the Park' event, confirming active park use. Township cemetery is on Cemetery Rd. near Turkey Foot Rd. (separate facility). NOT a baseline seed — new find at Tier 5."
+discovery_tier: 5
+seeded_from_baseline: false
+baseline_id: ""
+
+# ============================================================
+# TIER 6 — MUNICIPAL
+# ============================================================
+
+# --- PORTSMOUTH CITY PARKS (13 official parks) ---
+
+---
+entity_type: Site
+name_raw: "Alexandria Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: "Main Street Portsmouth In Bloom (MSPIB) — adopted/maintained"
+coordination_raw: ""
+category_raw: "City Park"
+acres_raw: ""
+location_raw: "Scioto Street, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.731164
+gps_lon_raw: -83.011245
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+  - "https://www.mspohio.org/city-parks"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at Scioto Street. MSPIB City Parks page also lists Alexandria Park as one of its adopted parks. Prior map verification confirmed park at approximately 110 Scioto Street; also appeared as 'Alexandria Point Park' in Google Maps — same entity. City-owned; MSPIB-maintained. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Bannon Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park"
+acres_raw: ""
+location_raw: "15th Street and Robinson Avenue, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.742749
+gps_lon_raw: -82.986947
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at 15th Street and Robinson Avenue. No adopter listed. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Buckeye Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park"
+acres_raw: ""
+location_raw: "Williams Street, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.730116
+gps_lon_raw: -82.978876
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at Williams Street. No adopter listed. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Cyndee Secrest Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park"
+acres_raw: ""
+location_raw: "Glen and Harding Avenue, Portsmouth, Ohio (Sciotoville neighborhood)"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.764343
+gps_lon_raw: -82.889335
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at Glen and Harding Avenue; 'Sciotoville' notation in table row indicates location in Portsmouth's Sciotoville neighborhood. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Labold Ball Fields"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park / Ball Fields"
+acres_raw: ""
+location_raw: "Williams and Boundary Streets, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.728107
+gps_lon_raw: -82.979053
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at Williams and Boundary Streets. No adopter listed. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Martha Burton Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park"
+acres_raw: ""
+location_raw: "Front Street, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.730325
+gps_lon_raw: -82.997092
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at Front Street. No adopter listed. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Mound Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park"
+acres_raw: ""
+location_raw: "17th Street and Hutchins Avenue, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.7432733
+gps_lon_raw: -82.9767011
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at 17th Street and Hutchins Avenue. Contains Horseshoe Mound, an NRHP-listed Hopewell earthwork — staged as child Site (see below). Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Horseshoe Mound"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "NRHP-Listed Archaeological Site / Hopewell Earthwork"
+acres_raw: ""
+location_raw: "Within Mound Park, 17th Street and Hutchins Avenue, Portsmouth, Ohio"
+parent_site_raw: ["Mound Park"]
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.7432733
+gps_lon_raw: -82.9767011
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "NRHP-listed Hopewell earthwork contained within Portsmouth's Mound Park. Staged as child Site of Mound Park per child Site rules. Discovered at Tier 4 NRHP check (42 Scioto County NRHP listings reviewed). No separate legal parcel — contained within Mound Park footprint. NRHP listing confirmed for Scioto County. Horseshoe configuration. NOT a baseline seed — new find from NRHP review."
+discovery_tier: 6
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Roy Rogers Esplanade"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: "Main Street Portsmouth In Bloom (MSPIB) — adopted/maintained"
+coordination_raw: ""
+category_raw: "City Park / Esplanade"
+acres_raw: ""
+location_raw: "Gallia Street and Chillicothe Street, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.73423
+gps_lon_raw: -82.996334
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+  - "https://www.mspohio.org/city-parks"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at Gallia Street and Chillicothe Street. MSPIB City Parks page lists this as one of its adopted/maintained parks. Named for Roy Rogers (Leonard Slye), born in Portsmouth, OH. City-owned; MSPIB-maintained. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Sciotoville Community Square"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park / Community Square"
+acres_raw: ""
+location_raw: "Harding Avenue, Portsmouth, Ohio (Sciotoville neighborhood)"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: "GPS_NEEDED"
+gps_lon_raw: "GPS_NEEDED"
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at Harding Avenue with 'Sciotoville' notation indicating location in Portsmouth's Sciotoville neighborhood (formerly a separate community, now within Portsmouth city limits). Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Skate Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park / Skate Park"
+acres_raw: ""
+location_raw: "4th Street and Jefferson Street, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.733405
+gps_lon_raw: -83.005071
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page as 'Skate Park' at 4th Street and Jefferson Street. Baseline seed was 'Weghorst Skate Park' — full official name may be 'Weghorst Memorial Skate Park' or similar. Name_raw recorded exactly as found on authoritative city source. Baseline seed confirmed (seed name: Weghorst Skate Park)."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Spock Memorial Dog Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park / Dog Park"
+acres_raw: ""
+location_raw: "2nd Street and Vine Street, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.731069
+gps_lon_raw: -82.997126
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at 2nd & Vine Streets. Off-leash dog park. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Tracy Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park"
+acres_raw: ""
+location_raw: "9th Street and Chillicothe Street, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.73734
+gps_lon_raw: -82.996394
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at 9th Street and Chillicothe Street. No adopter listed. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "York Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth"
+governance_raw: "City of Portsmouth"
+partner_agencies_raw: "Main Street Portsmouth In Bloom (MSPIB) — adopted/maintained"
+coordination_raw: ""
+category_raw: "City Park"
+acres_raw: ""
+location_raw: "Ohio Riverfront, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.730161
+gps_lon_raw: -82.998926
+urls_raw:
+  - "https://portsmouthohio.org/adopt-a-park/"
+  - "https://www.mspohio.org/city-parks"
+identity_notes_raw: "Listed on City of Portsmouth Adopt-a-Park page at 'Ohio Riverfront.' MSPIB City Parks page lists York Park as one of its adopted parks. City-owned; MSPIB-maintained. POSSIBLE IDENTITY OVERLAP with 'Riverfront Park' (Google Maps entity at 728 2nd St, 366 reviews, city phone number) — staged separately pending verification. Flag: VERIFY_IDENTITY — confirm whether York Park and Riverfront Park are the same entity or distinct parks. If same, York Park (from authoritative city source) is canonical name. Baseline seed confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+# --- PORTSMOUTH NEW FINDS (NOT on Adopt-a-Park list) ---
+
+---
+entity_type: Site
+name_raw: "Riverfront Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "City of Portsmouth (unconfirmed)"
+governance_raw: "City of Portsmouth (unconfirmed)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "City Park"
+acres_raw: ""
+location_raw: "728 2nd Street, Portsmouth, Ohio"
+description_raw: "Family friendly, picnic tables, handicap restrooms and a Campground."
+features_raw: ""
+gps_lat_raw: 38.731197
+gps_lon_raw: -82.99772
+urls_raw: []
+identity_notes_raw: "New find from map verification pass — NOT listed on City of Portsmouth Adopt-a-Park page (which enumerates the official 13-park inventory). Google Maps shows 'Riverfront Park' at 728 2nd St, Portsmouth, OH with city phone number, 366 reviews (4.5 stars), type: Park. Customer review describes it as 'family friendly, picnic tables, handicap restrooms and a Campground.' POSSIBLE IDENTITY WITH YORK PARK — York Park on city's Adopt-a-Park page is listed at 'Ohio Riverfront' with no street number; 728 2nd St is on the Ohio riverfront. Flag: VERIFY_IDENTITY_WITH_YORK_PARK — if same entity, York Park record is canonical; suppress this record at resolution. If distinct park, confirm governance — city's 13-park count vs. this entity's city phone number is conflicting. Do not finalize until identity confirmed."
+discovery_tier: 6
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Larry Hisle Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Unknown — City of Portsmouth or Portsmouth Metropolitan Housing Authority (unconfirmed)"
+governance_raw: "Unknown (unconfirmed)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Park (type unconfirmed)"
+acres_raw: ""
+location_raw: "2238 Thomas Avenue, Portsmouth, Ohio"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: 38.7488152
+gps_lon_raw: -82.9681941
+urls_raw: []
+identity_notes_raw: "New find from map verification pass — NOT listed on City of Portsmouth Adopt-a-Park page. Google Maps shows 'Larry Hisle Park' at 2238 Thomas Ave, Portsmouth, OH — no phone number, no website. Located near Portsmouth Metropolitan Housing Authority facilities. Named after Larry Hisle, MLB player born in Portsmouth. MINIMAL_DATA — governance unconfirmed. Possible housing-complex park rather than standalone city park. Flag: VERIFY_GOVERNANCE — confirm managing entity (City of Portsmouth vs. Portsmouth Metropolitan Housing Authority) before assigning tier. If housing authority property, exclude from Tier 6."
+discovery_tier: 6
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- NEW BOSTON ---
+
+---
+entity_type: Site
+name_raw: "Millbrook Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Village of New Boston (unconfirmed)"
+governance_raw: "Village of New Boston (unconfirmed)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Village Park"
+acres_raw: ""
+location_raw: "Oak Street, New Boston, Ohio 45662"
+description_raw: ""
+features_raw: "Dogs allowed"
+gps_lat_raw: "38.759116"
+gps_lon_raw: "-82.9286962"
+urls_raw: []
+identity_notes_raw: "Confirmed via Google Maps at Oak Street, New Boston, OH 45662 (4.4 stars, 152 reviews). GPS 38.759116°N, 82.9286962°W from Google Maps — treat as approximate until confirmed from authoritative source. New Boston village website (newbostonohio.gov or similar) checked during web discovery — no parks page found; park confirmed by map verification. Governance as Village of New Boston unconfirmed — no official village parks page found. Baseline seed: 'Millbrook Park (New Boston)' — confirmed."
+discovery_tier: 6
+seeded_from_baseline: true
+baseline_id: ""
+
+# --- RARDEN ---
+
+---
+entity_type: Site
+name_raw: "Rarden Community Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Village of Rarden (unconfirmed)"
+governance_raw: "Village of Rarden (unconfirmed)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Community Park"
+acres_raw: ""
+location_raw: "1363 Main Street, Rarden, Ohio 45671"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: "38.923364"
+gps_lon_raw: "-83.2461051"
+urls_raw: []
+identity_notes_raw: "Confirmed via Google Maps at 1363 Main Street, Rarden, OH 45671. GPS 38.923364°N, 83.2461051°W from Google Maps — treat as approximate until confirmed from authoritative source. Rarden village official website not found during web discovery (village too small for independent web presence). Governance as Village of Rarden unconfirmed. New find — not a baseline seed."
+discovery_tier: 6
+seeded_from_baseline: false
+baseline_id: ""
+
+# ============================================================
+# TIER 5 MISSES — discovered during Tier 6 map verification
+# ============================================================
+
+---
+entity_type: Site
+name_raw: "Brush Creek Twp. Community Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Brush Creek Township (unconfirmed)"
+governance_raw: "Brush Creek Township (unconfirmed)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Township Community Park"
+acres_raw: ""
+location_raw: "5715 OH-348, Otway, Ohio 45657"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: "38.8600095"
+gps_lon_raw: "-83.1922189"
+urls_raw: []
+identity_notes_raw: "Tier 5 miss — discovered during Tier 6 consolidated map verification pass. Google Maps shows 'Brush Creek Twp. Community Park' at 5715 OH-348, Otway, OH 45657 with GPS 38.8600095°N, 83.1922189°W. Brush Creek Township is in northwestern Scioto County near Otway. No official Brush Creek Township website found during Tier 5 discovery pass. Adjacent to OH-348. Staged as Tier 5 miss; discovery_tier set to 5. Not a baseline seed."
+discovery_tier: 5
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Site
+name_raw: "Eden Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Clay Township (unconfirmed)"
+governance_raw: "Clay Township (unconfirmed)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Township Park"
+acres_raw: ""
+location_raw: "Clay Township, Ohio 45662"
+description_raw: ""
+features_raw: ""
+gps_lat_raw: "38.7747982"
+gps_lon_raw: "-82.9421173"
+urls_raw: []
+identity_notes_raw: "Tier 5 miss — discovered during Tier 6 consolidated map verification pass. Google Maps shows 'Eden Park' in Clay Township, OH 45662 at GPS 38.7747982°N, 82.9421173°W. Appears to be a second Clay Township park distinct from the previously-documented Clay Township Park (GPS: 38.78624°N, 82.97119°W, located near Rosemount CDP). The two parks are approximately 2.5 miles apart. No official Clay Township website found; no township parks page. Staged as Tier 5 miss; discovery_tier set to 5. Not a baseline seed."
+discovery_tier: 5
+seeded_from_baseline: false
+baseline_id: ""
+
+# ============================================================
+# TIER 7 — CONSERVANCY & LAND TRUST
+# Arc of Appalachia (4 Scioto County preserves)
+# Appalachia Ohio Alliance (1 Scioto County preserve)
+# NOTE: These entities were listed in the Tier 8 baseline
+# seeds but are land trusts — correctly staged at Tier 7.
+# ============================================================
+
+# --- ARC OF APPALACHIA — OHIO HANGING ROCK ---
+
+---
+entity_type: Site
+name_raw: "Ohio Hanging Rock"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: "Clean Ohio (acquisition grant)"
+coordination_raw: ""
+category_raw: "Nature Preserve"
+acres_raw: "750"
+location_raw: "Frederick Rd, Wheelersburg, Ohio 45694; northeastern Scioto County, Little Scioto Watershed"
+description_raw: "Remote hill country of the Little Scioto Watershed in northeastern Scioto County. Renowned for immense sandstone outcrops covered with mosses, ferns, and lichens that follow an elevation line just below the ridgetops. Exceptionally rich in fern diversity."
+features_raw: "Hiking trails; small gravel parking lot; open sunrise to sunset; dogs permitted; trails closed during annual Deer Management Hunt (week after Thanksgiving through Sunday before Christmas); parking not winter-maintained"
+gps_lat_raw: 38.8155658
+gps_lon_raw: -82.7861715
+urls_raw:
+  - "https://www.arcofappalachia.org/ohio-hanging-rock"
+  - "https://www.arcofappalachia.org/visit-ohio-hanging-rock"
+  - "https://static1.squarespace.com/static/640b875d14fa1852d6031793/t/655905b4c827fe0ff11b0aae/1700332981455/Ohio+Hanging+Rock+Hiking+Guide.pdf"
+identity_notes_raw: "Baseline seed — previously listed as Tier 8 (private) but Arc of Appalachia is a nonprofit land trust; correctly staged at Tier 7. Future expansion of ~4.76 acres with additional 2.25-mile public trail planned for 2026. Baseline seed confirmed."
+discovery_tier: 7
+seeded_from_baseline: true
+baseline_id: "Ohio Hanging Rock"
+
+---
+entity_type: Trail
+name_raw: "Ohio Hanging Rock Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+length_raw: "4.4 miles (round trip loop)"
+difficulty_raw: "Difficult — considerable length and several significant ascents and descents"
+accessibility_raw: ""
+surface_raw: ""
+parent_site_raw: "Ohio Hanging Rock"
+urls_raw:
+  - "https://www.arcofappalachia.org/visit-ohio-hanging-rock"
+identity_notes_raw: "Trails lead from valley floor to upper-elevation ridgetops strewn with large rocks. Additional 2.25-mile public trail planned for 2026."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Access Point
+name_raw: "Ohio Hanging Rock Trailhead"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+location_raw: "Frederick Rd, Wheelersburg, Ohio 45694"
+description_raw: ""
+features_raw: "Small gravel parking lot; trailhead for Ohio Hanging Rock Trail"
+gps_lat_raw: 38.8155658
+gps_lon_raw: -82.7861715
+township_raw: ""
+municipality_raw: ""
+urls_raw:
+  - "https://www.arcofappalachia.org/ohr-trailhead"
+  - "https://www.arcofappalachia.org/visit-ohio-hanging-rock"
+identity_notes_raw: "Single trailhead and parking area. Second trailhead planned for 2026 expansion."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- ARC OF APPALACHIA — SIMON WOODS ---
+
+---
+entity_type: Site
+name_raw: "Simon Woods"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: "Clean Ohio (acquisition grant)"
+coordination_raw: ""
+category_raw: "Nature Preserve"
+acres_raw: "670"
+location_raw: "8721 Pond Creek-Carey's Run Road, West Portsmouth, Ohio 45663"
+description_raw: "Mature white oak and chestnut oak upland forest, one of the most beautiful in the Arc preserve system. Three headwater streams flowing from ridgetops into Pond Creek. Rocky slopes carpeted with large fern colonies. Key deep-woods warbler breeding species: Kentucky warbler, worm-eating warbler, hooded warbler. Pond Creek exits the farm and winds eastward through Tremper Mound before joining the Scioto River."
+features_raw: "Hiking trails; free parking across from homestead at Pond Creek-Carey's Run Rd; historic John Roger Simon Farm homestead with sorghum-making mural (Robert Dafford)"
+gps_lat_raw: 38.798858
+gps_lon_raw: -83.0680797
+urls_raw:
+  - "https://www.arcofappalachia.org/simon-woods"
+  - "https://www.arcofappalachia.org/simon-farm"
+identity_notes_raw: "Baseline seed — previously listed as Tier 8 (private) but Arc of Appalachia is a nonprofit land trust; correctly staged at Tier 7. Preserve includes 564-acre John Roger Simon farm (Clean Ohio assisted acquisition) plus 95-acre Noel Hollow expansion. Annual John Roger Simon Sorghum Festival held at preserve. Named trail specifics not confirmed from web search — trail names and lengths PENDING from arcofappalachia.org/visit-simon-woods. Baseline seed confirmed."
+discovery_tier: 7
+seeded_from_baseline: true
+baseline_id: "Simon Woods"
+
+# --- ARC OF APPALACHIA — TREMPER MOUND ---
+
+---
+entity_type: Site
+name_raw: "Tremper Mound"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Nature Preserve / Archaeological Site"
+acres_raw: "706"
+location_raw: "20580 SR-73, McDermott, Ohio 45663; main entrance on OH-104 (southbound only); Scioto River eastern boundary"
+description_raw: "2,000-year-old Hopewell Culture ceremonial earthwork along the Scioto River. Protects 6.17 miles of forest corridor including 3.56 miles of Pond Creek's main stem and primary headwaters, and 1.30 miles of Scioto River riparian corridor. Famous for discovery of approximately 60 Hopewell effigy pipes carved in the images of local wildlife. Located four miles north of the Portsmouth Works Hopewell ceremonial complex. Over two-thirds of the mound was part of the 618-acre Matthews Farm; entire mound unified under Arc ownership."
+features_raw: "Three hiking trails; main entrance parking lot on OH-104; second trailhead parking (Huckleberry Ridge Trailhead, 0.5 mi south on OH-104); open year-round sunrise to sunset"
+gps_lat_raw: 38.802385
+gps_lon_raw: -83.0085972
+urls_raw:
+  - "https://www.arcofappalachia.org/tremper-mound"
+  - "https://www.arcofappalachia.org/visit-tremper-mound"
+  - "https://static1.squarespace.com/static/640b875d14fa1852d6031793/t/6812107083f9a510c91e3011/1746014323550/Tremper+Mound+Hiking+Guide.pdf"
+  - "https://sciotohistorical.org/items/show/148"
+  - "https://www.sciotoheritagetrail.com/tremper-mound.html"
+identity_notes_raw: "Baseline seed — previously listed as Tier 8 (private) but Arc of Appalachia is a nonprofit land trust; correctly staged at Tier 7. Tremper Mound is an NRHP-listed Hopewell Culture earthwork — NRHP feature within Tier 7 parcel; public visitor access exists (Tremper Mound Trail .20-mi loop leads directly to mound) — see child entity creation below. Entrance is one-way approach southbound on OH-104 due to dangerous traffic conditions. Baseline seed confirmed."
+discovery_tier: 7
+seeded_from_baseline: true
+baseline_id: "Tremper Mound"
+
+---
+entity_type: Trail
+name_raw: "Tremper Mound Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+length_raw: "0.20 miles (loop)"
+difficulty_raw: ""
+accessibility_raw: ""
+surface_raw: ""
+parent_site_raw: "Tremper Mound"
+urls_raw:
+  - "https://www.arcofappalachia.org/visit-tremper-mound"
+identity_notes_raw: "Loop trail beginning at north end of main parking lot; leads through grassland meadows to the 2,000-year-old Hopewell ceremonial earthwork."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Fairybell Hollow Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+length_raw: "2.5 miles (loop)"
+difficulty_raw: ""
+accessibility_raw: ""
+surface_raw: ""
+parent_site_raw: "Tremper Mound"
+urls_raw:
+  - "https://www.arcofappalachia.org/visit-tremper-mound"
+identity_notes_raw: "Winds into steep Appalachian hill-country through remote forested coves; ascends to high elevations of Huckleberry Ridge. Separate Huckleberry Ridge Trailhead parking on OH-104."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "Pond Creek Bottom Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+length_raw: "1.5 miles (loop)"
+difficulty_raw: ""
+accessibility_raw: ""
+surface_raw: ""
+parent_site_raw: "Tremper Mound"
+urls_raw:
+  - "https://www.arcofappalachia.org/visit-tremper-mound"
+identity_notes_raw: "Riparian loop along Pond Creek bottomland within Tremper Mound preserve."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Access Point
+name_raw: "Tremper Mound Main Entrance"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+location_raw: "20580 SR-73, McDermott, Ohio 45663; on OH-104 southbound"
+description_raw: ""
+features_raw: "Main parking lot; trailhead for Tremper Mound Trail and Pond Creek Bottom Trail; southbound approach only on OH-104 (concrete island divider)"
+gps_lat_raw: 38.802385
+gps_lon_raw: -83.0085972
+township_raw: ""
+municipality_raw: ""
+urls_raw:
+  - "https://www.arcofappalachia.org/visit-tremper-mound"
+identity_notes_raw: "Approach from intersection of OH-73 and OH-104, turn south toward Portsmouth; entrance .25 miles on right separated by cement island. Southbound approach only due to traffic hazard."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Access Point
+name_raw: "Huckleberry Ridge Trailhead"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+location_raw: "OH-104, approximately 0.5 miles south of Tremper Mound main entrance, McDermott, Ohio 45663"
+description_raw: ""
+features_raw: "Trailhead parking lot; serves Fairybell Hollow Trail"
+gps_lat_raw: 38.793205
+gps_lon_raw: -83.015156
+township_raw: ""
+municipality_raw: ""
+urls_raw:
+  - "https://www.arcofappalachia.org/visit-tremper-mound"
+identity_notes_raw: "Second trailhead for Tremper Mound preserve. Located 0.5 miles south of main entrance on OH-104 at the Huckleberry Ridge Trailhead sign."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- ARC OF APPALACHIA — GLADYS RILEY GOLDEN STAR LILY PRESERVE ---
+
+---
+entity_type: Site
+name_raw: "Gladys Riley Golden Star Lily Preserve"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: "Clean Ohio (expansion acquisition)"
+coordination_raw: ""
+category_raw: "Nature Preserve"
+acres_raw: "230"
+location_raw: "Tick Ridge-Koenig Hill Rd, Otway, Ohio 45657"
+description_raw: "First preserve specifically acquired to protect golden star lily (Erythronium rostratum), an endangered Ohio wildflower with an extremely limited geographical range. Floodplain forest along Rocky Fork of Scioto Brush Creek with spring ephemeral wildflowers. Oak-hickory hillside forest with trees of impressive girth. Rocky slopes carpeted with large fern colonies."
+features_raw: "Two hiking trails; gravel trailhead parking lot; open to public"
+gps_lat_raw: 38.8506197
+gps_lon_raw: -83.2018817
+urls_raw:
+  - "https://www.arcofappalachia.org/gladys-riley"
+  - "https://www.arcofappalachia.org/visit-gladys-riley"
+  - "https://static1.squarespace.com/static/640b875d14fa1852d6031793/t/6559056b8df2f945819c3198/1700332908641/Gladys+Riley+Hiking+Guide.pdf"
+  - "https://birdinghotspots.org/hotspot/L7323121"
+  - "https://www.sciotoheritagetrail.com/gladys-riley-gold-star-preserve.html"
+identity_notes_raw: "Baseline seed — previously listed as Tier 8 (private) but Arc of Appalachia is a nonprofit land trust; correctly staged at Tier 7. Preserve currently 230 acres (expanded from original 186 ac via 2015 acquisition of 118 acres from Ralstin/Hazelbaker/Ivers family); third expansion of ~40 acres (Rocky Fork confluence with Scioto Brush Creek) pending. DISTINCT from SC-S-0006 (Gladys Riley Golden-star State Nature Preserve, Tier 2, ODNR) — the SNP is an ODNR-designated state nature preserve embedded within the larger Arc preserve. The 186 ac vs. 230 ac discrepancy in prior records reflects the SNP acreage vs. the full Arc preserve acreage. Access: from SR-32 east of Peebles, south on SR-73 12.2 mi through Rarden to Otway; right on SR-348 1.1 mi; left on Rocky Fork Rd 0.2 mi; left on Tick Ridge-Koenig Rd 0.2 mi; parking lot on left after Rocky Fork Bridge. Baseline seed confirmed."
+discovery_tier: 7
+seeded_from_baseline: true
+baseline_id: "Gladys Riley Golden Star Lily Preserve"
+
+---
+entity_type: Trail
+name_raw: "Yellow Buckeye Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+length_raw: "1 mile (loop)"
+difficulty_raw: "Difficult"
+accessibility_raw: ""
+surface_raw: ""
+parent_site_raw: "Gladys Riley Golden Star Lily Preserve"
+urls_raw:
+  - "https://www.arcofappalachia.org/visit-gladys-riley"
+identity_notes_raw: "Leads through wildflower-rich floodplain of the Rocky Fork of Scioto Brush Creek. Trail name confirmed from Arc visitor guide."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Trail
+name_raw: "White Walnut Trail"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+length_raw: "1.25 miles (loop)"
+difficulty_raw: "Moderate"
+accessibility_raw: ""
+surface_raw: ""
+parent_site_raw: "Gladys Riley Golden Star Lily Preserve"
+urls_raw:
+  - "https://www.arcofappalachia.org/visit-gladys-riley"
+identity_notes_raw: "Leads to oak-hickory hillside forest with trees of impressive girth. Trail name confirmed from Arc visitor guide."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+---
+entity_type: Access Point
+name_raw: "Gladys Riley Golden Star Lily Preserve Trailhead"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: ""
+coordination_raw: ""
+location_raw: "Tick Ridge-Koenig Hill Rd, Otway, Ohio 45657 (just past Rocky Fork Bridge)"
+description_raw: ""
+features_raw: "Gravel trailhead parking lot; serves Yellow Buckeye Trail and White Walnut Trail"
+gps_lat_raw: 38.8506197
+gps_lon_raw: -83.2018817
+township_raw: ""
+municipality_raw: ""
+urls_raw:
+  - "https://www.arcofappalachia.org/visit-gladys-riley"
+  - "https://arcofappalachia.org/directions-gladys-riley/"
+identity_notes_raw: "Parking lot on left immediately after crossing Rocky Fork Bridge on Tick Ridge-Koenig Rd. Directions: SR-32 east of Peebles → south on SR-73 12.2 mi → right/south on SR-348 1.1 mi → left on Rocky Fork Rd 0.2 mi → left on Tick Ridge-Koenig Rd 0.2 mi."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- APPALACHIA OHIO ALLIANCE — SCIOTO BEND PRESERVE ---
+
+---
+entity_type: Site
+name_raw: "Scioto Bend Preserve"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Appalachia Ohio Alliance"
+governance_raw: "Appalachia Ohio Alliance"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Nature Preserve"
+acres_raw: ""
+location_raw: ""
+description_raw: "Part of the Appalachia Ohio Alliance Scioto River Flyway Corridor Initiative; conservation property protecting lands along the Scioto River corridor."
+features_raw: ""
+gps_lat_raw: "GPS_NEEDED"
+gps_lon_raw: "GPS_NEEDED"
+urls_raw:
+  - "https://appalachiaohioalliance.org/preserves/scioto-river-flyway-corridor-initiative/scioto-bend-preserve/"
+  - "https://www.appalachiaohioalliance.org/preserves/"
+identity_notes_raw: "Baseline seed — previously listed as Tier 8 (private) but Appalachia Ohio Alliance is a nonprofit land trust (LTA member); correctly staged at Tier 7. COUNTY UNCERTAIN — baseline listed as Scioto County; AOA county coverage list mentions Pike but not explicitly Scioto County; preserve URL path includes 'scioto-river-flyway-corridor-initiative' which implies Scioto River geography. County placement requires GIS verification. Acreage, GPS, address, and public access status not confirmed from web search — website blocked; data PENDING. Flag: COUNTY_UNCERTAIN — verify in Scioto vs. Pike County via GIS before pipeline. Baseline seed conditionally confirmed pending county verification."
+discovery_tier: 7
+seeded_from_baseline: true
+baseline_id: "Scioto Bend Preserve"
+
+# ============================================================
+# TIER 7 — ARC OF APPALACHIA SITE NETWORK
+# Arc of Appalachia manages 4 preserves in Scioto County,
+# constituting a multi-site conservation system.
+# ============================================================
+
+---
+entity_type: Site Network
+name_raw: "Arc of Appalachia — Scioto County Preserves"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Arc of Appalachia"
+governance_raw: "Arc of Appalachia"
+partner_agencies_raw: "Clean Ohio; Ohio Natural Resources Conservation Service"
+coordination_raw: ""
+member_sites_raw:
+  - "Ohio Hanging Rock"
+  - "Simon Woods"
+  - "Tremper Mound"
+  - "Gladys Riley Golden Star Lily Preserve"
+urls_raw:
+  - "https://www.arcofappalachia.org/arc-preserves"
+  - "https://www.arcofappalachia.org/"
+identity_notes_raw: "Arc of Appalachia is a nonprofit land trust that owns and manages 4 nature preserves in Scioto County. Together these preserves protect 1,656+ acres of Appalachian hill country, river corridors, and rare species habitat in the Little Scioto Watershed and Scioto River corridor. New find — not a baseline seed (the baseline listed individual preserves, not the network)."
+discovery_tier: 7
+seeded_from_baseline: false
+baseline_id: ""
+
+# ============================================================
+# TIER 8 — PRIVATE & ORGANIZATION-BASED
+# Camp Oyo (Simon Kenton Council, BSA)
+# Otway Covered Bridge (Otway Historical Society)
+# Three Bridges Park (The Boneyfiddle Project)
+# 535 On Second (Main Street Portsmouth in Bloom)
+# ============================================================
+
+# --- CAMP OYO (BSA — SIMON KENTON COUNCIL) ---
+
+---
+entity_type: Site
+name_raw: "Camp Oyo"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Simon Kenton Council, Boy Scouts of America"
+governance_raw: "Simon Kenton Council, Boy Scouts of America"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Scout Camp"
+acres_raw: "52"
+location_raw: "168 Shawnee Rd West, Portsmouth, Ohio 45663; approximately 10 miles west of Portsmouth off State Route 125; adjacent to Shawnee State Forest"
+description_raw: "BSA resident and weekend camp within the Shawnee State Forest boundary. Features a waterfront area, pool, and access to adjacent Shawnee State Forest hiking trails. Historic camp established 1926 from 55 acres of the Roosevelt Game Refuge."
+features_raw: "Dining hall; 6 lodges; 2 maintenance buildings; 2 cabins; handicraft center; cook's cabin; shower house; pool; waterfront area for watersports; access to Shawnee State Forest"
+gps_lat_raw: 38.726861
+gps_lon_raw: -83.1538332
+urls_raw:
+  - "https://skcscouts.org/camps/camp-locations-and-rentals/camp-oyo/"
+  - "https://campreservation.com/441/Camps/2"
+  - "https://sciotohistorical.org/items/show/68"
+identity_notes_raw: "Baseline seed — governance correction: baseline listed 'Dan Beard Council, BSA' but Camp Oyo is administered by the Simon Kenton Council, BSA (formed 1994 from merger of Central Ohio, Chief Logan, and Scioto Area councils; the Scioto Area Council was the direct predecessor). Primary use is weekend camping by local BSA Scouting units; non-scout public access not documented — access is program-limited. Camp sits within Shawnee State Forest boundary. Originally 55 acres (1926) from Roosevelt Game Refuge; current records indicate 52 acres. Baseline seed confirmed (entity real, governance corrected)."
+discovery_tier: 8
+seeded_from_baseline: true
+baseline_id: "Camp Oyo"
+
+# --- OTWAY COVERED BRIDGE (OTWAY HISTORICAL SOCIETY) ---
+
+---
+entity_type: Site
+name_raw: "Otway Covered Bridge"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Otway Historical Society"
+governance_raw: "Otway Historical Society"
+partner_agencies_raw: "Federal Highway Administration (2012 repair grant)"
+coordination_raw: ""
+category_raw: "Historic Structure / Bridge Park"
+acres_raw: ""
+location_raw: "5923 State Route 348, Otway, Ohio 45657; Brush Creek Township; crosses Scioto Brush Creek"
+description_raw: "Only remaining covered bridge in Scioto County. 127-foot Smith type timber truss bridge over Scioto Brush Creek, built 1874 by Smith Bridge Co. of Toledo. Bypassed and closed to vehicle traffic in 1961; acquired by Otway Historical Society and now serves as a historic landmark and public park. Tornado damaged the roof in March 2012; federal grant-funded repair concluded August 2014."
+features_raw: "Historic covered bridge (public access); park setting; annual Covered Bridge Festival and Car Show"
+gps_lat_raw: "38.85932"
+gps_lon_raw: "-83.19060"
+urls_raw:
+  - "https://en.wikipedia.org/wiki/Otway_Covered_Bridge"
+  - "https://www.hmdb.org/m.asp?m=132962"
+  - "https://www.sciotoheritagetrail.com/otway-covered-bridge.html"
+  - "https://historicbridges.org/bridges/browser/?bridgebrowser=ohio/otway/"
+  - "https://nationalregisterofhistoricplaces.com/OH/Scioto/state.html"
+identity_notes_raw: "Baseline seed confirmed. NRHP listed 1974. GPS 38.85932°N, 83.19060°W converted from DMS 38°51.759'N, 83°11.436'W (from HMDB historical marker coordinates). Also referenced at alternate address 341 Curtis Smith Rd, Otway OH 45657. Part of Scioto Heritage Trail. Qualifies as Tier 8 Site (publicly accessible historic structure, Otway Historical Society ownership, identity-bearing). Annual Covered Bridge Festival. Part of the 36-mile Scioto County Shawnee Bridge to Bridge Route (Otway Covered Bridge to Mackletree Bridge)."
+discovery_tier: 8
+seeded_from_baseline: true
+baseline_id: "Otway Covered Bridge"
+
+---
+entity_type: Access Point
+name_raw: "Otway Covered Bridge Park Entrance"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Otway Historical Society"
+governance_raw: "Otway Historical Society"
+partner_agencies_raw: ""
+coordination_raw: ""
+location_raw: "5923 State Route 348, Otway, Ohio 45657"
+description_raw: ""
+features_raw: "Bridge park access; historic covered bridge"
+gps_lat_raw: "38.85932"
+gps_lon_raw: "-83.19060"
+township_raw: ""
+municipality_raw: ""
+urls_raw:
+  - "https://www.sciotoheritagetrail.com/otway-covered-bridge.html"
+identity_notes_raw: "Bridge itself is the primary visitor attraction and access point to the Scioto Brush Creek crossing. Brush Creek Township."
+discovery_tier: 8
+seeded_from_baseline: false
+baseline_id: ""
+
+# --- THREE BRIDGES PARK (THE BONEYFIDDLE PROJECT) ---
+
+---
+entity_type: Site
+name_raw: "Three Bridges Park"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "The Boneyfiddle Project"
+governance_raw: "The Boneyfiddle Project"
+partner_agencies_raw: "Main Street Portsmouth in Bloom (MSPIB) — Boneyfiddle beautification partner"
+coordination_raw: ""
+category_raw: "Urban Park / Event Venue"
+acres_raw: ""
+location_raw: "131 Front Street, Portsmouth, Ohio; west end of Second Street at the bridge to West Portsmouth"
+description_raw: "Community event park and outdoor venue at the west end of Second Street in Portsmouth's Boneyfiddle historic district. Home to the Final Friday Concert Series (free, last Friday May–September). Owned and developed by The Boneyfiddle Project, a private nonprofit focused on Portsmouth neighborhood revitalization."
+features_raw: "Outdoor event space; restroom facility; Boneyfiddle signage; flower beds; sidewalks; tree wells with planted trees; Final Friday Concert Series"
+gps_lat_raw: 38.7315604
+gps_lon_raw: -83.0097902
+urls_raw:
+  - "https://www.mspohio.org/three-bridges-park"
+  - "https://www.theboneyfiddleproject.org/about"
+identity_notes_raw: "Baseline seed confirmed. Ownership previously verified at Tier 6 as The Boneyfiddle Project (private nonprofit) — not a City of Portsmouth park. Correctly assigned Tier 8. No dedicated hiking trails — park is primarily an event/community gathering space. MSP website lists Three Bridges Park under its city parks page but governance is The Boneyfiddle Project, not the city."
+discovery_tier: 8
+seeded_from_baseline: true
+baseline_id: "Three Bridges Park"
+
+# --- 535 ON SECOND (MSPIB / MAIN STREET PORTSMOUTH IN BLOOM) ---
+
+---
+entity_type: Site
+name_raw: "535 On Second"
+county_primary: Scioto
+counties_raw: ["Scioto County, Ohio"]
+ownership_raw: "Main Street Portsmouth in Bloom (MSPIB)"
+governance_raw: "Main Street Portsmouth in Bloom (MSPIB)"
+partner_agencies_raw: ""
+coordination_raw: ""
+category_raw: "Pocket Park / Courtyard Garden"
+acres_raw: ""
+location_raw: "535 Second Street, Portsmouth, Ohio 45662"
+description_raw: ""
+features_raw: "Courtyard pocket park; sensory garden; fencing; garden beds; temporary closure for preservation updates (will remain open long-term)"
+gps_lat_raw: 38.7317877
+gps_lon_raw: -83.0013679
+urls_raw:
+  - "https://www.mspohio.org/city-parks"
+identity_notes_raw: "Baseline seed confirmed. Previously staged as partial record (Tier 6 pass — governance confirmed as MSPIB, not city of Portsmouth). Correctly assigned Tier 8. Pocket park created within footprint of collapsed former building. Temporarily closed for updates as of recent news. GPS not confirmed from authoritative source — flag for GPS acquisition pass. Address: 535 Second Street (pocket park name matches street address)."
+discovery_tier: 8
+seeded_from_baseline: true
+baseline_id: "535 On Second"

@@ -1,0 +1,1978 @@
+# Defiance County, Ohio — Raw Discovery Staging
+# RUN_ID: defiance_oh_2026_04_19
+# PREFIX: DEF
+# Bootstrap: 2026-04-19
+#
+# Rules (see na-bootstrap / na-discovery):
+#   - Append each entity immediately on discovery; do not hold records only in chat.
+#   - Never normalize, correct, or interpret field values during discovery.
+#   - Never populate `township` or `municipality` — GIS-derived only.
+#   - Tier order per entity: Sites → Trails → Trail Segments → Trail Networks → Site Networks → Access Points.
+#
+
+records:
+- entity_type: Trail
+  name_raw: North Country National Scenic Trail
+  counties_raw:
+  - Defiance
+  - Paulding
+  - Henry
+  - Lucas
+  - and others across 8 states
+  county_primary: Defiance
+  ownership_raw: United States of America / National Park Service
+  governance_raw: National Park Service
+  partner_agencies_raw: North Country Trail Association
+  coordination_raw: Buckeye Trail Association (co-routes in Ohio); trail volunteers
+  difficulty_raw: ''
+  accessibility_raw: ''
+  trail_use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  description_raw: The longest trail in the National Trails System, the North Country National Scenic Trail stretches approximately
+    4,800 miles across eight states from North Dakota to Vermont. In Ohio, the trail joins and shares the route of the Buckeye
+    Trail for approximately 90% of its ~1,076-mile Ohio course, following canal towpaths, river corridors, and historic routes
+    through northwest and central Ohio.
+  location_raw: Passes through Defiance County, Ohio; follows Maumee River corridor; routes through downtown Defiance, through
+    Pontiac Park, and through Independence Dam State Park along the Miami and Erie Canal towpath
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.nps.gov/noco/index.htm
+  - https://northcountrytrail.org/the-trail/ohio/
+  - https://en.wikipedia.org/wiki/North_Country_Trail
+  identity_notes_raw: 'In Ohio, the NCT is co-routed with the Buckeye Trail (Buckeye Trail Association) for ~90% of its Ohio
+    mileage. The shared Ohio route is ~1,076 miles total. Within Defiance County, the trail enters the city of Defiance, follows
+    sidewalk along tree-lined streets, crosses the Maumee River, turns east through Pontiac Park, continues on-road, and then
+    routes through Independence Dam State Park following the old Miami and Erie Canal towpath past Lock Number Thirteen ruins.
+    The ''Defiance Section'' (55 miles across Paulding, Defiance, Henry, and Lucas Counties) is a Buckeye Trail Association
+    section designation, not an NCT-specific named segment — no NCT-specific segment names documented for Defiance County.
+    Trail is multi-county and multi-state; this record captures Defiance County presence. NCT confirmed through Pontiac Park
+    — partially resolves flag DEF-F-02 (Pontiac Metro Park governance: trail evidence supports municipal park in or adjacent
+    to City of Defiance; verify in Tier 5). Access points for the NCT within Defiance County (trailheads at Independence Dam
+    SP and city parks) will be documented at Tier 2 (SP) and Tier 5 (city).
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Trail Segment
+    result: null
+    sources_checked:
+    - https://northcountrytrail.org/the-trail/ohio/
+    - https://visitdefianceohio.com/north-country-trail/
+    - https://buckeyetrail.org/sections/sections-map.php?section=defiance
+    reasoning: 'No NCT-specific named operational segments documented for Defiance County. The ''Defiance Section'' is a Buckeye
+      Trail Association section designation covering 55 miles across Paulding, Defiance, Henry, and Lucas Counties — a BTA
+      organizational unit, not an NCT segment. No other named or numbered NCT segments identified in authoritative sources
+      for this county.
+
+      '
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Trail Network
+    result: null
+    sources_checked:
+    - https://www.nps.gov/noco/index.htm
+    - https://en.wikipedia.org/wiki/North_Country_Trail
+    - https://northcountrytrail.org/the-trail/ohio/
+    reasoning: 'The NCT is a single named trail (one trail, not a multi-trail system). No other federally designated trail
+      network identified in Defiance County. Per Trail Network Discovery Sub-Procedure §5 identity rules, a Trail Network
+      must be composed of two or more Trails — this condition is not met.
+
+      '
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Site Network
+    result: null
+    sources_checked:
+    - https://www.nps.gov/state/oh/list.htm
+    - https://www.nps.gov/noco/index.htm
+    reasoning: 'No National Heritage Area or similar multi-site federal designation covers Defiance County. NPS Ohio state
+      listing reviewed — no NHA in or overlapping Defiance County.
+
+      '
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Access Point
+    result: null
+    sources_checked:
+    - https://www.nps.gov/noco/index.htm
+    - https://northcountrytrail.org/the-trail/ohio/
+    - https://visitdefianceohio.com/north-country-trail/
+    reasoning: 'No federal-managed trailheads or access infrastructure documented in Defiance County. The NCT accesses Defiance
+      County through state park (ODNR) and municipal park facilities; those access points will be discovered at Tier 2 and
+      Tier 5 respectively.
+
+      '
+- entity_type: Site
+  name_raw: Independence Dam State Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: State Park
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '591'
+  location_raw: 27722 County Rd 424, Defiance, Ohio 43512; approximately 3 miles east of Defiance on the Maumee River
+  description_raw: Located on the banks of the Maumee River, the park features ruins of the Miami and Erie Canal and a three-mile
+    hiking trail following the historic canal towpath that meanders between the old canal and the river through a dense hardwood
+    forest. Over 200 bird species have been recorded. The park is along the Maumee State Scenic River.
+  features_raw: Primitive camping (tent only, April 1–Oct 31); boat launch (4-lane); marina; picnic shelters (reservable);
+    hiking trail; hand-launch area; pit latrines; fire rings; picnic tables; Lock Number 13 ruins (Miami and Erie Canal)
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/independence-dam-state-park-campground
+  - https://www.stateparks.com/independence_dam_state_park_in_ohio.html
+  - https://en.wikipedia.org/wiki/Independence_Dam_State_Park
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/parkmaps/independenceparkmap.pdf
+  identity_notes_raw: 'Independence Dam (the physical dam) completed 1924 in concrete, replacing earlier wooden structure;
+    11.8 ft high, 652 ft long; state-regulated infrastructure associated with the park. NID baseline seed ''Independence Dam
+    (NID)'' resolves to the park''s impoundment dam — not a separate Site entity. Park established 1949 by Ohio Dept of Public
+    Works (later ODNR). Maumee State Scenic River designation applies to this stretch (state-to-Defiance = scenic section;
+    downstream = recreational section). Buckeye Trail / North Country NST routes through park along canal towpath. Winchester''s
+    Camp No. 3 (ODNR Historic Site #24) is located within the park — see child Site record. Phone: (419) 237-2593 (per stateparks.com)
+    / (419) 956-1368. CONFIRM: 25 vs 40 primitive campsites (sources conflict). Baseline seeds confirmed: ''Independence Dam
+    State Park'', ''Independence Dam (NID)''.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Independence Dam State Park; Independence Dam (NID)
+- entity_type: Site
+  name_raw: Oxbow Lake Wildlife Area
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Wildlife Area
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '416'
+  location_raw: Defiance County, Ohio; near Defiance, Bryan, and Napoleon
+  description_raw: Located in the glaciated lake plain of northwestern Ohio with slightly rolling topography. Mud Creek bisects
+    the area, featuring large cottonwoods and sycamores along its banks, while upland woods consist mostly of oaks and hickories.
+    Substantial areas of brushland and meadow are maintained for upland game habitat. Ohio purchased the originally forested
+    land in 1948 after it had been cleared for farming in the previous century.
+  features_raw: Boat ramp; parking lots (3 total — 1 at Little Oxbow Lake, 2 at Big Oxbow Lake); 1.25-mile stone walkway around
+    reservoir with benches; handicapped parking near boat ramp; fishing area; idle speed only boating
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/oxbow-lake-fishing-area
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/oxbow.pdf
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/maps/oxbowlake1.pdf
+  - https://www.stateparks.com/oxbow_lake_wildlife_area_in_ohio.html
+  - http://wildlife.ohiodnr.gov/oxbowlakewa
+  identity_notes_raw: 'Contains two lakes: Big Oxbow Lake (38 acres, constructed 1953) and Little Oxbow Lake (4.5 acres, constructed
+    1958). Oxbow Lake Dam is the impoundment structure creating Big Oxbow Lake — NID baseline seed ''Oxbow Lake Dam'' resolves
+    to this infrastructure, not a separate Site. Flag DEF-F-06: ''western agreement parcel'' — no evidence found in any authoritative
+    source of a separate western agreement parcel. Baseline may have been referencing a management agreement for adjacent
+    lands. Mark DEF-F-06 UNRESOLVED — check ODNR Wildlife GIS layer or contact area manager. Fishing species: northern pike,
+    largemouth bass, bluegills, bullheads. Also listed as Oxbow Lake State Wildlife Area (alternate name on some sources).
+    Baseline seed confirmed: ''Oxbow Lake Wildlife Area + western agreement parcel (Ohio Division of Wildlife)'', ''Oxbow
+    Lake Dam (NID)''.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Oxbow Lake Wildlife Area; Oxbow Lake Dam (NID)
+- entity_type: Site
+  name_raw: Winchester's Camp No. 3 / Fort Starvation
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Historic Site
+  parent_site_raw: Independence Dam State Park
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: Four miles east of the City of Defiance on US Route 424 on the bank of the Maumee River, within Independence
+    Dam State Park
+  description_raw: War of 1812 winter encampment site (Nov. 2, 1812 – Jan. 1, 1813) for three Kentucky Militia Regiments and
+    one regiment of US Regulars under Colonel Wells, stationed approximately six miles below Fort Winchester on the north
+    bank of the Maumee River. Nicknamed 'Fort Starvation' by soldiers due to supply shortages. Believed burial site of approximately
+    300 Kentucky soldiers; thousands of bones were disturbed when the Miami and Erie Canal was dug through the burial ground
+    (1837–1848) and reinterred. Historical marker erected 2010 by Defiance County Chapter Ohio Genealogical Society and other
+    organizations.
+  features_raw: Historical marker
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.hmdb.org/m.asp?m=37924
+  - https://www.defiancecountygenealogy.org/Military/Kentucky.html
+  identity_notes_raw: 'ODNR Historic Site #24. Also known as ''Old Kentucky Burial Grounds.'' Located within Independence
+    Dam State Park. The historical marker also references ''The Old Kentucky Burial Grounds.'' Two distinct names in active
+    use: ''Winchester''s Camp No. 3'' (ODNR designation) and ''Fort Starvation'' (soldiers'' nickname). Baseline seed confirmed:
+    ''Winchester''s Camp No. 3 / Fort Starvation (ODNR Historic Site #24, inside Independence Dam SP)''. DEF-F-09 resolved:
+    confirmed as child historic site within Independence Dam SP.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Winchester's Camp No. 3 / Fort Starvation
+- entity_type: Trail
+  name_raw: Maumee River Water Trail
+  counties_raw:
+  - Paulding
+  - Defiance
+  - Henry
+  - Wood
+  - Lucas
+  county_primary: Defiance
+  ownership_raw: State of Ohio; various public agencies along route
+  governance_raw: Ohio Department of Natural Resources; Metroparks Toledo
+  partner_agencies_raw: Maumee Valley Planning Organization; Defiance Soil and Water Conservation District
+  coordination_raw: ''
+  trail_use_type_raw: Paddling / Canoeing / Kayaking / Boating
+  trail_surface_type_raw: Water (river)
+  difficulty_raw: ''
+  accessibility_raw: ''
+  description_raw: A 107-mile water trail along the Maumee River from Maumee Bay and Lake Erie to the Ohio-Indiana border,
+    connecting five Metroparks, three state parks (including Independence Dam State Park), three wildlife areas, and 15 other
+    public parks at 39 access locations across Paulding, Defiance, Henry, Wood, and Lucas counties.
+  location_raw: Maumee River corridor, northwest Ohio; passes through Defiance County
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://metroparkstoledo.com/features-and-rentals/maumee-river-water-trail/
+  - https://metroparkstoledo.com/media/3621/maumee-waterway-brochure-031318-web.pdf
+  - https://storymaps.arcgis.com/stories/ba766ce42e2b42e1ba7dca6859b1e7f4
+  identity_notes_raw: 'The Maumee River was designated an Ohio State Scenic River on July 18, 1974: scenic section = Ohio/Indiana
+    state line to Defiance (43 river miles); recreational section = Defiance downstream to Maumee/Perrysburg Bridge (53 river
+    miles). The Maumee River Water Trail branded route is distinct from the scenic river regulatory designation but substantially
+    overlaps it. Managed cooperatively by ODNR and Metroparks Toledo. Independence Dam State Park is a named access point
+    / suggested trip starting point on this trail. Multi-county trail — Defiance County is one of 5 counties in the route.
+    Member trail list for access points will be populated during Access Point sub-pass. Partially resolves open question #7
+    (water trails through county).
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Miami and Erie Canal Towpath Trail
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: ''
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: Buckeye Trail Association (co-routes through park)
+  trail_use_type_raw: Hiking; Biking
+  trail_surface_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  description_raw: Three-mile trail following the historic towpath of the Miami and Erie Canal, meanders between the old canal
+    and the Maumee River through a dense hardwood forest within Independence Dam State Park, ending at the village of Florida,
+    Ohio. The trail passes the ruins of Lock Number 13 of the Miami and Erie Canal.
+  location_raw: Within Independence Dam State Park, continuing east to village of Florida, Ohio; approximately 3 miles east
+    of Defiance
+  parent_site_raw: Independence Dam State Park
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.stateparks.com/independence_dam_state_park_in_ohio.html
+  - https://en.wikipedia.org/wiki/Independence_Dam_State_Park
+  identity_notes_raw: 'This trail is the former towpath of the Miami and Erie Canal, historically significant as a transportation
+    route. The Buckeye Trail and North Country NST route along this towpath through Independence Dam State Park. The 36-mile
+    bike loop referenced for the Marina area may extend beyond the 3-mile canal towpath — need to verify scope. Name used
+    on source: ''hiking trail, once the towpath of the Miami and Erie Canal.'' No single authoritative canonical name confirmed
+    — ''Miami and Erie Canal Towpath Trail'' is the descriptive name used. Baseline seed partially confirmed: ''Reservoir
+    Nature Trail'' is a different trail (inside Reservoir and Disc Golf park in the city); this canal trail is a separate
+    entity at Independence Dam SP.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Trail Segment
+    result: null
+    sources_checked:
+    - https://metroparkstoledo.com/features-and-rentals/maumee-river-water-trail/
+    - https://www.stateparks.com/independence_dam_state_park_in_ohio.html
+    - https://en.wikipedia.org/wiki/Independence_Dam_State_Park
+    reasoning: 'No named operational segments of the Maumee River Water Trail documented for Defiance County in authoritative
+      sources. The Miami and Erie Canal Towpath Trail at Independence Dam SP is documented as a single 3-mile trail without
+      sub-segments. No other state-managed trail segments found.
+
+      '
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Trail Network
+    result: null
+    sources_checked:
+    - https://ohiodnr.gov/scenicrivers
+    - https://metroparkstoledo.com/features-and-rentals/maumee-river-water-trail/
+    reasoning: 'No multi-trail system at the state level in Defiance County. The Maumee River Water Trail is a single named
+      trail. The Maumee State Scenic River designation is regulatory, not a Trail Network.
+
+      '
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Site Network
+    result: null
+    sources_checked:
+    - https://ohiodnr.gov/
+    - https://ohiownr.gov/scenicrivers
+    reasoning: 'No multi-site network at the state level in Defiance County. The Maumee State Scenic River is a regulatory
+      designation applying to the river corridor, not a Site Network of named land units. ODNR state parks, wildlife areas,
+      and nature preserves in the county (2 sites total) do not form a branded or managed network entity.
+
+      '
+- entity_type: Access Point
+  name_raw: Independence Dam State Park Boat Launch
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  parent_site_raw: Independence Dam State Park
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  location_raw: 27722 County Rd 424 / US Route 424 East, Defiance, Ohio; along Maumee River
+  description_raw: ''
+  features_raw: 4-lane boat launch ramp; marina; hand-launch area (in campground)
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.stateparks.com/independence_dam_state_park_in_ohio.html
+  - https://visitdefianceohio.com/explore/fishing-boating/
+  identity_notes_raw: 'Primary river access for the Maumee River Water Trail in the Independence Dam SP segment. NCT/Buckeye
+    Trail trailhead also located at or near this site. 4-lane launch is the main ramp; hand-launch is a separate primitive
+    access in the campground. Both serve Maumee River access.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Access Point
+  name_raw: Bend Road Bridge
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  parent_site_raw: ''
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources
+  location_raw: Near Sherwood, Defiance County, Ohio; Maumee River
+  description_raw: ''
+  features_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://visitdefianceohio.com/explore/fishing-boating/
+  identity_notes_raw: 'State DNR access site on the Maumee River near Sherwood. Part of the Maumee River Water Trail 39-point
+    access network. Minimal detail available — GPS and facilities require verification. MINIMAL_DATA flag.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Access Point
+  name_raw: Five-Mile Creek Access Area
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  parent_site_raw: ''
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  location_raw: Ohio State Route 111, southwest of Defiance, Ohio; Auglaize River
+  description_raw: ''
+  features_raw: Boat ramp
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://visitdefianceohio.com/explore/fishing-boating/
+  identity_notes_raw: 'ODNR Division of Wildlife public boat ramp on Auglaize River, located on OH-111 SW of Defiance. A second
+    access mentioned at County Highway 196/OH-637 bridge at OH-111 intersection SW of Defiance — may be the same access area
+    or a separate ramp; needs field verification. MINIMAL_DATA flag.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Penney Nature Center
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Nature Center; Nature Preserve
+  ownership_raw: Defiance County (gifted by Penney family)
+  governance_raw: Defiance Soil and Water Conservation District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '78'
+  location_raw: 08855 Ashpacher Road (also spelled 'Aschpacher Road'), Defiance, OH 43512
+  description_raw: A 78-acre nature preserve featuring wetlands, prairie lands, and woodlands, promoting conservation through
+    education for all to enjoy. Land was gifted by the Penney family to Defiance County and is managed by the Defiance Soil
+    and Water Conservation District.
+  features_raw: 5 trails (3.5 miles total); pavilion with picnic tables; 2 bridges (walking bridge + covered bridge); educational
+    signs (9); trailhead sign with map; improved parking lot; Storybook Trail (seasonal, ~0.5 mile)
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.defianceswcd.org/penney-nature-center.html
+  - https://visitdefianceohio.com/business-directory/penney-nature-center/
+  identity_notes_raw: 'Managed by Defiance SWCD per ORC Chapter 1515 authority (Soil and Water Conservation Districts). Land
+    gifted by Penney family — county ownership with SWCD management. Hours: dawn to dusk. Address discrepancy: SWCD site says
+    ''Aschpacher Road''; search result says ''Ashpacher Road'' — verify spelling during GPS pass. Baseline seed confirmed:
+    ''Penney Nature Center (Defiance SWCD)''. Flag DEF-F-03 not applicable here. Baseline flag #29 confirmed.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 3
+  seeded_from_baseline: true
+  baseline_id: Penney Nature Center
+- entity_type: Trail
+  name_raw: Storybook Trail
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  parent_site_raw: Penney Nature Center
+  ownership_raw: Defiance County
+  governance_raw: Defiance Soil and Water Conservation District
+  trail_use_type_raw: Hiking; Walking
+  trail_surface_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  description_raw: A seasonal storybook trail approximately half a mile long featuring a 15-page children's book that changes
+    seasonally; visitors can enter a drawing to win copies of the featured book.
+  location_raw: Penney Nature Center, 08855 Ashpacher Road, Defiance, OH 43512
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.defianceswcd.org/penney-nature-center.html
+  identity_notes_raw: 'One of 5 trails at Penney Nature Center (total 3.5 miles). This is the only named trail confirmed from
+    authoritative source. Remaining 4 trails at the site are unnamed in available sources — they may have names documented
+    on site signage. Total trail system: 5 trails, 3.5 miles. The other trails will require site visit or more detailed source
+    to name individually.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 3
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type_result:
+    tier: 3
+    governance_level: District (SWCD)
+    entity_type: Trail Segment
+    result: null
+    sources_checked:
+    - https://www.defianceswcd.org/penney-nature-center.html
+    - https://visitdefianceohio.com/business-directory/penney-nature-center/
+    reasoning: '5 trails at Penney Nature Center with only 1 confirmed name (Storybook Trail, ~0.5 mi). Remaining 4 trails
+      unnamed in authoritative sources. No operational segments of the Storybook Trail documented. No other district-managed
+      trails in Defiance County.
+
+      '
+- entity_type_result:
+    tier: 3
+    governance_level: District (SWCD)
+    entity_type: Trail Network
+    result: null
+    sources_checked:
+    - https://www.defianceswcd.org/penney-nature-center.html
+    reasoning: '5 trails at Penney Nature Center are a site''s trail system, not a standalone Trail Network entity (all trails
+      are within a single 78-acre Site). No multi-site district trail network in Defiance County. No park district or metropark
+      district exists in Defiance County.
+
+      '
+- entity_type_result:
+    tier: 3
+    governance_level: District (SWCD)
+    entity_type: Site Network
+    result: null
+    sources_checked:
+    - https://www.defianceswcd.org/
+    - https://defiancecounty.com/swcd/
+    reasoning: 'Defiance SWCD manages one known property (Penney Nature Center). No multi-site district network. No separate
+      park district exists in Defiance County (confirmed: working assumption correct).
+
+      '
+- entity_type: Access Point
+  name_raw: Penney Nature Center Trailhead
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  parent_site_raw: Penney Nature Center
+  ownership_raw: Defiance County
+  governance_raw: Defiance Soil and Water Conservation District
+  location_raw: 08855 Ashpacher Road, Defiance, OH 43512; entrance off Ashpacher Road
+  description_raw: ''
+  features_raw: Parking lot; trailhead sign with site map; pavilion
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.defianceswcd.org/penney-nature-center.html
+  identity_notes_raw: Main entrance and parking area for Penney Nature Center. Improved parking lot completed recently. MINIMAL_DATA
+    — GPS requires verification.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 3
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Auglaize Village
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Living History Village; Heritage Village
+  ownership_raw: Defiance County
+  governance_raw: Defiance County Historical Society
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '120'
+  location_raw: 12296 Krouse Road, Defiance, OH 43512
+  description_raw: A living history village founded in 1966 by the Defiance County Historical Society that preserves the history
+    of the men and women who carved a community out of the Great Black Swamp, featuring restored and reconstructed 19th-century
+    buildings, farm museums, and multiple specialty museums.
+  features_raw: Restored/reconstructed historic buildings (22+ structures); farm museums (4); military museum; natural history
+    museum; model railroad museum; guided tours; virtual tour available; StoryMap interactive tour; event venue; tractor shows;
+    reenactments; paranormal tours
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.auglaizevillage.org/
+  - https://visitdefianceohio.com/explore/auglaize-village/
+  - https://ohio.org/things-to-do/destinations/auglaize-village
+  - https://sites.google.com/site/auglaizevillagemuseum
+  identity_notes_raw: 'County-owned property per baseline (Defiance County); managed by Defiance County Historical Society
+    (501c3 nonprofit). Mixed governance — confirm county ownership vs. long-term lease/deed during normalization (flag DEF-F-05).
+    Founded 1966 when Defiance County Historical Society received 40 acres and big red barn (Mansfield Family gift); additional
+    80 acres later added = 120 total. Building count discrepancy: baseline session log says ''41 reconstructed buildings and
+    5 museums''; DCHS website search result says ''22 new or restored buildings, four farm museums, military museum, natural
+    history museum and model railroad museum.'' Sources may reflect different years of development; use authoritative source
+    count during normalization. Also known as ''AuGlaize Village'' (alternate capitalization in use). Hours: open during events
+    only + volunteer work days (Tue 8am-2pm); tours by appointment. Category note per IMP-068: site contains museum buildings
+    but ''Auglaize Village'' itself is a living history village — not a museum by primary identity. category_raw captures
+    ''Living History Village.'' Baseline seed confirmed: ''Auglaize Village (county / historical society)''.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: true
+  baseline_id: Auglaize Village
+- entity_type_result:
+    tier: 4
+    governance_level: County
+    entity_type: Trail
+    result: null
+    sources_checked:
+    - https://www.auglaizevillage.org/
+    - https://trekohio.com/defiance/
+    - https://defiancecounty.com/
+    reasoning: 'No county-managed trail system in Defiance County. No county park district. Auglaize Village is a heritage
+      site with internal grounds but no separately documented trail network. No other county-managed outdoor recreation lands
+      found.
+
+      '
+- entity_type: Site
+  name_raw: Fort Grounds
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Historic Park; Historic Site
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 320 Fort Street, Defiance, OH 43512; at the confluence of the Maumee and Auglaize Rivers
+  description_raw: The Fort Grounds occupy the site of Fort Defiance, erected by General Anthony Wayne in 1794 at the confluence
+    of the Maumee and Auglaize Rivers during his campaign leading to the Battle of Fallen Timbers. Points in the sidewalk
+    memorialize the corners of the fort. The grounds have been preserved for over a century since the city's incorporation.
+    The Defiance Public Library (Carnegie Library) is also located on the grounds.
+  features_raw: Walking paths; bench swings overlooking the river; bridge over the river; historical marker sign; picnic areas
+    with river views; Carnegie Library building on grounds
+  gps_lat_raw: '41.2874974'
+  gps_lon_raw: '-84.3572446'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Fort-Grounds-5
+  - https://visitdefianceohio.com/explore/history/
+  identity_notes_raw: 'Fort Defiance (1794) is listed on the National Register of Historic Places (NRHP), listed 1980. Resolves
+    baseline seeds: ''Fort Defiance Park (status unclear)'' = ''Fort Grounds'' — same entity. ''Fort Grounds'' is the city''s
+    official current name (confirmed on city parks page and facilities list). ''Fort Defiance Park'' and ''Old Fort Defiance
+    Park'' are alternate names in use. DEF-F-04 RESOLVED: Fort Defiance Park = Fort Grounds; single entity at 320 Fort St.
+    Adjacent to Pontiac Metro Park (315 E River Rd) at same confluence — distinct separate site. North Country NST / Buckeye
+    Trail route through or adjacent to this confluence area (confirm exact routing).
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Fort Defiance Park; Fort Grounds / Old Fort Defiance Park
+- entity_type: Site
+  name_raw: Diehl Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Community Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '39.77'
+  location_raw: 909 Wemor Drive, Defiance, OH 43512; northwest side of the city
+  description_raw: A large community park on the northwest side of Defiance featuring athletic fields and the Kids Creation
+    Playground, a community-built playground from 2000. The park received updated playground equipment in 2017 and lighting
+    upgrades for ball fields in 2001.
+  features_raw: Four girls softball fields; one boys baseball field; two large covered shelter houses; Kids Creation Playground
+    (community-built 2000); basketball court; restrooms; parking; ADA accessible
+  gps_lat_raw: '41.2982509'
+  gps_lon_raw: '-84.3674670'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Diehl-Park-3
+  identity_notes_raw: 'Baseline seed confirmed: ''Diehl Park (Defiance city)''. Address: 909 Wemor Drive. 39.77 acres per
+    city facilities page. Kids Creation Playground is a named feature documented in sources.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Diehl Park
+- entity_type: Site
+  name_raw: Kingsbury Riverfront Park, Pool, and Pickleball Facilities
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Community Park; Waterfront Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '15.49'
+  location_raw: 102 Auglaize Street, Defiance, OH 43512
+  description_raw: A riverfront community park on the Auglaize River featuring a public pool, pickleball courts, and waterfront
+    green space. The pool underwent a major $750,000 renovation beginning in 1999, adding a new water slide and expanded deck
+    area.
+  features_raw: Swimming pool (main pool max 5 ft depth; $3 admission; baby pool free for children 5 and under); water slide;
+    locker rooms; restrooms; pickleball courts; parking; river access
+  gps_lat_raw: '41.2859503'
+  gps_lon_raw: '-84.3559868'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Kingsbury-Park-Pool-and-Pickleball-10
+  identity_notes_raw: 'DEF-F-01 RESOLVED: Baseline rows 24 and 25 both reference 102 Auglaize St — confirmed single entity
+    ''Kingsbury Riverfront Park, Pool, and Pickleball Facilities.'' 15.49 acres. Pool season: first week of June through mid-August.
+    Pickleball courts added per recent city development. ''Kingsbury Park'' is the informal name; full official name per city
+    facilities page used here.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Kingsbury Park
+- entity_type: Site
+  name_raw: Bronson Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Community Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '25'
+  location_raw: 2104 Power Dam Road, Defiance, OH 43512
+  description_raw: A 25-acre multi-purpose community park that underwent significant renovations including new playground
+    equipment, river swings, updated shelter houses, ADA-compliant sidewalks, and a new multi-use path connecting to Splash
+    Park. The park hosts the StoryWalk Trail (Defiance Public Library program) and is adjacent to the Splash Park facility.
+  features_raw: Two sand volleyball courts; two ball fields; three shelter houses; basketball court; playground; ADA-compliant
+    sidewalks; multi-use path to Splash Park; river swings; 'Pockets of Play' interactive elements along path
+  gps_lat_raw: '41.2579920'
+  gps_lon_raw: '-84.3906290'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Bronson-Park-2
+  - https://cityofdefiance.com/183/Bronson-Park
+  - https://visitdefianceohio.com/business-directory/bronson-park/
+  identity_notes_raw: 'DEF-F-07 RESOLVED: Bronson Park (25 ac) is the parent site at 2104 Power Dam Rd. Splash Park (opened
+    July 4, 2018) is a child/subfacility at the same address, connected by a walkway. Splash Park replaced the old Bronson
+    Pool. StoryWalk Trail is a Defiance Public Library program at this park. Power Dam Road named after the Auglaize Hydro
+    dam (Bryan Municipal Utilities) nearby — park is NOT at the dam.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Bronson Park
+- entity_type: Site
+  name_raw: Splash Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Splash Pad; Community Park
+  parent_site_raw: Bronson Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 2104 Power Dam Road, Defiance, OH 43512 (within Bronson Park complex)
+  description_raw: 'The Defiance Splash Park opened July 4, 2018, repurposing the former Bronson Pool facility into a free,
+    ADA-compliant splash pad open to the public. The facility won 3rd place in the 2019 Ohio Parks and Recreation Association
+    Capital Improvement Project category. Total project cost: $1.6 million. Open May 1 through October, 9 a.m. to 9 p.m.'
+  features_raw: Splash pad (water spray features); playground; picnic areas; tables; restrooms; ADA accessible; connected
+    to Bronson Park via multi-use path
+  gps_lat_raw: '41.2583791'
+  gps_lon_raw: '-84.3901891'
+  urls_raw:
+  - https://www.cityofdefiance.com/223/Splash-Park
+  identity_notes_raw: 'Subfacility of Bronson Park (parent). Replaced former Bronson Pool. Opened July 4, 2018. $1.6M project;
+    2019 OPRA award (3rd place, Capital Improvement Project). Address 2104 Power Dam Rd = Bronson Park complex address. City
+    Hall (631 Perry St) is reporting address. Connected to Bronson Park via walkway added 2021. DEF-F-07 RESOLVED: Splash
+    Park = child of Bronson Park.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Splash Park
+- entity_type: Site
+  name_raw: Canal Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Historic Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 310 Clinton Street (behind the building), Defiance, OH 43512
+  description_raw: A public historic park featuring the partially renovated remains of the Miami and Erie Canal Lock No. 37,
+    which survived the devastating 1913 floods. The north end of the lock structure was left exposed after the canal's decline
+    and partially renovated in 1997. The site includes an adjacent amphitheater used for community events.
+  features_raw: Amphitheater; Miami and Erie Canal Lock No. 37 remains (historic structure); open park area; free admission
+  gps_lat_raw: '41.2864106'
+  gps_lon_raw: '-84.3630635'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Canal-Park-40
+  identity_notes_raw: 'Contains the north end of Maumee and Erie Canal Lock No. 37 — a significant historic structure. Most
+    downtown canal bridges were dismantled by 1917; canal gradually filled and drained after 1913 floods. The lock ruins were
+    partially renovated 1997. Amphitheater enables community gatherings. Baseline seed confirmed: ''Canal Park (Defiance city)''.
+    MAP_VERIFICATION: No ''Canal Park'' Google Maps entity found. The Google Maps entity at 310 Clinton St is named ''Amphitheater''
+    (no reviews, category: Park). GPS captured from this entity (41.2864106, -84.3630635). Also: ''Miami & Erie Canal Lock
+    #37'' appears as a separate historical landmark entity in the area. The staged ''Canal Park'' appears to be what Google
+    Maps represents as ''Amphitheater''. Confirm in pipeline.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Canal Park
+- entity_type: Site
+  name_raw: Eastside Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Neighborhood Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 1185 Karnes Avenue, Defiance, OH 43512
+  description_raw: A neighborhood park revitalized as part of the Eastside Neighborhood Revitalization Project, featuring
+    new playground equipment, athletic courts, and a shelter house. Formerly known as Compo Park.
+  features_raw: Baseball/softball diamond; basketball court; playground; picnic shelters; picnic tables; grill; lights; parking;
+    ADA accessible
+  gps_lat_raw: '41.2724894'
+  gps_lon_raw: '-84.3535072'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Eastside-Park-4
+  identity_notes_raw: 'Formerly known as ''Compo Park.'' Current official name: ''Eastside Park.'' Baseline seed confirmed:
+    ''Eastside Park / Compo Park (Defiance city).'' Single entity at 1185 Karnes Ave. Revitalized through Eastside Neighborhood
+    Revitalization Project (city initiative).
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Eastside Park / Compo Park
+- entity_type: Site
+  name_raw: Riverside Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Community Park; Athletic Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '30'
+  location_raw: 849 Riverside Avenue, Defiance, OH 43512; along the Maumee River
+  description_raw: A 30-acre community park along the Maumee River featuring athletic fields including four soccer fields
+    managed by the Optimist Club. Optimist Soccer fields were redesigned, regraded, and reseeded in 2021.
+  features_raw: Baseball/softball diamond; four soccer fields; playground; picnic shelters; picnic tables; grill; restrooms;
+    parking; Maumee River frontage
+  gps_lat_raw: '41.2768669'
+  gps_lon_raw: '-84.3616889'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Riverside-Park-13
+  - https://visitdefianceohio.com/business-directory/riverside-park/
+  identity_notes_raw: '30 acres per city facilities page. Located on Maumee River; river frontage noted in TrekOhio. Soccer
+    fields associated with Optimist Club program (redesigned 2021). Baseline seed confirmed: ''Riverside Park (Defiance city)''.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Riverside Park
+- entity_type: Site
+  name_raw: Reservoir and Disc Golf
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Municipal Park; Water Recreation; Disc Golf
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 1261 Precision Way, Defiance, OH 43512
+  description_raw: A municipal recreation area centered on the City of Defiance upground water supply reservoir. Features
+    a 9-hole disc golf course, a 1.25-mile stone walkway around the top of the reservoir, the Reservoir Nature Trail (boardwalk
+    through north-side woods), a boat ramp and dock, and a sledding hill. The trail system connects to the Buckeye Trail /
+    North Country NST along Canal Road.
+  features_raw: 9-hole disc golf course; 1.25-mile stone walkway around reservoir with 6 benches + bench at handicapped parking
+    near boat ramp; 10-space stone parking lot; boat ramp; dock; sledding hill with lights (off Kibble Road); multi-use asphalt
+    trail around reservoir (10 ft wide, completed 2015); historical Miami and Erie Canal section along Canal Road; connection
+    to Buckeye Trail via Canal Road
+  gps_lat_raw: '41.2707967'
+  gps_lon_raw: '-84.3920288'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Reservoir-Disc-Golf-11
+  - https://visitdefianceohio.com/business-directory/reservoir-and-disc-golf/
+  - https://www.alltrails.com/trail/us/ohio/defiance-reservoir
+  - https://ohio.org/wps/portal/gov/tourism/things-to-do/destinations/defiance-reservoir-walking-trails
+  identity_notes_raw: 'Site name on city facilities page: ''Reservoir & Disc Golf.'' Baseline seed: ''Reservoir and Disc Golf.''
+    The municipal reservoir is the Defiance Upground Reservoir (NID baseline seed ''Defiance Upground Reservoir (NID, local
+    gov)'') — the NID dam resolves to the reservoir impoundment infrastructure, not a separate Site. The Reservoir Nature
+    Trail (boardwalk, ~2,500 ft + ~500 ft asphalt) is a distinct Trail entity (see below). DEF-F-08: Reservoir Nature Trail
+    confirmed as child trail of this site; parent link set in pipeline. Trail system connects to Buckeye Trail (Tier 7) along
+    Canal Road — significant cross-tier linkage. Bark and Run Dog Park (11795 Precision Way, same industrial/recreation corridor)
+    is a separate entity operated by nonprofit ''Defiance Bark''n Runners'' — deferred to Tier 8.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Reservoir and Disc Golf; Defiance Upground Reservoir (NID)
+- entity_type: Site
+  name_raw: Palmer Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Community Park; Athletic Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 1755 Palmer Drive, Defiance, OH 43512; near Defiance High School and the YMCA
+  description_raw: A small community park near Defiance High School and the YMCA, featuring tennis courts and a playground
+    area. Serves both the high school and the general public.
+  features_raw: Five tennis courts; playground area
+  gps_lat_raw: '41.2657975'
+  gps_lon_raw: '-84.3605872'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Palmer-Park-41
+  identity_notes_raw: 'Baseline seed confirmed: ''Palmer Park (Defiance city)''. Located at 1755 Palmer Dr. Near Defiance
+    High School and YMCA. MINIMAL_DATA — acreage not documented.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Palmer Park
+- entity_type: Site
+  name_raw: Pontiac Metro Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Waterfront Park; Historic Park
+  ownership_raw: VERIFY_GOVERNANCE — city website states 'not a City-owned Park but lies within the City boundaries'; visitdefianceohio.com
+    lists City of Defiance as governance; contact email cfeeney@cityofdefiance.gov (City of Defiance)
+  governance_raw: VERIFY_GOVERNANCE — City of Defiance, Parks & Recreation Department (manages per contact email and visitdefianceohio.com);
+    ownership unclear
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 315 East River Road, Defiance, OH 43512; at the confluence of the Maumee and Auglaize Rivers
+  description_raw: A scenic riverside park with views of the Maumee and Auglaize rivers confluence, featuring in-town river
+    access with a boat ramp. The park marks the site of the Old French Indian Apple Tree and the possible birthplace of Ottawa
+    Chief Pontiac (1712). Features the Zonta Fountain, swings overlooking the rivers, a gazebo, and a monument to 2006 Indianapolis
+    500 champion Sam Hornish Jr. Hosts annual fireworks, car shows, boat shows, and war re-enactments.
+  features_raw: Boat launch; ample parking; pavilion; picnic areas; river swings; trails; Zonta Fountain; walkways; historical
+    markers; Old French Indian Apple Tree Marker; Sam Hornish Jr. monument (2006 Indy 500 champion); gazebo
+  gps_lat_raw: '41.2892403'
+  gps_lon_raw: '-84.3574256'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Pontiac-Metro-Park-9
+  - https://visitdefianceohio.com/business-directory/pontiac-metro-park/
+  - https://www.midwestguest.com/2015/03/pontiac-metro-park-in-defiance-ohio-chief-pontiacs-birthplace.html
+  identity_notes_raw: 'DEF-F-02 RESOLVED: ''Pontiac Metro Park'' is the city''s official name; ''Metro Park'' is a local name,
+    NOT an affiliation with a metropark district. Park is not city-owned per city website disclaimer but managed through city
+    Parks & Recreation (contact cfeeney@cityofdefiance.gov). Possible county or state ownership — VERIFY_GOVERNANCE flag retained
+    for normalization resolution. North Country NST / Buckeye Trail routes through Pontiac Metro Park (confirmed via NCT Defiance
+    County routing documentation: ''routes through downtown Defiance, through Pontiac Park, and through Independence Dam State
+    Park''). ''Pontiac Park'' used interchangeably with ''Pontiac Metro Park'' in some sources. Adjacent to Fort Grounds (320
+    Fort St) at same Maumee/Auglaize confluence — distinct sites.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Pontiac Metro Park
+- entity_type: Site
+  name_raw: William C. Holgate Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Neighborhood Park; Historic Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 811 Holgate Avenue, Defiance, OH 43512; Holgate Avenue historic district
+  description_raw: A neighborhood park in Defiance's historic district, formerly the site of the Second Ward School until
+    the 1940s. Named William C. Holgate Park in memory of one of Defiance's most prominent early citizens (1994 designation).
+    Features a Victorian gazebo and tree walk built by the Holgate Avenue Association in 1997. Received new playground equipment,
+    new landscaping, renovated basketball court, and a new shelter house in Spring 2019.
+  features_raw: Playground equipment; basketball court; picnic shelters; picnic tables; Victorian gazebo; power access; shelter
+    house; landscaping; 'Healthy Body Healthy Mind' signage
+  gps_lat_raw: '41.2833452'
+  gps_lon_raw: '-84.3732499'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Holgate-Park-6
+  - https://cityofdefiance.com/215/Holgate-Park
+  - https://visitdefianceohio.com/business-directory/holgate-park/
+  - https://www.hmdb.org/m.asp?m=173030
+  identity_notes_raw: 'Official name: ''William C. Holgate Park'' per city facilities page; commonly ''Holgate Park.'' Located
+    on Holgate Avenue in historic district. Formerly site of Second Ward School (demolished 1940s). Named 1994. Victorian
+    Gazebo + tree walk built by Holgate Avenue Association 1997. Renovated Spring 2019: new playground, landscaping, basketball
+    court, shelter house. HMDB marker #173030 references Holgate Park historical marker. Baseline seed confirmed: ''Holgate
+    Park / Second Ward Park (Defiance city).''
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Holgate Park / Second Ward Park
+- entity_type: Site
+  name_raw: Hometown Heroes Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Memorial Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: AMVETS Post 1991
+  coordination_raw: AMVETS Post 1991 (419-784-2356; 1795 Spruce Street, Defiance, OH)
+  acres_raw: ''
+  location_raw: 648 Clinton Street, Defiance, OH 43512
+  description_raw: A memorial park established September 2013 as a lasting tribute to active duty men and women service members
+    currently serving the country. Features recognition boards displaying the names of active duty personnel and flags honoring
+    military service. A collaborative community effort coordinated with AMVETS Post 1991.
+  features_raw: Active duty service member recognition boards; flags; park signage
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Hometown-Heroes-Park-7
+  identity_notes_raw: 'Established September 2013. Coordinated with AMVETS Post 1991. Primarily a memorial installation rather
+    than a traditional park — recognition boards and flags are the primary features. Baseline seed confirmed: ''Hometown Heroes
+    Park (Defiance city)''. MAP_VERIFICATION: No Google Maps entity found for ''Hometown Heroes Park''. Search for 648 Clinton
+    St returns address pin only (no named park entity). This is a memorial installation (recognition boards + flags) not independently
+    mapped on Google Maps. GPS not capturable from Maps; geocode from address (648 Clinton St, Defiance OH 43512) in pipeline.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Hometown Heroes Park
+- entity_type: Site
+  name_raw: Triangle Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Historic Park; Neighborhood Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 655 Clinton Street, Defiance, OH 43512
+  description_raw: A small historic park featuring a clock tower, historically part of the Defiance City Schools property,
+    donated by the Latty and Holgate families in the 1860s. Features trees, flowering vegetation, and open green space.
+  features_raw: Clock tower; trees and flowering vegetation; open park area
+  gps_lat_raw: '41.2822475'
+  gps_lon_raw: '-84.3650681'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Triangle-Park-Clock-Tower
+  identity_notes_raw: 'Very small park/triangle. Historically Defiance City Schools property donated by Latty and Holgate
+    families in the 1860s. Clock tower is the defining feature. Baseline seed confirmed: ''Triangle Park (Defiance city)''.
+    MINIMAL_DATA — acreage not documented.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Triangle Park
+- entity_type: Site
+  name_raw: Veteran's Memorial Park at Latty's Grove
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Memorial Park; Historic Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 610 Williams Street, Defiance, OH 43512
+  description_raw: A historic park established as Latty's Grove in 1937 and officially designated Veteran's Memorial Grove
+    in 1947, providing 'a fitting and appropriate background for commemoration of Defiance soldier's sacrifice in all wars.'
+    The site has been visited by military figures including General Wayne (1794), General Winchester, William H. Harrison,
+    and Colonel Richard Johnson. Continues to serve as a gathering place for family reunions and outdoor events.
+  features_raw: Baseball/softball diamond; basketball court; tennis court; playground (updated 2014); Latty's Grove Shelter
+    Houses 2 and 3; picnic tables; parking
+  gps_lat_raw: '41.2794674'
+  gps_lon_raw: '-84.3673302'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Veterans-Memorial-Park-at-Lattys-Grove-16
+  - https://visitdefianceohio.com/business-directory/veterans-memorial-park-at-lattys-grove/
+  identity_notes_raw: 'Established 1937 as ''Latty''s Grove''; designated ''Veteran''s Memorial Grove'' 1947. Official city
+    name: "Veteran''s Memorial Park at Latty''s Grove." Historical significance: visited by Wayne (1794), Winchester, Harrison,
+    Colonel Richard Johnson. Shelter Houses 2 and 3 at this location; Shelter House 1 location not confirmed (may be at another
+    site). Playground equipment updated summer 2014. Hours: dawn to dusk. Baseline seed confirmed: ''Veterans Memorial Park
+    at Latty\''s Grove (Defiance city)''. MAP_VERIFICATION: Two co-located Google Maps entities found at this site: (1) ''Veteran''s
+    Memorial Park'' (GPS 41.2788601, -84.3670104, no street address on Maps); (2) ''Latty Grove Park'' (GPS 41.2794674, -84.3673302,
+    606 Williams St) — ~70m apart. Primary GPS uses Latty Grove Park (has confirmed address). Resolve naming in pipeline.
+    Google Maps name for primary entity: ''Latty Grove Park''.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Veterans Memorial Park at Latty's Grove
+- entity_type: Trail
+  name_raw: StoryWalk Trail
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  parent_site_raw: Bronson Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: Defiance Public Library System
+  coordination_raw: Defiance Public Library System (facilitates StoryWalk program — seasonal book changes)
+  trail_use_type_raw: Walking; Educational
+  trail_surface_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  description_raw: An outdoor StoryWalk trail at Bronson Park where pages of a picture book are displayed along a walking
+    path for pedestrians to read as they move. By the end of the path the walker has read the book in its entirety. The book
+    displayed changes seasonally; program facilitated by the Defiance Public Library.
+  location_raw: Bronson Park, 2104 Power Dam Road, Defiance, OH 43512
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.crescent-news.com/news/local_news/storywalk-brings-reading-to-the-outdoors-at-bronson-park/article_cc9560e2-0ec0-11ee-be8a-5fd65572abbd.html
+  - https://defiancelibrary.org/event-location/bronson-park/
+  identity_notes_raw: 'Trail is within Bronson Park; facilitated by Defiance Public Library (seasonal program). Distinct from
+    the Storybook Trail at Penney Nature Center (Tier 3 / Defiance SWCD). Both are ''story walk'' type programs but at different
+    sites with different governance. No length documented in authoritative source. MINIMAL_DATA — exact trail length unknown.
+    MAP_VERIFICATION: No standalone Google Maps entity found for ''StoryWalk Trail''. Search returned Defiance Public Library
+    as top result — StoryWalk is likely a program hosted along a park trail (possibly Diehl Park or Reservoir trail) rather
+    than an independently mapped entity. GPS not capturable from Maps. Confirm host location in pipeline.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Reservoir Nature Trail
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  parent_site_raw: Reservoir and Disc Golf
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  trail_use_type_raw: Hiking; Walking; Bird Watching
+  trail_surface_type_raw: Boardwalk (wooded section); Asphalt (parking lot extension)
+  difficulty_raw: ''
+  accessibility_raw: Wheelchair accessible; ADA compliant (8 ft wide multi-use pathway)
+  description_raw: A boardwalk-style trail in the wooded area north of the Defiance municipal reservoir, approximately 2,500
+    feet of boardwalk through woods plus 500 feet of asphalt from the parking lot to the woods. Eight feet wide, creating
+    a multi-use wheelchair-accessible pathway around the north side of the reservoir. Supports bird watching and nature walks;
+    connects to the Buckeye Trail / North Country NST along Canal Road, forming a non-motorized accessible loop around the
+    municipal reservoir.
+  location_raw: North side of Defiance municipal reservoir, 1261 Precision Way, Defiance, OH 43512
+  gps_lat_raw: '41.2690967'
+  gps_lon_raw: '-84.3993561'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Reservoir-Nature-Trail-12
+  - https://www.alltrails.com/trail/us/ohio/defiance-reservoir
+  - https://ohio.org/wps/portal/gov/tourism/things-to-do/destinations/defiance-reservoir-walking-trails
+  identity_notes_raw: 'DEF-F-08 RESOLVED: Reservoir Nature Trail confirmed as Trail entity child of ''Reservoir and Disc Golf''
+    Site. Parent link to be assigned in normalization pipeline. Trail connects to Buckeye Trail / North Country NST along
+    Canal Road — cross-tier linkage with Tier 7 (Buckeye Trail Association) and Tier 1 (NCT). This connection makes the Reservoir
+    and Disc Golf area a de facto NCT access point. Baseline seed confirmed: ''Reservoir Nature Trail (Defiance city — child
+    trail)''. Length: ~2,500 ft boardwalk + ~500 ft asphalt (total ~3,000 ft / ~0.57 mi).
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Reservoir Nature Trail
+- entity_type_result:
+    tier: 5
+    governance_level: Municipal — City of Defiance
+    entity_type: Trail Segment
+    result: null
+    sources_checked:
+    - https://cityofdefiance.com/216/Parks-Recreation
+    - https://cityofdefiance.com/231/City-Parks
+    - https://cityofdefiance.com/Facilities/Facility/Details/Reservoir-Nature-Trail-12
+    - https://cityofdefiance.com/Facilities/Facility/Details/Reservoir-Disc-Golf-11
+    reasoning: 'No named operational trail segments of any city trail documented in authoritative sources. The Reservoir Nature
+      Trail (~0.57 mi) and StoryWalk Trail are each single trails without documented sub-segments. Reservoir trail connects
+      to Buckeye Trail but the connection point is a Trail-level linkage, not a segment designation.
+
+      '
+- entity_type_result:
+    tier: 5
+    governance_level: Municipal — City of Defiance
+    entity_type: Trail Network
+    result: null
+    sources_checked:
+    - https://cityofdefiance.com/216/Parks-Recreation
+    - https://cityofdefiance.com/231/City-Parks
+    - https://ohio.org/wps/portal/gov/tourism/things-to-do/destinations/defiance-reservoir-walking-trails
+    reasoning: 'No city-designated multi-trail network in Defiance. City trails are within individual sites (Bronson Park,
+      Reservoir and Disc Golf). Per Trail Network identity rules, a network requires two or more named Trails forming a managed
+      system — city parks do not meet this threshold.
+
+      '
+- entity_type_result:
+    tier: 5
+    governance_level: Municipal — City of Defiance
+    entity_type: Site Network
+    result: null
+    sources_checked:
+    - https://cityofdefiance.com/216/Parks-Recreation
+    - https://visitdefianceohio.com/explore/parks-outdoors/
+    reasoning: 'The City of Defiance manages 15 distinct park sites. They are not organized under a named multi-site network
+      designation (no ''Defiance Parks System'' network entity). Sites are managed individually by Parks & Recreation — no
+      umbrella network entity.
+
+      '
+- entity_type: Access Point
+  name_raw: Pontiac Metro Park Boat Launch
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  parent_site_raw: Pontiac Metro Park
+  ownership_raw: VERIFY_GOVERNANCE
+  governance_raw: VERIFY_GOVERNANCE — City of Defiance, Parks & Recreation Department (manages per contact)
+  location_raw: 315 East River Road, Defiance, OH 43512; Maumee River at Maumee/Auglaize confluence
+  description_raw: ''
+  features_raw: Boat ramp; ample parking; gazebo near ramp
+  gps_lat_raw: '41.2893480'
+  gps_lon_raw: '-84.3552717'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Pontiac-Metro-Park-9
+  - https://visitdefianceohio.com/business-directory/pontiac-metro-park/
+  identity_notes_raw: 'Primary in-town river access for the Maumee River Water Trail in the Defiance city reach. North Country
+    NST / Buckeye Trail passes through Pontiac Metro Park — this boat launch / park entrance is a de facto trail access point
+    for the NCT as well. VERIFY_GOVERNANCE flag carried from parent site.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Access Point
+  name_raw: Reservoir Boat Ramp and Dock
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  parent_site_raw: Reservoir and Disc Golf
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation Department
+  location_raw: 1261 Precision Way, Defiance, OH 43512; Defiance municipal reservoir
+  description_raw: ''
+  features_raw: Boat ramp; dock; 10-space stone parking lot; handicapped parking with bench
+  gps_lat_raw: '41.2687580'
+  gps_lon_raw: '-84.3979906'
+  urls_raw:
+  - https://cityofdefiance.com/Facilities/Facility/Details/Reservoir-Disc-Golf-11
+  identity_notes_raw: 'Boat ramp and dock on the Defiance municipal upground reservoir. 10-space stone parking lot. Additional
+    handicapped parking space with bench near the ramp. Reservoir is city water supply infrastructure; recreational boating
+    access is managed by city Parks & Rec. AUTHORITY_FLAG: Google Maps links this entity to ohiodnr.gov — suggesting ODNR
+    may manage or co-manage this boat launch rather than City of Defiance exclusively. Possible overlap with T2 State (ODNR
+    Division of Watercraft public boat ramp program). Resolve governance authority in pipeline; may need to reclassify to
+    T2 or note dual governance.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Buchman Park on the Glaize
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Neighborhood Park; Riverside Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 314 Auglaize St, Defiance, OH 43512
+  description_raw: A City of Defiance neighborhood park on the Auglaize River (Glaize), discovered during T6 map verification
+    pass. Not found in web discovery phase.
+  features_raw: ''
+  gps_lat_raw: '41.2836971'
+  gps_lon_raw: '-84.3563774'
+  urls_raw:
+  - https://www.cityofdefiance.com/216/Parks-Recreation
+  identity_notes_raw: 'MAP_VERIFICATION_FIND. Found during §4.4 Google Maps verification pass — not surfaced in web discovery.
+    Confirmed City of Defiance (cityofdefiance.com, (419) 784-2745). Address confirmed as 314 Auglaize St from Google Maps.
+    GPS captured from Maps URL during verification pass. Requires confirmation against city parks list in pipeline pass.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Memory Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Neighborhood Park
+  ownership_raw: City of Defiance, Ohio
+  governance_raw: City of Defiance, Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 5th St, Defiance, OH 43512
+  description_raw: A small City of Defiance park on 5th Street, described as a 'great green space' in the single Google Maps
+    review. Discovered during T6 map verification pass.
+  features_raw: Green space
+  gps_lat_raw: '41.2830331'
+  gps_lon_raw: '-84.3616312'
+  urls_raw:
+  - https://www.cityofdefiance.com/216/Parks-Recreation
+  identity_notes_raw: 'MAP_VERIFICATION_FIND. Found during §4.4 Google Maps verification pass — not surfaced in web discovery.
+    Only 1 review (''Great green space''). No phone, no hours, no website on Google Maps. Address listed as 5th St, Defiance,
+    OH 43512. Requires confirmation against city parks list in pipeline pass. May be a small memorial/pocket park not prominently
+    listed on city website.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Hicksville Community Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Community Park; Municipal Park
+  ownership_raw: Village of Hicksville, Ohio
+  governance_raw: Village of Hicksville, Parks & Recreation Department
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 111 South Main Street, Hicksville, OH 43526
+  description_raw: The main village park complex in Hicksville, featuring extensive athletic and recreational facilities.
+    A new splash pad opened approximately summer 2024, replacing the aging pool facility (pool closed 2023 while new facility
+    under construction).
+  features_raw: Ball diamonds (multiple); basketball courts; disc golf course; playground; skate park; sledding hill; soccer
+    field; tennis courts; track; volleyball courts; Rotary Pavilion (year-round rental, $150 deposit + $110/day); open pavilions
+    (no rental fee); splash pad (opened ~2024)
+  gps_lat_raw: '41.2966175'
+  gps_lon_raw: '-84.7727043'
+  urls_raw:
+  - https://villageofhicksville.com/parks-and-recreation/
+  - https://villageofhicksville.com/park-facilities/
+  - https://hicksvilleohiochamber.org/visit-hicksville/
+  identity_notes_raw: 'Baseline seeds ''Hicksville Community Park and Pool'' and ''Rotary Park (Hicksville)'' are the SAME
+    entity. ''Rotary Park'' is a local informal name for this park (it contains the Rotary Pavilion); the village''s official
+    park page uses ''Parks and Recreation'' without a distinct park name. Park address given as 111 South Main Street (village
+    administrative address per Parks & Rec dept). Pool closed 2023; new splash pad construction completed ~summer 2024. Reservations:
+    Rotary Pavilion — (419) 542-8224; Playing fields — (419) 542-6589. Baseline seeds confirmed: ''Froggy Park (Hicksville)''
+    and ''Hicksville Veterans Memorial'' are SEPARATE entities at different locations — see below. ADDRESS_DISCREPANCY: Web
+    discovery staged address as 111 South Main Street (admin address per Parks & Rec dept). Google Maps ''Hicksville Park
+    Pavilion'' is at 598 N Bryan St. The splash pad at 598 N Bryan St opened ~2024. The broader park complex may use the Main
+    St administrative address. Google Maps GPS (41.2966175, -84.7727043) corresponds to 598 N Bryan St. Note: Google Maps
+    also shows ''Hicksville splash pad'' (5.0, 1 review) at same address. Resolve primary address in pipeline.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Hicksville Community Park and Pool; Rotary Park
+- entity_type: Site
+  name_raw: Froggy Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Neighborhood Park
+  ownership_raw: Village of Hicksville, Ohio
+  governance_raw: Village of Hicksville
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 547 N Main Street, Hicksville, OH 43526
+  description_raw: ''
+  features_raw: ''
+  gps_lat_raw: '41.2970155'
+  gps_lon_raw: '-84.7687773'
+  urls_raw:
+  - https://www.ohiobiz.com/listings/froggy-park
+  - https://hicksvilleohiochamber.org/visit-hicksville/
+  identity_notes_raw: 'MINIMAL_DATA. Address 547 N Main St from OhioBiz directory listing; confirmed separate from main Hicksville
+    Community Park (111 S Main St). No description or feature list found in available sources. Listed as an Area Recreation
+    site by Hicksville Chamber of Commerce. Baseline seed confirmed: ''Froggy Park (Hicksville)''.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Froggy Park
+- entity_type: Site
+  name_raw: Hicksville Veterans Memorial
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Memorial Park
+  ownership_raw: Village of Hicksville, Ohio
+  governance_raw: Village of Hicksville
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: Hicksville, OH 43526 (address not confirmed from authoritative source)
+  description_raw: A community memorial park honoring men and women who have served the United States of America to preserve
+    our rights.
+  features_raw: ''
+  gps_lat_raw: '41.2943616'
+  gps_lon_raw: '-84.7682625'
+  urls_raw:
+  - https://www.facebook.com/HicksvilleVeteransMemorial/
+  identity_notes_raw: 'MINIMAL_DATA. Address not confirmed from authoritative source. Village of Hicksville maintains a Facebook
+    page for this memorial. Distinct from ''First Church of Christ Veterans Memorial'' (118 N Main St) which is a church memorial,
+    not a village park. Baseline seed confirmed: ''Hicksville Veterans Memorial (Hicksville)''. VERIFY_ADDRESS — contact village
+    at (419) 542-6138 to confirm street address.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Hicksville Veterans Memorial
+- entity_type: Site
+  name_raw: Little Reservation Station Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Historic Park; Railroad Heritage
+  ownership_raw: Village of Sherwood, Ohio
+  governance_raw: Village of Sherwood
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: Sherwood, OH 43556 (address not confirmed from authoritative source)
+  description_raw: A park where residents can enjoy peaceful moments in the Northwest Ohio outdoors, paying homage to the
+    railroads that first brought settlers to Sherwood approximately 150 years ago.
+  features_raw: ''
+  gps_lat_raw: '41.2896819'
+  gps_lon_raw: '-84.5525676'
+  urls_raw:
+  - http://www.sherwoodohio.villagegovt.org/Default.aspx?tabid=5688
+  identity_notes_raw: 'MINIMAL_DATA. Described as a railroad heritage park on the village government website (TLS cert error
+    prevented direct page fetch; description captured from search snippet). Address not confirmed. Village of Sherwood contact:
+    200 N Harrison St, Sherwood OH 43556; (419) 899-2145. Crystal Fountain Park (445 E Vine St, Sherwood) is a PRIVATE event/wedding
+    venue (28 ac, est. 1880s as Ohio''s first Spiritualist Camp; renovated 2023 as wedding venue) — excluded from discovery
+    per private ownership.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Moats Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Community Park; Ball Field
+  ownership_raw: Village of Sherwood, Ohio
+  governance_raw: Village of Sherwood
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 210 Cedar St, Sherwood, OH 43556
+  description_raw: A community park and ball field in the Village of Sherwood. Discovered during T6 map verification pass;
+    not found in web discovery phase.
+  features_raw: Ball field; park
+  gps_lat_raw: '41.2827831'
+  gps_lon_raw: '-84.5528207'
+  urls_raw:
+  - http://www.sherwoodohio.villagegovt.org/
+  identity_notes_raw: 'MAP_VERIFICATION_FIND. Found during §4.4 Google Maps verification pass (4.1 rating, 37 reviews). Not
+    found during T6 web discovery of sherwoodohio.gov. Address: 210 Cedar St, Sherwood, OH. No phone, website, or hours on
+    Google Maps listing. Likely a Village of Sherwood park based on location; requires confirmation against village records
+    in pipeline pass. Also noted: ''Sherwood Ball Park'' appears as a separate Google Maps entity in Sherwood — may be a second
+    unstaged park or an alternate name for the same facility; recommend checking during pipeline pass.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Ney Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  category_raw: Community Park
+  ownership_raw: Village of Ney, Ohio
+  governance_raw: Village of Ney
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: Ney, OH 43549 (address not confirmed from authoritative source)
+  description_raw: The Village of Ney's main community park, providing facilities and programs for local residents and visitors
+    with sports facilities, nature areas, and a playground.
+  features_raw: Sports facilities; nature areas; playground
+  gps_lat_raw: '41.3811614'
+  gps_lon_raw: '-84.5250569'
+  urls_raw:
+  - https://villageofney.com/parks-and-recreation
+  identity_notes_raw: 'MINIMAL_DATA. No specific address found in available sources. Contact: Sheila Bostater (419-392-5218),
+    Kreg Culler (419-553-0051), Park Reservations (419-658-2578). Village of Ney is the smallest incorporated place in Defiance
+    County (~300 residents, 2020 census). MAP_VERIFICATION: Search for ''Ney Park'' returned Google Maps entity named ''Ney
+    Splash Pad'' (3.8 rating, 5 reviews, category: Playground) at 370 W Main St, Ney, OH 43549. GPS captured from this entity
+    (41.3811614, -84.5250569). The broader park may be known primarily as the splash pad on Google Maps. Address from Maps
+    (370 W Main St) is more specific than the staged location_raw. Resolve name and address in pipeline.
+
+    '
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Thoreau Wildlife Reserve
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  ownership_raw: Diehl Family Foundation
+  governance_raw: Diehl Family Foundation
+  partner_agencies_raw: National Audubon Society (Audubon Sanctuary Program)
+  coordination_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  location_raw: 10485 Haller Road, Defiance, OH 43512
+  description_raw: '250-acre wildlife reserve encompassing various ecosystems including wetlands, prairie, hardwood forest,
+    and old growth forest. Launched by the Diehl Family Foundation in 1989 as a land restoration initiative; opened to public
+    in 2020. Located along Haller Road near Nobel Elementary School. Features interpretive signage with quotations from naturalist
+    H.D. Thoreau. An Audubon Sanctuary Program partner supporting nesting bluebirds, wood ducks, and mallard ducks. Visitors
+    enter via gravel lane to parking area. Seasonal restroom facility (March–November) near parking lot; nature center by
+    Walden Pond currently unavailable.
+
+    '
+  features_raw: '4 nature trails (2 miles total); wetlands; prairie; hardwood forest; old growth forest; gravel parking lot;
+    seasonal restroom (March–November); interpretive Thoreau quote signage; Audubon Sanctuary bluebird/wood duck/mallard nesting
+    program; leash-required dog access; foot traffic only
+
+    '
+  acres_raw: '250'
+  urls_raw:
+  - https://www.thoreauwildlifereserve.org/
+  - https://www.thoreauwildlifereserve.org/visit
+  - https://visitdefianceohio.com/thoreau/
+  - https://visitdefianceohio.com/business-directory/thoreau-wildlife-reserve-2/
+  identity_notes_raw: 'Diehl Family Foundation EIN 47-5650292 (per prior research). Open to public dawn-dusk since 2020. Trail
+    map PDF available on website but trail names not published in any fetched source — 4 trails documented as unnamed. Audubon
+    Sanctuary Program affiliation noted. GPS not captured from authoritative source; GPS acquisition pass required.
+
+    '
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Trail
+  name_raw: Hicksville Nature Trail
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  ownership_raw: Hicksville Trail Association
+  governance_raw: Hicksville Trail Association
+  partner_agencies_raw: null
+  coordination_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  location_raw: 9425 Casebeer Miller Road, Hicksville, OH
+  description_raw: Beautiful community nature trail, 1.8 mile loop.
+  features_raw: Meadow of wildflowers; wooded portions
+  difficulty_raw: null
+  accessibility_raw: null
+  length_raw: 1.8 miles
+  urls_raw:
+  - https://visitdefianceohio.com/business-directory/hicksville-nature-trail/
+  - https://visitdefianceohio.com/explore/trails/
+  - https://www.facebook.com/HicksvilleTrailAssociation/
+  identity_notes_raw: 'GOVERNANCE_UNCERTAIN — Hicksville Trail Association governance not confirmed. No IRS nonprofit registration
+    found in search. No fee-simple land ownership confirmed. Trail may be on private land under license/agreement, or on county
+    land under maintenance agreement. Rural location (9425 Casebeer Miller Rd) is outside Hicksville village limits. Source:
+    visitdefianceohio.com lists under Trails; Facebook page at HicksvilleTrailAssociation. If HTA does not hold land or management
+    agreement, reclassify as T8 (private community trail) or remove if on government land. Verify with county auditor parcel
+    owner for 9425 Casebeer Miller Rd.
+
+    '
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Camp Lakota / Camp Neil Armstrong
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  ownership_raw: Black Swamp Area Council, Boy Scouts of America
+  governance_raw: Black Swamp Area Council, BSA
+  partner_agencies_raw: null
+  coordination_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  location_raw: 2180 Ginter Road, Defiance, OH 43512
+  description_raw: '640-acre Boy Scout camp encompassing diverse forested terrain, the 48-acre Lake Glengary, and bordered
+    on the west by the Auglaize River. Established in 1941; considered by many to provide a "rustic" summer camp experience.
+    Known for the connection to Neil Armstrong, who attended the camp as a boy and later served on staff. Offers Scouts BSA
+    summer programming, weekend camping for packs and troops, advancement training, and outdoor skill development. Located
+    south of the City of Defiance.
+
+    '
+  features_raw: '640 acres; 48-acre Lake Glengary; Auglaize River (west border); 14 conservation-style campsites (9 Lakota
+    side + 5 Neil Armstrong side); aquatic activities; hiking; canoeing; program areas around lake; capacity 175–200 Scouts
+    per week during summer camp
+
+    '
+  acres_raw: '640'
+  urls_raw:
+  - https://www.blackswampbsa.org/camping/camp-lakota/63303
+  - https://www.facebook.com/CampLakotaScoutingAmerica/
+  identity_notes_raw: 'Also known as "Camp Lakota / Camp Neil Armstrong." Operated by Black Swamp Area Council BSA. Address
+    2180 Ginter Rd, Defiance OH 43512 confirmed from multiple sources (BSA website, Dex Knows, USGS water monitoring station
+    USGS-411502084225000 "Camp Lakota Bsa LK NR Defiance OH"). BSA website text referenced "Hancock County" but address ZIP
+    43512 and USGS station both confirm Defiance County; BSA county reference may be an error or boundary note. Camp Lakota
+    Boy Scout Lake Dam is NID-listed infrastructure associated with this site; no separate NID entity staged (dam is camp
+    infrastructure, no independent public access). Access is restricted to Scouts BSA members and registered groups; not general
+    public access. Limited public access classification; verify access policy for T8 §4.1 limited-access rule.
+
+    '
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 8
+  seeded_from_baseline: true
+  baseline_id: Camp Lakota (BSA)
+- entity_type: Site
+  name_raw: Bark & Run Dog Park
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  ownership_raw: Defiance Bark'n Runners (501c3 nonprofit)
+  governance_raw: Defiance Bark'n Runners
+  partner_agencies_raw: null
+  coordination_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  location_raw: 11795 Precision Way, Defiance, OH 43512
+  description_raw: '501c3 nonprofit-operated membership dog park comprising two one-acre fenced areas where small and large
+    dogs can be separated for safer play. Not affiliated with the City of Defiance. Funded through memberships and donations.
+    Located on Precision Way across from the Defiance City Reservoir.
+
+    '
+  features_raw: 'Two 1-acre fenced areas (small dog + large dog separation); shade trees; shelter house; benches; pet waste
+    bag dispensers; membership required ($45 first dog, $10 each additional)
+
+    '
+  acres_raw: 2 (approx — two 1-acre areas)
+  urls_raw:
+  - https://www.defiancebarkandrun.com/
+  - https://cityofdefiance.com/Facilities/Facility/Details/Bark-Run-Dog-Park-1
+  - https://www.facebook.com/barknrun/
+  identity_notes_raw: 'Appears on cityofdefiance.com/Facilities page despite being "not affiliated with the city" per official
+    website. 501c3 nonprofit (Defiance Bark''n Runners) operates independently. Membership required for access; annual membership
+    June–June. Children under 12 not permitted. Previously deferred from T6 (confirmed not a city park). GPS not captured;
+    GPS acquisition pass required. Note: city website lists it under Facilities — verify whether city owns land and leases
+    to nonprofit (would affect tier assignment; if city-owned land, reclassify as T6 or T6+T8 split).
+
+    '
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 8
+  seeded_from_baseline: true
+  baseline_id: Bark and Run Dog Park (private)
+- entity_type: Site
+  name_raw: Shallow Creek Hunting Preserve
+  counties_raw:
+  - Defiance
+  county_primary: Defiance
+  ownership_raw: private
+  governance_raw: private
+  partner_agencies_raw: null
+  coordination_raw: null
+  gps_lat_raw: null
+  gps_lon_raw: null
+  location_raw: 7599 Stever Road, Defiance, OH 43512
+  description_raw: 'Private ODNR-licensed hunting preserve offering morning and afternoon pheasant hunts in 40-acre grassland
+    fields. Fee-based public access (hunting reservation required). Contact 419-784-3911 to schedule a hunt.
+
+    '
+  features_raw: '40-acre grassland fields; pheasant hunting (morning + afternoon sessions); fee-based reservation hunting;
+    ODNR licensed hunting preserve
+
+    '
+  acres_raw: 40 (approx)
+  urls_raw:
+  - https://www.facebook.com/shallowcreekhuntingpreserve/
+  - https://www.finandfield.com/organizations/shallow-creek-hunting-preserve-defiance
+  - https://local.yahoo.com/info-232416520-shallow-creek-hunting-preserve-defiance/
+  identity_notes_raw: 'ODNR-licensed hunting preserve per §5.1 mandatory hunting preserve search. Fee-based public access
+    (reservation required) qualifies as limited-access per T8 §4.1. Source: search results, yellow.place, Fin & Field directory.
+    No official website found. GPS not captured; GPS acquisition pass required. ODNR license number not found in available
+    sources.
+
+    '
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: null
+tier_5_entity_type_results:
+- tier: 5
+  governance_level: Township
+  entity_type: Site
+  result: null
+  sources_checked:
+  - OTA 2022-2023 Roster — no websites for any Defiance County township
+  - 2026 Defiance County Township Directory PDF (defiance-county.com)
+  - defiance-county.com/townships/defiance.php (fetched)
+  - defiance-county.com/townships/noble.php (fetched)
+  - richlandtownship.info (fetched — confirmed Defiance County)
+  - §4.1 individual searches for all 12 townships
+  - TrekOhio trekohio.com/defiance/ — explicitly no township parks
+  reasoning: All 12 township searches and fetches returned zero parks, preserves, or recreation sites. No township in Defiance
+    County operates a parks system. TrekOhio confirms no township parks in county.
+- tier: 5
+  governance_level: Township
+  entity_type: Trail
+  result: null
+  sources_checked:
+  - Same sources as Site null above
+  - County-wide trail searches returned only city, ODNR, SWCD trails (all staged at T1-T4)
+  reasoning: No named trails found on any township website or in any source attributable to township governance. The Reservoir
+    Nature Trail (City of Defiance) and Storybook Trail (SWCD) are already staged at their correct tiers.
+- tier: 5
+  governance_level: Township
+  entity_type: Trail Segment
+  result: null
+  sources_checked:
+  - Same sources as Site null above
+  - No trail segments possible without parent trails at this tier
+  reasoning: No township trails identified; therefore no named or GIS-defined trail segments. Consistent with zero trails
+    at T5.
+- tier: 5
+  governance_level: Township
+  entity_type: Trail Network
+  result: null
+  sources_checked:
+  - Same sources as Site null above
+  reasoning: No multi-trail township systems exist. No township in Defiance County operates enough trails to form a network.
+    Consistent with zero trails at T5.
+- tier: 5
+  governance_level: Township
+  entity_type: Site Network
+  result: null
+  sources_checked:
+  - Same sources as Site null above
+  reasoning: No multi-site township systems identified. Consistent with zero sites at T5.
+- tier: 5
+  governance_level: Township
+  entity_type: Access Point
+  result: null
+  sources_checked:
+  - Same sources as Site null above
+  - Township pages and directory reviewed — no boat launches, trailheads, or formal access points under township management
+    found
+  reasoning: Access points require a parent entity (site or trail) or independent township management. Neither condition met.
+    No township-managed access points found in any source.
+tier_6_entity_type_results:
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — Villages (Hicksville, Sherwood, Ney)
+    entity_type: Trail
+    result: null
+    sources_checked:
+    - https://villageofhicksville.com/parks-and-recreation/
+    - https://sherwoodohio.gov
+    - https://villageofney.com/parks-and-recreation
+    reasoning: 'No named trails documented at village parks in Hicksville, Sherwood, or Ney in available authoritative sources.
+      Village parks are sports/recreation complexes; Little Reservation Station (Sherwood) and Ney Park have MINIMAL_DATA
+      and no trail documentation. NOTE: map verification pass still required for all three villages per §4.4.
+
+      '
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — Villages (Hicksville, Sherwood, Ney)
+    entity_type: Trail Segment
+    result: null
+    sources_checked:
+    - https://villageofhicksville.com/park-facilities/
+    reasoning: No trail segments documented at any Tier 6 village site.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — Villages (Hicksville, Sherwood, Ney)
+    entity_type: Trail Network
+    result: null
+    sources_checked:
+    - https://villageofhicksville.com/parks-and-recreation/
+    - https://sherwoodohio.gov
+    reasoning: No trail network at any Tier 6 village site.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — Villages (Hicksville, Sherwood, Ney)
+    entity_type: Site Network
+    result: null
+    sources_checked:
+    - https://villageofhicksville.com/
+    - https://sherwoodohio.gov
+    reasoning: No multi-site network designation at Tier 6 village level.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — Villages (Hicksville, Sherwood, Ney)
+    entity_type: Access Point
+    result: null
+    sources_checked:
+    - https://villageofhicksville.com/parks-and-recreation/
+    - https://sherwoodohio.gov
+    - https://villageofney.com/parks-and-recreation
+    reasoning: 'No documented water access points or managed trailheads at village parks. Any river access in village limits
+      (e.g., Maumee River at Sherwood) is captured at Tier 2 (Bend Road Bridge, ODNR access site). Map verification pass still
+      required per §4.4.
+
+      '
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — City of Defiance
+    entity_type: Trail Segment
+    result: null
+    sources_checked:
+    - https://www.cityofdefiance.com/216/Parks-Recreation
+    - https://www.cityofdefiance.com/231/City-Parks
+    reasoning: 'Two city trails staged: StoryWalk Trail (Bronson Park, seasonal program) and Reservoir Nature Trail (~0.57
+      mi boardwalk + asphalt). Neither trail has named segments documented in any source. No GIS-defined segment geometry
+      found.'
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — City of Defiance
+    entity_type: Trail Network
+    result: null
+    sources_checked:
+    - https://www.cityofdefiance.com/216/Parks-Recreation
+    - https://buckeyetrail.org/sections/
+    reasoning: City of Defiance has two trails (StoryWalk + Reservoir Nature Trail) that are independent single-unit trails
+      with no named multi-trail network designation. Buckeye Trail routes through Defiance via Reservoir + Canal Road but
+      BTA is an advocacy partner (T7 §4.7), not a city trail network. No city-designated trail network found.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal — City of Defiance
+    entity_type: Site Network
+    result: null
+    sources_checked:
+    - https://www.cityofdefiance.com/216/Parks-Recreation
+    reasoning: City parks are managed as individual sites under City of Defiance Parks & Rec. No corridor-scale or system-level
+      network designation found in any source. 15 city park sites are independent entities with no overarching named network.
+tier_7_entity_type_results:
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Trail Segment
+    result: null
+    sources_checked:
+    - https://www.thoreauwildlifereserve.org/visit
+    - https://visitdefianceohio.com/explore/trails/
+    reasoning: 'Hicksville Nature Trail is a 1.8-mile loop; no named segments documented. Thoreau Wildlife Reserve trails
+      are unnamed; no segment-level geometry found in any source. No named or GIS-defined trail segments exist at any confirmed
+      T7 entity.
+
+      '
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Trail Network
+    result: null
+    sources_checked:
+    - https://www.thoreauwildlifereserve.org/
+    - https://visitdefianceohio.com/explore/trails/
+    reasoning: 'Thoreau Wildlife Reserve has 4 unnamed nature trails (2 mi total) — a multi-trail system exists, but the individual
+      trails are unnamed in all available sources; no network-level identity (no named network, no corridor designation) is
+      documented. No other T7 multi-trail systems found in Defiance County. Staging as null pending confirmation of individual
+      trail names.
+
+      '
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Site Network
+    result: null
+    sources_checked:
+    - https://blackswamp.org/properties/
+    - https://www.thoreauwildlifereserve.org/
+    reasoning: 'No T7 multi-site conservation systems confirmed in Defiance County. Black Swamp Conservancy confirmed properties
+      in service area but no Defiance County fee-simple or easement properties identified. TNC has no Defiance County preserves.
+
+      '
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Access Point
+    result: null
+    sources_checked:
+    - https://www.thoreauwildlifereserve.org/visit
+    - https://visitdefianceohio.com/business-directory/hicksville-nature-trail/
+    reasoning: 'No formally documented access points (parking areas with named trailheads, boat launches) at T7 entities.
+      Thoreau Wildlife Reserve has a gravel parking lot noted but no named trailhead access point documented with sufficient
+      identity. Hicksville Nature Trail parking/trailhead not documented in any source.
+
+      '
+tier_8_entity_type_results:
+- entity_type_result:
+    tier: 8
+    governance_level: Private & Organization-Based
+    entity_type: Trail
+    result: null
+    sources_checked:
+    - https://www.blackswampbsa.org/camping/camp-lakota/63303
+    - https://www.defiancebarkandrun.com/
+    - https://www.finandfield.com/organizations/shallow-creek-hunting-preserve-defiance
+    reasoning: 'Camp Lakota mentions hiking as an activity but no named trails documented in any source. Bark & Run Dog Park
+      is a fenced recreation area with no trails. Shallow Creek Hunting Preserve is grassland fields with no documented trail
+      system. No other private trail systems with public access found in Defiance County.
+
+      '
+- entity_type_result:
+    tier: 8
+    governance_level: Private & Organization-Based
+    entity_type: Trail Segment
+    result: null
+    sources_checked:
+    - https://www.blackswampbsa.org/camping/camp-lakota/63303
+    reasoning: No named trails at any T8 entity; therefore no trail segments possible.
+- entity_type_result:
+    tier: 8
+    governance_level: Private & Organization-Based
+    entity_type: Trail Network
+    result: null
+    sources_checked:
+    - https://www.blackswampbsa.org/camping/camp-lakota/63303
+    reasoning: 'Camp Lakota has informal hiking across 640 acres but no named multi-trail network documented. No T8 multi-trail
+      systems with named components found.
+
+      '
+- entity_type_result:
+    tier: 8
+    governance_level: Private & Organization-Based
+    entity_type: Site Network
+    result: null
+    sources_checked:
+    - https://blackswamp.org/properties/
+    - https://www.blackswampbsa.org/camping/
+    reasoning: 'No multi-site private organization system confirmed in Defiance County. BSA camp operates as a single site.
+      No private foundation with multiple Defiance County holdings found.
+
+      '
+- entity_type_result:
+    tier: 8
+    governance_level: Private & Organization-Based
+    entity_type: Access Point
+    result: null
+    sources_checked:
+    - https://www.blackswampbsa.org/camping/camp-lakota/63303
+    - https://www.defiancebarkandrun.com/
+    reasoning: 'No formally documented access points (named trailheads, boat launches, parking areas with independent identity)
+      at any T8 entity. Camp Lakota access is via camp entrance (member/group only — no public access point). Bark & Run has
+      parking but no independent access point identity. Shallow Creek Hunting Preserve has no documented access point.
+
+      '

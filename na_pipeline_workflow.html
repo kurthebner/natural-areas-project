@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Natural Areas Project — Pipeline Workflow</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    font-size: 13px;
+    padding: 32px;
+  }
+
+  .page-header {
+    margin-bottom: 28px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 16px;
+  }
+  .page-header h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 4px;
+  }
+  .page-header p {
+    font-size: 12px;
+    color: #6b7280;
+  }
+
+  .diagram {
+    display: flex;
+    gap: 0;
+    align-items: flex-start;
+  }
+
+  .pipeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    flex: 0 0 360px;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-left: 28px;
+    flex: 1;
+    min-width: 220px;
+  }
+
+  .node {
+    width: 340px;
+    border-radius: 6px;
+    padding: 8px 14px;
+    text-align: left;
+    border: 1.5px solid transparent;
+  }
+  .node .stage-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 2px;
+  }
+  .node .stage-name {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .node .stage-desc {
+    font-size: 11px;
+    opacity: 0.7;
+    margin-top: 2px;
+  }
+
+  .prereq   { background: #f3f4f6; border-color: #d1d5db; color: #374151; }
+  .resolve  { background: #eff6ff; border-color: #93c5fd; color: #1e3a8a; }
+  .gps-acq  { background: #f0fdf4; border-color: #86efac; color: #14532d; }
+  .gps-gate { background: #fefce8; border-color: #fcd34d; color: #78350f; }
+  .norm     { background: #faf5ff; border-color: #c4b5fd; color: #3b0764; }
+  .tsv      { background: #fff7ed; border-color: #fdba74; color: #7c2d12; }
+  .human    { background: #fef2f2; border-color: #fca5a5; color: #7f1d1d; }
+  .upsert   { background: #f0fdf4; border-color: #6ee7b7; color: #064e3b; }
+  .output   { background: #f8fafc; border-color: #94a3b8; color: #0f172a; }
+
+  .connector {
+    width: 2px;
+    background: #d1d5db;
+    height: 10px;
+    margin: 0 auto;
+  }
+  .connector.bold { height: 12px; background: #9ca3af; }
+
+  .arrow {
+    width: 0; height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #9ca3af;
+    margin: 0 auto 0 auto;
+  }
+
+  .gate-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+    background: #f59e0b;
+    color: white;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-left: 6px;
+    letter-spacing: 0.04em;
+    vertical-align: middle;
+  }
+  .halt-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+    background: #ef4444;
+    color: white;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+
+  .held-row {
+    display: flex;
+    width: 340px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0;
+  }
+  .held-line-h {
+    height: 2px;
+    width: 20px;
+    background: #fcd34d;
+  }
+  .held-box {
+    background: #fffbeb;
+    border: 1.5px dashed #fcd34d;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 11px;
+    color: #92400e;
+    white-space: nowrap;
+  }
+
+  .phase-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #9ca3af;
+    align-self: flex-start;
+    padding: 4px 0 2px 4px;
+  }
+  .phase-div {
+    width: 340px;
+    height: 1px;
+    background: #e5e7eb;
+    margin: 4px 0;
+  }
+
+  .panel {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 7px;
+    padding: 10px 14px;
+  }
+  .panel h3 {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #64748b;
+    margin-bottom: 8px;
+  }
+  .chip-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .chip {
+    background: #e0e7ff;
+    color: #3730a3;
+    border-radius: 12px;
+    padding: 3px 9px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .chip.tier {
+    background: #dcfce7;
+    color: #166534;
+  }
+
+  .legend-rows { display: flex; flex-direction: column; gap: 5px; }
+  .legend-row { display: flex; align-items: center; gap: 8px; font-size: 11px; }
+  .swatch {
+    width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0;
+    border: 1.5px solid;
+  }
+
+  .page-footer {
+    margin-top: 32px;
+    padding-top: 12px;
+    border-top: 1px solid #e5e7eb;
+    font-size: 11px;
+    color: #9ca3af;
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Natural Areas Project — Pipeline Workflow</h1>
+  <p>Processing Orchestration Module v5.5 &nbsp;·&nbsp; 11-stage pipeline &nbsp;·&nbsp; 6 entity types &nbsp;·&nbsp; 8 discovery tiers</p>
+</div>
+
+<div class="diagram">
+  <div class="pipeline">
+
+    <div class="phase-label">Prerequisites</div>
+    <div class="phase-div"></div>
+
+    <div class="node prereq">
+      <div class="stage-label">Stage 0</div>
+      <div class="stage-name">Module Availability Check</div>
+    </div>
+    <div class="connector"></div><div class="arrow"></div>
+
+    <div class="node prereq">
+      <div class="stage-label">Stage 1</div>
+      <div class="stage-name">Discovery — Tiers 1–8</div>
+      <div class="stage-desc">Raw values only · no normalization · no GPS</div>
+    </div>
+    <div class="connector"></div><div class="arrow"></div>
+
+    <div class="node prereq">
+      <div class="stage-label">Stage 2</div>
+      <div class="stage-name">Load County Baseline (Tier 0)</div>
+      <div class="stage-desc">seeded_from_baseline = true</div>
+    </div>
+    <div class="connector bold"></div><div class="arrow"></div>
+
+    <div class="phase-div"></div>
+    <div class="phase-label">Resolution</div>
+    <div class="phase-div"></div>
+
+    <div class="node resolve">
+      <div class="stage-label">Stage 3 · Pass 1 — All Entities</div>
+      <div class="stage-name">Resolution Engine</div>
+      <div class="stage-desc">Grouping · identity anchors · merge clusters · parent ID resolution</div>
+    </div>
+    <div class="connector bold"></div><div class="arrow"></div>
+
+    <div class="phase-div"></div>
+    <div class="phase-label">GPS Acquisition</div>
+    <div class="phase-div"></div>
+
+    <div class="node gps-acq">
+      <div class="stage-label">Stage 4a</div>
+      <div class="stage-name">GPS Fill-Forward</div>
+      <div class="stage-desc">Carry prior DB coordinates forward before re-acquiring</div>
+    </div>
+    <div class="connector"></div><div class="arrow"></div>
+
+    <div class="node gps-acq">
+      <div class="stage-label">Stage 4b</div>
+      <div class="stage-name">GPS Acquisition</div>
+      <div class="stage-desc">Sites (recommended) · Access Points (required)</div>
+    </div>
+    <div class="connector bold"></div><div class="arrow"></div>
+
+    <div class="node gps-gate">
+      <div class="stage-label">Stage 5.5a <span class="gate-badge">GATE</span></div>
+      <div class="stage-name">GPS Gate — Sites only</div>
+      <div class="stage-desc">GPS-null Sites → held_entities · gps_unresolvable passes through</div>
+    </div>
+    <div class="held-row" style="margin-top:-28px;margin-bottom:4px;">
+      <div style="width:166px"></div>
+      <div class="held-line-h"></div>
+      <div class="held-box">held_entities<br><span style="font-size:10px;opacity:.7">hold_reason: gps_missing</span></div>
+    </div>
+    <div style="height:8px"></div>
+
+    <div class="connector bold"></div><div class="arrow"></div>
+
+    <div class="node resolve">
+      <div class="stage-label">Stage 5 · Pass 2 — APs only</div>
+      <div class="stage-name">Resolution Engine</div>
+      <div class="stage-desc">GPS anchors · proximity buckets · final AP identity</div>
+    </div>
+    <div class="connector bold"></div><div class="arrow"></div>
+
+    <div class="node gps-gate">
+      <div class="stage-label">Stage 5.5b <span class="gate-badge">GATE</span></div>
+      <div class="stage-name">GPS Gate — APs only</div>
+      <div class="stage-desc">GPS-null APs → held_entities · gps_unresolvable passes through</div>
+    </div>
+    <div class="held-row" style="margin-top:-28px;margin-bottom:4px;">
+      <div style="width:166px"></div>
+      <div class="held-line-h"></div>
+      <div class="held-box">held_entities<br><span style="font-size:10px;opacity:.7">hold_reason: gps_missing</span></div>
+    </div>
+    <div style="height:8px"></div>
+
+    <div class="connector bold"></div><div class="arrow"></div>
+
+    <div class="phase-div"></div>
+    <div class="phase-label">Normalization</div>
+    <div class="phase-div"></div>
+
+    <div class="node norm">
+      <div class="stage-label">Stage 6</div>
+      <div class="stage-name">Normalization Engine</div>
+      <div class="stage-desc">Schema · vocab · GPS validation · Plus Codes · GIS lookup · parent/child</div>
+    </div>
+    <div class="connector bold"></div><div class="arrow"></div>
+
+    <div class="phase-div"></div>
+    <div class="phase-label">Output &amp; Validation</div>
+    <div class="phase-div"></div>
+
+    <div class="node tsv">
+      <div class="stage-label">Stage 7</div>
+      <div class="stage-name">TSV Output</div>
+      <div class="stage-desc">6 files · tab-delimited · UTF-8</div>
+    </div>
+    <div class="connector"></div><div class="arrow"></div>
+
+    <div class="node tsv">
+      <div class="stage-label">Stage 7.5 <span class="gate-badge">GATE</span></div>
+      <div class="stage-name">Vocabulary Validation</div>
+      <div class="stage-desc">Halts on any vocab violation before upsert</div>
+    </div>
+    <div class="connector"></div><div class="arrow"></div>
+
+    <div class="node tsv">
+      <div class="stage-label">Stage 8</div>
+      <div class="stage-name">TSV Integrity Check</div>
+      <div class="stage-desc">Delimiters · field alignment · county format</div>
+    </div>
+    <div class="connector bold"></div><div class="arrow"></div>
+
+    <div class="node human">
+      <div class="stage-label">Stage 8.5 <span class="halt-badge">HALT</span></div>
+      <div class="stage-name">Human Review Gate</div>
+      <div class="stage-desc">Pipeline waits for explicit reviewer confirmation before upsert</div>
+    </div>
+    <div class="connector bold"></div><div class="arrow"></div>
+
+    <div class="phase-div"></div>
+    <div class="phase-label">Persistence</div>
+    <div class="phase-div"></div>
+
+    <div class="node upsert">
+      <div class="stage-label">Stage 9</div>
+      <div class="stage-name">Entity Upsert</div>
+      <div class="stage-desc">Insert/update · stable IDs · relationship tables · provenance</div>
+    </div>
+    <div class="connector"></div><div class="arrow"></div>
+
+    <div class="node output">
+      <div class="stage-label">Stage 10</div>
+      <div class="stage-name">Relationship Validation</div>
+      <div class="stage-desc">Cross-entity checks: Site↔Trail, Trail↔Network, AP↔Site</div>
+    </div>
+    <div class="connector"></div><div class="arrow"></div>
+
+    <div class="node output">
+      <div class="stage-label">Stage 11</div>
+      <div class="stage-name">Final Output Bundle</div>
+      <div class="stage-desc">6 TSVs · audit logs · metadata · discovery summary</div>
+    </div>
+
+  </div><!-- /pipeline -->
+
+  <div class="sidebar">
+
+    <div class="panel">
+      <h3>6 Entity Types</h3>
+      <div class="chip-grid">
+        <span class="chip">Site</span>
+        <span class="chip">Trail</span>
+        <span class="chip">Trail Segment</span>
+        <span class="chip">Trail Network</span>
+        <span class="chip">Site Network</span>
+        <span class="chip">Access Point</span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>8 Discovery Tiers</h3>
+      <div class="chip-grid">
+        <span class="chip tier">1 Federal</span>
+        <span class="chip tier">2 State</span>
+        <span class="chip tier">3 District</span>
+        <span class="chip tier">4 County</span>
+        <span class="chip tier">5 Township</span>
+        <span class="chip tier">6 Municipal</span>
+        <span class="chip tier">7 Conservancy</span>
+        <span class="chip tier">8 Private</span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Legend</h3>
+      <div class="legend-rows">
+        <div class="legend-row"><div class="swatch" style="background:#f3f4f6;border-color:#d1d5db"></div> Prerequisites / setup</div>
+        <div class="legend-row"><div class="swatch" style="background:#eff6ff;border-color:#93c5fd"></div> Resolution passes</div>
+        <div class="legend-row"><div class="swatch" style="background:#f0fdf4;border-color:#86efac"></div> GPS acquisition</div>
+        <div class="legend-row"><div class="swatch" style="background:#fefce8;border-color:#fcd34d"></div> GPS gates → held_entities</div>
+        <div class="legend-row"><div class="swatch" style="background:#faf5ff;border-color:#c4b5fd"></div> Normalization</div>
+        <div class="legend-row"><div class="swatch" style="background:#fff7ed;border-color:#fdba74"></div> TSV output &amp; validation</div>
+        <div class="legend-row"><div class="swatch" style="background:#fef2f2;border-color:#fca5a5"></div> Human review halt</div>
+        <div class="legend-row"><div class="swatch" style="background:#f0fdf4;border-color:#6ee7b7"></div> Upsert &amp; persistence</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Two-Gate GPS Design</h3>
+      <div style="font-size:11px;line-height:1.6;color:#475569">
+        <strong style="color:#1a1a1a">Gate 1 (5.5a) — Sites</strong><br>
+        Before Pass 2. Sites don't participate in Pass 2, so they can be gated early.<br><br>
+        <strong style="color:#1a1a1a">Gate 2 (5.5b) — APs</strong><br>
+        After Pass 2. APs need GPS-informed identity resolution before being gated.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="page-footer">
+  Natural Areas Project v5 &nbsp;·&nbsp; Processing Orchestration Module v5.5 &nbsp;·&nbsp; IMP-093 (2026-05-04)
+</div>
+
+</body>
+</html>

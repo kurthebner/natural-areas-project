@@ -1,0 +1,79 @@
+Core Protocol
+
+Discovery Protocol Module v3.1
+
+Sub‑Procedures (8 Tiers × 7 Entity Types)
+
+Site Discovery Sub‑Procedure v3.1
+
+Sub‑Site Discovery Sub‑Procedure v3.1
+
+Trail Discovery Sub‑Procedure v3.1
+
+Trail Segment Discovery Sub‑Procedure v3.1
+
+Trail Network Discovery Sub‑Procedure v3.1
+
+Site Network Discovery Sub‑Procedure v3.1
+
+Access Point Discovery Sub‑Procedure v3.1
+
+Schema Modules (7)
+
+Site Schema Module v3.1
+
+Sub‑Site Schema Module v3.1
+
+Trail Schema Module v3.1
+
+Trail Segment Schema Module v3.1
+
+Trail Network Schema Module v3.1
+
+Site Network Schema Module v3.1
+
+Access Point Schema Module v3.1
+
+Vocabulary Modules (7)
+
+Site Vocabulary Module v3.1
+
+Sub‑Site Vocabulary Module v3.1
+
+Trail Vocabulary Module v3.1
+
+Trail Segment Vocabulary Module v3.1
+
+Trail Network Vocabulary Module v3.1
+
+Site Network Vocabulary Module v3.1
+
+Access Point Vocabulary Module v3.1
+
+Output Specifications (TSV)
+
+Site TSV Output Specification v3.1
+
+Sub‑Site TSV Output Specification v3.1
+
+Trail TSV Output Specification v3.1
+
+Trail Segment TSV Output Specification v3.1
+
+Trail Network TSV Output Specification v3.1
+
+Site Network TSV Output Specification v3.1
+
+Access Point TSV Output Specification v3.1
+
+Supporting Modules
+
+Discovery Metadata Specification v3.1
+
+Discovery Output Specification v3.1
+
+Audit & Logging Module v1.1
+
+County Baseline Module v1.1
+
+Orchestration Module v3.1

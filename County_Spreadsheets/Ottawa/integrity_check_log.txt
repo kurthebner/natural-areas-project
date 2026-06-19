@@ -1,0 +1,22 @@
+
+[SITE] ottawa_sites.tsv — 134 rows
+  All 134 rows PASS.
+  Rows checked: 134
+
+[TRAIL] ottawa_trails.tsv — 51 rows
+  All 51 rows PASS.
+  Rows checked: 51
+
+[ACCESS POINT] ottawa_access_points.tsv — 6 rows
+  All 6 rows PASS.
+  Rows checked: 6
+
+[SITE NETWORK] ottawa_site_networks.tsv — 1 rows
+  All 1 rows PASS.
+  Rows checked: 1
+
+=== INTEGRITY CHECK SUMMARY ===
+  Total rows checked: 192
+  Total errors:       0
+  RESULT: PASS — all rows meet integrity requirements
+  TSV files are cleared for Stage 5 (Human Review Gate)

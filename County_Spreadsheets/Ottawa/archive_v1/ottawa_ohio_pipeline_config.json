@@ -1,0 +1,41 @@
+{
+  "_schema": "na_pipeline_config_v1",
+  "_generated_by": "bootstrap",
+  "_note": "Ottawa County OH bootstrap config. Populated during/after discovery. Run via: python utilities/na_run_county.py --county-dir 'County_Spreadsheets/Ottawa'",
+  "county": "Ottawa",
+  "state": "Ohio",
+  "fips": "39123",
+  "run_id": "ottawa_ohio_2026_05_17",
+  "run_date": "2026-05-17",
+  "prefix": "OTT",
+  "records_input": 0,
+  "bbox": [41.37, 41.77, -83.42, -82.72],
+  "run_notes": "Ottawa County OH — island county. Includes South Bass Island (Put-in-Bay), Middle Bass Island, North Bass Island, Catawba Island, and smaller islands. Island municipalities handled at Tier 6. Significant water site and water trail content expected. Known MC entities pre-loaded from DB: OH-MC-S-010, OH-MC-S-021, OH-MC-TR-002, OH-MC-T-008. Howard Marsh trails OH-OTT-T-072 to -076 already in DB.",
+  "adjacent_counties": ["Erie (E)", "Sandusky (S)", "Wood (SW)", "Lucas (W)"],
+  "known_mc_entities": [
+    {"id": "OH-MC-S-010", "name": "Magee Marsh Wildlife Area", "counties": "Lucas;Ottawa"},
+    {"id": "OH-MC-S-021", "name": "Howard Marsh Metropark", "counties": "Lucas;Ottawa"},
+    {"id": "OH-MC-TR-002", "name": "Portage River Water Trail", "counties": "Ottawa;Wood"},
+    {"id": "OH-MC-T-008", "name": "Magee Marsh Boardwalk", "counties": "Lucas;Ottawa"},
+    {"id": "OH-OTT-T-072", "name": "Howard Marsh Sandpiper Trail", "counties": "Ottawa"},
+    {"id": "OH-OTT-T-073", "name": "Howard Marsh Mallard Trail", "counties": "Ottawa"},
+    {"id": "OH-OTT-T-074", "name": "Howard Marsh Madewell Trail", "counties": "Ottawa"},
+    {"id": "OH-OTT-T-075", "name": "Howard Marsh Egret Trail", "counties": "Ottawa"},
+    {"id": "OH-OTT-T-076", "name": "Howard Marsh Sora Trail", "counties": "Ottawa"}
+  ],
+  "multi_county_candidates_not_in_db": [
+    {"name": "Ottawa National Wildlife Refuge", "counties": "Lucas;Ottawa", "source": "MULTI_COUNTY.xlsx"},
+    {"name": "North Coast Inland Trail", "counties": "Erie;Huron;Ottawa;Sandusky", "source": "MULTI_COUNTY.xlsx"},
+    {"name": "Sandusky River", "counties": "Crawford;Erie;Huron;Ottawa;Richland;Sandusky", "source": "MULTI_COUNTY.xlsx", "note": "State Scenic River"},
+    {"name": "Crane Creek State Park", "counties": "Lucas;Ottawa", "source": "MULTI_COUNTY.xlsx", "note": "No longer a site — dissolved/historical; do not create entity"}
+  ],
+  "next_ids": {
+    "Site": "OTT-S-001",
+    "Trail": "OTT-T-077",
+    "Trail_Segment": "OTT-TS-001",
+    "Trail_Network": "OTT-TN-001",
+    "Site_Network": "OTT-SN-001",
+    "Access_Point": "OTT-AP-001"
+  },
+  "gps_queries": {}
+}

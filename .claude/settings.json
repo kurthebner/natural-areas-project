@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Write(**/*.json)",
+      "Edit(**/*.json)",
+      "mcp__Claude_in_Chrome__get_page_text",
+      "mcp__Claude_in_Chrome__navigate"
+    ],
+    "deny": [
+      "Bash(python *upsert*)",
+      "Bash(python3 *upsert*)",
+      "Bash(python *na_run_county*)",
+      "Bash(python3 *na_run_county*)",
+      "Bash(python *migrate*)",
+      "Bash(python3 *migrate*)"
+    ]
+  }
+}

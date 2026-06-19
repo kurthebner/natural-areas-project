@@ -1,0 +1,701 @@
+# NATURAL AREAS & TRAILS DATA DICTIONARY (Style B)
+A unified, statewide‑scalable schema for cataloging parks, preserves, natural areas, trail systems, trail segments, and trail access infrastructure.
+
+---
+
+## 1. Name
+**Definition:**  
+The official name of the site or trail segment.
+
+**Rules:**  
+- Use the published name, if possible.  
+- Do not include unofficial or descriptive names (those belong in Notes).
+
+---
+
+# Identity Fields & Controlled Vocabularies
+
+This section defines the core identity fields used to classify parks, natural areas, trails, historic sites, and related lands.  
+Ontology, governance, and legal designation are separated into distinct fields for clarity and auditability.
+
+---
+
+## 2. Category
+**Definition:**  
+The *ontological identity* of the site — what the land **is**, independent of ownership or governance.
+
+**Purpose:**  
+Provides a stable, governance‑agnostic classification.
+
+**Rules:**  
+Use only approved Categories from the controlled vocabulary.
+
+### Controlled Vocabulary: Category
+Arboretum  
+Botanical Garden  
+Buffer Zone  
+Camp  
+Cemetery  
+Community Garden  
+Conservation Area  
+Cultural Facility  
+Dam  
+Fishing Area  
+Floodplain Area  
+Greenspace  
+Greenway Corridor  
+Historic Site  
+Hunting Area  
+Internal Feature  
+Memorial  
+Museum  
+Natural Area  
+Nature Preserve  
+Open Space  
+Park  
+Recreation Facility  
+Reservoir  
+Scenic Overlook  
+Trail Access Point  
+Trail Corridor  
+Trail  
+Water Access Site  
+Water Site  
+Wildlife Area  
+
+---
+
+## Parent–Child Category Rule
+**Definition:**  
+Some Categories represent land units that may contain named internal sites (children). Others represent terminal entities that do not contain children.
+
+**Parent‑capable Categories:**  
+Park; Nature Preserve; Natural Area; Conservation Area; Historic Site; Recreation Facility; Trail Corridor; Trail System; Cemetery; Water Site; Water Access Site; Museum; Cultural Facility.
+
+**Terminal Categories:**  
+Arboretum; Botanical Garden; Dam; Fishing Area; Hunting Area; Scenic Overlook; Trail Access Point; Internal Feature; Memorial; Open Space; Greenspace.
+
+**Rules:**  
+- Parent‑capable Categories may contain child sites.  
+- Terminal Categories generally do not contain child sites.  
+- Child sites must be represented as separate records and linked via **Parent Site**.  
+- Parent sites must not list children in Features or Notes.
+
+---
+
+## 3. Subtype
+**Definition:**  
+A more specific classification that refines the Category.  
+Subtype describes a **stable, identity‑bearing land unit**, not a temporary or mixed ecological condition.  
+Subtype is optional.
+
+**Purpose:**  
+Adds granularity without overloading Category.
+
+**Rules:**  
+- Use only approved Subtypes.  
+- Subtype may be blank.  
+- Do **not** use subtypes to describe habitat conditions (those belong in Description).  
+- Use a subtype only when it expresses the site’s identity, name, legal status, or recognized landform.
+
+### Controlled Vocabulary: Subtype
+
+#### A. Subtypes for Category = Park
+Sports Complex  
+Athletic Field  
+Playground  
+Dog Park  
+Skate Park  
+Special Use Park  
+Recreational Park  
+Linear Park  
+
+#### B. Subtypes for Conservation Area / Natural Area / Nature Preserve  
+Identity‑bearing landforms only:
+
+Prairie  
+Fen  
+Wetland  
+Bog  
+Marsh  
+Swamp  
+Riparian Corridor  
+Gorge  
+Ravine  
+Bluff  
+Karst Area  
+Sand Barrens  
+Old‑Growth Forest  
+Prairie Remnant  
+Wetland Complex  
+Mitigation Bank  
+Savanna  
+Grassland  
+
+Removed (now belong in Description):  
+Successional Habitat  
+Floodplain Forest  
+Upland Forest  
+Meadow  
+Wildlife Area *(Category)*  
+Buffer Zone *(Category)*  
+Restoration Area *(Category)*  
+
+#### C. Subtypes for Category = Trail / Trail Corridor
+Multi‑Use Trail  
+Nature Trail  
+Hiking Trail  
+Connector Trail  
+Access Segment  
+Rail Trail  
+Greenway Trail  
+Water Trail  
+Equestrian Trail  
+Mountain Bike Trail  
+Fitness Trail  
+Canal Corridor  
+
+#### D. Subtypes for Category = Trail Access Point
+Neighborhood Access  
+Roadside Access  
+Parking‑Lot Access  
+Park Access  
+Connector Access  
+
+#### E. Subtypes for Category = Cemetery
+Historic Cemetery  
+Active Cemetery  
+Inactive Cemetery  
+Pioneer Cemetery  
+Family Cemetery  
+
+#### F. Subtypes for Category = Historic Site
+Archaeological Site  
+Covered Bridge  
+Historic Structure  
+Historic District Fragment  
+Cultural Landscape  
+Industrial Heritage Site  
+Transportation Heritage Site  
+Military Site  
+
+#### G. Subtypes for Category = Recreation Facility
+Recreation Center  
+Senior Center  
+Athletic Complex  
+Aquatic Center  
+Community Center  
+Indoor Sports Facility  
+
+#### H. Subtypes for Category = Internal Feature
+Dog Park (Internal)  
+Skate Area (Internal)  
+BMX Track (Internal)  
+Playground (Internal)  
+Trail Segment (Internal)  
+Garden (Internal)  
+Memorial (Internal)  
+
+---
+
+## 4. Designation
+**Definition:**  
+A formal legal or protected status assigned by a federal, state, county, or local authority.
+
+**Rules:**  
+Use only approved Designations.
+
+### Controlled Vocabulary: Designation
+
+#### A. Federal Designations
+National Park  
+National Monument  
+National Historic Site  
+National Memorial  
+National Historic Landmark  
+National Natural Landmark  
+National Recreation Area  
+National Wildlife Refuge  
+National Scenic Trail  
+National Heritage Area  
+National Battlefield  
+National Cemetery  
+National Register of Historic Places (NRHP)  
+
+#### B. State Designations
+State Park  
+State Nature Preserve  
+State Fishing Area  
+State Hunting Area  
+State Memorial  
+State Wildlife Area  
+State Forest  
+State Scenic River  
+State Natural Landmark  
+State Archaeological Preserve  
+State Historic Site  
+State Recreation Area  
+
+#### C. Local / Special Designations
+County Nature Preserve  
+County Historic Landmark  
+Municipal Historic Landmark  
+Local Landmark  
+Local Historic District  
+Certified Arboretum (Level I–IV)  
+Registered Cemetery  
+Protected Wetland  
+Mitigation Bank  
+Conservation Easement  
+Land Trust Preserve  
+
+#### D. Blank (no designation)
+Most sites will have no formal designation.
+
+---
+
+## 5. Ownership
+**Definition:**  
+The legal owner of the land.
+
+**Rules:**  
+- Use the official agency or organization name.  
+- Do not infer ownership.
+
+---
+
+## 6. Management
+**Definition:**  
+The entity responsible for operating or stewarding the site.
+
+**Rules:**  
+- Use the official managing agency.  
+- Semicolon‑delimit multiple managers.  
+- If same as Ownership, repeat explicitly.
+
+---
+
+## 7. Coordination
+**Definition:**  
+Entities that coordinate but do not own or manage the site.
+
+**Rules:**  
+- Use only when coordination is formally recognized.  
+- Leave blank if none.
+
+---
+
+## 8. Description
+**Definition:**  
+A concise, factual summary of the site’s identity, purpose, and landscape or ecological character.
+
+**Rules:**  
+- 1–3 sentences.  
+- Include identity‑defining ecological characteristics.  
+- Include essential governance or naming history.  
+- Include former names and synonyms.  
+- No amenities.  
+- No temporary conditions.
+
+---
+
+## 9. Status
+**Allowed Values:**  
+Active  
+Seasonal  
+Access Permit Required  
+No Public Entry  
+Under Development  
+Proposed  
+Abandoned  
+Closed  
+
+**Rules:**  
+- “Closed” = permanently closed as the entity described.  
+- “Proposed” must be officially referenced.
+
+---
+
+## 10. Address
+Leave blank if no formal address exists.
+
+---
+
+## 11. Acres
+Numeric only.  
+Leave blank if unknown.
+
+---
+
+## 12. Location
+Municipality or township only.  
+Semicolon‑delimit if multiple.  
+Do not include county names.
+
+---
+
+## 13. County
+List all counties the site spans.  
+Alphabetical.  
+Semicolon‑delimited.  
+Do not include the word “County.”
+
+---
+
+## 14. GPS Coordinates
+Format: `lat,lon`  
+One coordinate pair only.  
+No space after comma.
+
+---
+
+## 15. Plus Code
+Generated from accepted coordinates.  
+Blank if GPS is blank.
+
+---
+
+## 16. Trail Role
+**Controlled Vocabulary:**  
+Trail System  
+Trail Segment  
+Trail  
+Connector Trail / Spur  
+Trailhead  
+Trail Access Point  
+Bikeway Access Point  
+Bikeway Spur  
+Greenway Corridor  
+Other  
+None  
+
+---
+
+## 17. Parent Trail Name
+Required for segments and spurs.  
+Blank otherwise.
+
+---
+
+## 18. Trail Segment Type
+Connector  
+Crossing  
+Loop  
+Linear  
+Access Segment  
+None  
+
+---
+
+## 19. Trail Access Type
+Trailhead  
+Access Point  
+Connector  
+Crossing  
+None  
+
+---
+
+## 20. Trail Length (Miles)
+Numeric only.  
+Blank for non‑trail sites.  
+No estimates.  
+No units.
+
+---
+
+## 21. Features
+**Definition:**  
+Semicolon‑delimited list of internal features or amenities physically present within the site.  
+Features are **not** identity‑bearing land units.
+
+**Rules:**  
+- Use only approved values from the controlled vocabulary.  
+- Features describe **components**, not **sites**.  
+- No ecology.  
+- No governance.  
+- No temporary conditions.  
+- Named amenities remain Features.  
+- **Named trails are never Features** (see Named Trails Rule).  
+- Unnamed trails use the Features vocabulary (Paved Path, Unpaved Trail, Multi‑use Trail, Mountain Bike Trail, Bridle Trail).  
+- Minor connectors belong in Notes, not Features.
+
+---
+
+## Named Trails Rule
+**Definition:**  
+Trails are linear land units with identity, geometry, and navigational relevance.
+
+**Rules:**  
+- **Named trails are always separate site records**, regardless of length or internal/external status.  
+- **Named amenities are not sites**, even if named; they remain Features.  
+- **Unnamed trails** use Features vocabulary.  
+- Minor internal connectors are not Features; use Notes if relevant.  
+- A trail becomes a site when it is a **named, mappable, continuous land unit**.
+
+---
+
+## Controlled Vocabulary: Features
+
+Arboretum  
+Accessibility Features  
+ADA Accessible  
+AED  
+Amphibian Area  
+Amphitheater  
+Archery Range  
+Art Gallery  
+Athletic Fields  
+Ballroom  
+Bandstand  
+Baseball Field  
+Basketball Court  
+Beach  
+Bike Rack  
+Bike Repair Station  
+Bird Viewing Area  
+Boardwalk  
+Bridle Trail  
+Butterfly or Pollinator Garden  
+Camping  
+Cave or Cavern  
+Climbing Wall  
+Community Garden  
+Conservatory  
+Covered Bridge  
+Covered Shelter  
+Cricket Pitch  
+Dance Floor  
+Dance Performance Space  
+Disc Golf Course  
+Dog Park  
+Electric Vehicle Charging  
+Equestrian Arena  
+Fieldhouse  
+Fishing Area  
+Football Field  
+Football Stadium  
+Gaming Area  
+Garden  
+Gazebo  
+Handball Court  
+Historic Marker  
+Historic Structure  
+Horseshoe Pitch  
+Hunting Area  
+Ice Rink  
+Interpretive Signage  
+Kite Flying  
+Lacrosse Field  
+Marina  
+Model Airplane Field  
+Model Rocketry Field  
+Mountain Bike Trail  
+Multi-use Trail  
+Musical Instruments  
+Musical Performance Space  
+Native American Artifacts  
+Native American Cultural Site  
+Native American Earthworks  
+Natural Arch  
+Observation Deck  
+Observatory  
+Outdoor Art Installation  
+Parking Area  
+Paved Path  
+Pavilion  
+Pickleball Court  
+Picnic Area  
+Pioneer Historic Site  
+Pioneer Re-creation  
+Pistol Range  
+Planetarium  
+Playground  
+Prairie Restoration  
+Pump Track  
+Restrooms  
+S&M Dungeon  
+Scenic View / Overlook  
+Shooting Range  
+Shotgun Range  
+Skate Park  
+Ski Slopes  
+Sledding Hill  
+Soccer Pitch  
+Swimming Pool  
+Tennis Court  
+Theatre  
+Trapping Area  
+Trolley  
+Tropical Garden  
+Unpaved Trail  
+Volleyball Court  
+Water Park  
+Watercraft Access  
+Waterfall  
+Waterslide  
+Wetland Restoration  
+Wildlife Observation Area  
+Working Railway  
+Zoo  
+
+---
+
+## 22. Notes
+**Definition:**  
+Optional free‑text field for clarifications, access notes, temporary conditions, historical context, and official listings.
+
+**Rules:**  
+- No identity‑defining ecology.  
+- No internal features.  
+- Use for temporary closures, access restrictions, historical notes, or clarifications.
+
+---
+
+## 23. URL
+Full `https://` URLs only.  
+Semicolon‑delimited if multiple.
+
+---
+
+## 24. Derived Label
+Not stored.  
+Computed from Category + Ownership + Designation.
+
+---
+
+## 25. Parent Site
+**Definition:**  
+The named site that contains this site as a subordinate land unit.
+
+**Rules:**  
+- Leave blank for top‑level sites.  
+- Use only the official Name of the parent site.  
+- A site may have only one parent.  
+- Child sites must not list their parent in Features or Notes.  
+- Parent sites must not list children in Features or Notes.  
+- Use only when the relationship is explicit in authoritative sources.
+
+**Examples:**  
+- Hemlock Ridge Trail → Parent Site: Blacklick Woods Metro Park  
+- Pioneer Cabin → Parent Site: Highbanks Metro Park  
+- Buckeye Trail – Segment 3 → Parent Site: Buckeye Trail  
+
+---
+
+# 26. Access Point Schema
+**Definition:**  
+Access Points represent visitor‑facing, navigational entry locations associated with a Site.  
+They provide the coordinates, road names, and practical details needed to reach a Site in the real world.
+
+Access Points do **not** represent internal features, trail intersections, or amenities.
+
+---
+
+## Access Point Fields (10 Fields)
+
+### **1. Access Point Name**
+Human‑readable name.  
+Must be unique within the parent site.  
+Should include the parent site name or abbreviation.
+
+### **2. Access Point Type**
+Controlled vocabulary:  
+- Trailhead
+- Parking Area
+- Boat Ramp
+- Watercraft Access Point
+- Fishing Access
+- River Access
+- Bicycle Access
+- Snowmobile Access
+- Cross Country Ski Access
+- Equestrian Access
+- Roadside Pull-Off
+- Pedestrian Entrance
+- Vehicle Entrance
+- Administrative Access (restricted)
+- Other (explicitly named only)
+
+### **3. Parent Site**
+Exact Name field of the parent Site.  
+Defines the one‑to‑many relationship.
+
+### **4. GPS Coordinates**
+Decimal degrees, WGS84.  
+Required.  
+Must be authoritative.
+
+### **5. Plus Code**
+Derived from GPS coordinates.  
+Required.
+
+### **6. Road Name**
+Official road name serving the access point.  
+No invented street numbers.  
+No reverse‑geocoded approximations.  
+Blank if not authoritative.
+
+### **7. Access Notes**
+Short, factual, non‑invented details.  
+Examples:  
+- “Gravel lot; room for 12 vehicles”  
+- “Boat ramp suitable for small craft only”  
+- “Seasonal gate; closed December–March”  
+- “Pedestrian access only; no vehicle turnaround”
+
+### **8. URL**
+Optional.  
+May include ODNR map tiles, county maps, or USACE pages.
+
+### **9. Status**
+Controlled vocabulary:  
+- Active  
+- Closed  
+- Seasonal  
+- Restricted
+
+### **10. Derived Label**
+Format:  
+**Access Point (Access Point Type)**
+
+---
+
+## Rules for Access Points
+
+### **A. What qualifies as an Access Point**
+A location a visitor would use to *enter* or *reach* a Site:
+
+- Parking areas  
+- Boat ramps  
+- Trailheads  
+- River access points  
+- Scenic pull‑offs  
+- Camp area entrances  
+- Gates  
+- Information kiosks  
+
+### **B. What does *not* qualify**
+These remain Features or Trail elements:
+
+- Trail intersections  
+- Scenic overlooks *inside* a site  
+- Picnic areas  
+- Shelters  
+- Bridges  
+- Fishing piers  
+- Campsites  
+- Internal amenities  
+- Trail nodes or junctions  
+
+### **C. Address rules**
+Access Points do **not** use street numbers.  
+Road names allowed only when authoritative.
+
+### **D. Relationship to Site Schema**
+Access Points do **not** modify the 25‑field Site schema.  
+They are a separate entity type.
+
+---
+
+# END OF DATA DICTIONARY

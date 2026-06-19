@@ -1,0 +1,59 @@
+================================================================================
+NATURAL AREAS SPREADSHEET VERIFICATION REPORT
+================================================================================
+
+Total rows: 413
+Generated: 2026-01-03 14:59:56.405266
+
+
+REQUIRED FIELDS CHECK:
+--------------------------------------------------------------------------------
+  Name: ✓ All rows have values
+
+
+TYPE FIELD VALIDATION:
+--------------------------------------------------------------------------------
+  Found 42 rows with potentially invalid Types:
+    Row 31: 'Forest Field Park' - Type: 'Community Park'
+    Row 32: 'Forest Walk Park' - Type: 'Nature Park'
+    Row 33: 'Grant Park' - Type: 'Nature Park'
+    Row 34: 'Green Park' - Type: 'Neighborhood Park'
+    Row 35: 'Greene Line Park' - Type: 'Neighborhood Park'
+    Row 36: 'Hithergreen Park' - Type: 'Neighborhood Park'
+    Row 37: 'Holes Creek Park' - Type: 'Nature Park'
+    Row 38: 'Huffman Park' - Type: 'Nature Park'
+    Row 39: 'Iron Horse Park' - Type: 'Community Park'
+    Row 40: 'Little Mound Park' - Type: 'Neighborhood Park'
+    ... and 32 more
+
+
+GPS COORDINATES CHECK:
+--------------------------------------------------------------------------------
+  Missing GPS: 200 rows
+  Placeholder coordinates (e.g., 39.0,-84.0): 1 rows
+
+
+URL CHECK:
+--------------------------------------------------------------------------------
+  Rows with URLs: 256
+  Note: URL accessibility verification requires manual check or API access
+
+
+TRAIL ROLE CHECK:
+--------------------------------------------------------------------------------
+  Found 64 rows with potentially invalid Trail Roles
+
+
+================================================================================
+SUMMARY
+================================================================================
+
+This report identifies potential issues that may need:
+  1. Manual verification via web search
+  2. Address corrections
+  3. Ownership/Management verification
+  4. URL updates
+  5. GPS coordinate verification
+
+For web verification of specific rows, use the interactive
+verification tool or run targeted searches.

@@ -1,0 +1,104 @@
+
+
+🗂️ Core Tables
+1. Parks
+Stores primary park records.
+| Field | Description | 
+| ParkID | Unique identifier | 
+| ParkName | Official name | 
+| Address, City, State, ZIP | Location details | 
+| Latitude, Longitude, Elevation | Geospatial data | 
+| Size | Area in acres or sq. miles | 
+| EstablishedDate | Date opened or designated | 
+| IsClosed | Boolean flag | 
+| ClosureDate | If closed, when | 
+| ClosureReason | Optional notes | 
+| OwnershipAgencyID | Foreign key to Agencies | 
+| CountyID | Foreign key to Counties | 
+| ParentParkID | Optional self-reference for nested parks | 
+| MapLink | URL or GIS reference | 
+
+
+
+🏷️ Classification Tables
+2. ParkTypes
+Defines types of parks (e.g., National Park, State Forest).
+| Field | Description | 
+| TypeID | Unique identifier | 
+| TypeName | Classification label | 
+
+
+3. Park_Type_Association
+Join table for many-to-many park-type relationships.
+| Field | Description | 
+| ParkID | Foreign key to Parks | 
+| TypeID | Foreign key to ParkTypes | 
+
+
+
+🏢 Agency Tables
+4. Agencies
+Stores organizations that own or manage parks.
+| Field | Description | 
+| AgencyID | Unique identifier | 
+| AgencyName | e.g., NPS, State DNR | 
+| Jurisdiction | Federal, State, County, etc. | 
+
+
+5. Park_Management_Association
+Join table to track multiple agencies per park with roles.
+| Field | Description | 
+| ParkID | Foreign key to Parks | 
+| AgencyID | Foreign key to Agencies | 
+| Role | e.g., Owner, Manager, Steward | 
+
+
+
+🗺️ Geographic Tables
+6. Counties
+Stores county-level geographic data.
+| Field | Description | 
+| CountyID | Unique identifier | 
+| CountyName | e.g., Franklin | 
+| State | Optional | 
+| FIPSCode | Optional standardized code | 
+
+
+
+🧭 Naming & Historical Tables
+7. Park_Aliases
+Tracks alternate names for parks.
+| Field | Description | 
+| AliasID | Unique identifier | 
+| ParkID | Foreign key to Parks | 
+| AliasName | Alternate name | 
+| AliasType | Historical, Local, Indigenous, etc. | 
+| StartDate, EndDate | Optional time range | 
+| Notes | Context or source info | 
+
+
+
+8. Park_Status_History (Optional)
+Tracks status changes over time.
+| Field | Description | 
+| StatusID | Unique identifier | 
+| ParkID | Foreign key | 
+| Status | Open, Closed, Seasonal, etc. | 
+| EffectiveDate | When the status began | 
+| Notes | Optional context | 
+
+
+
+🔗 Relational Tables
+9. Park_Relationships
+Captures nested or spatial relationships between parks.
+| Field | Description | 
+| RelationshipID | Unique identifier | 
+| ParentParkID | Foreign key to Parks | 
+| ChildParkID | Foreign key to Parks | 
+| RelationshipType | Contains, Adjacent, FeatureOf, etc. | 
+| Notes | Optional context | 
+
+
+Access Key
+PNX6D-K9D97-7WCJX-P3V3B-K8BBQ

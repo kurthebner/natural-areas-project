@@ -1,0 +1,2881 @@
+records:
+- entity_type: Site
+  name_raw: Ottawa National Wildlife Refuge
+  counties_raw:
+  - Ottawa
+  - Lucas
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: 'more than 8,000 (complex: more than 10,000)'
+  location_raw: 14000 West State Route 2, Oak Harbor, Ohio 43449; 15 miles east of
+    Toledo, 16 miles west of Port Clinton on State Route 2
+  description_raw: Established in 1961, Ottawa National Wildlife Refuge protects a
+    network of wetlands, grasslands and forests to provide habitat for a variety of
+    migratory birds, resident wildlife and threatened and endangered species. This
+    network of land covers more than 8,000 acres and when combined with the other
+    refuges in the complex, protects more than 10,000 acres. It has been recognized
+    with global significance for its value to wildlife.
+  features_raw: Visitor center; Wildlife Drive (7-mile auto tour route); 16 named
+    hiking trails; parking; birding; hunting (seasonal); photography
+  gps_lat_raw: 41.6074975
+  gps_lon_raw: -83.209608
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/visit-us/locations
+  - https://www.fws.gov/refuge/ottawa/map
+  identity_notes_raw: 'KNOWN_MC: No existing DB ID — multi-county entity spanning
+    Ottawa and Lucas. Main unit in Ottawa County. Metzger Marsh Unit (182 ac) is in
+    Lucas County — co-managed with Ohio Division of Wildlife. Complex also manages
+    Cedar Point NWR (Lucas) and West Sister Island NWR (Lucas). Ottawa NWR itself
+    is primarily Ottawa County; CROSS_COUNTY_CANDIDATE for Ottawa/Lucas due to Metzger
+    Marsh co-management. Baseline seed confirmed.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: true
+  baseline_id: Ottawa National Wildlife Refuge
+- entity_type: Site
+  name_raw: Ottawa National Wildlife Refuge — Navarre Marsh Unit
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal — complex land exchange history; managed by USFWS
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: approximately 820 (original; current managed acreage unconfirmed)
+  location_raw: Approximately 5 miles east of the main Ottawa NWR refuge, near Davis-Besse
+    Nuclear Power Station, Ottawa County, Ohio
+  description_raw: Navarre Marsh unit is managed by Ottawa National Wildlife Refuge
+    staff. The original Navarre Marsh land was traded to Toledo Edison Power Company
+    in 1966 in exchange for Darby Marsh; the 820-acre marsh area became the site of
+    the Davis-Besse Nuclear Power Station. The unit is not open to the public and
+    is accessible by permit only or during special tours.
+  features_raw: Restricted access; permit required; birding tours by special arrangement
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa
+  - https://birdinghotspots.org/hotspot/L679575
+  identity_notes_raw: Unit of Ottawa NWR. Restricted access — permit or special tour
+    only. Land exchange with Toledo Edison 1966 means ownership is complex; USFWS
+    manages under agreement. Baseline seed listed as 'Navarre Marsh National Wildlife
+    Refuge' — this is the same entity; the NWR designation applies to the managed
+    unit. Not the same as Navarre Marsh GNIS swamp feature. Verify governance/ownership
+    details at normalization.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: true
+  baseline_id: Navarre Marsh National Wildlife Refuge
+- entity_type: Site
+  name_raw: Ottawa National Wildlife Refuge — West Harbor Landing
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: 231 N Hickory Ridge Dr, Port Clinton, OH 43452; east of the main refuge
+    on Catawba Island
+  description_raw: West Harbor Landing is a unit of Ottawa National Wildlife Refuge
+    located on Catawba Island, east of the main refuge complex. It provides public
+    access to refuge lands on the Catawba Island peninsula, including the West Harbor
+    Landing Trail (1.61 mi, seasonal April 1 - September 15).
+  features_raw: Trail access; seasonal access April 1 through September 15; parking
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/locations/ottawa-national-wildlife-refuge
+  - https://www.fws.gov/refuge/ottawa/map?trail=west-harbor-landing-trail
+  identity_notes_raw: Child Site of Ottawa National Wildlife Refuge (main unit). Listed
+    as a distinct location on FWS refuge locations page. Has its own named trail (West
+    Harbor Landing Trail). Baseline seed listed as 'Ottawa National Wildlife Refuge
+    - West Harbor Landing'. Address confirmed from baseline.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: true
+  baseline_id: Ottawa National Wildlife Refuge - West Harbor Landing
+- entity_type: Site
+  name_raw: Perry's Victory and International Peace Memorial
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: National Park Service
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '25'
+  location_raw: South Bass Island, Put-in-Bay, OH 43456; mailing address PO Box 549,
+    Put-in-Bay, OH 43456
+  description_raw: Perry's Victory and International Peace Memorial is located on
+    South Bass Island in Ohio. It features a 352-foot Doric column that is the only
+    international peace memorial in the National Park System. The Memorial was established
+    to honor those who fought in the Battle of Lake Erie during the War of 1812, and
+    to celebrate the long-lasting peace among Great Britain, Canada and the U.S. The
+    plaza, rotunda, and observation deck are inaccessible for the 2026 and 2027 seasons
+    due to Upper Plaza Rehabilitation.
+  features_raw: 352-foot Doric column; visitor center; observation deck (closed 2026-2027
+    for rehabilitation); memorial rotunda (free admission); ranger programs; exhibits;
+    15-minute orientation video
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.nps.gov/pevi/index.htm
+  - https://www.nps.gov/pevi/planyourvisit/basicinfo.htm
+  - https://www.nps.gov/pevi/planyourvisit/fees.htm
+  identity_notes_raw: 'NPS national memorial unit on South Bass Island (Put-in-Bay).
+    Island location — accessible by ferry, plane, or boat. Observation deck fee: $10
+    for ages 16+, free 15 and under; closed 2026-2027 for rehabilitation. Phone: 419-285-2184.
+    No hiking trails documented at this unit — trail null evidence below.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Confederate Stockade Cemetery
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Department of Veterans Affairs / National Cemetery Administration
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: approximately 1
+  location_raw: 'Johnson''s Island, Danbury Township, Ottawa County, Ohio; mailing
+    address: Johnson''s Island, Sandusky, OH 44870'
+  description_raw: The Confederate Stockade Cemetery is located on Johnson's Island
+    in Sandusky Bay, approximately 3 miles from the city of Sandusky. Johnson's Island
+    was the site of a prisoner-of-war camp for Confederate officers captured during
+    the American Civil War. The cemetery contains 206 graves of Confederate prisoners
+    who died during their captivity. In 1910, the United Daughters of the Confederacy
+    erected a bronze statue, approximately 19 feet tall, titled 'The Lookout,' sculpted
+    by Moses Ezekiel. The cemetery is listed in the VA National Cemetery Administration
+    directory as a national cemetery. Burial space is closed (no new interments).
+  features_raw: 206 graves; iron fence perimeter; marble headstones; 19-ft bronze
+    statue 'The Lookout' (UDC, 1910); historically significant Civil War POW site
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.cem.va.gov/cems/lots/Confederate_Stockade.asp
+  - https://www.cem.va.gov/find-cemetery/state.asp?STATE=OH
+  - http://johnsonsisland.org/history-pows/civil-war-era/confederate-cemetery/
+  identity_notes_raw: 'VA NCA-managed national cemetery on Johnson''s Island, Ottawa
+    County (Danbury Township). Address uses ''Sandusky, OH 44870'' mailing but the
+    island is physically in Ottawa County, not Erie County (Sandusky is the city;
+    the island is across the bay in Ottawa County waters). Phone: 330-335-3069. Burial
+    space closed. IMP-111 (v5.5) mandated source.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: VC Boardwalk Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '0.36'
+  use_type_raw: Hiking
+  trail_surface_type_raw: Boards and stone
+  trail_origin_type_raw: ''
+  difficulty_raw: Easy
+  accessibility_raw: ADA compliant
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=vc-boardwalk-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. Open year round. Begins
+    and ends behind visitor center; travels over wetland and through wooded habitat.
+    Has extensions to ranger station education building. Also referenced as 'Boardwalk
+    Loop' in narrative text on same page.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Estuary Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '0.54'
+  use_type_raw: Hiking
+  trail_surface_type_raw: Stone, grass, sand
+  trail_origin_type_raw: ''
+  difficulty_raw: Moderate
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=estuary-trail
+  identity_notes_raw: 'Trail at Ottawa National Wildlife Refuge. Seasonal: Daily December
+    through October; Saturday afternoon–Sunday October through November. Located west
+    of the Magee Marsh beach along Lake Erie. Accessed from Magee Marsh parking lot
+    or by walking the Pool 1 trail April 15 through September 1. Length discrepancy:
+    narrative says 0.5 mi, structured listing shows 1.15 mi — capture both as found;
+    0.54 mi appears in the structured trail card.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Grimm Prairie Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: Black Swamp Bird Observatory
+  length_mi_raw: '0.39'
+  use_type_raw: Hiking
+  trail_surface_type_raw: Gravel
+  trail_origin_type_raw: ''
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=grimm-prairie-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. Open year round. Located
+    behind offices of Black Swamp Bird Observatory. Access from Partnership Trail
+    or from BSBO. Loop route. Also referenced as 'Gallagher Memorial Trail' in narrative
+    text — source page uses both names in different sections; structured listing uses
+    'Grimm Prairie Trail'. Capture both names; identity_notes flag for normalization.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: John Gallagher Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '0.99'
+  use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=john-gallagher-trail
+  identity_notes_raw: 'Trail at Ottawa National Wildlife Refuge. Narrative text on
+    same page references a ''Gallagher Memorial Trail'' at 0.3 mi behind BSBO offices
+    — but the structured listing shows this as a separate trail (John Gallagher Trail,
+    0.99 mi) from Grimm Prairie Trail. Two distinct trails appear to exist: John Gallagher
+    Trail (0.99 mi) and Grimm Prairie Trail (0.39 mi). Both captured separately. Flag
+    for normalization review.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Krause Road Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '0.27'
+  use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=krause-road-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. Length 0.27 mi from
+    structured listing. No additional detail provided on trails page.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Lakeshore Preserve Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '1.30'
+  use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=lakeshore-preserve-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. 1.30 mi from structured
+    listing. No additional detail on trails page.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Marinewood Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '2.46'
+  use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=marinewood-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. 2.46 mi from structured
+    listing. No additional detail on trails page.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Metzger Marsh Trail
+  counties_raw:
+  - Ottawa
+  - Lucas
+  county_primary: Ottawa
+  ownership_raw: Federal / State co-managed
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge;
+    co-managed with Ohio Division of Wildlife
+  partner_agencies_raw: Ohio Division of Wildlife
+  length_mi_raw: '0.44'
+  use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=metzger-marsh-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge — Metzger Marsh Unit.
+    Metzger Marsh Unit (east 182 acres of 740-acre marsh) is in Lucas County, co-owned
+    and managed by Ohio Division of Wildlife and Ottawa NWR. Trail may physically
+    be in Lucas County. Counties_raw set to Ottawa;Lucas pending GIS confirmation.
+    CROSS_COUNTY_CANDIDATE. Flag for county determination at normalization.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Middle Toussaint Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '8.06'
+  use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=middle-toussaint-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. 8.06 mi from structured
+    listing — longest trail on the refuge. No formal named segments documented on
+    FWS trails page. Trail segment null evidence recorded separately.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Ottawa Wildlife Interpretive Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '1.22'
+  use_type_raw: Hiking
+  trail_surface_type_raw: Grass
+  trail_origin_type_raw: ''
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=ottawa-wildlife-interpretive-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. Open year round. Between
+    trailhead parking lot and Magee Marsh Wildlife Area entrance road. System route
+    type. Access from trailhead parking lot or Migratory Bird Center parking lot at
+    Magee Marsh.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Partnership Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: Black Swamp Bird Observatory
+  length_mi_raw: '1.41'
+  use_type_raw: Hiking
+  trail_surface_type_raw: Grass
+  trail_origin_type_raw: ''
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=partnership-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. Open year round. Between
+    trailhead parking lot and Magee Marsh Wildlife Area entrance road. Connects to
+    Grimm Prairie and John Gallagher trails; also accessible from Migratory Bird Center
+    parking at Magee Marsh.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Pool 1 West Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '0.22'
+  use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=pool-1-west-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. 0.22 mi from structured
+    listing. No additional detail on trails page.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: VC Fishing Pond Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '0.06'
+  use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=vc-fishing-pond-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. Very short (0.06 mi)
+    — likely a spur to the visitor center fishing pond. No additional detail on trails
+    page.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: West Harbor Landing Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '1.61'
+  use_type_raw: Hiking
+  trail_surface_type_raw: Grass
+  trail_origin_type_raw: ''
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=west-harbor-landing-trail
+  identity_notes_raw: 'Trail at Ottawa National Wildlife Refuge — West Harbor Landing
+    unit (Catawba Island). Seasonal: April 1 through September 15. 1.61 mi loop. Accessed
+    from Ottawa NWR trailhead parking lot via Partnership Trail or from Migratory
+    Bird Center parking at Magee Marsh. Source states ''east of the visitor center''
+    in narrative (appears to be Woodies Roost Trail description transposed — narrative
+    for West Harbor Landing says it travels around a wetland and past large wooded
+    areas).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Woodies Roost Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '0.40'
+  use_type_raw: Hiking
+  trail_surface_type_raw: Grass
+  trail_origin_type_raw: ''
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=woodies-roost-trail
+  identity_notes_raw: 'Trail at Ottawa National Wildlife Refuge. Seasonal: April 1
+    through September 15. 0.40 mi from structured listing. Narrative on same page
+    lists this as 1.9 mi — significant discrepancy; structured card shows 0.40 mi.
+    Accessed from Ottawa NWR trailhead parking lot via Partnership Trail or from Migratory
+    Bird Center parking at Magee Marsh.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: York Tract Trail
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: ''
+  use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  - https://www.fws.gov/refuge/ottawa/map?trail=york-tract-trail
+  identity_notes_raw: Trail at Ottawa National Wildlife Refuge. Length not captured
+    on trails page — structured listing shows trail name but no length populated.
+    No additional detail. GPS/length to be confirmed during GPS acquisition pass.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Ottawa NWR Wildlife Drive
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  partner_agencies_raw: ''
+  length_mi_raw: '7'
+  use_type_raw: Auto Tour
+  trail_surface_type_raw: Paved/gravel (auto route)
+  trail_origin_type_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us
+  - https://www.fws.gov/refuge/ottawa/map
+  identity_notes_raw: 7-mile auto tour route departing from the Visitor Center entrance
+    road. Published by USFWS as a formal named route at Ottawa NWR. Assess at normalization
+    whether use_type 'Auto Tour' is in controlled vocabulary; if not, flag for resolution.
+    May not qualify as a Trail entity under strict NAP criteria — flag TRAIL_TYPE_REVIEW.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type_result:
+    tier: 1
+    governance_level: Federal
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - https://www.fws.gov/refuge/ottawa/visit-us/trails — all 16 trails listed individually;
+      none subdivided into formal named segments
+    - https://www.nps.gov/pevi/index.htm — Perry's Victory is a compact 25-acre site;
+      no trails documented
+    reasoning: Ottawa NWR trails are individually named and managed as discrete trails,
+      not as segments of a larger named trail. Middle Toussaint Trail (8.06 mi) is
+      the longest but has no documented formal segment breaks in the FWS source. Perry's
+      Victory has no trail infrastructure. No Trail Segment triggers (management boundary
+      change, physical interruption, significant difficulty change, seasonal navigability
+      difference) documented at any T1 entity.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - https://www.fws.gov/refuge/ottawa/visit-us/trails — trails listed individually,
+      no named network umbrella
+    - https://www.nps.gov/pevi/index.htm — no trails at Perry's Victory
+    reasoning: Ottawa NWR trails are listed individually on the FWS trails page with
+      no named coordinating network identity. The USFWS does not publish a branded
+      'Ottawa NWR Trail System' or similar formal network name. Perry's Victory has
+      no trail network. No federal trail network designation (e.g., North Country
+      Trail) has been identified in Ottawa County at Tier 1.
+- entity_type: Site Network
+  name_raw: Ottawa National Wildlife Refuge Complex
+  counties_raw:
+  - Ottawa
+  - Lucas
+  county_primary: Ottawa
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service
+  partner_agencies_raw: ''
+  coordination_raw: Managed by Ottawa NWR staff
+  network_type_raw: Wildlife Refuge Complex
+  member_sites_raw:
+  - Ottawa National Wildlife Refuge (Ottawa County)
+  - Cedar Point National Wildlife Refuge (Lucas County)
+  - West Sister Island National Wildlife Refuge (Lucas County)
+  - Schoonover Waterfowl Production Area (Michigan)
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa
+  - https://environmentamericas.org/2022/03/14/ottawa-national-wildlife-refuge-complex-ohios-only-national-wildlife-refuge-complex/
+  identity_notes_raw: 'USFWS formally designates this as the ''Ottawa National Wildlife
+    Refuge Complex'' — Ohio''s only NWR complex. Includes Ottawa NWR (Ottawa County),
+    Cedar Point NWR (Lucas County), West Sister Island NWR (Lucas County), and Schoonover
+    WPA (Michigan). CROSS_COUNTY_CANDIDATE: spans Ottawa and Lucas counties. Member
+    Cedar Point and West Sister Island were discovered/should have been discovered
+    in Lucas County run. Schoonover WPA is in Michigan — out of Ohio scope. Site Network
+    represents the formal USFWS complex identity.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Access Point
+  name_raw: Ottawa National Wildlife Refuge — Visitor Center Entrance
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ap_type_raw: Trailhead / Refuge Entrance
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  location_raw: 14000 West State Route 2, Oak Harbor, Ohio 43449
+  description_raw: Primary entrance to Ottawa National Wildlife Refuge. Visitor center
+    with parking lots; provides access to VC Boardwalk Trail, VC Fishing Pond Trail,
+    Partnership Trail, and the Wildlife Drive. Open daily, dawn until dusk.
+  features_raw: Visitor center; parking lots; trailhead; Wildlife Drive departure
+    point; ADA accessible
+  gps_lat_raw: 41.6074975
+  gps_lon_raw: -83.209608
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us
+  - https://www.fws.gov/refuge/ottawa/visit-us/locations/ottawa-national-wildlife-refuge
+  identity_notes_raw: Primary visitor access point for Ottawa NWR. GPS from FWS page
+    meta tag (geo.position). Open daily dawn to dusk.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Access Point
+  name_raw: Ottawa National Wildlife Refuge — Trailhead Parking Lot
+  counties_raw:
+  - Ottawa
+  county_primary: Ottawa
+  ap_type_raw: Trailhead
+  ownership_raw: Federal
+  governance_raw: U.S. Fish & Wildlife Service / Ottawa National Wildlife Refuge
+  location_raw: Ottawa National Wildlife Refuge, Oak Harbor, OH 43449 (separate from
+    visitor center parking; along State Route 2)
+  description_raw: Secondary trailhead parking lot at Ottawa NWR providing access
+    to Partnership Trail, Ottawa Wildlife Interpretive Trail, Woodies Roost Trail,
+    and West Harbor Landing Trail.
+  features_raw: Parking; trailhead access; open daily dawn to dusk
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.fws.gov/refuge/ottawa/visit-us/trails
+  identity_notes_raw: Referenced in multiple trail descriptions as separate from visitor
+    center parking. Exact location not specified in source — GPS acquisition needed.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- tier_result:
+    tier: 1
+    governance_level: USFS (U.S. Forest Service)
+    result: 'null'
+    entities_found: 0
+    sources_checked:
+    - Wayne National Forest boundary — Ottawa County is not within Wayne NF territory
+      (NF is in southeastern Ohio)
+    notes: No USFS lands in Ottawa County. Wayne National Forest is limited to southeastern
+      Ohio. Confirmed null.
+- tier_result:
+    tier: 1
+    governance_level: USACE (U.S. Army Corps of Engineers)
+    result: 'null'
+    entities_found: 0
+    sources_checked:
+    - https://www.lrd.usace.army.mil/Missions/Recreation/Ohio/ — Ohio recreation search
+      returned no Ottawa County projects
+    - 'General knowledge: Ottawa County is Lake Erie shoreline; no USACE inland reservoir/flood
+      control projects documented'
+    notes: No USACE project sites or recreation areas in Ottawa County. Lake Erie
+      navigation channels are USACE jurisdiction but produce no Site entities for
+      NAP. Null confirmed.
+- tier_result:
+    tier: 1
+    governance_level: BLM (Bureau of Land Management)
+    result: 'null'
+    entities_found: 0
+    sources_checked:
+    - BLM has minimal Ohio surface holdings; no BLM parcels documented in Ottawa County
+    notes: No BLM surface lands in Ottawa County. Standard null for Ohio counties
+      outside of southeastern Ohio mineral holdings.
+- tier_result:
+    tier: 1
+    governance_level: Department of Defense (DoD)
+    result: 'null'
+    entities_found: 0
+    sources_checked:
+    - No DoD installations or FUDS sites documented in Ottawa County
+    notes: No DoD recreation areas or public-access military lands in Ottawa County.
+      Null confirmed.
+- tier_result:
+    tier: 1
+    governance_level: Tribal Lands
+    result: 'null'
+    entities_found: 0
+    sources_checked:
+    - No federally recognized tribes have trust lands or reservations in Ohio
+    notes: No tribal trust lands, reservations, or fee-simple tribal ownership documented
+      in Ottawa County or in Ohio generally. Standard Ohio null.
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: East Harbor State Park
+  baseline_id: East Harbor State Park
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  acres_raw: '1831'
+  location_raw: 1169 North Buck Road (State Route 269), Danbury Township, Ottawa County,
+    Ohio
+  gps_lat_raw: 41.5452
+  gps_lon_raw: -82.8176
+  description_raw: 'East Harbor State Park is a 1,831-acre state park in Danbury Township
+    on a peninsula along Lake Erie. Features sandy beaches, wooded areas, East and
+    Middle harbors (wetland marshes). Middle Harbor is a game sanctuary. Offers 11
+    hiking trails plus multi-use trail totaling more than 10 miles, 571-site campground
+    with amphitheater and nature center, two boat launches (marina and campground
+    ramp), ADA accessible beach areas, fishing, swimming, birding, boating. Campground
+    has glacial grooves. Lockwood (Marshall) Cemetery (Ohio Historic Site #37) is
+    located within the park. Marina provides seasonal dockage on West Harbor.'
+  features_raw: 'Beach (1500 ft swimming beach); 11 hiking trails + 1 multi-use trail;
+    571-site campground; marina; 2 boat ramps; nature center; amphitheater; picnic
+    areas; fishing; glacial grooves in campground; Ohio Historic Site #37 (Lockwood
+    Cemetery)'
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 'Primary large state park in Ottawa County. Historic site: Lockwood
+    (Marshall) Cemetery (Ohio Historic Site #37) is within park grounds. Marina (East
+    Harbor State Park Marina) staged as separate AP. Crane Creek State Park dissolution
+    confirmed — Crane Creek SP was absorbed into Magee Marsh WA (see OH-MC-S-010);
+    do not create Crane Creek SP entity.'
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: South Bass Island State Park
+  baseline_id: South Bass Island State Park
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: Put-in-Bay
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  acres_raw: '33'
+  location_raw: 1523 Catawba Avenue, Put-in-Bay Township, South Bass Island, Ottawa
+    County, Ohio
+  gps_lat_raw: 41.6423
+  gps_lon_raw: -82.8373
+  description_raw: 'South Bass Island State Park is a 33-acre state park on the west
+    side of South Bass Island (Put-in-Bay Township). Park is perched atop white dolomite
+    bluffs up to 40 feet high. Amenities include cobble beach, boat ramp, fishing
+    pier, campground (59 electric, 10 full-service, 57 non-electric sites, 3 cabents),
+    picnic facilities, and playground. Park property was the site of Hotel Victory
+    (opened 1892, destroyed by fire 1919; remnants in campground). Small glacial grooves
+    in campground. Hotel Victory Site (Ohio Historic Site #11) within park. Island
+    accessible by ferry from Port Clinton, Catawba Island, Sandusky, and Kelleys Island.'
+  features_raw: 'Cobble beach; boat ramp; fishing pier; campground (126 sites, 3 cabents);
+    picnic; playground; Hotel Victory ruins; glacial grooves; Ohio Historic Site #11'
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 'South Bass Island is 1,523 acres total; state park is 33 acres.
+    NOTE: Baseline seed listed 677 ac — this was INCORRECT (island size ≠ park size).
+    Baseline also listed Oak Point State Park at 677 ac — BOTH INCORRECT. Correct:
+    South Bass Island SP = 33 ac, Oak Point SP = 1.5 ac. Hotel Victory Site (Ohio
+    Historic Site #11) is a feature within this park, not a separate entity. On Lake
+    Erie Islands Water Trail (South Bass Island loop; T3 entity).'
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/south-bass-island-state-park
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Oak Point State Park
+  baseline_id: Oak Point State Park
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: Put-in-Bay
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  acres_raw: '1.5'
+  location_raw: Bayview Avenue (State Route 357) at Portsmouth Avenue, Put-in-Bay
+    Township, South Bass Island, Ottawa County, Ohio
+  gps_lat_raw: 41.6539
+  gps_lon_raw: -82.8174
+  description_raw: Oak Point State Park is a 1.5-acre day-use state park on South
+    Bass Island — the smallest state park in Ohio. Triangle-shaped park juts into
+    Put-in-Bay Harbor toward Gibraltar Island. Offers daily and overnight dockage,
+    fishing access, small picnic area, restrooms, and scenic views of the harbor.
+    On the Lake Erie Islands Water Trail (South Bass Island loop).
+  features_raw: Dock (daily and overnight); fishing access; picnic area; restrooms;
+    scenic harbor views; water trail access
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: Smallest state park in Ohio (1.5 ac). Baseline listed 677 ac
+    — INCORRECT. Day-use only. On Lake Erie Islands Water Trail (South Bass Island
+    loop; T3 entity per §4.6).
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Middle Bass Island State Park
+  baseline_id: Middle Bass Island State Park
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  acres_raw: '124'
+  location_raw: 1719 Fox Road, Put-in-Bay Township, Middle Bass Island, Ottawa County,
+    Ohio
+  gps_lat_raw: 41.6761
+  gps_lon_raw: -82.811
+  description_raw: 'Middle Bass Island State Park is located in the southern portion
+    of Middle Bass Island. Features a 184-slip marina with seasonal and transient
+    dockage, boat ramp, electric/water hookup, shower house. 10 primitive campsites
+    (no electric or potable water). Lonz Mansion (renovated 2024) available for seasonal
+    overnight stays. Historic Lonz Winery grounds (Ohio Historic Site #12) are incorporated
+    into the park. The renovated Lonz Winery building includes a patio overlooking
+    Lake Erie and winemaking exhibits. 4 trails including the ADA Lonz Trail (1.3-mi
+    paved multiuse) connecting marina, glacial grooves, and Lonz Winery. Glacial grooves
+    visible within park. On the Lake Erie Islands Water Trail (Middle Bass Island
+    loop).'
+  features_raw: '184-slip marina; boat ramp; 10 primitive campsites; Lonz Mansion;
+    historic Lonz Winery (Ohio Historic Site #12); glacial grooves; 4 trails including
+    ADA Lonz Trail; water trail access'
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 'Baseline listed 124 ac — using as estimate pending verification.
+    Lonz Winery (Ohio Historic Site #12) and Lonz Mansion are features within this
+    park, not separate entities. Lake Erie Islands Water Trail (Middle Bass Island
+    loop) circles island — T3 per §4.6 (managed by Put-in-Bay Township PD).'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: North Bass Island State Park
+  baseline_id: North Bass Island
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  acres_raw: '593'
+  location_raw: North Bass Island (Isle St. George), Put-in-Bay Township, Ottawa County,
+    Ohio; 18 miles north of Ohio mainland
+  gps_lat_raw: 41.7074
+  gps_lon_raw: -82.8162
+  description_raw: North Bass Island State Park occupies 593 acres (67% of North Bass
+    Island / Isle St. George) in Put-in-Bay Township. State of Ohio purchased 589
+    acres of the island in 2004 to preserve it from development. Park offers primitive
+    camping (3 sites, first-come first-served), Lake House (4-bedroom seasonal accommodation),
+    fishing (3.5 miles of shore), limited hunting (designated areas), hiking, bicycling,
+    and wildlife viewing. Four public mooring buoys on the south side (first-come).
+    Accessible only by private boat, charter, and airplane. On the Lake Erie Islands
+    Water Trail (North Bass Island loop).
+  features_raw: 593 ac state park; primitive camping (3 sites); Lake House accommodations;
+    fishing (3.5 mi shore); hiking; bicycling; hunting; 4 mooring buoys; water trail
+    access
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: Northernmost state park in Ottawa County; less than 2 miles
+    from Canadian border. Baseline listed as 'North Bass Island' (no park designation).
+    Fox's Marsh WA and Honey Point WA are adjacent state wildlife areas also on North
+    Bass Island. Lake Erie Islands Water Trail (North Bass Island loop) links 5 paddling
+    locations — T3 entity per §4.6.
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Marblehead Lighthouse State Park
+  baseline_id: Marblehead Lighthouse State Park
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: Marblehead
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  acres_raw: '13.5'
+  location_raw: 110 Lighthouse Drive, east of East Main Street (State Route 163),
+    Marblehead, Danbury Township, Ottawa County, Ohio
+  gps_lat_raw: 41.5363
+  gps_lon_raw: -82.7125
+  description_raw: 'Marblehead Lighthouse State Park encompasses 13.5 acres at the
+    eastern tip of the Marblehead Peninsula. The Marblehead Lighthouse (built 1821,
+    Ohio Historic Site #3) is the oldest continuously-operating lighthouse on the
+    Great Lakes and the centerpiece of the park. The park offers picnicking, fishing
+    along the limestone bedrock shore, scenic views of Kelleys and South Bass islands
+    and Cedar Point Amusement Park, an ADA handicapped-accessible paved path to the
+    lighthouse, restrooms, and viewing binoculars. Guided tours of the lighthouse
+    are offered for a fee between Memorial and Labor Days. On-site Keeper''s House
+    includes a museum. Lighthouse itself is not handicapped accessible.'
+  features_raw: 'Marblehead Lighthouse (Ohio Historic Site #3; built 1821); ADA path
+    to lighthouse; Keeper''s House museum; scenic overlook; picnic; fishing; restrooms;
+    guided tours (seasonal, fee)'
+  coordination_raw: ''
+  partner_agencies_raw: U.S. Coast Guard (operates and maintains the light)
+  identity_notes_raw: 'Baseline listed 9 ac — INCORRECT per ODNR coastal PDF: 13.5
+    ac. Marblehead Lighthouse (Ohio Historic Site #3) is the primary feature within
+    the park — not a separate NAP entity. U.S. Coast Guard maintains the automated
+    beacon (since 1958). 300mm lens projects green signal every 6 seconds, visible
+    11 nautical miles.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Catawba Island State Park
+  baseline_id: Catawba Island State Park
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Catawba Island Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  acres_raw: '10'
+  location_raw: 4049 East Moore's Dock Road, west of NW Catawba Road, Catawba Island
+    Township, Ottawa County, Ohio
+  gps_lat_raw: 41.5745
+  gps_lon_raw: -82.857
+  description_raw: Catawba Island State Park is a nearly 10-acre day-use state park
+    on the west side of Catawba Island Township. Primary use is Lake Erie fishing
+    and boating. Features a large fishing pier, three-lane public boat ramp, 120-vehicle/trailer
+    parking lot, restrooms, picnic shelter, and playground. A 400-foot cobble beach
+    stretches northwest from the pier. Historic marker on site denotes the westernmost
+    boundary of the Connecticut Western Reserve. Day-use only — no camping. Serves
+    as administrative headquarters for Kelleys Island, South Bass Island, Middle Bass
+    Island, and Oak Point State Parks.
+  features_raw: 3-lane boat ramp; fishing pier; 120-vehicle/trailer parking; restrooms;
+    picnic shelter; playground; 400-ft cobble beach; historic marker (Connecticut
+    Western Reserve boundary); administrative HQ for 4 island parks
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 'Baseline listed 677 ac — INCORRECT. Correct size: nearly 10
+    acres (day-use only). 677 ac was the size of the Catawba Island peninsula/township,
+    not the park. Day-use fishing/boating park; no overnight facilities.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Toussaint Creek Wildlife Area
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: ''
+  municipality_raw: Oak Harbor area
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  acres_raw: '225'
+  location_raw: 5 miles north of Oak Harbor, Ottawa County, Ohio
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  description_raw: Toussaint Creek Wildlife Area is a 225-acre state wildlife area
+    located 5 miles north of Oak Harbor in Ottawa County. Approximately three-quarters
+    of the area consists of managed wetlands and shallow open water ranging from 1
+    to 3 feet deep, with deeper channels created by dikes. Popular for waterfowl hunting
+    and wildlife viewing.
+  features_raw: Managed wetlands; shallow open water (1-3 ft); dike channels; waterfowl
+    hunting; fishing
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 225 ac confirmed from ODNR page. GPS acquisition needed. Address
+    TBD — check ODNR wildlife area maps.
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/toussaint-creek-wildlife-area
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Little Portage Wildlife Area
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: ''
+  municipality_raw: Oak Harbor area
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  acres_raw: '407'
+  location_raw: Southeast of Oak Harbor on the Little Portage River, Ottawa County,
+    Ohio
+  gps_lat_raw: 41.4912
+  gps_lon_raw: -83.0319
+  description_raw: Little Portage Wildlife Area is a 407-acre state wildlife area
+    located southeast of Oak Harbor, bounded on the west by the Little Portage River
+    and on the north by the Portage River. Primarily river marsh habitat, popular
+    for waterfowl hunting. In 2024, ODNR completed a wetland restoration project replacing
+    subsurface field tile drainage to redirect water from more than 400 acres of farmland
+    to the wildlife area for filtration before flowing into the Little Portage River
+    (H2Ohio project).
+  features_raw: River marsh; wetlands; waterfowl hunting; fishing; canoe/kayak access;
+    2024 H2Ohio wetland restoration
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 'Baseline listed 357 ac — OVERRIDDEN by ODNR source data: 407
+    ac. Adjacent to Ottawa NWR complex. NOTE: FWS maintains a ''Little Portage Unit''
+    page at fws.gov/refuge/ottawa/visit-us/locations/little-portage-unit — this appears
+    to be a separate FWS roadside-view-only parcel within the Ottawa NWR complex,
+    distinct from this ODNR Wildlife Area. FWS unit may be a T1 miss; flag for resolution.
+    Birding Hotspot: ''Ottawa NWR--Little Portage Unit (view from roadside only)''
+    — may not meet public-access threshold for NAP entity.'
+  urls_raw:
+  - https://www.outdoornews.com/2024/09/09/little-portage-wildlife-area-improved-through-h2ohio/
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/littleportage.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Fox's Marsh Wildlife Area
+  baseline_id: Fox's Marsh Wildlife Area
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  acres_raw: '132'
+  location_raw: Southwestern quadrant of North Bass Island (Isle St. George), Put-in-Bay
+    Township, Ottawa County, Ohio
+  gps_lat_raw: 41.712
+  gps_lon_raw: -82.8311
+  description_raw: Fox's Marsh Wildlife Area is a 132-acre state wildlife area located
+    in the southwestern quadrant of North Bass Island (Isle St. George). Fronts one-half
+    mile of publicly accessible Lake Erie shore including one-quarter mile of beach
+    along Manila Bay. Bound by North Bass Island State Park to the north, east, and
+    southwest. Fox's Marsh (a 60-acre coastal wetland) supports fox snake, Lake Erie
+    water snake, waterfowl, migratory shorebird, and songbird populations. Accessible
+    for fishing, hunting, wildlife viewing, and paddling. Swimming prohibited. No
+    road access — accessible by boat/kayak only.
+  features_raw: 132 ac; 60-acre coastal wetland; beach (Manila Bay); Lake Erie shore;
+    hunting; fishing; paddling; no road access
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 'Baseline listed 133.49 ac — OVERRIDDEN by ODNR coastal PDF:
+    132 ac. No road access — boat/paddle only. Adjacent to North Bass Island State
+    Park. On Lake Erie Islands Water Trail (North Bass Island loop; T3).'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Honey Point Wildlife Area
+  baseline_id: Honey Point Wildlife Area
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  acres_raw: ''
+  location_raw: Southeastern tip of North Bass Island, Put-in-Bay Township, Ottawa
+    County, Ohio
+  gps_lat_raw: 41.7074
+  gps_lon_raw: -82.8083
+  description_raw: Honey Point Wildlife Area occupies the southeastern tip of North
+    Bass Island. The Honey Point peninsula points southeastward toward Middle Bass
+    Island's East Point. Adjacent to North Bass Island State Park; not accessible
+    by road. Smith's Pond (small wetland) in the center provides nesting for waterfowl
+    and habitat for shorebirds and songbirds. Accessible for fishing, hunting, wildlife
+    viewing, and paddling. Swimming prohibited.
+  features_raw: Smith's Pond; wetland; hunting; fishing; paddling; no road access;
+    adjacent to North Bass Island SP
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: Baseline listed 7.87 ac — acreage not confirmed in ODNR coastal
+    PDF; GPS from PDF. Not accessible by road. On Lake Erie Islands Water Trail (North
+    Bass Island loop; T3).
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Kuehnle Wildlife Area
+  baseline_id: Kuehnle Wildlife Area
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife; Put-in-Bay
+    Township Park District (co-managed)
+  ownership_raw: State
+  acres_raw: '20'
+  location_raw: Deist Road, east of Fox Road, Put-in-Bay Township, Middle Bass Island,
+    Ottawa County, Ohio
+  gps_lat_raw: 41.6905
+  gps_lon_raw: -82.8068
+  description_raw: Kuehnle Wildlife Area is a 20-acre triangle-shaped state wildlife
+    area on the narrow isthmus connecting the greater part of Middle Bass Island to
+    the island's East Point. Hauncks Pond occupies much of the wildlife area. Waterfowl
+    hunting available within the marsh and along the Lake Erie shoreline. Adjacent
+    to Petersen Woods (2 ac) to the north. On the Lake Erie Islands Water Trail (Middle
+    Bass Island loop).
+  features_raw: Hauncks Pond; marsh; Lake Erie shore; waterfowl hunting; fishing;
+    paddling
+  coordination_raw: ''
+  partner_agencies_raw: Put-in-Bay Township Park District
+  identity_notes_raw: 'Baseline listed 19 ac — OVERRIDDEN by ODNR coastal PDF: 20
+    ac. Co-managed by ODNR Division of Wildlife and Put-in-Bay Township Park District.
+    Adjacent to Petersen Woods. On Lake Erie Islands Water Trail (Middle Bass Island
+    loop; T3).'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Petersen Woods
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife; Put-in-Bay
+    Township Park District (co-managed)
+  ownership_raw: State
+  acres_raw: '2'
+  location_raw: Deist Road, east of Fox Road (adjacent to Kuehnle Wildlife Area),
+    Put-in-Bay Township, Middle Bass Island, Ottawa County, Ohio
+  gps_lat_raw: 41.6905
+  gps_lon_raw: -82.8068
+  description_raw: Petersen Woods is a 2-acre undeveloped woodlot on Middle Bass Island,
+    adjacent to Kuehnle Wildlife Area. Offers fishing access, paddling access, and
+    wildlife viewing. No amenities. Adjacent to Kuehnle WA with no trail connections.
+    On the Lake Erie Islands Water Trail (Middle Bass Island loop).
+  features_raw: Undeveloped woodlot; fishing; paddling; wildlife viewing; no amenities
+  coordination_raw: ''
+  partner_agencies_raw: Put-in-Bay Township Park District
+  identity_notes_raw: 2 ac per ODNR coastal PDF. Not in baseline seeds. Co-managed
+    ODNR / Put-in-Bay Township Park District. GPS approximated near Kuehnle WA — exact
+    GPS TBD. On Lake Erie Islands Water Trail (Middle Bass Island loop; T3).
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Green Island Wildlife Area
+  baseline_id: Green Island Wildlife Area
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  acres_raw: '16'
+  location_raw: Green Island, Lake Erie, Put-in-Bay Township, Ottawa County, Ohio
+    (island northwest of South Bass Island)
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  description_raw: Green Island Wildlife Area is ODNR's only island Wildlife Area
+    in Lake Erie, managed as a bird sanctuary/wildlife refuge. The island is state-owned
+    and currently closed to the public (access requires state permission and is essentially
+    not available for general recreation). Visible from Captain Alfred Parker Park
+    on South Bass Island. Green Island is a small island northwest of South Bass Island.
+  features_raw: State-owned island; bird sanctuary; wildlife refuge; NO PUBLIC ACCESS
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 'Baseline listed 16 ac — using as estimate; GPS acquisition
+    needed. NO PUBLIC ACCESS per current ODNR status — island is a wildlife refuge/bird
+    sanctuary. NAP public-access threshold: entity qualifies as an ODNR-designated
+    Wildlife Area even with restricted access (similar to Navarre Marsh at T1). Flag
+    for normalization decision: does ''no public access'' preclude NAP entity? Recommend
+    staging with access_type_flag: NO_PUBLIC_ACCESS.'
+  urls_raw:
+  - https://en.wikipedia.org/wiki/Green_Island_(Ohio)
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Mazurik Lake Erie Access Wildlife Area
+  baseline_id: Mazurik Lake Erie Access Wildlife Area
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: Lakeside-Marblehead
+  governance_raw: Ohio Department of Natural Resources
+  ownership_raw: State
+  acres_raw: '15.9'
+  location_raw: 8957 North Shore Road (North Shore Boulevard), Danbury Township, Ottawa
+    County, Ohio 44440
+  gps_lat_raw: 41.5411
+  gps_lon_raw: -82.7636
+  description_raw: The 15.9-acre Mazurik Access Area (also known as Mazurik Lake Erie
+    Access) is located on the north side of the Marblehead Peninsula on North Shore
+    Boulevard just west of Lakeside. Provides boaters and anglers direct access to
+    Lake Erie. Features a four-lane concrete boat ramp, 215-space vehicle/trailer
+    parking lot (with 40 car-only spaces), and a handicapped-accessible fishing pier.
+    Parking lot is lighted and accessible 24 hours.
+  features_raw: 4-lane boat ramp; 215-space parking; ADA fishing pier; 24-hr lighted
+    parking; Lake Erie direct access
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: Also referred to as 'Mazurik Access Area' in ODNR coastal PDF.
+    15.9 ac confirmed. Primarily a boat launch/fishing access facility. Listed as
+    'Wildlife Area' in baseline; ODNR coastal PDF calls it 'Mazurik Access Area.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Dempsey Fishing Access
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources
+  ownership_raw: State
+  acres_raw: '66.8'
+  location_raw: Bay Shore Road, south of Hartshorn Road, Danbury Township, Ottawa
+    County, Ohio
+  gps_lat_raw: 41.5077
+  gps_lon_raw: -82.7608
+  description_raw: The 66.8-acre Dempsey Fishing Access is located on the south side
+    of the Marblehead Peninsula on South Bay Shore Road in Danbury Township, providing
+    boaters and anglers direct access to Sandusky Bay. Features a four-lane concrete
+    boat ramp, vehicle/trailer parking lot with 45 car-only spaces, small fishing
+    dock, and a handicapped-accessible fishing pier. Parking lot is lighted and accessible
+    24 hours.
+  features_raw: 66.8 ac; 4-lane boat ramp; parking (45 car-only); fishing dock; ADA
+    fishing pier; 24-hr lighted parking; Sandusky Bay access
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: Not in baseline seeds — discovered via ODNR coastal PDF (OT13).
+    State-operated Sandusky Bay fishing access.
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Sandusky Bay Bridge Access — North
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: State of Ohio (state-operated public fishing site)
+  ownership_raw: State
+  acres_raw: ''
+  location_raw: Bay Shore Road, west of Danbury Road, Danbury Township, Ottawa County,
+    Ohio
+  gps_lat_raw: 41.4842
+  gps_lon_raw: -82.8293
+  description_raw: The Sandusky Bay Bridge Access (North) is a state-operated public
+    fishing site approximately 4.2 miles west of Dempsey Fishing Access in Danbury
+    Township. The nearly one-mile long access extends south into Sandusky Bay along
+    what was once the northern approach to the old Sandusky Bay Bridge (demolished
+    1985). A handicapped-accessible fishing deck was added in 2013. The southern causeway
+    approach is in Erie County (out of scope). The access is approximately one mile
+    long.
+  features_raw: ~1-mile fishing causeway; ADA fishing deck (2013); Sandusky Bay access;
+    24-hr access
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 'Not in baseline seeds — discovered via ODNR coastal PDF (OT14).
+    Former northern approach to old Sandusky Bay Bridge; bridge removed 1985. Southernmost
+    shore access in Ottawa County mainland. Paired site: Sandusky Bay Bridge Access
+    (South) is in Erie County — out of scope.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Camp Perry Recreation Area
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Erie Township
+  municipality_raw: ''
+  governance_raw: Ohio National Guard / Adjutant General of Ohio
+  ownership_raw: State
+  acres_raw: '640'
+  location_raw: 1000 Lawrence Road (at Scorpion Road), Erie Township, Ottawa County,
+    Ohio
+  gps_lat_raw: 41.5465
+  gps_lon_raw: -83.0135
+  description_raw: 'Camp Perry Military Reservation is a 640-acre Ohio National Guard
+    training facility on Lake Erie. Named in honor of Commander Oliver Hazard Perry
+    (Battle of Lake Erie, 1813). Features the largest outdoor rifle range in the world.
+    Hosts annual shooting matches and NRA National Outdoor Rifle & Pistol Championships.
+    Publicly accessible areas include: a swimming beach, fishing pier, restrooms (Camp
+    Perry Beach — accessed via Camp Perry Lodging & Conference Center on Lawrence
+    Road), a museum, and self-guided tours with interpretive signage. Public entrance
+    is on Niagara Road, north of SR 2/SR 358 intersection.'
+  features_raw: Swimming beach; fishing pier; museum; self-guided tours; restrooms;
+    largest outdoor rifle range in the world; NRA championships; training facility
+  coordination_raw: ''
+  partner_agencies_raw: NRA (Championships partner)
+  identity_notes_raw: 'Ohio National Guard = state entity, T2. Main entrance on Niagara
+    Road; beach access via Lawrence Road/Camp Perry Lodging. Beach is publicly accessible;
+    other portions are military restricted. Historical note: WWI Army officer training
+    center; housed German and Italian POWs in WWII. Largest outdoor rifle range in
+    the world on site.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Lakeside Daisy State Nature Preserve
+  baseline_id: Lakeside Daisy State Nature Preserve
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: Marblehead
+  governance_raw: Ohio Department of Natural Resources / Division of Natural Areas
+    and Preserves
+  ownership_raw: State
+  acres_raw: '137'
+  location_raw: 309 Alexander Pike, Marblehead, Danbury Township, Ottawa County, Ohio
+    43440
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  description_raw: Lakeside Daisy State Nature Preserve protects the only natural
+    U.S. population of the Lakeside Daisy (Hymenoxys herbacea), a federally threatened
+    plant species. Original preserve is 19 acres; an adjacent 118-acre expansion was
+    purchased to create a total 137-acre preserve. Located on the Marblehead Peninsula.
+    Visitors can explore walkable trails (including wheelchair-accessible options).
+    ODNR staff lead guided tours during peak bloom (early to mid-May). The preserve
+    also features some of the most extensive glacial grooves and best-preserved alvar
+    habitat in northern Ohio. Permit may be required for some areas.
+  features_raw: 137 ac; Lakeside Daisy (federally threatened); alvar habitat; glacial
+    grooves; walking trails (ADA accessible); guided tours (May peak bloom); permit
+    required for some areas
+  coordination_raw: ''
+  partner_agencies_raw: ''
+  identity_notes_raw: 'Baseline listed ''19.09 ac (or 117 ac)'' — UPDATED: Original
+    preserve 19 ac; total with 118-ac expansion = 137 ac. Address: 309 Alexander Pike.
+    GPS acquisition needed. Permit-required for some access per original baseline
+    note — confirm current access policy. Alvar habitat classification relevant to
+    NAP entity.'
+  urls_raw:
+  - https://www.thebeacon.net/popular-lakeside-daisy-preserve-in-marblehead-to-enjoy-a-major-expansion/
+  - https://trekohio.com/2013/05/12/lakeside-daisy-state-nature-preserve/
+- entity_type: Site
+  discovery_tier: 2
+  name_raw: Stone Laboratory Peach Point Campus
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: Put-in-Bay
+  governance_raw: Ohio State University / ODNR Division of Wildlife
+  ownership_raw: State (university)
+  acres_raw: ''
+  location_raw: State Route 357 and West Shore Boulevard, Put-in-Bay Township, South
+    Bass Island, Ottawa County, Ohio
+  gps_lat_raw: 41.6539
+  gps_lon_raw: -82.8174
+  description_raw: Stone Laboratory is Ohio State University's Lake Erie campus and
+    the oldest freshwater biological field station in the United States (established
+    1895). The main campus is on Gibraltar Island (within Put-in-Bay Harbor). The
+    Peach Point campus on South Bass Island (State Route 357 / West Shore Boulevard)
+    provides publicly accessible facilities including paved walkways, a public fishing
+    dock, fishing equipment to borrow, bait, courtesy docks, small picnic area, and
+    benches. The Put-in-Bay Aquatic Visitor Center (fully renovated 2024) is here
+    and offers free hands-on exhibits on fish species, fisheries management, and invasive
+    species. The Federal Fish Hatchery on Peach Point was transferred to OSU in 1940.
+  features_raw: Public fishing dock; fishing equipment (borrow); courtesy docks; picnic
+    area; Put-in-Bay Aquatic Visitor Center (free; renovated 2024); paved walkways;
+    bait; water trail access (South Bass Island loop)
+  coordination_raw: ''
+  partner_agencies_raw: ODNR Division of Wildlife
+  identity_notes_raw: T2 entity per §4.7 (public university natural area). OSU is
+    a public university. Co-managed with ODNR Division of Wildlife. Gibraltar Island
+    main campus is accessible by OSU-organized tours (summer) and guided kayak tours
+    — may qualify as a second Site entity or as an AP of Stone Lab. GPS approximated
+    at Peach Point location. Aquatic Visitor Center renovated 2024.
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+  - https://stonelab.osu.edu/
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: Magee Marsh Wildlife Area — KNOWN_MC confirmation
+  result: KNOWN_MC:OH-MC-S-010
+  notes: 'Magee Marsh Wildlife Area confirmed at T2 ODNR. Multi-county: Lucas (Jerusalem
+    Twp, easternmost tip) and Ottawa (Benton Twp, Carroll Twp). Main entrance: 13229
+    West State Route 2, Benton Township, Ottawa County; GPS: 41.6120, -83.1887. Total
+    2,202 ac. Includes former Crane Creek State Park (dissolved — absorbed into Magee
+    Marsh WA; confirmed NOT a separate entity). Trails within Magee Marsh WA (parent
+    OH-MC-S-010) staged as new Trail records below. Existing KNOWN_MC trail: OH-MC-T-008
+    (Magee Marsh Boardwalk / Bird Trail, 0.7 mi) — confirmed present, no new record.
+    KNOWN_MC:OH-MC-S-010 confirmed.'
+  seeded_from_baseline: true
+  baseline_id: Magee Marsh
+  county_primary: Ottawa
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: West Harbor Wildlife Area — PENDING CONFIRMATION
+  result: PENDING
+  notes: 'Baseline seed lists ''West Harbor Wildlife Area'' as a State Wildlife Area
+    in Ottawa County. Not found in ODNR coastal access PDF. NOTE: ''West Harbor Landing''
+    is a USFWS unit of Ottawa NWR (already staged at T1). ''West Harbor Wildlife Area''
+    if it exists is an ODNR Division of Wildlife unit — likely a small interior hunting
+    area not in coastal database. Check ODNR hunting area maps at normalization. Do
+    NOT confuse with USFWS West Harbor Landing.'
+  county_primary: Ottawa
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: Ottawa County Wildlife Area 1 — PENDING CONFIRMATION
+  result: PENDING
+  notes: 'Baseline seed: 551 S Wonnell Rd, Port Clinton, OH 43452. Described as a
+    public hunting area. Not found in ODNR coastal access PDF. Likely an ODNR Division
+    of Wildlife interior hunting area. Confirm via ODNR hunting area maps. Address
+    suggests it is in Erie Township or Bay Township near Port Clinton.'
+  county_primary: Ottawa
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: Ottawa County Wildlife Area 2 — PENDING CONFIRMATION
+  result: PENDING
+  notes: 'Baseline seed: listed without address. Described as a public hunting area.
+    Not found in ODNR coastal access PDF. Confirm via ODNR hunting area maps.'
+  county_primary: Ottawa
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: 'Great Egret Marsh Nature Preserve — PENDING: likely T7'
+  result: DEFER_T7
+  notes: 'Baseline seed: 150 ac; described as TNC Nature Preserve across from East
+    Harbor SP. Not found in ODNR DNAP registry search. If TNC-managed, this is T7
+    (conservancy). If ODNR DNAP registered, it would be T2. CHECK at T7: The Nature
+    Conservancy holdings in Ottawa County. Do not create entity at T2.'
+  county_primary: Ottawa
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: FWS Little Portage Unit — POTENTIAL T1 MISS
+  result: PENDING_T1_REVIEW
+  notes: FWS has a page at fws.gov/refuge/ottawa/visit-us/locations/little-portage-unit
+    listing a 'Little Portage Unit' as part of Ottawa NWR. Birding Hotspot describes
+    it as 'view from roadside only.' If this is a distinct FWS land parcel (not the
+    adjacent ODNR Little Portage Wildlife Area), it may be a missed T1 entity. However,
+    'roadside view only' suggests it may not meet public-access threshold for NAP
+    entity. Flag for T1 review at normalization.
+  county_primary: Ottawa
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Middle Harbor Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 0.75
+  difficulty_raw: Easy
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. Follows bank of Middle Harbor. Connects
+    to Middle Harbor Extension and two observation platforms.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Middle Harbor Extension
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 0.5
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. Extension of Middle Harbor Trail; leads
+    to observation platforms overlooking Middle Harbor.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Meadow Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 0.75
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. Traverse through meadow habitat.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Blackberry Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 0.25
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. Short trail through interior habitat.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Red Bird Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 0.25
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. Short trail through interior habitat.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Rock Garden Loop
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 0.3
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. Loop trail through rock garden area.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Wetlands Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 2.0
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. 2-mile trail through wetland habitats.
+    Snowmobile use permitted in winter.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: South Beach Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 2.5
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. 2.5-mile trail along south beach area.
+    Snowmobile use permitted in winter.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Water's Edge Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 1.0
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. Follows water's edge on natural land strip
+    between Lake Erie and East Harbor.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Channel Dunes Loop
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 0.5
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. Loop through channel dunes area near Lake
+    Erie and East Harbor channel. Snowmobile use permitted in winter.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: West Harbor Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: East Harbor State Park
+  length_mi_raw: 0.75
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round (some trails allow snowmobiles in winter)
+  description_raw: East Harbor State Park. Follows West Harbor boat entrance channel;
+    connects to swimming beach. Trailhead at northern terminus of Buck Road.
+  features_raw: ''
+  identity_notes_raw: Trail within East Harbor State Park. Trail lengths from AllTrails/ODNR
+    sources. Trail listed as multi-use (hiking/biking/snowmobile per ODNR).
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/east-harbor-state-park
+  - https://www.alltrails.com/parks/us/ohio/east-harbor-state-park
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: ADA Lonz Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: Middle Bass Island State Park
+  length_mi_raw: 1.3
+  difficulty_raw: Easy
+  surface_raw: Paved (ADA Lonz Trail); unpaved (others)
+  use_type_raw: Hiking; Multiuse (ADA Lonz Trail)
+  season_raw: ''
+  description_raw: 1.3-mile ADA paved multiuse trail connecting marina, glacial grooves,
+    and historic Lonz Winery grounds within Middle Bass Island State Park. North-south
+    orientation.
+  features_raw: ''
+  identity_notes_raw: Trail within Middle Bass Island State Park. ADA Lonz Trail is
+    1.3 mi paved per ODNR coastal PDF. Length for other trails TBD at GPS acquisition
+    pass.
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Campground Loop Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: Middle Bass Island State Park
+  length_mi_raw: ''
+  difficulty_raw: ''
+  surface_raw: Paved (ADA Lonz Trail); unpaved (others)
+  use_type_raw: Hiking; Multiuse (ADA Lonz Trail)
+  season_raw: ''
+  description_raw: Loop trail through Middle Bass Island State Park campground area.
+  features_raw: ''
+  identity_notes_raw: Trail within Middle Bass Island State Park. ADA Lonz Trail is
+    1.3 mi paved per ODNR coastal PDF. Length for other trails TBD at GPS acquisition
+    pass.
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Old Campground Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: Middle Bass Island State Park
+  length_mi_raw: ''
+  difficulty_raw: ''
+  surface_raw: Paved (ADA Lonz Trail); unpaved (others)
+  use_type_raw: Hiking; Multiuse (ADA Lonz Trail)
+  season_raw: ''
+  description_raw: Trail through former campground area at Middle Bass Island State
+    Park.
+  features_raw: ''
+  identity_notes_raw: Trail within Middle Bass Island State Park. ADA Lonz Trail is
+    1.3 mi paved per ODNR coastal PDF. Length for other trails TBD at GPS acquisition
+    pass.
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Rocky Shore Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Put-In-Bay Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: Middle Bass Island State Park
+  length_mi_raw: ''
+  difficulty_raw: ''
+  surface_raw: Paved (ADA Lonz Trail); unpaved (others)
+  use_type_raw: Hiking; Multiuse (ADA Lonz Trail)
+  season_raw: ''
+  description_raw: Trail along the rocky Lake Erie shoreline at Middle Bass Island
+    State Park.
+  features_raw: ''
+  identity_notes_raw: Trail within Middle Bass Island State Park. ADA Lonz Trail is
+    1.3 mi paved per ODNR coastal PDF. Length for other trails TBD at GPS acquisition
+    pass.
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/odnr/coastal/ocmp/CH3_LakeErieIslands_04142026_web.pdf
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Marblehead Lighthouse ADA Path
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: Marblehead
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  parent_site_raw: Marblehead Lighthouse State Park
+  length_mi_raw: ''
+  difficulty_raw: Easy (ADA accessible)
+  surface_raw: Paved
+  use_type_raw: Hiking
+  season_raw: Year-round
+  description_raw: Handicapped-accessible paved path to the Marblehead Lighthouse
+    within Marblehead Lighthouse State Park. Provides ADA access to the 1821 lighthouse
+    and Keeper's House museum. Short path; length TBD at GPS acquisition.
+  features_raw: ADA accessible; leads to historic lighthouse; connects to Keeper's
+    House museum
+  identity_notes_raw: Length TBD — GPS acquisition needed. Only known trail at Marblehead
+    Lighthouse SP per ODNR coastal PDF.
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Lakeside Daisy Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: Marblehead
+  governance_raw: Ohio Department of Natural Resources / Division of Natural Areas
+    and Preserves
+  ownership_raw: State
+  parent_site_raw: Lakeside Daisy State Nature Preserve
+  length_mi_raw: ''
+  difficulty_raw: Easy (ADA accessible options)
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round; peak bloom early to mid-May
+  description_raw: Trail(s) through the Lakeside Daisy State Nature Preserve on the
+    Marblehead Peninsula. Visitors can explore walkable trails including wheelchair-accessible
+    options. ODNR staff lead guided tours to extensive glacial grooves and alvar habitat
+    during peak Lakeside Daisy bloom (early to mid-May). Exact trail names, count,
+    and lengths TBD at GPS acquisition pass.
+  features_raw: Lakeside Daisy habitat; glacial grooves; alvar; ADA accessible; ODNR
+    guided tours (May)
+  identity_notes_raw: Trail name(s) and count TBD — using 'Lakeside Daisy Trail' as
+    placeholder. GPS acquisition and site visit needed. May be multiple trails; stage
+    as single record pending confirmation.
+  urls_raw:
+  - https://trekohio.com/2013/05/12/lakeside-daisy-state-nature-preserve/
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Magee Marsh Walking Trail — West Loop
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  - Lucas
+  township_raw: Benton Township / Carroll Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  parent_site_raw: Magee Marsh Wildlife Area
+  parent_id_raw: OH-MC-S-010
+  length_mi_raw: 0.5
+  difficulty_raw: Easy
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round
+  description_raw: Loop trail within Magee Marsh Wildlife Area. West loop section.
+    Fully accessible; good option for those with mobility challenges. Trail loops
+    through small wetland and woody vegetation near Sportsmen's Migratory Bird Center.
+  features_raw: Birding; wetland access; Lake Erie proximity
+  identity_notes_raw: 'Trail within Magee Marsh WA (KNOWN_MC:OH-MC-S-010). Parent
+    county: primarily Ottawa (Benton/Carroll twp) with easternmost tip in Lucas (Jerusalem
+    twp). Magee Marsh Boardwalk (Bird Trail, 0.7 mi) = KNOWN_MC:OH-MC-T-008 — already
+    in DB; NOT staged here. Gallagher Memorial Trail (1.2 mi) appears in Magee Marsh
+    source data but is described as ''in the Ottawa National Wildlife Refuge'' adjacent
+    to BSBO offices — do NOT stage here; it may be the same entity as T1-staged ''John
+    Gallagher Trail'' (0.99 mi); see T1-FLAG-2.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/mageemarshwildlifearea_trailmap.pdf
+  - https://trekohio.com/2013/05/30/magee-marsh-wildlife-area/
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Magee Marsh Walking Trail — Bear Pond Loop
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  - Lucas
+  township_raw: Benton Township / Carroll Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  parent_site_raw: Magee Marsh Wildlife Area
+  parent_id_raw: OH-MC-S-010
+  length_mi_raw: 0.7
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round
+  description_raw: Loop trail within Magee Marsh Wildlife Area. Bear Pond section.
+    Traverses wetland and woodlands near Bear Pond.
+  features_raw: Birding; wetland access; Lake Erie proximity
+  identity_notes_raw: 'Trail within Magee Marsh WA (KNOWN_MC:OH-MC-S-010). Parent
+    county: primarily Ottawa (Benton/Carroll twp) with easternmost tip in Lucas (Jerusalem
+    twp). Magee Marsh Boardwalk (Bird Trail, 0.7 mi) = KNOWN_MC:OH-MC-T-008 — already
+    in DB; NOT staged here. Gallagher Memorial Trail (1.2 mi) appears in Magee Marsh
+    source data but is described as ''in the Ottawa National Wildlife Refuge'' adjacent
+    to BSBO offices — do NOT stage here; it may be the same entity as T1-staged ''John
+    Gallagher Trail'' (0.99 mi); see T1-FLAG-2.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/mageemarshwildlifearea_trailmap.pdf
+  - https://trekohio.com/2013/05/30/magee-marsh-wildlife-area/
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Wildlife Beach Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  - Lucas
+  township_raw: Benton Township / Carroll Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  parent_site_raw: Magee Marsh Wildlife Area
+  parent_id_raw: OH-MC-S-010
+  length_mi_raw: 0.7
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round
+  description_raw: Trail within Magee Marsh Wildlife Area traversing scrub vegetation
+    along the Lake Erie beach with views of open water.
+  features_raw: Birding; wetland access; Lake Erie proximity
+  identity_notes_raw: 'Trail within Magee Marsh WA (KNOWN_MC:OH-MC-S-010). Parent
+    county: primarily Ottawa (Benton/Carroll twp) with easternmost tip in Lucas (Jerusalem
+    twp). Magee Marsh Boardwalk (Bird Trail, 0.7 mi) = KNOWN_MC:OH-MC-T-008 — already
+    in DB; NOT staged here. Gallagher Memorial Trail (1.2 mi) appears in Magee Marsh
+    source data but is described as ''in the Ottawa National Wildlife Refuge'' adjacent
+    to BSBO offices — do NOT stage here; it may be the same entity as T1-staged ''John
+    Gallagher Trail'' (0.99 mi); see T1-FLAG-2.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/mageemarshwildlifearea_trailmap.pdf
+  - https://trekohio.com/2013/05/30/magee-marsh-wildlife-area/
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Crane Creek Estuary Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  - Lucas
+  township_raw: Benton Township / Carroll Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  parent_site_raw: Magee Marsh Wildlife Area
+  parent_id_raw: OH-MC-S-010
+  length_mi_raw: 0.6
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round
+  description_raw: 'Trail within Magee Marsh Wildlife Area. Opened 2012. Begins near
+    the west end of the Magee Marsh Bird Trail and loops through open woods and along
+    the lake beach. NOTE: May partially overlap with ''Estuary Trail'' (0.54 mi) staged
+    at T1 within Ottawa NWR — these properties are adjacent. CROSS_SITE_FLAG: verify
+    trail boundary at GPS acquisition pass.'
+  features_raw: Birding; wetland access; Lake Erie proximity
+  identity_notes_raw: 'Trail within Magee Marsh WA (KNOWN_MC:OH-MC-S-010). Parent
+    county: primarily Ottawa (Benton/Carroll twp) with easternmost tip in Lucas (Jerusalem
+    twp). Magee Marsh Boardwalk (Bird Trail, 0.7 mi) = KNOWN_MC:OH-MC-T-008 — already
+    in DB; NOT staged here. Gallagher Memorial Trail (1.2 mi) appears in Magee Marsh
+    source data but is described as ''in the Ottawa National Wildlife Refuge'' adjacent
+    to BSBO offices — do NOT stage here; it may be the same entity as T1-staged ''John
+    Gallagher Trail'' (0.99 mi); see T1-FLAG-2.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/mageemarshwildlifearea_trailmap.pdf
+  - https://trekohio.com/2013/05/30/magee-marsh-wildlife-area/
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Magee-Ottawa Partnership Trail — Magee Segment
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  - Lucas
+  township_raw: Benton Township / Carroll Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  parent_site_raw: Magee Marsh Wildlife Area
+  parent_id_raw: OH-MC-S-010
+  length_mi_raw: 0.5
+  difficulty_raw: Easy
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Year-round
+  description_raw: 'Magee Marsh segment of the cross-property trail connecting Magee
+    Marsh Wildlife Area to Ottawa National Wildlife Refuge. NOTE: The Ottawa NWR segment
+    (''Partnership Trail,'' 1.41 mi) was staged at T1. This 0.5-mi Magee segment may
+    be the Magee side of the same cross-site trail. CROSS_SITE_FLAG: verify whether
+    T1 Partnership Trail (1.41 mi) and this record should be merged into one trail
+    entity spanning both properties.'
+  features_raw: Birding; wetland access; Lake Erie proximity
+  identity_notes_raw: 'Trail within Magee Marsh WA (KNOWN_MC:OH-MC-S-010). Parent
+    county: primarily Ottawa (Benton/Carroll twp) with easternmost tip in Lucas (Jerusalem
+    twp). Magee Marsh Boardwalk (Bird Trail, 0.7 mi) = KNOWN_MC:OH-MC-T-008 — already
+    in DB; NOT staged here. Gallagher Memorial Trail (1.2 mi) appears in Magee Marsh
+    source data but is described as ''in the Ottawa National Wildlife Refuge'' adjacent
+    to BSBO offices — do NOT stage here; it may be the same entity as T1-staged ''John
+    Gallagher Trail'' (0.99 mi); see T1-FLAG-2.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/mageemarshwildlifearea_trailmap.pdf
+  - https://trekohio.com/2013/05/30/magee-marsh-wildlife-area/
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Goose Haven Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  - Lucas
+  township_raw: Benton Township / Carroll Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  parent_site_raw: Magee Marsh Wildlife Area
+  parent_id_raw: OH-MC-S-010
+  length_mi_raw: 0.7
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Open mid-April through August 31
+  description_raw: 'Seasonal trail within Magee Marsh Wildlife Area. Access dates:
+    mid-April through August 31. Wildlife-sensitive seasonal closure.'
+  features_raw: Birding; wetland access; Lake Erie proximity
+  identity_notes_raw: 'Trail within Magee Marsh WA (KNOWN_MC:OH-MC-S-010). Parent
+    county: primarily Ottawa (Benton/Carroll twp) with easternmost tip in Lucas (Jerusalem
+    twp). Magee Marsh Boardwalk (Bird Trail, 0.7 mi) = KNOWN_MC:OH-MC-T-008 — already
+    in DB; NOT staged here. Gallagher Memorial Trail (1.2 mi) appears in Magee Marsh
+    source data but is described as ''in the Ottawa National Wildlife Refuge'' adjacent
+    to BSBO offices — do NOT stage here; it may be the same entity as T1-staged ''John
+    Gallagher Trail'' (0.99 mi); see T1-FLAG-2.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/mageemarshwildlifearea_trailmap.pdf
+  - https://trekohio.com/2013/05/30/magee-marsh-wildlife-area/
+- entity_type: Trail
+  discovery_tier: 2
+  name_raw: Lakefront Levee Trail
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  - Lucas
+  township_raw: Benton Township / Carroll Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  parent_site_raw: Magee Marsh Wildlife Area
+  parent_id_raw: OH-MC-S-010
+  length_mi_raw: 0.3
+  difficulty_raw: ''
+  surface_raw: ''
+  use_type_raw: Hiking
+  season_raw: Open mid-April through May 31
+  description_raw: 'Seasonal short trail on the lake levee within Magee Marsh Wildlife
+    Area. Access dates: mid-April through May 31 (peak warbler migration season).'
+  features_raw: Birding; wetland access; Lake Erie proximity
+  identity_notes_raw: 'Trail within Magee Marsh WA (KNOWN_MC:OH-MC-S-010). Parent
+    county: primarily Ottawa (Benton/Carroll twp) with easternmost tip in Lucas (Jerusalem
+    twp). Magee Marsh Boardwalk (Bird Trail, 0.7 mi) = KNOWN_MC:OH-MC-T-008 — already
+    in DB; NOT staged here. Gallagher Memorial Trail (1.2 mi) appears in Magee Marsh
+    source data but is described as ''in the Ottawa National Wildlife Refuge'' adjacent
+    to BSBO offices — do NOT stage here; it may be the same entity as T1-staged ''John
+    Gallagher Trail'' (0.99 mi); see T1-FLAG-2.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/mageemarshwildlifearea_trailmap.pdf
+  - https://trekohio.com/2013/05/30/magee-marsh-wildlife-area/
+- entity_type: entity_type_result
+  discovery_tier: 2
+  entity_subtype: Trail Segment
+  result: 'NULL'
+  notes: No Trail Segment triggers identified at T2. No state-managed trails with
+    distinct named segments requiring separate records found. East Harbor SP's 11
+    trails are standalone trails, not segments of a larger network.
+- entity_type: entity_type_result
+  discovery_tier: 2
+  entity_subtype: Trail Network
+  result: 'NULL'
+  notes: No Trail Network triggers identified at T2. Lake Erie Islands Water Trail
+    is a designated ODNR state water trail but its primary managing entity is Put-in-Bay
+    Township Park District (T3 per §4.6) — deferred to T3. East Harbor SP's 11 trails
+    do not constitute a named trail network entity.
+- entity_type: entity_type_result
+  discovery_tier: 2
+  entity_subtype: Site Network
+  result: 'NULL'
+  notes: No Site Network triggers identified at T2. ODNR state park groupings (island
+    parks managed from Catawba Island SP HQ) are administrative arrangements, not
+    named Site Network entities.
+- entity_type: Access Point
+  discovery_tier: 2
+  name_raw: Magee Marsh Wildlife Area — Turtle Creek Access
+  baseline_id: Turtle Creek Access
+  seeded_from_baseline: true
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  - Lucas
+  township_raw: Carroll Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Wildlife
+  ownership_raw: State
+  ap_type_raw: Boat Launch / Fishing Access
+  parent_site_raw: Magee Marsh Wildlife Area
+  parent_id_raw: OH-MC-S-010
+  location_raw: State Route 2, approximately 1.5 miles east of main Magee Marsh entrance,
+    Benton/Carroll Township, Ottawa County, Ohio
+  gps_lat_raw: 41.6042
+  gps_lon_raw: -83.1577
+  description_raw: Turtle Creek Access is a secondary access point within Magee Marsh
+    Wildlife Area providing small boat launch and fishing access on Turtle Creek and
+    Lake Erie. Located approximately 1.5 miles east of the main Magee Marsh entrance
+    on State Route 2.
+  features_raw: Small boat access; fishing; Turtle Creek and Lake Erie access
+  identity_notes_raw: 'Listed as baseline seed ''Turtle Creek Access.'' GPS approximated
+    from coastal PDF GPS figure. Parent: OH-MC-S-010 (Magee Marsh WA). Per water trail
+    sub-procedure §7: co-located boat launch may also serve as water trail AP — check
+    against Lake Erie Mainland Water Trail if applicable.'
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: Access Point
+  discovery_tier: 2
+  name_raw: East Harbor State Park Marina
+  baseline_id: ''
+  seeded_from_baseline: false
+  county_primary: Ottawa
+  counties_raw:
+  - Ottawa
+  township_raw: Danbury Township
+  municipality_raw: ''
+  governance_raw: Ohio Department of Natural Resources / Division of Parks and Watercraft
+  ownership_raw: State
+  ap_type_raw: Marina / Boat Launch
+  parent_site_raw: East Harbor State Park
+  location_raw: 2188 North Buck Road, Danbury Township, Ottawa County, Ohio
+  gps_lat_raw: 41.558
+  gps_lon_raw: -82.8197
+  description_raw: East Harbor State Park Marina provides boat ramp access to West
+    Harbor and Lake Erie. Fee-based ramp with seasonal and day-use dock rentals, boat
+    fuel, full-time mechanic, and boat supplies. Separate from the campground-only
+    ramp (which provides East Harbor access for campers only).
+  features_raw: Boat ramp (fee); seasonal dockage; day-use dock rental; boat fuel;
+    mechanic; boat supplies
+  identity_notes_raw: Distinct from the campground boat ramp (campers only, East Harbor
+    access). GPS approximate from ODNR coastal PDF. Provides West Harbor access.
+  urls_raw:
+  - https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/coastal/public-access/pag-le-02-ottawa-county.pdf
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: Magee Marsh Boardwalk (Bird Trail) — KNOWN_MC confirmation
+  result: KNOWN_MC:OH-MC-T-008
+  notes: Magee Marsh Boardwalk (also called 'Bird Trail') confirmed at T2. 0.7 mi,
+    wood-planked, handicapped-accessible. Within Magee Marsh WA (OH-MC-S-010). Already
+    in DB as OH-MC-T-008. No new record created.
+  county_primary: Ottawa
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: Crane Creek State Park — DISSOLUTION CONFIRMED
+  result: NO_ENTITY
+  notes: 'Crane Creek State Park dissolution confirmed per ODNR coastal PDF: ''The
+    [Magee Marsh] wildlife area includes the former Crane Creek State Park.'' Crane
+    Creek SP was dissolved and its lands absorbed into Magee Marsh Wildlife Area (OH-MC-S-010).
+    DO NOT create a Crane Creek SP entity. MULTI_COUNTY.xlsx note ''no longer a site''
+    confirmed correct.'
+  county_primary: Ottawa
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: Sandusky River State Scenic River — Ottawa County scope check
+  result: OUT_OF_SCOPE
+  notes: Sandusky River state scenic river designation (65 miles, Upper Sandusky to
+    Fremont) confirmed to NOT extend into Ottawa County. River mouth is at Riley Township
+    and Rice Township, Sandusky County. Ottawa County has no designated Sandusky River
+    reach. The MULTI_COUNTY.xlsx entry listing Ottawa County for the Sandusky River
+    is likely an error or refers to the bay (not the river). No Site entity for Ottawa
+    County. Resolves Q6.
+  county_primary: Ottawa
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: Lake Erie Islands Water Trail — tier determination
+  result: DEFER_T3
+  notes: 'Lake Erie Islands Water Trail (LEIWT) is ODNR''s 12th designated state water
+    trail. Per §4.6, management tier governs (not ODNR designation). Primary managing
+    entity is Put-in-Bay Township Park District — therefore T3 (district). Four island
+    segments in Ottawa County: South Bass Island Trail, Middle Bass Island Trail,
+    North Bass Island Trail, Mainland Trail. Kelleys Island Trail is in Erie County
+    (out of scope). Stage at T3 under Put-in-Bay Township Park District.'
+  county_primary: Ottawa
+- entity_type: tier_result
+  discovery_tier: 2
+  name_raw: Gallagher Memorial Trail — name collision with T1 John Gallagher Trail
+  result: FLAG_UPDATE
+  notes: 'T1-FLAG-2 update: Magee Marsh source data lists ''Gallagher Memorial Trail''
+    (1.2 mi) as a trail adjacent to Black Swamp Bird Observatory offices, described
+    as ''in the Ottawa National Wildlife Refuge.'' T1 staged ''John Gallagher Trail''
+    (0.99 mi) from FWS structured trail listing. These appear to be the same trail
+    with different name and slightly different length from different sources. Do NOT
+    stage Gallagher Memorial Trail as a new entity — it is likely the same physical
+    trail as T1 John Gallagher Trail. Resolve at GPS acquisition pass (T1-FLAG-2 remains
+    open).'
+  county_primary: Ottawa
+- entity_type: Site
+  discovery_tier: 3
+  name_raw: Ladd Carr Wildlife Woods
+  alternate_names_raw: Jane Coates Wildflower Trail and Ladd Carr Wildlife Woods
+  governance_raw: Put-in-Bay Township Park District
+  ownership_raw: Put-in-Bay Township Park District
+  acreage_raw: 9.1
+  address_raw: Put-in-Bay Road near Maple Leaf Cemetery, South Bass Island, Put-in-Bay,
+    OH 43456
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot only; dawn to dusk; no pets; no motorized vehicles or bicycles
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: First PIBTPD island property; mature forest; spectacular wildflower display;
+    acquired 2006-2014; sugar maple, hackberry, black cherry, basswood, chinquapin
+    oak
+- entity_type: Site
+  discovery_tier: 3
+  name_raw: Dodge Woods Preserve
+  governance_raw: Put-in-Bay Township Park District
+  ownership_raw: Put-in-Bay Township Park District
+  acreage_raw: 3.6
+  address_raw: Corner of Thompson and Langram Roads, South Bass Island, Put-in-Bay,
+    OH 43456
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot only; dawn to dusk; bike rack at Thompson Road; no motorized vehicles
+    or camping
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: Former vineyard; young forest of black walnut, hackberry, black cherry;
+    StoryWalk® (17 storyboard posts); bird watching; Eastern Fox Snake habitat; adjacent
+    island bicycle path
+- entity_type: Site
+  discovery_tier: 3
+  name_raw: Massie Cliffside Preserve
+  governance_raw: Put-in-Bay Township Park District
+  ownership_raw: Put-in-Bay Township Park District
+  acreage_raw: 11.0
+  address_raw: State Route 357, East Point, South Bass Island, Put-in-Bay, OH 43456
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot; canoe and kayak; parking area; dawn to dusk
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: 265+ ft Lake Erie shoreline; dolomite cliffs; dock for fishing/kayak;
+    Lake Erie Watersnake habitat; columbine and harebell on cliffs; acquired 2014;
+    cleanup removed abandoned structures; monarchs banded here; hiking/bird watching/kayak/fishing
+- entity_type: Site
+  discovery_tier: 3
+  name_raw: Scheeff East Point Nature Preserve
+  governance_raw: Put-in-Bay Township Park District
+  ownership_raw: Put-in-Bay Township Park District
+  acreage_raw: 9.1
+  address_raw: State Route 357, East Terminus, South Bass Island, Put-in-Bay, OH 43456
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot; canoe and kayak; 1700 ft Lake Erie shoreline; dawn to dusk
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: First PIBTPD South Bass property; Lake Erie Watersnake habitat (contributed
+    to federal delisting); Atlantic Migratory Flyway stopover; bird banding (purple
+    martin, tree swallow, chimney swift nesting boxes); rocky shores; Funded by USFWS
+    §6 Grant, WRLC, ODNR, Clean Ohio, and others
+- entity_type: Site
+  discovery_tier: 3
+  name_raw: Duff Homestead and Bayfront Preserve
+  governance_raw: Put-in-Bay Township Park District
+  ownership_raw: Put-in-Bay Township Park District
+  acreage_raw: 6.5
+  address_raw: Put-in-Bay Township, South Bass Island, Put-in-Bay, OH 43456
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot; 150 ft lakefront on Put-in-Bay harbor; visitor center (opening
+    summer 2024)
+  source_url: https://ottawacountyparksoh.org/grants/duff-homestead/
+  source_date: '2023'
+  notes_raw: '6.5 ac (2.5 ac grassland, 2.0 ac woods, lakefront); only harbor segment
+    without docks; acquired in two phases: 2 ac woods June 30 2023, 4.5 ac Aug 31
+    2023; PDOC grant $50K (March 2023); Clean Ohio Conservation Fund; visitor center
+    conversion; pollinator habitat planned (USFWS/LEIC); bird watching in woods; post-2021
+    PIBTPD brochure — confirmed via PDOC grants page'
+- entity_type: Site
+  discovery_tier: 3
+  name_raw: Middle Bass Island Forested Wetlands Preserve
+  governance_raw: Put-in-Bay Township Park District
+  ownership_raw: Put-in-Bay Township Park District
+  acreage_raw: 22.9
+  address_raw: Fox Road, Middle Bass Island, OH 43446
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot; bicycle rack at Fox Road entrance (Burgundy Bay Tract); small
+    parking area
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: 'Three main tracts: Burgundy Bay Tract (8 ac, largest remaining unprotected
+    block on Middle Bass, walking trail, Prothonotary warbler boxes); Schneider Tract
+    (7.3 ac, forested wetland, WRRSP environmental covenant); Dieperink Tract (7.6
+    ac, purchased 2018 Clean Ohio + CELCP, swamp forest silver maple/elm/swamp white
+    oak). Hahn Property (8.3 ac, adjacent, under contract per 2021 brochure — see
+    Q29). Combined brochure acreage (Burgundy Bay + Schneider + Dieperink): 22.9 ac.
+    Limestone plain wetland forest; Lake Erie Watersnake habitat; migratory songbird
+    habitat. All three tracts safeguarded by environmental covenant (Ohio EPA WRRSP).'
+- entity_type: Site
+  discovery_tier: 3
+  name_raw: Middle Bass Island East Point Preserve
+  governance_raw: Put-in-Bay Township Park District
+  ownership_raw: Put-in-Bay Township Park District
+  acreage_raw: 7.8
+  address_raw: North Shore Road, Middle Bass Island, OH 43446
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Canoe and kayak only (water access to site); shallow-water dock; NO
+    vehicle access
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: 'One of first kayak-only accessible parks in Ohio; 120+ bird species;
+    30+ unique plant species; Lake Erie Watersnake habitat (contributed to federal
+    delisting); overlooks Schoolhouse Bay; trout lilies in spring; natural beach,
+    hardwood forest, grasslands. NOTE: handoff T3-deferred list said 11 ac — corrected
+    to 7.8 ac per PIBTPD brochure (authoritative source).'
+- entity_type: Trail
+  discovery_tier: 3
+  name_raw: Jane Coates Wildflower Trail
+  parent_site_raw: Ladd Carr Wildlife Woods
+  governance_raw: Put-in-Bay Township Park District
+  length_mi_raw: 0.48
+  trail_type_raw: Hiking
+  difficulty_raw: Rugged; natural hazards
+  surface_raw: Natural
+  loop_raw: true
+  address_raw: Put-in-Bay Road near Maple Leaf Cemetery, South Bass Island, Put-in-Bay,
+    OH 43456
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot only; no pets; no motorized vehicles or bicycles
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: 2,550 ft (0.48 mi) looped trail through Ladd Carr Wildlife Woods; named
+    for Jane Coates, island artist; wildflowers (Dutchman's breeches, Jack in the
+    Pulpit, wild hyacinths, appendaged waterleaf); bench at far end; wildlife watching
+- entity_type: Trail
+  discovery_tier: 3
+  name_raw: Dodge Woods Nature Trail
+  parent_site_raw: Dodge Woods Preserve
+  governance_raw: Put-in-Bay Township Park District
+  length_mi_raw: 0.16
+  trail_type_raw: Hiking
+  difficulty_raw: Rugged; natural hazards
+  surface_raw: Mulched
+  loop_raw: true
+  address_raw: Corner of Thompson and Langram Roads, South Bass Island, Put-in-Bay,
+    OH 43456
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot only; dawn to dusk; no motorized vehicles; StoryWalk® along path
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: 852 ft (0.16 mi) looped mulched trail; StoryWalk® (17 laminated page
+    posts); bike rack and parking on Thompson Rd (~120 ft from entrance); bird watching;
+    Eastern Fox Snake and melanistic Eastern Garter Snake habitat; adjacent bicycle
+    path
+- entity_type: Trail
+  discovery_tier: 3
+  name_raw: Massie Cliffside Preserve Trail
+  parent_site_raw: Massie Cliffside Preserve
+  governance_raw: Put-in-Bay Township Park District
+  length_mi_raw: 0.33
+  trail_type_raw: Hiking
+  difficulty_raw: Rugged; hazardous areas; cliffs
+  surface_raw: Natural
+  loop_raw: false
+  address_raw: State Route 357, East Point, South Bass Island, Put-in-Bay, OH 43456
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot; canoe and kayak access to site; cliff edge benches; no camping
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: 1,750 ft (0.33 mi) trail through woods to dolomite cliffs; Lake Erie
+    views; columbine and harebell on cliffs; fishing and kayak dock; hazardous cliff
+    areas; monarch butterfly banding site
+- entity_type: Trail
+  discovery_tier: 3
+  name_raw: Scheeff East Point Nature Preserve Trail
+  parent_site_raw: Scheeff East Point Nature Preserve
+  governance_raw: Put-in-Bay Township Park District
+  length_mi_raw: 0.42
+  trail_type_raw: Hiking
+  difficulty_raw: Rugged; natural hazards
+  surface_raw: Natural
+  loop_raw: true
+  address_raw: State Route 357, East Terminus, South Bass Island, Put-in-Bay, OH 43456
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot; canoe and kayak access to site
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: 2,205 ft (0.42 mi) looped trail along Lake Erie shore; migratory bird
+    stopover; nesting structures for purple martin, tree swallow, chimney swift; Lake
+    Erie Watersnake habitat; rocky shores; fishing; Atlantic Migratory Flyway
+- entity_type: Trail
+  discovery_tier: 3
+  name_raw: Burgundy Bay Walking Trail
+  parent_site_raw: Middle Bass Island Forested Wetlands Preserve
+  governance_raw: Put-in-Bay Township Park District
+  length_mi_raw: null
+  trail_type_raw: Hiking
+  difficulty_raw: null
+  surface_raw: Natural
+  loop_raw: false
+  address_raw: Fox Road, Middle Bass Island, OH 43446
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Foot; bicycle rack at Fox Road entrance; small parking area
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: Walking trail through Burgundy Bay Tract of Middle Bass Island Forested
+    Wetlands Preserve; Prothonotary warbler boxes along trail; limestone plain wetland
+    forest; length TBD at GPS acquisition pass
+- entity_type: Trail
+  discovery_tier: 3
+  name_raw: Middle Bass Island East Point Preserve Walking Path
+  parent_site_raw: Middle Bass Island East Point Preserve
+  governance_raw: Put-in-Bay Township Park District
+  length_mi_raw: null
+  trail_type_raw: Hiking
+  difficulty_raw: Rugged; natural hazards
+  surface_raw: Natural
+  loop_raw: true
+  address_raw: North Shore Road, Middle Bass Island, OH 43446
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Canoe and kayak only (water access to site); walking path within preserve;
+    shallow-water dock
+  source_url: https://www.putinbayparks.com/wp-content/uploads/2021/03/PIBTPD_Brochure.pdf
+  source_date: '2021'
+  notes_raw: Walking path circles through preserve; site accessible by canoe/kayak
+    only; length TBD at GPS acquisition pass; overlooks Schoolhouse Bay
+- entity_type: Trail
+  discovery_tier: 3
+  name_raw: Lake Erie Islands Water Trail
+  governance_raw: Put-in-Bay Township Park District
+  ownership_raw: State of Ohio (ODNR-designated); management by Put-in-Bay Township
+    Park District
+  length_mi_raw: null
+  trail_type_raw: Water Trail
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Paddle (kayak/canoe); island loops on South Bass, Middle Bass, North
+    Bass + Mainland loop
+  source_url: https://ottawacountyparksoh.org/
+  source_date: '2026'
+  notes_raw: CROSS_COUNTY_CANDIDATE; deferred from T2 per §4.6 (management tier governs,
+    not ODNR designation); PIBTPD = managing government entity; island loops cover
+    South Bass, Middle Bass, North Bass islands in Lake Erie; GPS and total length
+    TBD at GPS acquisition pass
+  identity_notes_raw: CROSS_COUNTY_CANDIDATE; T3 per §4.6 management tier rule
+- entity_type: Trail
+  discovery_tier: 3
+  name_raw: North Coast Inland Trail
+  governance_raw: Park District of Ottawa County
+  ownership_raw: Multi-jurisdiction (rail-trail corridor)
+  length_mi_raw: null
+  trail_type_raw: Multi-Use Paved Rail Trail
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: 'Multi-use non-motorized (hiking, biking, in-line skating); Ottawa County
+    segment: Sandusky County line NW through Elmore to Veterans Park, Genoa'
+  source_url: https://ottawacountyparksoh.org/parks-and-trails/north-coast-inland-trail/
+  source_date: '2026'
+  notes_raw: CROSS_COUNTY_CANDIDATE; ~100-mi trail Lorain to Genoa through Erie;Huron;Sandusky;Ottawa
+    counties; Ottawa segment from Sandusky County line NW through Elmore to Genoa
+    (Veterans Park terminus); also US Bike Route 30; MULTI_COUNTY.xlsx listed (not
+    yet in DB as of bootstrap); PDOC = Ottawa County managing entity. Trail converts
+    from multi-use paved to on-road route at Martin-Williston Rd then reconnects multi-use
+    to Genoa terminus.
+  identity_notes_raw: CROSS_COUNTY_CANDIDATE; in MULTI_COUNTY.xlsx (Erie;Huron;Ottawa;Sandusky);
+    not yet in DB
+- entity_type: tier_result
+  discovery_tier: 3
+  name_raw: 'KNOWN_MC Confirmation: Howard Marsh Metropark and Trails'
+  notes_raw: 'KNOWN_MC:OH-MC-S-021 (Howard Marsh Metropark; Lucas;Ottawa; Toledo Metroparks).
+    IMP-104 PASS: OH-OTT-T-072 (Sandpiper Trail), OH-OTT-T-073 (Mallard Trail), OH-OTT-T-074
+    (Madewell Trail), OH-OTT-T-075 (Egret Trail), OH-OTT-T-076 (Sora Trail) — all
+    5 Howard Marsh trails confirmed from Lucas County run; no new records created.
+    Toledo Metroparks is Lucas County-based district; Howard Marsh straddles Lucas/Ottawa
+    county line.'
+- entity_type: tier_result
+  discovery_tier: 3
+  name_raw: 'KNOWN_MC Confirmation: Portage River Water Trail'
+  notes_raw: 'KNOWN_MC:OH-MC-TR-002 (Portage River Water Trail; Ottawa;Wood). Confirmed
+    via PDOC website (ottawacountyparksoh.org/parks-and-trails/portage-river-water-trail/).
+    36-mi paddle trail officially state-designated 2022-07-19; TMACOG, USFWS, ODNR,
+    and partners. Ottawa County segment: Mile 0 (Lake Erie Beach Access, Port Clinton)
+    to Mile ~23 (Elmore). 8 Ottawa County launch sites documented (see Captured Source
+    Data). No new T3 record created. Q12 resolved.'
+- entity_type: tier_result
+  discovery_tier: 3
+  name_raw: 'T3 NULL: Ottawa County Soil and Water Conservation District'
+  notes_raw: 'Confirmed via Ohio Auditor (Soil/Water Conservation District/Joint Board;
+    Ottawa County; latest audit 01/01/2024-12/31/2025). Per §4.7: SWCDs rarely own
+    land. No known land holdings; educational and technical outreach only. NAP NULL
+    — no entity staged.'
+- entity_type: tier_result
+  discovery_tier: 3
+  name_raw: 'T3 NULL: Sand Beach Conservancy District'
+  notes_raw: Confirmed via Ohio Auditor (Conservancy District; Ottawa County; latest
+    audit 01/01/2023-12/31/2024, released 05/08/2025) and sandbeachcd.com. Statutory
+    conservancy district (ORC Chapter 6101) with mission of flood control and shoreline
+    erosion prevention at Sand Beach community on Lake Erie. No publicly accessible
+    natural areas or recreational land holdings. NAP NULL — no entity staged.
+- entity_type: Site Network
+  discovery_tier: 4
+  name_raw: Park District of Ottawa County
+  alternate_names_raw: Ottawa County Parks District; Ottawa County Parks
+  governance_raw: Park/Recreation District; semi-autonomous county parks body
+  ownership_raw: Park District of Ottawa County (Ottawa County Probate Court creation,
+    1992)
+  address_raw: 3979 E Knoll Crest Drive, Port Clinton, OH 43452
+  county_raw: Ottawa
+  state_raw: OH
+  source_url: https://ottawacountyparksoh.org/home/introduction/
+  source_date: '2026-05-18'
+  notes_raw: 'Created September 1, 1992 by Ottawa County Probate Court (ORC). Five-member
+    Board of Park Commissioners; county-wide levy passed 2020. Primary functions:
+    grants to municipal/township parks; directly manages NCIT (CROSS_COUNTY_CANDIDATE,
+    T3), PRWT (KNOWN_MC:OH-MC-TR-002), and Catawba Islander Trail (PLANNED, T4). Grants
+    body — does NOT own individual parks/sites directly. Listed as Ottawa County department
+    on co.ottawa.oh.us/197/Departments. Confirmed T3 via Ohio Auditor. Staged as Site
+    Network per §4.5 (formal county parks district).'
+- entity_type: Site
+  discovery_tier: 4
+  name_raw: Ottawa County Home Cemetery
+  alternate_names_raw: Ottawa County Infirmary Cemetery; Ottawa County Poor House
+    Cemetery
+  governance_raw: Ottawa County (infirmary/poor house)
+  ownership_raw: Ottawa County
+  acreage_raw: null
+  address_raw: State Route 163, approximately 1/4 mile west of County Road 104, Salem
+    Township, Ottawa County OH
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Public cemetery; access details TBD
+  source_url: http://www.poorhousestory.com/OH_OTTAWA_Co.htm
+  source_date: '2026-05-18'
+  notes_raw: 'County-owned infirmary/poorhouse cemetery in Salem Township. Mandatory
+    T4 entity per IMP-099 §4.9 (county infirmary cemeteries → category: Cemetery,
+    subtype: Public Cemetery). County Home records (Registers 1872–1968) held at Center
+    for Archival Collections, BGSU Library. GPS TBD at acquisition pass. Confirm county
+    vs. Salem Township management at normalization (Q35). MINIMAL_DATA — GPS and acreage
+    require verification.'
+- entity_type: Trail
+  discovery_tier: 4
+  name_raw: Catawba Islander Trail
+  alternate_names_raw: Catawba Islander Trail and Greenway
+  governance_raw: Park District of Ottawa County
+  ownership_raw: Park District of Ottawa County
+  address_raw: Catawba Island Township, Ottawa County OH
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Planned multi-use trail; not yet open as of discovery date
+  source_url: https://ottawacountyparksoh.org/projects/catawba-islander-trail/
+  source_date: '2026-05-18'
+  notes_raw: 'Planned multi-use trail from north end to south end of Catawba Island,
+    approximately five miles, to be completed in phases. Master Plan completed July
+    18, 2023 by Kleinfelder. Phase 1 route distances mapped; public meeting held February
+    6, 2023. PLANNED — physical presence unconfirmed (§4.8). Identity-bearing: named,
+    mapped, master plan adopted. Update PLANNED flag when Phase 1 construction is
+    confirmed (Q36).'
+- entity_type: Access Point
+  discovery_tier: 4
+  name_raw: Ottawa County Fairgrounds — Portage River Water Trail Launch
+  alternate_names_raw: Ottawa Co Fairgrounds PRWT Launch; Ottawa County Fairgrounds
+    Kayak Launch
+  governance_raw: Ottawa County Agricultural Society (quasi-public); PDOC grant
+  ownership_raw: Ottawa County Agricultural Society
+  address_raw: '7870 W State Route 163, Oak Harbor OH (PRWT source, Mile 7.8); alt:
+    770 SE Catawba Rd, Port Clinton OH 43452 (PDOC grant page — address discrepancy,
+    Q37)'
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Public kayak/canoe launch; gravel ramp to river; dedicated parking area
+  source_url: https://ottawacountyparksoh.org/grants/ottawa-co-fairgrounds-portage-river-water-trail-launch-ramp/
+  source_date: '2026-05-18'
+  notes_raw: 'Kayak/canoe launch on the Portage River Water Trail (KNOWN_MC:OH-MC-TR-002)
+    at the Ottawa County Fairgrounds; PRWT Mile 7.8. Critical access spot between
+    Oak Harbor and Port Clinton. PDOC-funded grant in cooperation with Ottawa County
+    Commissioners, Ottawa SWCD, and Ottawa County Agricultural Society. Installed
+    by Elite Excavation of Oak Harbor. Gravel shoreline ramp; dedicated parking. Future
+    plans: concrete ramp + shelter house. ADDRESS_DISCREPANCY — verify physical AP
+    location vs. fairgrounds office (Q37). township_raw and municipality_raw blank
+    (GIS-derived only per §8).'
+- entity_type: Site
+  discovery_tier: 1
+  name_raw: Ottawa NWR — Marinewood Unit
+  alternate_names_raw: Marinewood Unit; Ottawa National Wildlife Refuge Marinewood
+    Unit
+  governance_raw: U.S. Fish and Wildlife Service (USFWS); Ottawa NWR complex
+  ownership_raw: Federal — U.S. Fish and Wildlife Service
+  address_raw: 'State Route 163, between Oak Harbor and Port Clinton, Ottawa County
+    OH; PRWT launch address: 4640 W Harbor Rd., Port Clinton OH'
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Mowed trail off parking lot; fishing in Portage River; PRWT Mile 4.8
+    launch
+  source_url: https://www.fws.gov/refuge/ottawa/visit-us
+  source_date: '2026-05-18'
+  notes_raw: 'T1 MISS — discovered during T4 discovery pass. Former Marinewood Golf
+    Course; acquired by USFWS 2014. Now site of pollinator restoration and tree restoration
+    project. Mowed trail from parking lot; fishing in Portage River. Also serves as
+    PRWT Mile 4.8 access point. Child of Ottawa NWR (OTT-S-001). GPS TBD at acquisition
+    pass (Q30). flags: T1_MISS_DISCOVERED_AT_T4'
+- entity_type: Site
+  discovery_tier: 1
+  name_raw: Ottawa NWR — Turkey Run Unit
+  alternate_names_raw: Turkey Run Unit; Ottawa National Wildlife Refuge Turkey Run
+    Unit
+  governance_raw: U.S. Fish and Wildlife Service (USFWS); Ottawa NWR complex
+  ownership_raw: Federal — U.S. Fish and Wildlife Service
+  acreage_raw: '266'
+  address_raw: Approximately 16 miles southeast of main refuge, near Little Portage
+    River, Ottawa County OH (county uncertain — verify Ottawa vs. Sandusky at normalization,
+    Q31)
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Public hunting area; hiking, wildlife observation, photography outside
+    hunting season; gravel parking lot; no defined trails; open daylight hours only;
+    fishing in Little Portage River per state regs
+  source_url: https://www.fws.gov/refuge/ottawa/visit-us
+  source_date: '2026-05-18'
+  notes_raw: 'T1 MISS — discovered during T4 discovery pass. 266 acres; habitats:
+    woods to prairie to pools. Located ~16 miles SE of main Ottawa NWR complex. Child
+    of Ottawa NWR (OTT-S-001). GPS TBD at acquisition pass. COUNTY_UNCERTAIN — may
+    be Ottawa or adjacent Sandusky County; verify via GIS (Q31). flags: T1_MISS_DISCOVERED_AT_T4;
+    COUNTY_UNCERTAIN'
+- entity_type: Site
+  discovery_tier: 1
+  name_raw: Ottawa NWR — Turtle Creek Island Unit
+  alternate_names_raw: Turtle Creek Island Unit; Ottawa National Wildlife Refuge Turtle
+    Creek Island Unit
+  governance_raw: U.S. Fish and Wildlife Service (USFWS); Ottawa NWR complex
+  ownership_raw: Federal — U.S. Fish and Wildlife Service (purchased by Ducks Unlimited
+    2016)
+  address_raw: Duff-Washa Road, approximately 4 miles southeast of the main Ottawa
+    NWR complex, Ottawa County OH
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Canoe/kayak launch (Friends of Ottawa, 2017); parking; fishing sunrise
+    to sunset per state regs
+  source_url: https://www.fws.gov/refuge/ottawa/visit-us
+  source_date: '2026-05-18'
+  notes_raw: 'T1 MISS — discovered during T4 discovery pass. Purchased by Ducks Unlimited
+    2016; transferred to Ottawa NWR. Canoe/kayak launch and parking installed by Friends
+    of Ottawa NWR (2017). Child of Ottawa NWR (OTT-S-001). GPS and acreage TBD (Q33).
+    flags: T1_MISS_DISCOVERED_AT_T4'
+- entity_type: Site
+  discovery_tier: 1
+  name_raw: Ottawa NWR — Upper Toussaint Unit
+  alternate_names_raw: Upper Toussaint Unit; Ottawa National Wildlife Refuge Upper
+    Toussaint Unit
+  governance_raw: U.S. Fish and Wildlife Service (USFWS); Ottawa NWR complex
+  ownership_raw: Federal — U.S. Fish and Wildlife Service
+  acreage_raw: '77'
+  address_raw: Toussaint River between Rocky Ridge and Lickert-Harder Roads, Ottawa
+    County OH (county uncertain — verify Ottawa vs. Sandusky at normalization, Q32)
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Hunting (north of river; listed species per state regs); trapping with
+    refuge permit; fishing per state regs
+  source_url: https://www.fws.gov/refuge/ottawa/visit-us
+  source_date: '2026-05-18'
+  notes_raw: 'T1 MISS — discovered during T4 discovery pass. 77 acres along Toussaint
+    River. Child of Ottawa NWR (OTT-S-001). GPS TBD at acquisition pass. COUNTY_UNCERTAIN
+    — Toussaint River area may straddle Ottawa/Sandusky; verify via GIS at normalization
+    (Q32). flags: T1_MISS_DISCOVERED_AT_T4; COUNTY_UNCERTAIN'
+- entity_type: Site
+  discovery_tier: 1
+  name_raw: Ottawa NWR — Little Portage Unit
+  alternate_names_raw: Little Portage Unit; Ottawa National Wildlife Refuge Little
+    Portage Unit
+  governance_raw: U.S. Fish and Wildlife Service (USFWS); Ottawa NWR complex
+  ownership_raw: Federal — U.S. Fish and Wildlife Service
+  acreage_raw: '30'
+  address_raw: 7899 W Little Portage East Road, Oak Harbor OH 43449
+  county_raw: Ottawa
+  state_raw: OH
+  access_raw: Paddler access being installed (Eagle Scout launch confirmed 2023, PRWT
+    Mile 3.7); fishing sunrise to sunset per state regs
+  source_url: https://www.fws.gov/refuge/ottawa/visit-us
+  source_date: '2026-05-18'
+  notes_raw: 'T1 MISS — deferred at T1 as ''roadside-view-only'' (T2-FLAG-4); re-flagged
+    T3 (T3-FLAG-7/Q20/Q24) after Eagle Scout kayak launch confirmed at PRWT Mile 3.7
+    (2023). FWS visit-us page confirms paddler access being installed; open for fishing.
+    30 ac; mix of former ag fields reverting to shrubland, river channel, marshland.
+    Child of Ottawa NWR (OTT-S-001). Resolves T2-FLAG-4, T3-FLAG-7, Q20, Q24. flags:
+    T1_MISS_DISCOVERED_AT_T4; RESOLVES_T2-FLAG-4_T3-FLAG-7_Q20_Q24'
+- entity_type: tier_result
+  discovery_tier: 4
+  name_raw: NRHP Ottawa County — County-Managed Bridge/Structure Check (§3.3)
+  county_raw: Ottawa
+  state_raw: OH
+  source_url: https://en.wikipedia.org/wiki/National_Register_of_Historic_Places_listings_in_Ottawa_County,_Ohio
+  source_date: '2026-05-18'
+  notes_raw: 'NULL — 31 NRHP entries reviewed. No county-managed bridge or public-access
+    structure NAP entity found. SR 51 Bridge over Portage River (NRHP #94000239, Elmore/Harris
+    Twp) noted as replaced 2020 — likely demolished; no current visitor entity. Ottawa
+    County Courthouse (NRHP #74001588) is an administrative building, excluded per
+    §6.1. All other NRHP entries are private, religious, or already-staged federal/state
+    entities.'
+- entity_type: tier_result
+  discovery_tier: 4
+  name_raw: Ottawa County Park District Golf Course — IMP-099 §4.9 Check
+  county_raw: Ottawa
+  state_raw: OH
+  source_url: https://ottawacountyparksoh.org/
+  source_date: '2026-05-18'
+  notes_raw: NULL — No active county park district golf course found. Former Marinewood
+    Golf Course (SR 163, Oak Harbor/Port Clinton area) acquired by USFWS 2014; now
+    the Ottawa NWR Marinewood Unit (staged as T1). Park District of Ottawa County
+    does not operate any golf courses. IMP-099 §4.9 check complete.

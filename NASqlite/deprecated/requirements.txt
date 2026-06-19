@@ -1,0 +1,3 @@
+# External dependencies for spreadsheet import
+pandas>=2.0.0
+openpyxl>=3.0.0  # For Excel file support

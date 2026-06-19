@@ -1,0 +1,1343 @@
+entities:
+- record_id: PAU-TN-001
+  entity_type: Trail Network
+  tier: 1
+  tier_name: Federal
+  name_raw: North Country National Scenic Trail
+  alternate_names_raw: North Country Trail; NCT; NCNST
+  network_type_raw: National Scenic Trail
+  status_raw: Active
+  governance_raw: National Park Service (NPS)
+  ownership_raw: Federal / NPS
+  partner_agencies_raw: Buckeye Trail Association (local trail partner, Ohio); North
+    Country Trail Association
+  counties_raw: Multi-state (New York to North Dakota); Ohio counties include Paulding
+    (Delphos and Defiance section routes)
+  states_included_raw: NY, PA, OH, MI, WI, MN, ND
+  total_length_miles_raw: ~4,800 miles total; ~1,076 miles in Ohio
+  member_trail_count_raw: ''
+  member_trail_ids_raw: ''
+  description_raw: 'The North Country National Scenic Trail is a federally designated
+    trail spanning approximately 4,800 miles from Crown Point, New York to Lake Sakakawea
+    State Park, North Dakota. It is administered by the National Park Service. In
+    Ohio, the NCT co-routes almost entirely with the Buckeye Trail (BTA), sharing
+    approximately 1,076 miles. In Paulding County, the NCT follows the Miami and Erie
+    Canal towpath through the county via the Buckeye Trail''s Delphos Section (through
+    southeast Paulding County) and the Defiance Section (starting at Junction, Ohio
+    — the historic junction of the Miami-Erie Canal and the Wabash-Erie Canal — and
+    continuing north and west through the county). Canal Park (Paulding County Park
+    District) at Junction serves as a primary access point.
+
+    '
+  identity_notes_raw: 'Multi-state trail network. Paulding County member trail IDs
+    pending — BTA Delphos Section and BTA Defiance Section will be staged at Tier
+    7 (BTA = conservancy). Member trail IDs to be updated after Tier 7 discovery.
+    NCT and BT diverge at River Road (Defiance Section Point 20) after co-routing
+    for 52 miles; NCT continues north, BT continues east.
+
+    '
+  notes_raw: 'NCT Paulding County access points: (1) Canal Park / Junction — start
+    of Defiance Section, historic canal junction, maintained by PCPD; (2) Viall''s
+    Lock Campsite — primitive campsite off Road 163 in Paulding County, between Delphos
+    Section Points 22-23, no facilities. Buckeye Trail is NOT federally designated
+    as of 2026-04-07; NPS feasibility study for National Scenic Trail designation
+    is ongoing (study expected to conclude 2026). BT trail entities (Delphos Section,
+    Defiance Section) staged at Tier 7.
+
+    '
+  url_raw: https://www.nps.gov/noco/index.htm
+  maps_raw: https://www.nps.gov/noco/planyourvisit/maps.htm
+  source: NPS NOCO website; Buckeye Trail Association sections pages; web search results
+    2026-04-07
+  baseline_seed: false
+  discovery_date: 2026-04-07
+- record_id: PAU-S-001
+  entity_type: Site
+  tier: 2
+  tier_name: State
+  name_raw: Lake Wayne R. Carr Wildlife Area
+  alternate_names_raw: Wayne R. Carr Lake; Lake Wayne R Carr WA
+  category_raw: Wildlife Area
+  subtype_raw: ''
+  designation_raw: ODNR Wildlife Area
+  status_raw: Active
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'Lake Wayne R. Carr Wildlife Area is an ODNR Division of Wildlife
+    managed area in Paulding County, Ohio. The area centers on a small lake (Wayne
+    R. Carr Lake) and provides public hunting and fishing access. Watercraft permitted
+    at idle speed only — no wake allowed on the lake. Area covers approximately 18
+    acres.
+
+    '
+  location_raw: Paulding County, Ohio (specific address TBD at GPS acquisition)
+  acres_raw: '18.34'
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: 41.1580269
+  gps_lon_raw: -84.7863068
+  features_raw: lake; fishing; public hunting; boat launch (idle speed only)
+  notes_raw: 'Acreage from regulatory and toposports sources. Powercraft restricted
+    to idle speed on Wayne R. Carr Lake per Ohio Admin Code Rule 1501:31-5-02. GPS/address
+    to be acquired at Stage 3. Confirmed in Paulding County by multiple ODNR and fishing
+    report references.
+
+    '
+  url_primary_raw: ''
+  urls_raw: https://wildlife.ohiodnr.gov/
+  parent_site_id_raw: ''
+  source: Ohio Admin Code Rule 1501:31-5-02; toposports.com wildlife areas layer;
+    ODNR fishing reports; web search 2026-04-07
+  baseline_seed: true
+  baseline_name: Lake Wayne R Carr
+  discovery_date: 2026-04-07
+- record_id: PAU-S-002
+  entity_type: Site
+  tier: 2
+  tier_name: State
+  name_raw: Forrest Woods State Nature Preserve
+  alternate_names_raw: Forrest Woods Nature Preserve; Forrest Woods
+  category_raw: Nature Preserve
+  subtype_raw: ''
+  designation_raw: Ohio State Nature Preserve
+  status_raw: Active
+  ownership_raw: Black Swamp Conservancy
+  governance_raw: ODNR Division of Natural Areas and Preserves (designation); Black
+    Swamp Conservancy (management)
+  partner_agencies_raw: Black Swamp Conservancy; ODNR DNAP
+  coordination_raw: ''
+  description_raw: 'Forrest Woods State Nature Preserve is one of the highest-quality
+    remnants of the historic Great Black Swamp in northwest Ohio. Black Swamp Conservancy''s
+    largest owned nature preserve. The site contains mature upland and floodplain
+    forest with 39+ rare, threatened, and endangered plant and animal species. Portions
+    dedicated as a State Nature Preserve by ODNR DNAP in 2008. Access is restricted
+    — not a public open-access preserve. Active restoration efforts by BSC ongoing.
+
+    '
+  location_raw: County Road 73, just north of Forder's Bridge, Paulding County, Ohio
+  acres_raw: '292'
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: old-growth forest; Black Swamp remnant; rare/endangered species; floodplain
+    forest; upland forest; restricted access
+  notes_raw: 'Acreage varies by source: 193 acres (Wetlands of Distinction), 292 acres
+    (baseline), 346 acres (West Bend News / other sources). Discrepancy likely reflects
+    property expansions over time. ODNR state designation covers portions; BSC owns
+    the full property. Access restricted — visitors must contact BSC. GPS to be acquired
+    at Stage 3. Black Swamp Conservancy: blackswamp.org
+
+    '
+  url_primary_raw: https://blackswamp.org/
+  urls_raw: https://naturepreserves.ohiodnr.gov/; https://members.wetlandsofdistinction.org/woddirectory/Details/forrest-woods-state-nature-preserve-2016228
+  parent_site_id_raw: ''
+  source: West Bend News 2017; Wetlands of Distinction; Black Swamp Conservancy website;
+    birdinghotspots.org; web search 2026-04-07
+  baseline_seed: true
+  baseline_name: Forrest Woods State Nature Preserve
+  discovery_date: 2026-04-07
+- record_id: PAU-TR-001
+  entity_type: Trail
+  tier: 2
+  tier_name: State
+  name_raw: Miami and Erie Canal Towpath
+  alternate_names_raw: Miami & Erie Canal Towpath; Miami-Erie Canal Towpath Trail
+  use_type_raw: Hiking; Walking
+  surface_type_raw: Natural surface; Gravel; Crushed limestone
+  origin_type_raw: Historic canal towpath
+  total_length_miles_raw: ~105 miles total (Cincinnati to Junction, OH)
+  counties_raw: Hamilton; Butler; Warren; Montgomery; Miami; Shelby; Auglaize; Allen;
+    Putnam; Paulding (northern terminus)
+  governance_raw: ODNR (state-owned canal corridor); managed by various local entities
+    along route
+  partner_agencies_raw: Buckeye Trail Association (route designation); North Country
+    Trail / NPS (NCT designation)
+  status_raw: Active
+  difficulty_raw: ''
+  accessibility_raw: ''
+  description_raw: 'The Miami and Erie Canal Towpath follows the historic towpath
+    of the Miami and Erie Canal, completed from Cincinnati to Toledo between 1825
+    and 1845. The canal land is owned by the State of Ohio (ODNR), transferred to
+    ODNR in the mid-1980s. In Paulding County, the towpath forms the physical trail
+    used by the Buckeye Trail (Delphos Section, running through the southeast part
+    of the county) and continues to Canal Park at Junction — the northern terminus
+    of the Miami and Erie Canal, where it historically joined the Wabash-Erie Canal.
+    The Buckeye Trail/North Country Trail co-route on the towpath through this county.
+
+    '
+  identity_notes_raw: 'The Miami & Erie Canal Towpath ends at Junction, Paulding County
+    (Canal Park). North of Junction the BT/NCT follows the former Wabash-Erie Canal
+    corridor. Towpath land is ODNR-owned (state); trail management varies by segment.
+    The BT Delphos Section and BT Defiance Section use this corridor in Paulding County
+    — those trail entities staged at Tier 7. Canal Park (the northern terminus access
+    point) is a PCPD park — Tier 4.
+
+    '
+  notes_raw: ODNR has Miami & Erie Canal maps including Paulding County segment.
+  url_raw: https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/real-estate/ohio-canal-maps/miami-erie-canal-maps
+  maps_raw: ''
+  trail_id_raw: ''
+  source: ODNR canal maps page; Ohio and Erie Canalway website; TrailLink; BTA sections;
+    web search 2026-04-07
+  baseline_seed: false
+  discovery_date: 2026-04-07
+- record_id: PAU-TR-002
+  entity_type: Trail
+  tier: 3
+  tier_name: District
+  name_raw: Maumee River Water Trail
+  alternate_names_raw: Maumee Scenic River Water Trail
+  use_type_raw: Water Trail (paddling); Canoeing; Kayaking
+  surface_type_raw: Water / River
+  origin_type_raw: Scenic river water trail
+  total_length_miles_raw: 107 miles total
+  counties_raw: Paulding; Defiance; Henry; Wood; Lucas
+  governance_raw: Toledo Metroparks (primary coordinator); ODNR; Defiance SWCD
+  partner_agencies_raw: Toledo Metroparks; ODNR Division of Wildlife; Defiance Soil
+    & Water Conservation District; Black Swamp Conservancy; Partners for Clean Streams;
+    Village of Antwerp
+  status_raw: Active
+  difficulty_raw: ''
+  accessibility_raw: ''
+  description_raw: 'The Maumee River Water Trail is a 107-mile designated water trail
+    along the Maumee River from the Ohio-Indiana state line to Lake Erie. The trail
+    passes through Paulding, Defiance, Henry, Wood, and Lucas counties. In Paulding
+    County, the trail includes the scenic portion of the Maumee River — the Scenic
+    Maumee River designation covers approximately 43 miles from the Indiana state
+    line to the US 24 bridge west of Defiance. The trail is a partnership of Toledo
+    Metroparks, ODNR, and Defiance SWCD, with branding and brochures managed by Toledo
+    Metroparks. The trail has 39 access points total; Paulding County access points
+    include Cecil Bridge (at Cecil Bridge Park, PCPD), Forder Bridge area (BSC-owned),
+    and Antwerp Riverside Park (Village of Antwerp).
+
+    '
+  identity_notes_raw: 'Water trail; entity type is Trail with use_type = Water Trail.
+    Access point entities for the Paulding County segment to be staged at their respective
+    tiers: Cecil Bridge Park water trail access (Tier 4/PCPD); Forder Bridge (Tier
+    7/BSC); Antwerp Riverside Park (Tier 6/Municipal). Maumee Valley Heritage Corridor
+    (nonprofit, Tier 7) manages the Maumee River Scenic Byway designation — a separate
+    heritage designation from this water trail.
+
+    '
+  notes_raw: 'Trail brochure: metroparkstoledo.com. 39 access points total along 107-mile
+    route.'
+  url_raw: https://metroparkstoledo.com/features-and-rentals/maumee-river-water-trail/
+  maps_raw: https://metroparkstoledo.com/media/3621/maumee-waterway-brochure-031318-web.pdf
+  trail_id_raw: ''
+  source: Toledo Metroparks website; Partners for Clean Streams; Crescent News; web
+    search 2026-04-07
+  baseline_seed: false
+  discovery_date: 2026-04-07
+- record_id: PAU-S-003
+  entity_type: Site
+  tier: 4
+  tier_name: County
+  name_raw: Canal Park
+  alternate_names_raw: ''
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Paulding County Park District
+  governance_raw: Paulding County Park District
+  partner_agencies_raw: Buckeye Trail Association; North Country Trail Association
+    / NPS
+  coordination_raw: BTA maintains trail section through park
+  description_raw: 'Canal Park is located at the historic junction of the Miami-Erie
+    Canal and the Wabash-Erie Canal (Junction, Ohio). The park sits on St. Rt. 111,
+    one mile west of Five Span Park. A historical marker marks the canal junction
+    site. The park is a primary access point for the Buckeye Trail and North Country
+    National Scenic Trail. A footbridge over a trail section was replaced in 2023
+    (Eagle Scout project). PCPD works with BTA to maintain and improve the trail.
+    Sections of the trail through the park are part of both the BT and NCT designations.
+
+    '
+  location_raw: 'St. Rt. 111, near Junction, Paulding County, Ohio (postal address:
+    15872 Rd. 153, Defiance, OH — note: postal city Defiance used; actual location
+    is Paulding County near Junction)'
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: historic canal junction; BT/NCT trailhead; historical marker; footbridge;
+    hiking
+  notes_raw: 'Postal address uses Defiance city; actual location in Paulding County
+    at Junction unincorporated community. County boundary to be confirmed at GPS acquisition.
+    BT/NCT access to be confirmed as Access Point entity (PAU-AP-001). Baseline seed
+    #1 confirmed.
+
+    '
+  url_primary_raw: https://pauldingohparks.com/canal-park/
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: pauldingohparks.com (via search summary); Canal Park web search; BTA sections;
+    web search 2026-04-07
+  baseline_seed: true
+  baseline_name: Canal Park
+  discovery_date: 2026-04-07
+- record_id: PAU-S-004
+  entity_type: Site
+  tier: 4
+  tier_name: County
+  name_raw: Cecil Bridge Park
+  alternate_names_raw: ''
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Paulding County Park District
+  governance_raw: Paulding County Park District
+  partner_agencies_raw: Toledo Metroparks (Maumee River Water Trail coordination)
+  coordination_raw: ''
+  description_raw: 'Cecil Bridge Park is located on Road 105 at the Cecil Bridge in
+    the Cecil area of Paulding County. The park sits along the Maumee River and is
+    a popular launch point for paddlers exploring the Maumee River Water Trail between
+    Cecil and Defiance. Features include river access, kayaking, canoeing, boating,
+    fishing, and picnicking. The park provides a quiet riverside setting.
+
+    '
+  location_raw: Road 105 at the Cecil Bridge, Cecil area, Paulding County, Ohio
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: Maumee River access; kayak/canoe launch; fishing; picnicking; water
+    trail access
+  notes_raw: 'Maumee River Water Trail access point here — Access Point entity PAU-AP-002
+    to be staged. Baseline seed #2 confirmed.
+
+    '
+  url_primary_raw: https://pauldingohparks.com/
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Paulding County Park District web search results; Crescent News water trail
+    article; web search 2026-04-07
+  baseline_seed: true
+  baseline_name: Cecil Bridge Park
+  discovery_date: 2026-04-07
+- record_id: PAU-S-005
+  entity_type: Site
+  tier: 4
+  tier_name: County
+  name_raw: Five Span Park
+  alternate_names_raw: Five-Span Park
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Paulding County Park District
+  governance_raw: Paulding County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'Five Span Park is the most utilized park under the Paulding County
+    Park District''s authority. Located on the Auglaize River at the junction of State
+    Routes 111 and 637, the park features the historic five-span bridge spanning the
+    river. The park name derives from the distinctive five-span design of the historic
+    bridge. The park is in the Auglaize River corridor.
+
+    '
+  location_raw: 'Junction of SR 111 and SR 637, Auglaize River, Paulding County, Ohio
+    (postal: 19483 OH-637, Defiance, OH 43512 — postal city Defiance; actual location
+    likely Paulding County)'
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: Auglaize River access; historic five-span bridge; seasonal floating
+    dock; boat ramp; fishing; picnic tables; fire rings; trash receptacles; portable
+    toilets; park benches; swing; most utilized PCPD park
+  notes_raw: 'Postal address uses Defiance city (43512); PCPD manages this park. County
+    boundary to be confirmed at GPS acquisition — park may be at or very near Paulding/Defiance
+    county line. Baseline seed #3 confirmed.
+
+    '
+  url_primary_raw: https://pauldingohparks.com/
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Chamber of Commerce listing; Paulding County Park District web search results;
+    web search 2026-04-07
+  baseline_seed: true
+  baseline_name: Five Span Park
+  discovery_date: 2026-04-07
+- record_id: PAU-S-006
+  entity_type: Site
+  tier: 4
+  tier_name: County
+  name_raw: Flat Rock Trail Park
+  alternate_names_raw: ''
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Paulding County Park District
+  governance_raw: Paulding County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'Flat Rock Trail Park was obtained by the Paulding County Park
+    District from the Paulding County Commissioners on July 26, 2021. The park is
+    located on the east end of Johnson Road and is undergoing development. Features
+    include improved parking, fencing, primitive campsites with fire rings, and hiking
+    access along the Flat Rock Creek corridor. Overnight camping is not yet available
+    pending further development.
+
+    '
+  location_raw: 12600 Rd. 119, Paulding, Ohio (east end of Johnson Road, Flat Rock
+    Creek corridor)
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: primitive camping; fire rings; hiking; Flat Rock Creek corridor; developing
+  notes_raw: 'Park is active but still developing — camping access partial as of 2026-04-07.
+    Adjacent to or near Flat Rock Creek Nature Preserve (ACRES, Tier 7). Baseline
+    seed #4 confirmed (as "Flat Rock Trail Park").
+
+    '
+  url_primary_raw: https://pauldingohparks.com/flat-rock-trail-park/
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Paulding OH Parks website (via search summary); web search 2026-04-07
+  baseline_seed: true
+  baseline_name: Flat Rock Trail Park
+  discovery_date: 2026-04-07
+- record_id: PAU-S-007
+  entity_type: Site
+  tier: 4
+  tier_name: County
+  name_raw: New Rochester Park
+  alternate_names_raw: Rochester Park
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Paulding County Park District
+  governance_raw: Paulding County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'New Rochester Park is located on the Maumee River north of Paulding
+    near Cecil, Ohio. The park rests on the historic site of New Rochester, the first
+    county seat of Paulding County. Dedicated as the first Paulding County park on
+    Labor Day 1935; given to ODOT for use as a roadside rest; returned to PCPD in
+    2016. Notable features include an eagle viewing area on the Maumee River bank
+    where a pair of bald eagles have nested.
+
+    '
+  location_raw: 11885 Rd. 424, Cecil, Ohio 45821; intersection of County Road 424
+    and County Road 105, Maumee River, Paulding County
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: Maumee River; eagle viewing; historic New Rochester site; picnicking
+  notes_raw: 'PCPD website URL slug is /new-rochester/. Known in baseline as "Rochester
+    Park." Baseline seed #5 confirmed (as "Rochester Park" = "New Rochester Park").
+    History: dedicated 1935; to ODOT for roadside rest; returned to PCPD 2016.
+
+    '
+  url_primary_raw: https://pauldingohparks.com/new-rochester/
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Paulding OH Parks website (via search summary); HMDB historical marker;
+    web search 2026-04-07
+  baseline_seed: true
+  baseline_name: Rochester Park
+  discovery_date: 2026-04-07
+- record_id: PAU-S-008
+  entity_type: Site
+  tier: 4
+  tier_name: County
+  name_raw: Fort Brown Park
+  alternate_names_raw: ''
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Paulding County Park District
+  governance_raw: Paulding County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'Fort Brown Park is located at the confluence of the Big Auglaize
+    and Little Auglaize Rivers, one mile south of Charloe on Road 171. The Paulding
+    County Park District accepted maintenance responsibility in 2019. The park is
+    divided by County Road 171, with river access and a fishing area on the east side
+    where the Little Auglaize drains into the Auglaize River. A bench donated by Friends
+    of the Paulding County Parks overlooks the Little Auglaize. A future small craft
+    boat launch is planned. The site has significant historical significance: Fort
+    Brown was built here by General William Henry Harrison during the War of 1812
+    to protect supply shipments on the Auglaize River. Named for Colonel Brown who
+    commanded the stockade. A monument erected in 1953 marks the site. By local tradition,
+    three soldiers from the era are buried at this site.
+
+    '
+  location_raw: 9597 Rd. 171, Oakwood, Ohio; 1 mile south of Charloe on Rd. 171, confluence
+    of Big Auglaize and Little Auglaize Rivers, Brown Township, Paulding County
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: Auglaize River confluence; fishing; War of 1812 monument; bench; future
+    boat launch; river bank
+  notes_raw: 'PCPD took maintenance responsibility 2019. Future small craft boat launch
+    planned. The 1953 monument is a historical marker. Park is on and near Brown Township.
+    Baseline seed #12 confirmed as "Fort Brown Park" (PCPD).
+
+    '
+  url_primary_raw: https://pauldingohparks.com/fort-brown-park/
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Paulding OH Parks website (via search summary); HMDB historical marker;
+    web search 2026-04-07
+  baseline_seed: true
+  baseline_name: Fort Brown Park
+  discovery_date: 2026-04-07
+- record_id: PAU-S-009
+  entity_type: Site
+  tier: 4
+  tier_name: County
+  name_raw: Guilda H. Culler Memorial Park
+  alternate_names_raw: Culler Memorial Park
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Paulding County Park District
+  governance_raw: Paulding County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'Guilda H. Culler Memorial Park is a developing Paulding County
+    Park District park established on land donated by Gary and Linda Mabis and named
+    in memory of Guilda H. Culler. The park is in the early stages of development;
+    PCPD has plans to enhance the property as resources and partnerships allow.
+
+    '
+  location_raw: Paulding County, Ohio (specific address TBD)
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: 41.2159711
+  gps_lon_raw: -84.6269824
+  features_raw: developing park; donated land
+  notes_raw: 'Address and GPS unknown — not listed on PCPD website with address as
+    of 2026-04-07. Developing park — active status but minimal facilities. Not a baseline
+    seed; discovered through pre-research and confirmed by PCPD website references.
+
+    '
+  url_primary_raw: https://pauldingohparks.com/
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Paulding OH Parks website (via search summary); web search 2026-04-07
+  baseline_seed: false
+  discovery_date: 2026-04-07
+- record_id: PAU-S-010
+  entity_type: Site
+  tier: 4
+  tier_name: County
+  name_raw: Black Swamp Nature Center
+  alternate_names_raw: Black Swamp Wildlife Area; Paulding Ponds Wildlife Area (former
+    ODNR name); BSNC; Black Swamp Nature Preserve
+  category_raw: Nature Center
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Paulding County Commissioners
+  governance_raw: Paulding Soil & Water Conservation District (SWCD)
+  partner_agencies_raw: Paulding County Commissioners; Paulding SWCD
+  coordination_raw: ''
+  description_raw: 'Black Swamp Nature Center (BSNC) is a 51-acre county-owned natural
+    area and nature center facility managed by the Paulding Soil & Water Conservation
+    District. The property consists of approximately 24 acres of woodland, 14 acres
+    of wetlands, and 6 acres of meadow along Flat Rock Creek. Features include a boat
+    launch providing access to Flat Rock Creek, trails winding along three ponds,
+    the site of a former Sugar Beet dam, the nature center building (available for
+    programming and rental), and parking. The Paulding County Fairgrounds borders
+    the property on the northeast with two additional access trails. The site was
+    originally ODNR Paulding Ponds Wildlife Area, transferred to Paulding County Commissioners
+    in 1994, and subsequently developed into the current nature center.
+
+    '
+  location_raw: '753 Fairground Drive (also: 451 McDonald Pike), Paulding, Ohio 45879;
+    south of courthouse square via Williams Street, west of fairgrounds'
+  acres_raw: '51'
+  counties_raw: Paulding
+  municipality_raw: Paulding
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: woodland; wetlands; meadow; boat launch (Flat Rock Creek); hiking
+    trails; ponds; Sugar Beet dam site; nature center building; picnic area; paved
+    parking; programming; building rentals
+  notes_raw: 'Two addresses: 753 Fairground Drive and 451 McDonald Pike — both in
+    Paulding near fairgrounds. SWCD website has both "Black Swamp Nature Center" and
+    "Black Swamp Nature Preserve" pages; these appear to be the same 51-acre property.
+    GPS to be acquired at Stage 3. IDENTITY: This entity = baseline seed #10 "Paulding
+    Ponds Wildlife Area" (identity resolved pre-discovery). May also = baseline seed
+    #9 "Flatrock Creek Access" (the boat launch here is the primary Flat Rock Creek
+    access point in Paulding village area; no separate ODNR access point found). Paulding
+    County Trails Project Phase 1 will connect BSNC to Lela McGuire-Jeffery Park (future,
+    2027-2028).
+
+    '
+  url_primary_raw: https://pauldingswcd.org/black-swamp-nature-preserve/
+  urls_raw: https://pauldingswcd.org/; https://pauldingswcd.org/trail-guide-information/
+  parent_site_id_raw: ''
+  source: Paulding SWCD website; Paulding County EMA; birding hotspots; web search
+    2026-04-07
+  baseline_seed: true
+  baseline_name: Paulding Ponds Wildlife Area
+  baseline_also_resolves: Flatrock Creek Access (probable identity match)
+  discovery_date: 2026-04-07
+- record_id: PAU-AP-001
+  entity_type: Access Point
+  tier: 4
+  tier_name: County
+  name_raw: Canal Park Trailhead
+  access_point_type_raw: Trailhead / Historic Site Access
+  status_raw: Active
+  identity_parent_entity_type_raw: Trail Network
+  identity_parent_entity_name_raw: North Country National Scenic Trail
+  county_raw: Paulding
+  township_raw: ''
+  municipality_raw: ''
+  address_raw: 15872 Rd. 153 (St. Rt. 111), near Junction, Paulding County, Ohio
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: parking; trail access (BT/NCT); historic canal junction; historical
+    marker
+  identity_notes_raw: 'Canal Park is owned and managed by PCPD (county park). The
+    park serves as access to the Buckeye Trail / North Country Trail corridor at the
+    historic junction of the Miami-Erie Canal and Wabash-Erie Canal. Parent entity:
+    NCT (PAU-TN-001). Also serves BT Defiance Section (start of Defiance Section =
+    Point 1). BT/NCT trail passes through this park.
+
+    '
+  notes_raw: 'The site''s channel volunteer and park board have worked to clear and
+    maintain this BT/NCT section. Eagle Scout footbridge replacement in 2023. Postal
+    address city is Defiance but actual county is Paulding. GPS to be acquired at
+    Stage 3.
+
+    '
+  url_raw: https://pauldingohparks.com/canal-park/
+  source: Paulding OH Parks website; BTA sections search; web search 2026-04-07
+  baseline_seed: false
+  discovery_date: 2026-04-07
+- record_id: PAU-AP-002
+  entity_type: Access Point
+  tier: 4
+  tier_name: County
+  name_raw: Cecil Bridge Water Trail Access
+  access_point_type_raw: Water Trail Launch
+  status_raw: Active
+  identity_parent_entity_type_raw: Trail
+  identity_parent_entity_name_raw: Maumee River Water Trail
+  county_raw: Paulding
+  township_raw: ''
+  municipality_raw: ''
+  address_raw: Road 105 at Cecil Bridge, Cecil area, Paulding County, Ohio
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: boat/kayak/canoe launch; Maumee River access; fishing; picnicking
+  identity_notes_raw: 'Located at Cecil Bridge Park (PAU-S-004, PCPD). Maumee River
+    Water Trail access point. Parent entity: Maumee River Water Trail (PAU-TR-002).
+
+    '
+  notes_raw: Primary launch point for paddlers on scenic portion of Maumee River between
+    Cecil and Defiance. GPS to be acquired at Stage 3.
+  url_raw: ''
+  source: Crescent News water trail article; Paulding OH Parks website; web search
+    2026-04-07
+  baseline_seed: false
+  discovery_date: 2026-04-07
+- record_id: PAU-S-011
+  entity_type: Site
+  tier: 6
+  tier_name: Municipal
+  name_raw: Riverside Veterans Memorial Park
+  alternate_names_raw: Riverside Park
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Village of Antwerp
+  governance_raw: Village of Antwerp
+  partner_agencies_raw: Toledo Metroparks (Maumee River Water Trail)
+  coordination_raw: ''
+  description_raw: 'Riverside Veterans Memorial Park (commonly called Riverside Park)
+    is located on East River Street in Antwerp, Ohio, with approximately 10 acres
+    along the Maumee River. The park features a Veterans Memorial, playground, a group
+    pavilion with electricity (reservable), picnic pavilions, charcoal BBQ grills,
+    a canoe and kayak launch site on the Maumee River (River Mile 99 of the Maumee
+    River Water Trail), a Boy Scout-developed hiking trail in the lower portion, fishing
+    access, restrooms with drinking fountain, and the Holly Beach Splashpad. Old-growth
+    native trees provide summer shade. The park received community development investment
+    including the Splashpad (2022).
+
+    '
+  location_raw: East River Street, Antwerp, Ohio 45813; Maumee River
+  acres_raw: '10'
+  counties_raw: Paulding
+  municipality_raw: Antwerp
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: Veterans Memorial; playground; group pavilion (reservable); picnic
+    pavilions; BBQ grills; canoe/kayak launch; Maumee River Water Trail (River Mile
+    99); hiking trail; fishing; restrooms; Holly Beach Splashpad; old-growth trees
+  notes_raw: 'Maumee River Water Trail access point at River Mile 99. Access point
+    entity: PAU-AP-003. Holly Beach Splashpad approved via Resolution 2022-04. Boy
+    Scout Troop 143 created the lower hiking trail. GPS to be acquired at Stage 3.
+
+    '
+  url_primary_raw: https://villageofantwerp.com/our-parks/
+  urls_raw: https://villageofantwerp.com/canoe-and-kayak-launch-at-riverside-park/
+  parent_site_id_raw: ''
+  source: Village of Antwerp website (via search summary); birding hotspot; web search
+    2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-012
+  entity_type: Site
+  tier: 6
+  tier_name: Municipal
+  name_raw: Lela McGuire-Jeffery Park
+  alternate_names_raw: Lela McGuire Jeffery Park; Paulding Ball Complex
+  category_raw: Recreation Facility
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Village of Paulding
+  governance_raw: Village of Paulding / Paulding Ball Association
+  partner_agencies_raw: Paulding Ball Association
+  coordination_raw: ''
+  description_raw: 'Lela McGuire-Jeffery Park is a ball sports complex in the Village
+    of Paulding established through a bequest from Lela McGuire Jeffery, developed
+    by the Paulding Ball Association and community donors. The park opened May 14,
+    2011 and hosts summer baseball and softball. Features four ball diamonds (Field
+    #1 Zachary Arend Memorial Field; Field #2 Defiance Metal Products Field; Field
+    #3 LaFarge Field; Field #4 Doyle Hartzog Field), one with lights for night games,
+    a concession stand, restrooms, and handicap accessible facilities. Phase 1 of
+    the Paulding County Trails Project (future, 2027-2028) will connect this park
+    to the Black Swamp Nature Center.
+
+    '
+  location_raw: Village of Paulding, Ohio 45879 (specific street address TBD)
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: Paulding
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: 4 ball diamonds; 1 with lights; concession stand; restrooms; handicap
+    accessible; baseball; softball
+  notes_raw: 'Opened May 14, 2011. Part of Paulding County Trails Project Phase 1
+    connection (future 2027-28). GPS/address to be acquired at Stage 3. Pre-research
+    entity confirmed.
+
+    '
+  url_primary_raw: https://www.villageofpaulding.com/parks-recreation
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Village of Paulding parks page (via search summary); web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-013
+  entity_type: Site
+  tier: 6
+  tier_name: Municipal
+  name_raw: Herb Monroe Community Park
+  alternate_names_raw: Freedom Station Park
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Village of Paulding
+  governance_raw: Village of Paulding
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'Herb Monroe Community Park is located at 122 E. Jackson St. in
+    the Village of Paulding. The park features Freedom Station, an 11,000 sq. ft.
+    community playground.
+
+    '
+  location_raw: 122 E. Jackson St., Paulding, Ohio 45879
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: Paulding
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: Freedom Station playground (11,000 sq ft)
+  notes_raw: 'GPS to be acquired at Stage 3. Address confirmed: 122 E. Jackson St.'
+  url_primary_raw: https://www.villageofpaulding.com/parks-recreation
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Village of Paulding parks page (via search summary); web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-014
+  entity_type: Site
+  tier: 6
+  tier_name: Municipal
+  name_raw: Paulding Water Park
+  alternate_names_raw: Paulding Municipal Pool; Paulding Aquatic Center
+  category_raw: Recreation Facility
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Village of Paulding
+  governance_raw: Village of Paulding
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'The Paulding Water Park is an aquatic recreation facility in the
+    Village of Paulding, completed in June 2001. Features include a zero-entry swimming
+    pool, water features, a water slide, baby pool, shade umbrellas, and lounge chairs.
+    The Village of Paulding also operates the Paulding Municipal Pool (which may be
+    the same facility or a related one).
+
+    '
+  location_raw: Village of Paulding, Ohio 45879 (specific address TBD)
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: Paulding
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: zero-entry pool; water slide; baby pool; water features; shade umbrellas;
+    lounge chairs
+  notes_raw: 'Completed June 2001. May be same facility as Paulding Municipal Pool
+    (separate village webpage). GPS/address to be confirmed at Stage 3. Identity clarification
+    needed.
+
+    '
+  url_primary_raw: https://www.villageofpaulding.com/pool
+  urls_raw: https://www.villageofpaulding.com/parks-recreation
+  parent_site_id_raw: ''
+  source: Village of Paulding parks page (via search summary); web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-015
+  entity_type: Site
+  tier: 6
+  tier_name: Municipal
+  name_raw: Paulding Skate Park
+  alternate_names_raw: ''
+  category_raw: Recreation Facility
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Village of Paulding
+  governance_raw: Village of Paulding
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: Paulding Skate Park opened in October 2005 in the Village of Paulding.
+  location_raw: Village of Paulding, Ohio 45879 (specific address TBD)
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: Paulding
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: skate park
+  notes_raw: Opened October 2005. GPS/address to be confirmed at Stage 3.
+  url_primary_raw: https://www.villageofpaulding.com/parks-recreation
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Village of Paulding parks page (via search summary); web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-016
+  entity_type: Site
+  tier: 6
+  tier_name: Municipal
+  name_raw: Reservoir Park
+  alternate_names_raw: Paulding Reservoir; Paulding Water Supply Reservoir
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Village of Paulding
+  governance_raw: Village of Paulding
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'Reservoir Park is a 67-acre water supply reservoir owned and operated
+    by the Village of Paulding at 901 McDonald Pike. Historically, the reservoir provided
+    fishing opportunities (bluegill, saugeye, perch, catfish, etc.) and other recreational
+    activities; boat stickers and hunting permits were available at the Village Office.
+    Public access is currently prohibited (restriction noted as of research date).
+    The Paulding County Trails Project Phase 1 (future, 2027-2028) includes connection
+    from Lela McGuire-Jeffery Park to Reservoir Park via trail.
+
+    '
+  location_raw: 901 McDonald Pike, Paulding, Ohio 45879
+  acres_raw: '67'
+  counties_raw: Paulding
+  municipality_raw: Paulding
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: 'water supply reservoir; historically: fishing; future: trail connection
+    (Paulding Trail Project Phase 1)'
+  notes_raw: 'PUBLIC ACCESS CURRENTLY PROHIBITED — site is active village infrastructure
+    but public recreational access restricted as of 2026-04-08. Council has held meetings
+    re: Reservoir Park. Future trail connection planned. Baseline seed #11 ("Paulding
+    Reservoir") confirmed as this entity. Stage with restricted access flag; GPS to
+    be acquired at Stage 3. REVIEW FLAG: gps_unresolvable may apply if village restricts
+    coordinate disclosure.
+
+    '
+  url_primary_raw: https://www.villageofpaulding.com/parks-recreation
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Village of Paulding parks page (via search summary); Crescent News council
+    article; web search 2026-04-08
+  baseline_seed: true
+  baseline_name: Paulding Reservoir
+  discovery_date: 2026-04-08
+- record_id: PAU-S-017
+  entity_type: Site
+  tier: 6
+  tier_name: Municipal
+  name_raw: Payne Community Park
+  alternate_names_raw: Village of Payne Park
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Village of Payne
+  governance_raw: Village of Payne
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'Payne Community Park is a small village park in Payne, Ohio. Features
+    include a stocked fishing pond (catch-and-release, no license required; fish purchased
+    from Remlinger Fish Farm, Kalida, Ohio), a walking path, and playground equipment.
+    Walking path and playground equipment were made possible through an ODNR NatureWorks
+    Grant. The park is available for organized event rental ($50 reservation). Village
+    hall at 119 N. Main Street handles reservations.
+
+    '
+  location_raw: Village of Payne, Ohio 45880 (specific street address TBD; near 119
+    N. Main St. village hall)
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: Payne
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: fishing pond (catch-and-release, no license); walking path; playground;
+    event rental available
+  notes_raw: ODNR NatureWorks Grant funded walking path and playground. GPS/address
+    to be confirmed at Stage 3.
+  url_primary_raw: https://www.villageofpayne.com/park/
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Village of Payne website (via search summary); web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-018
+  entity_type: Site
+  tier: 6
+  tier_name: Municipal
+  name_raw: Oakwood Community Park
+  alternate_names_raw: ''
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Village of Oakwood
+  governance_raw: Village of Oakwood
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'Oakwood Community Park is the central gathering place for the
+    Village of Oakwood in Paulding County. Features include playground equipment,
+    sports fields, and picnic areas. The Auglaize River is nearby; Auglaize Canoe
+    & Kayak (a private business) operates adjacent to the village providing river
+    access. The Village of Oakwood offers a variety of programs for residents.
+
+    '
+  location_raw: Village of Oakwood, Ohio 45873 (specific address TBD)
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: Oakwood
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: playground; sports fields; picnic areas; near Auglaize River
+  notes_raw: 'Auglaize Canoe & Kayak is a private commercial outfitter on the Auglaize
+    River near Oakwood — NOT staged as a natural areas entity (private business).
+    GPS/address to be confirmed at Stage 3.
+
+    '
+  url_primary_raw: ''
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Web search results (bloggerbill.com); web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-019
+  entity_type: Site
+  tier: 6
+  tier_name: Municipal
+  name_raw: Latty Town Park
+  alternate_names_raw: ''
+  category_raw: Park
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Village of Latty
+  governance_raw: Village of Latty
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: Latty Town Park is a small community park in the Village of Latty,
+    Paulding County, Ohio.
+  location_raw: Village of Latty, Ohio (specific address TBD)
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: Latty
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: ''
+  notes_raw: Minimal information available. Confirmed as named park via GNIS/hometownlocator.
+    GPS and details to be acquired at Stage 3 research.
+  url_primary_raw: ''
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: Ohio hometownlocator.com; web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-AP-003
+  entity_type: Access Point
+  tier: 6
+  tier_name: Municipal
+  name_raw: Riverside Park Water Trail Access (Antwerp)
+  access_point_type_raw: Water Trail Launch
+  status_raw: Active
+  identity_parent_entity_type_raw: Trail
+  identity_parent_entity_name_raw: Maumee River Water Trail
+  county_raw: Paulding
+  township_raw: ''
+  municipality_raw: Antwerp
+  address_raw: East River Street, Antwerp, Ohio 45813
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: canoe/kayak launch; Maumee River access; Maumee River Water Trail
+    River Mile 99; parking; restrooms
+  identity_notes_raw: 'Located at Riverside Veterans Memorial Park (PAU-S-011). Official
+    Maumee River Water Trail access point at River Mile 99. Parent entity: Maumee
+    River Water Trail (PAU-TR-002).
+
+    '
+  notes_raw: GPS to be acquired at Stage 3.
+  url_raw: https://villageofantwerp.com/canoe-and-kayak-launch-at-riverside-park/
+  source: Village of Antwerp website; Toledo Metroparks water trail; web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-020
+  entity_type: Site
+  tier: 7
+  tier_name: Conservancy
+  name_raw: Forder Bridge Conservation Area
+  alternate_names_raw: Forder Bridge Floodplain; Forder Bridge Wetland Restoration
+  category_raw: Nature Preserve
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Black Swamp Conservancy
+  governance_raw: Black Swamp Conservancy
+  partner_agencies_raw: ODNR (H2Ohio program)
+  coordination_raw: H2Ohio wetland and stream restoration project
+  description_raw: 'A 54-acre conservation property along the Maumee River in Paulding
+    County purchased by Black Swamp Conservancy in 2016. Former agricultural land
+    restored to native floodplain habitat. H2Ohio project installed approximately
+    4 acres of wetland restoration and repaired two on-site streams, preventing approximately
+    160 lbs phosphorus and 645 lbs nitrogen annually from entering the Maumee River.
+    Motor vehicles prohibited on property; walk-in access from designated parking
+    lot. Official Maumee River Water Trail access point at Forder Bridge. No camping
+    permitted.
+
+    '
+  location_raw: County Road 73, Forder Bridge, Paulding County, Ohio (south of Forrest
+    Woods State Nature Preserve)
+  acres_raw: '54'
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: floodplain restoration; wetland restoration; native plantings; Maumee
+    River access; designated parking; walk-in to river
+  notes_raw: 'BSC''s broader Forrest Woods/Forder Bridge area totals approximately
+    391 acres of protected/restored land. The 54-acre Forder Bridge property is a
+    distinct parcel separate from Forrest Woods SNP (PAU-S-002). Located just south
+    of Forrest Woods SNP on County Road 73. Public access: walk-in only; park in designated
+    lot. No motor vehicles. No camping. Maumee River Water Trail access point → see
+    PAU-AP-004.
+
+    '
+  url_primary_raw: https://blackswamp.org/
+  urls_raw: https://www.chronolog.io/site/BSC110; https://www.crescent-news.com/news/local_news/changes-coming-to-forder-bridge-river-access-site/article_d2ab2a8e-f71a-504d-bcf5-3d46b81509c6.html
+  parent_site_id_raw: ''
+  source: Black Swamp Conservancy website; Chronolog BSC110; Crescent-News local news;
+    web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-021
+  entity_type: Site
+  tier: 7
+  tier_name: Conservancy
+  name_raw: Flat Rock Creek Nature Preserve
+  alternate_names_raw: Flat Rock Creek Preserve (ACRES)
+  category_raw: Nature Preserve
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: ACRES Land Trust
+  governance_raw: ACRES Land Trust
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'A nature preserve owned and managed by ACRES Land Trust in Paulding
+    County, Ohio, approximately 4 miles east of Payne. Features upland and floodplain
+    forests along the serpentine course of Flat Rock Creek. The creek and mature forest
+    habitat attract abundant wildlife. Listed as eBird/birding hotspot L4718683.
+
+    '
+  location_raw: Approximately 4 miles east of Payne, Ohio, Paulding County
+  acres_raw: ''
+  counties_raw: Paulding
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: 41.1077358
+  gps_lon_raw: -84.6586975
+  features_raw: upland forest; floodplain forest; Flat Rock Creek frontage; wildlife
+    habitat; birding hotspot
+  notes_raw: 'CLOSED to public access — listed on ACRES Land Trust closed preserves
+    page (acreslandtrust.org/preserves/closed-preserves/). No public trails or public
+    visitation. Staged per protocol; access_restricted to be set at normalization
+    stage. Specific acreage not found in available sources. Address/GPS to be acquired
+    at Stage 3. ACRES Land Trust is a northeast Indiana / southern Michigan / northwest
+    Ohio land trust.
+
+    '
+  url_primary_raw: https://acreslandtrust.org/closedpreserve/closed-flat-rock-creek/
+  urls_raw: https://birdinghotspots.org/hotspot/L4718683; https://s3.amazonaws.com/acreslandtrust/2013/12/19184130/quarterly-47-4.pdf
+  parent_site_id_raw: ''
+  source: ACRES Land Trust website (closed preserves); birdinghotspots.org; ACRES
+    quarterly Fall 2008; web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-TR-003
+  entity_type: Trail
+  tier: 7
+  tier_name: Conservancy
+  name_raw: Buckeye Trail — Delphos Section
+  alternate_names_raw: BT Delphos Section
+  category_raw: Trail
+  trail_type_raw: Hiking
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Various (public and private land)
+  governance_raw: Buckeye Trail Association (BTA)
+  partner_agencies_raw: ODNR; North Country Trail Association
+  coordination_raw: Co-routes with Miami and Erie Canal Towpath (PAU-TR-001, ODNR)
+    through Paulding County
+  description_raw: 'The Buckeye Trail Delphos Section is a 47-mile hiking trail passing
+    through Auglaize, Allen, Putnam, and Paulding Counties. The section highlights
+    canal towpath, farmland, and small towns. The Delphos Section begins on the Miami
+    and Erie Canal towpath and continues through Spencerville and Delphos. The Paulding
+    County portion follows the M&E Canal towpath corridor. The section ends at Junction,
+    Ohio (Point 1 of the Defiance Section), where the Delphos and Defiance Sections
+    transition. Includes Viall''s Lock Campsite (primitive, no facilities) in Paulding
+    County.
+
+    '
+  location_raw: 'Paulding County portion: M&E Canal towpath, southern county line
+    to Junction, Ohio'
+  miles_raw: 47 (full section, multi-county)
+  counties_raw: Paulding; Putnam; Allen; Auglaize
+  municipality_raw: ''
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  surface_raw: gravel; dirt; paved (varies by segment)
+  features_raw: canal towpath; historic locks; primitive camping (Viall's Lock); multi-county
+    hiking trail
+  notes_raw: 'Co-routes with Miami and Erie Canal Towpath (PAU-TR-001, ODNR designation)
+    through Paulding County. North Country Trail (PAU-TN-001) also co-routes through
+    parts of this corridor. BTA is managing org; trail NOT federally designated as
+    of 2026-04-08 (NPS NST feasibility study ongoing). If BT receives National Scenic
+    Trail designation, entity may need reclassification to Tier 1. Viall''s Lock Campsite
+    (Road 163, Paulding County) → PAU-AP-005.
+
+    '
+  url_primary_raw: https://www.buckeyetrail.org/sections/delphos
+  urls_raw: ''
+  parent_network_id_raw: ''
+  source: Buckeye Trail Association website; ericasp.com trail report 2025-03; thedyrt.com;
+    web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-TR-004
+  entity_type: Trail
+  tier: 7
+  tier_name: Conservancy
+  name_raw: Buckeye Trail — Defiance Section
+  alternate_names_raw: BT Defiance Section
+  category_raw: Trail
+  trail_type_raw: Hiking
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Various (public and private land)
+  governance_raw: Buckeye Trail Association (BTA)
+  partner_agencies_raw: North Country Trail Association (NCTA); ODNR
+  coordination_raw: Co-routes with North Country National Scenic Trail (PAU-TN-001)
+    for full 52-mile length
+  description_raw: 'The Buckeye Trail Defiance Section is a 52-mile trail beginning
+    at Junction, Ohio (Point 1), in Paulding County, extending northeast. Both the
+    Buckeye Trail and the North Country National Scenic Trail (NCT) follow the same
+    route for the full 52 miles of the Defiance Section, between Junction (Point 1)
+    and the end of the towpath at River Road. The Paulding County entry point is at
+    Canal Park in Junction, transitioning from the Delphos Section. The section follows
+    the Miami and Erie Canal towpath corridor.
+
+    '
+  location_raw: Starts at Junction, Ohio (Canal Park, Paulding County); continues
+    northeast through Defiance and Williams Counties
+  miles_raw: 52 (full section, multi-county)
+  counties_raw: Paulding; Defiance; Williams
+  municipality_raw: Junction (Paulding County, starting point)
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  surface_raw: gravel; dirt; paved (varies by segment)
+  features_raw: canal towpath; NCT co-route; starts at Canal Park Junction
+  notes_raw: 'Co-routes with NCT (PAU-TN-001) for full 52-mile length of this section.
+    Paulding County portion is the start (Point 1 at Junction/Canal Park, PAU-S-003).
+    Canal Park Trailhead AP (PAU-AP-001) serves as Paulding County entry point. BTA
+    is managing org; trail NOT federally designated as of 2026-04-08.
+
+    '
+  url_primary_raw: https://www.buckeyetrail.org/sections/sections-map.php?section=defiance
+  urls_raw: ''
+  parent_network_id_raw: ''
+  source: Buckeye Trail Association website; ericasp.com trail report 2025-03; web
+    search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-AP-004
+  entity_type: Access Point
+  tier: 7
+  tier_name: Conservancy
+  name_raw: Forder Bridge Water Trail Access
+  access_point_type_raw: Water Trail Launch
+  status_raw: Active
+  identity_parent_entity_type_raw: Trail
+  identity_parent_entity_name_raw: Maumee River Water Trail
+  county_raw: Paulding
+  township_raw: ''
+  municipality_raw: ''
+  address_raw: County Road 73 at Forder Bridge, Paulding County, Ohio
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: canoe/kayak river access; walk-in only; designated parking lot; Maumee
+    River; official water trail access point; no camping
+  identity_notes_raw: 'Located on BSC-owned Forder Bridge Conservation Area (PAU-S-020).
+    Walk-in access required — park in designated lot, walk to river. Motor vehicles
+    strictly prohibited on property. No camping. Official Maumee River Water Trail
+    access point. Parent entity: Maumee River Water Trail (PAU-TR-002).
+
+    '
+  notes_raw: GPS to be acquired at Stage 3. Parking lot coordinates may differ from
+    river access point.
+  url_raw: https://www.crescent-news.com/news/local_news/changes-coming-to-forder-bridge-river-access-site/article_d2ab2a8e-f71a-504d-bcf5-3d46b81509c6.html
+  source: Black Swamp Conservancy; Crescent-News local news; web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-AP-005
+  entity_type: Access Point
+  tier: 7
+  tier_name: Conservancy
+  name_raw: Viall's Lock Campsite
+  access_point_type_raw: Primitive Campsite / Trailhead
+  status_raw: Active
+  identity_parent_entity_type_raw: Trail
+  identity_parent_entity_name_raw: Buckeye Trail — Delphos Section
+  county_raw: Paulding
+  township_raw: ''
+  municipality_raw: ''
+  address_raw: Road 163, Paulding County, Ohio
+  gps_lat_raw: 41.1625559
+  gps_lon_raw: -84.4516157
+  features_raw: primitive overnight campsite; no facilities (no water, no restrooms,
+    no electricity); BT/NCT trail access
+  identity_notes_raw: 'Primitive campsite on the Buckeye Trail Delphos Section in
+    Paulding County, located off Road 163. No facilities of any kind. Co-located with
+    North Country National Scenic Trail route (PAU-TN-001). Parent entity: BT Delphos
+    Section (PAU-TR-003).
+
+    '
+  notes_raw: GPS and exact address on Road 163 to be acquired at Stage 3.
+  url_raw: https://www.buckeyetrail.org/sections/delphos
+  source: Buckeye Trail Association; thedyrt.com; ericasp.com trail report 2025-03;
+    web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08
+- record_id: PAU-S-022
+  entity_type: Site
+  tier: 8
+  tier_name: Private
+  name_raw: Thorn Bottom Hunting Preserve
+  alternate_names_raw: Thorn Bottom; Dysinger's Thorn Bottom Hunting Preserve
+  category_raw: Recreation Area
+  subtype_raw: ''
+  designation_raw: ''
+  status_raw: Active
+  ownership_raw: Private (Brad and Ann Dysinger family)
+  governance_raw: Private
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  description_raw: 'A 652-acre private fee-access hunting preserve in Paulding County,
+    Ohio, located on County Road 60 in Grover Hill. Opened in 1996 by Brad Dysinger.
+    Features wetlands, brush piles, oxbows, woods, and food plots maintained exclusively
+    for hunting. Pheasant hunting operation. Season runs October 1 through March 15
+    (closed Christmas and Ohio deer gun week). Groups are assigned exclusive hunting
+    areas ranging from 25 to 160 acres per outing.
+
+    '
+  location_raw: County Road 60, Grover Hill, Paulding County, Ohio
+  acres_raw: '652'
+  counties_raw: Paulding
+  municipality_raw: Grover Hill
+  township_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  features_raw: wetlands; oxbows; brush piles; woodland; food plots; pheasant hunting;
+    fee-access private preserve
+  notes_raw: 'Private hunting preserve with fee-based public access (seasonal). Significant
+    natural habitat (wetlands, oxbows, woodland) of former Black Swamp character in
+    an otherwise heavily agricultural county. Access limited to hunting season (Oct
+    1 – Mar 15). GPS/address to be acquired at Stage 3.
+
+    '
+  url_primary_raw: https://thornbottom.com/
+  urls_raw: ''
+  parent_site_id_raw: ''
+  source: thornbottom.com; ohiosportsman.com; huntspotz.com; web search 2026-04-08
+  baseline_seed: false
+  discovery_date: 2026-04-08

@@ -1,0 +1,6 @@
+parent_trail_id	name	counties	governance	length_mi	surface_type	segment_type	status	difficulty	accessibility	description	identity_notes	notes	url_primary	maps	geometry	created_at	updated_at
+OH-MC-T-002	Damascus Leg	Henry	Henry County Park District								Named for Damascus Township. Henry County only. Eastern terminus at SR 109 near Damascus Township.					2026-04-26	2026-04-26
+OH-MC-T-002	Independence Leg	Defiance;Henry	Henry County Park District								Named segment of the MW&E Canal Towpath. Straddles Defiance/Henry county line. Western terminus at Independence Dam SP (ODNR state park, already staged in DEF run).					2026-04-26	2026-04-26
+OH-MC-T-002	Napoleon Leg	Henry	Henry County Park District								Runs through Napoleon. Western terminus at Meyerholtz Park (Napoleon city park — T6 entity). Eastern terminus at Henry County Hospital.					2026-04-26	2026-04-26
+OH-MC-T-002	Renegade Leg	Henry	Henry County Park District								Named for Simon Girty (historical figure). Henry County only. Eastern terminus at Napoleon.					2026-04-26	2026-04-26
+OH-MC-T-002	WideWater Section	Henry;Wood	Henry County Park District								Named WideWater (historic canal engineering term for widened canal section). Eastern terminus at Providence Dam Metropark (Wood County / Metroparks Toledo entity). Multi-county (Henry + Wood).					2026-04-26	2026-04-26

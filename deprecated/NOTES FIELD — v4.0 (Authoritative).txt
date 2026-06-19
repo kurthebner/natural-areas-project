@@ -1,0 +1,268 @@
+NOTES FIELD — v4.0 (Authoritative)
+Notes is a free‑text, unstructured field used to capture contextual, descriptive, or clarifying information that does not belong in any controlled field.
+Notes is the only field allowed to contain narrative text.
+
+🌿 1. What Notes is
+Notes is the place for:
+A. Clarifications
+- ambiguous ownership situations
+- historical ownership changes
+- unusual management arrangements
+- partial or shared stewardship
+- access nuances (since you don’t want an Access field)
+- “site is only accessible via X”
+- “site is part of a larger complex”
+B. Supporting details
+- alternate names
+- former names
+- internal identifiers
+- parcel IDs
+- planning document references
+- URLs to authoritative sources
+- legal descriptions
+- boundary clarifications
+C. Contextual information
+- ecological notes
+- cultural notes
+- historical notes
+- interpretive notes
+- restoration notes
+- stewardship philosophy
+- research notes
+D. Exceptions
+- “Ownership unknown; county auditor lists no parcel”
+- “Management unclear; signage contradicts website”
+- “Designation pending approval”
+E. Multi‑entity relationships
+- “Site lies within the XYZ Local Historic District”
+- “Site is part of the ABC Greenway Network”
+- “Site contains access to the DEF Trail”
+F. Anything that does not belong in a controlled field
+Notes is the pressure‑release valve that keeps the rest of the schema clean.
+
+🌿 2. What Notes is not
+Notes must not contain:
+A. Category, Subtype, Designation, Ownership, Management, Status, Coordination
+Those belong in their fields.
+B. Access rules that contradict Status
+If Status = No Public Entry, Notes must not say “open to the public.”
+C. Invented or speculative information
+No guesses.
+No assumptions.
+No “probably.”
+D. Personal opinions
+No editorializing.
+E. Sensitive or private information
+No personal names of private landowners.
+No phone numbers unless official.
+
+🌿 3. Notes Field Rules (Critical)
+Rule 1 — Notes must never contradict controlled fields.
+If Category = Park, Notes cannot say “this is a nature preserve.”
+Rule 2 — Notes must not be used to fix errors in other fields.
+If Ownership is wrong, fix Ownership — don’t explain it in Notes.
+Rule 3 — Notes must not contain governance or identity.
+No:
+- “This is a State Nature Preserve”
+- “This is a County Park”
+Those belong in Designation or Category.
+Rule 4 — Notes may contain narrative context.
+This is the only field where narrative is allowed.
+Rule 5 — Notes may contain multiple paragraphs.
+This is the only field where that is allowed.
+Rule 6 — Notes may contain citations or references.
+URLs, document names, etc.
+Rule 7 — Notes may be blank.
+If nothing needs to be said, leave it empty.
+
+🌿 4. Examples of Good Notes
+Example 1 — Access nuance
+“Site is active but access is limited to guided tours offered monthly by ODNR.”
+Example 2 — Boundary clarification
+“Site includes parcels 123‑45‑678 and 123‑45‑679; excludes adjacent parcel 123‑45‑680.”
+Example 3 — Historical context
+“Formerly known as Riverside Park until 1998.”
+Example 4 — Multi‑entity relationship
+“Site lies within the Downtown Local Historic District.”
+Example 5 — Stewardship nuance
+“Volunteer stewardship provided by Friends of the Ravines under a formal agreement.”
+Example 6 — Ownership ambiguity
+“Ownership unclear; county auditor lists parcel as tax‑exempt with no owner name.”
+
+🌿 5. Examples of Bad Notes
+❌ “This is a State Nature Preserve.”
+(That belongs in Designation.)
+❌ “Owned by the City of Columbus.”
+(That belongs in Ownership.)
+❌ “Managed by Metro Parks.”
+(That belongs in Management.)
+❌ “Closed for the season.”
+(That belongs in Status.)
+❌ “Probably owned by ODNR.”
+(No speculation.)
+
+🌿 6. Notes Field — Final Summary
+Notes is:
+- contextual
+- narrative
+- clarifying
+- descriptive
+- non‑authoritative
+- non‑identity‑bearing
+- non‑governance
+Notes is NOT:
+- Category
+- Subtype
+- Designation
+- Ownership
+- Management
+- Coordination
+- Status
+- Access rules
+- speculation
+- identity
+
+ 1. Description = Identity
+Description is the narrative identity of the Site.
+It answers:
+“What is this place, in human terms?”
+
+Description contains:
+- a concise narrative of what the Site is
+- its defining features
+- its purpose or character
+- its physical or cultural essence
+- what a visitor would understand the Site to be
+- interpretive or contextual framing that helps define identity
+Description does NOT contain:
+- ownership
+- management
+- designation
+- access rules
+- governance details
+- legal clarifications
+- exceptions
+- parcel IDs
+- multi‑entity relationships
+- operational nuance
+- speculation
+- identifiers
+- anything that contradicts controlled fields
+Description is identity‑bearing.
+It is the only narrative field that contributes to the Site’s conceptual definition.
+
+🌿 2. Notes = Context
+Notes is the contextual, clarifying, exception‑handling, nuance‑capturing field.
+It answers:
+“What else do we need to know that doesn’t define the Site?”
+
+Notes contains:
+- clarifications
+- exceptions
+- boundary notes
+- access nuance (since you don’t want an Access field)
+- historical names
+- former uses
+- stewardship partners
+- research notes
+- citations
+- URLs
+- parcel IDs
+- multi‑entity relationships
+- “this site lies within…”
+- “this site includes parcels…”
+- “ownership unclear…”
+- “designation pending…”
+Notes does NOT contain:
+- identity
+- category
+- subtype
+- designation
+- ownership
+- management
+- status
+- governance
+- invented or speculative information
+Notes is not identity‑bearing.
+It is the attic, not the foundation.
+
+🌿 3. The Core Distinction (the rule that keeps everything clean)
+Description = What the Site is
+Notes = Everything important that the Site is not defined by
+This is the philosophical backbone of your ontology.
+
+🌿 4. How they interact (the choreography)
+A. Description sets the identity.
+Notes must never contradict it.
+B. Notes may elaborate on Description, but never redefine it.
+If Description says:
+“A 45‑acre forested park with trails and a creek.”
+
+Notes may say:
+“The park includes two parcels acquired in 1998 and 2004.”
+“Access is through the adjacent school property.”
+“Formerly known as Maple Woods.”
+
+But Notes may NOT say:
+“This is a nature preserve.”
+(because that would redefine identity)
+
+C. Description is stable; Notes is flexible.
+Description rarely changes.
+Notes changes whenever new information emerges.
+D. Description is visitor‑facing; Notes is analyst‑facing.
+Description is what you’d tell a visitor.
+Notes is what you’d tell a GIS analyst, historian, or steward.
+E. Description is narrative; Notes is narrative‑plus‑technical.
+Notes can contain:
+- paragraphs
+- citations
+- URLs
+- parcel numbers
+- legal language
+Description should remain clean and readable.
+
+🌿 5. Examples (this is where the distinction becomes crystal clear)
+Example 1 — A county park with a preserve inside it
+Description:
+“A 120‑acre county park featuring woodlands, wetlands, and a 1.5‑mile loop trail.”
+Notes:
+“The western 40 acres are designated as a Local Nature Preserve.
+Site includes parcels 123‑45‑678 and 123‑45‑679.
+Access to the preserve area is restricted during nesting season.”
+
+Example 2 — A historic cemetery
+Description:
+“A 19th‑century cemetery containing early settler graves and a restored stone chapel.”
+Notes:
+“Registered Cemetery under Ohio Revised Code 4767.02.
+Formerly known as Old Union Burial Ground.”
+
+Example 3 — A nature preserve with limited access
+Description:
+“A high‑quality fen ecosystem featuring rare sedges and marl flats.”
+Notes:
+“Access is by permit only through ODNR.
+Site lies within the XYZ Local Historic District.
+Research access coordinated with Ohio State University.”
+
+🌿 6. The Golden Rule
+If the information defines what the Site is, it belongs in Description.
+If the information explains, clarifies, contextualizes, or qualifies the Site, it belongs in Notes.
+
+This rule has held up across every edge case we’ve tested.
+
+🌿 7. Final Summary
+Description = Identity
+- What the Site is
+- Narrative, visitor‑facing
+- Stable
+- Identity‑bearing
+Notes = Context
+- What we need to know that doesn’t define identity
+- Narrative + technical
+- Flexible
+- Non‑identity‑bearing
+Together, they form a clean, powerful pair that keeps your schema both expressive and disciplined.
+Your Description is what a visitor needs to know to understand the place.
+Your Notes are what a steward, historian, or analyst needs to know to understand the place.

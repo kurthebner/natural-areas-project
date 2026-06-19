@@ -1,0 +1,35 @@
+Cross-County Pass — Ottawa County, Ohio — 2026-05-20
+============================================================
+
+[TRAILS] Appended 4 cross-county rows to ottawa_trails.tsv
+  Previous row count: 51
+  New total: 55
+  No errors.
+
+[SITE NETWORKS] Appended 1 cross-county rows to ottawa_site_networks.tsv
+  Previous row count: 1
+  New total: 2
+  No errors.
+
+[ACCESS POINTS] Appended 2 cross-county rows to ottawa_access_points.tsv
+  Previous row count: 6
+  New total: 8
+  No errors.
+
+============================================================
+CROSS-COUNTY PASS SUMMARY
+----------------------------------------
+  Trail rows appended:        4
+  Site Network rows appended: 1
+  Access Point rows appended: 2
+  Total cross-county rows:    7
+  Total errors:               0
+
+MC ID assignments:
+  OH-OTT-T-084  → OH-MC-T-0109   (Metzger Marsh Trail; Condition B)
+  OH-OTT-T-125  → OH-MC-T-0110   (North Coast Inland Trail; Condition B)
+  OH-OTT-T-124  → OH-OTT-T-124   (LEIT; Scenario A; provisional)
+  PRWT          → OH-MC-TR-002    (pre-existing; Ottawa first to pipeline)
+  OH-OTT-SN-001 → OH-MC-SN-0002  (Ottawa NWR Complex; Condition B)
+  OH-OTT-AP-007 → OH-OTT-AP-007  (Oak Harbor; unblocked; parent PRWT)
+  OH-OTT-AP-008 → OH-OTT-AP-008  (Clemons/LEIT; unblocked; parent LEIT)

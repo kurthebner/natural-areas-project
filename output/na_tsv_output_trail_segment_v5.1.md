@@ -23,13 +23,13 @@ All normalization rules are defined in the
   surfaced from identity_notes_raw at discovery stage
 - **maps simplified**: TSV output was already URLs-only; now authoritative
   at all stages — no rich object format exists anywhere
-- **Field count**: 18 fields (was 18 in v5.0 but with different composition:
+- **Field count**: 17 fields (was 18 in v5.0 but with different composition:
   removed Derived Label and Parent Trail Network, added identity_notes,
   net zero change in count)
 - **Tab delimiters**: 16 (was 17 in v5.0)
 - **Schema discrepancy resolved**: v5.0 header said "17 FIELDS" but body
   listed 16 named fields with Segment ID undocumented; v5.1 header states
-  authoritative count of 18 fields
+  authoritative count of 17 fields
 - **TSV generation algorithm updated**: Steps revised for removed and
   added fields
 - **Error conditions updated**: Derived Label and Parent Trail Network

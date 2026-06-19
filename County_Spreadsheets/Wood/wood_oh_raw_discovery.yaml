@@ -1,0 +1,2067 @@
+records:
+- entity_type: Site
+  name_raw: Mary Jane Thurston State Park
+  counties_raw:
+  - Wood County
+  - Henry County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.410280'
+  gps_lon_raw: '-83.877780'
+  location_raw: 24698 State Route 65, Grand Rapids, OH 43522
+  acres_raw: '105'
+  description_raw: Maumee River access park with camping, trails, Miami and Erie Canal
+    remnants, and disc golf. Shared with Henry County.
+  features_raw: 39 campsites (16 tent, 23 electric), day lodge (50 capacity), boat
+    launch, marina, disc golf, hiking trails, 6 miles of trails, accessible campsites
+  urls_raw:
+  - https://parks.ohiodnr.gov/parks/details/mary-jane-thurston-state-park
+  identity_notes_raw: Cross-county entity — Wood and Henry counties. Primary access
+    from Wood County side.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Fort Meigs State Memorial
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: Ohio History Connection
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 29100 West River Road, Perrysburg, OH 43551
+  acres_raw: '65'
+  description_raw: Reconstructed War of 1812 fort and National Historic Landmark with
+    museum and educational programs on the Maumee River.
+  features_raw: Museum, Visitor Center, reconstructed fort (10 acres), historic battlefield,
+    guided tours, educational programs, reenactments, accessible facilities
+  urls_raw:
+  - https://fortmeigs.org
+  - https://www.ohiohistory.org/visit/museum-and-site-locator/fort-meigs/
+  identity_notes_raw: Baseline seeds include both 'Fort Meigs' and 'Fort Meigs State
+    Memorial' — these are the same entity. The Ohio History Connection manages as
+    state memorial; also sometimes called Fort Meigs State Historic Site. National
+    Historic Landmark designation. Baseline 'Fort Meigs Access' is believed to be
+    a separate ODNR fishing/boat access on the Maumee River near the fort — see separate
+    AP record.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Fort Meigs State Memorial
+- entity_type: Site
+  name_raw: Wood County Wildlife Area 1
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Small unmarked hunting area managed for wildlife habitat and public
+    hunting access.
+  features_raw: Hunting area, wildlife viewing, wetlands, woodlands
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: ODNR DOW numbered wildlife area. Exact location not disclosed
+    publicly — access via ODNR map.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Wood County Wildlife Area 1-10 (except 3)
+- entity_type: Site
+  name_raw: Wood County Wildlife Area 2
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Small unmarked hunting area managed for wildlife habitat and public
+    hunting access.
+  features_raw: Hunting area, wildlife viewing, wetlands, woodlands
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: ODNR DOW numbered wildlife area. Exact location not disclosed
+    publicly — access via ODNR map.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Wood County Wildlife Area 1-10 (except 3)
+- entity_type: Site
+  name_raw: Wood County Wildlife Area 4
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Small unmarked hunting area managed for wildlife habitat and public
+    hunting access.
+  features_raw: Hunting area, wildlife viewing, wetlands, woodlands
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: ODNR DOW numbered wildlife area. No WCA 3 exists in Wood County.
+    Exact location not disclosed publicly — access via ODNR map.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Wood County Wildlife Area 1-10 (except 3)
+- entity_type: Site
+  name_raw: Wood County Wildlife Area 5
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Small unmarked hunting area managed for wildlife habitat and public
+    hunting access. New controlled hunting designation for 2025.
+  features_raw: Hunting area, wildlife viewing, wetlands, woodlands
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: ODNR DOW numbered wildlife area. New for 2025 controlled hunting
+    per ODNR records.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Wood County Wildlife Area 1-10 (except 3)
+- entity_type: Site
+  name_raw: Wood County Wildlife Area 6
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Small unmarked hunting area managed for wildlife habitat and public
+    hunting access.
+  features_raw: Hunting area, wildlife viewing, wetlands, woodlands
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: ODNR DOW numbered wildlife area.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Wood County Wildlife Area 1-10 (except 3)
+- entity_type: Site
+  name_raw: Wood County Wildlife Area 7
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Small unmarked hunting area managed for wildlife habitat and public
+    hunting access.
+  features_raw: Hunting area, wildlife viewing, wetlands, woodlands
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: ODNR DOW numbered wildlife area.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Wood County Wildlife Area 1-10 (except 3)
+- entity_type: Site
+  name_raw: Wood County Wildlife Area 8
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Small unmarked hunting area managed for wildlife habitat and public
+    hunting access.
+  features_raw: Hunting area, wildlife viewing, wetlands, woodlands
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: ODNR DOW numbered wildlife area.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Wood County Wildlife Area 1-10 (except 3)
+- entity_type: Site
+  name_raw: Wood County Wildlife Area 9
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Small unmarked hunting area managed for wildlife habitat and public
+    hunting access.
+  features_raw: Hunting area, wildlife viewing, wetlands, woodlands
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: ODNR DOW numbered wildlife area.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Wood County Wildlife Area 1-10 (except 3)
+- entity_type: Site
+  name_raw: Wood County Wildlife Area 10
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Small unmarked hunting area managed for wildlife habitat and public
+    hunting access. Map available online.
+  features_raw: Hunting area, wildlife viewing, wetlands, woodlands
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: ODNR DOW numbered wildlife area. Map available on ODNR site.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Wood County Wildlife Area 1-10 (except 3)
+- entity_type: Site
+  name_raw: Bairdstown Wildlife Production Area
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Wildlife production area managed for wildlife habitat. Roadside
+    viewing only — no public hunting access.
+  features_raw: Wildlife viewing, roadside viewing only
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: Roadside-viewing-only wildlife production area. Not a hunting
+    area. Near Bairdstown community.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Dry Creek Wildlife Area
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Near US-24 and Township Road 6C, Wood County, OH
+  acres_raw: '2.34'
+  description_raw: Small ODNR wildlife area near US-24 corridor.
+  features_raw: Wildlife area, hunting
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: Approximately 2.34 acres per ODNR records. Near US-24 and Township
+    Rd 6C. Very small parcel.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Dry Creek Wildlife Area
+- entity_type: Site
+  name_raw: Maumee River Weir Rapids Wildlife Area
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 13827 S River Road, Grand Rapids, OH 43522
+  acres_raw: ''
+  description_raw: ODNR wildlife area along Maumee River providing fishing and wildlife
+    viewing access at the weir rapids.
+  features_raw: Fishing, wildlife viewing, river access, boat launch
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: Addressed at 13827 S River Rd, Grand Rapids. On Maumee River
+    at weir rapids. Distinct from WCPD Otsego Park nearby.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Maumee River Weir Rapids Wildlife Area
+- entity_type: Site
+  name_raw: Van Tassel Wildlife Area
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: ODNR wildlife area providing river access. River access only —
+    no developed facilities.
+  features_raw: River access, wildlife viewing
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: NEW — not in AutoRecovered baseline. River access only per ODNR
+    records.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Trail
+  name_raw: Portage River Water Trail
+  counties_raw:
+  - Wood County
+  - Ottawa County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Office of Coastal Management
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  length_raw: 36 miles
+  description_raw: 'Ohio State Water Trail #17. 36-mile paddling trail on the Portage
+    River, starting in Pemberville and flowing through Wood and Ottawa counties to
+    Lake Erie.'
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://ohiocoastalmanagement.ohiodnr.gov/water-trails
+  identity_notes_raw: 'Ohio Water Trail #17. Starts at William Henry Harrison Park
+    / WCPD launch in Pemberville. Flows Wood→Ottawa counties. 36 miles total length.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Trail
+  name_raw: Maumee River Water Trail
+  counties_raw:
+  - Williams County
+  - Defiance County
+  - Henry County
+  - Wood County
+  - Lucas County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR Office of Coastal Management
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  length_raw: 107 miles
+  description_raw: Ohio State Water Trail. 107-mile paddling trail on the Maumee River
+    through 5 counties in northwest Ohio.
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://ohiocoastalmanagement.ohiodnr.gov/water-trails
+  identity_notes_raw: Multi-county water trail. Wood County segment includes access
+    points at Grand Rapids, Perrysburg, and other river communities. Multiple WCPD
+    and municipal access points serve this trail.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Adam Phillips Pond
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 13660 County Home Road, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Fishing pond created as borrow pit during I-75 construction. Stocked
+    for public fishing. Open March through October.
+  features_raw: Stocked fishing pond, parking, ADA accessible fishing
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: Co-located with Wood County Museum at 13660 County Home Rd —
+    same address. Both are WCPD properties on the historic County Home complex grounds.
+    Two distinct entities.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Arrowwood Archery Range
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 11126 Linwood Road, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: WCPD archery range facility.
+  features_raw: Archery range, shooting range
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: NEW — not in AutoRecovered baseline. Found on current WCPD website.
+    11126 Linwood Rd, Bowling Green.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Baldwin Woods Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Range Line and Euler Roads, Bowling Green, OH 43402
+  acres_raw: '126'
+  description_raw: Mature woodlot preserve with hunting by permit program. 126 acres.
+  features_raw: Hunting by permit, hiking trails, woodlands, wetlands, grasslands
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Beaver Creek Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Natural preserve along Beaver Creek with hiking and nature study
+    opportunities.
+  features_raw: Hiking, nature study, wetlands, creek
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: Exact location address not confirmed on WCPD site at time of
+    discovery.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Black Swamp Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County (partial)
+  governance_raw: Wood County Park District
+  partner_agencies_raw: City of Bowling Green; Black Swamp Conservancy
+  coordination_raw: 'Tri-party governance: WCPD manages park portion, City of BG has
+    municipal interest, BSC holds conservation interest'
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: E. Gypsy Lane Road, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Major public preserve with connection to Slippery Elm Trail. 116
+    bird species recorded. Tri-party managed property.
+  features_raw: Hiking trails, bird watching, wildlife viewing, Slippery Elm Trail
+    connection, wetlands, woodlands
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: 'IDENTITY CONFLICT — three separate AutoRecovered records (WC-COUNTY-004,
+    WC-MUNI-BG-010, WC-CONS-001) all appear to describe the same physical property
+    at E. Gypsy Lane Rd, Bowling Green. Tri-party governance: WCPD manages park portion,
+    City of BG has municipal relationship, BSC holds conservation easement or owns
+    portion. Resolution should merge or link these three records. This WCPD record
+    is the primary. Also appears in City of BG parks list and BSC portfolio. The physical
+    site address is 1014 S Maple St per some sources — may be the same as E. Gypsy
+    Lane Rd address.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Bradner Preserve & Community Center
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 11491 Fostoria Road (State Route 23), Bradner, OH 43406
+  acres_raw: '233'
+  description_raw: WCPD's largest property at 233 acres featuring mature woodlot,
+    sand dunes, grasslands, and remnant prairie. Includes interpretive center and
+    community facilities.
+  features_raw: Interpretive center, indoor/outdoor rentable shelter, community room,
+    2.38 miles of hiking trails, sand dunes, grasslands, remnant prairie, mature woodlot,
+    educational programs, nature study
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Buttonwood/Betty C. Black Recreation Area
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 27174 Hull Prairie Road, Perrysburg, OH 43551
+  acres_raw: '27'
+  description_raw: Premier walleye fishing spot on the Maumee River. Approximately
+    65% of Maumee River walleye are caught near this location. Boat launch and Maumee
+    River Trail access.
+  features_raw: Boat launch, watercraft access, fishing, Maumee River Trail access,
+    parking
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: Baseline seed 'Buttonwood Access' confirmed as this entity —
+    officially named Buttonwood/Betty C. Black Recreation Area. Hull Prairie Road
+    address. The baseline name 'Buttonwood Access' suggests primary use as a river
+    access point; the official WCPD name treats it as a recreation area (Site type).
+    Record as Site; pipeline may also generate an Access Point child record for the
+    boat launch.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: true
+  baseline_id: Buttonwood Access
+- entity_type: Site
+  name_raw: Carter Historic Farm
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County (partial)
+  governance_raw: Wood County Park District
+  partner_agencies_raw: City of Bowling Green
+  coordination_raw: Joint facility — WCPD manages historic farm side, City of Bowling
+    Green manages recreation side
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 18331 Carter Road, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Historic farm donated by Loomis family, originally purchased by
+    Carter family in 1901 for $6,000. WCPD manages historic farm buildings and agricultural
+    programs.
+  features_raw: Loomis Community Room, historic farm buildings, agricultural programs,
+    farm tours, educational programs, guided tours
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: IDENTITY NOTE — co-located with City of Bowling Green's Carter
+    Park at 18331 Carter Rd. WCPD manages the historic farm side (Carter Historic
+    Farm); City of BG manages the recreation side (Carter Park with ball diamonds,
+    disc golf). Two distinct entities at same address — do not merge. See also WC-MUNI-BG-003.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Cedar Creeks Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Natural preserve along Cedar Creek corridor with hiking and picnicking.
+  features_raw: Hiking, rentable picnic shelter, wetlands, creeks
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: Exact address not confirmed at time of discovery.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Cricket Frog Cove
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Freyman Road, Henry Township, Wood County, OH (0.5 mile from Freyman
+    Road)
+  acres_raw: '160'
+  description_raw: 160-acre wildlife habitat preserve with hunting by permit. Located
+    0.5 mile from Freyman Road access.
+  features_raw: Hunting by permit, hiking trails, parking, wildlife viewing, wetlands
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Fuller Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Near Weston, Wood County, OH
+  acres_raw: ''
+  description_raw: Undeveloped natural area. Donated to Brown University then transferred
+    to WCPD. Stand of trees over a century old. Intentionally undeveloped; hunting
+    permitted.
+  features_raw: Hunting, hiking, old-growth forest, grasslands, wetlands
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: Intentionally undeveloped per WCPD — no facilities. Near Weston.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: J.C. Reuthinger Memorial Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 30730 Oregon Road, Perrysburg, OH 43551
+  acres_raw: '69'
+  description_raw: Home to WCPD native plant nursery, greenhouse, and Stewardship
+    Department. Grows 12,000–15,000 native plants annually for use across WCPD properties.
+  features_raw: Native plant nursery, greenhouse, stewardship offices, hiking, educational
+    programs, native plant programs
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: Primary function is WCPD nursery and stewardship operations.
+    Some public access for educational programs.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Nature Trails Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Gypsy Lane Road behind Wood County Justice Center Complex, Bowling
+    Green, OH 43402
+  acres_raw: ''
+  description_raw: Mix of woodlands, grasslands, and wetlands. No established trails
+    — visitors roam at will. Features astronomical observation program with large
+    telescope.
+  features_raw: Hiking (unestablished), wildlife viewing, astronomy program, astronomical
+    telescope, woodlands, grasslands, wetlands, hunting (seasonal)
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: VERIFICATION FLAG — in AutoRecovered baseline but NOT found
+    on current WCPD website at time of discovery. May have been removed, renamed,
+    or decommissioned. Closed during hunting seasons per earlier records. Confirm
+    status before pipeline.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Otsego Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Historic stone lodge overlooking Maumee River. Formerly Grand View
+    Park private resort. Includes boat launch and Maumee River Trail access.
+  features_raw: Historic stone lodge (rentable), boat launch, watercraft access, Maumee
+    River Trail access, hiking, picnicking, Maumee River
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: Baseline seed confirmed. Historic park — formerly private Grand
+    View Park resort. Stone lodge is a significant historic structure.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: true
+  baseline_id: Otsego Park
+- entity_type: Site
+  name_raw: Rudolph Bike Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Rudolph Road, 0.5 mile N. of Mermill Road, Rudolph, OH
+  acres_raw: ''
+  description_raw: Pump track and strider bike track facility. 1,783 ft continuous
+    pump track and 159 ft strider bike track.
+  features_raw: 1783 ft pump track, 159 ft strider bike track, cycling, BMX
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Rudolph Savanna
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Near Rudolph, Wood County, OH
+  acres_raw: ''
+  description_raw: Natural savanna habitat featuring native wildflowers, tall prairie
+    grasses, and sand dunes representative of the Black Swamp heritage landscape.
+  features_raw: Hiking trails, restrooms, trailhead, sand dunes, prairie grasses,
+    wildflowers, nature study
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Sawyer Quarry Nature Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 26940 Lime City Road, Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Former limestone quarry donated in 2014. Developed for rock climbing,
+    rappelling, bouldering, and hiking. Houses WCPD Program Naturalist offices.
+  features_raw: Rock climbing, bouldering, rappelling, hiking trails, ropes course,
+    check-in kiosk, accessible parking, program offices
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: Former quarry — unique rock formation habitat. Program Naturalist
+    offices located here. Climbing activities require registration.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: W.W. Knight Nature Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 29530 White Road, Perrysburg, OH 43551
+  acres_raw: '44'
+  description_raw: Nature center property donated by Knight family featuring LOONA
+    (Look Out On Nature Area), boardwalk, wetlands, remnant swamp woods, and native
+    prairie. 6 miles of trails.
+  features_raw: Nature center (10000 sq ft), Hankison Great Room (rentable), boardwalk,
+    1.5-acre fishing pond, parking, wetlands, remnant swamp woods, native prairie,
+    6 miles hiking trails, bird watching, educational programs, ADA accessible boardwalk
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Wakeman Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: Undeveloped natural area.
+  features_raw: Hiking, nature study, natural habitat
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: VERIFICATION FLAG — in AutoRecovered baseline but NOT found
+    on current WCPD website at time of discovery. May have been removed, renamed,
+    or merged with another property. Confirm status before pipeline.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: White Star Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: ''
+  acres_raw: ''
+  description_raw: WCPD park with recreational and natural habitat features.
+  features_raw: Hiking, recreation, natural habitat
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: VERIFICATION FLAG — in AutoRecovered baseline but NOT found
+    on current WCPD website at time of discovery. May have been removed, renamed,
+    or decommissioned. Confirm status before pipeline.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: William Henry Harrison Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 644 Bierley Avenue, Pemberville, OH 43450
+  acres_raw: '22'
+  description_raw: 22-acre park in Pemberville along the Portage River. Serves as
+    a Portage River Water Trail launch point.
+  features_raw: Boat launch, watercraft access, Portage River Water Trail access,
+    restrooms, fishing, hiking, Portage River
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: WCPD park in Pemberville village. Portage River Water Trail
+    trailhead. Distinct from Pemberville's own Memorial Park (municipal entity).
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Wood County Museum
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 13660 County Home Road, Bowling Green, OH 43402
+  acres_raw: '51'
+  description_raw: Wood County Museum on 51-acre historic County Home complex grounds.
+    WCPD manages the property.
+  features_raw: Museum, historic buildings, educational programs, historic site, parking
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: NEW — not in AutoRecovered baseline. Found on current WCPD website.
+    51 acres at 13660 County Home Rd — same address as Adam Phillips Pond (WC-COUNTY-001).
+    The County Home complex historically housed the county infirmary; WCPD now manages
+    the grounds including the pond and museum. Two distinct entities at same address.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Trail
+  name_raw: Slippery Elm Trail
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Wood County
+  governance_raw: Wood County Park District
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  length_raw: 13.1 miles
+  description_raw: Rails-to-trails conversion of former railroad corridor. Paved multi-use
+    trail from Bowling Green to North Baltimore, passing through Rudolph village.
+  difficulty_raw: ''
+  accessibility_raw: Paved, ADA accessible
+  urls_raw:
+  - https://wcparks.org
+  identity_notes_raw: Baseline seed confirmed. 13.1 miles paved. Trailheads at both
+    Bowling Green and North Baltimore ends with restrooms, water, benches.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 4
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: City Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Bowling Green
+  governance_raw: City of Bowling Green Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 520 Conneaut Avenue, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Flagship city park with pool complex, baseball, skatepark, and
+    0.5-mile walking loop.
+  features_raw: Swimming pool complex, baseball fields, skate park, 0.5-mile walking
+    loop, parking, ADA accessible pool
+  urls_raw:
+  - https://bgohio.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Bellard Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Bowling Green
+  governance_raw: City of Bowling Green Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Kenwood Avenue and Sand Ridge Road, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Small park featuring butterfly garden and walking trails.
+  features_raw: Butterfly garden, walking trails, pollinator garden
+  urls_raw:
+  - https://bgohio.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Carter Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Bowling Green
+  governance_raw: City of Bowling Green Parks & Recreation
+  partner_agencies_raw: Wood County Park District
+  coordination_raw: Joint facility — City of BG manages recreation side, WCPD manages
+    historic farm side
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 18331 Carter Road, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: City of Bowling Green recreation facility at the Carter Road complex.
+    Includes ball diamonds, disc golf, volleyball, shelters, and playgrounds.
+  features_raw: Baseball diamonds (8), disc golf course, volleyball courts (3), shelters,
+    playgrounds, parking
+  urls_raw:
+  - https://bgohio.gov
+  identity_notes_raw: IDENTITY NOTE — co-located with WCPD's Carter Historic Farm
+    at 18331 Carter Rd. City of BG manages recreation side (Carter Park); WCPD manages
+    historic farm side (Carter Historic Farm). Two distinct entities at same address
+    — do not merge. See also WCPD Carter Historic Farm record.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Wintergarden/St. John's Nature Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Bowling Green
+  governance_raw: City of Bowling Green Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 615 S. Wintergarden Road, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Municipal nature preserve with 168 bird species recorded.
+  features_raw: Hiking trails, bird watching, wildlife viewing, 168 bird species
+  urls_raw:
+  - https://bgohio.gov
+  identity_notes_raw: Baseline seed 'Saint Johns Woods' is believed to refer to this
+    entity — the St. John's Nature Preserve / Wintergarden Rd preserve area. Confirm
+    identity match during normalization.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Saint Johns Woods
+- entity_type: Site
+  name_raw: Simpson Garden Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Bowling Green
+  governance_raw: City of Bowling Green Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 192 S. Main Street, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Downtown garden park in central Bowling Green.
+  features_raw: Gardens, benches, walking, urban garden
+  urls_raw:
+  - https://bgohio.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Conneaut Park Sledding Hill
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Bowling Green
+  governance_raw: City of Bowling Green Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Conneaut Avenue and Haskins Road, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Former reservoir site converted to sledding hill. Seasonal winter
+    recreation.
+  features_raw: Sledding hill, seasonal recreation
+  urls_raw:
+  - https://bgohio.gov
+  identity_notes_raw: Former municipal reservoir site. Seasonal use (winter sledding).
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Dunbridge Road Soccer Fields
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Bowling Green
+  governance_raw: City of Bowling Green Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Behind Municipal Court, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Municipal soccer field complex.
+  features_raw: Soccer fields, athletic fields, parking
+  urls_raw:
+  - https://bgohio.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Raney Playground
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Bowling Green
+  governance_raw: City of Bowling Green Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Sand Ridge Road, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Playground named for architect Jack Raney, added 2006. ADA accessible
+    equipment.
+  features_raw: Playground, ADA accessible play equipment
+  urls_raw:
+  - https://bgohio.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Ridge Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Bowling Green
+  governance_raw: City of Bowling Green Parks & Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 225 Ridge Street, Bowling Green, OH 43402
+  acres_raw: ''
+  description_raw: Newest Bowling Green park (2015), developed on former elementary
+    school site.
+  features_raw: Park facilities, walking, recreation
+  urls_raw:
+  - https://bgohio.gov
+  identity_notes_raw: Opened 2015 on former school grounds.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Municipal Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 945 Elm Street, Perrysburg, OH 43551
+  acres_raw: '23.5'
+  description_raw: Flagship city park with pool, tennis, pickleball, baseball, softball,
+    and summer recreation programs.
+  features_raw: Swimming pool (opens May 31), tennis courts, pickleball courts, baseball
+    fields, softball fields, walking paths, parking, ADA accessible facilities
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: Perrysburg's main municipal park at 945 Elm St. 23.5 acres.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Bicentennial Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Neighborhood park in Perrysburg.
+  features_raw: Recreation, neighborhood park
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Davis Overlook
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Scenic overlook in Perrysburg with views of the Maumee River.
+  features_raw: Scenic overlook, observation area
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Eisenhower Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Neighborhood park in Perrysburg.
+  features_raw: Recreation, neighborhood park
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Hood Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Park in Perrysburg containing war memorials.
+  features_raw: War memorials, monument, walking, historic viewing
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: War memorials located here per city records.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Milestone Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Perrysburg's smallest park.
+  features_raw: Walking, relaxation, small urban park
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: Described as Perrysburg's smallest park on city website.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Orleans Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Neighborhood park in Perrysburg.
+  features_raw: Recreation, neighborhood park
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: Baseline seed confirmed. City of Perrysburg park.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Orleans Park
+- entity_type: Site
+  name_raw: Riverside Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Riverfront park on the Maumee River with seasonal Christmas light
+    displays and walking.
+  features_raw: Walking, Maumee River access, seasonal events, lighting
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Rotary Community Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Behind Fort Meigs YMCA, Perrysburg, OH 43551
+  acres_raw: '19.8'
+  description_raw: Community park with trails and wooded areas.
+  features_raw: Hiking trails, wooded areas, recreation
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: Located behind Fort Meigs YMCA. 19.8 acres.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Rivercrest Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Neighborhood park in Perrysburg.
+  features_raw: Recreation, neighborhood park
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Three Meadows Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Park with trails, wooded areas, and open fields.
+  features_raw: Hiking trails, walking trails, wooded areas, open fields
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Woodland Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Wooded neighborhood park in Perrysburg.
+  features_raw: Recreation, wooded park
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Veterans Memorial Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Rossford
+  governance_raw: City of Rossford
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Rossford, OH 43460 (Maumee River waterfront)
+  acres_raw: ''
+  description_raw: Maumee River waterfront park with boating, fishing, and sports
+    facilities.
+  features_raw: Ball diamond, tennis courts, basketball courts, grills, picnic shelters,
+    boat ramp, fishing, Maumee River access
+  urls_raw:
+  - https://rossfordohio.com
+  identity_notes_raw: Baseline seed 'Rossford City Park and Marina' likely refers
+    to this entity — Veterans Memorial Park is on the Maumee River with boat/marina
+    facilities. Confirm identity during normalization.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Rossford City Park and Marina
+- entity_type: Site
+  name_raw: Island View Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Rossford
+  governance_raw: City of Rossford
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Route 65/Dixie Highway past Lime City Road, Rossford, OH 43460
+  acres_raw: ''
+  description_raw: Park featuring 1.1-mile exercise course with 16 stations on the
+    Maumee River. 124 bird species recorded.
+  features_raw: 1.1-mile exercise course, 16 exercise stations, bird watching, walking,
+    Maumee River frontage, 124 bird species
+  urls_raw:
+  - https://rossfordohio.com
+  identity_notes_raw: ''
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Ed Ford Memorial Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Rossford
+  governance_raw: City of Rossford
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Dixie Highway and Elm Street, Rossford, OH 43460
+  acres_raw: ''
+  description_raw: Park built in 1998 for Rossford city centennial. Named for city
+    founder.
+  features_raw: Urban park, recreation
+  urls_raw:
+  - https://rossfordohio.com
+  identity_notes_raw: Built 1998 for city Centennial. Named for city founder.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Beech Street Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Rossford
+  governance_raw: City of Rossford
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Beech Street, Rossford, OH 43460
+  acres_raw: ''
+  description_raw: Neighborhood park in Rossford.
+  features_raw: Neighborhood park, recreation
+  urls_raw:
+  - https://rossfordohio.com
+  identity_notes_raw: NEW — not in AutoRecovered baseline. Found during Tier 6 Rossford
+    discovery.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Ranger Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Northwood
+  governance_raw: City of Northwood
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Northwood, OH 43619
+  acres_raw: ''
+  description_raw: Municipal park in Northwood.
+  features_raw: Recreation, park facilities
+  urls_raw:
+  - https://ci.northwood.oh.us
+  identity_notes_raw: NEW — not in AutoRecovered baseline. Northwood is in Wood County
+    near Toledo metro area.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Nature Trails Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Northwood
+  governance_raw: City of Northwood
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Northwood, OH 43619
+  acres_raw: ''
+  description_raw: Municipal park with nature trail features in Northwood.
+  features_raw: Hiking trails, nature, recreation
+  urls_raw:
+  - https://ci.northwood.oh.us
+  identity_notes_raw: 'NEW — not in AutoRecovered baseline. Note: distinct from WCPD''s
+    Nature Trails Park in Bowling Green. Northwood municipal entity.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Central Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Northwood
+  governance_raw: City of Northwood
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Northwood, OH 43619
+  acres_raw: ''
+  description_raw: Central municipal park in Northwood.
+  features_raw: Recreation, park facilities
+  urls_raw:
+  - https://ci.northwood.oh.us
+  identity_notes_raw: NEW — not in AutoRecovered baseline.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Brentwood Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Northwood
+  governance_raw: City of Northwood
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Northwood, OH 43619
+  acres_raw: ''
+  description_raw: Neighborhood park in Northwood.
+  features_raw: Recreation, neighborhood park
+  urls_raw:
+  - https://ci.northwood.oh.us
+  identity_notes_raw: NEW — not in AutoRecovered baseline.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Village Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Village of North Baltimore
+  governance_raw: Village of North Baltimore
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: North Baltimore, OH 45872
+  acres_raw: ''
+  description_raw: Village park in North Baltimore with disc golf and fishing pond.
+    Also serves as southern terminus area for Slippery Elm Trail.
+  features_raw: Disc golf course, fishing pond, pond, restrooms, walking
+  urls_raw: []
+  identity_notes_raw: Baseline seed 'North Baltimore Reservoir' may relate to this
+    entity or to a separate municipal water reservoir. The Village Park has a fishing
+    pond; the 'North Baltimore Reservoir' may be a separate historical/water utility
+    reference. Flag for review.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Railway Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Village of Walbridge
+  governance_raw: Village of Walbridge
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Walbridge, OH 43465
+  acres_raw: ''
+  description_raw: Railroad-themed park in Walbridge village.
+  features_raw: Railroad heritage, historic structure, park facilities
+  urls_raw: []
+  identity_notes_raw: NEW — not in AutoRecovered baseline.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Mehring Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Village of Tontogany
+  governance_raw: Village of Tontogany
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Tontogany, OH 43565
+  acres_raw: ''
+  description_raw: Municipal park in Tontogany village.
+  features_raw: Park facilities, recreation
+  urls_raw: []
+  identity_notes_raw: NEW — not in AutoRecovered baseline.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Centennial Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Village of Tontogany
+  governance_raw: Village of Tontogany
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Tontogany, OH 43565
+  acres_raw: ''
+  description_raw: Centennial park in Tontogany village.
+  features_raw: Park facilities, recreation
+  urls_raw: []
+  identity_notes_raw: NEW — not in AutoRecovered baseline.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Grand Rapids Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Village of Grand Rapids
+  governance_raw: Village of Grand Rapids
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Grand Rapids, OH 43522
+  acres_raw: ''
+  description_raw: Village park along the Maumee River and historic Miami and Erie
+    Canal corridor in Grand Rapids.
+  features_raw: Maumee River access, canal heritage, walking, picnicking
+  urls_raw: []
+  identity_notes_raw: Grand Rapids is a historic village on the Maumee River near
+    Mary Jane Thurston State Park. Canal heritage area.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Memorial Park
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Village of Pemberville
+  governance_raw: Village of Pemberville
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Pemberville, OH 43450
+  acres_raw: ''
+  description_raw: Village park with pool, tennis, and basketball facilities.
+  features_raw: Swimming pool, tennis courts, basketball court, recreation
+  urls_raw: []
+  identity_notes_raw: Municipal park — distinct from WCPD's William Henry Harrison
+    Park which is also in Pemberville on the Portage River.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Access Point
+  name_raw: Louisiana Avenue Boat Dock
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Louisiana Avenue, Perrysburg, OH 43551
+  description_raw: City of Perrysburg boat dock providing Maumee River access.
+  features_raw: Boat dock, Maumee River access
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: 'Perrysburg municipal boat dock on Maumee River. Potential parent
+    site: Riverside Park or standalone access point.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+- entity_type: Access Point
+  name_raw: Maple Street Boat Launch
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: City of Perrysburg
+  governance_raw: City of Perrysburg
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Maple Street, Perrysburg, OH 43551
+  description_raw: City of Perrysburg boat launch providing Maumee River access.
+  features_raw: Boat launch, Maumee River water access, watercraft access
+  urls_raw:
+  - https://perrysburgoh.gov
+  identity_notes_raw: Baseline seed 'Maple St. Access' confirmed as this entity. City
+    of Perrysburg maintained.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Maple St. Access
+- entity_type: Access Point
+  name_raw: Fort Meigs Access
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: State of Ohio
+  governance_raw: ODNR
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Near Fort Meigs, Perrysburg, OH 43551 (Maumee River)
+  description_raw: ODNR fishing and boat access point on the Maumee River near Fort
+    Meigs.
+  features_raw: Boat ramp, fishing access, Maumee River access
+  urls_raw:
+  - https://wildohio.gov
+  identity_notes_raw: Baseline seed confirmed as a separate ODNR river access point
+    — distinct from Fort Meigs State Memorial (managed by Ohio History Connection).
+    ODNR maintains fishing/boat access points on the Maumee near the historic fort
+    site.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Fort Meigs Access
+- entity_type: Site
+  name_raw: Mishe Monoto Preserve
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Appalachia Ohio Alliance
+  governance_raw: Appalachia Ohio Alliance
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Wood County, OH
+  acres_raw: '140'
+  description_raw: 140-acre natural preserve managed by Appalachia Ohio Alliance in
+    Wood County.
+  features_raw: Hiking, nature study, natural habitat preservation
+  urls_raw: []
+  identity_notes_raw: Baseline seed confirmed. Managed by Appalachia Ohio Alliance.
+    140 acres. Exact address not confirmed at time of discovery — GPS acquisition
+    needed.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 7
+  seeded_from_baseline: true
+  baseline_id: Mishe Monoto Preserve
+- entity_type: Site
+  name_raw: 577 Foundation
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: 577 Foundation (nonprofit)
+  governance_raw: 577 Foundation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 577 E. Front Street, Perrysburg, OH 43551
+  acres_raw: ''
+  description_raw: Former Virginia Secor Stranahan estate converted to nonprofit community
+    arts and nature center. Features geodesic biodome, fossil dig site, historic log
+    cabin (1803), and Maumee River access.
+  features_raw: Geodesic Biodome, observation beehive, log cabin (1803 historic structure),
+    StoryWalk Trail, River Walk, Bird Blind, fossil dig, community gardens, children's
+    garden, solar display, pottery studio, Curiosity Shop, guided tours, educational
+    programs, nature center, Maumee River frontage, ADA accessible grounds
+  urls_raw:
+  - https://577foundation.org
+  identity_notes_raw: Former Stranahan estate. Public nonprofit — open to public with
+    programming. Devonian fossil site (375M years) on Maumee River.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: BGSU Native Prairie Garden
+  counties_raw:
+  - Wood County
+  county_primary: Wood
+  ownership_raw: Bowling Green State University
+  governance_raw: Bowling Green State University Office of Campus Sustainability
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Off Wintergarden Road, behind President's residence, Bowling Green,
+    OH 43402
+  acres_raw: ''
+  description_raw: Multiple BGSU prairie restoration sites preserving native Ohio
+    prairie species from pre-settlement Wood County. Teaching and research facility.
+    Sites include University House Prairie, Poe Prairie, Shatzel Prairie Garden, and
+    Butterfly Habitat.
+  features_raw: Native prairie restoration, educational signage, controlled burn management,
+    hiking, research, Big bluestem, Indian grass, Wild bergamot
+  urls_raw:
+  - https://bgsu.edu/campus-sustainability
+  identity_notes_raw: University-managed but publicly accessible campus natural areas.
+    Multiple sub-sites (University House Prairie, Poe Prairie, Shatzel Prairie Garden,
+    Butterfly Habitat) — may warrant individual records or parent-child grouping in
+    normalization.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Bell Woods Nature Preserve
+  counties_raw:
+  - Wood
+  county_primary: Wood
+  ownership_raw: Black Swamp Conservancy
+  governance_raw: Black Swamp Conservancy
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 4825 Sugar Ridge Road, Pemberville, OH 43450 (adjacent to BSC headquarters)
+  acres_raw: '80'
+  description_raw: 80-acre woodland preserve owned by Black Swamp Conservancy. One
+    of the few remnants of the historic Great Black Swamp that retains the land's
+    natural characteristics. Known for spectacular spring wildflower blooms and an
+    active Great Blue Heron rookery. Adjacent to Pat & Clint Mauk's Prairie at the
+    BSC headquarters property on Sugar Ridge Road, Pemberville.
+  features_raw: Spring wildflowers; Great Blue Heron rookery; woodland habitat; nature
+    study; guided tours
+  urls_raw:
+  - https://blackswamp.org/protected_land/bell-woods-pat-and-clint-mauks-prairie/
+  - https://blackswamp.org/properties/land-we-own/
+  identity_notes_raw: 'T7 MISS — found during cross-county audit 2026-05-16 (identified
+    while working Hancock County T7). BSC Land We Own portfolio was not enumerated
+    per IMP-029 during Wood County T7 discovery. ACCESS: Guided tours only — not self-guided
+    public access. BSC presents Bell Woods and adjacent Pat & Clint Mauk''s Prairie
+    under a single combined URL (blackswamp.org/protected_land/bell-woods-pat-and-clint-mauks-prairie/);
+    staged as two separate records due to distinct character and access modes. Address
+    is BSC HQ address — GPS acquisition needed for precise parcel location. Wood County
+    pipeline must be re-run after this record is staged.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Pat & Clint Mauk's Prairie
+  counties_raw:
+  - Wood
+  county_primary: Wood
+  ownership_raw: Black Swamp Conservancy
+  governance_raw: Black Swamp Conservancy
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 4825 Sugar Ridge Road, Pemberville, OH 43450 (BSC headquarters property)
+  acres_raw: '30'
+  description_raw: 30-acre native prairie preserve owned by Black Swamp Conservancy,
+    located adjacent to BSC headquarters in Pemberville. Features native prairie habitat
+    with several prairie pothole wetlands. A one-mile public trail runs through the
+    prairie with a Storybook Trail (books updated monthly). Open to the public from
+    dawn until dusk. Includes a Buckeye Trail camping site. Adjacent to Bell Woods
+    Nature Preserve (BSC, 80 ac).
+  features_raw: Native prairie; prairie pothole wetlands; 1-mile public trail; Storybook
+    Trail (monthly rotating books); Buckeye Trail camping site; wildlife observation;
+    open dawn to dusk
+  urls_raw:
+  - https://blackswamp.org/protected_land/bell-woods-pat-and-clint-mauks-prairie/
+  - https://blackswamp.org/properties/land-we-own/
+  identity_notes_raw: 'T7 MISS — found during cross-county audit 2026-05-16 (identified
+    while working Hancock County T7). BSC Land We Own portfolio was not enumerated
+    per IMP-029 during Wood County T7 discovery. ACCESS: Open to public dawn to dusk
+    (self-guided). BSC presents this property combined with Bell Woods under a single
+    URL; staged as separate record due to distinct character (prairie vs. woodland)
+    and public vs. guided-tour access. Buckeye Trail camping site presence suggests
+    possible Access Point or cross-reference to T2 Buckeye Trail record. Address is
+    BSC HQ address; GPS acquisition needed for precise prairie parcel location. Wood
+    County pipeline must be re-run after this record is staged.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Pat & Clint Mauk's Prairie Trail
+  counties_raw:
+  - Wood
+  county_primary: Wood
+  ownership_raw: Black Swamp Conservancy
+  governance_raw: Black Swamp Conservancy
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://blackswamp.org/protected_land/bell-woods-pat-and-clint-mauks-prairie/
+  identity_notes_raw: 'T7 MISS — found during cross-county audit 2026-05-16. 1-mile
+    public trail through Pat & Clint Mauk''s Prairie (BSC, 30 ac, Pemberville). Includes
+    Storybook Trail feature (rotating books updated monthly). Open dawn to dusk. Parent
+    site: Pat & Clint Mauk''s Prairie. Wood County pipeline must be re-run after this
+    record is staged.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: ''

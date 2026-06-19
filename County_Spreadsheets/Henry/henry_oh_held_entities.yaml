@@ -1,0 +1,14 @@
+run_id: henry_oh_2026_04_20
+county: Henry
+state: Ohio
+count: 1
+held_entities:
+- record_id: HEN_S_019
+  entity_type: Site
+  name: Maumee State Scenic River
+  hold_reason: gps_missing
+  hold_detail: 'IMP-069: GPS null — GPS Acquisition Module: all queries failed or
+    NONE confidence (linear_feature). Entity excluded from TSV/upsert.'
+  county: Henry
+  run_id: henry_oh_2026_04_20
+  created_at: '2026-04-26'

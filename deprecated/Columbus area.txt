@@ -1,0 +1,288 @@
+xColumbus
+xGrandview Heights - done
+xUpper Arlington - done
+xValleyview - done
+xWesterville - done
+xWhitehall - done
+xWorthington - done
+xBexley - done
+xHilliard -done
+xReynoldsburg - done
+xGahanna - done
+xObetz - done
+xCanal Winchester - done
+xNew Albany - done
+xDublin - done
+xMinerva Park - done
+xMarble Cliff - done
+xRiverlea - done
+xGrove City - done
+West Jefferson - Madison County
+xGalloway - n/a
+Groveport -
+Pickerington -
+xBrice -
+xHarrisburg -
+xLockbourne -
+Urbancrest -
+
+
+now a sweep for Grove City-managed greenspaces in Franklin County
+
+
+- 13th Street Park
+- 15th Avenue Street Park
+- Academy Park
+- Alban Mews Park
+- Albany Crossing Park
+- Alexander AEP Park
+- Alkire Lakes Park
+- Alkire Woods Park
+- American Addition Park
+- American Legion Park
+- Amvet Village Park
+- Anheuser Busch Sports Park
+- Antrim Park
+- Argus Park
+- Audubon Park
+- Avalon Park
+- Barnett Park
+- Battelle Riverfront Park
+- Beatty Park
+- Beechcroft Park
+- Beechwold Park
+- Berliner Sports Park
+- Berwick Park
+- Bicentennial Park
+- Big Run Park
+- Big Walnut Park
+- Blackburn Park
+- Blendon Woods Parkland
+- Blue Ridge Park
+- Bojax Park
+- Bolton Field Parkland
+- Brandywine Park
+- Brentnell Park
+- Brevoort Park
+- Briggsdale Park
+- Brookside Woods Park
+- Buckeye Middle School Parkland
+- Burbank Park
+- Burroughs Park
+- Buscho Park
+- Canini Park
+- Carriage Place Park
+- Cassady Park
+- Casto Park
+- Cedar Run Park
+- Channingway Park
+- Chaseland Park
+- Cherry Bottom Park
+- Chevy Chase Park
+- Citygate Park
+- Clinton-Como Park
+- Clintonville Park
+- Clover Groff Natural Area
+- Cooke Park
+- Cooper Park
+- Cranbrook Park
+- Crawford Farms Park
+- Cremeans Park
+- Dierker Park
+- Dodge Park
+- Driving Park
+- Dublin Road Parkland
+- Easthaven Park
+- Eastmoor Park
+- Elk Run Park
+- Fairwood Park
+- Far East Parkland
+- Far South Parkland
+- Feddersen Park
+- Ferris Park
+- Fetter Park
+- Forest Park East Park
+- Forest Park West Park
+- Fort Hayes Parkland
+- Franklin Park
+- Franks Park
+- Gantz Park
+- Gavin Park
+- Glen Echo Park
+- Glenwood Park
+- Glenwood Sprayground
+- Goodale Park
+- Goodale South Parkland
+- Greenway Trails – Alum Creek
+- Greenway Trails – Big Walnut
+- Greenway Trails – Blacklick Creek
+- Greenway Trails – Camp Chase
+- Greenway Trails – Darby Creek
+- Greenway Trails – Downtown Connector
+- Greenway Trails – Olentangy
+- Greenway Trails – Scioto
+- Greenway Trails – Scioto Connector
+- Greenway Trails – Sullivant Trace
+- Greenway Trails – Three Creeks
+- Greenway Trails – Westmoor
+- Greenway Trails – Wilson Road
+- Hauntz Park
+- Hayden Falls Park
+- Hayden Run Village Park
+- Hiawatha Park
+- Hilltonia Park
+- Holton Park
+- Hoover Reservoir Parkland
+- Howard Park
+- Indian Mound Park
+- Indianola Park
+- Innis Park
+- Italian Village Park
+- Karns Park
+- Kenlawn Park
+- Kenney Park
+- Kingsrowe Park
+- Krumm Park
+- Lazelle Woods Park
+- Lazelle Woods Sprayground
+- Leewood Park
+- Linden Park
+- Lindbergh Park
+- Linwood Park
+- Livingston Park
+- Lou Berliner Sports Park
+- Marion Franklin Park
+- Martin Luther King Park
+- Maryland Park
+- Maybury Park
+- Mayme Moore Park
+- McCoy Park
+- McKinley Park
+- Mock Park
+- Moler Park
+- Nafzger Park
+- Nelson Park
+- North Bank Park
+- Northgate Park
+- Northmoor Park
+- Northwood Park
+- Nottingham Park
+- Oakland Park
+- Olde Towne East Park
+- Olentangy Parkland
+- Orton Park
+- Parkridge Park
+- Parsons Park
+- Paul A. Johnson Senior Center Parkland
+- Penrose Park
+- Pingue Park
+- Pontiac Village Park
+- Portman Park
+- Pumphrey Park
+- Purnell Park
+- Pusch Ridge Park
+- Raney Commons
+- Rathbone Park
+- Raymond Memorial Parkland
+- Redick Park
+- Rhodes Park
+- Ridgegate Park
+- Ridgeview Park
+- Ridgewood Park
+- Riverbend Park
+- Riverway Kiwanis Park
+- Rohrer Park
+- Roosevelt Park
+- Rosewind Park
+- Royal Manor Park
+- Rusch Park
+- Saunders Park
+- Sawyer Park
+- Schiller Park
+- Scioto Audubon Metro Park (co-managed)
+- Scioto Mile Promenade
+- Sensenbrenner Park
+- Shady Lane Park
+- Sharon Meadows Park
+- Shepard Park
+- Sherwood Park
+- Sills Park
+- Smith Farm
+- South Central Park
+- Southgate Park
+- Southmoor Park
+- Southwood Park
+- St. Clair Park
+- St. Mary’s Park
+- Stimmel Park
+- Stockbridge Park
+- Strawberry Farms Park
+- Sullivant Gardens Park
+- Sunshine Park
+- Sycamore Hills Park
+- Tanager Woods Park
+- Tanglewood Park
+- Tennyson Park
+- Thompson Park
+- Three Creeks Park (CRPD-managed portion)
+- Tussing Park
+- Tuttle Park
+- Tuttle Sprayground
+- University View Park
+- Valleyview Park
+- Walden Bluff Park
+- Walden Park
+- Walnut Creek Park
+- Walnut Hill Park
+- Walnut Ridge Park
+- Walnut View Park
+- Washington Gladden Social Justice Park
+- Washington Park
+- Watkins Park
+- Waterford Park
+- Wedgewood Park
+- Weinland Park
+- Wellington Park
+- Wellesley Park
+- Welsh Park
+- West Columbus Interim Parkland
+- West Side Parkland
+- Westgate Park
+- Westmoor Park
+- Westwood Park
+- Whetstone Park
+- Whetstone Prairie
+- Wilbur Park
+- Wilke Park
+- Williams Creek Park
+- Williams Park
+- Willis Park
+- Willow Creek Park
+- Wilson Avenue Park
+- Wilson Road Park
+- Windsor Park
+- Windsor Terrace Park
+- Winslow Park
+- Winsor Park
+- Winterset Park
+- Winton Park
+- Wolfe Park
+- Woodbridge Green Park
+- Woodbridge Park
+- Woodward Nature Preserve
+- Woodward Park
+- Woodward Sprayground
+- Worthington Woods Park
+- Wynstone Park
+- Yorktown Park
+- Zachary’s Park
+- Zeller Park
+- Zimmer Park
+- Zoller Park
+- Zuber Park
+- Zubrod Park
+- Zue Park
+- Zuercher Park
+- Zunich Park
+- Zwiesler Park
+- Zwilling Park

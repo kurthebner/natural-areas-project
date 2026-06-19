@@ -1,0 +1,4216 @@
+run_id: henry_oh_2026_04_20
+county: Henry County
+state: Ohio
+resolution_date: '2026-04-26'
+records_input: 50
+entities_resolved: 50
+merge_clusters_formed: 0
+singletons: 50
+review_sets:
+- record_ids:
+  - 1
+  - 2
+  record_names:
+  - North Turkeyfoot Wildlife Area
+  - Florida Wildlife Area
+  entity_type: Site
+  similarity_score: 77.6
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 1
+  - 3
+  record_names:
+  - North Turkeyfoot Wildlife Area
+  - Henry County Wildlife Area 1
+  entity_type: Site
+  similarity_score: 69.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 1
+  - 4
+  record_names:
+  - North Turkeyfoot Wildlife Area
+  - Henry County Wildlife Area 2
+  entity_type: Site
+  similarity_score: 69.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 1
+  - 5
+  record_names:
+  - North Turkeyfoot Wildlife Area
+  - Henry County Wildlife Area 3
+  entity_type: Site
+  similarity_score: 69.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 1
+  - 31
+  record_names:
+  - North Turkeyfoot Wildlife Area
+  - Meyerholtz Wildlife Park
+  entity_type: Site
+  similarity_score: 51.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 2
+  - 3
+  record_names:
+  - Florida Wildlife Area
+  - Henry County Wildlife Area 1
+  entity_type: Site
+  similarity_score: 71.1
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 2
+  - 4
+  record_names:
+  - Florida Wildlife Area
+  - Henry County Wildlife Area 2
+  entity_type: Site
+  similarity_score: 71.1
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 2
+  - 5
+  record_names:
+  - Florida Wildlife Area
+  - Henry County Wildlife Area 3
+  entity_type: Site
+  similarity_score: 71.1
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 2
+  - 31
+  record_names:
+  - Florida Wildlife Area
+  - Meyerholtz Wildlife Park
+  entity_type: Site
+  similarity_score: 51.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 3
+  - 4
+  record_names:
+  - Henry County Wildlife Area 1
+  - Henry County Wildlife Area 2
+  entity_type: Site
+  similarity_score: 83.6
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'Numbered-name hard separation: ''Henry County Wildlife
+    Area 1'' vs ''Henry County Wildlife Area 2'' — same stem ''Henry County Wildlife
+    Area'', different ordinal'
+  note: 'HARD SEPARATED (§10.5): Numbered-name hard separation: ''Henry County Wildlife
+    Area 1'' vs ''Henry County Wildlife Area 2'' — same stem ''Henry County Wildlife
+    Area'', different ordinal'
+- record_ids:
+  - 3
+  - 5
+  record_names:
+  - Henry County Wildlife Area 1
+  - Henry County Wildlife Area 3
+  entity_type: Site
+  similarity_score: 83.6
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'Numbered-name hard separation: ''Henry County Wildlife
+    Area 1'' vs ''Henry County Wildlife Area 3'' — same stem ''Henry County Wildlife
+    Area'', different ordinal'
+  note: 'HARD SEPARATED (§10.5): Numbered-name hard separation: ''Henry County Wildlife
+    Area 1'' vs ''Henry County Wildlife Area 3'' — same stem ''Henry County Wildlife
+    Area'', different ordinal'
+- record_ids:
+  - 4
+  - 5
+  record_names:
+  - Henry County Wildlife Area 2
+  - Henry County Wildlife Area 3
+  entity_type: Site
+  similarity_score: 83.6
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'Numbered-name hard separation: ''Henry County Wildlife
+    Area 2'' vs ''Henry County Wildlife Area 3'' — same stem ''Henry County Wildlife
+    Area'', different ordinal'
+  note: 'HARD SEPARATED (§10.5): Numbered-name hard separation: ''Henry County Wildlife
+    Area 2'' vs ''Henry County Wildlife Area 3'' — same stem ''Henry County Wildlife
+    Area'', different ordinal'
+- record_ids:
+  - 20
+  - 21
+  record_names:
+  - Oakwood Park
+  - Glenwood Park
+  entity_type: Site
+  similarity_score: 87.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0045, lon_diff=0.0423 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0045, lon_diff=0.0423
+    > 0.01'
+- record_ids:
+  - 20
+  - 22
+  record_names:
+  - Oakwood Park
+  - Ritter Park
+  entity_type: Site
+  similarity_score: 74.3
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0117, lon_diff=0.0457 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0117, lon_diff=0.0457
+    > 0.01'
+- record_ids:
+  - 20
+  - 24
+  record_names:
+  - Oakwood Park
+  - Oberhaus Park
+  entity_type: Site
+  similarity_score: 79.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0111, lon_diff=0.0343 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0111, lon_diff=0.0343
+    > 0.01'
+- record_ids:
+  - 20
+  - 26
+  record_names:
+  - Oakwood Park
+  - Swearingen Park
+  entity_type: Site
+  similarity_score: 74.1
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0063, lon_diff=0.0204 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0063, lon_diff=0.0204
+    > 0.01'
+- record_ids:
+  - 20
+  - 27
+  record_names:
+  - Oakwood Park
+  - East Riverdowns Park
+  entity_type: Site
+  similarity_score: 73.3
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0016, lon_diff=0.0173 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0016, lon_diff=0.0173
+    > 0.01'
+- record_ids:
+  - 20
+  - 28
+  record_names:
+  - Oakwood Park
+  - Napoleon Dog Park
+  entity_type: Site
+  similarity_score: 74.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0010, lon_diff=0.0199 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0010, lon_diff=0.0199
+    > 0.01'
+- record_ids:
+  - 20
+  - 29
+  record_names:
+  - Oakwood Park
+  - Wayne Park
+  entity_type: Site
+  similarity_score: 66.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0247, lon_diff=0.0542 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0247, lon_diff=0.0542
+    > 0.01'
+- record_ids:
+  - 20
+  - 30
+  record_names:
+  - Oakwood Park
+  - Vorwerk Park
+  entity_type: Site
+  similarity_score: 75.5
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0192, lon_diff=0.0111 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0192, lon_diff=0.0111
+    > 0.01'
+- record_ids:
+  - 20
+  - 31
+  record_names:
+  - Oakwood Park
+  - Meyerholtz Wildlife Park
+  entity_type: Site
+  similarity_score: 69.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0200, lon_diff=0.0525 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0200, lon_diff=0.0525
+    > 0.01'
+- record_ids:
+  - 20
+  - 34
+  record_names:
+  - Oakwood Park
+  - Old School Park
+  entity_type: Site
+  similarity_score: 50.5
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1431, lon_diff=0.0339 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1431, lon_diff=0.0339
+    > 0.01'
+- record_ids:
+  - 21
+  - 22
+  record_names:
+  - Glenwood Park
+  - Ritter Park
+  entity_type: Site
+  similarity_score: 77.2
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 21
+  - 24
+  record_names:
+  - Glenwood Park
+  - Oberhaus Park
+  entity_type: Site
+  similarity_score: 75.3
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 21
+  - 26
+  record_names:
+  - Glenwood Park
+  - Swearingen Park
+  entity_type: Site
+  similarity_score: 79.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0018, lon_diff=0.0218 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0018, lon_diff=0.0218
+    > 0.01'
+- record_ids:
+  - 21
+  - 27
+  record_names:
+  - Glenwood Park
+  - East Riverdowns Park
+  entity_type: Site
+  similarity_score: 72.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0061, lon_diff=0.0249 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0061, lon_diff=0.0249
+    > 0.01'
+- record_ids:
+  - 21
+  - 28
+  record_names:
+  - Glenwood Park
+  - Napoleon Dog Park
+  entity_type: Site
+  similarity_score: 74.3
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0034, lon_diff=0.0223 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0034, lon_diff=0.0223
+    > 0.01'
+- record_ids:
+  - 21
+  - 29
+  record_names:
+  - Glenwood Park
+  - Wayne Park
+  entity_type: Site
+  similarity_score: 65.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0202, lon_diff=0.0120 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0202, lon_diff=0.0120
+    > 0.01'
+- record_ids:
+  - 21
+  - 30
+  record_names:
+  - Glenwood Park
+  - Vorwerk Park
+  entity_type: Site
+  similarity_score: 71.7
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0236, lon_diff=0.0534 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0236, lon_diff=0.0534
+    > 0.01'
+- record_ids:
+  - 21
+  - 34
+  record_names:
+  - Glenwood Park
+  - Old School Park
+  entity_type: Site
+  similarity_score: 50.5
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1386, lon_diff=0.0084 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1386, lon_diff=0.0084
+    > 0.01'
+- record_ids:
+  - 22
+  - 24
+  record_names:
+  - Ritter Park
+  - Oberhaus Park
+  entity_type: Site
+  similarity_score: 80.1
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0006, lon_diff=0.0114 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0006, lon_diff=0.0114
+    > 0.01'
+- record_ids:
+  - 22
+  - 26
+  record_names:
+  - Ritter Park
+  - Swearingen Park
+  entity_type: Site
+  similarity_score: 81.1
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0054, lon_diff=0.0253 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0054, lon_diff=0.0253
+    > 0.01'
+- record_ids:
+  - 22
+  - 27
+  record_names:
+  - Ritter Park
+  - East Riverdowns Park
+  entity_type: Site
+  similarity_score: 79.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0133, lon_diff=0.0284 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0133, lon_diff=0.0284
+    > 0.01'
+- record_ids:
+  - 22
+  - 28
+  record_names:
+  - Ritter Park
+  - Napoleon Dog Park
+  entity_type: Site
+  similarity_score: 67.2
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0107, lon_diff=0.0258 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0107, lon_diff=0.0258
+    > 0.01'
+- record_ids:
+  - 22
+  - 29
+  record_names:
+  - Ritter Park
+  - Wayne Park
+  entity_type: Site
+  similarity_score: 67.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0130, lon_diff=0.0085 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0130, lon_diff=0.0085
+    > 0.01'
+- record_ids:
+  - 22
+  - 30
+  record_names:
+  - Ritter Park
+  - Vorwerk Park
+  entity_type: Site
+  similarity_score: 81.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0309, lon_diff=0.0568 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0309, lon_diff=0.0568
+    > 0.01'
+- record_ids:
+  - 22
+  - 31
+  record_names:
+  - Ritter Park
+  - Meyerholtz Wildlife Park
+  entity_type: Site
+  similarity_score: 70.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 24
+  - 26
+  record_names:
+  - Oberhaus Park
+  - Swearingen Park
+  entity_type: Site
+  similarity_score: 76.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0049, lon_diff=0.0139 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0049, lon_diff=0.0139
+    > 0.01'
+- record_ids:
+  - 24
+  - 27
+  record_names:
+  - Oberhaus Park
+  - East Riverdowns Park
+  entity_type: Site
+  similarity_score: 76.2
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0127, lon_diff=0.0170 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0127, lon_diff=0.0170
+    > 0.01'
+- record_ids:
+  - 24
+  - 28
+  record_names:
+  - Oberhaus Park
+  - Napoleon Dog Park
+  entity_type: Site
+  similarity_score: 69.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0101, lon_diff=0.0144 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0101, lon_diff=0.0144
+    > 0.01'
+- record_ids:
+  - 24
+  - 29
+  record_names:
+  - Oberhaus Park
+  - Wayne Park
+  entity_type: Site
+  similarity_score: 65.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0135, lon_diff=0.0199 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0135, lon_diff=0.0199
+    > 0.01'
+- record_ids:
+  - 24
+  - 30
+  record_names:
+  - Oberhaus Park
+  - Vorwerk Park
+  entity_type: Site
+  similarity_score: 77.6
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0303, lon_diff=0.0454 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0303, lon_diff=0.0454
+    > 0.01'
+- record_ids:
+  - 24
+  - 31
+  record_names:
+  - Oberhaus Park
+  - Meyerholtz Wildlife Park
+  entity_type: Site
+  similarity_score: 68.7
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0089, lon_diff=0.0182 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0089, lon_diff=0.0182
+    > 0.01'
+- record_ids:
+  - 24
+  - 42
+  record_names:
+  - Oberhaus Park
+  - New Bavaria Park
+  entity_type: Site
+  similarity_score: 50.6
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1767, lon_diff=0.0346 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1767, lon_diff=0.0346
+    > 0.01'
+- record_ids:
+  - 26
+  - 27
+  record_names:
+  - Swearingen Park
+  - East Riverdowns Park
+  entity_type: Site
+  similarity_score: 79.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 26
+  - 28
+  record_names:
+  - Swearingen Park
+  - Napoleon Dog Park
+  entity_type: Site
+  similarity_score: 71.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 26
+  - 29
+  record_names:
+  - Swearingen Park
+  - Wayne Park
+  entity_type: Site
+  similarity_score: 67.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0184, lon_diff=0.0338 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0184, lon_diff=0.0338
+    > 0.01'
+- record_ids:
+  - 26
+  - 30
+  record_names:
+  - Swearingen Park
+  - Vorwerk Park
+  entity_type: Site
+  similarity_score: 75.7
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0254, lon_diff=0.0315 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0254, lon_diff=0.0315
+    > 0.01'
+- record_ids:
+  - 26
+  - 42
+  record_names:
+  - Swearingen Park
+  - New Bavaria Park
+  entity_type: Site
+  similarity_score: 51.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1816, lon_diff=0.0485 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1816, lon_diff=0.0485
+    > 0.01'
+- record_ids:
+  - 27
+  - 28
+  record_names:
+  - East Riverdowns Park
+  - Napoleon Dog Park
+  entity_type: Site
+  similarity_score: 73.2
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 27
+  - 29
+  record_names:
+  - East Riverdowns Park
+  - Wayne Park
+  entity_type: Site
+  similarity_score: 61.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0263, lon_diff=0.0369 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0263, lon_diff=0.0369
+    > 0.01'
+- record_ids:
+  - 27
+  - 30
+  record_names:
+  - East Riverdowns Park
+  - Vorwerk Park
+  entity_type: Site
+  similarity_score: 71.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0176, lon_diff=0.0284 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0176, lon_diff=0.0284
+    > 0.01'
+- record_ids:
+  - 27
+  - 31
+  record_names:
+  - East Riverdowns Park
+  - Meyerholtz Wildlife Park
+  entity_type: Site
+  similarity_score: 68.7
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0217, lon_diff=0.0352 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0217, lon_diff=0.0352
+    > 0.01'
+- record_ids:
+  - 27
+  - 38
+  record_names:
+  - East Riverdowns Park
+  - Veterans Memorial Park
+  entity_type: Site
+  similarity_score: 52.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0554, lon_diff=0.0984 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0554, lon_diff=0.0984
+    > 0.01'
+- record_ids:
+  - 28
+  - 29
+  record_names:
+  - Napoleon Dog Park
+  - Wayne Park
+  entity_type: Site
+  similarity_score: 65.7
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0236, lon_diff=0.0343 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0236, lon_diff=0.0343
+    > 0.01'
+- record_ids:
+  - 28
+  - 30
+  record_names:
+  - Napoleon Dog Park
+  - Vorwerk Park
+  entity_type: Site
+  similarity_score: 69.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0202, lon_diff=0.0310 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0202, lon_diff=0.0310
+    > 0.01'
+- record_ids:
+  - 28
+  - 34
+  record_names:
+  - Napoleon Dog Park
+  - Old School Park
+  entity_type: Site
+  similarity_score: 51.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1421, lon_diff=0.0139 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1421, lon_diff=0.0139
+    > 0.01'
+- record_ids:
+  - 29
+  - 30
+  record_names:
+  - Wayne Park
+  - Vorwerk Park
+  entity_type: Site
+  similarity_score: 70.5
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0438, lon_diff=0.0653 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0438, lon_diff=0.0653
+    > 0.01'
+- record_ids:
+  - 29
+  - 31
+  record_names:
+  - Wayne Park
+  - Meyerholtz Wildlife Park
+  entity_type: Site
+  similarity_score: 61.5
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 31
+  - 35
+  record_names:
+  - Meyerholtz Wildlife Park
+  - Holgate Village Park
+  entity_type: Site
+  similarity_score: 52.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1209, lon_diff=0.0254 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1209, lon_diff=0.0254
+    > 0.01'
+- record_ids:
+  - 32
+  - 33
+  record_names:
+  - Deshler Crossroads Park
+  - Deshler Reservoir Park
+  entity_type: Site
+  similarity_score: 83.3
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0141, lon_diff=0.0080 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0141, lon_diff=0.0080
+    > 0.01'
+- record_ids:
+  - 32
+  - 34
+  record_names:
+  - Deshler Crossroads Park
+  - Old School Park
+  entity_type: Site
+  similarity_score: 57.1
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0308, lon_diff=0.2400 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0308, lon_diff=0.2400
+    > 0.01'
+- record_ids:
+  - 32
+  - 36
+  record_names:
+  - Deshler Crossroads Park
+  - Liberty Center Firemen's Park
+  entity_type: Site
+  similarity_score: 58.1
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 32
+  - 38
+  record_names:
+  - Deshler Crossroads Park
+  - Veterans Memorial Park
+  entity_type: Site
+  similarity_score: 57.3
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.2310, lon_diff=0.1251 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.2310, lon_diff=0.1251
+    > 0.01'
+- record_ids:
+  - 32
+  - 40
+  record_names:
+  - Deshler Crossroads Park
+  - Hamler Memorial Park
+  entity_type: Site
+  similarity_score: 65.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0135, lon_diff=0.1430 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0135, lon_diff=0.1430
+    > 0.01'
+- record_ids:
+  - 32
+  - 41
+  record_names:
+  - Deshler Crossroads Park
+  - Big Creek Park
+  entity_type: Site
+  similarity_score: 55.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1511, lon_diff=0.0462 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1511, lon_diff=0.0462
+    > 0.01'
+- record_ids:
+  - 32
+  - 42
+  record_names:
+  - Deshler Crossroads Park
+  - New Bavaria Park
+  entity_type: Site
+  similarity_score: 54.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0139, lon_diff=0.2750 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0139, lon_diff=0.2750
+    > 0.01'
+- record_ids:
+  - 33
+  - 34
+  record_names:
+  - Deshler Reservoir Park
+  - Old School Park
+  entity_type: Site
+  similarity_score: 57.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0449, lon_diff=0.2320 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0449, lon_diff=0.2320
+    > 0.01'
+- record_ids:
+  - 33
+  - 36
+  record_names:
+  - Deshler Reservoir Park
+  - Liberty Center Firemen's Park
+  entity_type: Site
+  similarity_score: 57.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 33
+  - 37
+  record_names:
+  - Deshler Reservoir Park
+  - Fredrick Steward Memorial Park
+  entity_type: Site
+  similarity_score: 56.7
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.2407, lon_diff=0.1030 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.2407, lon_diff=0.1030
+    > 0.01'
+- record_ids:
+  - 33
+  - 38
+  record_names:
+  - Deshler Reservoir Park
+  - Veterans Memorial Park
+  entity_type: Site
+  similarity_score: 58.2
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.2450, lon_diff=0.1171 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.2450, lon_diff=0.1171
+    > 0.01'
+- record_ids:
+  - 33
+  - 40
+  record_names:
+  - Deshler Reservoir Park
+  - Hamler Memorial Park
+  entity_type: Site
+  similarity_score: 70.1
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0276, lon_diff=0.1350 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0276, lon_diff=0.1350
+    > 0.01'
+- record_ids:
+  - 33
+  - 41
+  record_names:
+  - Deshler Reservoir Park
+  - Big Creek Park
+  entity_type: Site
+  similarity_score: 58.6
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1652, lon_diff=0.0382 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1652, lon_diff=0.0382
+    > 0.01'
+- record_ids:
+  - 33
+  - 42
+  record_names:
+  - Deshler Reservoir Park
+  - New Bavaria Park
+  entity_type: Site
+  similarity_score: 53.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0001, lon_diff=0.2671 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0001, lon_diff=0.2671
+    > 0.01'
+- record_ids:
+  - 34
+  - 35
+  record_names:
+  - Old School Park
+  - Holgate Village Park
+  entity_type: Site
+  similarity_score: 76.3
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 34
+  - 37
+  record_names:
+  - Old School Park
+  - Fredrick Steward Memorial Park
+  entity_type: Site
+  similarity_score: 53.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1958, lon_diff=0.1290 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1958, lon_diff=0.1290
+    > 0.01'
+- record_ids:
+  - 34
+  - 38
+  record_names:
+  - Old School Park
+  - Veterans Memorial Park
+  entity_type: Site
+  similarity_score: 56.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.2001, lon_diff=0.1149 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.2001, lon_diff=0.1149
+    > 0.01'
+- record_ids:
+  - 34
+  - 40
+  record_names:
+  - Old School Park
+  - Hamler Memorial Park
+  entity_type: Site
+  similarity_score: 58.2
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0173, lon_diff=0.0970 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0173, lon_diff=0.0970
+    > 0.01'
+- record_ids:
+  - 34
+  - 41
+  record_names:
+  - Old School Park
+  - Big Creek Park
+  entity_type: Site
+  similarity_score: 58.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1203, lon_diff=0.1938 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1203, lon_diff=0.1938
+    > 0.01'
+- record_ids:
+  - 35
+  - 36
+  record_names:
+  - Holgate Village Park
+  - Liberty Center Firemen's Park
+  entity_type: Site
+  similarity_score: 57.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 35
+  - 37
+  record_names:
+  - Holgate Village Park
+  - Fredrick Steward Memorial Park
+  entity_type: Site
+  similarity_score: 54.7
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1936, lon_diff=0.1223 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1936, lon_diff=0.1223
+    > 0.01'
+- record_ids:
+  - 35
+  - 38
+  record_names:
+  - Holgate Village Park
+  - Veterans Memorial Park
+  entity_type: Site
+  similarity_score: 57.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1980, lon_diff=0.1082 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1980, lon_diff=0.1082
+    > 0.01'
+- record_ids:
+  - 35
+  - 40
+  record_names:
+  - Holgate Village Park
+  - Hamler Memorial Park
+  entity_type: Site
+  similarity_score: 61.3
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0195, lon_diff=0.0903 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0195, lon_diff=0.0903
+    > 0.01'
+- record_ids:
+  - 35
+  - 41
+  record_names:
+  - Holgate Village Park
+  - Big Creek Park
+  entity_type: Site
+  similarity_score: 60.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1181, lon_diff=0.1871 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1181, lon_diff=0.1871
+    > 0.01'
+- record_ids:
+  - 35
+  - 42
+  record_names:
+  - Holgate Village Park
+  - New Bavaria Park
+  entity_type: Site
+  similarity_score: 57.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0469, lon_diff=0.0417 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0469, lon_diff=0.0417
+    > 0.01'
+- record_ids:
+  - 36
+  - 37
+  record_names:
+  - Liberty Center Firemen's Park
+  - Fredrick Steward Memorial Park
+  entity_type: Site
+  similarity_score: 77.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 36
+  - 38
+  record_names:
+  - Liberty Center Firemen's Park
+  - Veterans Memorial Park
+  entity_type: Site
+  similarity_score: 79.2
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 36
+  - 40
+  record_names:
+  - Liberty Center Firemen's Park
+  - Hamler Memorial Park
+  entity_type: Site
+  similarity_score: 57.7
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 36
+  - 41
+  record_names:
+  - Liberty Center Firemen's Park
+  - Big Creek Park
+  entity_type: Site
+  similarity_score: 57.6
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 37
+  - 38
+  record_names:
+  - Fredrick Steward Memorial Park
+  - Veterans Memorial Park
+  entity_type: Site
+  similarity_score: 87.7
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0043, lon_diff=0.0141 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0043, lon_diff=0.0141
+    > 0.01'
+- record_ids:
+  - 37
+  - 40
+  record_names:
+  - Fredrick Steward Memorial Park
+  - Hamler Memorial Park
+  entity_type: Site
+  similarity_score: 63.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.2131, lon_diff=0.0320 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.2131, lon_diff=0.0320
+    > 0.01'
+- record_ids:
+  - 37
+  - 42
+  record_names:
+  - Fredrick Steward Memorial Park
+  - New Bavaria Park
+  entity_type: Site
+  similarity_score: 50.4
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.2405, lon_diff=0.1641 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.2405, lon_diff=0.1641
+    > 0.01'
+- record_ids:
+  - 38
+  - 40
+  record_names:
+  - Veterans Memorial Park
+  - Hamler Memorial Park
+  entity_type: Site
+  similarity_score: 69.9
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.2174, lon_diff=0.0178 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.2174, lon_diff=0.0178
+    > 0.01'
+- record_ids:
+  - 38
+  - 42
+  record_names:
+  - Veterans Memorial Park
+  - New Bavaria Park
+  entity_type: Site
+  similarity_score: 52.3
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.2449, lon_diff=0.1499 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.2449, lon_diff=0.1499
+    > 0.01'
+- record_ids:
+  - 40
+  - 41
+  record_names:
+  - Hamler Memorial Park
+  - Big Creek Park
+  entity_type: Site
+  similarity_score: 61.8
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1376, lon_diff=0.0968 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1376, lon_diff=0.0968
+    > 0.01'
+- record_ids:
+  - 40
+  - 42
+  record_names:
+  - Hamler Memorial Park
+  - New Bavaria Park
+  entity_type: Site
+  similarity_score: 59.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.0274, lon_diff=0.1321 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.0274, lon_diff=0.1321
+    > 0.01'
+- record_ids:
+  - 40
+  - 49
+  record_names:
+  - Hamler Memorial Park
+  - Hamler Community Park
+  entity_type: Site
+  similarity_score: 53.2
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 41
+  - 42
+  record_names:
+  - Big Creek Park
+  - New Bavaria Park
+  entity_type: Site
+  similarity_score: 60.5
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  hard_separation: true
+  hard_separation_reason: 'GPS hard separation: lat_diff=0.1650, lon_diff=0.2289 >
+    0.01'
+  note: 'HARD SEPARATED (§10.5): GPS hard separation: lat_diff=0.1650, lon_diff=0.2289
+    > 0.01'
+- record_ids:
+  - 47
+  - 48
+  record_names:
+  - Henry County Historical Society Fairgrounds Historic Complex
+  - Henry County Fairgrounds
+  entity_type: Site
+  similarity_score: 59.0
+  group_key: Site|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 7
+  - 8
+  record_names:
+  - Blue Trail
+  - Orange Trail
+  entity_type: Trail
+  similarity_score: 50.5
+  group_key: Trail|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 7
+  - 10
+  record_names:
+  - Blue Trail
+  - Yellow Trail
+  entity_type: Trail
+  similarity_score: 50.5
+  group_key: Trail|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 16
+  - 17
+  record_names:
+  - Renegade Leg — Miami & Erie Canal Towpath
+  - Napoleon Leg — Miami & Erie Canal Towpath
+  entity_type: Trail Segment
+  similarity_score: 52.3
+  group_key: Trail Segment|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 16
+  - 18
+  record_names:
+  - Renegade Leg — Miami & Erie Canal Towpath
+  - Damascus Leg — Miami & Erie Canal Towpath
+  entity_type: Trail Segment
+  similarity_score: 51.0
+  group_key: Trail Segment|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+- record_ids:
+  - 17
+  - 18
+  record_names:
+  - Napoleon Leg — Miami & Erie Canal Towpath
+  - Damascus Leg — Miami & Erie Canal Towpath
+  entity_type: Trail Segment
+  similarity_score: 51.0
+  group_key: Trail Segment|henry
+  anchor_pass: true
+  merge_threshold: 80
+  review_threshold: 50
+  note: Score between REVIEW and MERGE threshold — requires human review
+resolved_entities:
+- entity_type: Site
+  source_records:
+  - 41
+  identity_block:
+    name_raw: Big Creek Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.facebook.com/pages/Big-Creek-Park-Mcclure-Ohio/143710152892303
+    - https://www.northwestsignal.net/news/article_3441b3ee-9598-11ef-844e-270c4ceb73c3.html
+    location_raw: McClure, OH 43534
+  organizational_block:
+    ownership_raw: Village of McClure
+    governance_raw: Village of McClure
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Village council approved fence for pickleball court and swing
+      set area (2024). Facebook page confirms identity. Address not confirmed — map
+      verification required. GPS from Google Maps/HMDB map verification pass 2026-04-21:
+      435 S Haley St, McClure, OH 43534 — confirmed Google Maps (listed as "Big Creek
+      Park and Ball Fields")'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - mcclure-big-creek-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 41
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Pickleball court (new fence installation per village council 2024),
+      playground (swing set planned), ball fields
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3682146'
+    gps_lon_raw: '-83.9399398'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_001
+- entity_type: Site
+  source_records:
+  - 32
+  identity_block:
+    name_raw: Deshler Crossroads Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.facebook.com/DeshlerCrossroadsPark/
+    - https://villageofdeshler.com/
+    location_raw: Deshler, OH 43516 (at intersection of CSX rail lines)
+  organizational_block:
+    ownership_raw: Village of Deshler
+    governance_raw: Village of Deshler
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Also known locally as Deshler Railroad Park. Primary attraction
+      is railfan train-watching at CSX diamond crossing. Camping is informal/primitive.
+      GPS from Google Maps/HMDB map verification pass 2026-04-21: 110 W. Mulberry
+      St, Deshler, OH 43516 — confirmed Google Maps'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - deshler-crossroads-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 32
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: Railfan park at the intersection of two major CSX Transportation
+      rail lines, offering prime train-watching opportunities with approximately 50-70
+      trains passing through daily.
+    features_raw: Covered shelter/pavilion, picnic tables, railroad history informational
+      displays, radio scanner speaker (railroad frequencies), 120VAC charging outlets,
+      RV/tent camping area (first come first served)
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.2170950'
+    gps_lon_raw: '-83.8937760'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_002
+- entity_type: Site
+  source_records:
+  - 33
+  identity_block:
+    name_raw: Deshler Reservoir Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://villageofdeshler.com/
+    location_raw: Deshler, OH 43516
+  organizational_block:
+    ownership_raw: Village of Deshler
+    governance_raw: Village of Deshler
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Partially resolves HEN-F-04 (Deshler Reservoir 1 & 2 in baseline).
+      Confirmed publicly accessible with fishing and picnic. Exact parcel count/names
+      (Reservoir 1 vs 2) unresolved — map verification required. Baseline also listed
+      separate "Reservoir Park" and "Swimming Pool Park" entries. GPS from Google
+      Maps/HMDB map verification pass 2026-04-21: Reservoir Rd, Deshler, OH 43516
+      — confirmed Google Maps'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - deshler-reservoir-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 33
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Reservoir, fishing, scenic picnic areas
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.2030402'
+    gps_lon_raw: '-83.9017433'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_003
+- entity_type: Site
+  source_records:
+  - 46
+  identity_block:
+    name_raw: Dr. John Bloomfield Home & Carriage House Museum
+    counties_raw:
+    - Henry County, OH
+    urls_raw:
+    - https://henrycountyhistory.org
+    location_raw: 229 W Clinton St, Napoleon, Ohio (across from Napoleon Public Library)
+  organizational_block:
+    ownership_raw: Henry County Historical Society
+    governance_raw: Henry County Historical Society (HCHS)
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: Main HCHS museum site. Publicly accessible historic site managed
+      by HCHS nonprofit. Address 229 W Clinton St, Napoleon OH. Victorian Queen Anne
+      house c. 1894. Gray-area entity for NAP — historic museum, not a natural area
+      per se; staging per inclusion rule for pipeline review. HCHS seeded from T4
+      session log (henrycountyhistory.org referral). HEN-F-09 partial — OHC recheck
+      did not find Henry County state historic sites.
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 7
+    source_record_indices:
+    - 46
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: The beautiful Victorian Queen Anne style Dr. John Bloomfield
+      Home & Carriage House Museum, built in 1894 and totally restored, serves as
+      the main museum for the Henry County Historical Society. All HCHS facilities
+      have been restored to their near-original appearance and house large collections
+      of period furnishings, textiles, china, silver, and more dating from the early
+      1800s through the 1930s.
+    features_raw: Victorian Queen Anne historic house museum; Carriage house; Period
+      furnishing collections
+    acres_raw: null
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_004
+- entity_type: Site
+  source_records:
+  - 27
+  identity_block:
+    name_raw: East Riverdowns Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+    location_raw: E. Front St & Jefferson St, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Contains Napoleon Dog Park as a named child facility. GPS
+      from Google Maps/HMDB map verification pass 2026-04-21: 500 E. Main St, Napoleon,
+      OH 43545 — confirmed Google Maps'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 27
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Arboretum, tree nursery, 2 softball fields, horseshoes, playground,
+      shelter, volleyball
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3926275'
+    gps_lon_raw: '-84.1172675'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_005
+- entity_type: Site
+  source_records:
+  - 2
+  identity_block:
+    name_raw: Florida Wildlife Area
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/florida-wildlife-area
+    - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Florida.pdf
+    location_raw: 1 mile northeast of Florida, Henry County, Ohio
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: '3 acres. Located 1 mile NE of Florida, Henry County. Acquisition
+      began 1962. Buckeye Trail runs through this property — BT is a T7 entity (Buckeye
+      Trail Association); trail presence noted here for cross-reference but not re-staged
+      at T2. Note: village of Florida is in Henry County (confirmed county seat area).'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 2
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: 'Natural features: River, Woods; Activities: Hunting; Trails: Buckeye
+      Trail'
+    acres_raw: '3'
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_006
+- entity_type: Site
+  source_records:
+  - 37
+  identity_block:
+    name_raw: Fredrick Steward Memorial Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://lcvillage.com/
+    location_raw: Liberty Center, OH 43532
+  organizational_block:
+    ownership_raw: Village of Liberty Center
+    governance_raw: Village of Liberty Center
+    partner_agencies_raw: Arbor Day Foundation
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Baseline listed as "Steward Park." Full name is Fredrick
+      Steward Memorial Park. Amenities from search snippet. Address not confirmed
+      — map verification required. GPS from Google Maps/HMDB map verification pass
+      2026-04-21: 311 E Maple St / Steward Lane, Liberty Center, OH 43532 — confirmed
+      HMDB.org (m=250688)'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - liberty-center-steward-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 37
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Tennis courts, Arbor Day Foundation tree plantings
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.4437127'
+    gps_lon_raw: '-84.0047475'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_007
+- entity_type: Site
+  source_records:
+  - 21
+  identity_block:
+    name_raw: Glenwood Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+    - https://napoleongolfclub.com/
+    location_raw: 521 Glenwood Ave, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Veterans Field (pony league baseball) is a named field within
+      Glenwood Park — not a standalone park. Baseline "Veterans Park" (0.5 ac) likely
+      refers to Veterans Field within Glenwood. GPS from Google Maps/HMDB map verification
+      pass 2026-04-21: 515 Glenwood Ave, Napoleon, OH 43545 — confirmed Google Maps
+      address lookup'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - napoleon-glenwood-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 21
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Golf course (Napoleon Golf Club), swimming pool (Napoleon Aquatic
+      Center), youth baseball fields (including Veterans Field/pony league), Kidz
+      Kingdom playground, Fourth of July event site, basketball court, shelters
+    acres_raw: 50+
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3865528'
+    gps_lon_raw: '-84.1421839'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_008
+- entity_type: Site
+  source_records:
+  - 49
+  identity_block:
+    name_raw: Hamler Community Park
+    counties_raw:
+    - Henry County, OH
+    urls_raw:
+    - https://hamlersf.com/
+    - https://hamlersf.com/50-year-history.html
+    location_raw: SR 109, north edge of Hamler, OH (Marion Township)
+  organizational_block:
+    ownership_raw: Hamler Summerfest non-profit organization (Hamler Community Park
+      Inc.)
+    governance_raw: Hamler Summerfest / Hamler Community Park Inc.
+    partner_agencies_raw: Hamler Country Fest Committee
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Resolves HEN-F-10. Private nonprofit community park owned
+      by Hamler Summerfest org. Located on SR 109 at north edge of Hamler (Marion
+      Township). Year-round public use (basketball/tennis in steel structure). Annual
+      Hamler Summerfest (2026 dates: July 24-25-26) and Country Fest. 100% volunteer/privately
+      funded. "No tax money whatsoever." Pipeline: determine whether private nonprofit
+      community park meets NAP inclusion threshold. Source: hamlersf.com/50-year-history.html.'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - HEN-F-10
+    discovery_tiers:
+    - 8
+    source_record_indices:
+    - 49
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: Hamler Community Park is a 13-acre privately owned community
+      park on the edge of Hamler, purchased in 1974 for $21,000 by the Hamler Summerfest
+      non-profit organization. The park hosts the annual Hamler Summerfest German
+      Heritage festival (last weekend of July) and the Hamler Country Fest, and is
+      open as a community park year-round. A 100'x250' steel structure (built 1988)
+      houses basketball and tennis courts for public use. Maintained entirely through
+      volunteerism and festival proceeds; no tax money used.
+    features_raw: 13 acres; 100'x250' steel structure with basketball courts; tennis
+      courts; playground; permanent fencing (ADA concrete); beer garden; wedding venue;
+      cell tower on corner
+    acres_raw: null
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_009
+- entity_type: Site
+  source_records:
+  - 40
+  identity_block:
+    name_raw: Hamler Memorial Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://hamlerohio.com/
+    - https://birdinghotspots.org/hotspot/L3680027
+    location_raw: Hamler, OH 43524
+  organizational_block:
+    ownership_raw: Village of Hamler
+    governance_raw: Village of Hamler
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'MINIMAL_DATA — listed on village website (hamlerohio.com)
+      and as birding hotspot "Hamler City Park" (eBird L3680027). Address and amenities
+      not confirmed from available sources. Map verification required. Note: Hamler
+      Community Park Inc. (HEN-F-10, Summerfest association, SR 109 north edge) is
+      a separate private entity → T8. GPS from Google Maps/HMDB map verification pass
+      2026-04-21: 100 S 1st St, Hamler, OH 43524 — confirmed Google Maps (listed as
+      "Hamler Community Park")'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 40
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: ''
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.2306052'
+    gps_lon_raw: '-84.0367331'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_010
+- entity_type: Site
+  source_records:
+  - 48
+  identity_block:
+    name_raw: Henry County Fairgrounds
+    counties_raw:
+    - Henry County, OH
+    urls_raw:
+    - https://henrycountyohio.gov/270/Henry-County-Agricultural-Society
+    - https://henrycountyfairgrounds.com/
+    location_raw: 821 S Perry Street, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: Henry County Agricultural Society
+    governance_raw: Henry County Agricultural Society
+    partner_agencies_raw: Henry County Historical Society (HCHS operates Historic
+      Complex on grounds)
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Henry County Agricultural Society = governing body for Henry
+      County Fair. Address 821 S Perry St, Napoleon OH 43545. T8 private/quasi-public
+      — Agricultural Society is a statutory nonprofit under Ohio law. HCHS Fairgrounds
+      Historic Complex (T7 entity, staged separately) is physically located on these
+      grounds. Pipeline to resolve HCHS complex overlap. Note: new 43,750 sf events
+      center at north end of fairgrounds (2024 construction bid). Session log: "Fairgrounds
+      → T8."'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 8
+    source_record_indices:
+    - 48
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: The Henry County Fairgrounds is the home of the annual Henry
+      County Fair, governed by the Henry County Agricultural Society. The Ag Society
+      meets monthly at the fair office on-site. A new 43,750-square-foot events center
+      is under construction at the north end of the fairgrounds. The HCHS Historic
+      Complex (Nathaniel Hartman Log Home, 1897 Schoolhouse, Ag Building, Smokehouse,
+      Gazebo) is operated by HCHS on the fairgrounds property.
+    features_raw: Annual county fair; events center (under construction ~2024); historic
+      complex (HCHS); fair office
+    acres_raw: null
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_011
+- entity_type: Site
+  source_records:
+  - 47
+  identity_block:
+    name_raw: Henry County Historical Society Fairgrounds Historic Complex
+    counties_raw:
+    - Henry County, OH
+    urls_raw:
+    - https://henrycountyhistory.org
+    location_raw: Henry County Fairgrounds, Napoleon, Ohio
+  organizational_block:
+    ownership_raw: Henry County Agricultural Society (Fairgrounds); managed by Henry
+      County Historical Society (HCHS)
+    governance_raw: Henry County Historical Society (HCHS)
+    partner_agencies_raw: Henry County Agricultural Society
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'HCHS-managed outdoor historic complex physically located
+      on Henry County Fairgrounds property (T8 venue/Agricultural Society). Outdoor
+      historic building cluster with grounds — qualifies as outdoor/historic site
+      for NAP staging. Fairgrounds itself is T8 candidate (Ag Society). This HCHS
+      complex is T7 (historical nonprofit management). Staging per inclusion rule;
+      pipeline to resolve whether to include or pass to T8 with Fairgrounds. HEN-F-09
+      context: no OHC state historic sites found for Henry County.'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 7
+    source_record_indices:
+    - 47
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: Historic Complex at the Henry County Fairgrounds operated by
+      the Henry County Historical Society. Contains several historic buildings and
+      structures including the Nathaniel Hartman Log Home c. 1860-1866, the 1897 Emmanuel
+      Lutheran One Room Schoolhouse & Museum, the Ag Building, Smokehouse, and the
+      c. 1910 Historic Gazebo.
+    features_raw: Nathaniel Hartman Log Home c. 1860-1866; 1897 Emmanuel Lutheran
+      One Room Schoolhouse & Museum; Ag Building; Smokehouse; c. 1910 Historic Gazebo;
+      period furnishing collections
+    acres_raw: null
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_012
+- entity_type: Site
+  source_records:
+  - 3
+  identity_block:
+    name_raw: Henry County Wildlife Area 1
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_1.pdf
+    location_raw: ''
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Confirmed as a distinct unit from ODNR Hunting Area Maps
+      listing page. Official ODNR name: ''Henry County 1'' on listing page; full name
+      ''Henry County Wildlife Area 1'' inferred — normalize to official ODNR name
+      in resolution. PDF map at Henry_1.pdf could not be fetched (redirect cancelled);
+      acreage and precise location unknown. GIS_VERIFY_COUNTY — confirm parcel location
+      within Henry County via ODNR Wildlife GIS. Resolves HEN-F-03 (three numbered
+      placeholder WAs in baseline).'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 3
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: true
+  payload:
+    description_raw: ''
+    features_raw: ''
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_013
+- entity_type: Site
+  source_records:
+  - 4
+  identity_block:
+    name_raw: Henry County Wildlife Area 2
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_2.pdf
+    location_raw: ''
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Confirmed as a distinct unit from ODNR Hunting Area Maps
+      listing page. Official ODNR name: ''Henry County 2'' on listing page. PDF map
+      at Henry_2.pdf could not be fetched (redirect cancelled); acreage and precise
+      location unknown. GIS_VERIFY_COUNTY — confirm parcel location within Henry County
+      via ODNR Wildlife GIS. Resolves HEN-F-03 (three numbered placeholder WAs in
+      baseline).'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 4
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: true
+  payload:
+    description_raw: ''
+    features_raw: ''
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_014
+- entity_type: Site
+  source_records:
+  - 5
+  identity_block:
+    name_raw: Henry County Wildlife Area 3
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_3.pdf
+    location_raw: ''
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Confirmed as a distinct unit from ODNR Hunting Area Maps
+      listing page. Official ODNR name: ''Henry County 3'' on listing page. PDF map
+      at Henry_3.pdf could not be fetched (redirect cancelled); acreage and precise
+      location unknown. GIS_VERIFY_COUNTY — confirm parcel location within Henry County
+      via ODNR Wildlife GIS. Resolves HEN-F-03 (three numbered placeholder WAs in
+      baseline).'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 5
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: true
+  payload:
+    description_raw: ''
+    features_raw: ''
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_015
+- entity_type: Site
+  source_records:
+  - 35
+  identity_block:
+    name_raw: Holgate Village Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.holgateohio.com/
+    location_raw: Holgate, OH 43527
+  organizational_block:
+    ownership_raw: Village of Holgate
+    governance_raw: Village of Holgate
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Referenced in village CDBG grant application as "community
+      park" alongside Old School Park. Baseline names this "Holgate Village Park."
+      Exact address not confirmed — map verification required. GPS from Google Maps/HMDB
+      map verification pass 2026-04-21: 499 Chicago Ave, Holgate, OH 43527 — confirmed
+      Google Maps (listed as "Holgate Park")'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - holgate-village-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 35
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Basketball court, asphalt overlay (CDBG grant project)
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.2501009'
+    gps_lon_raw: '-84.1270787'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_016
+- entity_type: Site
+  source_records:
+  - 36
+  identity_block:
+    name_raw: Liberty Center Firemen's Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://facebook.com/pages/Liberty-Center-Firemens-Park/235301483291577
+    - https://lcvillage.com/
+    location_raw: Liberty Center, OH 43532
+  organizational_block:
+    ownership_raw: Village of Liberty Center
+    governance_raw: Village of Liberty Center
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: MINIMAL_DATA — existence confirmed via Facebook page and locale.online
+      listing. Address and amenities not confirmed from available sources. Map verification
+      required.
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - liberty-center-firemens-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 36
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: ''
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_017
+- entity_type: Site
+  source_records:
+  - 0
+  identity_block:
+    name_raw: Mary Jane Thurston State Park
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+    location_raw: 1466 SR 65, McClure, OH 43534
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'ACREAGE CONFLICT: ODNR property page states 105 acres; baseline
+      seed and OSM record 591 acres. Record ODNR-stated value (105) in acres_raw;
+      resolution engine to arbitrate. Park named after Mary Jane Thurston, who bequeathed
+      14 acres in 1928; park dedicated 1968. Phone: (419) 832-7662. Manager: Jeremy
+      Babcock. The Tow Path trail (0.3 mi within park) continues into Grand Rapids
+      village (Wood County) — Tow Path is a multi-county trail; only the MJTSP segment
+      is staged at T2 here. NCT co-routes with Buckeye Trail along Miami & Erie Canal
+      Towpath through this park area — see DEF run cross-reference for NCT staging.'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 0
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: Situated along the historic Maumee State Scenic River, Mary Jane
+      Thurston State Park's 105 acres offer a variety of day-use and overnight activities.
+    features_raw: Archery range; boat launch ramp (1); marina; camping - electric
+      hookup; camping - primitive/tent; Day Lodge (seats 50); fishing; hunting - shoreline
+      trapping and waterfowl; hunting - archery; picnicking - 2 areas along river;
+      trails (Storybook Trail, Blue Trail, Orange Trail, Tow Path, Yellow Trail)
+    acres_raw: '105'
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_018
+- entity_type: Site
+  source_records:
+  - 13
+  identity_block:
+    name_raw: Maumee State Scenic River
+    counties_raw:
+    - Defiance County
+    - Henry County
+    - Wood County
+    - Lucas County
+    urls_raw:
+    - https://ohiodnr.gov/discover-and-learn/land-water/scenic-rivers/maumee-scenic-river
+    - https://ohiodnr.gov/discover-and-learn/land-water/scenic-rivers
+    location_raw: Maumee River corridor — runs through Defiance, Henry, Wood, and
+      Lucas Counties, Ohio
+  organizational_block:
+    ownership_raw: ''
+    governance_raw: Ohio Department of Natural Resources, Scenic Rivers Program
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'CATEGORY: Water Site. SUBTYPE: River. DESIGNATION: State
+      Scenic River. Per state discovery subproc §3.5 and §4.6, scenic river designations
+      are Sites (category=Water Site, subtype=River, designation=State Scenic River),
+      NOT Site Networks. Multi-county entity: flows through Defiance, Henry, Wood,
+      and Lucas Counties. GIS_VERIFY_COUNTY — precise designated reach boundaries
+      need GIS confirmation. ODNR Scenic Rivers Program page is JS-rendered; no static
+      description text available at fetch time. Source confirmation: MJTSP property
+      page explicitly names ''the historic Maumee State Scenic River.'' Overlap note:
+      Maumee River Water Trail (staged in Defiance run as separate Trail entity) runs
+      within/along this scenic river corridor — see DEF run cross-reference. Per §4.6
+      of state subproc: overlapping trail and scenic river Site are related but distinct
+      entities; flag for resolution.'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 13
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: true
+  payload:
+    description_raw: The Maumee State Scenic River is designated under the Ohio Scenic
+      Rivers Program. Referenced on Mary Jane Thurston State Park property page as
+      'the historic Maumee State Scenic River.' The Maumee River flows northeast from
+      Defiance through Henry County (passing through the Napoleon and McClure areas)
+      and on to Toledo. ODNR Scenic Rivers Program web page returned no readable content
+      (JS-rendered, no static data available).
+    features_raw: ''
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_019
+- entity_type: Site
+  source_records:
+  - 31
+  identity_block:
+    name_raw: Meyerholtz Wildlife Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://birdinghotspots.org/hotspot/L3683369
+    location_raw: 1781-1799 W. Riverview Ave, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Listed as birding hotspot (eBird L3683369). Address from
+      Waze/Google Maps record. GPS from Google Maps/HMDB map verification pass 2026-04-21:
+      1790 W. Riverview Ave, Napoleon, OH 43545 — confirmed Google Maps address lookup
+      (recdesk)'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - napoleon-meyerholtz-wildlife-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 31
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Wildlife park, birding area, open shelterhouse, picnic tables, open
+      grass area, walking/jogging path, parking
+    acres_raw: '21.5'
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3709751'
+    gps_lon_raw: '-84.1524489'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_020
+- entity_type: Site
+  source_records:
+  - 28
+  identity_block:
+    name_raw: Napoleon Dog Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/dog-park
+    location_raw: E. Front St & Jefferson St, Napoleon, OH 43545 (within East Riverdowns
+      Park)
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: Girl Scouts (original construction)
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Child site of East Riverdowns Park. Original build was a
+      Girl Scout project. GPS from Google Maps/HMDB map verification pass 2026-04-21:
+      331 E. Front St, Napoleon, OH 43545 — confirmed Google Maps address lookup (recdesk)'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 28
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Off-leash dog park, membership required
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3900007'
+    gps_lon_raw: '-84.1198481'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_021
+- entity_type: Site
+  source_records:
+  - 42
+  identity_block:
+    name_raw: New Bavaria Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.google.com/maps/place/New+Bavaria+Park/@41.2031701,-84.1688089,17z
+    location_raw: Thomas St, New Bavaria, OH 43548
+  organizational_block:
+    ownership_raw: Village of New Bavaria
+    governance_raw: Village of New Bavaria
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Confirmed Google Maps as "New Bavaria Park" on Thomas St,
+      New Bavaria OH 43548. GPS 41.2031701,-84.1688089 from Maps detail card. Baseline
+      seed: "New Bavaria Village Park." Resolves partial null from T6 web discovery.
+      No village website found; Maps listing is authoritative confirmation.'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids: []
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 42
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: ''
+    acres_raw: null
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.2031701'
+    gps_lon_raw: '-84.1688089'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_022
+- entity_type: Site
+  source_records:
+  - 1
+  identity_block:
+    name_raw: North Turkeyfoot Wildlife Area
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/north-turkeyfoot-wildlife-area
+    - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/NorthTurkeyfoot.pdf
+    location_raw: 2 miles southeast of Liberty Center, Henry County, Ohio
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: '458 acres. Located 2 miles SE of Liberty Center, Henry County.
+      Baseline seed address: CR 424, Liberty Center OH. Acquisition: 1969–2013 via
+      multiple state funds and donations. Buckeye Trail runs through this property
+      — BT is a T7 entity (Buckeye Trail Association); trail presence noted here for
+      cross-reference but not re-staged at T2.'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 1
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: 'Natural features: River, Woods, Brush; Activities: Boating, Hunting,
+      Hiking, Birding, Fishing; Trails: Buckeye Trail, Hiking Trails, Hunter Access'
+    acres_raw: '458'
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_023
+- entity_type: Site
+  source_records:
+  - 20
+  identity_block:
+    name_raw: Oakwood Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+    location_raw: 1400 Oakwood Ave, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'GPS from Google Maps/HMDB map verification pass 2026-04-21:
+      1400 Oakwood Ave, Napoleon, OH 43545 — confirmed Google Maps'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - napoleon-oakwood-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 20
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Fishing lake, wooded hiking trails, 1-mile walking path (handicap
+      accessible), 4 ball diamonds, batting cages, basketball court, football field,
+      volleyball court, 2 open-air shelters, year-round restrooms
+    acres_raw: '52.0'
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3910073'
+    gps_lon_raw: '-84.0999186'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_024
+- entity_type: Site
+  source_records:
+  - 24
+  identity_block:
+    name_raw: Oberhaus Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+    location_raw: 750 W. Maumee St, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: Napoleon Lions Club; Napoleon Rotary Club
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'GPS from Google Maps/HMDB map verification pass 2026-04-21:
+      750 W. Maumee Ave, Napoleon, OH 43545 — confirmed Google Maps'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - napoleon-oberhaus-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 24
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Maumee River frontage, 250-ft public boat dock, 1/2-mile walking
+      path, Lions/Rotary community building (year-round rentals)
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3798989'
+    gps_lon_raw: '-84.1342520'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_025
+- entity_type: Site
+  source_records:
+  - 34
+  identity_block:
+    name_raw: Old School Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.holgateohio.com/
+    location_raw: S. Wilhelm St / Frazier St, Holgate, OH 43527
+  organizational_block:
+    ownership_raw: Village of Holgate
+    governance_raw: Village of Holgate
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Confirmed via Facebook Ohioans Historical Exploration post
+      and village CDBG grant application. Grant included playground equipment upgrade.
+      GPS from Google Maps/HMDB map verification pass 2026-04-21: S. Wilhelm St &
+      Frazier Ave, Holgate, OH 43527 — confirmed Google Maps intersection lookup'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - holgate-old-school-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 34
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Walking trail, playground (swings, slides, interactive play features),
+      seating elements
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.2479149'
+    gps_lon_raw: '-84.1337746'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_026
+- entity_type: Site
+  source_records:
+  - 22
+  identity_block:
+    name_raw: Ritter Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+    location_raw: 1111 W. Riverview Ave, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Resolves HEN-F-01 and HEN-F-02. Baseline had two rows for
+      Ritter Park (one 5.6 ac "West Riverview Avenue", one at 1130 W. Riverview Ave
+      no acreage) and a separate "Boatramp Facility" at 14.8 ac. Official site confirms
+      one park at 1111 W. Riverview with integrated boat launch. Acreage conflict
+      unresolved — may include adjacent parcel. Address discrepancy: official site
+      says 1111 W. Riverview, baseline said 1130 W. Riverview. GPS from Google Maps/HMDB
+      map verification pass 2026-04-21: 1130 W. Riverview Ave (shelter address), Napoleon,
+      OH — confirmed Google Maps; city confirms ~1111 W. Riverview Ave'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - napoleon-ritter-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 22
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: Passive park along the Maumee River featuring a historic 1930s
+      stone shelter, walking path, and ODNR-funded boat launch with restrooms, parking,
+      and retaining wall.
+    features_raw: Historic 1930s stone shelter, walking path, ODNR Watercraft grant-funded
+      boat launch, restrooms, parking, retaining wall
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3793296'
+    gps_lon_raw: '-84.1456572'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_027
+- entity_type: Site
+  source_records:
+  - 26
+  identity_block:
+    name_raw: Swearingen Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+    location_raw: S. Perry St & E. Barnes Ave, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'GPS from Google Maps/HMDB map verification pass 2026-04-21:
+      510 S. Perry St, Napoleon, OH 43545 — confirmed Google Maps address lookup (recdesk)'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 26
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Skateboard park, basketball court, playground, picnic tables
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3847565'
+    gps_lon_raw: '-84.1203470'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_028
+- entity_type: Site
+  source_records:
+  - 38
+  identity_block:
+    name_raw: Veterans Memorial Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://lcvillage.com/
+    - https://www.northwestsignal.net/news/article_8bcd45d5-429c-43cb-bc8f-339e8597f63a.html
+    location_raw: Liberty Center, OH 43532
+  organizational_block:
+    ownership_raw: Village of Liberty Center
+    governance_raw: Village of Liberty Center
+    partner_agencies_raw: Liberty Center Historical Society
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Referenced in NW Signal article about grant funding for restroom
+      facility. Historical Society designing veteran banners. Address not confirmed
+      — map verification required. GPS from Google Maps/HMDB map verification pass
+      2026-04-21: T315 Co Rd 8 & W Cherry St, Liberty Center, OH 43532 — confirmed
+      HMDB.org (m=279652)'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - liberty-center-veterans-memorial-park
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 38
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Veteran recognition banners (in design phase), restroom facility
+      (grant-funded, planned)
+    acres_raw: ''
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.4480536'
+    gps_lon_raw: '-84.0188932'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_029
+- entity_type: Site
+  source_records:
+  - 30
+  identity_block:
+    name_raw: Vorwerk Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://napoleon.recdesk.com/Community/Facility/Detail?facilityId=29
+    - https://ohiotrailtowns.org/towns/napoleon/restrooms/vorwerk
+    location_raw: E. Riverview Ave, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'GPS from Ohio Trail Towns detail record during discovery
+      — treat as approximate until GPS acquisition pass confirmation. GPS from Google
+      Maps/HMDB map verification pass 2026-04-21: 1501 E. Riverview Ave, Napoleon,
+      OH 43545 — confirmed Google Maps address lookup (recdesk); consistent with prior
+      41.410147,-84.090012'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 30
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Picnic tables, grills, restrooms (portable, accessible/unisex),
+      fishing access, hiking trails, drinking fountains, parking
+    acres_raw: '24.5'
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.4101943'
+    gps_lon_raw: '-84.0888190'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_030
+- entity_type: Site
+  source_records:
+  - 29
+  identity_block:
+    name_raw: Wayne Park
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/shelter-houses/wayne-park
+    location_raw: ''
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'MINIMAL_DATA — address not published on official site; booking
+      at City Building, 255 W. Riverview Ave, Napoleon. Acreage from Napoleon Parks
+      System PDF (2014). GPS from Google Maps/HMDB map verification pass 2026-04-21:
+      205 Wayne Park Dr (shelterhouse), Napoleon, OH — confirmed Google Maps address
+      lookup (recdesk)'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 29
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    description_raw: ''
+    features_raw: Small rustic shelter (capacity ~25 people, warmer months rental),
+      large open areas for picnicking, volleyball court
+    acres_raw: '13.0'
+    category_raw: null
+    status_raw: null
+    gps_lat_raw: '41.3663572'
+    gps_lon_raw: '-84.1541574'
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_S_031
+- entity_type: Trail
+  source_records:
+  - 7
+  identity_block:
+    name_raw: Blue Trail
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+    location_raw: null
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Trail within Mary Jane Thurston State Park. Length: 1.2 mi,
+      difficulty: Easy, per ODNR property page. Parent site: Mary Jane Thurston State
+      Park (this run, T2).'
+    resolved_parent_ids:
+      parent_site_id: HEN_S_018
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 7
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: Easy
+    accessibility_raw: ''
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_T_001
+- entity_type: Trail
+  source_records:
+  - 14
+  identity_block:
+    name_raw: Miami & Erie Canal Towpath Hiking Trail
+    counties_raw:
+    - Henry County
+    - Defiance County
+    - Wood County
+    urls_raw:
+    - http://henrycountyparks.blogspot.com/
+    - http://henrycountyparks.blogspot.com/p/trail-maps.html
+    - http://www.henrycountyparks.org
+    location_raw: Adjacent to Maumee River; runs east-west across Henry County along
+      former Miami & Erie Canal route. Western terminus near Independence Dam State
+      Park (Defiance/Henry county line); eastern terminus near Providence Dam Metropark
+      (Wood County).
+  organizational_block:
+    ownership_raw: null
+    governance_raw: Henry County Park District
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: Multi-county trail. Managed by Henry County Park District
+      on state-owned canal lands leased from Ohio. GIS_VERIFY_COUNTY — confirm full
+      Henry County extent and segment termini.
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 4
+    source_record_indices:
+    - 14
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: true
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: Hiking/biking trail; surface and difficulty not specified by source
+    accessibility_raw: null
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_T_002
+- entity_type: Trail
+  source_records:
+  - 8
+  identity_block:
+    name_raw: Orange Trail
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+    location_raw: null
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Trail within Mary Jane Thurston State Park. Length: 0.5 mi,
+      difficulty: Easy, per ODNR property page. Parent site: Mary Jane Thurston State
+      Park (this run, T2).'
+    resolved_parent_ids:
+      parent_site_id: HEN_S_018
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 8
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: Easy
+    accessibility_raw: ''
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_T_003
+- entity_type: Trail
+  source_records:
+  - 6
+  identity_block:
+    name_raw: Storybook Trail
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+    location_raw: null
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Trail within Mary Jane Thurston State Park. Length: 0.45
+      mi, difficulty: Easy, per ODNR property page. Parent site: Mary Jane Thurston
+      State Park (this run, T2).'
+    resolved_parent_ids:
+      parent_site_id: HEN_S_018
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 6
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: Easy
+    accessibility_raw: ''
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_T_004
+- entity_type: Trail
+  source_records:
+  - 9
+  identity_block:
+    name_raw: Tow Path
+    counties_raw:
+    - Henry County
+    - Wood County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+    location_raw: null
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Trail within Mary Jane Thurston State Park — 0.3 mi portion
+      within park, continues into Grand Rapids village (Wood County). Likely segment
+      of the historic Miami and Erie Canal Towpath / Buckeye Trail corridor. Multi-county
+      trail; only the MJTSP-managed segment (0.3 mi, Henry County) staged here at
+      T2. GIS_VERIFY_COUNTY — trail crosses into Wood County; full extent and governance
+      to be resolved. Difficulty: Easy per ODNR property page. Parent site: Mary Jane
+      Thurston State Park (this run, T2).'
+    resolved_parent_ids:
+      parent_site_id: HEN_S_018
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 9
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: true
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: Easy
+    accessibility_raw: ''
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_T_005
+- entity_type: Trail
+  source_records:
+  - 43
+  identity_block:
+    name_raw: Wabash Cannonball Trail
+    counties_raw:
+    - Fulton County, OH
+    - Henry County, OH
+    - Lucas County, OH
+    - Williams County, OH
+    urls_raw:
+    - https://www.wabashcannonballtrail.org/
+    - https://www.wabashcannonballtrail.org/about/
+    - https://www.wabashcannonballtrail.org/trail-access/
+    - https://en.wikipedia.org/wiki/Wabash_Cannonball_Trail
+    - https://www.traillink.com/trail/wabash-cannonball-trail/
+    - https://northcountrytrail.org/trail/affiliates/norta/
+    location_raw: null
+  organizational_block:
+    ownership_raw: Northwest Ohio Rails-to-Trails Association (NORTA) owns Henry,
+      Fulton, Williams County portions; Metroparks Toledo owns Lucas County portion
+    governance_raw: Northwest Ohio Rails-to-Trails Association (NORTA)
+    partner_agencies_raw: Metroparks Toledo; Liberty Center Historical Society (depot
+      restoration); Ohio Department of Natural Resources; North Country Trail Association
+    coordination_raw: NORTA 501(c)(3) nonprofit; manages ~32 miles in Henry/Fulton/Williams
+      counties; Metroparks Toledo manages Lucas County section
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Multi-county trail with two named forks: North Fork (Maumee
+      to Montpelier, ~46 mi) and South Fork (Maumee to Liberty Center, ~18 mi). Henry
+      County is on South Fork only (~6 mi in Washington Twp). Total length: ~64-66
+      miles. Former Wabash Railroad corridor; South Fork built 1855. North Country
+      NST certified portions. Trail ends at Henry CR 7 (Pleasantview Dr) where NORTA
+      ownership officially ends; Liberty Center depot section managed by Liberty Center/LCHS
+      beyond that point. Multi-county entity — first staged in Henry County run; cross-ref
+      NCT (OSM rel 11140513, DEF run). HEN-F-07 RESOLVED via NORTA trail-access page.'
+    resolved_parent_ids: {}
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - HEN-F-07
+    discovery_tiers:
+    - 7
+    source_record_indices:
+    - 43
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: 'Varies by section; South Fork: flat rail-trail corridor'
+    accessibility_raw: Paved (Lucas County/eastern sections); cinder, gravel, dirt,
+      grass (Henry County South Fork section)
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_T_006
+- entity_type: Trail
+  source_records:
+  - 10
+  identity_block:
+    name_raw: Yellow Trail
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+    location_raw: null
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Trail within Mary Jane Thurston State Park. Length: 0.5 mi,
+      difficulty: Easy, per ODNR property page. Parent site: Mary Jane Thurston State
+      Park (this run, T2).'
+    resolved_parent_ids:
+      parent_site_id: HEN_S_018
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 10
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: Easy
+    accessibility_raw: ''
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_T_007
+- entity_type: Trail Segment
+  source_records:
+  - 18
+  identity_block:
+    name_raw: Damascus Leg — Miami & Erie Canal Towpath
+    counties_raw:
+    - Henry County
+    urls_raw: []
+    location_raw: Henry County; begins at Henry County Hospital, runs east to State
+      Route 109.
+  organizational_block:
+    ownership_raw: null
+    governance_raw: Henry County Park District
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: Named for Damascus Township. Henry County only. Eastern terminus
+      at SR 109 near Damascus Township.
+    resolved_parent_ids:
+      parent_trail_id: HEN_T_002
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 4
+    source_record_indices:
+    - 18
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: null
+    accessibility_raw: null
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_TS_001
+- entity_type: Trail Segment
+  source_records:
+  - 15
+  identity_block:
+    name_raw: Independence Leg — Miami & Erie Canal Towpath
+    counties_raw:
+    - Henry County
+    - Defiance County
+    urls_raw: []
+    location_raw: Western Henry County / Defiance County border; begins at Independence
+      Dam State Park, runs east to Village of Florida, Henry County.
+  organizational_block:
+    ownership_raw: null
+    governance_raw: Henry County Park District
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: Named segment of the MW&E Canal Towpath. Straddles Defiance/Henry
+      county line. Western terminus at Independence Dam SP (ODNR state park, already
+      staged in DEF run).
+    resolved_parent_ids:
+      parent_trail_id: HEN_T_002
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 4
+    source_record_indices:
+    - 15
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: null
+    accessibility_raw: null
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_TS_002
+- entity_type: Trail Segment
+  source_records:
+  - 17
+  identity_block:
+    name_raw: Napoleon Leg — Miami & Erie Canal Towpath
+    counties_raw:
+    - Henry County
+    urls_raw: []
+    location_raw: Napoleon, Henry County; begins at Meyerholtz Park, runs east to
+      Henry County Hospital.
+  organizational_block:
+    ownership_raw: null
+    governance_raw: Henry County Park District
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: Runs through Napoleon. Western terminus at Meyerholtz Park
+      (Napoleon city park — T6 entity). Eastern terminus at Henry County Hospital.
+    resolved_parent_ids:
+      parent_trail_id: HEN_T_002
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 4
+    source_record_indices:
+    - 17
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: null
+    accessibility_raw: null
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_TS_003
+- entity_type: Trail Segment
+  source_records:
+  - 16
+  identity_block:
+    name_raw: Renegade Leg — Miami & Erie Canal Towpath
+    counties_raw:
+    - Henry County
+    urls_raw: []
+    location_raw: Henry County; begins at Village of Florida, runs east to Napoleon.
+  organizational_block:
+    ownership_raw: null
+    governance_raw: Henry County Park District
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: Named for Simon Girty (historical figure). Henry County only.
+      Eastern terminus at Napoleon.
+    resolved_parent_ids:
+      parent_trail_id: HEN_T_002
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 4
+    source_record_indices:
+    - 16
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: null
+    accessibility_raw: null
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_TS_004
+- entity_type: Trail Segment
+  source_records:
+  - 44
+  identity_block:
+    name_raw: Wabash Cannonball Trail - South Fork
+    counties_raw:
+    - Henry County, OH
+    - Lucas County, OH
+    urls_raw:
+    - https://www.wabashcannonballtrail.org/trail-access/
+    - https://en.wikipedia.org/wiki/Wabash_Cannonball_Trail
+    location_raw: null
+  organizational_block:
+    ownership_raw: NORTA (Henry County portion); Metroparks Toledo (Lucas County portion)
+    governance_raw: Northwest Ohio Rails-to-Trails Association (NORTA)
+    partner_agencies_raw: Metroparks Toledo; Liberty Center Historical Society
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Named operational segment of WCT. Runs from Fallen Timbers
+      Battlefield Area in Maumee (Lucas Co) SW to Liberty Center (Henry Co); ~18 miles
+      total per NORTA. Henry County section ~6 miles in Washington Township; surface
+      cinder/gravel/dirt/grass. Western terminus GPS 41.451114,-83.989429 (Wikipedia
+      geohack). Named fork per NORTA official page and Wikipedia. Parent: Wabash Cannonball
+      Trail.'
+    resolved_parent_ids:
+      parent_trail_id: HEN_T_006
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 7
+    source_record_indices:
+    - 44
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: Flat rail-trail corridor
+    accessibility_raw: Cinder, gravel, dirt, grass (Henry County section); paved through
+      Lucas County
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_TS_005
+- entity_type: Trail Segment
+  source_records:
+  - 19
+  identity_block:
+    name_raw: WideWater Section — Miami & Erie Canal Towpath
+    counties_raw:
+    - Henry County
+    - Wood County
+    urls_raw: []
+    location_raw: Eastern Henry County into Wood County; begins at State Route 109,
+      runs east to Providence Dam Metropark.
+  organizational_block:
+    ownership_raw: null
+    governance_raw: Henry County Park District
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: Named WideWater (historic canal engineering term for widened
+      canal section). Eastern terminus at Providence Dam Metropark (Wood County /
+      Metroparks Toledo entity). Multi-county (Henry + Wood). GIS_VERIFY_COUNTY.
+    resolved_parent_ids:
+      parent_trail_id: HEN_T_002
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 4
+    source_record_indices:
+    - 19
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: true
+  payload:
+    trail_use_type_raw: null
+    trail_surface_type_raw: null
+    trail_origin_type_raw: null
+    surface_type_raw: null
+    segment_type_raw: null
+    difficulty_raw: null
+    accessibility_raw: null
+    total_length_miles_raw: null
+    segment_length_miles_raw: null
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_TS_006
+- entity_type: Access Point
+  source_records:
+  - 12
+  identity_block:
+    name_raw: Mary Jane Thurston State Park Boat Launch Ramp
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+    location_raw: Mary Jane Thurston State Park, 1466 SR 65, McClure, OH 43534
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Boat launch ramp listed on MJTSP property page alongside
+      marina. Source states ''1 boat launch ramp + marina.'' Staged as separate Access
+      Point from marina; co-located or same structure — resolution engine to evaluate.
+      Parent site: Mary Jane Thurston State Park.'
+    resolved_parent_ids:
+      parent_entity_id: HEN_S_018
+      parent_entity_type: Site
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 12
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+    access_point_type_raw: null
+    description_raw: ''
+    features_raw: Boat launch ramp
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_AP_001
+- entity_type: Access Point
+  source_records:
+  - 11
+  identity_block:
+    name_raw: Mary Jane Thurston State Park Marina
+    counties_raw:
+    - Henry County
+    urls_raw:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+    location_raw: Mary Jane Thurston State Park, 1466 SR 65, McClure, OH 43534
+  organizational_block:
+    ownership_raw: State of Ohio
+    governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Marina listed on MJTSP property page. Source states ''1 boat
+      launch ramp + marina.'' Staged as Access Point per §6.7 (visitor-facing entry
+      on water). Resolution engine should evaluate whether marina warrants child Site
+      designation (§6.2) if identity-bearing; flagged for review. Parent site: Mary
+      Jane Thurston State Park.'
+    resolved_parent_ids:
+      parent_entity_id: HEN_S_018
+      parent_entity_type: Site
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 2
+    source_record_indices:
+    - 11
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    gps_lat_raw: ''
+    gps_lon_raw: ''
+    access_point_type_raw: null
+    description_raw: ''
+    features_raw: Marina
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_AP_002
+- entity_type: Access Point
+  source_records:
+  - 25
+  identity_block:
+    name_raw: Oberhaus Park Boat Dock
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+    location_raw: 750 W. Maumee St, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Child access point of Oberhaus Park. Public boat dock on
+      Maumee River. GPS from Google Maps/HMDB map verification pass 2026-04-21: GPS
+      approximate — within Oberhaus Park boundary; no separate Maps listing'
+    resolved_parent_ids:
+      parent_entity_id: HEN_S_025
+      parent_entity_type: Site
+  metadata_block:
+    seeded_from_baseline: false
+    baseline_ids: []
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 25
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    gps_lat_raw: '41.3798989'
+    gps_lon_raw: '-84.1342520'
+    access_point_type_raw: null
+    description_raw: ''
+    features_raw: 250-ft public boat dock on the Maumee River
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_AP_003
+- entity_type: Access Point
+  source_records:
+  - 23
+  identity_block:
+    name_raw: Ritter Park Boat Launch
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+    location_raw: 1111 W. Riverview Ave, Napoleon, OH 43545
+  organizational_block:
+    ownership_raw: City of Napoleon
+    governance_raw: City of Napoleon Parks and Recreation
+    partner_agencies_raw: ODNR Division of Watercraft (grant funder)
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Child access point of Ritter Park. Resolves HEN-F-01 (Boatramp
+      Facility). Baseline listed boat ramp separately at 14.8 ac — confirmed to be
+      part of Ritter Park, not separate parcel. GPS from Google Maps/HMDB map verification
+      pass 2026-04-21: GPS approximate — within Ritter Park boundary; no separate
+      Maps listing'
+    resolved_parent_ids:
+      parent_entity_id: HEN_S_027
+      parent_entity_type: Site
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - napoleon-boatramp-facility
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 23
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    gps_lat_raw: '41.3793296'
+    gps_lon_raw: '-84.1456572'
+    access_point_type_raw: null
+    description_raw: ODNR Watercraft grant-funded boat launch on the Maumee River
+      at Ritter Park. Project funded restrooms, parking, and retaining wall.
+    features_raw: Boat launch, restrooms, parking, retaining wall
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_AP_004
+- entity_type: Access Point
+  source_records:
+  - 45
+  identity_block:
+    name_raw: WCT Henry CR 6C Trailhead
+    counties_raw:
+    - Henry County, OH
+    urls_raw:
+    - https://www.wabashcannonballtrail.org/trail-access/
+    location_raw: Henry County Road 6C between CR U and CR T, approximately 1 mile
+      east of Liberty Center, OH
+  organizational_block:
+    ownership_raw: Northwest Ohio Rails-to-Trails Association (NORTA)
+    governance_raw: Northwest Ohio Rails-to-Trails Association (NORTA)
+    partner_agencies_raw: []
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Named "Henry County Road 6C" access point on NORTA trail-access
+      page. GPS from embedded Google Maps iframe: !2d-83.9904512488154!3d41.450714611344075
+      → 41.450715,-83.990451. Baseline HEN-F-07 listed two WCT trailheads; this is
+      the second one (CR 6C). Liberty Center Depot is the other (T6, already staged).
+      NORTA ownership ends ~0.5 mi west at Henry CR 7 (Pleasantview Dr). Parent trail:
+      Wabash Cannonball Trail / WCT South Fork.'
+    resolved_parent_ids:
+      parent_entity_id: HEN_T_006
+      parent_entity_type: Trail
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - HEN-F-07
+    discovery_tiers:
+    - 7
+    source_record_indices:
+    - 45
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    gps_lat_raw: '41.450715'
+    gps_lon_raw: '-83.990451'
+    access_point_type_raw: null
+    description_raw: This trail access is located about a mile east of Liberty Center
+      between Henry CR U and CR T. On site is a small park with parking, a picnic
+      table, and information kiosk. The Trail jogs to the south and continues on west
+      to Henry CR 7 (Pleasantview Drive), the Liberty Center corporation limit where
+      NORTA's ownership officially ends.
+    features_raw: Parking; picnic table; information kiosk
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_AP_005
+- entity_type: Access Point
+  source_records:
+  - 39
+  identity_block:
+    name_raw: Wabash Cannonball Trail Liberty Center Depot Trailhead
+    counties_raw:
+    - Henry County, Ohio
+    urls_raw:
+    - https://www.wabashcannonballtrail.org/trail-access/
+    - https://www.hmdb.org/m.asp?m=172744
+    location_raw: Wabash St, Liberty Center, OH 43532 (at restored railroad depot)
+  organizational_block:
+    ownership_raw: Village of Liberty Center
+    governance_raw: Village of Liberty Center; NORTA (Northwest Ohio Rails-to-Trails
+      Association)
+    partner_agencies_raw: NORTA
+    coordination_raw: []
+  parent_block:
+    parent_site_id_raw: []
+    parent_trail_id_raw: []
+    identity_notes_raw: 'Partially resolves HEN-F-07 (two WCT trailhead baseline entries).
+      This is the Liberty Center south terminus trailhead. The second HEN-F-07 entry
+      is likely the Holgate trailhead — not yet confirmed. NORTA manages WCT (T7 entity).
+      GPS from Google Maps/HMDB map verification pass 2026-04-21: Wabash St at restored
+      railroad depot, Liberty Center — confirmed Google Maps detail card; GPS updated
+      from NORTA wabashcannonballtrail.org/trail-access/ embedded map (41.443728,-84.009326);
+      also confirmed by NORTA description: fix-it station, info kiosk, Ohio historical
+      marker, parking across Wabash St from depot; NORTA ownership ends at Henry CR
+      7 (Pleasantview Dr); HEN-F-07 RESOLVED'
+    resolved_parent_ids:
+      parent_entity_id: HEN_T_006
+      parent_entity_type: Trail
+  metadata_block:
+    seeded_from_baseline: true
+    baseline_ids:
+    - liberty-center-wct-trailhead
+    discovery_tiers:
+    - 6
+    source_record_indices:
+    - 39
+    conflict_count: 0
+    conflicts: []
+    gis_verify_county: false
+  payload:
+    gps_lat_raw: '41.443728'
+    gps_lon_raw: '-84.009326'
+    access_point_type_raw: null
+    description_raw: Southwest terminus of the Wabash Cannonball Trail South Fork.
+      Restored railroad depot serves as trailhead with visitor amenities.
+    features_raw: Fix-it station, information kiosk, Ohio historical marker (Wabash
+      Depot), parking across Wabash Street from depot
+  resolution_provenance:
+    merge_cluster_size: 1
+    merge_threshold_used: 80
+    review_threshold_used: 50
+    cross_tier_trail: false
+  resolved_entity_id: HEN_AP_006

@@ -1,0 +1,96 @@
+run_id: henry_oh_2026_04_20
+county: Henry
+state: Ohio
+stage: 3
+results:
+  HEN_S_004:
+    name: Dr. John Bloomfield Home & Carriage House Museum
+    gps_lat: 41.39134
+    gps_lon: -84.127327
+    confidence: HIGH
+    method: 'Nominatim address query: ''229 W Clinton St, Napoleon, OH 43545'''
+    notes: 229, West Clinton Street, Napoleon, Napoleon Township, Henry County, Ohio,
+      43545, United States
+  HEN_S_006:
+    name: Florida Wildlife Area
+    gps_lat: 41.321993
+    gps_lon: -84.204391
+    confidence: LOW
+    method: 'LOW: city centroid fallback — ''Florida, Henry County, Ohio'''
+    notes: No exact park match; using Florida centroid. Florida, Flatrock Township,
+      Henry County, Ohio, United States
+  HEN_S_009:
+    name: Hamler Community Park
+    gps_lat: 41.229216
+    gps_lon: -84.034111
+    confidence: LOW
+    method: 'LOW: city centroid fallback — ''Hamler, Henry County, Ohio'''
+    notes: No exact park match; using Hamler centroid. Hamler, Marion Township, Henry
+      County, Ohio, United States
+  HEN_S_011:
+    name: Henry County Fairgrounds
+    gps_lat: 41.381644
+    gps_lon: -84.120723
+    confidence: HIGH
+    method: 'Nominatim address query: ''821 S Perry St, Napoleon, OH 43545'''
+    notes: 821, South Perry Street, Napoleon, Napoleon Township, Henry County, Ohio,
+      43545, United States
+  HEN_S_012:
+    name: Henry County Historical Society Fairgrounds Historic Complex
+    gps_lat: 41.381644
+    gps_lon: -84.120723
+    confidence: HIGH
+    method: 'Nominatim address query: ''821 S Perry St, Napoleon, OH 43545'''
+    notes: 821, South Perry Street, Napoleon, Napoleon Township, Henry County, Ohio,
+      43545, United States
+  HEN_S_013:
+    name: Henry County Wildlife Area 1
+    gps_lat: null
+    gps_lon: null
+    confidence: NONE
+    method: all_queries_failed
+    notes: No Nominatim result within county bounds for any query format.
+  HEN_S_014:
+    name: Henry County Wildlife Area 2
+    gps_lat: null
+    gps_lon: null
+    confidence: NONE
+    method: all_queries_failed
+    notes: No Nominatim result within county bounds for any query format.
+  HEN_S_015:
+    name: Henry County Wildlife Area 3
+    gps_lat: null
+    gps_lon: null
+    confidence: NONE
+    method: all_queries_failed
+    notes: No Nominatim result within county bounds for any query format.
+  HEN_S_017:
+    name: Liberty Center Firemen's Park
+    gps_lat: 41.443385
+    gps_lon: -84.008835
+    confidence: LOW
+    method: 'LOW: city centroid fallback — ''Liberty Center, Henry County, Ohio'''
+    notes: No exact park match; using Liberty Center centroid. Liberty Center, Liberty
+      Township, Henry County, Ohio, United States
+  HEN_S_018:
+    name: Mary Jane Thurston State Park
+    gps_lat: 41.411925
+    gps_lon: -83.884997
+    confidence: MED
+    method: 'Nominatim query: ''Mary Jane Thurston State Park, Henry County, Ohio'''
+    notes: Mary Jane Thurston State Park, Grand Rapids, Damascus Township, Henry County,
+      Ohio, United States
+  HEN_S_019:
+    name: Maumee State Scenic River
+    gps_lat: null
+    gps_lon: null
+    confidence: NONE
+    method: linear_feature
+    notes: Linear feature spanning multiple counties; no single GPS point appropriate.
+  HEN_S_023:
+    name: North Turkeyfoot Wildlife Area
+    gps_lat: null
+    gps_lon: null
+    confidence: NONE
+    method: all_queries_failed
+    notes: No Nominatim result within county bounds for any query format.

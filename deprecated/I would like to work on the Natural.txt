@@ -1,0 +1,159 @@
+I would like to work on the Natural Areas project again. Can you generate a tsv of all natural areas in xx County - the ones I already have, plus the ones you find, including trails, sites internal to other sites, and any municipal or township sites in xx County. The tsv should have the following columns:
+Name
+Type
+Acres
+Description
+Address
+Location
+Managing Agency
+Status
+County
+Species Count
+Trail Access
+Notes
+URL
+Map Link
+GPS Coordinates
+Plus Code
+
+Please perform a comprehensive, multi‑path search for all outdoor sites, parks, natural areas, and land‑holding organizations in this county. Use category search, entity search, pattern search, long‑tail search, and organizational search to ensure that no micro‑sites, civic‑created sites, or poorly indexed sites are missed. All entries must be verifiable; no conjecture or invented sites. Provide results in TSV batches of up to ~50 rows.
+
+✅ A. Government‑Owned Parks & Natural Areas
+Municipal / Village / Township
+- Village, city, or township parks
+- Township greens, commons, or recreation areas
+- Township‑owned cemeteries with trails or natural features
+County
+- County parks, preserves, forests, or recreation areas
+- Soil & Water Conservation District properties
+- County‑owned natural areas, wetlands, or conservation parcels
+State
+- State parks
+- State forests
+- State wildlife areas
+- State nature preserves
+- State public hunting areas
+- State or regional public lands
+- ODOT properties including rest areas, scenic turnouts, and roadside parks
+Federal
+- National Wildlife Refuges
+- National Forest units
+- Army Corps of Engineers recreation areas
+- National Park Service sites
+- Any other federal outdoor lands
+
+✅ B. Privately Owned but Public‑Facing Outdoor Sites
+- Arboretums
+- Drive‑ins
+- Cemeteries with trails or natural features
+- Privately owned parks or preserves
+- Outdoor museums or interpretive sites
+- Privately owned campgrounds
+- Outdoor event grounds
+
+✅ C. Organizational, Civic, and Community‑Created Outdoor Sites
+Museums, Historical Societies, Scientific Organizations
+- Outdoor museum grounds
+- Historical society properties
+- Archaeological sites with public access
+- Scientific field stations
+Civic, Religious, Scouting, Fraternal, or Youth Organizations
+(Include tiny, informal, or poorly indexed sites.)
+- 4‑H parks or outdoor sites
+- Scout camps or meeting grounds
+- Church‑owned outdoor spaces
+- VFW, American Legion, Eagles, Moose, Lions, Rotary, Grange, etc.
+- Civic‑created veterans parks
+- Community‑maintained greenspaces
+Educational Institutions
+- University field stations
+- School forests
+- Outdoor classrooms
+- Environmental education sites
+- Agricultural education plots
+Land Trusts, Conservancies, and Easements
+Do a deep sweep for any lands owned or managed by:
+- The Nature Conservancy
+- The Archaeological Conservancy
+- Arc of Appalachia
+- Appalachia Ohio Alliance
+- Ohio River Foundation
+- Local land trusts
+- Conservation easements
+- Any other conservancy organization
+
+✅ D. Trails, Access Points, and Linear Features
+- Named trails
+- Trailheads
+- Bikeway access points
+- Water trail access points
+- Linear parks
+- Greenways
+- Rail‑trails
+- Blueways
+
+✅ E. Internal Sites Within Larger Parks
+(List each as its own entry.)
+- Trailheads
+- Boat ramps
+- Arboretums
+- Golf courses
+- Nature centers
+- Campgrounds
+- Picnic areas
+- Scenic overlooks
+- Disc golf courses
+
+✅ F. Special‑Use Lands
+- Utility corridors
+- Wellfields
+- Water treatment lands
+- Flood control lands
+- Special‑use public lands
+- Reclaimed lands
+- Former industrial lands now used as natural areas
+- Historical wetlands
+- Legacy ecological sites
+
+✅ G. Adjacent Parcels & Buffer Zones
+Include:
+- Natural‑area‑adjacent parcels
+- Buffer zones
+- Only those that are verifiable and not conjectured
+
+✅ H. Organizational Discovery Sweep
+List every organization in the county that might plausibly own or maintain outdoor land, including:
+- civic groups
+- churches
+- scouting units
+- youth organizations
+- fraternal organizations
+- veterans groups
+- environmental groups
+- historical societies
+- educational institutions
+- conservancies
+- land trusts
+Then check each one for outdoor properties.
+
+✅ Output Requirements
+- Provide results in TSV batches of up to ~50 rows.
+- No conjecture, no estimation, no invented sites.
+- Every site must be verifiable through a source.
+- Mark ambiguous entries as “provisional” with an explanation.
+
+
+
+
+
+
+ok we have done Kettering, Dayton, Riverside, Trotwood, Vandalia, Huber Heights, Centerville (CWPD), West Carrollton, Brookville, Oakwood, Moraine, Miamisburg, Clayton, Englewood, Union, Germantown, Carlisle, Springboro, New Lebanon, Farmersville
+
+
+
+- Phillipsburg
+- Verona 
+
+
+
+

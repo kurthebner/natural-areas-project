@@ -1,0 +1,132 @@
+---
+name: na-quality
+description: Quality assurance, integrity checks, error handling, audit logging, and manual review for the Natural Areas Project. Triggers on quality check, integrity check, audit, errors, review queue, conflicts, or pipeline failures.
+---
+
+# Natural Areas Project — Quality Skill v5.3
+
+Covers integrity validation, error handling, conflict resolution, audit logging, and manual review workflows.
+
+## TSV Integrity Check
+
+Run before every database upsert. A single failing row halts the pipeline.
+
+**Delimiter requirements (exact):**
+
+| Entity Type | Fields | Tabs Required |
+|-------------|--------|---------------|
+| Site | 25 | 24 |
+| Trail | 19 | 18 |
+| Trail Segment | 17 | 16 |
+| Trail Network | 17 | 16 |
+| Site Network | 15 | 14 |
+| Access Point | 17 | 16 |
+
+**Field position anchors — key fields to verify:**
+
+*Site:* Name→1, Counties→13, Municipality→14, Township→15, GPS Lat→16, GPS Lon→17, Plus Code→18, Features→19, Parent Site ID→23
+
+*Trail:* Name→1, Counties→7, Difficulty→11, Accessibility→12, Identity Notes→15, Trail ID→19
+
+*Trail Segment:* Parent Trail→1, Segment Name→2, Counties→3, Difficulty→9, Accessibility→10, Identity Notes→12, Geometry→16, Segment ID→17
+
+*Trail Network:* Network Name→1, Counties→7, Identity Notes→13, Network ID→17
+
+*Site Network:* Network Name→1, Counties→7, Identity Notes→12, Network ID→15
+
+*Access Point:* Name→1, Parent Type→4, Parent Name→5, GPS Lat→10, GPS Lon→11, Plus Code→12, Features→13, Identity Notes→14, AP ID→17
+
+**A row fails if:**
+- Delimiter count is wrong
+- Any field contains a tab or newline character
+- A blank field contains spaces or placeholder values (NULL, N/A, _, "")
+- Any field has leading or trailing whitespace
+- Any anchor field is misaligned or blank
+- Identity Notes is misaligned (all entity types)
+- GPS Lat/Lon misaligned (Sites, Access Points)
+- Plus Code misaligned (Sites, Access Points)
+- Features misaligned (Sites, Access Points)
+- Difficulty/Accessibility misaligned (Trails, Trail Segments)
+- Geometry misaligned (Trail Segments)
+- Counties not semicolon-delimited and alphabetized
+- Any entity attempts multi-row expansion
+
+Reference: `na_tsv_integrity_check.md`
+
+## Vocabulary Compliance Audit (IMP-085)
+
+### Vocabulary Source Rule
+
+All vocabulary used for compliance checks must be loaded from the current authoritative vocabulary modules — **never hardcoded** in audit scripts. Before running any compliance check, read the vocabulary module for each entity type:
+
+- Sites: `na_site_vocabulary.md`
+- Trails: `na_trail_vocabulary.md`
+- Access Points: `na_access_point_vocabulary.md`
+
+Hardcoded vocabulary lists produce false positives (flagging valid terms absent from the hardcoded list) and false negatives (missing invalid terms added after the list was written). The authoritative module is always the source of truth.
+
+### Free-Text Field Exclusion Rule
+
+The following fields have **no controlled vocabulary** and must **never** be checked against a vocabulary list:
+
+- Trail `accessibility` field
+- Trail `identity_notes` field
+- Trail Segment `accessibility` field
+- Trail Segment `identity_notes` field
+- Access Point `features` field (AP vocabulary §1 explicitly has no controlled vocabulary for AP features)
+- Access Point `identity_notes` field
+- Site `notes` field
+- Site `description` field
+
+Only fields that are explicitly designated as controlled in their vocabulary module may be checked. The controlled/free-text distinction for each field is documented in the vocabulary modules under their "Purpose" sections.
+
+### Empty TSV Rule
+
+An empty TSV file (zero data rows, header row only) is **expected behavior** for entity types not present in a given county — it is not a warning. Flag only if the TSV file itself is missing entirely:
+
+- ✅ Correct: TSV file present, header row only → no flag
+- ⚠️ Flag: TSV file missing from output entirely
+
+### Held-Parent Access Point FK Rule
+
+When checking AP parent FK integrity, cross-reference the `held_entities` table before classifying the error:
+
+- If the AP's parent `entity_id` appears in `held_entities` → classify as **WARNING** (`"parent held — will resolve cross-county"`)
+- If the AP's parent `entity_id` is absent from both the live graph and `held_entities` → classify as **FATAL** (dangling FK)
+
+Do not reject APs with held parents — they are correctly structured entities waiting for cross-county resolution.
+
+
+## Error Classification
+
+**Warnings** (pipeline continues):
+- Unmappable vocabulary values
+- Minor formatting issues
+- Plus Code computation failures
+- GIS lookup failures with valid GPS
+- Member IDs referencing entities not yet in graph
+
+**Fatal Errors — Rejections** (entity rejected):
+- Missing required fields
+- Invalid field types
+- Broken integrity anchors
+- Invalid parent references (cycles, self-parenting)
+- GPS out of valid range when required
+
+**Held** (entity valid but incomplete):
+- Site or Access Point missing GPS after GPS Acquisition (GPS Gate, IMP-069)
+- Network with unresolved member IDs
+- Entity with parent not yet in graph
+
+## Manual Review Queue
+
+Entities routed to `manual_review_queue` when:
+- Two normalized entities share the same integrity anchor (collision)
+- Resolution flagged a near-match but did not auto-merge
+- High-confidence fields (name, category, GPS) disagree materially with existing graph entity
+
+### County Mismatch Review (IMP-067)
+
+Entities flagged `county_mismatch` appear in the manual review queue when HIGH or MED confide
+---
+# END OF NA_QUALITY_SKILL

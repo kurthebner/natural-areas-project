@@ -1,0 +1,1896 @@
+OBJECTID,Name,Jurisdiction,County,Type,Sub_Type,Status,Acres,Source,centroid_lat,centroid_lon
+21913,Heather Glen North Park,Dublin,FRA,PARK,C,Public,18.42533399,Dublin,40.0886190,-83.1468407
+21914,Scioto Run Nature Trail,Hilliard,FRA,PARK,C,Public,11.52702412,Hilliard,40.0372910,-83.1128027
+21915,Northwest Park,Upper Arlington,FRA,PARK,C,Public,21.22576066,,40.0555619,-83.0840409
+21916,Mccord Park,Worthington,FRA,PARK,C,Public,26.1919388,FCA,40.1071708,-83.0048205
+21917,Fryer Park,Grove City,FRA,PARK,R,Public,111.45110107,Grove City,39.8566883,-83.1002103
+21918,Nafzger Park,Columbus,FRA,PARK,C,Public,70.53450868,Columbus,39.9175455,-82.8673024
+21919,Mccorkle Park,Gahanna,FRA,PARK,C,Public,21.99700841,Gahanna,40.0306816,-82.8792858
+21920,J.F. Kennedy Park,Reynoldsburg,FRA,PARK,C,Public,27.27789711,,39.9576350,-82.8059842
+21921,The Homestead,Hilliard,FRA,PARK,M,Public,40.43058784,Hilliard,40.0525018,-83.1838663
+21922,Topiary Garden/Deaf School Park,Columbus,FRA,PARK,N,Public,6.94712773,FCA,39.9611571,-82.9876213
+21923,John Bishop Park,Whitehall,FRA,PARK,C,Public,38.15717604,FCEO,39.9630892,-82.8692442
+21924,Darree Fields Park,Dublin,FRA,PARK,C,Public,152.3804012,Dublin,40.0961866,-83.1954571
+21925,Roger A. Reynolds Municipal Park,Hilliard,FRA,PARK,R,Public,131.19931688,Hilliard,40.0287628,-83.1727675
+21926,Thompson Park,Upper Arlington,FRA,PARK,C,Public,46.54887055,FCA,40.0436637,-83.0723144
+21927,Memorial Park,Obetz,FRA,PARK,R,Public,84.29462872,,39.8836656,-82.9407940
+21928,Perry Park,Worthington,FRA,PARK,C,Public,19.11935071,,40.1009455,-83.0536552
+21929,Pine Quarry Park,Reynoldsburg,FRA,PARK,C,Public,40.78513421,,39.9628313,-82.7882889
+21930,Scioto Park,Dublin,FRA,PARK,C,Public,14.36790367,Dublin,40.1169271,-83.1110234
+21931,Swickard Woods Park,New Albany,FRA,PARK,C,Public,47.36207062,,40.0892462,-82.8149980
+21932,Whitehall Community Park,Bexley,FRA,PARK,R,Public,102.98677821,,39.9815220,-82.8672512
+21933,Windsor Park,Grove City,FRA,PARK,C,Public,34.40553805,Grove City,39.8750532,-83.0936549
+21934,Amberleigh Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,6.63880956,Dublin,40.1357731,-83.1247042
+21935,Amberleigh Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.57433024,Dublin,40.1319317,-83.1227773
+21936,Northeast Quad Park,Dublin,FRA,PARK,C,Public,33.93123818,Dublin,40.1289773,-83.0942951
+21937,Bristol Commons Park,Dublin,FRA,PARK,N,Public,4.21783281,Dublin,40.1273847,-83.1428402
+21938,Bristol Commons Park,Dublin,FRA,PARK,N,Public,6.53238991,Dublin,40.1267743,-83.1411145
+21939,Donegal Cliffs,Dublin,FRA,PARK,N,Public,10.13272097,Dublin,40.1255806,-83.1144403
+21940,Hawk's Nest Park,Dublin,FRA,PARK,N,Public,3.46959565,Dublin,40.1235100,-83.1522397
+21941,Dublinshire Open Space "H",Dublin,FRA,GREEN SPACE,NOS,Private,0.29201861,Dublin,40.1218498,-83.1510587
+21942,Avery Road Open Space "B",Dublin,FRA,GREEN SPACE,NOS,Public,3.12302371,Dublin,40.1199120,-83.1579544
+21943,Wyndhym Park,Dublin,FRA,PARK,N,Public,7.35902282,Dublin,40.1205028,-83.1636134
+21944,Coventry Woods Open Space "E",Dublin,FRA,GREEN SPACE,NOS,Private,0.90655873,Dublin,40.1153142,-83.1174302
+21945,Waterford Woods Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,1.76951568,Dublin,40.0947690,-83.1201775
+21946,Woodstream Parkland,Columbus,FRA,PARK,CON,Public,27.12230384,Columbus,40.0717901,-82.8978892
+21947,Olde Ridenour Road Open Space,Gahanna,FRA,PARK,N,Public,0.52071348,,40.0376716,-82.8834176
+21948,First Responders Park,Hilliard,FRA,PARK,N,Public,0.57786028,Hilliard,40.0334925,-83.1593071
+21949,Mecca Road Open Space,Township,FRA,GREEN SPACE,NOS,Public,5.07934132,parcels,40.0307796,-82.9472106
+21950,Rosemont Parkland,Columbus,FRA,PARK,N,Public,3.39856597,Columbus,40.0211457,-82.9454728
+21951,City Gate Park,Columbus,FRA,PARK,N,Public,5.05090241,Columbus,40.0135460,-82.9259132
+21952,Hayden Park,Columbus,FRA,PARK,N,Public,1.79662055,Columbus,39.9896595,-82.9384130
+21953,Hayden Park,Columbus,FRA,PARK,N,Public,3.01025846,Columbus,39.9881074,-82.9375186
+21954,Hayden Park,Columbus,FRA,PARK,N,Public,3.75193889,Columbus,39.9880137,-82.9395473
+21955,Paul J. Falco,Marble Cliff,FRA,PARK,N,Public,0.7353996,,39.9875368,-83.0589628
+21956,Fisher Road Parkland,Columbus,FRA,PARK,PRES,Public,16.71864122,Columbus,39.9751141,-83.1242582
+21957,Schneider Park,Bexley,FRA,PARK,C,Public,4.04933826,,39.9514805,-82.9423582
+21958,Martin Park,Columbus,FRA,PARK,N,Public,0.24207381,Columbus,39.9451577,-82.9738178
+21959,Winding Creek Park,Columbus,FRA,GREEN SPACE,NOS,Public,2.84886772,Columbus,39.9324298,-82.8658164
+21960,Deer Lake Park,Columbus,FRA,PARK,CON,Public,1.32054152,Columbus,39.9281883,-82.8663828
+21961,Wood Park Drive Open Space,Township,FRA,GREEN SPACE,NOS,Private,0.8612148,,39.9270139,-83.1756395
+21962,Wood Park Drive Open Space,Township,FRA,GREEN SPACE,NOS,Private,0.9151583,,39.9266081,-83.1771210
+21963,Oak Park Drive Open Space,Township,FRA,GREEN SPACE,NOS,Private,1.78769975,,39.9266383,-83.1720843
+21964,Oak Park Drive Open Space,Township,FRA,GREEN SPACE,NOS,Private,2.57001992,,39.9259785,-83.1736757
+21965,Oak Park Drive Open Space,Township,FRA,GREEN SPACE,NOS,Private,0.00830316,,39.9258623,-83.1736800
+21966,Oak Park Drive Open Space,Township,FRA,GREEN SPACE,NOS,Private,1.49011281,,39.9242588,-83.1723477
+21967,Walnut View Park,Columbus,FRA,PARK,N,Public,9.42308599,Columbus,39.9214045,-82.8421938
+21968,Westgrove Park,Grove City,FRA,PARK,C,Public,5.76093812,Grove City,39.8918618,-83.1089756
+21969,Obetz Open Space,Obetz,FRA,PARK,N,Public,0.06206694,,39.8787018,-82.9503399
+21970,The Obetz Splash Pad,Obetz,FRA,PARK,N,Public,0.92687375,,39.8779244,-82.9505146
+21971,Bridlewood Park,Obetz,FRA,PARK,N,Public,4.09681022,,39.8770889,-82.9445284
+21972,Keller Farms,Grove City,FRA,PARK,C,Public,5.62400505,Grove City,39.8731169,-83.0548742
+21973,Groveport Road Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,0.88106714,,39.8461657,-82.8301834
+21974,Glencree Place Open Space,Dublin,FRA,PARK,N,Public,0.20174443,,40.1366921,-83.0953060
+21975,Woodbridge Green Park,Columbus,FRA,PARK,N,Public,6.37785884,Columbus,40.1181159,-83.0594473
+21976,Bride Water Boulevard Open Space,Columbus,FRA,GREEN SPACE,NOS,Private,1.95976257,,40.1065780,-83.0570796
+21977,Snouffer Road Open Space,Columbus,FRA,GREEN SPACE,NOS,Private,0.86804395,,40.1044743,-83.0746229
+21978,Snouffer Road Open Space,Columbus,FRA,GREEN SPACE,NOS,Private,0.57340852,,40.1043512,-83.0726215
+21979,Lakebrook Boulevard Open Space,Columbus,FRA,GREEN SPACE,NOS,Private,1.54170809,,40.1000800,-83.0734765
+21980,Westover Park,Upper Arlington,FRA,PARK,N,Public,1.11876219,,40.0029185,-83.0657765
+21981,Huy Road Park,Columbus,FRA,PARK,N,Public,8.17745394,Columbus,40.0331351,-82.9751724
+21982,Olentangy River Canoe Fortage Parkland,Columbus,FRA,PARK,PRES,Public,1.53692156,Columbus,40.0298470,-83.0244673
+21983,Pumphrey Park,Columbus,FRA,PARK,N,Public,0.67352786,Columbus,40.0284351,-82.9743311
+21984,Paul S. Metzger Park,Westerville,FRA,PARK,C,Public,31.71023867,Westerville,40.1294099,-82.9620125
+21985,Beechcroft Park,Columbus,FRA,PARK,N,Public,4.65772714,Columbus,40.0908560,-82.9629929
+21986,Granville Park,Columbus,FRA,PARK,N,Public,5.08943755,Columbus,40.0807106,-82.9568800
+21987,Selby Park,Worthington,FRA,PARK,N,Public,1.77018034,FCA,40.0772821,-83.0084354
+21988,Pingree Park,Worthington,FRA,PARK,N,Public,1.12119473,,40.0902998,-83.0093616
+21989,Astronaut Grove,Westerville,FRA,PARK,N,Public,2.88800559,Westerville,40.1259757,-82.9416571
+21990,Westerville Senior Center,Westerville,FRA,RECREATION,SPU,Public,1.92362855,Westerville,40.1258318,-82.9428651
+21991,Alum Creek Park South,Westerville,FRA,PARK,R,Public,34.60334781,Westerville,40.1132678,-82.9370968
+21992,Mcfadyens Ac Park,Obetz,FRA,PARK,N,Public,1.44806464,,,
+21993,Heritage Park,Groveport,FRA,PARK,C,Public,16.12018493,,39.8481224,-82.8858828
+21994,Indian Run Falls Park,Dublin,FRA,PARK,C,Public,9.37541291,Dublin,40.1018111,-83.1186908
+21995,Longbranch Drive Open Space,Dublin,FRA,GREEN SPACE,NOS,Private,0.47719003,,40.0892450,-83.1198170
+21996,Wellington Park,Dublin,FRA,PARK,NOS,Public,2.13905178,Dublin,40.1181555,-83.1231988
+21997,Amberleigh,Dublin,FRA,PARK,N,Public,4.10498259,Dublin,40.1331294,-83.1170569
+21998,Lombard Open Space,Dublin,FRA,PARK,NOS,Private,0.73688241,Dublin,40.1323293,-83.1634581
+21999,Hawk'S Nest Park,Dublin,FRA,PARK,NOS,Public,6.31242367,Dublin,40.1270650,-83.1517917
+22000,Kestrel Park,Dublin,FRA,PARK,N,Public,3.55492586,Dublin,40.1260658,-83.1541488
+22001,Wedgewood Hills Park,Dublin,FRA,PARK,N,Public,10.38152769,Dublin,40.1356980,-83.1123019
+22002,Campden Lakes Park,Dublin,FRA,PARK,N,Public,11.06794456,Dublin,40.1328316,-83.1041285
+22003,Heather Glen North Park,Dublin,FRA,PARK,N,Public,4.78977158,Dublin,40.0916451,-83.1526967
+22004,Balgriffin Park,Dublin,FRA,PARK,C,Public,15.11498367,Dublin,40.0849282,-83.1553148
+22005,Disc Golf Course,Dublin,FRA,PARK,C,Public,6.66795855,Dublin,40.0843968,-83.1520998
+22006,Trabue Woods Park,Columbus,FRA,PARK,N,Public,5.80866989,Columbus,39.9797829,-83.1208511
+22007,Windward Farms Park,Columbus,FRA,PARK,C,Public,17.43933198,Columbus,39.8991672,-83.1209085
+22008,Northern Woods Park,Columbus,FRA,PARK,N,Public,1.90590167,Columbus,40.0937633,-82.9451463
+22009,Linden Park Rec Center,Columbus,FRA,PARK,C,Public,19.7020511,Columbus,40.0177650,-82.9759346
+22010,Hanford Village Park,Columbus,FRA,PARK,N,Public,2.02576458,Columbus,39.9525454,-82.9442771
+22011,Moeller Park,Columbus,FRA,PARK,N,Public,1.73001572,Columbus,39.9360946,-82.9881644
+22012,Freedom Park,Columbus,FRA,PARK,C,Public,7.9778281,Columbus,39.9279923,-83.1466045
+22013,Alum Creek Park,Columbus,FRA,PARK,N,Public,4.57434895,Columbus,39.9154066,-82.9385274
+22014,Stoneridge Park,Columbus,FRA,PARK,C,Public,22.82077311,Columbus,39.9025278,-83.0596600
+22015,Indian Mound Park & Rec Center,Columbus,FRA,PARK,C,Public,20.2377515,Columbus,39.8829422,-82.9896961
+22016,Summitview Park,Columbus,FRA,PARK,N,Public,9.03908857,Columbus,40.1382515,-83.0882310
+22017,Riverside Green Park,Columbus,FRA,PARK,N,Public,5.58766887,Columbus,40.0904018,-83.1044840
+22018,Sycamore Hills Park,Columbus,FRA,PARK,N,Public,7.79690069,Columbus,40.0720339,-83.0494844
+22019,Carriage Place Park,Columbus,FRA,PARK,C,Public,12.95644742,Columbus,40.0687146,-83.0908731
+22020,Joan Park,Columbus,FRA,PARK,N,Public,3.99806678,Columbus,40.0156415,-82.9586704
+22021,Maloney Park,Columbus,FRA,PARK,C,Public,24.42257038,Columbus,40.0020655,-82.9666319
+22022,Douglas Rec Center And Windsor Park,Columbus,FRA,RECREATION,SPU,Public,5.92258453,Columbus,39.9974346,-82.9724931
+22023,Indianola & 8Th Park,Columbus,FRA,PARK,N,Public,1.20992154,Columbus,39.9927057,-83.0034805
+22024,Sancus Park,Columbus,FRA,PARK,N,Public,1.26258634,Columbus,40.1236534,-82.9953250
+22025,Devonshire Park,Columbus,FRA,PARK,C,Public,6.63339885,Columbus,40.0957438,-82.9806344
+22026,Forest Park East Park,Columbus,FRA,PARK,N,Public,4.02662602,Columbus,40.0738818,-82.9705645
+22027,Northtowne Park,Columbus,FRA,PARK,N,Public,3.6386884,Columbus,40.0663552,-82.9612657
+22028,Schiller Park,Columbus,FRA,PARK,C,Public,23.60628501,Columbus,39.9421492,-82.9925544
+22029,Goodale Park,Columbus,FRA,PARK,C,Public,32.56537721,Columbus,39.9754460,-83.0069998
+22030,Glenwood Park & Recreation Center,Columbus,FRA,RECREATION,SPU,Public,16.72370087,Columbus,39.9553329,-83.0494523
+22031,Wolfe Park,Columbus,FRA,PARK,R,Public,46.8751641,Columbus,39.9658765,-82.9477952
+22032,Franklin Park,Columbus,FRA,PARK,R,Public,86.4853639,Columbus,39.9652296,-82.9547248
+22033,Driving Park & Rec Center,Columbus,FRA,PARK,C,Public,23.75261722,Columbus,39.9449066,-82.9488522
+22034,Fairwood Park,Columbus,FRA,PARK,C,Public,26.55860875,Columbus,39.9381971,-82.9504546
+22035,Tuttle Park,Columbus,FRA,PARK,R,Public,48.42044683,Columbus,40.0109048,-83.0163448
+22036,Chaseland Park,Columbus,FRA,PARK,N,Public,3.80395078,Columbus,40.0747071,-82.9925810
+22037,American Addition Park,Columbus,FRA,PARK,C,Public,4.6733763,Columbus,39.9947179,-82.9609557
+22038,Amvet Village Park,Columbus,FRA,PARK,N,Public,2.51640809,Columbus,40.0007460,-82.9455080
+22039,Somerset Park,Columbus,FRA,PARK,C,Public,21.73541742,Columbus,40.0255902,-82.9221151
+22040,Shepard Park,Columbus,FRA,PARK,N,Public,3.20114936,Columbus,39.9845995,-82.9407111
+22042,Milo-Grogan Park,Columbus,FRA,PARK,N,Public,1.24189348,Columbus,39.9817268,-82.9818930
+22043,Mayme Moore Park,Columbus,FRA,PARK,C,Public,3.25974131,Columbus,39.9701093,-82.9800906
+22044,English Park,Columbus,FRA,PARK,N,Public,0.56920999,Columbus,39.9600342,-82.9654507
+22045,Livingston Park,Columbus,FRA,PARK,C,Public,8.21365581,Columbus,39.9515958,-82.9779299
+22046,Kobacker Park,Columbus,FRA,PARK,N,Public,0.34347291,Columbus,39.9459845,-82.9819061
+22047,Deshler Park,Columbus,FRA,PARK,C,Public,9.92730202,Columbus,39.9403662,-82.9590510
+22048,Palsgrove Park,Columbus,FRA,PARK,N,Public,0.95227764,Columbus,39.9512695,-82.9603802
+22049,Karns Park,Columbus,FRA,PARK,N,Public,2.14878706,Columbus,39.9382088,-82.9716474
+22050,Southwood Park,Columbus,FRA,PARK,N,Public,1.20236656,Columbus,39.9317284,-82.9908162
+22051,Johnson Memorial Park,Columbus,FRA,PARK,C,Public,11.49357598,FCA,39.9485875,-82.9079466
+22052,Canini Park,Columbus,FRA,PARK,N,Public,1.50571991,Columbus,39.9361762,-82.9087637
+22053,Easthaven Park,Columbus,FRA,PARK,N,Public,5.30230768,Columbus,39.9232663,-82.9048367
+22054,Maybury Park,Columbus,FRA,PARK,N,Public,5.24192758,Columbus,39.9250988,-82.8565027
+22055,Marion-Franklin Park & Com Ctr,Columbus,FRA,PARK,C,Public,23.89501799,Columbus,39.9083339,-82.9683115
+22056,Southeast Lions Park,Columbus,FRA,PARK,N,Public,1.32331704,Columbus,39.9236866,-82.9902991
+22057,Smith Road Park,Columbus,FRA,PARK,N,Public,6.24145596,Columbus,39.9253016,-82.9591376
+22058,Heer Park,Columbus,FRA,PARK,C,Public,8.10284114,Columbus,39.8910047,-83.0005049
+22059,Southern Pines Park,Columbus,FRA,PARK,C,Public,6.38904943,FCA,39.8841847,-82.9807499
+22060,Stockbridge Park,Columbus,FRA,PARK,N,Public,22.90446781,Columbus,39.8947838,-82.9708373
+22061,Willow Creek Park,Columbus,FRA,PARK,N,Public,9.55886562,Columbus,39.9108378,-83.0415480
+22062,Redick Park,Columbus,FRA,PARK,C,Public,23.55512205,Columbus,39.9807335,-83.0896763
+22063,Mckinley Park,Columbus,FRA,PARK,C,Public,6.94738121,Columbus,39.9630145,-83.0405360
+22064,Hilltonia Park,Columbus,FRA,PARK,N,Public,9.50139824,Columbus,39.9370207,-83.0611200
+22065,Hauntz Park,Columbus,FRA,PARK,N,Public,5.67274665,Columbus,39.9465939,-83.0486376
+22066,Lindbergh Park,Columbus,FRA,PARK,N,Public,8.73527639,Columbus,39.9302315,-83.0659634
+22067,Georgian Heights Park,Columbus,FRA,PARK,NOS,Public,10.63504548,Columbus,39.9343527,-83.1068081
+22068,Riverbend Park,Columbus,FRA,PARK,N,Public,4.28510356,Columbus,39.9213043,-83.0861139
+22069,Thompson Park,Columbus,FRA,PARK,REC,Public,3.90513754,Columbus,39.9862642,-83.0089400
+22070,Italian Village Park,Columbus,FRA,PARK,N,Public,0.83460224,Columbus,39.9788699,-83.0023326
+22071,Maynard & Summit Park,Columbus,FRA,PARK,N,Public,0.32265422,Columbus,40.0108347,-83.0007254
+22072,Dexter Falls Park,Columbus,FRA,PARK,N,Public,10.17219755,Columbus,40.0568722,-83.1187542
+22073,Greene Countrie Park,Columbus,FRA,PARK,C,Public,17.05746822,Columbus,39.9393695,-83.1492887
+22074,Independence Park,Columbus,FRA,PARK,N,Public,10.14468763,Columbus,39.9202210,-82.8183038
+22075,Audubon Park,Columbus,FRA,PARK,C,Public,7.3448778,Columbus,40.0210687,-82.9917907
+22076,Brookside Woods Park,Columbus,FRA,PARK,N,Public,1.861215,Columbus,40.0980103,-83.0761943
+22077,Casto Park,Columbus,FRA,PARK,C,Public,33.89886867,Columbus,40.0826094,-82.9227316
+22078,Flint Park,Columbus,FRA,PARK,N,Public,5.67286167,Columbus,40.1279398,-83.0095387
+22079,Harrison West Park,Columbus,FRA,PARK,N,Public,0.34432269,Columbus,39.9855239,-83.0174890
+22080,Kenlawn Park,Columbus,FRA,PARK,N,Public,3.91064876,Columbus,40.0279369,-82.9663644
+22081,Mock Road Park,Columbus,FRA,PARK,R,Public,102.68563475,Columbus,40.0146488,-82.9419200
+22082,North East Park And Howard Rec Center,Columbus,FRA,PARK,N,Public,3.80303912,Columbus,40.0227991,-82.9291160
+22083,Northcrest Park,Columbus,FRA,PARK,N,Public,18.43656098,Columbus,40.0615249,-83.0709322
+22084,Northgate Park,Columbus,FRA,PARK,N,Public,5.38230897,Columbus,40.1032148,-82.9656062
+22085,Olde Sawmill Park,Columbus,FRA,PARK,C,Public,8.67321548,Columbus,40.1217859,-83.0819150
+22086,Cremeans Park,Columbus,FRA,PARK,N,Public,6.67303122,Columbus,40.0295056,-82.9890539
+22087,Scioto Woods Park,Columbus,FRA,PARK,C,Public,9.02641431,Columbus,39.9868862,-83.0978423
+22088,Walden Park,Columbus,FRA,PARK,N,Public,4.3414367,Columbus,40.0816938,-82.9661840
+22089,Weinland Park,Columbus,FRA,PARK,N,Public,4.17498565,Columbus,39.9888252,-83.0007437
+22090,Westgate Park,Columbus,FRA,PARK,C,Public,43.11047874,Columbus,39.9453001,-83.0857546
+22091,Whetstone Park,Columbus,FRA,PARK,R,Public,155.15681147,Columbus,40.0431058,-83.0272043
+22092,Woodward Park & Rec Center,Columbus,FRA,PARK,REC,Public,49.42717856,FCA,40.0735572,-82.9849748
+22093,Pingue Park,Columbus,FRA,PARK,N,Public,5.1968243,Columbus,40.1154257,-82.9762937
+22095,Hosa Soccer Complex,Hilliard,FRA,PARK,REC,Public,28.89687629,Hilliard,40.0311919,-83.1827004
+22096,Lakewood Park,Hilliard,FRA,PARK,C,Public,5.74767206,,40.0167564,-83.1787088
+22097,Mill Run Wetlands,Columbus,FRA,PARK,C,Public,11.97376235,Hilliard,40.0258402,-83.1155817
+22098,Alton Road Parkland,Township,FRA,PARK,PRES,Public,58.67247567,Columbus,39.9447589,-83.1725542
+22099,Argus Park,Columbus,FRA,PARK,N,Public,1.74084588,Columbus,39.9419144,-82.9000005
+22100,Berwick Park,Columbus,FRA,PARK,NOS,Public,4.36936588,Columbus,39.9110609,-82.9156127
+22101,Blacklick Ridge Park,Township,FRA,PARK,C,Public,17.2070331,Jefferson Twp,39.9923887,-82.8082856
+22102,Walnut Ridge Park,Westerville,FRA,PARK,C,Public,12.32957351,Westerville,40.1184765,-82.9106455
+22103,Brobst Park,Township,FRA,PARK,C,Public,9.94969548,FCA,39.8845398,-82.8576972
+22104,C.Ray Buck Sports Park,Grandview Heights,FRA,RECREATION,REC,Public,4.73514255,,39.9758391,-83.0383978
+22105,Crawford  Farms Park,Columbus,FRA,PARK,N,Public,3.59771631,Columbus,39.9930292,-82.7992765
+22106,Crosscreek Park,Hilliard,FRA,PARK,C,Public,9.95570628,Hilliard,40.0193981,-83.1583882
+22107,Darby Glen Park,Hilliard,FRA,PARK,C,Public,22.70078432,Hilliard,40.0195777,-83.1283691
+22108,Degenheart Park,Groveport,FRA,PARK,N,Public,3.89460584,,39.8499980,-82.8937050
+22109,Elk Run Park,Columbus,FRA,PARK,N,Public,36.26004208,Columbus,39.8967140,-82.8969722
+22110,Groveport Cruiser Park,Groveport,FRA,PARK,R,Public,87.74693932,,39.8687948,-82.8812020
+22111,Gantz Park,Grove City,FRA,PARK,C,Public,28.47476729,Grove City,39.8974526,-83.0614479
+22112,Groveport Park,Groveport,FRA,PARK,R,Public,85.36012461,,39.8524123,-82.8718301
+22113,Canal Winchester Municipal Pool,Canal Winchester,FRA,PARK,N,Public,4.49978445,,39.8443393,-82.8108274
+22114,Hamilton Park,Hilliard,FRA,PARK,C,Public,5.34838421,Hilliard,40.0335616,-83.1506207
+22115,Hamilton Heights Parkland,Columbus,FRA,PARK,PRES,Public,3.67172417,Columbus,39.8827404,-82.9697254
+22116,Hannah Farms Park,Gahanna,FRA,PARK,C,Public,35.44203489,Gahanna,40.0414119,-82.8176526
+22117,Madison Township Fire Station,Canal Winchester,FRA,PARK,N,Public,3.136776,,39.8464658,-82.8277586
+22118,Hartford Park,Worthington,FRA,PARK,N,Public,3.11485569,,40.0903709,-83.0148827
+22119,Helsel Park,Columbus,FRA,PARK,C,Public,42.82819037,Columbus,39.9105393,-82.8853007
+22120,Highland Park,Westerville,FRA,PARK,C,Public,39.81007124,Westerville,40.1163836,-82.9054296
+22121,Hilliard Green Park,Columbus,FRA,PARK,N,Public,16.65795273,Columbus,39.9965771,-83.1463457
+22122,Huber Village Park,Westerville,FRA,PARK,C,Public,30.74240732,Westerville,40.1057791,-82.9104329
+22123,Huntley Bowl Park,Worthington,FRA,PARK,C,Public,7.07065158,FCA,40.0925774,-83.0006701
+22124,Kirkwood Park,Columbus,FRA,PARK,N,Public,2.82685154,Columbus,39.9401919,-82.8964355
+22125,Linworth Park,Worthington,FRA,PARK,C,Public,12.55186633,,40.0876763,-83.0508516
+22126,Llewellyn Farm Park,Dublin,FRA,PARK,N,Public,8.4097579,Dublin,40.0789504,-83.1191590
+22127,Mifflin Parkland,Columbus,FRA,PARK,N,Public,4.83446409,Columbus,40.0256974,-82.9460180
+22128,Northam Park,Upper Arlington,FRA,PARK,C,Public,21.73184029,,40.0131203,-83.0650809
+22129,Oak Creek Parkland,Columbus,FRA,PARK,NOS,Public,5.92729885,Columbus,39.8746457,-82.9900010
+22130,Orchard Park,Groveport,FRA,PARK,C,Public,10.51508305,,39.8598497,-82.8977520
+22131,Pierce Field,Grandview Heights,FRA,PARK,N,Public,4.47452343,,39.9802623,-83.0333795
+22132,Reed Road,Upper Arlington,FRA,PARK,C,Public,13.6519653,,40.0347970,-83.0690427
+22133,Shady Lane Park,Columbus,FRA,PARK,N,Public,3.42901718,Columbus,39.9497175,-82.8731869
+22134,Shelbourne Parkland,Columbus,FRA,PARK,PRES,Public,9.16553877,Columbus,39.9191977,-82.8342492
+22135,Sills Park,Columbus,FRA,PARK,C,Public,20.33398225,FCA,39.9030751,-82.9681859
+22136,Southgate Park,Columbus,FRA,PARK,NOS,Public,3.67649859,Columbus,39.8789714,-82.9777393
+22137,Father Roderic J. Dipietro Park,Hilliard,FRA,PARK,C,Public,15.76627658,Hilliard,40.0524403,-83.1103007
+22138,Towers Park,Westerville,FRA,PARK,C,Public,14.73078556,Westerville,40.1307020,-82.9064019
+22139,Boyer Nature Preserve,Westerville,FRA,PARK,C,Public,11.60899626,Westerville,40.1229183,-82.9132661
+22140,Weaver Park,Hilliard,FRA,PARK,C,Public,5.26942145,Hilliard,40.0360616,-83.1547549
+22141,Westmoor Park,Columbus,FRA,PARK,N,Public,16.68060603,Columbus,39.9609698,-83.0833847
+22142,Wheeler Memorial Park,Columbus,FRA,PARK,N,Public,4.00474499,Columbus,39.9758865,-83.0136568
+22143,Willson Hill Park,Worthington,FRA,PARK,N,Public,3.23479354,,40.0945629,-83.0118128
+22144,Wilson Road Parkland,Columbus,FRA,PARK,PRES,Public,47.54532715,Columbus,39.9483053,-83.0982238
+22145,Wyman Woods Park,Grandview Heights,FRA,PARK,C,Public,13.25170838,,39.9778138,-83.0437475
+22146,Winchester Meadows,Columbus,FRA,PARK,N,Public,16.23204985,Columbus,39.8743121,-82.8116864
+22147,Ashburnham Park,Gahanna,FRA,PARK,C,Public,5.19198783,Gahanna,40.0518685,-82.8782127
+22148,Coffman Park,Dublin,FRA,PARK,C,Public,98.19968585,Dublin,40.1054840,-83.1385642
+22149,Dublinshire Greenway,Dublin,FRA,PARK,N,Public,10.09974569,Dublin,40.1196501,-83.1539293
+22150,Indian Run Meadows,Dublin,FRA,PARK,N,Public,30.55670464,Dublin,40.1083627,-83.1514747
+22151,Ml Red Trabue Nature Reserve,Dublin,FRA,PARK,C,Public,74.06294641,Dublin,40.1113466,-83.1662609
+22152,Scottish Corners Woods Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,12.34131353,Dublin,40.1184603,-83.1483103
+22153,Stonefield Park,Dublin,FRA,PARK,N,Public,2.73564169,Dublin,40.1150841,-83.1378199
+22154,Ballentree Community Park,Dublin,FRA,PARK,C,Public,24.87157181,Dublin,40.0872016,-83.1616999
+22156,Academy Park,Gahanna,FRA,PARK,R,Public,115.16298237,Gahanna,40.0473430,-82.8853295
+22157,Alt Field,Hilliard,FRA,PARK,N,Public,1.48487171,Hilliard,40.0297123,-83.1490436
+22158,Ambassador Commons Park,Gahanna,FRA,PARK,N,Public,1.32469339,Gahanna,40.0443234,-82.8990891
+22159,Amlin Crossing Park,Township,FRA,PARK,N,Public,3.22121494,,40.0766577,-83.1853348
+22160,Avalon Park,Columbus,FRA,PARK,N,Public,1.76752347,Columbus,39.9815256,-82.9446121
+22161,Beechwold Park,Columbus,FRA,PARK,N,Public,3.23252356,Columbus,40.0601841,-83.0235688
+22162,Robinwood Park,Whitehall,FRA,PARK,N,Public,0.68913809,,39.9665225,-82.8968860
+22163,Blacklick Woods Metro Park,Reynoldsburg,FRA,PARK,M,Public,152.7674953,Metro Parks,39.9389346,-82.8126551
+22164,Brandywine Parkland,Columbus,FRA,PARK,CON,Public,0.6293023,Columbus,40.0666906,-82.9412989
+22165,Britton Farms Park,Hilliard,FRA,PARK,C,Public,6.07280906,Hilliard,40.0498870,-83.1401643
+22166,Bryn Mawr Park,Gahanna,FRA,PARK,C,Public,6.47983491,Gahanna,40.0464294,-82.8449662
+22167,Cardiff Woods Park,Upper Arlington,FRA,PARK,N,Public,1.91728783,,40.0049237,-83.0559771
+22168,Scioto-Darby Detention,Columbus,FRA,GREEN SPACE,NOS,Public,12.44603273,Columbus,39.9641071,-83.1680263
+22169,Commonwealth Park,Bexley,FRA,PARK,C,Public,6.81399215,parcels,39.9728110,-82.9389505
+22170,Conklin Park,Hilliard,FRA,PARK,N,Public,1.69958397,Hilliard,40.0252002,-83.1571124
+22171,Creekside Park,Gahanna,FRA,PARK,C,Public,5.83534605,Gahanna,40.0203692,-82.8809379
+22173,East Granville Road Park,Worthington,FRA,PARK,C,Public,7.79340196,,40.0874968,-83.0099021
+22174,Emersonia,Township,FRA,PARK,N,Public,1.24721205,,39.9051184,-83.0681504
+22175,The Big Splash,Grove City,FRA,PARK,C,Public,3.7792321,Grove City,39.8885254,-83.0774213
+22176,Waggoner Chase Parkland,Columbus,FRA,PARK,NOS,Public,5.16333128,Columbus,40.0058851,-82.7817448
+22177,Frantz/Field Of Corn (Sam & Eulalia Park),Dublin,FRA,PARK,C,Public,2.55691986,Dublin,40.0849559,-83.1235670
+22178,Friendship Park,Gahanna,FRA,PARK,C,Public,22.66989184,Gahanna,40.0147192,-82.8755477
+22179,Havenwood Park,Bexley,FRA,PARK,N,Public,1.08593999,,39.9508781,-82.9333697
+22180,Heather Ridge Park,Hilliard,FRA,PARK,N,Public,2.77028097,Hilliard,40.0434564,-83.1492981
+22181,Heritage Park,Westerville,FRA,PARK,R,Public,54.39413979,Westerville,40.1293042,-82.9453211
+22182,Hickory Woods Park,Columbus,FRA,PARK,NOS,Public,5.22124118,Columbus,40.1307403,-83.0827765
+22183,Hilliard East Pool And Park,Hilliard,FRA,PARK,N,Public,5.42778991,Hilliard,40.0464723,-83.1200348
+22184,Huber Park,Reynoldsburg,FRA,PARK,C,Public,47.27467573,,39.9492061,-82.8036215
+22185,Iuka Park,Columbus,FRA,PARK,NOS,Public,4.09577702,Columbus,40.0052531,-83.0008695
+22186,Jeffrey Park,Bexley,FRA,PARK,C,Public,33.62339952,parcels,39.9728621,-82.9441984
+22187,Kaltenbach Park,Dublin,FRA,PARK,C,Public,11.87167711,,40.0774020,-83.1526097
+22188,Kelley Park,Columbus,FRA,PARK,CON,Public,7.40105208,Columbus,39.9526854,-82.8532545
+22189,Kings Creek Parkland,Columbus,FRA,PARK,NOS,Public,4.44782901,Columbus,39.9113804,-83.0489861
+22190,Kingsbury Parkland,Columbus,FRA,PARK,NOS,Public,11.72235461,Columbus,39.9112294,-83.0463186
+22191,Kraner Park,Columbus,FRA,PARK,C,Public,7.76420791,Columbus,39.9393012,-82.8621300
+22192,Lamby Lane Park,Whitehall,FRA,PARK,N,Public,3.70576505,,39.9591144,-82.8930796
+22193,Livingston House,Reynoldsburg,FRA,PARK,N,Public,3.3030645,,39.9473503,-82.7955765
+22194,Livmoor Park,Columbus,FRA,PARK,N,Public,0.87929529,Columbus,39.9373522,-82.9044318
+22195,Mccorkle Park,Gahanna,FRA,PARK,REC,Public,12.56831372,Gahanna,40.0297119,-82.8830193
+22196,Mcferson Commons,Columbus,FRA,PARK,N,Public,2.94793936,Columbus,39.9668870,-83.0073346
+22197,Mckinley Field,Grandview Heights,FRA,PARK,C,Public,5.17464247,,39.9765722,-83.0517004
+22198,Veterans Memorial Park,Gahanna,FRA,PARK,N,Public,1.73782876,Gahanna,40.0184574,-82.8807059
+22199,Millbrook Park,Columbus,FRA,PARK,N,Public,1.63868626,Columbus,39.9269005,-82.9498497
+22200,Miller Park,Upper Arlington,FRA,PARK,N,Public,3.95212277,,39.9950254,-83.0618061
+22201,Monterey Park,Dublin,FRA,PARK,N,Public,3.90083923,Dublin,40.0970463,-83.1199039
+22202,Noe-Bixby Park,Columbus,FRA,PARK,N,Public,11.12637558,FCA,39.9246363,-82.8654415
+22203,Norton Field,Whitehall,FRA,PARK,N,Public,1.69382494,,39.9720030,-82.8814913
+22204,Oxford Park,Upper Arlington,FRA,PARK,N,Public,1.16516948,,40.0410822,-83.0901795
+22205,Park Blvd./Devil'S Hill Park,Worthington,FRA,PARK,N,Public,4.9496951,FCA,40.0803474,-83.0144739
+22206,Parkridge Park,Columbus,FRA,PARK,R,Public,42.57526598,Columbus,40.0633163,-82.9248992
+22207,Rathburn Woods,Gahanna,FRA,PARK,N,Public,1.48325072,Gahanna,40.0103078,-82.8434180
+22208,Reibel Woods,Township,FRA,PARK,N,Public,2.55797131,FCA,40.0552701,-83.1613928
+22209,Riverbend Addition,Columbus,FRA,PARK,NOS,Public,11.20878255,Columbus,39.9211911,-83.0784145
+22210,Riverside Green South Park,Columbus,FRA,PARK,NOS,Public,1.38635743,FCA,40.0838004,-83.0952934
+22211,Rodebaugh Park,Reynoldsburg,FRA,PARK,N,Public,3.52513054,,39.9708438,-82.8060947
+22212,Sawyer Park,Columbus,FRA,PARK,N,Public,1.81304994,Columbus,39.9757495,-82.9737746
+22213,Sensenbrenner Park,Columbus,FRA,PARK,N,Public,0.92268032,Columbus,39.9686101,-83.0013357
+22214,Shaker Square Park,Worthington,FRA,PARK,N,Public,1.23279365,,40.0863342,-83.0407536
+22215,Shull Park,Gahanna,FRA,PARK,C,Public,10.49357203,Gahanna,40.0202424,-82.8725648
+22216,Smith Nature Park,Upper Arlington,FRA,PARK,N,Public,3.27767188,,40.0241258,-83.0459536
+22217,Swearingen Park,Grove City,FRA,PARK,N,Public,0.96475935,Grove City,39.8810565,-83.0724926
+22218,Swisher Creek Park,Township,FRA,PARK,C,Public,17.90680206,Jefferson Twp,40.0407502,-82.7942512
+22219,Tanglebrook Park,Grove City,FRA,PARK,C,Public,5.32702331,Grove City,39.8806328,-83.1076964
+22220,Tinapple Park,Hilliard,FRA,PARK,N,Public,3.75100425,Hilliard,40.0138021,-83.1599254
+22221,Trapp Park,Gahanna,FRA,PARK,N,Public,2.93752574,Gahanna,40.0383786,-82.8689111
+22222,Tremont Fountain Park,Upper Arlington,FRA,PARK,N,Public,1.07818598,,40.0121618,-83.0706128
+22223,The Commons At Brighton,Dublin,FRA,PARK,N,Public,2.17889911,Dublin,40.0807374,-83.1471989
+22224,Walden Bluff Park,Grove City,FRA,PARK,N,Public,1.75895941,Grove City,39.8984694,-83.0754078
+22225,Wallace Gardens,Grandview Heights,FRA,PARK,C,Public,5.81193156,,39.9762208,-83.0468939
+22226,Kilbourne Run Parkland,Columbus,FRA,PARK,NOS,Public,9.22756484,Columbus,40.0695979,-82.9395880
+22227,Webster Park,Columbus,FRA,PARK,N,Public,1.65072221,Columbus,40.0390211,-83.0248469
+22228,Westchester Park,Columbus,FRA,PARK,N,Public,1.52812029,Columbus,39.9357357,-83.1534994
+22229,Westerville Woods Park,Columbus,FRA,PARK,CON,Public,1.56220541,Columbus,40.0670650,-82.9234325
+22230,Wexford Green Park,Columbus,FRA,PARK,N,Public,9.70921863,Columbus,39.9768520,-83.1633539
+22231,Woodside Green Park,Gahanna,FRA,PARK,R,Public,32.84688939,Gahanna,40.0436087,-82.8818567
+22232,Clinton-Como Park,Columbus,FRA,PARK,C,Public,20.73205412,Columbus,40.0260368,-83.0225665
+22233,Brooksedge Park,Westerville,FRA,PARK,N,Public,3.88863301,Westerville,40.1080756,-82.9358882
+22236,Hanby Park,Westerville,FRA,PARK,N,Public,3.75069587,Westerville,40.1231098,-82.9270652
+22237,Spindler Road Park,Columbus,FRA,PARK,C,Public,75.12054599,Columbus,39.9926860,-83.1678104
+22238,Clover Groff Nature Area,Columbus,FRA,PARK,CON,Public,19.52904213,Columbus,40.0062276,-83.1691066
+22239,Ballentree Community Park,Dublin,FRA,PARK,C,Public,17.07411411,Dublin,40.0844989,-83.1621609
+22240,Community Tennis Complex,Westerville,FRA,RECREATION,SPU,Public,3.20123256,,40.1176717,-82.9212676
+22241,Royal Gardens Park,Gahanna,FRA,PARK,N,Public,0.26187859,,40.0196743,-82.8931668
+22242,Scioto Country Club,Upper Arlington,FRA,GOLF,GOLF,Public,159.83724284,,40.0036533,-83.0743603
+22243,York Temple Country Club,Columbus,FRA,GOLF,GOLF,Public,133.15101117,,40.1148988,-83.0248538
+22244,Winding Hollow Country Club,Township,FRA,GOLF,GOLF,Public,179.09564543,,40.0739221,-82.7690336
+22245,Oakhurst Country Club,Township,FRA,GOLF,GOLF,Public,164.87004955,,39.8866027,-83.1628131
+22246,Wilson Road/Raymond Memorial Golf Course,Columbus,FRA,GOLF,GOLF,Public,214.42111492,Columbus,39.9926007,-83.1023626
+22247,Blacklick Woods Golf Course,Reynoldsburg,FRA,GOLF,GOLF,Public,224.61504819,Metro Parks,39.9414585,-82.8031044
+22255,Airport Golf Course,Columbus,FRA,GOLF,GOLF,Public,134.57969504,Columbus,39.9932403,-82.8640896
+22256,Brookside Golf & Country Club,Township,FRA,GOLF,GOLF,Public,244.98487718,,40.0961640,-83.0669284
+22257,Champions Of Columbus,Columbus,FRA,GOLF,GOLF,Public,208.5579751,Columbus,40.0496315,-82.9366394
+22258,Columbus Country Club,Columbus,FRA,GOLF,GOLF,Public,235.08168253,,39.9711849,-82.8638472
+22259,Gahanna Municipal Course,Gahanna,FRA,GOLF,GOLF,Public,64.77845229,Gahanna,40.0244100,-82.8803931
+22260,Heritage Golf Club,Hilliard,FRA,GOLF,GOLF,Public,166.08037364,orthos,40.0223595,-83.1715268
+22261,Jefferson Golf And Country Club,Township,FRA,GOLF,GOLF,Public,200.09885958,Jefferson Twp,40.0109115,-82.8193329
+22262,New Albany Links,New Albany,FRA,GOLF,GOLF,Public,193.64147607,,40.1030069,-82.7890438
+22263,O.S.U. Golf Course,Upper Arlington,FRA,GOLF,GOLF,Public,288.63251839,,40.0347459,-83.0570176
+22264,Rocky Fork Hunt Club,Township,FRA,RECREATION,SPU,Private,190.09572596,,40.0242408,-82.8522639
+22265,The Links At Groveport,Groveport,FRA,GOLF,GOLF,Public,141.7469733,,39.8466283,-82.8784778
+22266,Thorn Apple Country Club,Township,FRA,GOLF,GOLF,Public,131.95268819,,39.9699017,-83.1764598
+22267,Walnut Hill Golf Course,Columbus,FRA,GOLF,GOLF,Public,71.0716177,Columbus,39.9369964,-82.8374106
+22268,Worthington Hills Country Club,Township,FRA,GOLF,GOLF,Public,155.5869687,,40.1264557,-83.0519193
+22269,Homestead Springs Golf Course,Township,FRA,GOLF,GOLF,Public,139.81929773,,39.8000045,-82.8627967
+22339,Westchester Links Golf Course,Canal Winchester,FRA,GOLF,GOLF,Public,292.72042605,,39.8320547,-82.8292436
+22414,Griggs Reservoir,Columbus,FRA,PARK,R,Public,24.82397075,Columbus,40.0871327,-83.1123265
+22415,Dublin Kiwanis Riverway Access,Dublin,FRA,GREEN SPACE,NOS,Public,0.79509804,Dublin,40.0992606,-83.1119128
+22416,Fancyburg Park,Upper Arlington,FRA,PARK,C,Public,23.52360919,MORPC,40.0231265,-83.0874037
+22417,Heischman Park,Worthington,FRA,PARK,N,Public,1.00225845,,40.1024622,-83.0072566
+22418,Spring Grove North Park,Westerville,FRA,PARK,C,Public,6.20294813,Westerville,40.1307140,-82.8894900
+22419,Woodside Green South Park,Gahanna,FRA,PARK,N,Public,3.91301799,Gahanna,40.0359716,-82.8923338
+22420,Pipers Glen Basin,Gahanna,FRA,PARK,N,Public,1.19316618,Gahanna,40.0377833,-82.8980526
+22421,Woodmark Woods Reserve,Gahanna,FRA,PARK,NOS,Public,9.98451161,Gahanna,40.0398541,-82.8960591
+22422,Bryn Mawr Woods Reserve,Gahanna,FRA,PARK,N,Public,1.37208654,Gahanna,40.0393618,-82.8472622
+22423,Rush Run Park,Worthington,FRA,PARK,R,Public,38.95293733,Columbus,40.0761145,-83.0295023
+22424,Antrim Park,Columbus,FRA,PARK,R,Public,122.58458148,Columbus,40.0804837,-83.0337047
+22425,Makris Park,Columbus,FRA,PARK,N,Public,0.14004365,Columbus,40.0728856,-83.0343007
+22426,Pride Park,Columbus,FRA,PARK,N,Public,0.08860696,Columbus,40.0185660,-82.9654510
+22427,Clintonville Park,Columbus,FRA,PARK,N,Public,0.14293059,Columbus,40.0179702,-83.0118493
+22428,Wonderland Park,Columbus,FRA,PARK,CON,Public,14.97523431,Columbus,40.0004627,-82.8716434
+22429,Sawyer Senior Center,Columbus,FRA,PARK,N,Public,4.66888209,Columbus,39.9757447,-82.9780158
+22430,Sawyer Recreation Center,Columbus,FRA,PARK,C,Public,5.56039163,Columbus,39.9750677,-82.9744892
+22431,Thurber Park,Columbus,FRA,PARK,N,Public,0.74159585,Columbus,39.9655186,-82.9846861
+22432,Richter Workers Memorial Park,Columbus,FRA,PARK,SPU,Public,0.29756406,Columbus,39.9644972,-83.0033992
+22433,Wilson Avenue Park,Columbus,FRA,PARK,PRES,Public,0.11991059,Columbus,39.9583942,-82.9663156
+22434,Cody Park,Columbus,FRA,PARK,N,Public,0.30482559,Columbus,39.9557106,-83.0361959
+22435,Frank Fletch Memorial Park,Columbus,FRA,PARK,N,Public,0.19116164,Columbus,39.9509508,-82.9920764
+22437,Stephens Drive Park,Columbus,FRA,PARK,NOS,Public,0.90660116,Columbus,39.9351371,-83.0891775
+22438,Sol Shenk Park,Columbus,FRA,PARK,PRES,Public,24.15892309,Columbus,39.9309877,-82.8662686
+22439,Willis Park,Columbus,FRA,PARK,NOS,Public,2.70161816,Columbus,39.9501196,-82.8637614
+22440,Catalpa Park,Columbus,FRA,PARK,NOS,Public,13.42087721,Columbus,39.9265023,-82.8684965
+22441,Forest Park,Columbus,FRA,PARK,N,Public,4.0997408,Columbus,39.9133121,-83.0785367
+22442,Alkire Road Park,Columbus,FRA,PARK,C,Public,15.63720372,Columbus,39.9112979,-83.0958548
+22443,Alkire Lakes Park,Columbus,FRA,PARK,C,Public,5.82604509,Columbus,39.9133308,-83.0913874
+22444,Jefferson Woods Park,Columbus,FRA,PARK,N,Public,1.86132258,Columbus,39.9960491,-82.7804875
+22445,Elk Run Addition,Columbus,FRA,PARK,NOS,Public,39.3356764,Columbus,39.8913377,-82.9013247
+22446,Waltham Woods Park,Columbus,FRA,PARK,N,Public,1.5016914,Columbus,40.0710383,-82.9440801
+22447,Alum Creek Parkland,Columbus,FRA,PARK,PRES,Public,12.16733068,Columbus,40.0298732,-82.9338926
+22448,Weiler Park,Columbus,FRA,PARK,C,Public,38.24607891,Columbus,39.9975930,-82.9370697
+22449,Brentnell Avenue Park,Columbus,FRA,PARK,NOS,Public,25.44682323,Columbus,39.9986377,-82.9438267
+22450,Eagle Grading Park,Columbus,FRA,PARK,CON,Public,4.73949177,Columbus,40.0051898,-82.9352439
+22451,Certified Oil Parkland,Columbus,FRA,PARK,CON,Public,9.06633007,Columbus,39.9101009,-82.8787694
+22452,Alum Creek/Cooper Rd Parkland Coh,Columbus,FRA,PARK,CON,Public,9.34008024,Columbus,40.1012124,-82.9374989
+22453,Gelpi Park,Columbus,FRA,PARK,PRES,Public,2.24054106,Columbus,40.1037488,-82.9373532
+22454,Galloway Ridge Parkland,Columbus,FRA,PARK,N,Public,4.32498137,Columbus,39.9557783,-83.1569421
+22455,Brownlee Circle Park,Columbus,FRA,PARK,N,Public,1.70276001,Columbus,39.9494008,-82.9233301
+22456,Rhodes Park,Columbus,FRA,PARK,C,Public,51.12898476,Columbus,39.9589035,-83.0503892
+22457,Big Walnut Park,Columbus,FRA,PARK,R,Public,23.00158936,Columbus,39.9417897,-82.8602977
+22458,Yorkshire Park,Columbus,FRA,PARK,PRES,Public,13.58874415,Columbus,39.9494389,-82.8539982
+22459,Big Walnut Park,Columbus,FRA,PARK,R,Public,116.1716275,Columbus,39.9481769,-82.8572942
+22461,Creek Ridge Park,Columbus,FRA,PARK,C,Public,12.28799501,Columbus,40.0644778,-82.9218168
+22462,Strawberry Farms Park,Columbus,FRA,PARK,R,Public,23.67370724,Columbus,40.0720353,-82.9205068
+22463,Tanager Woods,Columbus,FRA,PARK,R,Public,41.97149153,Columbus,40.0677683,-82.9209582
+22464,Westerford Village Park,Columbus,FRA,PARK,C,Public,5.24956052,Columbus,40.0705355,-82.9226655
+22465,Mccoy Park,Columbus,FRA,PARK,C,Public,19.83042116,Columbus,39.9369734,-83.0124125
+22466,Moler Street Parkland,Columbus,FRA,PARK,PRES,Public,2.50825632,Columbus,39.9342607,-83.0005782
+22467,Neff Street Parkland,Columbus,FRA,PARK,PRES,Public,3.77075989,Columbus,39.9344113,-82.9992574
+22468,Westbank Walkway,Columbus,FRA,PARK,N,Public,1.35351933,Columbus,39.9560907,-83.0084970
+22469,Pump House Park,Columbus,FRA,PARK,N,Public,4.03525959,Columbus,39.9566254,-82.9437913
+22470,Westerville Crossing Parkland,Columbus,FRA,PARK,CON,Public,0.91250854,Columbus,40.0845736,-82.9244663
+22471,Cooper Park,Columbus,FRA,PARK,C,Public,35.43799667,Columbus,40.0924966,-82.9304201
+22472,Sharon Woods Metro Park,Township,FRA,PARK,M,Public,754.92957928,Metro Parks,40.1161907,-82.9623543
+22473,Foxboro Basin,Gahanna,FRA,PARK,N,Public,2.53350126,Gahanna,40.0301534,-82.8627245
+22475,Meadowgrove Park,Grove City,FRA,PARK,C,Public,12.02067683,Grove City,39.8479415,-83.0693884
+22476,Veteran'S Park,Groveport,FRA,PARK,N,Public,0.156152,,39.8519279,-82.8885621
+22477,Blacklick Park,Groveport,FRA,PARK,C,Public,10.7778846,,39.8541292,-82.8777891
+22478,Godown Road Park,Columbus,FRA,PARK,C,Public,9.95937171,orthos,40.0834457,-83.0522173
+22479,Spring Grove North Greenway,Westerville,FRA,PARK,C,Public,15.21826915,Westerville,40.1304753,-82.8969020
+22483,Caroway Reserve,Gahanna,FRA,PARK,NOS,Public,1.18818072,Gahanna,40.0146358,-82.8495034
+22484,Helmbright Woods Reserve,Gahanna,FRA,PARK,NOS,Public,3.63391266,Gahanna,40.0061330,-82.8514800
+22485,Mckenna Creek Parkway,Gahanna,FRA,PARK,NOS,Public,5.9123138,Gahanna,40.0340714,-82.8747554
+22486,Y Park,Gahanna,FRA,PARK,C,Public,12.25398229,Gahanna,40.0485175,-82.8580435
+22487,Clarenton Green Park,Gahanna,FRA,PARK,C,Public,2.81692329,Gahanna,40.0500617,-82.8180568
+22488,Clarenton Green Reserve,Gahanna,FRA,PARK,C,Public,4.32415549,Gahanna,40.0528269,-82.8190068
+22489,Clark State Basin,Gahanna,FRA,PARK,NOS,Public,1.89262784,Gahanna,40.0443976,-82.8205642
+22490,Hunters Ridge Pool Park,Gahanna,FRA,PARK,REC,Public,8.7747845,Gahanna,40.0109018,-82.8608192
+22491,Goshen Park,Gahanna,FRA,PARK,N,Public,0.38456173,,40.0092301,-82.8939045
+22492,Fleetrun Park,Gahanna,FRA,PARK,N,Public,5.02286591,Gahanna,40.0141164,-82.8571313
+22493,Gramercy Park,Gahanna,FRA,PARK,N,Public,0.27467146,Gahanna,40.0138038,-82.8672617
+22494,Shull Reserve,Gahanna,FRA,PARK,PRES,Public,1.50786286,Gahanna,40.0189495,-82.8712092
+22495,Shagbark Reserve,Gahanna,FRA,PARK,N,Public,2.4274382,Gahanna,40.0508568,-82.8607757
+22496,Underwood Reserve,Gahanna,FRA,PARK,N,Public,2.84704378,Gahanna,40.0520283,-82.8576956
+22497,Agler Road Parkway,Gahanna,FRA,PARK,NOS,Public,6.9435742,Gahanna,40.0187704,-82.8866596
+22498,Pizzurro Park,Gahanna,FRA,PARK,C,Public,23.50345877,Gahanna,39.9957459,-82.8596336
+22499,Headley Park,Gahanna,FRA,PARK,C,Public,33.34905814,Gahanna,40.0446831,-82.8252375
+22500,Beacon Fields,Hilliard,FRA,PARK,C,Public,2.78177239,Hilliard,40.0249814,-83.1309734
+22501,Creed Lawless Park,Grove City,FRA,PARK,N,Public,0.29892331,Grove City,39.8791878,-83.0942038
+22502,Sawmill Wildlife Education Area,ODNR,FRA,PARK,SPU,Private,17.90856281,ODNR,40.0996061,-83.0846007
+22503,Glenview Park,Columbus,FRA,PARK,N,Public,3.71540939,Columbus,39.9622886,-83.0647686
+22504,Lock Meadows,Lockbourne,FRA,PARK,C,Public,8.1379726,,39.8101015,-82.9695270
+22505,Trinity Park,Dublin,FRA,PARK,N,Public,4.75078777,Dublin,40.0818708,-83.1459583
+22506,Sandy Corners Park,Dublin,FRA,PARK,N,Public,6.92638905,Dublin,40.0868225,-83.1548458
+22507,Wellington Park,Dublin,FRA,PARK,NOS,Public,2.24340201,Dublin,40.1180378,-83.1247509
+22508,Ben Hanby Park,Westerville,FRA,PARK,N,Public,0.12703245,Westerville,40.1264121,-82.9289035
+22509,College Knoll Wetlands,Westerville,FRA,PARK,C,Public,13.88756034,Westerville,40.1303222,-82.9138359
+22510,Electric Park,Westerville,FRA,PARK,N,Public,0.12153548,Westerville,40.1154563,-82.9274199
+22511,Hannah Mayne Park,Westerville,FRA,PARK,N,Public,3.21462271,Westerville,40.1204335,-82.9327850
+22516,Springborough Greenway,Westerville,FRA,PARK,N,Public,3.81473987,Westerville,40.1009560,-82.9084766
+22517,Springborough Greenway,Westerville,FRA,PARK,N,Public,0.31436642,Westerville,40.0992469,-82.9079970
+22518,Springborough Greenway,Westerville,FRA,PARK,N,Public,3.18736197,Westerville,40.0968357,-82.9083981
+22519,Springborough Greenway,Westerville,FRA,PARK,N,Public,0.26007763,Westerville,40.0984280,-82.9080892
+22520,Hoover Park,Grove City,FRA,PARK,REC,Private,5.96291746,Grove City,39.8697155,-83.0873698
+22521,Mallway Park,Upper Arlington,FRA,PARK,N,Public,0.74974521,,39.9991793,-83.0611284
+22522,Concord Lakes,Grove City,FRA,PARK,N,Public,1.84609944,Grove City,39.8911408,-83.1140787
+22523,Community Park,Harrisburg,FRA,PARK,N,Public,0.10822037,,39.8097426,-83.1713132
+22524,Chatterton Parkland,Columbus,FRA,PARK,PRES,Public,38.23734493,Columbus,39.9076115,-82.8458379
+22525,Deems Parkland,Columbus,FRA,PARK,CON,Public,9.85869757,Columbus,39.9101706,-82.8775293
+22526,Cherrybottom Park North,Columbus,FRA,PARK,R,Public,92.92141341,Columbus,40.0658890,-82.8996343
+22527,Olentangy Parkland Far North,Columbus,FRA,PARK,C,Public,13.64242003,Columbus,40.1187864,-83.0320770
+22528,Bilingsly Basin,Columbus,FRA,GREEN SPACE,NOS,Public,4.32489802,,40.1129105,-83.0783557
+22529,Lane Woods,Columbus,FRA,PARK,PRES,Public,1.67669335,Columbus,39.9983809,-83.0798680
+22530,Cumberland Woods Park,Columbus,FRA,PARK,N,Public,5.57716323,Columbus,40.0090111,-82.9274808
+22531,Ridgewood Park,Westerville,FRA,PARK,C,Public,28.2252344,,40.0853077,-82.9122230
+22532,Woods Of Brighton,Dublin,FRA,PARK,N,Public,0.78864525,Dublin,40.0811813,-83.1441853
+22533,The Golf Club,Township,FRA,GOLF,GOLF,Public,451.35647966,,40.0662941,-82.7860869
+22534,Thompson Road Park,Columbus,FRA,PARK,C,Public,58.73647235,,40.0685809,-82.8421192
+22535,Blendon Woods Metro Park,Columbus,FRA,PARK,M,Public,649.11311522,Metro Parks,40.0722516,-82.8791364
+22536,Little Turtle Country Club,Columbus,FRA,GOLF,GOLF,Public,168.54359593,,40.0858563,-82.8796158
+22545,Nature Preserve,New Albany,FRA,PARK,PR,Public,27.24406235,,40.0864502,-82.8210418
+22546,Nature Preserve,New Albany,FRA,PARK,PR,Public,6.32926853,,40.0809109,-82.8246212
+22547,Rose Run Park,New Albany,FRA,PARK,C,Public,5.75869955,,40.0827039,-82.8146524
+22548,Fenway Road Open Space,New Albany,FRA,PARK,C,Public,7.86041928,,40.0711973,-82.8186709
+22549,Lambton Park,New Albany,FRA,PARK,C,Public,7.21266308,,40.0618917,-82.8245658
+22550,James River Road Open Space,New Albany,FRA,PARK,C,Public,15.16568453,,40.0546047,-82.8317873
+22551,Eyre Hall Pass Open Space,New Albany,FRA,PARK,N,Public,4.56036593,,40.0563028,-82.8226102
+22552,Rocky Fork Metro Park,New Albany,FRA,PARK,M,Public,338.05265566,Metro Parks,40.1221045,-82.8327754
+22557,Sports Ohio,Dublin,FRA,GOLF,GOLF,Public,69.09783378,,40.0975709,-83.1854518
+22560,Concord Lakes,Grove City,FRA,PARK,N,Public,1.72349713,Grove City,39.8917614,-83.1162865
+22561,Quail Creek Park,Grove City,FRA,PARK,C,Public,5.03882746,Grove City,39.8425750,-83.0691811
+22562,Indian Trails Park,Grove City,FRA,PARK,N,Public,3.80410217,Grove City,39.8354749,-83.0446227
+22565,Blacklick Ridge Community Park Open Space,Blacklick,FRA,PARK,PRES,Public,29.68144813,Jefferson Twp,39.9952940,-82.8057953
+22566,Blacklick Ridge Community Park Open Space,Blacklick,FRA,PARK,NOS,Public,6.27071068,Jefferson Twp,39.9910887,-82.8095574
+22567,Pinnacle Golf Club,Grove City,FRA,GOLF,GOLF,Public,53.80377582,Grove City,39.8601928,-83.0461665
+22577,Dublin Spring Park,Dublin,FRA,PARK,NOS,Public,2.06027976,Dublin,40.1002519,-83.1119701
+22578,Wyandotte Woods Open Space,Dublin,FRA,PARK,NOS,Public,5.39295679,Dublin,40.1293911,-83.1113118
+22579,Kendall Ridge Park,Dublin,FRA,PARK,N,Public,8.30423328,Dublin,40.0914449,-83.1642468
+22580,Coventry Woods Park,Dublin,FRA,PARK,N,Public,20.71746935,Dublin,40.1128974,-83.1244881
+22581,Shannon Glen Park,Dublin,FRA,PARK,N,Public,24.38692282,Dublin,40.1331431,-83.1630661
+22582,Martin Commons Park,Dublin,FRA,PARK,N,Public,2.34058367,Dublin,40.0953915,-83.0980684
+22583,Ml Red Trabue Nature Reserve,Dublin,FRA,PARK,PR,Public,0.9965105,Dublin,40.1079601,-83.1699579
+22584,Bryson Cove,Dublin,FRA,PARK,NOS,Public,0.75109469,Dublin,40.1178087,-83.1008872
+22585,River Frontage,Dublin,FRA,PARK,NOS,Public,4.79075621,Dublin,40.1079289,-83.1135474
+22586,Hawk'S Nest Park,Dublin,FRA,PARK,NOS,Public,6.66169475,Dublin,40.1290119,-83.1569132
+22591,Klingbeil Parkland,Columbus,FRA,PARK,PRES,Public,52.694167,Columbus,39.9208655,-82.8708039
+22592,Big Walnut Greenway,Columbus,FRA,PARK,M,Public,40.42474275,Metro Parks,39.9112909,-82.8725708
+22593,Big Walnut-Noe Bixby Parkland,Columbus,FRA,PARK,PRES,Public,3.29421465,Columbus,39.9360787,-82.8630475
+22594,Hoover Reservoir,Westerville,FRA,PARK,R,Public,3.61280591,,40.1279050,-82.8874981
+22595,Hoover Reservior,Westerville,FRA,PARK,R,Public,0.62859043,,40.1244628,-82.8880462
+22604,Mccord Soccer Fields,Worthington,FRA,PARK,N,Public,2.92341901,FCA,40.1079413,-83.0069353
+22605,Blacklick Creek Greenway Trail,Columbus,FRA,PARK,M,Public,67.76728611,Metro Parks,39.9041209,-82.8292437
+22606,Blacklick Creek Greenway Trail,Columbus,FRA,PARK,M,Public,65.90771296,Metro Parks,39.9059095,-82.8372873
+22607,Civic Park,Reynoldsburg,FRA,PARK,R,Public,142.7836941,,39.9734489,-82.8189680
+22608,Amberleigh Community Park,Dublin,FRA,PARK,C,Public,23.11549881,Dublin,40.1399415,-83.1210999
+22609,Wedgewood Hills Open Space,Dublin,FRA,PARK,PR,Private,5.61533834,Dublin,40.1392037,-83.1067853
+22610,Indianola Park,Worthington,FRA,PARK,N,Public,2.4084721,FCA,40.0777649,-83.0015584
+22611,Abbie Trails Park,Columbus,FRA,PARK,PRES,Public,31.81041483,Columbus,39.9030391,-82.8210651
+22650,New Park,Reynoldsburg,FRA,PARK,C,Public,7.95343757,,39.9764111,-82.7856652
+22652,Portman Park,Columbus,FRA,PARK,C,Public,77.34540392,Columbus,39.9077264,-82.8122383
+22655,Preserve East Parkland,Columbus,FRA,PARK,CON,Public,25.56236866,Columbus,40.0680392,-82.8523172
+22656,Walnut Street Parkland,Columbus,FRA,PARK,PRES,Public,9.9551682,Columbus,40.1121782,-82.8293094
+22657,Jefferson Run Park,Township,FRA,PARK,C,Public,21.42428392,Jefferson Twp,40.0138843,-82.7788686
+22658,Olde Quarry Park ,Jefferson Township,FRA,PARK,C,Public,84.3568898,Jefferson Twp,40.0008197,-82.8039003
+22675,Bevelhymer Park,New Albany,FRA,PARK,R,Public,142.54583101,,40.1159535,-82.7872532
+22676,Summitview Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,4.92229246,Dublin,40.1316687,-83.0984886
+22677,Wedgewood Glen Park,Dublin,FRA,PARK,N,Public,3.62724068,Dublin,40.1325618,-83.1005163
+22678,Wedgewood Park,Dublin,FRA,PARK,NOS,Public,6.59623163,Dublin,40.1349861,-83.1012368
+22679,Shannon Glen Park,Dublin,FRA,PARK,N,Public,7.75555113,Dublin,40.1365628,-83.1659559
+22680,Llewellyn Farms South,Dublin,FRA,PARK,N,Public,5.44787433,Dublin,40.0777662,-83.1161812
+22681,Riverside Drive Park,Dublin,FRA,PARK,C,Public,40.21718922,Dublin,40.1218711,-83.1057401
+22682,Riverside Woods Open Space "B",Dublin,FRA,GREEN SPACE,NOS,Public,18.75813013,Dublin,40.1187893,-83.1057531
+22683,Concord Lakes,Grove City,FRA,PARK,C,Public,7.45784017,Grove City,39.8883001,-83.1161538
+22684,Murfin Fields,Grove City,FRA,PARK,C,Public,50.39875564,Grove City,39.8704360,-83.0814442
+22685,Municipal Park And Recreation Center,Obetz,FRA,RECREATION,SPU,Public,2.89358092,,39.8792514,-82.9561425
+22686,Avery Park,Dublin,FRA,PARK,C,Public,84.23659934,Dublin,40.1250244,-83.1605018
+22688,Worthington Hills Park,Columbus,FRA,PARK,N,Public,6.38245617,Columbus,40.1223940,-83.0332486
+22689,Pinnacle Golf Club,Grove City,FRA,GOLF,GOLF,Public,146.32497374,Grove City,39.8648239,-83.0404719
+22690,Blacklick Creek Greenway Trail,Columbus,FRA,PARK,M,Public,167.067826,Metro Parks,39.8981020,-82.8554439
+22697,Ernest Cherrington Park,Westerville,FRA,PARK,C,Public,21.3955942,Westerville,40.1169882,-82.9372435
+22698,Hoover Reservoir,Columbus,FRA,PARK,R,Public,972.65611743,Columbus,40.1184541,-82.8770015
+22699,Alum Creek Park North,Westerville,FRA,PARK,R,Public,44.33360926,Westerville,40.1227528,-82.9395758
+22700,Cooke Park,Columbus,FRA,PARK,C,Public,9.35391801,Columbus,40.0473256,-82.9708406
+22701,The Golf Club Of Dublin,Dublin,FRA,GOLF,GOLF,Public,203.93086103,,40.0875715,-83.1750691
+22702,Hayden Run Village Park,Hilliard,FRA,PARK,N,Public,3.91387709,,40.0487898,-83.1597029
+22703,Franks Park,Columbus,FRA,PARK,C,Public,53.68112259,Columbus,40.0133272,-83.1685448
+22705,Nelson Park,Columbus,FRA,PARK,C,Public,29.54379488,parcels,39.9753717,-82.9456877
+22707,Keller Park,Columbus,FRA,PARK,NOS,Public,0.48234667,Columbus,39.9401737,-82.9979597
+22708,Lincoln Park,Columbus,FRA,PARK,C,Public,15.81841545,Columbus,39.9289509,-82.9798782
+22709,Barack Recreation,Columbus,FRA,PARK,C,Public,0.46007803,FCA,39.9282085,-82.9785147
+22710,Eagle Eye Golf Course,Whitehall,FRA,GOLF,GOLF,Public,59.60353714,,39.9815321,-82.9057807
+22711,Lazelle Woods Park,Columbus,FRA,PARK,C,Public,48.78506065,Columbus,40.1322539,-82.9863351
+22716,Girl Scout Camp,Township,FRA,RECREATION,SPU,Private,226.91185812,,39.9718400,-83.2441910
+22719,Obetz (Lutheran),Obetz,FRA,CEMETERY,CEM,Public,30.29439072,,39.8752174,-82.9480012
+22720,Eastlawn,Columbus,FRA,CEMETERY,CEM,Public,38.88330014,,39.9958177,-82.9534823
+22721,Evergreen,Columbus,FRA,CEMETERY,CEM,Public,36.16134971,,39.9954003,-82.9563859
+22722,Temple-Israel,Columbus,FRA,CEMETERY,CEM,Public,85.30345983,Jefferson Twp,39.9813994,-82.8482494
+22723,Glen Rest Memorial Estate,Reynoldsburg,FRA,CEMETERY,CEM,Public,87.13709957,,39.9535914,-82.7802140
+22724,Green Lawn,Township,FRA,CEMETERY,CEM,Public,330.99261004,,39.9391967,-83.0298732
+22725,Wesley Chapel,Township,FRA,CEMETERY,CEM,Public,30.0641095,,40.0175492,-83.1023961
+22726,Old Franklinton,Columbus,FRA,CEMETERY,CEM,Public,1.60234392,Columbus,39.9628712,-83.0220768
+22727,Kempton,Columbus,FRA,CEMETERY,CEM,Public,0.33994419,,40.0592331,-83.0352517
+22728,Carlisle,Columbus,FRA,CEMETERY,CEM,Public,0.51043578,,39.9528286,-82.8487563
+22729,Jewish (Old),Columbus,FRA,CEMETERY,CEM,Public,2.70762633,,39.9330304,-82.9413132
+22730,Beth Jacob (New Jewish),Columbus,FRA,CEMETERY,CEM,Public,36.79943045,,39.9169513,-82.9345168
+22731,Mifflin Township,Gahanna,FRA,CEMETERY,CEM,Public,12.42202916,,40.0200317,-82.8846497
+22732,German Lutheran,Grove City,FRA,CEMETERY,CEM,Public,1.00775683,,39.8807506,-83.1002308
+22733,Grove City,Grove City,FRA,CEMETERY,CEM,Public,7.42139724,,39.8811938,-83.0987050
+22734,Hill Road Methodist,Reynoldsburg,FRA,CEMETERY,CEM,Public,1.46569666,,39.9570497,-82.7931046
+22735,Olde Methodist,Westerville,FRA,CEMETERY,CEM,Public,0.6015067,,40.1292613,-82.9356429
+22736,Otterbein Cemetery,Westerville,FRA,CEMETERY,CEM,Public,1.94554578,,40.1205021,-82.9360820
+22737,Otterbein,Westerville,FRA,CEMETERY,CEM,Public,4.01693346,,40.1213694,-82.9360885
+22738,Central Blendon (Old Church Pioneer),Blendon Township,FRA,CEMETERY,CEM,Public,15.39564986,,40.0960079,-82.9040270
+22739,Green Lawn Abbey,Township,FRA,CEMETERY,CEM,Public,2.34533392,,39.9403015,-83.0162098
+22740,Walnut Hill Methodist,Township,FRA,CEMETERY,CEM,Public,1.80389615,,39.8611572,-82.9769486
+22741,Fernwood,Township,FRA,CEMETERY,CEM,Public,18.34827084,,39.8167808,-82.9857451
+22742,Stimmel,Township,FRA,CEMETERY,CEM,Public,0.11133825,,39.8740560,-82.9880820
+22743,Walnut Hill Methodist,Township,FRA,CEMETERY,CEM,Public,4.26944753,,39.8606362,-82.9778059
+22744,Lockbourne,Lockbourne,FRA,CEMETERY,CEM,Public,0.62930883,,39.8086147,-82.9660515
+22745,Concord United Methodist Church,Township,FRA,CEMETERY,CEM,Public,11.75322979,,39.8371134,-83.0724907
+22746,Scioto (Strader),Township,FRA,CEMETERY,CEM,Public,2.64788941,,39.8099358,-83.0354594
+22747,Thomas Adams Barbee,Grove City,FRA,CEMETERY,CEM,Public,0.42180437,Grove City,39.8596645,-83.0709237
+22748,East Concord Cemetery,Township,FRA,CEMETERY,CEM,Public,15.25048046,,39.8364152,-83.0751940
+22749,Headley,Township,FRA,CEMETERY,CEM,Public,1.06696177,,40.0431470,-82.8071396
+22750,Havens (Edgar),Township,FRA,CEMETERY,CEM,Public,0.6363487,,40.0160272,-82.8131364
+22751,Dague,Township,FRA,CEMETERY,CEM,Public,0.21654863,,40.0529380,-82.8431943
+22752,Shull Road Historic Preserve,Township,FRA,CEMETERY,CEM,Public,14.03350796,Jefferson Twp,40.0487132,-82.8402200
+22753,Jefferson Township,Township,FRA,CEMETERY,CEM,Public,5.93725702,Jefferson Twp,40.0004526,-82.8090612
+22754,Asbury Methodist Episcopal,Township,FRA,CEMETERY,CEM,Public,3.78572329,,39.8946479,-82.8731704
+22755,Truro Presbyterian (Truro Madison),Township,FRA,CEMETERY,CEM,Public,1.82952513,,39.9142606,-82.8621912
+22756,Hopewell Methodist Episcopal,Township,FRA,CEMETERY,CEM,Public,2.73920351,,39.8027233,-82.8939651
+22757,Winchester Abbey,Canal Winchester,FRA,CEMETERY,CEM,Public,24.95918697,,39.8580044,-82.8196394
+22758,Groveport,Groveport,FRA,CEMETERY,CEM,Public,2.48035387,,39.8491324,-82.8864316
+22759,Davis Historical,Township,FRA,CEMETERY,CEM,Public,0.19980477,,40.0838752,-83.1099881
+22760,Union (Smith),Township,FRA,CEMETERY,CEM,Public,0.97446109,,40.1144161,-82.8547509
+22761,Burnside,Township,FRA,CEMETERY,CEM,Public,0.35089675,,40.1052336,-82.7777180
+22762,New Albany,New Albany,FRA,CEMETERY,CEM,Public,0.50482476,,40.0811599,-82.8098979
+22763,New Albany,New Albany,FRA,CEMETERY,CEM,Public,0.00595355,,40.0809999,-82.8101356
+22764,Wagner (Triplett),New Albany,FRA,CEMETERY,CEM,Public,0.56618917,,40.0978659,-82.8024183
+22765,Sunset,Township,FRA,CEMETERY,CEM,Public,131.76372583,,39.9439422,-83.1855713
+22766,Clover,Columbus,FRA,CEMETERY,CEM,Public,0.50575758,,39.9625152,-83.1687419
+22767,Flint Cemetery,Township,FRA,CEMETERY,CEM,Public,0.02797975,,40.1317167,-83.0082888
+22768,Silent Home,Township,FRA,CEMETERY,CEM,Public,7.12852548,,39.9517416,-82.7987752
+22769,Rings,Township,FRA,CEMETERY,CEM,Public,0.19433808,,40.0626350,-83.1829532
+22770,Sandy Corners,Dublin,FRA,CEMETERY,CEM,Public,0.433655,Dublin,40.0802038,-83.1572521
+22771,Clime,Columbus,FRA,CEMETERY,CEM,Public,0.28817514,,39.9290582,-83.0991722
+23002,Union Cemetery Association,Columbus,FRA,CEMETERY,CEM,Public,110.33744147,,40.0233021,-83.0264360
+23004,Flint (Gardner),Township,FRA,CEMETERY,CEM,Public,11.30094129,,40.1329225,-83.0098441
+23006,Dublin (I.O.O.F.),Dublin,FRA,CEMETERY,CEM,Public,12.00897864,Dublin,40.0977572,-83.1171951
+23007,Indian Run,Dublin,FRA,CEMETERY,CEM,Public,0.5502631,Dublin,40.1022524,-83.1153519
+23008,St. John'S Lutheran (Horch),Dublin,FRA,CEMETERY,CEM,Public,0.4093088,Dublin,40.0922317,-83.1581498
+23009,Mt Calvary,Township,FRA,CEMETERY,CEM,Public,42.11052268,,39.9467375,-83.0242558
+23021,Grove City Cemetery West,Grove City,FRA,CEMETERY,CEM,Public,22.98039756,,39.8791047,-83.1087936
+23022,Franklin Hills Memory Gardens,Township,FRA,CEMETERY,CEM,Public,80.28652746,,39.8070747,-82.8265406
+23023,Muffin Township,Gahanna,FRA,CEMETERY,CEM,Public,0.72919489,,40.0213181,-82.8834674
+23024,Muffin Township,Gahanna,FRA,CEMETERY,CEM,Public,8.4497836,,40.0218240,-82.8849050
+23025,Walnut Grove,Worthington,FRA,CEMETERY,CEM,Public,22.42029216,,40.0755975,-83.0247685
+23055,Alton,Township,FRA,CEMETERY,CEM,Public,13.68106816,,39.9547672,-83.1683727
+23056,Alton Methodist Episcopal,Township,FRA,CEMETERY,CEM,Public,0.82550235,,39.9493885,-83.1729158
+23057,Galloway,Township,FRA,CEMETERY,CEM,Public,8.25467466,,39.9091882,-83.1613318
+23058,Riverside,Columbus,FRA,CEMETERY,CEM,Public,13.65280801,,40.0380525,-82.9283120
+23066,St. Joseph Catholic,Columbus,FRA,CEMETERY,CEM,Public,717.35478093,,39.8207621,-82.9855103
+23067,Pet Cemetery,Columbus,FRA,CEMETERY,CEM,Public,3.04552014,,39.9986157,-82.8727608
+23068,Mt Zion United Brethren,Dublin,FRA,CEMETERY,CEM,Public,1.56670855,Dublin,40.1391335,-83.1442003
+23069,St. Paul'S Lutheran,Township,FRA,CEMETERY,CEM,Public,0.98796017,,40.1183995,-82.8746283
+23072,Maplewood,New Albany,FRA,CEMETERY,CEM,Public,13.29631092,,40.0769126,-82.8114803
+23073,Otterbien Cemetery,Westerville,FRA,CEMETERY,CEM,Public,4.9010936,,40.1210647,-82.9347309
+23074,West Pioneer,Westerville,FRA,CEMETERY,CEM,Public,4.42927963,orthos,40.1049779,-82.9265406
+23075,Cemetery,Gahanna,FRA,CEMETERY,CEM,Public,0.77753965,,40.0262858,-82.8765754
+23076,Cemetery,Township,FRA,CEMETERY,CEM,Public,0.97251161,,39.9191505,-83.0504033
+23079,Cemetery,Township,FRA,CEMETERY,CEM,Public,0.16709835,,40.0317565,-82.8176119
+23080,Hendren (Barnhart),Groveport,FRA,CEMETERY,CEM,Public,31.8392364,,39.8637403,-82.9019190
+23081,Baptist (Primitive),Township,FRA,CEMETERY,CEM,Public,0.68608545,,39.9525414,-82.8007480
+23082,Bickett-Richards,Upper Arlington,FRA,CEMETERY,CEM,Public,0.15330843,,40.0275228,-83.0903155
+23083,Camp Chase Confederate,Columbus,FRA,CEMETERY,CEM,Public,1.44911859,,39.9438486,-83.0759705
+23084,Chenoweth,Township,FRA,CEMETERY,CEM,Public,0.9461284,,39.8223083,-83.1790819
+23085,Dominican Sisters,Columbus,FRA,CEMETERY,CEM,Public,0.25027133,,39.9917140,-82.9397642
+23086,Ebenezer Methodist Episcopal,Township,FRA,CEMETERY,CEM,Public,0.53481428,,39.8912295,-83.1615954
+23088,Grey,Township,FRA,CEMETERY,CEM,Public,0.275925,,39.9071154,-82.8748311
+23089,Gundy,Township,FRA,CEMETERY,CEM,Public,0.93412243,,39.8827667,-83.1557723
+23090,Hart,Hilliard,FRA,CEMETERY,CEM,Public,0.09921998,,40.0273717,-83.1294951
+23091,Kramer,Township,FRA,CEMETERY,CEM,Public,0.8045677,,39.8261655,-82.8120206
+23092,Landes (Plum Travis),Columbus,FRA,CEMETERY,CEM,Public,0.11394387,,39.8219599,-82.9700298
+23093,Leatherlips,Dublin,FRA,CEMETERY,CEM,Public,0.06709862,,40.1400467,-83.1184031
+23094,Legg Walcutt,Upper Arlington,FRA,CEMETERY,CEM,Public,0.27572625,,40.0325646,-83.0649739
+23095,Little Pennsylvania - (Biggert),Township,FRA,CEMETERY,CEM,Public,1.04165197,Metro Parks,39.8505989,-83.2012669
+23096,Marsh,Grove City,FRA,CEMETERY,CEM,Public,0.3216593,,39.8986375,-83.0599696
+23097,Mckendree M.E.,Township,FRA,CEMETERY,CEM,Public,0.29881963,,40.0350942,-82.9621726
+23098,Mennonite Church,Columbus,FRA,CEMETERY,CEM,Public,0.22387651,,39.8681032,-82.8271834
+23099,Middletown (Stotler),Canal Winchester,FRA,CEMETERY,CEM,Public,0.54825779,,39.8245265,-82.8295138
+23100,Mitchell,Dublin,FRA,CEMETERY,CEM,Public,0.08797673,Dublin,40.1091331,-83.1162218
+23101,Oak Grove,Township,FRA,CEMETERY,CEM,Public,6.11420229,Metro Parks,39.8947954,-83.2125569
+23102,Peters,Township,FRA,CEMETERY,CEM,Public,0.02767801,,39.9325480,-83.1069663
+23103,Peters Family,Columbus,FRA,CEMETERY,CEM,Public,0.01421132,,39.9141571,-83.0562282
+23104,Postle,Columbus,FRA,CEMETERY,CEM,Public,0.21194091,,39.9426540,-83.1437103
+23105,Powell Methodist (Brice Methodist),Columbus,FRA,CEMETERY,CEM,Public,0.31493168,,39.9127799,-82.8287590
+23106,Rarey,Township,FRA,CEMETERY,CEM,Public,0.19833171,,39.8236578,-82.8944483
+23107,Salem Heights United Methodist Church,Township,FRA,CEMETERY,CEM,Public,0.70022101,,39.9141449,-83.1076930
+23108,Seceder (Old United Presbyterian),Reynoldsburg,FRA,CEMETERY,CEM,Public,1.08272233,,39.9405392,-82.7935924
+23109,St. James (Jacob) Lutheran,Columbus,FRA,CEMETERY,CEM,Public,0.5605986,,39.9807169,-83.1496477
+23110,St. John'S Episcopal Church,Worthington,FRA,CEMETERY,CEM,Public,0.45071669,,40.0885163,-83.0168689
+23111,State New Insane,Columbus,FRA,CEMETERY,CEM,Public,0.46877894,,39.9627255,-83.0540290
+23112,State Of Ohio Asylum For Insane,Columbus,FRA,CEMETERY,CEM,Public,1.33125823,,39.9631458,-83.0629387
+23113,State Old Insane And Penal,Columbus,FRA,CEMETERY,CEM,Public,0.54972905,,39.9650043,-83.0575032
+23114,Stevenson (Bowman),Columbus,FRA,CEMETERY,CEM,Public,0.36992847,,39.8992444,-82.8527107
+23115,Thomas Seeds,Township,FRA,CEMETERY,CEM,Public,0.56995051,,39.8088013,-83.0747574
+23116,Welton (Hanaway),Township,FRA,CEMETERY,CEM,Public,0.37789012,,39.8162538,-82.8563063
+23193,Athletic Field,Columbus,FRA,RECREATION,REC,Public,55.61364243,Orthos,40.0683658,-82.9363582
+23194,Sawmill Road Parkland,Columbus,FRA,PARK,PRES,Public,17.31315065,Columbus,40.1294791,-83.0872422
+23195,Hard Road Parkland,Columbus,FRA,PARK,PRES,Public,39.97290888,Columbus,40.1186116,-83.0510572
+23196,Elk Run,Columbus,FRA,PARK,CON,Public,40.85368223,Columbus,39.8994495,-82.8890952
+23197,Williams Creek Park,Columbus,FRA,PARK,N,Public,6.39462227,Columbus,39.8903845,-82.9253305
+23198,Big Walnut-Williams Rd Coh,Columbus,FRA,PARK,CON,Public,5.70071393,Columbus,39.8986267,-82.8925873
+23199,Bre-Kro Parkland,Columbus,FRA,PARK,CON,Public,12.16388103,Columbus,39.9118847,-82.8787450
+23200,Clean Ohio Alton Parkland,Columbus,FRA,PARK,PRES,Public,43.5393461,Columbus,39.9463962,-83.1699975
+23202,Lehman Parkland,Columbus,FRA,PARK,PRES,Public,7.90511267,Columbus,39.8623219,-82.8148445
+23203,Longwood Wetland Park,Columbus,FRA,PARK,CON,Public,15.80619913,Columbus,39.8999498,-82.8152672
+23204,Schirm Farms Parkland,Columbus,FRA,PARK,CON,Public,39.4690894,Columbus,39.8696040,-82.8306512
+23205,White Ash Parkland,Columbus,FRA,PARK,CON,Public,13.58083845,Columbus,39.8771722,-82.8174999
+23206,Mackenbach Parkland,Columbus,FRA,PARK,NOS,Public,17.43136743,Columbus,39.8740516,-82.8305889
+23207,Winchester Meadows,Columbus,FRA,PARK,CON,Public,1.62147221,Columbus,39.8750560,-82.8161301
+23208,Nafzger Park,Columbus,FRA,PARK,C,Public,0.97310577,Columbus,39.9148379,-82.8640059
+23209,Barnett Park,Columbus,FRA,PARK,C,Public,12.40587903,Columbus,39.9478632,-82.9041015
+23211,Greenlawn Park,Columbus,FRA,PARK,CON,Public,17.98112572,Columbus,39.9409452,-83.0059710
+23212,Alum Creek/Holtzman Parkland,Columbus,FRA,PARK,CON,Public,2.2757097,Columbus,39.9593251,-82.9445673
+23213,Holt Ave Parkland,Columbus,FRA,PARK,NOS,Public,0.95758771,Columbus,39.9996581,-82.9473313
+23214,Alum Creek Miller Parkland,Columbus,FRA,PARK,N,Public,15.11101233,Columbus,40.0204340,-82.9373394
+23215,Alum Creek Koch Parkland Coh,Columbus,FRA,PARK,CON,Public,7.45228323,Columbus,40.0119406,-82.9368099
+23216,Alum Creek Freeland Parkland Coh,Columbus,FRA,PARK,N,Public,3.54512079,Columbus,40.0282164,-82.9341925
+23217,Eastern Glen Parkland,Columbus,FRA,PARK,CON,Public,4.11286667,Columbus,40.0076185,-82.9347592
+23218,Alum Creek Agler Parkland Coh,Columbus,FRA,PARK,CON,Public,0.78494552,Columbus,40.0276006,-82.9340926
+23219,Parkview Parkland,Columbus,FRA,PARK,CON,Public,3.61638829,Columbus,40.0195608,-83.0039250
+23220,Glen Echo Park,Columbus,FRA,PARK,N,Public,7.13747679,Columbus,40.0193874,-82.9985114
+23221,Blackburn Park,Columbus,FRA,PARK,C,Public,5.49784954,Columbus,39.9591926,-82.9752207
+23222,Rocky Fork/Warner Rd Parkland,Columbus,FRA,PARK,CON,Public,3.69219721,Columbus,40.0903514,-82.8465010
+23223,Rocky Fork Creek Parkland,Columbus,FRA,PARK,CON,Public,7.46229701,Columbus,40.0894601,-82.8471477
+23224,West Albany Wetlands,Columbus,FRA,PARK,CON,Public,7.85920979,Columbus,40.1053490,-82.8302937
+23225,Albany Crossing Park,Columbus,FRA,PARK,N,Public,11.09383451,Columbus,40.0959218,-82.8553042
+23226,Hamilton Road Wetland,Columbus,FRA,PARK,CON,Public,77.74519476,Columbus,40.0854597,-82.8589274
+23227,Westerville Crossing Parkland,Columbus,FRA,PARK,CON,Public,7.2107093,Columbus,40.0861731,-82.9230125
+23228,Westerville Crossing Parkland,Columbus,FRA,PARK,CON,Public,4.11939606,Columbus,40.0892928,-82.9254853
+23229,Woodstream Park,Columbus,FRA,PARK,CON,Public,4.1957017,Columbus,40.0708781,-82.8972598
+23230,Virginia Terrace Parkland,Columbus,FRA,PARK,CON,Public,13.80524653,Columbus,40.0473666,-82.8894820
+23231,Alum Creek/Innis Parkland Coh,Columbus,FRA,PARK,CON,Public,1.53885948,Columbus,40.0328681,-82.9333562
+23232,Dysart Run & E Broad St Parkland,Columbus,FRA,PARK,CON,Public,6.58082171,Columbus,39.9937719,-82.7796014
+23233,Creekstone Parkland,Columbus,FRA,PARK,NOS,Public,7.24621728,Columbus,39.9999077,-82.7851890
+23234,Reynolds Crossing Park,Columbus,FRA,PARK,N,Public,4.41847434,Columbus,39.9813863,-82.8075635
+23235,Vaugn Farm Parkland,Columbus,FRA,PARK,NOS,Public,4.14497861,Columbus,40.0624220,-83.1306339
+23236,Haydens Crossing Park,Columbus,FRA,PARK,N,Public,10.7366965,Columbus,40.0558352,-83.1622444
+23237,Camp Mary Orton,Township,FRA,RECREATION,SPU,Private,62.99811387,FCEO,40.1253819,-83.0264314
+23247,White (Britton),Columbus,FRA,CEMETERY,CEM,Public,0.2624569,FCA,40.0050149,-83.0899731
+23249,M. Wilcox Gravestone,Dublin,FRA,CEMETERY,CEM,Public,0.00200971,Dublin,40.0856518,-83.1526695
+23250,Noah Rose,Township,FRA,CEMETERY,CEM,Public,0.02200856,FCA,39.8237588,-83.1445482
+23251,Ferris,Dublin,FRA,CEMETERY,CEM,Public,0.01248735,FCA,40.1137684,-83.1097581
+23252,Old Concord United Methodist Church,Township,FRA,CEMETERY,CEM,Public,0.69125448,FCA,39.8385418,-83.0726132
+23253,Hoover,Grove City,FRA,CEMETERY,CEM,Public,0.02462286,Grove City,39.8878876,-83.0571453
+23254,Miller Family,Columbus,FRA,CEMETERY,CEM,Public,0.1991894,FCA,40.1138106,-83.0427286
+23255,Pontifical College Josephinum,Columbus,FRA,CEMETERY,CEM,Public,1.21938813,FCA,40.1185974,-83.0194944
+23256,All Saints Evangelical Lutheran Church Columbarium,Worthington,FRA,CEMETERY,CEM,Public,2.34845684,FCA,40.1024379,-83.0164078
+23257,Trinity Episcopal Church Columbarium,Columbus,FRA,CEMETERY,CEM,Public,0.32829719,FCA,39.9623251,-82.9974561
+23258,Williams,Township,FRA,CEMETERY,CEM,Public,0.06538046,FCA,39.8122634,-82.9962966
+23259,Decker,Township,FRA,CEMETERY,CEM,Public,0.07564809,FCA,39.8065959,-82.9695550
+23260,Mifflin Presbyterian Columbarium,Gahanna,FRA,CEMETERY,CEM,Public,0.75038444,FCA,40.0184277,-82.8772362
+23265,Rocky Fork Metro Park,Metro Parks,FRA,PARK,M,Public,183.12477279,Metro Parks,40.1183410,-82.8469531
+23266,Long Rd Wetland Connector,Columbus,FRA,PARK,M,Public,0.43709704,Columbus,39.8978421,-82.8143692
+23267,Alum Creek Trail,Columbus,FRA,PARK,M,Public,2.27366195,Metro Parks,39.9468855,-82.9426195
+23268,Alum Creek Trail,Columbus,FRA,PARK,M,Public,1.84085956,Metro Parks,39.9356177,-82.9339072
+23269,Alum Creek Trail,Columbus,FRA,PARK,M,Public,0.83904044,Metro Parks,39.9443392,-82.9412008
+23270,Alum Creek Trail,Columbus,FRA,PARK,M,Public,1.03279157,Metro Parks,39.9317765,-82.9320546
+23271,Boehnke Nature Preserve,Metro Parks,FRA,PARK,PRES,Private,11.67940219,Metro Parks,40.0374512,-82.8325139
+23272,Boehnke Nature Preserve,Metro Parks,FRA,PARK,PRES,Private,10.88119174,Metro Parks,40.0374776,-82.8309688
+23273,Blacklick Woods Metro Park,Metro Parks,FRA,PARK,M,Public,7.55075035,Metro Parks,39.9436800,-82.7976311
+23274,Longwood Wetland Park,Columbus,FRA,PARK,M,Public,0.3474788,Metro Parks,39.9012749,-82.8171580
+23275,Blacklick Creek Greenway Trail,Metro Parks,FRA,PARK,M,Public,1.41312987,Metro Parks,39.8898446,-82.8642957
+23276,Jefferson Community Park,Jefferson Twp,FRA,PARK,C,Public,41.50428932,Jefferson Twp,40.0456307,-82.7980409
+23419,Lockbourne Clean Ohio,Columbus,FRA,PARK,CON,Public,44.47396814,Columbus,39.8131201,-82.9697139
+23420,Broad Street Parkland,Columbus,FRA,PARK,PRES,Public,30.46869516,Columbus,39.9483818,-83.1691137
+23421,Clover-Kenney Park,Columbus,FRA,PARK,CON,Public,13.90115506,Columbus,40.0063825,-83.1714258
+23422,Quarry Pointe B Parkland,Columbus,FRA,PARK,N,Public,2.38429805,Columbus,40.0168909,-83.1045431
+23423,Quarry Pointe C Parkland,Columbus,FRA,PARK,N,Public,3.67188318,Columbus,40.0188421,-83.1064044
+23424,Scioto Peninsula Parkland,Columbus,FRA,PARK,SPU,Public,9.81199454,Columbus,39.9577802,-83.0083153
+23429,Highbluffs Park,Columbus,FRA,PARK,N,Public,3.26519419,Columbus,40.1333431,-83.0178710
+23430,Big Walnut Corridor,Columbus,FRA,PARK,CON,Public,10.25440321,Columbus,39.9117089,-82.8756555
+23431,Igel/Alum Creek Water Dedication,Columbus,FRA,PARK,N,Public,4.33836096,Columbus,39.9268301,-82.9331258
+23432,Livingston/1-70 Parkland,Columbus,FRA,PARK,C,Public,23.24043811,Columbus,39.9410044,-82.9377639
+23433,Alum Creek Dr N Of Livingston Ave,Columbus,FRA,PARK,N,Public,4.4450169,Columbus,39.9512916,-82.9430301
+23434,Alum Creek/Handford Parkland,Columbus,FRA,PARK,N,Public,0.64918666,Columbus,39.9548264,-82.9429007
+23435,Ohio Ave Street Park,Columbus,FRA,PARK,N,Public,0.34165174,Columbus,39.9672532,-82.9699512
+23436,Sader Park,Columbus,FRA,PARK,N,Public,0.0847174,Columbus,39.9807917,-83.0077583
+23437,New Beginnings Park,Columbus,FRA,PARK,N,Public,0.75129581,Columbus,39.9880358,-82.9792356
+23438,Milo-Grogan Expansion,Columbus,FRA,PARK,N,Public,0.61198819,Columbus,39.9818185,-82.9804389
+23440,Majestic Paint Parkland,Columbus,FRA,PARK,N,Public,4.72906268,Columbus,39.9874513,-82.9449563
+23441,Hamilton & Spring Park,Columbus,FRA,PARK,N,Public,0.2387269,Columbus,39.9685620,-82.9823760
+23442,Southside Park,Columbus,FRA,PARK,N,Public,4.88252179,Columbus,39.9171347,-82.9811821
+23443,Sugar Run Parkland,Columbus,FRA,PARK,CON,Public,8.31605225,Columbus,40.0941753,-82.8274285
+23444,Cannongate Alum Creek Parkland,Columbus,FRA,PARK,CON,Public,4.0236723,Columbus,40.0764767,-82.9193745
+23445,Sharon Meadows Park,Columbus,FRA,PARK,C,Public,10.44371076,Columbus,40.0735933,-83.0099973
+23446,Olentangy-Broadmeadows Trail,Columbus,FRA,PARK,N,Public,0.37060051,Columbus,40.0739207,-83.0342589
+23447,Hayden Run Trail Parkland,Columbus,FRA,PARK,CON,Public,8.16309433,Columbus,40.0542468,-83.1700418
+23448,Georgesville Green Parkland,Columbus,FRA,PARK,PRES,Public,8.05752792,Columbus,39.9333457,-83.1173965
+23449,Big Run Park,Columbus,FRA,PARK,R,Public,272.90443515,Columbus,39.9243352,-83.1058677
+23450,Creekview Parkland,Columbus,FRA,PARK,NOS,Public,7.43520066,Columbus,39.9226351,-83.0810869
+23451,Rocky Creek Parkland,Columbus,FRA,PARK,CON,Public,6.08264751,Columbus,39.9244415,-83.0873562
+23452,Sd-20,Columbus,FRA,PARK,CON,Public,5.27622773,Columbus,39.9762816,-83.0634708
+23453,Scioto River Parkland,Columbus,FRA,PARK,CON,Public,0.21213774,Columbus,39.9702276,-83.0422182
+23454,Brevoort Park,Columbus,FRA,PARK,N,Public,2.79878446,Columbus,40.0364158,-83.0015548
+23455,Stonecliff Parkland,Columbus,FRA,PARK,N,Public,12.24397154,Columbus,40.0164728,-82.9389368
+23456,Rocky Fork Metro Park,Metro Parks,FRA,PARK,M,Public,240.19039478,Metro Parks,40.1225203,-82.8152302
+23457,Gender Road Parkland,Columbus,FRA,PARK,PRES,Public,31.98797566,Columbus,39.8954942,-82.8221239
+23458,Portman Park,Columbus,FRA,PARK,C,Public,11.37907305,Columbus,39.9107525,-82.8065542
+23459,Shady Lane Park,Columbus,FRA,PARK,N,Public,1.32584794,Columbus,39.9467339,-82.8719877
+23460,Big Walnut - Ottowa Parkland,Columbus,FRA,PARK,CON,Public,1.38744576,Columbus,39.9566173,-82.8526257
+23462,Big Walnut Greenway,Columbus,FRA,PARK,M,Public,35.16052282,Metro Parks,40.0862682,-82.8903638
+23463,Memorial,Grandview Heights,FRA,PARK,N,Public,0.39956872,FCA,39.9830057,-83.0355239
+23464,Parkway Mini,Grandview Heights,FRA,PARK,N,Public,0.1889031,FCA,39.9827112,-83.0338738
+23465,Willis Park,Columbus,FRA,PARK,N,Public,0.74266945,FCA,39.9491675,-82.8628642
+23466,Columbus Commons,Columbus,FRA,PARK,C,Public,2.28499853,orthos,39.9588335,-82.9987839
+23467,Walnut Woods Metro Park,Metro Parks,FRA,PARK,M,Public,1162.72857218,Metro Parks,39.8397022,-82.8651235
+23468,Rocky Fork Metro Park,Metro Parks,FRA,PARK,M,Public,236.58507494,Metro Parks,40.1194587,-82.7984486
+23469,Demorest Road Park,Grove City,FRA,PARK,N,Public,23.09810839,Grove City,39.8863945,-83.1109055
+23534,Highbanks Metro Park,Columbus,FRA,PARK,M,Public,343.16655315,Metro Parks,40.1301646,-83.0293646
+23535,Westerville Sports Complex,Westerville,FRA,RECREATION,REC,Public,19.71780305,Westerville,40.1323109,-82.9489762
+23537,Soccer Fields,Columbus,FRA,RECREATION,REC,Public,54.76069471,FCA,40.0513631,-82.9294678
+23538,Inniswood Metro Park,Metro Parks,FRA,PARK,M,Public,122.422148,Metro Parks,40.1014131,-82.8982487
+23539,Lower Scioto Park,Columbus,FRA,PARK,M,Public,7.19298899,Columbus,39.9424701,-83.0006870
+23540,Scioto Audobon,Columbus,FRA,PARK,M,Public,133.61902339,Metro Parks,39.9479631,-83.0079736
+23541,Pickerington Ponds,Columbus,FRA,PARK,M,Public,1154.06099771,Metro Parks,39.8864308,-82.8078591
+23543,Scioto Grove,Metro Parks,FRA,PARK,M,Public,618.39338893,Metro Parks,39.8468890,-83.0201149
+23563,Clarence W Latham Educational Park,Hilliard,FRA,PARK,N,Public,18.82543577,Hilliard,40.0353719,-83.1811505
+23566,Maebelle Way Open Space,Westerville,FRA,PARK,N,Public,2.30117049,Westerville,40.1338486,-82.9622247
+23567,Maebelle Way Open Space,Westerville,FRA,PARK,N,Public,2.82386392,Westerville,40.1329688,-82.9603659
+23570,Uptown Rotary Park,Westerville,FRA,PARK,N,Public,0.02187562,Westerville,40.1276826,-82.9321348
+23571,Kiwanis Picnic Park,Westerville,FRA,PARK,NOS,Public,0.7652882,Westerville,40.1199289,-82.9212745
+23572,Alum Creek Park South,Westerville,FRA,PARK,NOS,Public,6.37995706,Westerville,40.1164471,-82.9393160
+23573,Paramount Senior Living Open Space,Westerville,FRA,PARK,NOS,Public,2.3003308,Westerville,40.1093328,-82.9390948
+23574,South Hempstead Road Open Space,Westerville,FRA,PARK,NOS,Public,0.23937736,Westerville,40.0991175,-82.9051843
+23575,Springborough Greenway,Westerville,FRA,GREEN SPACE,NOS,Public,0.05849079,Westerville,40.1027515,-82.9075267
+23576,Brownstone Court Open Space,Westerville,FRA,PARK,NOS,Public,0.39909824,Westerville,40.1169471,-82.8942535
+23577,Westerville Greenway,Westerville,FRA,PARK,NOS,Public,0.56996493,Westerville,40.1315311,-82.9261836
+23578,Westerville Greenway,Westerville,FRA,PARK,NOS,Public,0.14896969,Westerville,40.1309674,-82.9264707
+23579,Westerville Greenway,Westerville,FRA,PARK,NOS,Public,0.49790144,Westerville,40.1278243,-82.9269309
+23580,Westerville Greenway,Westerville,FRA,PARK,NOS,Public,0.4469226,Westerville,40.1250228,-82.9270954
+23581,Westerville Greenway,Westerville,FRA,PARK,NOS,Public,0.65056047,Westerville,40.1187547,-82.9273262
+23582,First Responders Park,Westerville,FRA,PARK,N,Public,0.27626499,Westerville,40.1253230,-82.9445893
+23587,Silverton Park,Hilliard,FRA,PARK,N,Public,2.97869645,Hilliard,40.0649540,-83.1519498
+23588,Galloway Road Clean Ohio Parkland,Columbus,FRA,PARK,PRES,Public,123.519005,,39.9154242,-83.1587874
+23589,Prairie Parkland,Columbus,FRA,PARK,PRES,Public,24.81861092,,39.9127441,-83.1557963
+23590,Winchester Bend Parkland,Columbus,FRA,PARK,PRES,Public,5.26411941,,39.9011870,-82.8898504
+23591,Big Walnut-Edgewater Parkland Coh,Columbus,FRA,PARK,CON,Public,40.52722112,Columbus,39.9068979,-82.8882495
+23592,Mason Run Clean Ohio Parkland,Columbus,FRA,PARK,CON,Public,20.29174042,Columbus,39.9126558,-82.8893461
+23593,Mentel Memorial Golf Course,Columbus,FRA,GOLF,GOLF,Public,146.08612429,,39.9087599,-83.1506439
+23608,Woerner-Temple Open Space A,Dublin,FRA,GREEN SPACE,NOS,Public,4.21515635,Dublin,40.0853146,-83.1512743
+23609,Woerner-Temple Open Space C,Dublin,FRA,GREEN SPACE,NOS,Public,0.63833467,Dublin,40.0844736,-83.1486611
+23610,Woerner-Temple Open Space B,Dublin,FRA,GREEN SPACE,NOS,Public,0.2967971,Dublin,40.0849119,-83.1494465
+23611,Rings Road Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,7.03431376,Dublin,40.0826172,-83.1509745
+23612,Ballantrae Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,2.74766548,Dublin,40.0844573,-83.1647482
+23613,Shier-Rings Park,Dublin,FRA,PARK,N,Public,2.47688942,Dublin,40.0953495,-83.1411755
+23614,Cramer Run Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,9.28513616,Dublin,40.0834563,-83.1284565
+23615,Woods Of Brighton,Dublin,FRA,PARK,N,Public,0.51564145,Dublin,40.0814393,-83.1434610
+23616,Coffman Park,Dublin,FRA,PARK,C,Public,6.96806633,Dublin,40.1018656,-83.1412378
+23617,Dublin Veterans Park,Dublin,FRA,PARK,C,Public,2.88502955,Dublin,40.1024543,-83.1152720
+23618,Emerald Parkway Bridge Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,4.45838408,Dublin,40.1096776,-83.1118071
+23619,Holder-Wright Earthworks,Dublin,FRA,PARK,NOS,Public,20.32674674,Earthworks,40.1118558,-83.1065862
+23620,Dublin Rd Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,2.87474449,Dublin,40.1176931,-83.1184895
+23621,Emerald Parkway Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,1.82202196,Dublin,40.1050333,-83.1320111
+23622,Karrer Barn Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.81142124,Dublin,40.0952452,-83.1134708
+23623,Chambers Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.82989997,Dublin,40.0992180,-83.1099105
+23624,Earlsford Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,1.45319907,Dublin,40.1204936,-83.1458781
+23625,Wyandotte Woods Open Space "C",Dublin,FRA,GREEN SPACE,NOS,Public,43.95038015,Dublin,40.1269164,-83.1050988
+23626,Earlington Park,Dublin,FRA,PARK,C,Public,16.87486385,Dublin,40.1243768,-83.1441277
+23627,Brandon Open Space "B",Dublin,FRA,GREEN SPACE,NOS,Public,9.30026811,Dublin,40.1235900,-83.1376569
+23628,Brandon Open Space "A",Dublin,FRA,GREEN SPACE,NOS,Public,6.02646341,Dublin,40.1221686,-83.1351522
+23629,Riverside Woods Open Space "A",Dublin,FRA,GREEN SPACE,NOS,Public,2.03721056,Dublin,40.1199821,-83.1027542
+23630,Griggs Reservoir,Columbus,FRA,PARK,C,Public,3.04755503,Columbus,40.0920555,-83.1094186
+23631,Hutchins Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,25.63598357,Dublin,40.1391264,-83.1155141
+23658,Wexford Woods Open Space West,Dublin,FRA,PARK,NOS,Public,0.22596928,Dublin,40.1128589,-83.1628389
+23659,Ml Red Trabue Nature Reserve,Dublin,FRA,PARK,C,Public,1.45921706,Dublin,40.1139085,-83.1631773
+23661,Lowell Trace Open Space,Dublin,FRA,PARK,NOS,Public,3.10366926,Dublin,40.1114969,-83.1594474
+23662,Wexford Woods Open Space East,Dublin,FRA,PARK,NOS,Public,0.2199828,Dublin,40.1144932,-83.1588687
+23663,Wexford Estates Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,1.06187703,Dublin,40.1163456,-83.1586056
+23664,Scottish Corners Park,Dublin,FRA,PARK,C,Public,6.64934465,Dublin,40.1174076,-83.1502317
+23665,Dublinshire Open Space "F",Dublin,FRA,PARK,NOS,Public,4.21405107,Dublin,40.1200749,-83.1500437
+23666,Ballantrae Open Space "S",Dublin,FRA,GREEN SPACE,NOS,Public,3.83518848,Dublin,40.0938234,-83.1764443
+23671,Smiley Park,Dublin,FRA,PARK,N,Public,1.89922138,Dublin,40.0914382,-83.1282308
+23672,Glendavon Park,Dublin,FRA,PARK,N,Public,1.2128055,Dublin,40.0837622,-83.1764340
+23673,Vandeleur Park,Dublin,FRA,PARK,N,Public,0.80919116,Dublin,40.0902355,-83.1821404
+23674,Belvedere Park,Dublin,FRA,PARK,N,Public,2.61728815,Dublin,40.1330581,-83.1686722
+23689,Upper Albany School Site,Columbus,FRA,PARK,PRES,Public,10.46754549,Columbus,40.1086989,-82.8562500
+23690,Albany Crossing Wetlands,Columbus,FRA,PARK,CON,Public,6.96946497,,40.0966604,-82.8591313
+23691,Mock Park Extension,Columbus,FRA,PARK,CON,Public,4.87128033,Columbus,40.0142677,-82.9484865
+23692,Tuttle/Lane Ave Mut Connector,Columbus,FRA,RECREATION,SPU,Public,0.122683,Columbus,40.0079921,-83.0197066
+23693,Kenney Park,Columbus,FRA,PARK,C,Public,27.14486768,Columbus,40.0658945,-83.0300491
+23694,Beechwold Park,Columbus,FRA,PARK,C,Public,8.18284645,Columbus,40.0613575,-83.0276416
+23695,Anheuser-Busch Sports Park,Columbus,FRA,PARK,C,Public,53.85405364,Columbus,40.0594281,-83.0333970
+23696,Island View,Columbus,FRA,PARK,NOS,Public,9.3370988,Columbus,40.0703614,-83.0315179
+23697,Cherrybottom Clean Ohio,Columbus,FRA,PARK,CON,Public,1.90057401,Columbus,40.0679598,-82.9050736
+23698,New Albany Country Club,New Albany,FRA,GOLF,GOLF,Private,466.97524382,parcels,40.0685203,-82.8297733
+23699,Northmoor Park,Columbus,FRA,PARK,C,Public,8.48254076,Columbus,40.0358430,-83.0263898
+23700,Glen Echo Park,Columbus,FRA,PARK,N,Public,0.00002636,Columbus,40.0187629,-82.9984771
+23701,Berliner Sports Park,Columbus,FRA,PARK,R,Public,228.58583538,Columbus,39.9320411,-83.0066615
+23702,Hoover Reservoir,Columbus,FRA,PARK,P,Public,27.70302654,FCA,40.1204353,-82.8729063
+23703,Teaford Parkland,Columbus,FRA,PARK,CON,Public,7.69404425,Columbus,40.1018129,-82.9365284
+23704,Parkway Drive Open Space,Columbus,FRA,PARK,NOS,Public,1.64802635,FCEO,40.0065144,-83.0686096
+23705,Crafton Park,Upper Arlington,FRA,PARK,N,Public,0.55024878,FCEO,40.0092496,-83.0829683
+23706,Ballantrae Open Space "Y",Dublin,FRA,GREEN SPACE,NOS,Public,0.82313094,Dublin,40.0910554,-83.1852357
+23707,Ballantrae Open Space "W",Dublin,FRA,PARK,NOS,Public,0.34879547,Dublin,40.0914369,-83.1793093
+23708,Ballantrae Open Space "R",Dublin,FRA,PARK,NOS,Public,0.47727909,Dublin,40.0907665,-83.1761678
+23709,Ballantrae Open Space "M",Dublin,FRA,PARK,NOS,Public,0.29354997,Dublin,40.0902557,-83.1701848
+23710,Ballantrae Open Space "O",Dublin,FRA,PARK,NOS,Public,0.36615901,Dublin,40.0919521,-83.1699862
+23711,Ballantrae Open Space "L",Dublin,FRA,PARK,NOS,Public,0.55326889,Dublin,40.0911119,-83.1667761
+23712,Kendall Ridge Open Space,Dublin,FRA,PARK,NOS,Public,0.31206621,Dublin,40.0898981,-83.1633729
+23713,Ballantrae Open Space "J",Dublin,FRA,PARK,NOS,Public,0.16943269,Dublin,40.0884113,-83.1687015
+23714,Ballantrae Open Space "I",Dublin,FRA,GREEN SPACE,NOS,Public,0.81897975,Dublin,40.0876048,-83.1802776
+23715,Ballantrae Open Space "H",Dublin,FRA,PARK,NOS,Public,0.32525652,Dublin,40.0859577,-83.1801728
+23716,Village Green Park,Worthington,FRA,PARK,NOS,Public,0.59885467,FCEO,40.0884472,-83.0184148
+23717,Village Green Park,Worthington,FRA,PARK,NOS,Public,0.55485818,FCEO,40.0884321,-83.0177994
+23718,Village Green Park,Worthington,FRA,PARK,NOS,Public,0.54698826,FCEO,40.0892939,-83.0183666
+23719,Village Green Park,Worthington,FRA,PARK,NOS,Public,0.59291039,FCEO,40.0892729,-83.0177585
+23720,Creekside Open Space,Grove City,FRA,PARK,N,Public,6.98270861,Grove City,39.8557619,-83.0560457
+23756,Olentangy Trail,Columbus,FRA,PARK,R,Public,42.32250882,orthos,40.0579038,-83.0295258
+23757,Olentangy Trail,Columbus,FRA,PARK,R,Public,17.72025112,orthos,40.0706374,-83.0334659
+23758,Olentangy Trail ,Worthington,FRA,PARK,REC,Public,4.02570085,orthos,40.0886737,-83.0322414
+23759,Olentangy Trail,Columbus,FRA,PARK,R,Public,2.93076392,orthos,40.0912702,-83.0349266
+23760,Olentangy Trail,Columbus,FRA,PARK,R,Public,14.85920454,orthos,40.0861168,-83.0340463
+23761,Olentangy Trail,Columbus,FRA,PARK,R,Public,3.21057509,orthos,40.0508723,-83.0314362
+23762,Central Park Reserve,Gahanna,FRA,PARK,NOS,Public,13.58573907,Gahanna,39.9982002,-82.8495716
+23763,Central Park Reserve,Gahanna,FRA,PARK,NOS,Public,8.31481095,Gahanna,40.0006735,-82.8461719
+23764,Estate View Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,2.49588294,parcels,40.0058918,-82.8338222
+23765,Estate View Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,0.44197622,parcels,40.0047038,-82.8340640
+23766,Estate View Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,5.73974014,parcels,40.0067843,-82.8314125
+23767,Waterford Park,Columbus,FRA,PARK,N,Public,1.7626804,parcels,39.9877349,-82.8424036
+23768,Waterford Park,Columbus,FRA,PARK,N,Public,1.28747249,parcels,39.9866222,-82.8424651
+23769,Taylor Station Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,3.19177338,parcels,39.9865541,-82.8394314
+23770,Waterford Park,Columbus,FRA,PARK,NOS,Public,2.03181165,parcels,39.9856418,-82.8423827
+23771,Black Willow Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,3.74655805,,40.0108369,-82.8033480
+23772,Fieldstone Open Space,Township,FRA,GREEN SPACE,NOS,Public,19.86715006,Jefferson Twp,40.0166077,-82.7976401
+23773,Fieldstone Open Space,Township,FRA,GREEN SPACE,NOS,Public,9.35949483,Jefferson Twp,40.0184055,-82.7950263
+23774,Willow Brook Crossing Open Space,Township,FRA,GREEN SPACE,NOS,Public,4.70312089,,40.0088330,-82.7949090
+23775,Royal Elm Open Space,Township,FRA,GREEN SPACE,NOS,Public,9.31203536,Jefferson Twp,40.0136294,-82.7989551
+23776,Royal Elm Open Space,Township,FRA,GREEN SPACE,NOS,Public,14.29485563,Jefferson Twp,40.0133414,-82.7976202
+23777,Willow Brook Crossing Open Space,Township,FRA,GREEN SPACE,NOS,Public,1.55919669,,40.0082163,-82.7988191
+23778,Fieldstone Open Space,Township,FRA,GREEN SPACE,NOS,Public,3.95721239,Jefferson Twp,40.0187503,-82.7908597
+23779,Fieldstone Open Space,Township,FRA,GREEN SPACE,NOS,Public,3.88136899,parcels,40.0179712,-82.7925234
+23780,Fieldstone Open Space,Township,FRA,GREEN SPACE,NOS,Public,1.19441695,parcels,40.0172974,-82.7902477
+23781,Fieldstone Open Space,Township,FRA,GREEN SPACE,NOS,Public,0.8444999,parcels,40.0158400,-82.7918349
+23782,Fieldstone Open Space,Township,FRA,GREEN SPACE,NOS,Public,3.54610223,Jefferson Twp,40.0153789,-82.7906658
+23783,Morrison Farms Open Space,Township,FRA,GREEN SPACE,NOS,Public,4.64271379,Jefferson Twp,40.0150430,-82.7890232
+23784,Goldeneye Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,7.90146586,parcels,40.0085540,-82.7786633
+23785,Willow Brook Crossing Open Space,Township,FRA,GREEN SPACE,NOS,Public,8.07120647,Jefferson Twp,40.0097341,-82.7921548
+23786,Morrison Farms Open Space,Township,FRA,GREEN SPACE,NOS,Public,9.75683546,Jefferson Twp,40.0181399,-82.7875717
+23787,Jefferson Run Open Space,Township,FRA,GREEN SPACE,NOS,Public,4.39985774,parcels,40.0108626,-82.7857044
+23788,Jefferson Run Open Space,Township,FRA,GREEN SPACE,NOS,Public,4.44670609,parcels,40.0107475,-82.7848939
+23789,Morrison Farms Open Space,Township,FRA,GREEN SPACE,NOS,Public,2.89229193,parcels,40.0144870,-82.7853480
+23790,Asbury Heights Open Space,Township,FRA,GREEN SPACE,NOS,Public,5.07363604,parcels,40.0038512,-82.7840773
+23791,Waggoner Chase Boulevard,Columbus,FRA,GREEN SPACE,NOS,Public,0.58195216,parcels,40.0083953,-82.7853035
+23792,Fieldstone Open Space,Jefferson Twp,FRA,PARK,N,Public,1.02617105,parcels,40.0192013,-82.7969335
+23793,Harrison Pond Open Space,Gahanna,FRA,GREEN SPACE,NOS,Public,9.4008937,Jefferson Twp,40.0496794,-82.8353200
+23794,Creekwood Estates Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,1.71557356,parcels,40.0388521,-82.8044688
+23795,Colts Neck Road Open Space,Township,FRA,GREEN SPACE,NOS,Public,0.89795136,parcels,40.0303581,-82.8089880
+23796,Creek Hollow Road Open Space,Township,FRA,GREEN SPACE,NOS,Public,8.99137264,parcels,40.0299743,-82.8004914
+23797,Colts Neck Road Open Space,Township,FRA,GREEN SPACE,NOS,Public,3.63140255,parcels,40.0304804,-82.8078419
+23798,Colts Neck Road Open Space,Township,FRA,GREEN SPACE,NOS,Public,1.22075785,parcels,40.0342155,-82.7981787
+23799,Colts Neck Road Open Space,Township,FRA,GREEN SPACE,NOS,Public,3.96649014,parcels,40.0358232,-82.7983997
+23800,Creek Hollow Road Open Space,Township,FRA,GREEN SPACE,NOS,Public,3.5058248,parcels,40.0317913,-82.7928284
+23801,Kitzmiller Crossing Open Space,Township,FRA,GREEN SPACE,NOS,Public,1.77599055,parcels,40.0352963,-82.8280272
+23802,Kitzmiller Crossing Open Space,Township,FRA,GREEN SPACE,NOS,Public,7.21002923,parcels,40.0359584,-82.8266193
+23803,Cob Tail Way Open Space,Township,FRA,GREEN SPACE,NOS,Public,4.02558389,parcels,40.0322435,-82.7957940
+23804,Wills Run Lane Open Space,Township,FRA,GREEN SPACE,NOS,Public,6.09051902,parcels,40.0363836,-82.8044123
+23805,Columbus School For Girls,Township,FRA,RECREATION,SPU,Private,96.73520875,parcels,40.0281774,-82.8444618
+23806,Kitzmiller Crossing Open Space,Township,FRA,GREEN SPACE,NOS,Public,4.07591182,parcels,40.0359179,-82.8225866
+23807,Kitzmiller Crossing Open Space,Township,FRA,GREEN SPACE,NOS,Public,2.97861398,parcels,40.0345154,-82.8229079
+23808,Jefferson Estates Open Space,Township,FRA,GREEN SPACE,NOS,Public,6.26881283,Jefferson Twp,40.0407179,-82.7990543
+23809,Keltonhurst Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,2.58602948,parcels,40.0316675,-82.8203912
+23810,Keltonhurst Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,0.81905287,parcels,40.0319477,-82.8210747
+23811,Swisher Creek Xing Open Space,Township,FRA,GREEN SPACE,NOS,Public,16.45993243,parcels,40.0442759,-82.7851442
+23812,Creekwood Estates Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,8.97029858,parcels,40.0403157,-82.8047215
+23813,Eyre Hall Pass Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,2.79703898,parcels,40.0544803,-82.8173267
+23814,Planters Grove Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,10.88406183,parcels,40.0552567,-82.8376025
+23815,Prembrooke Green Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,0.64228409,parcels,40.0585876,-82.8137454
+23816,Eyre Hall Pass Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,1.92610606,parcels,40.0559977,-82.8207873
+23817,Eyre Hall Pass Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,1.29133121,parcels,40.0552897,-82.8191860
+23818,New Albany Farms Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,7.83177962,parcels,40.0541471,-82.8036061
+23819,Pinecrest Open Space,Township,FRA,GREEN SPACE,NOS,Public,5.22792339,,40.0057249,-82.8162526
+23820,Pinecrest Open Space,Township,FRA,GREEN SPACE,NOS,Public,0.94392068,,40.0092200,-82.8164758
+23821,Windrush Lane Open Space,Jefferson Twp,FRA,GREEN SPACE,NOS,Public,2.10398429,parcels,40.0110726,-82.8331729
+23822,Windrush Lane Open Space,Jefferson Twp,FRA,GREEN SPACE,NOS,Public,1.35783092,parcels,40.0104458,-82.8320610
+23823,Nebraska Lane Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.14091948,,40.0064545,-82.7944854
+23824,Nebraska Lane Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.10867676,,40.0065301,-82.7960814
+23825,Nebraska Lane Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,4.07201198,,40.0074828,-82.7990279
+23826,Harlem,Columbus,FRA,PARK,N,Public,3.95445347,FCA,40.0987255,-82.8363834
+23827,Meadow Grove Open Space,Grove City,FRA,GREEN SPACE,NOS,Public,17.75250469,Grove City,39.8448441,-83.0622528
+23828,Henceroth Park,Grove City,FRA,PARK,C,Public,21.2986068,Grove City,39.8502817,-83.0598648
+23831,Spindler Addition,Columbus,FRA,PARK,PRES,Public,35.98626302,Columbus,39.9985091,-83.1690467
+23832,Boy Scout Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.540925,Dublin,40.0995524,-83.1241025
+23833,Winchester Meadows Parkland Connector,Columbus,FRA,PARK,N,Public,1.23251306,Columbus,39.8760136,-82.8098676
+23834,Nafzger Park Expansion,Columbus,FRA,PARK,CON,Public,31.3467807,Columbus,39.9224539,-82.8672810
+23835,Wolpert Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,3.01325576,Dublin,40.0942945,-83.1709661
+23836,Edgarton Drive Open Space,Grove City,FRA,PARK,NOS,Public,2.96083342,Grove City,39.8692960,-83.0947395
+23837,Bluegill Pond,Grove City,FRA,PARK,NOS,Public,5.01887809,Grove city,39.8685456,-83.0793389
+23838,Presley Drive Open Space,Grove City,FRA,PARK,NOS,Public,6.69068664,Grove City,39.8707925,-83.0604775
+23839,Presley Drive Open Space,Grove City,FRA,PARK,NOS,Public,1.12947368,Grove City,39.8708865,-83.0653593
+23840,Gantz Road Open Space,Grove City,FRA,PARK,NOS,Public,34.28232861,Grove City,39.8889289,-83.0500424
+23841,Gantz Road Open Space,Grove City,FRA,PARK,NOS,Public,13.59703905,Grove City,39.8895616,-83.0606338
+23842,Kingsdown Pond,Grove City,FRA,PARK,NOS,Public,2.19878763,Grove City,39.8661718,-83.0728486
+23843,Kingsdown Pond,Grove City,FRA,PARK,NOS,Public,1.09157651,Grove City,39.8653234,-83.0713072
+23844,Buckeye Parkway Open Space,Grove City,FRA,PARK,NOS,Public,35.15079733,Grove City,39.8385912,-83.0498961
+23845,Buckeye Parkway Open Space,Grove City,FRA,PARK,NOS,Public,1.57305185,Grove City,39.8365899,-83.0449368
+23846,Southeast Conservation Club,Grove City,FRA,PARK,P,Private,0.15348635,Grove City,39.8411201,-83.0292134
+23847,Southeast Conservation Club,Grove City,FRA,PARK,P,Private,284.79266582,Grove City,39.8469598,-83.0333372
+23848,Scioto Meadows,Grove City,FRA,PARK,N,Public,1.49900871,Grove City,39.8329001,-83.0232058
+23849,Creekside Park,Grove City,FRA,PARK,C,Public,5.58247318,Grove City,39.8591904,-83.0609849
+23850,Quail Creek Park Open Space,Grove City,FRA,PARK,N,Public,1.27593672,Grove City,39.8428061,-83.0714041
+23851,Sesquicentennial Park,Grove City,FRA,PARK,C,Public,1.07747411,Grove City
+ity,39.8795686,-83.0896183
+23852,Town Center Gazebo,Grove City,FRA,PARK,NOS,Public,0.05575764,Grove City,39.8817553,-83.0943384
+23853,Arbutus Avenue Open Space,Grove City,FRA,PARK,NOS,Public,0.74501029,Grove City,39.8808985,-83.0920605
+23854,Skate Park,Grove City,FRA,PARK,REC,Public,3.9552684,Grove City,39.8875140,-83.0681027
+23855,Griggs Reservoir,Columbus,FRA,PARK,R,Public,4.90307562,orthos,40.0764889,-83.1089933
+23856,Hickory Hills Golf Course,Township,FRA,GOLF,GOLF,Public,179.45893486,,39.8787460,-83.2313530
+23857,Battelle Darby Creek Metro Park,Metro Parks,FRA,PARK,M,Public,7001.56518555,Metro Parks,39.8832470,-83.2122884
+23858,Prairie Oaks Metro Park,Metro Parks,FRA,PARK,M,Public,2274.47847279,Metro Parks,39.9901650,-83.2477956
+23859,Blacklick Creek Greenway Trail,Metro Parks,FRA,PARK,M,Public,39.26763879,Metro Parks,39.8873007,-82.8714530
+23860,Three Creeks Park,Groveport,FRA,PARK,M,Public,127.22665637,Metro Parks,39.8768996,-82.8774246
+23861,Blacklick Creek Greenway Trail,Township,FRA,PARK,M,Public,1.0674679,Metro Parks,39.8821137,-82.8737960
+23862,Three Creeks Metro Park,Columbus,FRA,PARK,M,Public,1631.4751057,Metro Parks,39.8914357,-82.9139900
+23863,Three Creeks Metro Park,Columbus,FRA,PARK,M,Public,4.26267513,Metro Parks,39.8655057,-82.9321725
+23864,Portman Park Addition,Columbus,FRA,PARK,C,Public,2.77848966,Columbus,39.9057146,-82.8171093
+23865,Blacklick Creek Metro Park,Metro Parks,FRA,PARK,M,Public,1.61176267,Metro Parks,39.9293706,-82.7939715
+23867,Olentangy River Parklands,Worthington,FRA,PARK,PRES,Public,108.37984891,,40.1033987,-83.0341475
+23868,Olentangy River Parklands,Columbus,FRA,PARK,CON,Public,43.76028745,Columbus,40.0687226,-83.0360673
+23869,Big Walnut Amberfield Parkland,Columbus,FRA,PARK,CON,Public,6.02562151,Columbus,39.9137365,-82.8699096
+23870,Clover Parkland,Columbus,FRA,PARK,PRES,Public,22.50167633,Columbus,39.9626662,-83.1705956
+23871,Walden Park,Columbus,FRA,PARK,N,Public,0.80609081,FCA,40.0818452,-82.9654253
+23872,Kilbourne Run Parkland,Columbus,FRA,PARK,NOS,Public,6.51119293,parcels,40.0707064,-82.9343799
+23873,Vaughn Farm Parkland,Columbus,FRA,PARK,PRES,Public,4.14517501,Columbus,40.0624220,-83.1306340
+23874,Three Corners Park,Gahanna,FRA,PARK,NOS,Public,1.09046789,Gahanna,40.0450379,-82.8887255
+23875,Lintner Park,Gahanna,FRA,PARK,C,Public,1.87117064,Gahanna,40.0230627,-82.8794007
+23876,Gahanna Swimming Pool,Gahanna,FRA,RECREATION,SPU,Public,9.55331231,Gahanna,40.0153816,-82.8786979
+23877,Galloway Reserve,Gahanna,FRA,PARK,NOS,Public,23.96305987,Gahanna,40.0079474,-82.8720593
+23878,Price Road Park,Gahanna,FRA,PARK,C,Public,52.00256804,Gahanna,40.0111100,-82.8778987
+23879,Geroux Herb Gardens,Gahanna,FRA,PARK,N,Public,0.80947666,Gahanna,40.0138096,-82.8663538
+23880,Rocky Fork Reserve,Gahanna,FRA,PARK,PRES,Public,6.66535174,Gahanna,40.0219908,-82.8642656
+23881,Foxwood-Rice Ave Park,Gahanna,FRA,PARK,N,Public,7.18417438,Gahanna,40.0039343,-82.8403320
+23882,Taylor Road Reserve,Gahanna,FRA,PARK,C,Public,51.43699192,Gahanna,40.0053444,-82.8368359
+23883,Gahanna Woods,Gahanna,FRA,PARK,C,Public,99.36776127,Gahanna,40.0117299,-82.8366025
+23884,Central Park Reserve,Gahanna,FRA,PARK,NOS,Public,0.49395048,Gahanna,40.0017759,-82.8430129
+23885,Sycamore Run Park,Gahanna,FRA,PARK,N,Public,7.41638392,Gahanna,40.0313582,-82.8676469
+23886,Gahanna Grove Reserve,Gahanna,FRA,PARK,NOS,Public,2.61709602,Gahanna,40.0487255,-82.8551844
+23887,Village At Hannah Farms Reserve,Gahanna,FRA,GREEN SPACE,NOS,Public,2.40464111,Gahanna,40.0399286,-82.8124419
+23888,Village At Hannah Farms Reserve,Gahanna,FRA,GREEN SPACE,NOS,Public,1.05379554,Gahanna,40.0409503,-82.8116213
+23889,Scioto River Parkland,Columbus,FRA,PARK,C,Public,25.51494231,Columbus,39.9676729,-83.0503829
+23890,Dry Run Levee Gate,columbus,FRA,PARK,CON,Public,1.14530309,,39.9633983,-83.0498574
+23891,Scioto Canal Parkland,Columbus,FRA,PARK,CON,Public,6.8899774,Columbus,39.8964904,-82.9994800
+23892,Davis Property,Columbus,FRA,PARK,PRES,Public,44.62836375,Columbus,40.0955470,-82.8627584
+23893,Alexander/Aep Park,Columbus,FRA,PARK,R,Public,0.66499464,columbus,39.9646557,-83.0073907
+23894,Harmon-Emig Parkland,Columbus,FRA,PARK,SPU,Public,9.93453527,Columbus,39.9285500,-83.0125624
+23895,Anderson Farms Parkland,Columbus,FRA,PARK,CON,Public,22.40112766,Columbus,39.9994279,-83.1711177
+23896,Duranceau Park,Columbus,FRA,PARK,C,Public,17.66920191,Columbus,40.0221924,-83.0971463
+23897,Hayden Falls Nature Preserve,Columbus,FRA,PARK,CON,Public,3.47478662,Columbus,40.0674070,-83.1095660
+23898,Indian Village Day Camp,Columbus,FRA,PARK,SPU,Public,11.79841742,,40.0195656,-83.0970623
+23899,Academy Park,Columbus,FRA,PARK,C,Public,19.62413567,Columbus,39.9614221,-82.9465297
+23901,Igs Park,Dublin,FRA,PARK,N,Public,3.23800208,,40.0918957,-83.1398619
+24021,Refugee Preserve Coh,Columbus,FRA,PARK,PR,Public,34.34059541,Columbus,39.9104012,-82.8678029
+24022,Tarpy Woods,Marble Cliff,FRA,PARK,N,Public,7.26049136,Marble Cliff,39.9790393,-83.0588701
+24052,Hellbranch Confluence,Columbus,FRA,PARK,CON,Public,7.74594536,Columbus,39.9450230,-83.1774531
+24053,Champion Avenue Park,Columbus,FRA,PARK,N,Public,1.68451328,Columbus,39.9704663,-82.9676671
+24054,Napoleon Park,Columbus,FRA,PARK,REC,Public,6.18080987,Columbus,39.9673742,-82.9057601
+24055,Virginialee Park,Columbus,FRA,PARK,NOS,Public,2.35187524,Columbus,39.9657272,-82.9183695
+24056,Martin Avenue Park,Columbus,FRA,PARK,N,Public,0.34042593,Columbus,39.9566087,-83.0241643
+24057,Guilford Park,Columbus,FRA,PARK,N,Public,0.69315267,Columbus,39.9590305,-83.0399814
+24058,Dakota Park,Columbus,FRA,PARK,NOS,Public,1.19856268,Columbus,39.9556363,-83.0274834
+24059,West Park Avenue Park,Columbus,FRA,PARK,NOS,Public,3.73122142,Columbus,39.9547713,-83.0326521
+24060,Kellner Park,Columbus,FRA,PARK,N,Public,0.1506915,Columbus,39.9602573,-82.9159351
+24061,Cranston Park,Columbus,FRA,PARK,N,Public,3.12690156,Columbus,40.0868117,-83.0974878
+24062,Glen High Parkland,Columbus,FRA,PARK,N,Public,0.5004743,Columbus,40.0189262,-83.0106701
+24063,Melrose Park,Columbus,FRA,PARK,NOS,Public,0.88362907,Columbus,40.0239472,-82.9710665
+24064,Wellington Park,Columbus,FRA,PARK,N,Public,0.64365164,Columbus,39.9908383,-82.9445209
+24065,Hawthorne Park,Columbus,FRA,PARK,N,Public,0.40900251,Columbus,39.9699751,-82.9588328
+24066,Colerain Park,Columbus,FRA,PARK,N,Public,0.64281881,,40.0349513,-83.0051104
+24067,Chatterton Brice Parkland,Columbus,FRA,PARK,PRES,Public,10.75682018,Columbus,39.9137446,-82.8344335
+24068,Crescent Park,Columbus,FRA,PARK,NOS,Public,0.46900041,Columbus,39.9523801,-83.0795534
+24069,Burgess Park,Columbus,FRA,PARK,NOS,Public,1.42457685,Columbus,39.9507573,-83.0690228
+24070,Wilson Park North,Columbus,FRA,PARK,N,Public,0.74267526,Columbus,39.9553375,-82.9668599
+24071,Wilson Park South,Columbus,FRA,PARK,NOS,Public,1.02204213,Columbus,39.9516985,-82.9671439
+24072,Southside Settlement Heritage Park,Columbus,FRA,PARK,REC,Public,0.9162046,Columbus,39.9261978,-82.9868479
+24073,Kingsrowe Park,Columbus,FRA,PARK,N,Public,0.44498804,Columbus,39.9295892,-82.9168541
+24074,North 4Th Park,Columbus,FRA,PARK,N,Public,0.45979885,Columbus,40.0163225,-82.9975205
+24075,Dresden Park,Columbus,FRA,PARK,N,Public,0.38473571,Columbus,40.0271887,-82.9710586
+24076,Glenmawr Park,Columbus,FRA,PARK,N,Public,0.7696039,,40.0168645,-82.9987407
+24077,Terrace Park,Columbus,FRA,PARK,NOS,Public,1.20463639,Columbus,39.9509041,-83.0664351
+24078,Clinton Heights Park,Columbus,FRA,PARK,N,Public,0.60486538,Columbus,40.0300292,-83.0062834
+24079,Wicklow Park,Columbus,FRA,PARK,N,Public,0.62619291,Columbus,39.9460629,-83.0774473
+24080,Rickenbacker House,Columbus,FRA,PARK,SPU,Public,0.71739146,Columbus,39.9496926,-82.9622548
+24081,Hilliard Green/Baycroft Walkway,Columbus,FRA,PARK,REC,Public,0.03167091,Columbus,40.0008970,-83.1395529
+24082,Deffet Watercourse Dedication,Columbus,FRA,PARK,PRES,Public,10.0885737,Columbus,40.0765090,-82.9203668
+24083,Gould Park,Columbus,FRA,PARK,N,Public,0.18570051,Columbus,40.0696888,-82.8973589
+24084,Hayden Bowman Parkland Coh,Columbus,FRA,PARK,PRES,Public,3.84934297,Columbus,40.0670626,-83.1138601
+24085,Hamilton Avenue Street Park,Columbus,FRA,PARK,N,Public,0.39261957,Columbus,39.9658982,-82.9814635
+24086,Upper Albany West Parkland,Columbus,FRA,PARK,NOS,Public,1.72542127,Columbus,40.1065918,-82.8517699
+24087,Perhar Parkland,Columbus,FRA,PARK,C,Public,5.28753016,Columbus,39.9915417,-82.9592190
+24088,Poplar Park,Columbus,FRA,PARK,N,Public,0.10014931,Columbus,39.9747961,-83.0027157
+24089,Big Walnut Greenway,Township,FRA,PARK,M,Public,153.69604221,Metro Parks,40.0942006,-82.8791799
+24174,Brown Park,Obetz,FRA,PARK,C,Public,18.5185478,Obetz,39.8796703,-82.9600868
+24175,Dixon Quarry,Obetz,FRA,RECREATION,REC,Public,46.19788434,Obetz,39.8804067,-82.9251902
+24176,Braehead Nature Preserve,Obetz,FRA,PARK,CON,Public,34.57484445,Obetz,39.8568633,-82.9499381
+24177,Area 51 Disc Golf Course,Obetz,FRA,RECREATION,REC,Public,31.49400807,Obetz,39.8690067,-82.9649191
+24178,Fortress Obetz,Obetz,FRA,RECREATION,REC,Public,62.70397518,Obetz,39.8861499,-82.9453349
+24179,Fortress Obetz,Obetz,FRA,PARK,C,Public,13.01848461,,39.8884100,-82.9426374
+24180,Green Pointe Business Park,GROVEPORT,FRA,PARK,N,Public,8.34364368,,39.8478648,-82.9059366
+24208,Galloway Park,Galloway,FRA,PARK,C,Public,109.94693893,,39.9226632,-83.1665900
+24209,Hya Park,Columbus,FRA,PARK,REC,Public,43.80252668,,39.8505135,-82.9742063
+24210,Walnut Creek Park,Canal Winchester,FRA,PARK,PRES,Public,75.23062594,,39.8381446,-82.8376167
+24211,Ashbrook Road Open Space,Canal Winchester,FRA,PARK,PRES,Public,42.64389432,,39.8302763,-82.8172199
+24212,Westchester Park,Canal Winchester,FRA,PARK,PRES,Public,11.05905643,,39.8371666,-82.8208695
+24213,Pfeifer Park,Canal Winchester,FRA,PARK,N,Public,1.6553192,,39.8486905,-82.8081518
+24214,Quarry Park,Columbus ,FRA,PARK,M,Public,117.60753546,Metro Park,40.0054639,-83.0951324
+24215,Quarry Park,Columbus,FRA,PARK,M,Public,62.46004678,Metro Park,39.9989138,-83.0871524
+24216,Case Road Parkland,Columbus,FRA,PARK,PRES,Public,58.04510194,Columbus,40.0712486,-83.0838726
+24217,Kiwanis Riverway Park,Dublin,FRA,PARK,C,Public,10.49755514,Columbus,40.0959963,-83.1096455
+24218,Willow Creek Preserve,Columbus,FRA,PARK,CON,Public,12.68068273,,39.9097931,-83.0480582
+24219,London Groveport Parkland,Columbus,FRA,PARK,CON,Public,15.21728153,Columbus,39.8314294,-82.9918110
+24220,Bicentennial/Galbreath Park,Columbus,FRA,PARK,R,Public,7.36163068,,39.9563895,-83.0045399
+24221,Scioto Mile Promenade,Columbus,FRA,PARK,R,Public,13.49639501,,39.9595132,-83.0037774
+24222,West Bank Walkway,Columbus,FRA,PARK,SPU,Public,22.38177326,,39.9556504,-83.0088451
+24223,Genoa Park,Columbus,FRA,PARK,R,Public,20.0286484,,39.9609381,-83.0059729
+24224,Battelle Riverfront Park,Columbus,FRA,PARK,R,Public,10.04812855,,39.9631443,-83.0058873
+24225,West Bank Park,Columbus,FRA,PARK,C,Public,18.63963665,,39.9637295,-83.0144267
+24226,North Bank Park,Columbus,FRA,PARK,C,Public,28.07021537,,39.9650940,-83.0129636
+24227,Alexander Park,Columbus,FRA,PARK,C,Public,2.77852384,,39.9643652,-83.0077652
+24228,Confluence Park,Columbus,FRA,PARK,SPU,Public,21.19493731,,39.9646691,-83.0196230
+24229,Dodge Park,Columbus,FRA,PARK,C,Public,18.78214473,,39.9533935,-83.0146993
+24230,Sullivant Gardens Park,Columbus,FRA,PARK,C,Public,3.82859753,,39.9454870,-83.0182401
+24231,Dry Run Parkland,Columbus,FRA,PARK,CON,Public,2.95016844,,39.9609261,-83.0789922
+24232,Wrexham Park,Columbus,FRA,PARK,N,Public,3.06260834,,39.9522388,-83.0538093
+24233,Harrison Park,Columbus,FRA,PARK,N,Public,4.86393773,,39.9807524,-83.0205920
+24234,Side By Side Park,Columbus,FRA,PARK,N,Public,0.19253738,,39.9837785,-83.0207644
+24235,Olentangy Trail Parkland,Columbus,FRA,PARK,C,Public,32.52526301,,39.9843517,-83.0226603
+24236,Beatty Park,Columbus,FRA,PARK,C,Public,2.81899661,,39.9707896,-82.9701092
+24237,Cassady Park,Columbus,FRA,PARK,N,Public,0.58188557,,39.9847088,-82.9386704
+24238,Cassady Park,Columbus,FRA,PARK,N,Public,1.46821509,,39.9863363,-82.9378995
+24239,Noe-Bixby North Parkland,Columbus,FRA,PARK,N,Public,4.4379577,,39.9728309,-82.8545006
+24241,Shannon Parkland,Columbus,FRA,PARK,CON,Public,6.32186997,,39.8979186,-82.8520278
+24242,Driving Park Circle,Columbus,FRA,PARK,NOS,Public,1.01796576,Columbus,39.9459498,-82.9580702
+24243,Bide-A-Wee Park Street Islands,Columbus,FRA,PARK,N,Public,0.95075381,Columbus,39.9497610,-82.9509860
+24244,Linwood Park,Columbus,FRA,PARK,N,Public,0.08728552,Columbus,39.9562740,-82.9655463
+24245,Saunders Park,Columbus,FRA,PARK,C,Public,14.55421031,Columbus,39.9768731,-82.9660503
+24246,Broad Street Islands,Columbus,FRA,GREEN SPACE,SPU,Public,1.5261669,Columbus,39.9714609,-82.9172289
+24247,Krumm Park,Columbus,FRA,PARK,C,Public,37.39006682,Columbus,39.9888927,-82.9226617
+24248,Brentnell Park,Columbus,FRA,PARK,N,Public,3.14571259,Columbus,39.9957470,-82.9487460
+24249,Overbrook Ravine Park,Columbus,FRA,PARK,C,Public,13.70131553,Columbus,40.0475273,-83.0107463
+24250,Tionda Drive Parkland,Columbus,FRA,PARK,NOS,Public,0.12400127,Columbus,40.0461060,-83.0050788
+24251,Alum Creek North Tributary Parkland,Columbus,FRA,PARK,CON,Public,5.10853122,Columbus,40.0525422,-82.9482069
+24252,Rocky Fork Natural Area,Columbus,FRA,PARK,CON,Public,45.66847201,Columbus,40.0789057,-82.8444285
+24253,Hamilton Road Wetland North,Columbus,FRA,PARK,CON,Public,16.05175845,Columbus,40.0868366,-82.8501586
+24254,Upper Albany West P Parkland,Columbus,FRA,PARK,CON,Public,4.30026468,Columbus,40.1066516,-82.8584770
+24255,Upper Albany West Q Parkland,Columbus,FRA,PARK,N,Public,2.15773584,Columbus,40.1067541,-82.8501799
+24256,Haydens Crossing North Parkland,Columbus,FRA,PARK,CON,Public,10.01045505,Columbus,40.0639024,-83.1685563
+24262,Gillie Community Center,Columbus,FRA,PARK,SPU,Public,0.49335436,,40.0623141,-82.9654108
+24263,Woodward Park,Columbus,FRA,PARK,C,Public,17.01512146,,40.0729621,-82.9828141
+24264,Hamilton Street Islands,Columbus,FRA,GREEN SPACE,NOS,Public,3.78004637,,39.9414908,-82.8781836
+24267,Wallace Property,Township,FRA,GREEN SPACE,NOS,Public,13.7076698,,40.1200325,-83.1311578
+24281,Hampsted Village Green Space,Village of New Albany,FRA,GREEN SPACE,NOS,Public,0.75639488,Parcels,40.0839736,-82.8260209
+24282,Hampsted Village,Village of New Albany,FRA,GREEN SPACE,NOS,Public,1.04489014,Parcels,40.0829615,-82.8260196
+24283,Hilliard'S Station Park,Hilliard,FRA,PARK,C,Public,0.92566713,Hilliard,40.0341208,-83.1602988
+24284,Tuttle/Lane Ave Mut Connector,Columbus,FRA,RECREATION,REC,Public,2.49677763,Columbus,40.0072292,-83.0207933
+24289,Muirfield Village Golf Course,Dublin,FRA,GOLF,GOLF,Public,152.67611416,,40.1392779,-83.1500605
+24291,Muirfield Village Golf Course,Dublin,FRA,GOLF,GOLF,Public,32.8499231,,40.1307595,-83.1504856
+24292,Muirfield Village Golf Course,Dublin,FRA,GOLF,GOLF,Public,2.31178859,,40.1337692,-83.1556417
+24293,Muirfield Village Golf Course,Dublin,FRA,GOLF,GOLF,Public,2.19672044,,40.1380211,-83.1597338
+24294,Muirfield Village Golf Course,Dublin,FRA,GOLF,GOLF,Public,5.2306919,,40.1410969,-83.1617706
+24301,Belvedere/Shannon Glen Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,4.19561516,Dublin,40.1312281,-83.1675735
+24303,Belvedere/Shannon Glen Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,1.31797467,Dublin,40.1307437,-83.1642244
+24304,Westbury/Wyndham Village Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,2.59542988,Dublin,40.1305954,-83.1685111
+24305,Westbury/Wyndham Village Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,1.14682083,Dublin,40.1303715,-83.1663533
+24306,Westbury/Wyndham Village Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,1.02228475,Dublin,40.1302675,-83.1647201
+24307,Belvedere/Shannon Glen Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.37919621,Dublin,40.1313313,-83.1697259
+24309,Heritage Trail Metro Park,Township,FRA,PARK,M,Public,58.52105125,Metro Parks,40.0629288,-83.1987308
+24347,Westbury Park,Dublin,FRA,PARK,N,Public,8.37585208,Dublin,40.1276844,-83.1684775
+24348,Westbury Park,Dublin,FRA,PARK,N,Public,6.43880053,Dublin,40.1276226,-83.1655922
+24349,Brandon Nature Preserve,Dublin,FRA,PARK,PR,Public,22.49061921,Dublin,40.1267616,-83.1301731
+24350,Brandon Nature Preserve,Dublin,FRA,PARK,N,Public,18.82715118,Dublin,40.1222520,-83.1256494
+24351,Dalmore Park,Dublin,FRA,PARK,N,Public,16.93852865,Dublin,40.0799073,-83.1658358
+24352,Dalmore Park,Dublin,FRA,PARK,N,Public,5.23156164,Dublin,40.0792040,-83.1598968
+24353,Dalmore Park,Dublin,FRA,PARK,N,Public,1.63625745,Dublin,40.0806036,-83.1630742
+24354,Dalmore Park,Dublin,FRA,PARK,N,Public,0.94535581,Dublin,40.0805118,-83.1587991
+24355,Dalmore Park,Dublin,FRA,PARK,N,Public,0.39107532,Dublin,40.0796673,-83.1620389
+24356,Hellbranch Run Open Space,Township,FRA,PARK,PRES,Public,239.87798023,,39.9480197,-83.1815830
+24357,Rushbury Drive Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.70185208,FCA,40.0829062,-83.0949254
+24358,Green Belt Three,Columbus,FRA,GREEN SPACE,NOS,Public,0.99668373,FCA,40.0841190,-83.0963062
+24359,Maple Canyon Park,Township,FRA,PARK,N,Public,2.1621993,FCA,40.1024660,-82.9577765
+24360,Redmond Road Open Space,Township,FRA,PARK,N,Public,2.58556938,FCA,39.9420418,-83.1296490
+24361,North Murray Hill Road Open Space,Township,FRA,PARK,NOS,Public,1.05383542,FCA,39.9571639,-83.1289662
+24362,Deerfield Road Open Space,Township,FRA,PARK,N,Public,1.83762444,FCA,39.9550858,-83.1388649
+24363,Annhurst Road Open Space,Township,FRA,PARK,SPU,Public,4.36218124,FCA,39.9630334,-83.1301923
+24364,Darbyhurst Road Open Space,Township,FRA,PARK,SPU,Public,0.03394535,FCA,39.9602803,-83.1281163
+24365,Darbyhurst Road Open Space,Township,FRA,PARK,N,Public,5.56010059,FCA,39.9584080,-83.1265180
+24366,Rodgers Park,Valleyview,FRA,PARK,N,Public,5.59401084,,,
+24367,Perry Park,Columbus,FRA,PARK,C,Public,1.79433399,Columbus,39.9843973,-83.0199269
+24368,Wildros Parkland,Columbus,FRA,PARK,NOS,Public,9.90154262,Cols,40.0764571,-82.8937090
+24369,Wango Park,Columbus,FRA,PARK,CON,Public,43.35507237,,40.0957988,-82.8456044
+24370,Wendler Parkland,Columbus,FRA,PARK,CON,Public,4.28468872,,40.0480149,-82.8929239
+24371,Community Creative Campus,Columbus,FRA,PARK,C,Public,3.75783869,Cols,39.9638922,-82.9774704
+24372,Dysart Run Parkland Coh,Columbus,FRA,PARK,CON,Public,46.19921962,,39.9893361,-82.7943409
+24373,Dysart Run Park,Columbus,FRA,PARK,N,Public,4.03356192,,39.9910637,-82.7928796
+24374,Jefferson Woods Ravine,Columbus,FRA,PARK,CON,Public,7.04058403,,39.9967394,-82.7870896
+24375,Cedar Run Park,Columbus,FRA,PARK,N,Public,13.3701573,,40.0014448,-82.7762715
+24376,Riggins Run North Park,Columbus,FRA,PARK,N,Public,2.07938041,Columbus,40.0592954,-83.1571281
+24377,Riggins Run South Parkland,Columbus,FRA,PARK,CON,Public,10.02609447,Columbus,40.0573570,-83.1568061
+24378,Old Courtright Parkland,Columbus,FRA,PARK,CON,Public,1.35476298,Columbus,39.9258055,-82.8980652
+24379,Wellington Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.9393338,,40.1181895,-83.1260926
+24380,Wellington Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,1.41779787,,40.1179666,-83.1274362
+24381,Wellington Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,1.11264655,,40.1182136,-83.1288386
+24382,Bryson Cove Open Space,Dublin,FRA,PARK,PRES,Public,6.10438887,,40.1181677,-83.0977274
+24383,Bryson Cove Open Space,Dublin,FRA,PARK,PRES,Public,5.14460469,,40.1188418,-83.0956144
+24384,Emerald Pkwy & Hard Rd Open Space,Dublin,FRA,PARK,PRES,Public,2.67685632,,40.1186285,-83.0939900
+24385,Bryson Cove Open Space,Dublin,FRA,PARK,PRES,Public,0.44267092,,40.1174416,-83.0960939
+24386,Holton Park And Rec Center,Columbus,FRA,PARK,C,Public,8.2654632,Columbus,39.9616699,-83.0676568
+24387,Finnell,Columbus,FRA,PARK,M,Public,49.77095778,,39.8824071,-83.0047229
+24410,Hellbranch Run Cemetery,Prairie Twp,FRA,CEMETERY,CEM,Public,1.8684956,,39.9164571,-83.1724298
+24411,Kian Run Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,5.12570798,,39.9085978,-82.9921121
+24434,Kitzmiller Road Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,25.98173187,Licking County,40.0910359,-82.7848263
+24449,Hoover Nature Preserve,Township,FRA,PARK,R,Public,39.86214574,DALIS,40.1130795,-82.8747218
+24462,Griggs Park,Columbus,FRA,PARK,R,Public,82.15129874,Columbus,40.0177157,-83.0912245
+24463,Griggs Park,Columbus,FRA,PARK,R,Public,43.49167271,Columbus,40.0385417,-83.0943359
+24464,Griggs Park,Columbus,FRA,PARK,R,Public,21.92917898,Columbus,40.0372798,-83.0972219
+24465,Griggs Park,Columbus,FRA,PARK,R,Public,5.97037349,Columbus,40.0276383,-83.0955848
+24466,Griggs Park,Columbus,FRA,PARK,R,Public,4.65366727,Columbus,40.0620740,-83.1063022
+24467,Griggs Park,Columbus,FRA,PARK,R,Public,3.12589316,Columbus,40.0708172,-83.1066903
+24468,Griggs Park,Columbus,FRA,PARK,R,Public,1.77959976,Columbus,40.0668676,-83.1051583
+24469,Griggs Park,Columbus,FRA,PARK,R,Public,1.19615029,Columbus,40.0176503,-83.0982606
+24470,Griggs Reservoir,Columbus,FRA,PARK,R,Public,12.44021787,Columbus,40.0852051,-83.1119339
+24471,Griggs Reservoir,Columbus,FRA,PARK,R,Public,1.77901119,Columbus,40.0668675,-83.1051583
+24472,Griggs Reservoir,Columbus,FRA,PARK,R,Public,0.00067929,Columbus,40.0575886,-83.0999404
+24484,Riviera Reserve D1,Dublin,FRA,GREEN SPACE,NOS,Public,21.69376805,Dublin GIS,40.1385781,-83.1681472
+24486,Riviera Reserve F,Dublin,FRA,GREEN SPACE,NOS,Public,4.15085437,Dublin GIS,40.1418771,-83.1651387
+24487,Island View,Township,FRA,GREEN SPACE,NOS,Public,1.62808053,Franklin Co Parks,40.0695094,-83.0327833
+24493,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.08444263,Franklin Co Parks,39.9375463,-82.8450883
+24494,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.159524,Franklin Co Parks,39.9380013,-82.8441348
+24495,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.76561813,Franklin Co Parks,39.9406287,-82.8440689
+24496,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.71599498,Franklin Co Parks,39.9368022,-82.8443147
+24497,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,1.08093515,Franklin Co Parks,39.9362933,-82.8420700
+24498,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.15585628,Franklin Co Parks,39.9405687,-82.8414165
+24499,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.65145893,Franklin Co Parks,39.9353414,-82.8439044
+24500,GREENBELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.26153226,Franklin Co Parks,39.9406444,-82.8423384
+24501,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.06319746,Franklin Co Parks,39.9414017,-82.8377098
+24502,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.48107418,Franklin Co Parks,39.9416990,-82.8371363
+24503,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,0.06888739,Franklin Co Parks,39.9395799,-82.8442227
+24504,GREEN BELT COMMON,Columbus,FRA,GREEN SPACE,NOS,Public,1.57766876,Franklin Co Parks,39.9381045,-82.8457466
+24505,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.00922868,Franklin Co Parks,39.9607633,-83.0684652
+24506,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.00922868,Franklin Co Parks,39.9607633,-83.0684652
+24507,PARK,Marble Cliff,FRA,GREEN SPACE,NOS,Public,0.64471846,Franklin Co Parks,39.9875333,-83.0578121
+24508,PARK,Marble Cliff,FRA,PARK,NOS,Public,0.64471846,Franklin Co Parks,39.9875333,-83.0578121
+24509,HAYDEN PARK,Columbus,FRA,PARK,C,Public,3.06506832,Franklin Co Parks,39.9824499,-82.9406111
+24510,PARK,Bexley,FRA,PARK,C,Public,0.96892864,Franklin Co Parks,39.9807346,-82.9407921
+24511,PARK,Bexley,FRA,PARK,C,Public,0.10789103,Franklin Co Parks,39.9802880,-82.9404310
+24512,Cassady Park,Columbus,FRA,PARK,C,Public,4.10195602,Columbus,39.9835900,-82.9387621
+24513,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.14437313,Fanklin Co Parks,39.9760624,-82.9467854
+24514,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.0489244,Fanklin Co Parks,39.9740569,-82.9503095
+24515,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.1458359,Fanklin Co Parks,39.9740420,-82.9477144
+24516,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.05854247,Fanklin Co Parks,40.0505566,-83.0258361
+24517,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.27777595,Fanklin Co Parks,39.9443530,-82.9253199
+24518,GREEN BELT THREE,Columbus,FRA,GREEN SPACE,NOS,Public,1.21121651,Fanklin Co Parks,40.0837169,-83.0965347
+24519,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.08910322,Fanklin Co Parks,39.9510330,-82.9123778
+24520,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.08328543,Fanklin Co Parks,39.9442617,-83.0782491
+24521,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.04004706,Fanklin Co Parks,39.9460738,-82.9165010
+24522,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,3.49312301,Fanklin Co Parks,,
+24523,OPEN SPACE 0.031 ACRES,Columbus,FRA,GREEN SPACE,NOS,Public,0.03186733,Fanklin Co Parks,39.9220443,-83.1465716
+24524,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.23422366,Fanklin Co Parks,39.9495863,-82.9119168
+24525,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,0.00392785,Fanklin Co Parks,40.1268543,-83.0686534
+24526,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,0.00845349,Fanklin Co Parks,40.1265478,-83.0685964
+24527,20' PLANTING STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,0.209465,Fanklin Co Parks,39.9432582,-82.8484049
+24528,PLANTING STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,0.10809706,Fanklin Co Parks,39.9466349,-82.9133725
+24529,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.08776995,Fanklin Co Parks,39.9499670,-82.9106760
+24530,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.10776462,Fanklin Co Parks,39.9615006,-83.0884056
+24531,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.03315503,Fanklin Co Parks,39.9470359,-82.9121485
+24532,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.07163215,Fanklin Co Parks,39.9499622,-82.9107112
+24533,20' PLANTNG STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,0.31455987,Fanklin Co Parks,39.9430020,-82.8488087
+24534,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02574551,Fanklin Co Parks,40.0520437,-83.0225386
+24535,20' PLANTING STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,1.00636369,Fanklin Co Parks,,
+24536,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.08803089,Fanklin Co Parks,39.9510930,-82.9135080
+24537,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.16502021,Fanklin Co Parks,39.9538643,-83.0514806
+24538,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.04914077,Fanklin Co Parks,39.9443575,-82.8677757
+24539,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,0.26366056,Fanklin Co Parks,40.1348877,-83.0729873
+24540,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.24660211,Fanklin Co Parks,40.0605553,-82.9784936
+24541,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.03468709,Fanklin Co Parks,39.9514582,-82.9140657
+24542,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02965171,Fanklin Co Parks,39.9506873,-82.9118167
+24543,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.20456025,Fanklin Co Parks,39.9443030,-82.8667950
+24544,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.22061391,Fanklin Co Parks,40.0127546,-82.9476403
+24545,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.15256189,Fanklin Co Parks,40.0253202,-83.0045673
+24546,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.13929823,Fanklin Co Parks,39.9973225,-82.9127209
+24547,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02607161,Fanklin Co Parks,40.0517445,-83.0225604
+24548,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.19527895,Fanklin Co Parks,39.9449909,-82.9183880
+24549,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.1404058,Fanklin Co Parks,39.9477785,-82.9120811
+24550,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02872641,Fanklin Co Parks,39.9508141,-82.9141256
+24551,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.04532969,Fanklin Co Parks,39.9669309,-82.9180620
+24552,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.04334407,Fanklin Co Parks,39.9511453,-82.9144926
+24553,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.11271624,Fanklin Co Parks,40.0525524,-83.0224911
+24554,ROSELLEN PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.19843919,Fanklin Co Parks,39.9716599,-82.9530158
+24555,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,0.67886732,Fanklin Co Parks,40.0451909,-82.9016952
+24556,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,3.83707788,Fanklin Co Parks,40.0739169,-82.8947223
+24557,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.20618756,Fanklin Co Parks,39.9499860,-82.9168284
+24558,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,0.65037862,Fanklin Co Parks,,
+24559,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.14703491,Fanklin Co Parks,39.9520691,-82.9116911
+24560,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.08990792,Fanklin Co Parks,39.9509700,-82.9111912
+24561,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.29020567,Fanklin Co Parks,39.9170457,-82.9740417
+24562,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.09632781,Fanklin Co Parks,40.0531451,-83.0095043
+24563,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02898598,Fanklin Co Parks,39.9624389,-83.0884832
+24564,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.08411003,Fanklin Co Parks,39.9896069,-83.0187002
+24565,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.11271565,Fanklin Co Parks,40.0530649,-83.0224546
+24566,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.48018144,Fanklin Co Parks,39.9995085,-82.9969268
+24567,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.28521725,Fanklin Co Parks,39.9633766,-82.9180939
+24568,ROSELLEN PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.05048336,Fanklin Co Parks,39.9741654,-82.9544395
+24569,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.20047036,Fanklin Co Parks,39.9444240,-82.8689611
+24570,GREEN BELT  TWO,Columbus,FRA,GREEN SPACE,NOS,Public,0.64926878,Fanklin Co Parks,40.0829111,-83.0964465
+24571,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.14224438,Fanklin Co Parks,39.9596055,-83.0882467
+24572,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.23376153,Fanklin Co Parks,39.9497114,-82.9142283
+24573,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02349055,Fanklin Co Parks,39.9481607,-82.9108457
+24574,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.06298734,Fanklin Co Parks,39.9490438,-82.9107969
+24575,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.01576828,Fanklin Co Parks,39.9469792,-82.9109902
+24576,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.17588346,Fanklin Co Parks,39.9554746,-82.9513235
+24577,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,0.00256104,Fanklin Co Parks,40.1266048,-83.0687892
+24578,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02744092,Fanklin Co Parks,39.9469770,-82.9109563
+24579,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.35453577,Fanklin Co Parks,39.9536570,-82.9669810
+24580,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02951724,Fanklin Co Parks,39.9513150,-82.9117597
+24581,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.18007591,Fanklin Co Parks,39.9510110,-82.9516897
+24582,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,0.0021043,Fanklin Co Parks,40.1267328,-83.0686441
+24583,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.05351214,Fanklin Co Parks,39.9680419,-82.9197246
+24584,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02198774,Fanklin Co Parks,39.9506213,-82.9106162
+24585,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.01685131,Fanklin Co Parks,39.9506230,-82.9106500
+24586,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,0.0030691,Fanklin Co Parks,40.1268428,-83.0688342
+24587,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.08909215,Fanklin Co Parks,39.9476040,-82.9108976
+24588,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02611263,Fanklin Co Parks,39.9584124,-83.0881459
+24589,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.14515289,Fanklin Co Parks,39.9440998,-82.8631515
+24590,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.08185352,Fanklin Co Parks,39.9490269,-82.9107637
+24591,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.1643034,Fanklin Co Parks,39.9542009,-82.9514248
+24592,20' PLANTING STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,0.60518141,Fanklin Co Parks,,
+24593,20' PLANTING STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,0.45408907,Fanklin Co Parks,,
+24594,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.01469024,Fanklin Co Parks,39.9481618,-82.9108801
+24595,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.06894056,Fanklin Co Parks,39.9518947,-82.9105323
+24596,GREEN BELT ONE,Columbus,FRA,GREEN SPACE,NOS,Public,0.65166667,Fanklin Co Parks,40.0824250,-83.0949160
+24597,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.15979353,Fanklin Co Parks,39.9711004,-82.9560138
+24598,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.16367215,Fanklin Co Parks,39.9537617,-83.0538875
+24599,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,1.16191697,Fanklin Co Parks,40.0413545,-82.9016037
+24600,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.0495292,Fanklin Co Parks,39.9638247,-82.9200997
+24601,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.04189371,Fanklin Co Parks,39.9573700,-83.0880578
+24602,OPEN SPACE,Columbus,FRA,GREEN SPACE,NOS,Public,0.11830811,Fanklin Co Parks,40.1344640,-83.0721363
+24603,20' PLANTING STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,0.06230815,Fanklin Co Parks,39.9433385,-82.8497573
+24604,6' PLANTING AREA,Columbus,FRA,GREEN SPACE,NOS,Public,0.04069017,Fanklin Co Parks,39.9663788,-83.0625026
+24606,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.01489437,Fanklin Co Parks,39.9512425,-82.9105927
+24607,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.11292766,Fanklin Co Parks,39.9531626,-82.9515081
+24608,GREEN BELT  TWO,Columbus,FRA,GREEN SPACE,NOS,Public,0.43332583,Fanklin Co Parks,40.0828422,-83.0964829
+24609,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.02693383,Fanklin Co Parks,39.9578770,-83.0880998
+24610,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.21223507,Fanklin Co Parks,39.9524839,-82.9139702
+24611,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.05404443,Fanklin Co Parks,39.9476105,-82.9109317
+24612,OPEN SPACE 5.884 ACRES,Columbus,FRA,GREEN SPACE,NOS,Public,5.89508689,Fanklin Co Parks,39.9229543,-83.1458703
+24613,PLANTING STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,0.04931399,Fanklin Co Parks,39.9465885,-82.9125424
+24614,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.1388066,Fanklin Co Parks,39.9522187,-82.9515885
+24615,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.06168092,Fanklin Co Parks,39.9437656,-83.0782101
+24616,ROSELLEN PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.20013734,Fanklin Co Parks,39.9731277,-82.9538939
+24618,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.04507159,Fanklin Co Parks,39.9623013,-82.9148191
+24619,20' PLANTING STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,0.4209885,Fanklin Co Parks,39.9431862,-82.8518881
+24620,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.08410954,Fanklin Co Parks,39.9886048,-83.0187579
+24621,GREEN BELT ONE,Columbus,FRA,GREEN SPACE,NOS,Public,0.20323159,Fanklin Co Parks,40.0833001,-83.0951226
+24622,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.19247389,Fanklin Co Parks,39.9441833,-82.8646497
+24623,20' PLANTING STRIP,Columbus,FRA,GREEN SPACE,NOS,Public,0.2606106,Fanklin Co Parks,39.9434189,-82.8512324
+24624,PARK,Reynoldsburg,FRA,GREEN SPACE,NOS,Public,0.38802672,Franklin Co Parks,39.9561711,-82.8116148
+24625,Pump House Park,Columbus,FRA,PARK,C,Public,1.45101376,Franklin Co Parks,39.9564266,-82.9428804
+24626,INTERIOR PARK,Columbus,FRA,PARK,N,Public,3.58401945,Franklin Co Parks,39.9879595,-82.9426664
+24627,Alum Creek North Tributary Parkland,Township,FRA,PARK,N,Public,1.22118076,Franklin Co Parks,40.0523248,-82.9497055
+24628,PARK,Grove City,FRA,GREEN SPACE,NOS,Public,0.03317303,Franklin Co Parks,39.8793356,-83.0973677
+24629,PARK,Whitehall,FRA,GREEN SPACE,NOS,Public,0.13846433,Franklin Co Parks,39.9516588,-82.8742489
+24630,OPEN SPACE,Reynoldsburg,FRA,GREEN SPACE,NOS,Public,0.61597224,Franklin Co Parks,39.9472993,-82.8061548
+24631,PARK,Grandview Heights,FRA,GREEN SPACE,NOS,Public,0.22406812,Frankiln Co Parks,39.9783019,-83.0462475
+24632,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.03179608,Frankiln Co Parks,39.9602677,-82.9346393
+24633,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.03186079,Frankiln Co Parks,39.9595081,-82.9338163
+24634,GREEN BELT,Westerville,FRA,GREEN SPACE,NOS,Public,1.77389601,Frankiln Co Parks,40.1024587,-82.9108996
+24635,GREEN BELT,Westerville,FRA,GREEN SPACE,NOS,Public,0.4035015,Frankiln Co Parks,40.1029955,-82.9099794
+24636,PARK,Upper Arlington,FRA,GREEN SPACE,NOS,Public,0.13608411,Frankiln Co Parks,40.0106754,-83.0557349
+24637,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04446783,Frankiln Co Parks,39.9602134,-82.9332845
+24638,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.03207143,Frankiln Co Parks,39.9602520,-82.9341456
+24639,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.03186079,Frankiln Co Parks,39.9589060,-82.9338670
+24640,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.11462512,Frankiln Co Parks,39.9740834,-82.9341603
+24641,PARK,Marble Cliff,FRA,GREEN SPACE,NOS,Public,0.23736643,Frankiln Co Parks,39.9825017,-83.0595639
+24642,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.05505904,Frankiln Co Parks,39.9696724,-82.9369051
+24643,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.5186086,Frankiln Co Parks,39.9816524,-82.9346016
+24644,OPEN SPACE A,Gahanna,FRA,GREEN SPACE,NOS,Public,0.37143255,Frankiln Co Parks,40.0328880,-82.8827569
+24645,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04201286,Frankiln Co Parks,39.9603764,-82.9373823
+24646,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.03186078,Frankiln Co Parks,39.9599335,-82.9337795
+24647,OPEN SPACE C,Gahanna,FRA,GREEN SPACE,NOS,Public,0.16124478,Frankiln Co Parks,40.0340221,-82.8837390
+24648,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.05256213,Frankiln Co Parks,39.9614994,-82.9336485
+24649,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.1256257,Frankiln Co Parks,39.9696434,-82.9374126
+24650,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.03186075,Frankiln Co Parks,39.9584756,-82.9339032
+24651,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04639542,Frankiln Co Parks,39.9601017,-82.9304196
+24652,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04639669,Frankiln Co Parks,39.9590977,-82.9305081
+24653,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.5932725,Frankiln Co Parks,39.9735901,-82.9256158
+24654,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04419226,Frankiln Co Parks,39.9601882,-82.9326307
+24655,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.03207102,Frankiln Co Parks,39.9592222,-82.9342243
+24656,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.32171421,Frankiln Co Parks,39.9820400,-82.9345192
+24657,GREEN BELT,Westerville,FRA,GREEN SPACE,NOS,Public,0.11146121,Frankiln Co Parks,,
+24658,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.15284081,Frankiln Co Parks,39.9590326,-82.9283905
+24659,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04419229,Frankiln Co Parks,39.9591714,-82.9327043
+24660,PARK,Grandview Heights,FRA,GREEN SPACE,NOS,Public,1.12738933,Frankiln Co Parks,39.9818016,-83.0355506
+24661,PARK,Upper Arlington,FRA,GREEN SPACE,NOS,Public,0.17168159,Frankiln Co Parks,39.9928164,-83.0601212
+24662,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04866993,Frankiln Co Parks,39.9603454,-82.9366597
+24663,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.0317961,Frankiln Co Parks,39.9592380,-82.9347180
+24664,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04201476,Frankiln Co Parks,39.9593251,-82.9374624
+24665,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04887604,Frankiln Co Parks,39.9592798,-82.9360303
+24666,PARK,Upper Arlington,FRA,GREEN SPACE,NOS,Public,0.67607589,Frankiln Co Parks,40.0398713,-83.0937430
+24667,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.05248504,Frankiln Co Parks,39.9609557,-82.9336936
+24668,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.10686216,Frankiln Co Parks,39.9692501,-82.9368957
+24669,PUBLIC PARK OR PLAYGROUND,Gahanna,FRA,GREEN SPACE,NOS,Public,3.39472004,Frankiln Co Parks,40.0127138,-82.8746710
+24670,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04612058,Frankiln Co Parks,39.9601287,-82.9310983
+24671,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.14168216,Frankiln Co Parks,40.0087259,-83.0558509
+24672,PARK,Grandview Heights,FRA,GREEN SPACE,NOS,Public,0.0112722,Frankiln Co Parks,39.9790527,-83.0481923
+24673,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.0461206,Frankiln Co Parks,39.9600748,-82.9297409
+24674,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04446714,Frankiln Co Parks,39.9591965,-82.9333581
+24675,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04446777,Frankiln Co Parks,39.9601630,-82.9319769
+24676,OPEN SPACE,Gahanna,FRA,GREEN SPACE,NOS,Public,1.89598057,Frankiln Co Parks,,
+24677,PARK,Upper Arlington,FRA,GREEN SPACE,NOS,Public,0.03936012,Frankiln Co Parks,40.0075480,-83.0559210
+24678,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.03207201,Frankiln Co Parks,39.9592537,-82.9352116
+24679,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04446778,Frankiln Co Parks,39.9591462,-82.9320505
+24680,PARK,Urbancrest,FRA,GREEN SPACE,NOS,Public,0.90540922,Frankiln Co Parks,39.9038711,-83.0864002
+24681,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.0502435,Frankiln Co Parks,39.9692205,-82.9373844
+24682,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04611985,Frankiln Co Parks,39.9591246,-82.9311868
+24683,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04612065,Frankiln Co Parks,39.9590708,-82.9298295
+24684,PARK,Westerville,FRA,GREEN SPACE,NOS,Public,2.20505103,Frankiln Co Parks,40.1145063,-82.9314995
+24685,GREEN BELT,Westerville,FRA,GREEN SPACE,NOS,Public,0.16599629,Frankiln Co Parks,40.1023554,-82.9098962
+24686,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.15294233,Frankiln Co Parks,39.9600224,-82.9283098
+24687,OPEN SPACE B,Gahanna,FRA,GREEN SPACE,NOS,Public,0.35130577,Frankiln Co Parks,40.0322392,-82.8844080
+24688,PARK,Upper Arlington,FRA,GREEN SPACE,NOS,Public,0.79714065,Frankiln Co Parks,39.9917927,-83.0581234
+24689,PARK,Upper Arlington,FRA,GREEN SPACE,NOS,Public,0.66642592,Frankiln Co Parks,39.9945218,-83.0635327
+24690,PARK,Upper Arlington,FRA,GREEN SPACE,NOS,Public,0.09784202,Frankiln Co Parks,40.0369637,-83.0932409
+24691,PARK,Grandview Heights,FRA,GREEN SPACE,NOS,Public,0.07205118,Frankiln Co Parks,39.9812842,-83.0376282
+24692,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.0320711,Frankiln Co Parks,39.9602835,-82.9351329
+24693,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04867001,Frankiln Co Parks,39.9593023,-82.9367418
+24694,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.04887667,Frankiln Co Parks,39.9603147,-82.9359485
+24695,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.05262431,Frankiln Co Parks,39.9619209,-82.9336145
+24696,PARK,Bexley,FRA,GREEN SPACE,NOS,Public,0.03185379,Frankiln Co Parks,39.9605355,-82.9337291
+24697,BEECHWOOD PLAY AREA,Whitehall,FRA,GREEN SPACE,NOS,Public,0.33371265,Frankiln Co Parks,39.9679032,-82.8926455
+24698,PARK,Township,FRA,GREEN SPACE,NOS,Public,0.44241472,Franklin Co Parks,39.8511475,-83.1844709
+24700,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.4707304,Franklin Co Parks,40.0239106,-82.9662990
+24702,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.12331068,Franklin Co Parks,40.0344649,-82.9865186
+24703,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.15736455,Franklin Co Parks,40.0612757,-83.0197697
+24704,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.09051785,Franklin Co Parks,40.0600343,-83.0198375
+24705,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.14045895,Franklin Co Parks,40.0680731,-83.0266757
+24706,Island View,Township,FRA,GREEN SPACE,NOS,Public,0.51256694,Franklin Co Parks,40.0704229,-83.0333820
+24707,Olentangy Trail,Columbus,FRA,PARK,C,Public,0.30586236,Franklin Co Parks,40.0529853,-83.0300805
+24708,PARK,Riverlea,FRA,GREEN SPACE,NOS,Public,0.45758799,Franklin Co Parks,40.0818683,-83.0274921
+24709,Olentangy Trail,Columbus,FRA,PARK,C,Public,0.29602508,Franklin Co Parks,40.0521135,-83.0305780
+24710,PARK,Riverlea,FRA,GREEN SPACE,NOS,Public,0.24949364,Franklin Co Parks,40.0819439,-83.0248711
+24711,Olentangy Trail,Columbus,FRA,PARK,C,Public,0.31253517,Franklin Co Parks,40.0524816,-83.0303867
+24712,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.09126289,Franklin Co Parks,40.0404798,-83.0327239
+24713,PARK,Columbus,FRA,GREEN SPACE,NOS,Public,0.036504,Franklin Co Parks,40.0395395,-83.0325882
+24714,PARK,Upper Arlington,FRA,GREEN SPACE,NOS,Public,0.05207418,Franklin Co Parks,40.0288772,-83.0842680
+24715,PARK,Upper Arlington,FRA,GREEN SPACE,NOS,Public,0.16667574,Franklin Co Parks,40.0358742,-83.0917204
+24716,SHADEVILLE NURSERY,Columbus,FRA,PARK,SPU,Public,58.8718329,Columbus Park Boundaries,39.8163222,-83.0021982
+24717,CLARFIELD STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.19528071,Columbus Park Boundaries,39.8998574,-82.9615843
+24718,PETZINGER STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.01682394,Columbus Park Boundaries,39.9294242,-82.9107477
+24719,BULEN STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,1.18506352,Columbus Park Boundaries,39.9493313,-82.9518305
+24720,RAINBOW STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,0.23384999,Columbus Park Boundaries,39.9478546,-82.9514471
+24721,Roosevelt Park,Columbus,FRA,PARK,N,Public,3.05443026,Columbus Park Boundaries,39.9442395,-82.9642486
+24722,MAINTENANCE & WAREHOUSE OPERATIONS,Columbus,FRA,GREEN SPACE,SPU,Public,8.60142148,Columbus Park Boundaries,39.9409215,-82.9472147
+24723,COLUMBUS PERFORMING ARTS CENTER,Columbus,FRA,GREEN SPACE,SPU,Public,0.56111193,Columbus Park Boundaries,39.9614535,-82.9854193
+24724,CULTURAL ARTS CENTER,Columbus,FRA,GREEN SPACE,SPU,Public,0.66810986,Columbus Park Boundaries,39.9553405,-83.0032619
+24725,DOVER STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.10336821,Columbus Park Boundaries,39.9466277,-82.9308910
+24726,DALE STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.07168724,Columbus Park Boundaries,39.9636175,-82.9157436
+24727,EASTMOOR SOUTH STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.11773957,Columbus Park Boundaries,39.9638692,-82.9166811
+24728,EASTMOOR NORTH STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.09608827,Columbus Park Boundaries,39.9681000,-82.9163776
+24729,ELBERN STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.13548146,Columbus Park Boundaries,39.9679739,-82.9167146
+24730,BROOKSIDE STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,0.54132608,Columbus Park Boundaries,39.9589901,-82.9171815
+24731,GREENWAY SOUTH STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,0.35444777,Columbus Park Boundaries,39.9726089,-82.9516567
+24732,LINFIELD STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.0550469,Columbus Park Boundaries,39.9715163,-82.9521267
+24733,MERRYHILL STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.04078296,Columbus Park Boundaries,39.9768749,-82.9480064
+24734,SURREY STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.02655598,Columbus Park Boundaries,39.9728797,-82.9531409
+24735,MARYLAND STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.06054648,Columbus Park Boundaries,39.9775414,-82.9459702
+24737,COSI,Columbus,FRA,PARK,SPU,Public,15.37262822,Columbus Park Boundaries,39.9599011,-83.0074373
+24738,DORRIAN GREEN,Columbus,FRA,PARK,C,Public,6.31608035,Columbus Park Boundaries,39.9596119,-83.0080051
+24739,HOLLY HILL STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.10316918,Columbus Park Boundaries,39.9418106,-83.1020896
+24740,CAMP CHASE 500 GEORGESVILLE RD,Township,FRA,GREEN SPACE,NOS,Public,0.02784402,Columbus Park Boundaries,39.9423331,-83.1117271
+24741,PALMETTO STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,0.22691991,Columbus Park Boundaries,39.9497997,-83.0789727
+24742,ROYS STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.02895444,Columbus Park Boundaries,39.9537181,-83.0775915
+24743,WESTMOOR STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.01890892,Columbus Park Boundaries,39.9533613,-83.0816941
+24744,7TH AVE STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,0.15868073,Columbus Park Boundaries,39.9895039,-83.0158060
+24745,6TH AVE STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,0.15846629,Columbus Park Boundaries,39.9884962,-83.0158730
+24746,VERMONT STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.20169972,Columbus Park Boundaries,39.9866877,-83.0179910
+24747,CHRISTOPHER COLUMBUS SQUARE,Columbus,FRA,GREEN SPACE,NOS,Public,0.05851775,Columbus Park Boundaries,39.9783633,-82.9994432
+24748,6TH ST STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,0.18481847,Columbus Park Boundaries,39.9884764,-82.9971239
+24749,WILDWOOD STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.02226796,Columbus Park Boundaries,39.9896828,-82.9485627
+24750,AMBLESIDE STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.14346222,Columbus Park Boundaries,40.0879722,-82.9810556
+24751,CLEVELAND STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.04201614,Columbus Park Boundaries,40.0214898,-82.9646391
+24752,GRASMERE STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.0221077,Columbus Park Boundaries,40.0340357,-82.9814515
+24753,KIMBERLY STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.02690723,Columbus Park Boundaries,40.0362874,-82.9921539
+24754,HAROLD STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.01158792,Columbus Park Boundaries,40.0160216,-82.9620254
+24755,JOAN PLACE STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.02253558,Columbus Park Boundaries,40.0142679,-82.9600723
+24756,MYRTLE STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.00997981,Columbus Park Boundaries,40.0169115,-82.9618074
+24757,EISENHOWER SOUTH STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.74020705,Columbus Park Boundaries,40.0288284,-82.9937262
+24758,SANDALWOOD STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,0.17206969,Columbus Park Boundaries,40.0769580,-82.9760681
+24759,TRAYMORE STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.01104074,Columbus Park Boundaries,40.0143780,-82.9625059
+24760,COOKE STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.03527938,Columbus Park Boundaries,40.0495778,-83.0271902
+24761,JEFFREY STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.20027126,Columbus Park Boundaries,40.0621073,-83.0268191
+24762,WEST DOMINION STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.08748502,Columbus Park Boundaries,40.0535455,-83.0261313
+24763,INDIANOLA STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.12013728,Columbus Park Boundaries,40.0012455,-83.0038624
+24764,NORTHWEST BLVD STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,1.0656543,Columbus Park Boundaries,39.9879603,-83.0407366
+24765,SIXTEENTH STREET ISLAND,Columbus,FRA,GREEN SPACE,NOS,Public,0.05987316,Columbus Park Boundaries,40.0011826,-83.0065555
+24766,WHEELER STREET ISLANDS,Columbus,FRA,GREEN SPACE,NOS,Public,0.76324595,Columbus Park Boundaries,39.9745716,-83.0158991
+24768,Indian Run Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,8.91411843,Dublin Parks,40.1027722,-83.1129531
+24769,Riverside Crossing Park,Dublin,FRA,PARK,C,Public,13.36454788,Dublin Parks,40.1043686,-83.1113550
+24770,Tuller Square,Dublin,FRA,GREEN SPACE,NOS,Public,1.83445758,Dublin Parks,40.1062795,-83.1043729
+24771,Dinosaur Park,Dublin,FRA,PARK,N,Public,0.98773776,Dublin Parks,40.0793375,-83.1758301
+24772,Joe's Triangle Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.32202522,Dublin Parks,40.0687073,-83.1128842
+24793,Alum Creek Park North,Westerville,FRA,PARK,C,Public,9.39151995,MORPC Standardized ELU 2021,40.1200566,-82.9387240
+24794,Gelpi Park,Westerville,FRA,PARK,C,Public,6.0040491,MORPC Standardized ELU 2021,40.1063140,-82.9377561
+24795,Saunton Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,0.61959886,MORPC Standardized ELU 2021,40.0949925,-82.7986355
+24796,Saunton Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,1.98958229,MORPC Standardized ELU 2021,40.0940626,-82.7986795
+24797,Kitzmiller Road Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,3.45332288,MORPC Standardized ELU 2021,40.0937256,-82.7842161
+24798,Kitzmiller Road Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,0.93613254,MORPC Standardized ELU 2021,40.0905274,-82.7830510
+24799,Kitzmiller Road Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,1.05762737,MORPC Standardized ELU 2021,40.0913496,-82.7828990
+24800,Town Square Villages Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.79251343,MORPC Standardized ELU 2021,40.0637019,-82.8494640
+24801,Lansdowne Open Space,New Albany,FRA,GREEN SPACE,NOS,Public,3.97391467,MORPC Standardized ELU 2021,40.0641956,-82.8296672
+24802,Pavillion at New Albany Preserve,Columbus,FRA,GREEN SPACE,NOS,Public,2.4309085,MORPC Standardized ELU 2021,40.0709950,-82.8566149
+24803,The Villages of Gahanna Open Space,Gahanna,FRA,GREEN SPACE,NOS,Public,1.27972749,MORPC Standardized ELU 2021,40.0537489,-82.8850882
+24804,Parkridge Park,Columbus ,FRA,PARK,C,Public,0.79904469,MORPC Standardized ELU 2021,40.0584082,-82.9248376
+24805,Parkridge Park,Columbus,FRA,PARK,C,Public,1.38072752,MORPC Standardized ELU 2021,40.0592829,-82.9259153
+24806,Parkridge Park,Columbus,FRA,PARK,C,Public,1.6774093,MORPC Standardized ELU 2021,40.0606448,-82.9250405
+24807,Morse Road & Patio Avenue Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.09786002,MORPC Standardized ELU 2021,40.0605573,-82.9817273
+24808,Peachwood Place Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,1.42183665,MORPC Standardized ELU 2021,40.0775952,-82.9532852
+25019,Dalebrook Court Open Space,Township,FRA,GREEN SPACE,NOS,Public,2.52072161,MORPC Standardized ELU 2021,39.9529711,-83.2330341
+25020,Conbrook Court Open Space,Township,FRA,GREEN SPACE,NOS,Public,2.93926663,MORPC Standardized ELU 2021,39.9534715,-83.2268704
+25021,Lakefield Drive Open Space,Township,FRA,GREEN SPACE,NOS,Public,10.67650192,MORPC Standardized ELU 2021,39.9584235,-83.2346373
+25043,Ashbrook Road Open Space,Canal Winchester,FRA,PARK,PRES,Public,1.26549448,MORPC Standardized ELU 2021,39.8335095,-82.8146714
+25044,East Columbus Street Park,Canal Winchester,FRA,PARK,N,Public,4.85472934,Google Maps,39.8391036,-82.8046118
+25045,McGill Park,Canal Winchester,FRA,PARK,C,Public,86.14587379,Google Maps,39.8331885,-82.8050501
+25053,Covenant Way Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,0.14274021,MORPC Standardized ELU 2021,39.8447877,-82.8145634
+25054,Covenant Way Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,0.65849504,MORPC Standardized ELU 2021,39.8447436,-82.8139705
+25055,Covenant Way Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,0.68027116,MORPC Standardized ELU 2021,39.8448396,-82.8151777
+25056,Hanners Park,Canal Winchester,FRA,PARK,C,Public,0.4611924,MORPC Standardized ELU 2021,39.8454773,-82.8205031
+25057,Hanners Park,Canal Winchester,FRA,PARK,C,Public,10.07901362,MORPC Standardized ELU 2021,39.8466459,-82.8203248
+25058,Cherry Landing Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,6.4326058,MORPC Standardized ELU 2021,39.8507578,-82.8191647
+25059,Cherry Landing Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,8.26342339,MORPC Standardized ELU 2021,39.8501835,-82.8199392
+25060,Cherry Landing Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,1.30076572,MORPC Standardized ELU 2021,39.8492857,-82.8173912
+25061,Groveport Road Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,5.44735301,MORPC Standardized ELU 2021,39.8467028,-82.8328026
+25062,Groveport Road Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,0.00540483,MORPC Standardized ELU 2021,39.8466860,-82.8355892
+25063,Groveport Road Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,1.37482987,MORPC Standardized ELU 2021,39.8464385,-82.8331773
+25064,Groveport Road Open Space,Canal Winchester,FRA,GREEN SPACE,NOS,Public,1.71944134,MORPC Standardized ELU 2021,39.8466793,-82.8303946
+25065,Creekside Park,Grove City,FRA,PARK,C,Public,26.93282154,MORPC Standardized ELU 2021,39.8596262,-83.0668038
+25066,The Big Splash,Grove City,FRA,PARK,C,Public,1.11952575,MORPC Standardized ELU 2021,39.8894331,-83.0782629
+25067,The Big Splash,Grove City,FRA,PARK,C,Public,0.91443868,MORPC Standardized ELU 2021,39.8887257,-83.0781473
+25068,The Big Splash,Grove City,FRA,PARK,C,Public,0.59447823,MORPC Standardized ELU 2021,39.8883123,-83.0782106
+25069,Demorest Road Park,Grove City,FRA,PARK,N,Public,1.88003036,MORPC Standardized ELU 2021,39.8869743,-83.1142119
+25070,Valleyview Drive Open Space,Valleyview ,FRA,GREEN SPACE,NOS,Public,4.10145764,MORPC Standardized ELU 2021,39.9630880,-83.0713431
+25071,Bexley Community Garden & Schneider Park,Bexley,FRA,PARK,C,Public,0.73333625,MORPC Standardized ELU 2021,39.9500163,-82.9410325
+25072,Bexley Community Garden & Schneider Park,Bexley,FRA,PARK,C,Public,1.67268412,MORPC Standardized ELU 2021,39.9498197,-82.9412529
+25073,Bexley Community Garden & Schneider Park,Bexley,FRA,PARK,C,Public,0.67146016,MORPC Standardized ELU 2021,39.9503149,-82.9410849
+25074,Bexley Community Garden & Schneider Park,Bexley,FRA,PARK,C,Public,0.70990495,MORPC Standardized ELU 2021,39.9501662,-82.9410461
+25075,Sheridan Park,Bexley,FRA,PARK,N,Public,0.6016309,MORPC Standardized ELU 2021,39.9531428,-82.9427117
+25076,Sheridan Park,Bexley,FRA,PARK,N,Public,0.09289107,MORPC Standardized ELU 2021,39.9534130,-82.9428078
+25077,Sheridan Park,Bexley,FRA,PARK,N,Public,0.07705001,MORPC Standardized ELU 2021,39.9534013,-82.9425286
+25078,Nelson Park,Columbus,FRA,PARK,C,Public,0.55956487,MORPC Standardized ELU 2021,39.9804808,-82.9414610
+25079,Delmar Drive,Bexley ,FRA,PARK,SPU,Public,0.09188791,MORPC Standardized ELU 2021,39.9817040,-82.9312900
+25080,Delmar Drive,Bexley,FRA,PARK,SPU,Public,0.10591043,MORPC Standardized ELU 2021,39.9817056,-82.9311488
+25081,Delmar Drive,Bexley,FRA,PARK,SPU,Public,0.10527308,MORPC Standardized ELU 2021,39.9817060,-82.9310060
+25082,Delmar Drive,Bexley,FRA,PARK,SPU,Public,0.11022876,MORPC Standardized ELU 2021,39.9817009,-82.9308649
+25083,Delmar Drive,Bexley,FRA,PARK,SPU,Public,0.10844678,MORPC Standardized ELU 2021,39.9816942,-82.9307220
+25084,Milo-Grogan Green Space and Community Garden,Columbus,FRA,PARK,C,Public,0.14315633,MORPC Standardized ELU 2021,39.9824471,-82.9892117
+25085,Milo-Grogan Green Space and Community Garden,Columbus,FRA,PARK,C,Public,0.09036666,MORPC Standardized ELU 2021,39.9822155,-82.9891424
+25086,Milo-Grogan Green Space and Community Garden,Columbus,FRA,PARK,C,Public,0.09304199,MORPC Standardized ELU 2021,39.9823005,-82.9891391
+25087,Howard Street Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.06923339,MORPC Standardized ELU 2021,39.9836525,-82.9842553
+25088,Howard Street Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.07477462,MORPC Standardized ELU 2021,39.9839213,-82.9842432
+25089,Howard Street Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.07032077,MORPC Standardized ELU 2021,39.9837404,-82.9842591
+25090,Howard Street Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.04881247,MORPC Standardized ELU 2021,39.9833826,-82.9842279
+25091,Howard Street Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.06841232,MORPC Standardized ELU 2021,39.9840104,-82.9842355
+25092,Howard Street Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.07343748,MORPC Standardized ELU 2021,39.9838293,-82.9842514
+25093,Howard Street Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.05742049,MORPC Standardized ELU 2021,39.9834743,-82.9842379
+25094,Howard Street Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,0.06028823,MORPC Standardized ELU 2021,39.9835641,-82.9842478
+25095,Chatterton Road Open Space,Columbus,FRA,GREEN SPACE,NOS,Public,8.02815118,MORPC Standardized ELU 2021,39.9147588,-82.8486780
+25098,Cheriton Circle Open Space,Reynoldsburg,FRA,GREEN SPACE,NOS,Public,0.75542079,MORPC Standardized ELU 2021,39.9745702,-82.7924954
+25099,Carpenter Road Open Space,Gahanna ,FRA,GREEN SPACE,NOS,Private,1.23640767,MORPC Standardized ELU 2021,40.0221794,-82.8666897
+25100,South Hamilton Road Open Space,Gahanna,FRA,GREEN SPACE,NOS,Private,0.6257308,MORPC Standardized ELU 2021,40.0173499,-82.8672210
+25101,West Wilson Bridge Road Open Space,Worthington,FRA,GREEN SPACE,NOS,Public,2.95467597,MORPC Standardized ELU 2021,40.1062167,-83.0372146
+25102,Kendall Ridge Loop Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.51861456,MORPC Standardized ELU 2021,40.0915436,-83.1607292
+25103,Winslow Court Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.01075268,MORPC Standardized ELU 2021,40.0906812,-83.1649904
+25104,Caplestone Lane Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,0.84763465,MORPC Standardized ELU 2021,40.1207902,-83.1464711
+25105,Memorial Drive Open Space,Dublin,FRA,GREEN SPACE,NOS,Public,4.04002794,MORPC Standardized ELU 2021,40.1393277,-83.1305087
+25106,Riggins Court Open Space,Hilliard,FRA,GREEN SPACE,NOS,Public,2.79865401,MORPC Standardized ELU 2021,40.0665396,-83.1363735
+25107,Riggins Road Open Space,Hilliard,FRA,GREEN SPACE,NOS,Public,1.74546608,MORPC Standardized ELU 2021,40.0632764,-83.1403561
+25108,Riggins Road Open Space,Hilliard,FRA,GREEN SPACE,NOS,Public,4.75151528,MORPC Standardized ELU 2021,40.0627519,-83.1402079
+25994,Langston Park,Upper Arlington,FRA,PARK,N,Public,14.6761612,Existing Land Use 2021,40.0465793,-83.0616820
+26013,Griggs Park,Columbus,FRA,PARK,R,Public,43.52250792,Existing Land Use 2021,40.0080929,-83.0889088
+26014,,Hamilton Twp,FRA,Park,C,Public,58.21594664,,39.8481018,-82.9586800
+26031,Berwick Park,Columbus,FRA,Park,C,Public,9.1038887,Columbus GIS,,
+26032,Vendome Drive South Open Space,Columbus,FRA,Park,NOS,Public,3.32143575,,40.0015467,-82.9475126
+26033,Heed Park,Franklin Twp,FRA,Park,C,Public,3.93776286,,39.9847208,-83.0909615
+26034,Clinton Twp Playground,Clinton Twp,FRA,Park,C,Public,1.039717,,39.9948927,-83.0331533
+26035,Chambers Circle Open Space,Clinton Twp,FRA,Park,C,Public,0.86785506,,39.9929195,-83.0330837
+26036,Triangle Park,Clinton Twp,FRA,Park,NOS,Public,0.24539838,,39.9965958,-83.0335283
+26037,Charing Ravine Park,Upper Arlington,FRA,Park,C,Public,1.78898009,,40.0130867,-83.0886635
+26038,Nursery Park,Upper Arlington,FRA,Park,C,Public,1.24054265,,40.0101384,-83.0798022
+26039,Wyandot Park,Upper Arlington,FRA,Park,C,Public,2.51720789,,40.0468570,-83.0944958
+26040,Bush Country Park,Columbus,FRA,Park,NOS,Public,2.84115711,,40.1331227,-83.0383571
+26044,,Dublin,FRA,PARK,PRES,,,,40.0912048,-83.1592982
+26045,,Dublin,FRA,PARK,PRES,,,,40.0920315,-83.1577115
+26046,,Dublin,FRA,PARK,PRES,,,,40.0915838,-83.1562557
+26047,,Dublin,FRA,PARK,PRES,,,,40.0915843,-83.1548923
+26048,,Dublin,FRA,PARK,PRES,,,,40.0904649,-83.1578475
+26049,,,FRA,CEMETERY,CEM,,45.39108547,,39.9503316,-83.0455968
+26050,,,FRA,PARK,NOS,,6.82716799,,40.1053069,-83.1436778
+26051,,,FRA,PARK,N,,1.87766678,,40.1070436,-83.1480384
+26052,,,FRA,GREEN SPACE,NOS,,1.21653822,,40.0775681,-83.1696281
+26053,,,FRA,GREEN SPACE,NOS,,2.59274271,,40.0856107,-83.1845724
+26054,,,FRA,GREEN SPACE,NOS,,0.23567496,,,
+26055,,,FRA,GREEN SPACE,NOS,,2.67020493,,40.0782357,-83.1753949
+26056,,,FRA,GREEN SPACE,NOS,,0.69779291,,40.0776561,-83.1764331
+26057,,,FRA,GREEN SPACE,NOS,,0.62981363,,40.0785865,-83.1767008
+26058,,,FRA,GREEN SPACE,NOS,,1.16038504,,40.0817143,-83.1751044
+26059,,,FRA,GREEN SPACE,NOS,,4.38598985,,40.0809704,-83.1840551
+26060,,,FRA,GREEN SPACE,NOS,,2.16927754,,40.0797662,-83.1834902
+26061,,,FRA,GREEN SPACE,NOS,,3.05671302,,40.0782022,-83.1780888
+26062,,,FRA,GREEN SPACE,NOS,,1.67080806,,40.0781449,-83.1818114
+26063,,,FRA,GREEN SPACE,NOS,,1.48479817,,40.0773742,-83.1655368
+26064,,,FRA,PARK,N,,0.52303713,,40.0773748,-83.1633270
+26065,,,FRA,PARK,N,,0.69752501,,40.0774566,-83.1621444
+26066,,,FRA,PARK,N,,3.13939667,,40.0411104,-83.1838040
+26067,,,FRA,PARK,NOS,,6.26785257,,40.0406533,-83.1866384
+26068,,,FRA,PARK,N,,2.2555207,,40.0153985,-83.1544874
+26069,,,FRA,PARK,N,,2.53893875,,40.0152103,-83.1651324
+26070,,,FRA,PARK,PRES,,101.80872053,,39.8209389,-82.8970219
+26071,,,FRA,PARK,PRES,,84.43691021,,39.8325158,-82.8894047
+26072,,,FRA,PARK,PRES,,100.51023291,,39.8163133,-82.8982532
+26414,Mason Run Park,Columbus,FRA,PARK,CON,,,Columbus,39.9202550,-82.8895968
+26415,ROBERTS ROAD PARKLAND,Columbus,FRA,PARK,CON,,,Columbus,40.0031129,-83.1700251
+26416,SUGAR FARMS PARKLAND,Columbus,FRA,PARK,PRES,,,,39.9896043,-83.1710328
+26417,COLE PARKLAND,Columbus,FRA,PARK,PRES,,,,39.9832165,-83.1813341
+26418,RENNER PARKLAND,Columbus,FRA,PARK,PRES,,,,39.9806619,-83.1716843
+26419,GREENLEAF PARK,Columbus,FRA,PARK,PRES,,,Columbus,39.9240273,-83.0407965
+26420,LINVIEW PARK,Columbus,FRA,PARK,N,,,Columbus,40.0230359,-82.9565536
+26421,INNIS PARK,,FRA,PARK,R,,,Columbus,40.0381509,-82.9352053
+26422,LINDEN GREEN LINE,,FRA,GREEN SPACE,NOS,,,Columbus,40.0458830,-82.9499543
+26423,MARGARET AGLER PARK COH,,FRA,PARK,C,,,Columbus,40.0257583,-82.9350321
+26424,SUNBURY WOODS PARKLAND,Columbus,FRA,PARK,CON,,,Columbus,40.0205252,-82.9332972
+26425,CONFLUENCE VILLAGE PARK,,FRA,PARK,N,,,Columbus,39.9679880,-83.0198703
+26426,NOE-BIXBY PARKLAND COH,Columbus,FRA,PARK,PRES,,,Columbus,39.9739600,-82.8606899
+26427,MCNAUGHTEN ROAD GREENSPACE PROTECTION COH,,FRA,GREEN SPACE,NOS,,,Columbus,39.9475570,-82.8407015
+26428,KEMP PARKLAND,,FRA,PARK,NOS,,,Columbus,40.1088661,-82.8511023
+26429,CROSSINGS PARKLAND,,FRA,PARK,NOS,,,Columbus,40.1028751,-82.8438164
+26430,Merchant Park,Hilliard,FRA,PARK,N,,,illiard,40.0364153,-83.1646626
+26431,Mildred Park,Hilliard,FRA,PARK,N,,,Hilliard,40.0467906,-83.1322865
+26435,Three Creeks Park,,FRA,PARK,M,,,,39.8803101,-82.8780905
+26436,,,FRA,GREEN SPACE,NOS,,,,39.8763491,-82.8775084
+26437,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9815820,-83.0661943
+26438,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9945722,-83.0796457
+26439,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9958355,-83.0793697
+26440,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9933669,-83.0761256
+26441,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9934047,-83.1647988
+26442,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9934633,-83.1621227
+26443,,,FRA,GREEN SPACE,NOS,,,Parcels,,
+26444,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0325786,-83.1207490
+26445,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0326338,-83.1210350
+26446,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0331561,-83.1185136
+26447,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0432390,-83.1732787
+26448,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0363219,-83.1798850
+26449,,,FRA,GREEN SPACE,NOS,,,Parcels,,
+26450,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0333562,-83.1740830
+26451,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0334869,-83.1714496
+26452,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0373027,-83.1772181
+26453,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0369302,-83.1837319
+26454,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0423736,-83.1732753
+26455,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0370189,-83.1227451
+26456,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0362676,-83.1199914
+26457,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0376533,-83.1886151
+26458,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0235734,-83.1872057
+26459,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0189322,-83.1910571
+26460,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0204799,-83.1968364
+26461,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0254378,-83.1922908
+26462,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0240138,-83.1890339
+26463,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0159871,-83.1994113
+26464,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0391579,-83.2028772
+26465,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0005292,-83.1913377
+26466,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0022840,-83.1884038
+26467,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0358299,-83.1968423
+26468,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0357193,-83.2021214
+26469,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9897773,-83.0977660
+26470,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9858355,-83.1737573
+26471,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9852743,-83.1773870
+26472,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9870415,-83.1778891
+26473,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9820226,-83.1732706
+26474,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9794925,-83.1753576
+26475,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9903520,-83.1792276
+26476,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9898956,-83.1731996
+26477,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9937788,-83.1716854
+26478,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9930667,-83.1599981
+26479,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9853723,-83.1641288
+26480,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9764082,-83.1720983
+26481,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9832743,-83.1012326
+26482,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9796881,-83.1602461
+26483,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9802580,-83.1574638
+26484,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9803975,-83.0967632
+26485,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9922451,-83.0737377
+26486,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9793944,-83.0675737
+26487,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9890785,-83.1597659
+26488,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9915443,-83.1598657
+26489,,,FRA,GREEN SPACE,NOS,,,Parcels,,
+26490,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0195803,-83.0181032
+26491,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9669039,-83.0574369
+26492,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9695922,-83.0369540
+26493,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0603718,-83.1760257
+26494,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0668161,-83.1826338
+26495,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0668526,-83.1823057
+26496,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0638748,-83.1822292
+26497,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0562054,-83.1781420
+26498,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0578122,-83.1609179
+26499,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0633889,-83.1783091
+26500,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0555290,-83.1677813
+26501,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0645125,-83.1842013
+26502,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0674655,-83.1752123
+26503,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0644091,-83.1253731
+26504,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0643672,-83.1238742
+26505,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0635277,-83.1222918
+26506,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0681595,-83.1720944
+26507,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9707116,-83.0398287
+26508,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9706948,-83.0407681
+26509,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0513844,-83.1849091
+26510,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0437283,-83.1768968
+26511,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0402700,-83.1763205
+26512,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0472022,-83.1813654
+26513,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0492915,-83.1885519
+26514,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0639857,-83.1353259
+26515,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0437953,-83.1877289
+26516,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0522642,-83.1790002
+26517,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0476674,-83.1369452
+26518,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0515437,-83.1876742
+26519,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0591441,-83.1861190
+26520,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0592360,-83.1870424
+26521,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0586798,-83.1888704
+26522,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0561356,-83.1898394
+26523,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0471231,-83.1340875
+26524,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0506781,-83.1720485
+26525,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0520736,-83.1702915
+26526,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0500648,-83.1699841
+26527,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0497500,-83.1716552
+26528,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0471004,-83.1714799
+26529,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0482087,-83.1715242
+26530,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0475842,-83.1705035
+26531,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0534424,-83.1689944
+26532,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0505312,-83.1967650
+26533,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0503706,-83.1939956
+26534,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0527274,-83.1956827
+26535,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0512995,-83.1993168
+26536,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0486687,-83.1937867
+26537,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0482553,-83.1969568
+26538,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0807534,-83.1089193
+26539,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0789717,-83.1081483
+26540,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0786535,-83.1082563
+26541,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0780968,-83.1069317
+26542,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0816030,-83.1095067
+26543,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0955202,-83.1301667
+26544,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0948783,-83.1257159
+26545,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0928878,-83.1252646
+26546,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0867666,-83.1247226
+26547,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0661757,-83.1658815
+26548,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0664528,-83.1615807
+26549,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0859373,-83.1104310
+26550,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9669972,-83.0375498
+26551,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9685062,-83.0389364
+26552,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0242823,-83.1102895
+26555,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0437283,-83.1768968
+26556,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0402700,-83.1763205
+26557,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0471231,-83.1340875
+26558,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0242823,-83.1102895
+26559,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9659704,-82.8308267
+26560,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9084925,-82.8065243
+26561,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8995818,-83.1103595
+26562,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8903061,-82.8480658
+26563,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9134276,-82.8677218
+26564,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8904696,-83.0436707
+26565,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8340776,-83.0566066
+26566,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8872831,-83.0567475
+26567,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8940196,-83.1145096
+26568,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8611134,-83.0880541
+26569,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8688269,-83.0487793
+26570,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8726421,-83.1056168
+26571,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8723370,-83.1093503
+26572,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8600944,-83.0769464
+26573,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8586890,-83.0367141
+26574,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8632384,-83.0755501
+26575,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8737045,-83.1052309
+26576,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8607672,-83.0625236
+26577,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8607872,-83.0369800
+26578,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8610692,-83.0937219
+26579,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8613429,-83.0648717
+26580,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8563413,-83.0726633
+26581,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8646192,-83.0966372
+26582,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8874431,-83.0981312
+26583,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8864729,-83.0941468
+26584,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8355510,-83.0353711
+26585,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8358341,-83.0381312
+26586,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8471960,-83.0477974
+26587,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8471840,-83.0502680
+26588,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8364329,-83.0352779
+26589,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8587286,-83.0855109
+26590,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8375870,-83.0378530
+26591,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8870421,-83.1040974
+26592,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8855296,-83.1018564
+26593,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8649087,-83.0292753
+26594,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8739797,-83.1087441
+26595,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8711490,-83.0569531
+26596,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0437283,-83.1768968
+26597,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0402700,-83.1763205
+26598,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0188385,-83.1838949
+26599,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0202043,-83.1778751
+26600,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0162798,-83.1835815
+26601,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0149431,-83.1833113
+26602,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0177427,-83.1839087
+26603,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0471231,-83.1340875
+26604,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0255089,-83.1964455
+26605,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0240616,-83.2002317
+26606,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0255672,-83.1991931
+26607,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0245109,-83.2021244
+26608,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0030769,-83.1921633
+26609,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0048240,-83.1903198
+26610,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9744270,-82.7990197
+26611,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9739024,-82.7900390
+26612,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9733738,-82.7909468
+26613,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9730552,-82.7847553
+26614,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8488949,-83.0366184
+26615,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0178870,-82.8220867
+26616,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0176968,-82.8227000
+26617,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0193780,-82.8226465
+26618,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0209708,-82.8223516
+26619,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0222875,-82.8230273
+26620,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0212103,-82.8270424
+26621,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0199729,-82.8246914
+26622,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0075795,-82.8028254
+26623,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0092554,-82.8120386
+26624,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0086183,-82.8115535
+26625,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0073501,-82.8147964
+26626,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0226110,-82.7920684
+26627,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0178088,-82.8331323
+26628,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0147484,-82.7795976
+26629,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0110280,-82.7800229
+26630,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0148863,-82.7770104
+26631,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0147915,-82.7730699
+26632,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0144007,-82.7768403
+26633,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0137027,-82.7709585
+26634,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0129226,-82.7725257
+26635,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9022253,-82.8547929
+26636,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8281312,-82.8132767
+26637,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8274575,-82.8122350
+26638,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8282513,-82.8132832
+26639,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8733691,-82.8739830
+26640,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8705041,-82.8859459
+26641,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8675841,-82.8929726
+26642,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9073127,-83.0971058
+26643,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9079350,-83.0998937
+26644,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9071465,-83.0990157
+26645,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9057585,-83.1023189
+26646,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8779341,-82.8298966
+26647,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8637285,-82.8219519
+26648,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8801880,-82.8297643
+26649,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9070877,-82.8088510
+26650,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9088025,-82.8375017
+26651,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9108509,-82.8352253
+26652,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9007703,-82.8027628
+26653,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9090534,-82.8363910
+26654,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9799729,-82.8100607
+26655,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9798871,-82.8098226
+26656,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9796124,-82.8061551
+26657,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9110998,-83.1037941
+26658,,,FRA,GREEN SPACE,NOS,,,Parcels,39.9026480,-83.1155989
+26659,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8935501,-83.1096087
+26660,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0242823,-83.1102895
+26661,,,FRA,GREEN SPACE,NOS,,,Parcels,39.8797260,-82.8306357
+26676,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0057244,-82.9398784
+26677,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0121416,-82.9303238
+26678,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0110735,-82.9334972
+26679,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0264692,-82.9087139
+26680,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0999343,-82.8551470
+26681,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0997524,-82.8548817
+26682,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0674022,-82.8484068
+26683,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1101023,-82.8262567
+26684,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1100605,-82.8253641
+26685,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1007802,-82.8550672
+26686,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1008880,-82.8533255
+26687,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0078927,-82.9558638
+26688,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0998581,-82.8562830
+26689,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0993518,-82.8533804
+26690,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0382352,-82.9199429
+26691,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0413662,-82.9140747
+26692,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0663925,-82.8488334
+26693,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1045925,-82.8322540
+26694,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1059814,-82.8410073
+26695,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1023832,-82.8467370
+26696,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1014988,-82.8477363
+26697,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1037398,-82.8467446
+26698,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0062317,-82.9411072
+26699,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1114448,-82.8543703
+26700,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1133023,-82.8493959
+26701,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1169277,-82.8896558
+26702,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1331218,-82.9567631
+26703,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1318639,-82.9512946
+26704,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1308008,-82.9512752
+26705,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1313710,-82.9532848
+26706,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1322826,-82.9622488
+26707,,,FRA,GREEN SPACE,NOS,,,Parcels,,
+26708,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0756154,-82.9320252
+26709,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0768380,-82.9359815
+26710,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0759091,-82.9377499
+26711,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0738078,-82.9358292
+26712,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0750205,-82.9405604
+26713,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0744205,-82.9383729
+26714,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0735823,-82.9408946
+26721,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0283997,-82.8216716
+26723,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0448708,-82.7753720
+26724,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0446052,-82.7764685
+26725,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0484081,-82.7758838
+26726,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0483796,-82.7738820
+26727,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0437110,-82.7736312
+26728,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0458241,-82.7721989
+26729,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0476040,-82.7720496
+26730,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0480131,-82.7688908
+26731,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0481861,-82.7700282
+26732,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0413716,-82.7760735
+26733,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0459275,-82.7700438
+26734,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0434216,-82.7715348
+26735,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0440439,-82.7698617
+26736,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0428427,-82.7689960
+26737,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0127849,-82.7897659
+26738,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0117674,-82.7908108
+26739,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0131532,-82.7905979
+26745,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0112528,-82.7727350
+26746,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0114749,-82.7743250
+26747,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0113587,-82.7710553
+26748,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0101246,-82.7712869
+26749,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1039586,-82.7988483
+26750,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1027758,-82.7921237
+26751,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1037511,-82.7929177
+26752,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0977950,-82.7768822
+26753,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0825581,-82.7868078
+26754,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0838198,-82.7909048
+26755,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1052048,-82.7966189
+26756,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1058900,-82.7967111
+26757,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1063237,-82.7972957
+26758,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1051817,-82.7984957
+26759,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1049488,-82.7975657
+26760,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1055463,-82.7949774
+26761,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1081856,-82.8171926
+26762,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1008431,-82.8092066
+26763,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1008818,-82.8114351
+26764,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1104041,-82.7926669
+26765,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1078781,-82.7926814
+26766,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1084958,-82.7950996
+26767,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0351901,-82.9067513
+26768,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0264363,-82.9056163
+26769,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0715208,-82.8497905
+26770,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0707025,-82.8508382
+26771,,,FRA,GREEN SPACE,NOS,,,Parcels,40.1136452,-82.8641838
+26772,,,FRA,GREEN SPACE,NOS,,,Parcels,,
+26773,,,FRA,GREEN SPACE,NOS,,,Parcels,40.0999769,-82.8667973

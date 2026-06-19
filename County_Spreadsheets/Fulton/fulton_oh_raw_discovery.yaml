@@ -1,0 +1,1215 @@
+# Fulton County, OH — Raw Discovery Staging File
+# Natural Areas Project v5.2
+# Session started: 2026-04-13
+# DO NOT normalize or interpret — record raw values from authoritative sources only
+
+county: Fulton
+state: OH
+session_started: "2026-04-13"
+
+entities: []
+
+# ── TIER 1: FEDERAL ──────────────────────────────────────────────────────────
+- tier_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    result: null
+    entities_found: 0
+    sources_checked:
+      - USFWS refuge search (Ohio) — Ottawa NWR is Ottawa County, not Fulton
+      - Web search for NWR/National Forest/Army Corps/BLM in Fulton County OH
+      - Fulton County official website conservation partners page
+    notes: No federal lands (NWR, National Forest, Army Corps, NPS, BLM) identified in Fulton County. Ottawa NWR is nearest federal refuge (Ottawa County, ~60 mi east). No tribal lands in county.
+
+# ── TIER 2: STATE ─────────────────────────────────────────────────────────────
+
+# --- SITES ---
+
+- entity_type: Site
+  name_raw: "Goll Woods State Nature Preserve"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves"
+  partner_agencies_raw: ""
+  coordination_raw: ""
+  acres_raw: "320.64"
+  gps_lat_raw: 41.554461
+  gps_lon_raw: -84.361370
+  location_raw: "5800 County Road 26, Archbold, Ohio 43502"
+  description_raw: "A 321-acre state nature preserve in northwestern Ohio containing a remnant of the historic Great Black Swamp. Features old-growth forest with trees up to 400 years old and 4-foot diameters. Renowned for the number and variety of spring wildflowers, including large-flowered trillium, Ohio's state wildflower, bloodroot, columbine, marsh marigold, spotted coral-root, and three-birds-orchid. Approximately 100 acres designated old-growth forest. National Natural Landmark. Designated a State Nature Preserve."
+  features_raw: "Two parking areas (East lot: 5800 CR 26; West lot); observation deck overlooking Tiffin River; boardwalks through wet areas; multiple benches; vernal pools; kiosk; portable toilet at East lot; Northwest District Preserve Office on site; Goll Cemetery adjacent to trails; 5.25 miles of trails (4 named loops)"
+  urls_raw:
+    - "https://trekohio.com/2017/03/12/goll-woods-state-nature-preserve/"
+    - "https://en.wikipedia.org/wiki/Goll_Woods_State_Nature_Preserve"
+    - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/natural-areas/maps/GOLL_8_5x11.pdf"
+    - "http://naturepreserves.ohiodnr.gov/gollwoods"
+  identity_notes_raw: "Baseline-seeded as 'Goll Woods State Nature Preserve'. Confirmed via ODNR DNAP, TrekOhio, Wikipedia. National Natural Landmark. Only State Nature Preserve confirmed in Fulton County. Acreage varies slightly by source: 320.64 (Wikipedia/baseline), 321 (TrekOhio). East parking GPS confirmed from TrekOhio."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: "Goll Woods State Nature Preserve"
+
+- entity_type: Site
+  name_raw: "Harrison Lake State Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Parks and Watercraft"
+  partner_agencies_raw: ""
+  coordination_raw: ""
+  acres_raw: "142"
+  gps_lat_raw: 41.64361
+  gps_lon_raw: -84.37222
+  location_raw: "26246 Harrison Lake Road, Fayette, Ohio 43521"
+  description_raw: "A 142-acre public recreation area established in 1950, surrounding 95-acre Harrison Lake (created 1939 by damming Mill Creek, a tributary of the Tiffin River). The lake has a maximum depth of fifteen feet near the dam. Popular for swimming, fishing, camping, canoeing, and hiking."
+  features_raw: "Swimming beach; boat ramp; watercraft rental; 3.5-mile hiking trail; 193 campsites (126 electric); camper cabins; yurts; showers; flush toilets; dump station; pet-designated sites; playground; horseshoe pits; picnic areas; disc golf; ADA-compliant site; camp office on site"
+  urls_raw:
+    - "https://en.wikipedia.org/wiki/Harrison_Lake_State_Park"
+    - "https://stateparks.com/harrison_lake_state_park_in_ohio.html"
+    - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/parks/parkmaps/harrisonlakecampmap.pdf"
+  identity_notes_raw: "Baseline-seeded as 'Harrison Lake State Park'. Confirmed via Wikipedia, stateparks.com, TrekOhio. Address confirmed: 26246 Harrison Lake Road, Fayette, OH 43521. GPS from Wikipedia infobox. Lake is 95 acres within 142-acre park boundary. Fish: bluegill, largemouth bass, channel catfish, white crappie, bullhead, northern pike."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: "Harrison Lake State Park"
+
+- entity_type: Site
+  name_raw: "Maumee State Forest"
+  counties_raw: ["Fulton", "Henry", "Lucas"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+  partner_agencies_raw: ""
+  coordination_raw: ""
+  acres_raw: "3452"
+  gps_lat_raw: 41.52056
+  gps_lon_raw: -83.90194
+  location_raw: "3390 County Rd. D, Swanton, OH 43558"
+  description_raw: "A 3,452-acre state forest occupying largely flat land formerly cleared for farming, spanning Fulton, Henry, and Lucas counties. Represents a remnant example of the oak openings habitat that once covered much of Northwest Ohio and Southeast Michigan. A patchwork of non-contiguous parcels. One of only four Ohio State Forests with all-terrain vehicle trails and the only one in Northwest Ohio. Located approximately 3 miles west of Whitehouse and 4 miles south of Swanton."
+  features_raw: "66 miles of hiking trails/firelanes; 8 miles of bridle trails; 8 miles of APV/ATV trails; Stewardship Trail (2-mile self-guided interpretive trail); public hunting; map available from Division of Forestry"
+  urls_raw:
+    - "https://en.wikipedia.org/wiki/Maumee_State_Forest"
+    - "https://ohiodnr.gov/wps/portal/gov/odnr/go-and-do/see-the-sights/lake-erie-birding-trail/oak-openings-loop/maumee-state-forest"
+    - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/forestry/maps/maumee.pdf"
+    - "https://www.thebeacon.net/maumee-state-forest-offers-riders-8-miles-of-apv-trails/"
+  identity_notes_raw: "Baseline-seeded as 'Maumee State Forest (Fulton portion)'. Cross-county entity spanning Fulton, Henry, and Lucas counties. Acreage varies by source: Wikipedia says 3,452 acres; TrekOhio says 3,103; ODNR says 3,332. Using Wikipedia figure (3,452) as most current. Fulton County portion not specifically delineated by source — GIS verification needed. Hold pending cross-county resolution."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: "Maumee State Forest (Fulton portion)"
+
+- entity_type: Site
+  name_raw: "Tiffin River Wildlife Area"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Wildlife"
+  partner_agencies_raw: ""
+  coordination_raw: ""
+  acres_raw: "465"
+  gps_lat_raw: 41.60556
+  gps_lon_raw: -84.31167
+  location_raw: "Ohio State Route 66, between Fayette, Ohio and Archbold, Ohio; parking via County Road 23"
+  description_raw: "A non-contiguous 465-acre State Wildlife Management Area on Ohio State Route 66 in western Fulton County, between Fayette and Archbold. Pheasant releases by Ohio DNR for hunting purposes. Named after the Tiffin River."
+  features_raw: "Public hunting; pheasant releases; parking lot off County Road 23; fishing in Tiffin River and tributaries (catfish, bass, panfish)"
+  urls_raw:
+    - "https://en.wikipedia.org/wiki/Tiffin_River_Wildlife_Area"
+    - "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/tiffin-river-wildlife-area"
+  identity_notes_raw: "NEW DISCOVERY — not in baseline. 465-acre wildlife area in western Fulton County on SR 66 between Fayette and Archbold. Wikipedia and ODNR search confirm Fulton County only. GPS from Wikipedia infobox (41°36′20″N 84°18′42″W). Non-contiguous parcels. Acreage: 465 (Wikipedia) vs 471 (one search result) — using 465 from Wikipedia as primary."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: false
+  baseline_id: ""
+
+- entity_type: Site
+  name_raw: "Fulton Pond Wildlife Area"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Wildlife"
+  partner_agencies_raw: ""
+  coordination_raw: ""
+  acres_raw: "35"
+  gps_lat_raw: 41.5972
+  gps_lon_raw: -83.9278
+  location_raw: "8529 Co Rd 3, Swanton, OH 43558; 2 miles northwest of Swanton; entrance on Township Road 3"
+  description_raw: "A 35-acre state wildlife area located 2 miles northwest of Swanton, Ohio, adjacent to the Ohio Turnpike. Contains a 13-acre pond with 0.7 miles of shoreline."
+  features_raw: "13-acre fishing pond; 0.7 miles shoreline; public fishing; adjacent to Ohio Turnpike; entrance on Township Road 3"
+  urls_raw:
+    - "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/fulton-pond-wildlife-area"
+    - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/maps/fultonpond.pdf"
+  identity_notes_raw: "Baseline-seeded as 'Fulton Pond Wildlife Area'. Confirmed: 35-acre ODNR wildlife area, 8529 Co Rd 3, Swanton, OH 43558. GPS from ODNR fishing map (41.5972°N, 83.9278°W — approximate from map header). 13-acre pond."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: "Fulton Pond Wildlife Area"
+
+# --- TRAILS (Tier 2 — State) ---
+
+- entity_type: Trail
+  name_raw: "Toadshade Trail"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves"
+  partner_agencies_raw: ""
+  length_raw: "1.5 miles"
+  surface_raw: ""
+  use_type_raw: "Hiking"
+  difficulty_raw: ""
+  accessibility_raw: ""
+  urls_raw:
+    - "https://trekohio.com/2017/03/12/goll-woods-state-nature-preserve/"
+    - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/natural-areas/maps/GOLL_8_5x11.pdf"
+  identity_notes_raw: "Named loop trail within Goll Woods State Nature Preserve. Length from TrekOhio. Part of 5.25-mile trail system with 3 other named loops."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: false
+
+- entity_type: Trail
+  name_raw: "Tuliptree Trail"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves"
+  partner_agencies_raw: ""
+  length_raw: "1.25 miles"
+  surface_raw: ""
+  use_type_raw: "Hiking"
+  difficulty_raw: ""
+  accessibility_raw: ""
+  urls_raw:
+    - "https://trekohio.com/2017/03/12/goll-woods-state-nature-preserve/"
+    - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/natural-areas/maps/GOLL_8_5x11.pdf"
+  identity_notes_raw: "Named loop trail within Goll Woods State Nature Preserve. Length from TrekOhio."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: false
+
+- entity_type: Trail
+  name_raw: "Bur Oak Trail"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves"
+  partner_agencies_raw: ""
+  length_raw: "1 mile"
+  surface_raw: ""
+  use_type_raw: "Hiking"
+  difficulty_raw: ""
+  accessibility_raw: ""
+  urls_raw:
+    - "https://trekohio.com/2017/03/12/goll-woods-state-nature-preserve/"
+    - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/natural-areas/maps/GOLL_8_5x11.pdf"
+  identity_notes_raw: "Named loop trail within Goll Woods State Nature Preserve. Length from TrekOhio."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: false
+
+- entity_type: Trail
+  name_raw: "Cottonwood Trail"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas and Preserves"
+  partner_agencies_raw: ""
+  length_raw: "1.5 miles"
+  surface_raw: ""
+  use_type_raw: "Hiking"
+  difficulty_raw: ""
+  accessibility_raw: ""
+  urls_raw:
+    - "https://trekohio.com/2017/03/12/goll-woods-state-nature-preserve/"
+    - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/natural-areas/maps/GOLL_8_5x11.pdf"
+  identity_notes_raw: "Named loop trail within Goll Woods State Nature Preserve. Length from TrekOhio."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: false
+
+- entity_type: Trail
+  name_raw: "Stewardship Trail"
+  counties_raw: ["Fulton", "Henry", "Lucas"]
+  county_primary: Fulton
+  ownership_raw: "State of Ohio"
+  governance_raw: "Ohio Department of Natural Resources, Division of Forestry"
+  partner_agencies_raw: ""
+  length_raw: "2 miles"
+  surface_raw: ""
+  use_type_raw: "Hiking"
+  difficulty_raw: ""
+  accessibility_raw: ""
+  urls_raw:
+    - "https://en.wikipedia.org/wiki/Maumee_State_Forest"
+  identity_notes_raw: "Self-guided interpretive trail within Maumee State Forest. Located in multi-county forest (Fulton/Henry/Lucas). Primary cross-county entity — hold pending county-of-location determination via GIS."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 2
+  seeded_from_baseline: false
+
+# --- Tier 2 NULL results for remaining entity types ---
+
+- tier_result:
+    tier: 2
+    governance_level: State — Trail Segments
+    result: null
+    entities_found: 0
+    sources_checked:
+      - ODNR property pages for Goll Woods, Harrison Lake, Maumee SF, Tiffin River WA, Fulton Pond WA
+    notes: No standalone trail segment entities identified at state tier. Named trails within Goll Woods recorded as Trail entities above. Maumee SF firelanes (66 miles) are unmarked and not individually named; not recordable as trail entities.
+
+- tier_result:
+    tier: 2
+    governance_level: State — Trail Networks
+    result: null
+    entities_found: 0
+    sources_checked:
+      - Maumee State Forest trail system
+      - Goll Woods trail system
+    notes: No formal state-governed trail network entities in Fulton County. Goll Woods trails are a system of loops within a single preserve, not a network entity. Wabash Cannonball Trail is NORTA-governed (Tier 7) — not state tier.
+
+- tier_result:
+    tier: 2
+    governance_level: State — Site Networks
+    result: null
+    entities_found: 0
+    sources_checked:
+      - ODNR property finder for Fulton County
+    notes: No state site network entities identified. ODNR manages 5 discrete properties in Fulton County; no network grouping applicable.
+
+- tier_result:
+    tier: 2
+    governance_level: State — Access Points
+    result: null
+    entities_found: 0
+    sources_checked:
+      - Goll Woods (2 parking lots — these are features of the site, not standalone access points)
+      - Harrison Lake SP (boat ramp, main entrance — park features)
+    notes: No access point entities requiring standalone records at state tier. Parking areas and boat ramps are captured as features_raw of their parent sites.
+
+# ── TIER 2 BASELINE RESOLUTION FLAGS ─────────────────────────────────────────
+# Turkeyfoot Creek Wildlife Area (baseline): NOT CONFIRMED in Fulton County.
+#   North Turkeyfoot Wildlife Area exists in Henry County (2 mi SE of Liberty Center, 458 acres).
+#   No ODNR property named "Turkeyfoot Creek Wildlife Area" found in Fulton County.
+#   ODNR Fulton County wildlife areas confirmed: Tiffin River WA + Fulton Pond WA only.
+#   FLAG: Baseline seed may refer to Henry County entity. Requires review.
+#
+# Archbold Reservoirs Fishing Area (baseline): PARTIALLY CONFIRMED.
+#   Archbold Reservoir #1 and #2 are GNIS-designated water bodies with ODNR fishing maps.
+#   No standalone ODNR property named "Archbold Reservoirs Fishing Area" found.
+#   ODNR stocks these reservoirs; public fishing access confirmed.
+#   The individual reservoirs will be captured as GNIS water sites at appropriate tier.
+#   FLAG: "Archbold Reservoirs Fishing Area" is not a formal ODNR property name.
+
+# ── TIER 3: DISTRICT ──────────────────────────────────────────────────────────
+
+- entity_type: Site
+  name_raw: "Oak Openings Corridor (Metroparks Toledo — Swan Creek Township parcels)"
+  counties_raw: ["Lucas", "Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Metroparks Toledo"
+  governance_raw: "Metroparks Toledo"
+  partner_agencies_raw: "Green Ribbon Initiative partners; Nature Conservancy (Kitty Todd); ODNR Forestry (Maumee State Forest)"
+  coordination_raw: "Green Ribbon Initiative — multi-agency effort to preserve Oak Openings Region"
+  acres_raw: "~1900 total (Lucas + Fulton Counties combined; Fulton County portion unspecified)"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Swan Creek Township, Fulton County, Ohio; and western Lucas County"
+  description_raw: "Conservation land acquired by Metroparks Toledo as part of the Oak Openings Corridor connecting Secor and Oak Openings Preserve Metroparks. Parcels in Swan Creek Township, Fulton County are part of approximately 1,900 total acres acquired in western Lucas County and Fulton County. Goal is to reduce habitat fragmentation in the globally significant Oak Openings Region. Long-range plan includes approximately 13-mile Oak Openings Corridor Trail extending to Swanton. Current trail (completed section 1.9 miles) connects Secor to Wiregrass Lake Metropark in Lucas County."
+  features_raw: "Conservation/natural area parcels; Oak Openings Corridor Trail (planned extension to Swanton); habitat restoration"
+  urls_raw:
+    - "https://metroparkstoledo.com/conservation/highlights/oak-openings-corridor/"
+    - "https://metroparkstoledo.com/discover/oak-openings-corridor-trail/"
+    - "https://en.wikipedia.org/wiki/Metroparks_Toledo"
+  identity_notes_raw: "Cross-county entity (Lucas + Fulton). Fulton County portion is undeveloped conservation land parcels in Swan Creek Township — not a named, publicly accessible park unit. Public access status uncertain. Wikipedia confirms ~1,900 acres in 'western Lucas County and Swan Creek Township, Fulton County.' Individual parcel identities unknown. FLAG: Verify public access status; may not qualify as a public natural area entity. Hold pending GIS parcel resolution."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 3
+  seeded_from_baseline: false
+  baseline_id: ""
+
+- tier_result:
+    tier: 3
+    governance_level: District — Trails
+    result: null
+    entities_found: 0
+    sources_checked:
+      - Metroparks Toledo Oak Openings Corridor Trail page
+    notes: Oak Openings Corridor Trail current section (1.9 mi, Secor to Wiregrass Lake) is entirely in Lucas County. Planned extension to Swanton has no completed Fulton County sections as of discovery date.
+
+- tier_result:
+    tier: 3
+    governance_level: District — Trail Segments / Trail Networks / Site Networks / Access Points
+    result: null
+    entities_found: 0
+    sources_checked:
+      - Metroparks Toledo website
+    notes: No district-governed trail segments, trail networks, site networks, or access points with confirmed Fulton County presence. Wabash Cannonball Trail (NORTA) is Tier 7.
+
+# ── TIER 4: COUNTY ────────────────────────────────────────────────────────────
+
+- tier_result:
+    tier: 4
+    governance_level: County
+    result: null
+    entities_found: 0
+    sources_checked:
+      - Fulton County Visitors Bureau Parks page (visitfultoncounty.com/234/Parks)
+      - Fulton County official website (fultoncountyoh.com)
+      - Search for county park district, county parks, county recreation
+    notes: No county park district in Fulton County. All parks managed by municipalities or state. Fulton County Fairgrounds (190.9 acres, Dover Township) is primarily an event venue, not a natural areas entity. No county-governed natural areas, trails, or access points found.
+
+# ── TIER 5: TOWNSHIP ──────────────────────────────────────────────────────────
+
+- tier_result:
+    tier: 5
+    governance_level: Township
+    result: null
+    entities_found: 0
+    sources_checked:
+      - Fulton County official website townships page (fultoncountyoh.com/347/Townships)
+      - Swancreek Township website (swancreektwp.org) — no parks/rec listed
+      - Clinton Township Fulton County website — no parks listed
+      - Fulton County Health Department parks page
+      - Fulton County Visitors Bureau parks page
+      - Search for township parks across all 8 townships
+    notes: No township-owned parks, natural areas, trails, or access points found across all 8 Fulton County townships (Amboy, Chesterfield, Clinton, Franklin, Fulton, German, Swancreek, York). Townships in Fulton County are administrative/zoning entities only; no township park departments identified. Camp Palmer (4-H, 146 acres adjacent to Harrison Lake SP) is privately governed — recorded at Tier 8.
+
+# ── TIER 6: MUNICIPAL ─────────────────────────────────────────────────────────
+
+# === WAUSEON (City) ===
+
+- entity_type: Site
+  name_raw: "Biddle Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "73.4"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Wauseon, OH"
+  description_raw: "Large athletic complex serving as the primary sports facility for the City of Wauseon."
+  features_raw: "8 baseball/softball fields; 3 tee-ball fields; 3 batting cages; 3 basketball courts; 3 sand volleyball courts; 1 football field; 9 soccer fields"
+  urls_raw:
+    - "https://www.cityofwauseon.com/our-parks"
+    - "https://wauseon.recdesk.com/Community/Facility"
+  identity_notes_raw: "Baseline-seeded as 'Biddle Park'. Confirmed via City of Wauseon parks page. Acreage from mypacer.com (73.4 acres). No street address found in sources — GPS acquisition needed."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Biddle Park"
+
+- entity_type: Site
+  name_raw: "Depot Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "1.9"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Wauseon, OH"
+  description_raw: "A small historic park featuring a preserved train depot and caboose in Wauseon."
+  features_raw: "Historical train depot; preserved train caboose; wooden play train"
+  urls_raw:
+    - "https://www.cityofwauseon.com/our-parks"
+  identity_notes_raw: "Baseline-seeded as 'Depot Park'. Confirmed via Wauseon city parks page. Acreage from mypacer.com (1.9 acres). Historic theme with preserved railroad artifacts."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Depot Park"
+
+- entity_type: Site
+  name_raw: "Rotary Park & Goodwin Preserve"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "4.5"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Wood Street, Wauseon, OH"
+  description_raw: "Combined park and natural area along Wood Street. Rotary Park offers a fishing pond and playground. Goodwin Preserve, established 2004, is a wooded area with grills, picnic spots, and walking trail adjacent to Rotary Park. Parking off Wood Street."
+  features_raw: "Fishing pond; playground; Goodwin Preserve wooded area; grills; picnic spots; walking trail; Rotary Shelter House; parking off Wood Street"
+  urls_raw:
+    - "https://www.cityofwauseon.com/our-parks"
+  identity_notes_raw: "Baseline has separate entries for 'Rotary Park' and 'Goodwin Preserve' — confirmed these are contiguous/connected areas per city parks page. Combined here as single site entity; may need resolution to determine if Goodwin Preserve warrants its own identity. Acreage (4.5) likely covers Rotary portion only."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Rotary Park"
+
+- entity_type: Site
+  name_raw: "Homecoming Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "34.3"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Wauseon, OH"
+  description_raw: "A 34.3-acre municipal park in Wauseon offering a variety of recreational amenities including a wooded walking path and sledding hill."
+  features_raw: "Sledding hill; walking path; wooded walking path; public restrooms; 2 playgrounds; gazebo; pickleball courts; 2 open air pavilions"
+  urls_raw:
+    - "https://www.cityofwauseon.com/our-parks"
+  identity_notes_raw: "Baseline-seeded as 'Homecoming Park'. Confirmed via Wauseon city parks page. Acreage from mypacer.com (34.3 acres)."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Homecoming Park"
+
+- entity_type: Site
+  name_raw: "Memorial Park (Wauseon)"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "2.4"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "West Elm Street, Wauseon, OH"
+  description_raw: "A small neighborhood park opened June 19, 1924, located on West Elm Street just outside downtown Wauseon. Features a war memorial statue."
+  features_raw: "Playground; half basketball court; war memorial statue"
+  urls_raw:
+    - "https://www.cityofwauseon.com/our-parks"
+  identity_notes_raw: "Baseline lists as 'North Park/Memorial Park'. City parks page confirms this is Memorial Park, opened 1924, on West Elm Street. Also referred to as North Park in some sources. Acreage from mypacer.com (2.4 acres)."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "North Park/Memorial Park"
+
+- entity_type: Site
+  name_raw: "Reighard Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "18.5"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "615 Oak St, Wauseon, OH 43567"
+  description_raw: "An 18.5-acre park opened April 3, 1940, featuring Imagination Kingdom playground, the City Pool, three shelter houses, restroom facilities, tennis courts, disc golf course, and winding trails."
+  features_raw: "Disc golf course; City Pool (swimming); Imagination Kingdom playground; 3 shelter houses; restrooms; tennis courts; winding trails"
+  urls_raw:
+    - "https://www.cityofwauseon.com/our-parks"
+    - "https://udisc.com/courses/reighard-park-cRDL"
+  identity_notes_raw: "Baseline-seeded as 'Reighard Park'. Confirmed via Wauseon city parks page and multiple sources. Address: 615 Oak St, Wauseon, OH 43567. Opened 1940."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Reighard Park"
+
+- entity_type: Site
+  name_raw: "South Park (Wauseon)"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Wauseon, OH"
+  description_raw: "A neighborhood park in Wauseon with playground equipment and lighted basketball courts."
+  features_raw: "Playground equipment; 2 lighted basketball courts"
+  urls_raw:
+    - "https://www.cityofwauseon.com/our-parks"
+  identity_notes_raw: "Baseline-seeded as 'South Park'. Confirmed via Wauseon city parks page. No acreage or address found."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "South Park"
+
+- entity_type: Site
+  name_raw: "Wabash Park (Wauseon)"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Wauseon, OH"
+  description_raw: "A neighborhood park in Wauseon featuring a skate park and basic recreational amenities."
+  features_raw: "Playground; half basketball court; skate ramps/equipment (skate park)"
+  urls_raw:
+    - "https://www.cityofwauseon.com/our-parks"
+  identity_notes_raw: "Baseline-seeded as 'Wabash Park'. Confirmed via Wauseon city parks page. No acreage or address found."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Wabash Park"
+
+- entity_type: Site
+  name_raw: "Harmon Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "8.3"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Wauseon, OH"
+  description_raw: "An 8.3-acre park in Wauseon offering walking and running trails in a natural setting."
+  features_raw: "Walking trails; running trails; green space"
+  urls_raw:
+    - "https://www.mypacer.com/parks/c18dt/wauseon-ohio"
+  identity_notes_raw: "NEW DISCOVERY — not in baseline. Confirmed via mypacer park listing for Wauseon. 8.3 acres. No street address found. GPS acquisition needed."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: false
+
+# Wauseon Trail
+- entity_type: Trail
+  name_raw: "Cannonball Trail (Wauseon)"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "City of Wauseon"
+  governance_raw: "City of Wauseon / Trail Partners"
+  partner_agencies_raw: "Northwestern Ohio Rails-to-Trails Association (NORTA)"
+  length_raw: "2 miles"
+  surface_raw: "Asphalt/blacktop"
+  use_type_raw: "Multi-Use (walking, running, biking, rollerblading)"
+  difficulty_raw: ""
+  accessibility_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  urls_raw:
+    - "https://www.wauseon.org/parks-recreation/"
+    - "https://www.cityofwauseon.com/our-parks"
+  identity_notes_raw: "Baseline has two duplicate entries: 'Cannonball Trail (Wauseon Segment)' and 'Cannonball Trail'. Same 2-mile urban segment of the Wabash Cannonball Trail crossing Wauseon East to West. Identity parent: Wabash Cannonball Trail (WIL-TR-003). This is best recorded as a trail segment of the Wabash Cannonball Trail. Baseline GPS given as 41.5480,-84.1410."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Cannonball Trail (Wauseon Segment)"
+
+# === ARCHBOLD (Village) ===
+
+- entity_type: Site
+  name_raw: "Lion's Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Archbold"
+  governance_raw: "Village of Archbold Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "East Holland Street, Archbold, OH"
+  description_raw: "A small neighborhood park on East Holland Street in Archbold."
+  features_raw: "Basketball court; playground equipment"
+  urls_raw:
+    - "https://www.archbold.com/parks___recreation/parks.php"
+  identity_notes_raw: "Baseline-seeded as \"Lion's Park\". Confirmed via Archbold parks page. Small neighborhood park. No acreage listed."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Lion's Park"
+
+- entity_type: Site
+  name_raw: "Memorial Park (Archbold)"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Archbold"
+  governance_raw: "Village of Archbold Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "40"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "South side of Archbold, OH"
+  description_raw: "A 40+ acre park on the south side of Archbold, home to baseball and softball programs and featuring monuments honoring military service."
+  features_raw: "Volleyball courts; basketball courts; large playground; 4 tennis courts; restrooms; picnic shelter; baseball/softball fields; military monuments"
+  urls_raw:
+    - "https://www.archbold.com/parks___recreation/parks.php"
+    - "https://archboldparks.recdesk.com/Community/Facility"
+  identity_notes_raw: "Baseline-seeded as 'Memorial Park' (Archbold). Confirmed via Archbold parks page. 40+ acres. South side of Archbold. Home to baseball/softball programs including Memorial Park Ball Fields."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Memorial Park"
+
+- entity_type: Site
+  name_raw: "North Pointe Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Archbold"
+  governance_raw: "Village of Archbold Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "St. Anne & Primrose Streets, Archbold, OH"
+  description_raw: "A residential area neighborhood park centrally located near the intersection of St. Anne and Primrose Streets."
+  features_raw: "Playground; lighted basketball court; picnic shelter; sledding hill"
+  urls_raw:
+    - "https://www.archbold.com/parks___recreation/parks.php"
+  identity_notes_raw: "Baseline-seeded as 'North Pointe Park'. Confirmed via Archbold parks page. No acreage listed."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "North Pointe Park"
+
+- entity_type: Site
+  name_raw: "Ruihley Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Archbold"
+  governance_raw: "Village of Archbold Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "27"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Holland and Walnut Streets, Archbold, OH"
+  description_raw: "A 27-acre community park in the center of Archbold, described as 'beautiful and serene,' serving as a major community events venue."
+  features_raw: "Pavilion; Scout Cabin; Cottage; community pool; splash pad; pickleball courts; playgrounds; walking paths; volleyball courts; restrooms"
+  urls_raw:
+    - "https://www.archbold.com/parks___recreation/parks.php"
+    - "https://archboldparks.recdesk.com/Community/Facility?type=2"
+  identity_notes_raw: "Baseline-seeded as 'Ruihley Park'. Confirmed via Archbold parks page. 27 acres. Holland & Walnut Streets intersection area."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Ruihley Park"
+
+- entity_type: Site
+  name_raw: "South Street Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Archbold"
+  governance_raw: "Village of Archbold Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "South Street & West Street, Archbold, OH"
+  description_raw: "A neighborhood park at the corner of South and West Streets in Archbold with recent playground improvements."
+  features_raw: "Playground equipment; resurfaced basketball court; trees"
+  urls_raw:
+    - "https://www.archbold.com/parks___recreation/parks.php"
+  identity_notes_raw: "Baseline-seeded as 'South Street Park'. Confirmed via Archbold parks page. Corner of South & West Streets. No acreage listed."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "South Street Park"
+
+- entity_type: Site
+  name_raw: "Woodland Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Archbold"
+  governance_raw: "Village of Archbold Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "60"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Adjacent to Woodland Oaks subdivision, SR 66, Archbold, OH"
+  description_raw: "A large (approximately 60-acre) park adjacent to the Woodland Oaks subdivision on SR 66, described as the 'newest addition' to Archbold's park system. Features a disc golf course and wooded recreation area."
+  features_raw: "Playground; restrooms; concession stand; basketball courts; walking trails; disc golf course; flag football/soccer fields"
+  urls_raw:
+    - "https://www.archbold.com/parks___recreation/parks.php"
+  identity_notes_raw: "Baseline-seeded as 'Woodland Park'. Confirmed via Archbold parks page. ~60 acres. SR 66 adjacent to Woodland Oaks. Newest park in Archbold system."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Woodland Park"
+
+# === DELTA (Village) ===
+
+- entity_type: Site
+  name_raw: "Delta Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Delta"
+  governance_raw: "Village of Delta Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "23"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Delta, OH"
+  description_raw: "The primary active park in the Village of Delta, established in 1955. Home to the annual Delta Chicken Festival (2nd weekend of July)."
+  features_raw: "2 sand volleyball courts; 2 basketball courts; skate park; 4 sets of playground equipment; 7 baseball/softball diamonds; 3 shelter houses (1 rentable); extensive soccer complex"
+  urls_raw:
+    - "https://www.villageofdelta.org/1207/Parks-Recreation"
+  identity_notes_raw: "Not directly seeded in baseline (baseline had GNIS features for Delta Reservoir #1/#2). Delta Park is the primary municipal park, established 1955 on 23 acres. Named 'Delta Municipal Park' in some sources. Also known simply as 'Delta Park.'"
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: false
+
+- entity_type: Site
+  name_raw: "Wildwood Park (Delta)"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Delta"
+  governance_raw: "Village of Delta Parks & Recreation"
+  partner_agencies_raw: ""
+  acres_raw: "7"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Adrian Street, north end of Greenlawn Cemetery, Delta, OH"
+  description_raw: "Delta's first park, established July 1926 on a 7-acre property historically known as 'Longnecker Grove.' Originally featured swings, slides, ball diamonds, a bandstand, and winter ice skating. Now described as overgrown and no longer maintained."
+  features_raw: "Abandoned/overgrown; historically: playground, ball diamonds, bandstand, ice skating"
+  urls_raw:
+    - "https://www.villageofdelta.org/1207/Parks-Recreation"
+  identity_notes_raw: "NEW DISCOVERY — not in baseline as a park. Corresponds to GNIS feature 'Longnecker Grove' (baseline seed, GPS 41.5764407,-84.0152237). Established 1926 on 'Longnecker Grove' property. Now described as 'overgrown and no longer maintained.' FLAG: Active status uncertain — may be an inactive/abandoned park. Longnecker Grove (GNIS) and Wildwood Park may be the same location."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: false
+
+# === FAYETTE (Village) ===
+
+- entity_type: Site
+  name_raw: "Hatcher Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Fayette"
+  governance_raw: "Village of Fayette Parks Department"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Fayette, OH"
+  description_raw: ""
+  features_raw: ""
+  urls_raw:
+    - "https://www.villageoffayette.com/2152/Parks-Recreation"
+  identity_notes_raw: "Baseline-seeded as 'Hatcher Park', Fayette OH. Fayette parks page mentions only baseball/softball diamonds and does not list individual park names. Existence not independently confirmed from authoritative source. FLAG: Map verification required. PENDING/UNVERIFIED."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Hatcher Park"
+
+- entity_type: Site
+  name_raw: "Normal Grove Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Fayette"
+  governance_raw: "Village of Fayette Parks Department"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Fayette, OH"
+  description_raw: ""
+  features_raw: ""
+  urls_raw:
+    - "https://www.villageoffayette.com/2152/Parks-Recreation"
+  identity_notes_raw: "Baseline-seeded as 'Nomal Grove Park' (likely spelling error for 'Normal Grove Park'). Mentioned in Fayette village photo gallery per search results. Not detailed on official parks page. FLAG: Map verification required. PENDING/UNVERIFIED. Baseline name may be misspelled."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Nomal Grove Park"
+
+# === LYONS (Village) ===
+
+- entity_type: Site
+  name_raw: "Dunbar-Ingall Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Lyons"
+  governance_raw: "Village of Lyons"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "West Morenci Street (OH-120), Lyons, OH"
+  description_raw: "A community park along West Morenci Street hosting community events including the annual tree lighting ceremony. The village accepted a 3/4-acre land donation for park expansion."
+  features_raw: "Community event space; planned gazebo; green space"
+  urls_raw:
+    - "https://www.lyons-ohio.com/community-parks.html"
+  identity_notes_raw: "Baseline-seeded as 'Dunbar-Ingall Park'. Confirmed via Lyons village community parks page. Located on West Morenci St (OH-120). Recent 3/4-acre land donation. Gazebo improvement planned."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Dunbar-Ingall Park"
+
+- entity_type: Site
+  name_raw: "Green Memorial Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Lyons"
+  governance_raw: "Village of Lyons"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Lyons, OH"
+  description_raw: ""
+  features_raw: ""
+  urls_raw:
+    - "https://www.lyons-ohio.com/community-parks.html"
+  identity_notes_raw: "Baseline-seeded as 'Green Memorial Park'. Listed on Lyons village community parks page but no specific details available. FLAG: Map verification needed for address and features."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Green Memorial Park"
+
+- entity_type: Site
+  name_raw: "Lyons Community Ball Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Lyons"
+  governance_raw: "Village of Lyons"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Lyons, OH"
+  description_raw: "Public ball fields in the Village of Lyons."
+  features_raw: "Ball park facilities; baseball/softball fields"
+  urls_raw:
+    - "https://www.lyons-ohio.com/community-parks.html"
+  identity_notes_raw: "Baseline-seeded as 'Lyons Community Ball Park'. Listed on Lyons village community parks page. FLAG: Map verification needed for address."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Lyons Community Ball Park"
+
+# === METAMORA (Village) ===
+
+- entity_type: Site
+  name_raw: "Metamora Community Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Metamora"
+  governance_raw: "Village of Metamora"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Metamora, OH"
+  description_raw: "Community park in the Village of Metamora hosting annual 'Park O Rama' events and community gatherings. Five acres on the west side designated for soccer tournaments."
+  features_raw: "Soccer fields (5-acre west side); 2 modern-style pavilions (1 with restrooms); asphalt walking trail; large covered seating areas with picnic tables"
+  urls_raw:
+    - "https://www.metamoraohio.org/"
+    - "https://www.visitfultoncounty.com/Calendar.aspx?EID=882"
+  identity_notes_raw: "NEW DISCOVERY — not in baseline. Confirmed via search results and Fulton County Visitors Bureau calendar. Village-governed park hosting annual Park O Rama festival. No acreage or address found in sources — map verification needed."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: false
+
+# === SWANTON (Village — note: split Fulton/Lucas counties) ===
+
+- entity_type: Site
+  name_raw: "Pilliod Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Swanton"
+  governance_raw: "Village of Swanton"
+  partner_agencies_raw: ""
+  acres_raw: "4.0"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Adjacent to Swanton Public Library, Swanton, OH"
+  description_raw: "A 4-acre picturesque park adjacent to the Swanton Public Library, featuring Swanton's preserved red caboose, gazebos, and a paved walkway. Home to the village's annual holiday light display."
+  features_raw: "Red caboose; gazebos; paved walkway; holiday light display"
+  urls_raw:
+    - "https://visitfultoncounty.com/240/Pilliod-Parik"
+    - "https://visitfultoncounty.com/239/Village-of-Swanton-Parks"
+  identity_notes_raw: "Baseline-seeded as 'Pilliod Park'. Confirmed via Fulton County Visitors Bureau. 4 acres. Adjacent to Swanton Public Library. Red caboose a notable feature. Note: Swanton is split between Fulton and Lucas counties — GIS verification needed to confirm which county portion this park falls in."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Pilliod Park"
+
+- entity_type: Site
+  name_raw: "Rotary Park (Swanton)"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Swanton"
+  governance_raw: "Village of Swanton"
+  partner_agencies_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Swanton, OH (adjacent to Pilliod Park)"
+  description_raw: "A small park described as an 'offshoot of Pilliod Park' in Swanton."
+  features_raw: ""
+  urls_raw:
+    - "https://visitfultoncounty.com/241/Rotary-Park"
+    - "https://visitfultoncounty.com/239/Village-of-Swanton-Parks"
+  identity_notes_raw: "Baseline-seeded as 'Rotary Park' (Swanton). Described as an offshoot/extension of Pilliod Park. Very limited information — may be a very small park or green space adjacent to Pilliod. FLAG: Map verification required. Note: Swanton split between Fulton/Lucas — GIS needed."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Rotary Park"
+
+- entity_type: Site
+  name_raw: "Swanton Memorial Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Village of Swanton"
+  governance_raw: "Village of Swanton"
+  partner_agencies_raw: ""
+  acres_raw: "30"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "Swanton, OH"
+  description_raw: "A large community park of 30+ acres in Swanton, with Ai Creek running through the park. Land originally donated by the McNeill family."
+  features_raw: "Baseball diamonds; soccer fields; sand volleyball courts; tennis/pickleball courts; basketball courts; playgrounds; WWI Doughboy statue"
+  urls_raw:
+    - "https://visitfultoncounty.com/242/Swanton-Memorial-Park"
+    - "https://snoflo.org/parks/ohio/swanton-memorial-park"
+  identity_notes_raw: "Baseline-seeded as 'Swanton Memorial Park'. Confirmed via Fulton County Visitors Bureau. 30+ acres. Ai Creek runs through park. Land donated by McNeill family. Baseline noted a 'WWI Doughboy statue.' Note: Swanton split between Fulton/Lucas counties — GIS verification needed."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: "Swanton Memorial Park"
+
+# === Tier 6 NULL results ===
+- tier_result:
+    tier: 6
+    governance_level: Municipal — Trail Segments
+    result: null
+    entities_found: 0
+    sources_checked:
+      - Wauseon, Archbold, Delta, Fayette, Lyons, Metamora, Swanton official sources
+    notes: Cannonball Trail (Wauseon) recorded as Trail entity above. No other named trail segments found at municipal tier.
+
+- tier_result:
+    tier: 6
+    governance_level: Municipal — Trail Networks / Site Networks / Access Points
+    result: null
+    entities_found: 0
+    sources_checked:
+      - All municipal park pages reviewed
+    notes: No municipal-governed trail networks, site networks, or access points requiring standalone records.
+
+# ── TIER 7: CONSERVANCY & LAND TRUST ─────────────────────────────────────────
+
+# --- TRAILS ---
+
+- entity_type: Trail
+  name_raw: "Wabash Cannonball Trail (North Fork)"
+  counties_raw: ["Fulton", "Henry", "Williams", "Lucas"]
+  county_primary: Fulton
+  ownership_raw: "Northwestern Ohio Rails-to-Trails Association (NORTA)"
+  governance_raw: "Northwestern Ohio Rails-to-Trails Association (NORTA)"
+  partner_agencies_raw: "Metroparks Toledo (Lucas County section); City of Wauseon (2-mile paved Wauseon segment)"
+  coordination_raw: "North Country National Scenic Trail affiliate"
+  length_raw: "64.1 miles total (North Fork ~46 miles); Fulton County section unpaved except 2-mile Wauseon segment"
+  surface_raw: "Mixed: asphalt (Lucas County and Wauseon segment); hard-packed cinder ballast / crushed stone (Fulton, Henry, Williams counties)"
+  use_type_raw: "Multi-Use (walking, running, biking, rollerblading)"
+  difficulty_raw: ""
+  accessibility_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  urls_raw:
+    - "https://www.wabashcannonballtrail.org/"
+    - "https://www.traillink.com/trail/wabash-cannonball-trail/"
+    - "https://en.wikipedia.org/wiki/Wabash_Cannonball_Trail"
+    - "https://visitfultoncounty.com/261/Wabash-Cannonball-Trail"
+    - "https://metroparkstoledo.com/trails/wabash-cannonball-trail/"
+  identity_notes_raw: "Baseline-seeded as 'Wabash Cannonball Trail (North Fork)'. Cross-county rail trail: Fulton, Henry, Williams, Lucas counties. NORTA owns/maintains Fulton, Henry, Williams sections (32 miles); Metroparks Toledo manages Lucas section. North Fork is 46 miles (Maumee to Montpelier); South Fork 17 miles. Fulton County access points include: (1) CR 23 north of US 20A trailhead (parking, kiosk, pollinator garden, horse trailer parking); (2) Wauseon city parks (Rotary, Wabash, Reighard) along paved 2-mile city segment; (3) Fraker Mill covered bridge (1/2 mile east of SR 109, spans Bad Creek). CROSS-COUNTY entity — already recorded in DB as WIL-TR-003 (Williams County anchor). FUL-TR record needed as Fulton County anchor, or upgrade both to cross-county trail network entity during resolution. Baseline also contains two duplicate Wauseon segment entries — resolved by Cannonball Trail (Wauseon) trail entity at Tier 6."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 7
+  seeded_from_baseline: true
+  baseline_id: "Wabash Cannonball Trail (North Fork)"
+
+# --- SITES ---
+
+- entity_type: Site
+  name_raw: "Pettisville Community Park"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "PARC Inc. (501(c)(3) non-profit)"
+  governance_raw: "PARC Inc."
+  partner_agencies_raw: "Village of Pettisville"
+  coordination_raw: ""
+  acres_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "18405 County Road D-E, Pettisville, OH 43553"
+  description_raw: "A community park in the Village of Pettisville operated by PARC Inc., a 501(c)(3) non-profit. Funded by biennial Friendship Days festivals and pavilion rentals. Located on Dame Street (County Road D-E) east of town."
+  features_raw: "Pickleball courts; basketball courts (lighted); pavilion (rentable, seats 120); fountain; recycling facilities; fishing derby location; community event space"
+  urls_raw:
+    - "https://www.pettisvillepark.org/"
+    - "https://www.pettisvillepark.org/park-info"
+  identity_notes_raw: "Originally captured as Tier 6 (Municipal) but governance is PARC Inc. (501(c)(3) non-profit), not the Village of Pettisville — moved to Tier 7. Address: 18405 County Road D-E, Pettisville, OH 43553. Acreage from mypacer: 26.6 acres. Open year-round 7am-11pm. Biannual Friendship Days festival as primary fundraiser."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 7
+  seeded_from_baseline: false
+
+# --- Access Points for Wabash Cannonball Trail in Fulton County ---
+
+- entity_type: "Access Point"
+  name_raw: "Wabash Cannonball Trail — CR 23 Trailhead (Wauseon)"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Northwestern Ohio Rails-to-Trails Association (NORTA)"
+  governance_raw: "Northwestern Ohio Rails-to-Trails Association (NORTA)"
+  partner_agencies_raw: ""
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "County Road 23, north of US 20A, Wauseon area, Fulton County, OH"
+  description_raw: "Primary trailhead for the Wabash Cannonball Trail (North Fork) in the Wauseon area. Located north of US 20A on Fulton County Road 23."
+  features_raw: "Parking (including horse trailer parking); information kiosk; pollinator garden"
+  urls_raw:
+    - "https://www.wabashcannonballtrail.org/trail-access/"
+  identity_notes_raw: "Named access point for Wabash Cannonball Trail at CR 23, north of US 20A. Includes horse trailer parking per search result. Parent entity: Wabash Cannonball Trail (FUL-TR or cross-county entity). GPS needed — map verification required."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 7
+  seeded_from_baseline: false
+
+- tier_result:
+    tier: 7
+    governance_level: Conservancy — Trail Segments / Trail Networks / Site Networks
+    result: null
+    entities_found: 0
+    sources_checked:
+      - Black Swamp Conservancy website (no named public-access Fulton County preserves confirmed)
+      - The Nature Conservancy (Kitty Todd is Lucas County, not Fulton)
+      - NORTA / Wabash Cannonball Trail sources
+    notes: No conservancy-governed trail segments, trail networks, or site networks identified in Fulton County. Black Swamp Conservancy works in Fulton County but no named public-access owned properties confirmed. Kitty Todd (TNC) is Lucas County. Pettisville Community Park and WCT recorded above.
+
+# ── TIER 8: PRIVATE ───────────────────────────────────────────────────────────
+
+- entity_type: Site
+  name_raw: "Sauder Village"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Sauder Village (private non-profit)"
+  governance_raw: "Sauder Village"
+  partner_agencies_raw: ""
+  acres_raw: "235"
+  gps_lat_raw: 41.542968
+  gps_lon_raw: -84.30179
+  location_raw: "22611 State Route 2, Archbold, OH 43502"
+  description_raw: "Ohio's largest living-history museum recreating life in Northwest Ohio's Great Black Swamp from 1803 to 1928. Three distinct areas: 1800s crafts/buildings, a 1920s small town, and pioneer-era buildings. Open seasonally late April to late October. Admission charged (~$25/person)."
+  features_raw: "Historic village buildings; 1800s and 1920s era displays; train ride; horse-drawn carriage; museum; Sauder Heritage Inn (98 rooms, indoor pool); 87-site campground; splash pad; fishing; bike trail; playground"
+  urls_raw:
+    - "https://saudervillage.org/"
+    - "https://www.campingroadtrip.com/campgrounds/campground/campground/1577/ohio/sauder-village-campground"
+  identity_notes_raw: "Baseline-seeded as 'Sauder Village' (Private/Restricted). 235 acres at 22611 SR 2, Archbold OH. GPS from baseline (41.542968,-84.30179). Admission-based public access (seasonal). Living history museum with campground component."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 8
+  seeded_from_baseline: true
+  baseline_id: "Sauder Village"
+
+- entity_type: Site
+  name_raw: "Bracy Gold Bison Ranch"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Bracy Gold (private)"
+  governance_raw: "Bracy Gold Bison Ranch (private owner)"
+  partner_agencies_raw: ""
+  acres_raw: "55"
+  gps_lat_raw: 41.6379
+  gps_lon_raw: -83.9316
+  location_raw: "11616 County Road 4, Swanton, OH"
+  description_raw: "A 55-acre working bison ranch established in 2018, home to grass-fed bison and free-range chickens. Offers tractor-drawn wagon tours into the bison pasture by appointment (mid-May through September). Also offers RV and tent camping on the working ranch. Farm store selling bison meat and products."
+  features_raw: "Wagon tours (by appointment); RV and tent camping; farm store (bison meat, products); annual Great Pumpkin Drop-Off event; bison pasture"
+  urls_raw:
+    - "https://bracygoldbison.com/"
+    - "https://visitfultoncounty.com/299/Bracy-Gold-Bison-Ranch--A-Hidden-Gem-in-"
+    - "https://www.hipcamp.com/en-US/land/ohio-bracy-gold-bison-ranch-xryhknpm"
+  identity_notes_raw: "Baseline-seeded as 'Bracy Gold Bison Ranch' (Private/Restricted). GPS from baseline (41.6379,-83.9316). 55 acres. Tours by appointment; not open-access. Established 2018."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 8
+  seeded_from_baseline: true
+  baseline_id: "Bracy Gold Bison Ranch"
+
+- entity_type: Site
+  name_raw: "4-H Camp Palmer"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "4-H members (11 Northwestern Ohio counties)"
+  governance_raw: "4-H Camp Palmer Inc. / Ohio State University Extension"
+  partner_agencies_raw: "Ohio State University Extension"
+  acres_raw: "146"
+  gps_lat_raw: ""
+  gps_lon_raw: ""
+  location_raw: "26450 County Road MN, Fayette, OH 43521; adjacent to Harrison Lake State Park"
+  description_raw: "A 146-acre privately owned youth camp adjacent to Harrison Lake State Park, operated by 4-H Camp Palmer Inc. for 4-H members across 11 Northwestern Ohio counties. Offers youth summer camps, school group retreats, outdoor education, and rental programs. Not open for general public day use."
+  features_raw: "High ropes course; team building; archery range; canoe programs; swimming pool; shooting sports; Woodland Lodge; Rob's Cabin; rustic cabins; recreation hall; dining hall; Craft Hall; Nature Lab; sports field; sand volleyball court; tennis court; basketball court; miniature golf; Adirondack Shelter"
+  urls_raw:
+    - "https://www.camppalmer.org/"
+    - "https://buckeyefunder.osu.edu/4hcamppalmer"
+  identity_notes_raw: "Baseline-seeded as 'Camp Palmer' (4-H Park, Private/Seasonal). 146 acres adjacent to Harrison Lake SP. Address: 26450 County Road MN, Fayette, OH 43521. Not open to general public — programmatic access only (registered camps, school groups, rentals)."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 8
+  seeded_from_baseline: true
+  baseline_id: "Camp Palmer"
+
+- entity_type: Site
+  name_raw: "Robert Fulton Agriculture Center"
+  counties_raw: ["Fulton"]
+  county_primary: Fulton
+  ownership_raw: "Ohio State University Extension"
+  governance_raw: "OSU Extension / Fulton County"
+  partner_agencies_raw: "Fulton County"
+  acres_raw: ""
+  gps_lat_raw: 41.5676
+  gps_lon_raw: -84.1425
+  location_raw: "8770 State Route 108, Wauseon, OH 43567"
+  description_raw: "An OSU Extension facility with land lab and educational programming for agriculture and natural resource topics in Fulton County."
+  features_raw: "Land lab; educational programming; agricultural research"
+  urls_raw:
+    - "https://fulton.osu.edu/"
+  identity_notes_raw: "Baseline-seeded as 'Robert Fulton Agriculture Center' (Extension Research Site, Public Educational). GPS from baseline (41.5676,-84.1425). Educational/research facility — limited public access. Not a traditional natural area entity; include for completeness per baseline."
+  township_raw: ""
+  municipality_raw: ""
+  discovery_tier: 8
+  seeded_from_baseline: true
+  baseline_id: "Robert Fulton Agriculture Center"
+
+- tier_result:
+    tier: 8
+    governance_level: Private — Trails / Trail Segments / Networks / Access Points
+    result: null
+    entities_found: 0
+    sources_checked:
+      - Sauder Village website (campground bike trail is an internal amenity, not a standalone entity)
+      - Camp Palmer website (internal trail not a standalone entity)
+    notes: No private-tier trail, trail segment, trail network, site network, or access point entities requiring standalone records.

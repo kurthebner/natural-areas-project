@@ -1,0 +1,1737 @@
+records:
+- entity_type: Trail
+  name_raw: North Country National Scenic Trail
+  counties_raw:
+  - Multi-state — passes through Putnam County, Ohio via Buckeye Trail Delphos Section
+    corridor
+  county_primary: Putnam
+  ownership_raw: United States of America / National Park Service
+  governance_raw: National Park Service
+  partner_agencies_raw: North Country Trail Association; Buckeye Trail Association
+  coordination_raw: Buckeye Trail Association (co-routes in Ohio); trail volunteers;
+    ODNR (canal land)
+  difficulty_raw: ''
+  accessibility_raw: ''
+  trail_use_type_raw: Hiking
+  trail_surface_type_raw: ''
+  length_raw: ''
+  description_raw: 'The North Country National Scenic Trail is the longest trail in
+    the National Trails System, stretching approximately 4,800 miles across eight
+    states from North Dakota to Vermont. In Ohio, the NCT co-routes with the Buckeye
+    Trail for approximately 90% of its ~1,076-mile Ohio course. In Putnam County,
+    the NCT follows the Buckeye Trail Delphos Section corridor (46.5 total miles,
+    22.7 off-road miles). The Delphos Section passes through Fort Jennings and Ottoville
+    in Putnam County before the trail continues north to Junction in Paulding County
+    (northern terminus of the Delphos Section). The northern half of the section transitions
+    from the canal towpath to county and township roads. Chapter: Miami and Erie Canal
+    Chapter (BTA). Page last updated: March 14, 2026 per BTA website.'
+  features_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://www.nps.gov/noco/index.htm
+  - https://northcountrytrail.org/the-trail/ohio/
+  - https://buckeyetrail.org/sections/delphos.php
+  identity_notes_raw: 'MC_SUPPLEMENTAL:DEF-T-001 — Existing DB record DEF-T-001 (anchored
+    Defiance County) lists counties: Defiance; Henry; Lucas; Paulding but does NOT
+    include Putnam. NCT co-routes with BT Delphos Section (PAU-TR-003). BTA Delphos
+    Section page (buckeyetrail.org/sections/delphos.php, last updated Mar 14 2026)
+    explicitly lists Counties: Auglaize, Allen, Putnam, Paulding and emergency services
+    table includes Putnam row (sheriff 419.523.3208). Trail passes through Fort Jennings
+    and Ottoville (both Putnam County) before ending at Junction (Paulding County).
+    PUT-F-01: DEF-T-001.counties field must be updated to include Putnam at pipeline
+    stage. No NCT-specific named segments identified for Putnam County; BT Delphos
+    Section is BTA organizational unit (4 counties). Abutting BTA sections: St. Marys
+    (south) and Defiance (north). No federal trailheads documented for Putnam County
+    portion — access at Fort Jennings and Ottoville likely locally managed.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 1
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Trail Network
+    result: known_existing
+    db_record: PAU-TN-001
+    sources_checked:
+    - https://www.nps.gov/noco/index.htm
+    - https://northcountrytrail.org/the-trail/ohio/
+    reasoning: North Country NST network already in DB as PAU-TN-001 (Multi-state,
+      NPS). KNOWN_MC:PAU-TN-001. No new Trail Network record needed — Putnam County
+      presence documented via NCT trail record in this tier.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - NPS NOCO (nps.gov/noco) — no NPS-managed sites in Putnam County
+    - USFWS fws.gov — no National Wildlife Refuges in Putnam County; nearest are Ottawa
+      NWR / Cedar Point NWR (Ottawa/Erie counties near Lake Erie)
+    - USACE — no flood-control lakes or project boundaries in Putnam County (Blanchard
+      River flows through county; no USACE impoundments identified)
+    - BLM — minimal Ohio BLM holdings; no BLM parcels in Putnam County; Wayne NF is
+      southeastern Ohio only
+    - DoD — no military installations in Putnam County, Ohio
+    - USFS Wayne National Forest — southeastern Ohio; no USFS land in Putnam County
+    reasoning: No federal Sites found in Putnam County. County is flat agricultural
+      land in northwest Ohio with no National Parks, Wildlife Refuges, Army Corps
+      lakes, BLM parcels, National Forest, or DoD installations. Only federal presence
+      is the NCT (Trail entity only, not a Site). USFWS returned 404 on county-specific
+      query; no refuge listing for Putnam County.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - https://www.nps.gov/noco/index.htm
+    - https://northcountrytrail.org/the-trail/ohio/
+    - https://buckeyetrail.org/sections/delphos.php
+    reasoning: No NCT-specific named operational segments for Putnam County. BT Delphos
+      Section designation is a BTA organizational unit covering 4 counties — not an
+      NCT-specific named segment. No federally designated segment identifiers found
+      for Putnam County portion of NCT.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - https://www.nps.gov/noco/index.htm
+    - 'NPS National Heritage Areas — Ohio NHAs: Ohio & Erie Canalway (northeast Ohio),
+      National Aviation Heritage Area (Dayton area); neither covers Putnam County'
+    reasoning: No federal Site Networks in Putnam County. No NHA designation covers
+      Putnam County. No other multi-site federal designation found.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - https://www.nps.gov/noco/index.htm
+    - 'https://buckeyetrail.org/sections/delphos.php — confirmed via Chrome browser
+      (Mar 14 2026 page); trail towns in Putnam County: Fort Jennings, Ottoville;
+      no federal trailheads or parking areas documented on page'
+    reasoning: No federal Access Points in Putnam County confirmed via Chrome view
+      of BTA Delphos Section page. Trail passes through Fort Jennings and Ottoville
+      (Putnam County) on county/township roads and canal towpath — access points in
+      these towns would be locally or ODNR-managed, not federal. No NPS or BTA-documented
+      federal trailhead parking areas in Putnam County on this section.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal & Tribal
+    entity_type: Tribal Site
+    result: 'null'
+    sources_checked:
+    - BIA — no federally recognized tribal trust lands in Putnam County, Ohio
+    - Ohio has no reservation lands; Ottawa Tribe of Oklahoma has ancestral ties (Ottawa,
+      OH named for them) but holds no current trust land in Putnam County
+    - County GIS — no tribal-owned parcels identified
+    reasoning: No tribal trust lands, reservations, or tribal fee-simple parcels in
+      Putnam County. Ohio has no reservation lands. Ottawa Tribe and Miami Tribe have
+      ancestral connections to the region but hold no current federal trust land here.
+      No formally recognized tribal cultural sites identified in Putnam County from
+      available sources.
+- entity_type: Site
+  name_raw: Cascade Wayside Wildlife Area
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: State of Ohio / Ohio Department of Natural Resources
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  location_raw: Cloverdale, OH 45827
+  acres_raw: '36 (ODNR website, 2025); SORP 2023 CSV shows 3 parcels totaling ~37.38
+    ac (370601200000: 19.62 + 370601300000: 11.68 + 370601400000: 6.08); SORP 2025
+    REST service shows same 3 parcels totaling ~62.78 ac — discrepancy flagged, likely
+    ODNR parcel acquisition 2023-2025'
+  description_raw: This 36-acre wildlife area is located in Putnam County. It is comprised
+    of mostly woodlands along the Auglaize River.
+  features_raw: River; Woods; Hunting; Birding; Fishing
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/cascade-wayside-wildlife-area
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property?county=Putnam
+  identity_notes_raw: 'PUT-F-03 RESOLVED: Official ODNR name confirmed as "Cascade
+    Wayside Wildlife Area" — baseline seed "Cascade State Wildlife Area" (~35 ac)
+    is a misnaming of this entity; baseline seed "Cascade Wayside Wildlife Area" (36
+    ac) matches exactly. ODNR property finder (county=Putnam) returned 1 destination
+    — this is the only ODNR property in Putnam County. Located along Auglaize River
+    near Cloverdale (Putnam/Hancock county line area); ODNR page explicitly states
+    "located in Putnam County." Phone: (419) 424-5000. Map PDF available on ODNR page
+    (Cascade Wildlife Area Map). Also referenced in ODNR hunting maps as "Cascade
+    Putnam Wildlife Area" — same entity. | SORP25-CROSS-CHECK: Cascade WA confirmed
+    via SORP25 REST service (CscdWysdWA, DIV_CODE 740, CODED_NAME CscdWysdWA). SORP25
+    shows 3 separate polygon records for this property: LocalParcelID 370601200000
+    (33.62 ac, SR 114), 370601300000 (22.44 ac, END OF SR 694 @ SR 114), 370601400000
+    (6.72 ac, RD 22-K) — total 62.78 ac per SORP25. ODNR public website states 36
+    ac; SORP 2023 CSV shows ~37.38 ac. Discrepancy flag: acres_raw set to ODNR website
+    value; SORP25 total noted for pipeline review.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Cascade Wayside Wildlife Area
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Trail
+    result: known_existing
+    db_record: PAU-TR-001
+    sources_checked:
+    - ODNR property finder county=Putnam — 1 result (Cascade WA only; no standalone
+      trail entities)
+    - Miami and Erie Canal Towpath — already in DB as PAU-TR-001 (Paulding-anchored;
+      Putnam presence documented at bootstrap)
+    - Buckeye Trail Delphos Section — already in DB as PAU-TR-003 (Paulding-anchored;
+      Tier 7 entity for Putnam)
+    reasoning: No new Tier 2 Trail records created. Miami and Erie Canal Towpath is
+      KNOWN_MC:PAU-TR-001 (Paulding-anchored, Putnam county presence already documented
+      in DB). Blanchard River Water Trail (ODNR-designated state water trail, 37.6
+      mi) passes through western Putnam County (joins Auglaize near Cloverdale) but
+      primary manager is Hancock Park District — per IMP-103 water trail sub-procedure,
+      tier governed by primary managing entity; this is a Tier 3 (District) entity
+      anchored in Hancock County, not a Tier 2 ODNR entity. Flagged as CROSS_COUNTY_CANDIDATE
+      for Tier 3. No other ODNR-managed trails in Putnam County found.
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - ODNR property finder county=Putnam
+    - ODNR Canal Lands / Miami and Erie Canal — no named segments with independent
+      ODNR management in Putnam County
+    reasoning: No ODNR-managed named trail segments in Putnam County. Canal towpath
+      segments are part of PAU-TR-001 (multi-county, Paulding-anchored). No segment-level
+      geometry or ODNR identifiers found for any Putnam County trail segment.
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - ODNR property finder county=Putnam — 1 result (Cascade WA only)
+    - ODNR State Parks, State Forests — none in Putnam County
+    reasoning: No ODNR-designated trail networks in Putnam County. No state parks
+      or state forests in county from which a trail network could derive. No ODNR
+      multi-trail system identified.
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - ODNR property finder county=Putnam — 1 result only
+    - Ohio Nature Preserves — https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/nature-preserves
+      — no Putnam County preserves
+    - Ohio State Parks — no state parks in Putnam County
+    - Ohio State Forests — no state forests in Putnam County
+    reasoning: No ODNR site networks in Putnam County. Only 1 ODNR destination exists
+      in county (Cascade Wayside WA). Insufficient entities for a site network. No
+      ODNR-designated multi-site system found.
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/cascade-wayside-wildlife-area
+    - Cascade Wildlife Area Map PDF (referenced but not fetched)
+    reasoning: ODNR Cascade Wayside WA page lists address (Cloverdale, OH 45827) and
+      activities (hunting, birding, fishing) but does not document a named trailhead,
+      parking area, or boat ramp with identity-bearing access point information. Map
+      PDF not fetched. No ODNR-documented access points with sufficient identity to
+      create an AP record. Any access points at Cascade WA will be confirmed during
+      GPS acquisition or map verification pass.
+- entity_type: Site
+  name_raw: Putnam County Wildlife Production Area 1
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: State of Ohio / Ohio Department of Natural Resources
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: null
+  coordination_raw: null
+  acres_raw: '69.14 (SORP25 REST service); SORP 2023 CSV: 40.57 ac (LocalParcelID
+    090370100000)'
+  gps_lat_raw: null
+  gps_lon_raw: null
+  location_raw: SR 694, Putnam County OH
+  description_raw: null
+  features_raw: Hunting; Wildlife habitat (ODNR Division of Wildlife walk-in area
+    — no public amenity page)
+  difficulty_raw: null
+  accessibility_raw: null
+  urls_raw:
+  - https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/wildlife/wildlife-management/wildlife-areas/putnam-county-wildlife-production-area-1
+  - https://experience.arcgis.com/experience/802e2079e2e4448e819cee71e4fefe92/
+  identity_notes_raw: 'Confirmed via SORP25 REST service (services2.arcgis.com/MlJ0G8iWUyC7jAmu/arcgis/rest/services/SORP25_gdb).
+    CODED_NAME: WldlfPA51WA; DIV_CODE: 740; COMMON_NAME: Wildlife Production Area
+    51 Wildlife Area. SORP25 StateAgency: NATURAL RESOURCES; OwnerAll: STATE OF OHIO
+    | DEPARTMENT OF NATURAL RESOURCES. Situs: SR 694. BASELINE SEED RESOLVED: matches
+    baseline seed ''Putnam County Wildlife Area 1'' — actual ODNR name is ''Putnam
+    County Wildlife Production Area 1''. ODNR property finder did NOT return this
+    property for county=Putnam filter — SORP was required to identify. ODNR public
+    website URL exists but returns generic portal page with no property-specific content.
+    No dedicated ODNR property page confirmed. T2 DEFECT REMEDIATION: entity missed
+    in original T2 pass; added via SORP25 cross-check.'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Putnam County Wildlife Area 1
+- entity_type: Site
+  name_raw: Putnam County Wildlife Production Area 2
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: State of Ohio / Ohio Department of Natural Resources
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: null
+  coordination_raw: null
+  acres_raw: '71.26 (SORP25 REST service); SORP 2023 CSV: ~40.44 ac primary parcel
+    (LocalParcelID 370602100000) plus smaller adjacent parcels 370190300000 (6.76),
+    370190400000 (0.73), 370190500000 (0.24), 370191800000 (2.90) — total ~51.07 ac;
+    SORP25 polygon likely aggregates these'
+  gps_lat_raw: null
+  gps_lon_raw: null
+  location_raw: RD 19-K, Putnam County OH
+  description_raw: null
+  features_raw: Hunting; Wildlife habitat (ODNR Division of Wildlife walk-in area
+    — no public amenity page)
+  difficulty_raw: null
+  accessibility_raw: null
+  urls_raw:
+  - https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/wildlife/wildlife-management/wildlife-areas/putnam-county-wildlife-production-area-2
+  - https://experience.arcgis.com/experience/802e2079e2e4448e819cee71e4fefe92/
+  identity_notes_raw: 'Confirmed via SORP25 REST service. CODED_NAME: WldlfPA52WA;
+    DIV_CODE: 740; COMMON_NAME: Wildlife Production Area 52 Wildlife Area. SORP25
+    StateAgency: NATURAL RESOURCES; OwnerAll: STATE OF OHIO | DEPARTMENT OF NATURAL
+    RESOURCES. Situs: RD 19-K. BASELINE SEED RESOLVED: matches baseline seed ''Putnam
+    County Wildlife Area 2''. SORP 2023 CSV shows multiple small NR parcels (370190xxx
+    prefix) adjacent to primary parcel 370602100000 — these are likely part of this
+    WPA complex; SORP25 aggregates them into single 71.26 ac polygon. ODNR property
+    finder did NOT return this property for county=Putnam. No dedicated ODNR property
+    page confirmed. T2 DEFECT REMEDIATION: entity missed in original T2 pass; added
+    via SORP25 cross-check.'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Putnam County Wildlife Area 2
+- entity_type: Site
+  name_raw: Putnam County Wildlife Production Area 3
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: State of Ohio / Ohio Department of Natural Resources
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: null
+  coordination_raw: null
+  acres_raw: '71.49 (SORP25 REST service); SORP 2023 CSV: 40.05 ac primary parcel
+    (LocalParcelID 400600100000) + 40ROW parcel (1.09 ac) = ~41.14 ac'
+  gps_lat_raw: null
+  gps_lon_raw: null
+  location_raw: RD K-22, Putnam County OH
+  description_raw: null
+  features_raw: Hunting; Wildlife habitat (ODNR Division of Wildlife walk-in area
+    — no public amenity page)
+  difficulty_raw: null
+  accessibility_raw: null
+  urls_raw:
+  - https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/wildlife/wildlife-management/wildlife-areas/putnam-county-wildlife-production-area-3
+  - https://experience.arcgis.com/experience/802e2079e2e4448e819cee71e4fefe92/
+  identity_notes_raw: 'Confirmed via SORP25 REST service. CODED_NAME: WldlfPA54WA;
+    DIV_CODE: 740; COMMON_NAME: Wildlife Production Area 54 Wildlife Area. SORP25
+    StateAgency: NATURAL RESOURCES; OwnerAll: STATE OF OHIO | DEPARTMENT OF NATURAL
+    RESOURCES. Situs: RD K-22. BASELINE SEED RESOLVED: matches baseline seed ''Putnam
+    County Wildlife Area 3''. SORP25 ROW parcel (40ROW, 1.09 ac) also associated with
+    this WPA complex. ODNR property finder did NOT return this property for county=Putnam.
+    No dedicated ODNR property page confirmed. T2 DEFECT REMEDIATION: entity missed
+    in original T2 pass; added via SORP25 cross-check.'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Putnam County Wildlife Area 3
+- entity_type: Site
+  name_raw: Ottoville Quarry Wildlife Area
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: State of Ohio / Ohio Department of Natural Resources
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: null
+  coordination_raw: null
+  acres_raw: '12.75 (SORP25 REST service); SORP 2023 CSV: 7.73 ac primary parcel (LocalParcelID
+    250600900000) + 270581300000 (0.49 ac) = ~8.22 ac'
+  gps_lat_raw: null
+  gps_lon_raw: null
+  location_raw: RD 25-P, Putnam County OH (near Ottoville)
+  description_raw: null
+  features_raw: Hunting; Wildlife habitat; Former quarry site (ODNR Division of Wildlife
+    — no public amenity page)
+  difficulty_raw: null
+  accessibility_raw: null
+  urls_raw:
+  - https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/wildlife/wildlife-management/wildlife-areas/ottoville-quarry-wildlife-area
+  - https://experience.arcgis.com/experience/802e2079e2e4448e819cee71e4fefe92/
+  identity_notes_raw: 'Confirmed via SORP25 REST service as state ODNR property. CODED_NAME:
+    OttvllQryWA; DIV_CODE: 740; COMMON_NAME: Ottoville Quarry Wildlife Area. SORP25
+    StateAgency: NATURAL RESOURCES; OwnerAll: STATE OF OHIO | FISH HATCHERY (note:
+    Fish Hatchery owner field, but StateAgency is NATURAL RESOURCES / DIV_CODE 740
+    = Division of Wildlife). Situs: RD 25-P (near Ottoville, OH). BASELINE SEED RESOLVED:
+    matches baseline seed ''Ottoville Quarry Wildlife Area''. Previously flagged in
+    PUT-F-ERROR (Session 2): incorrectly carried to T6 as possible Village of Ottoville
+    entity. SORP25 confirms this is state ODNR property — NOT a village entity. T6
+    carry flag should be closed. ODNR property finder did NOT return this property
+    for county=Putnam. ODNR URL exists but returns generic portal page with no property-specific
+    content. T2 DEFECT REMEDIATION: entity missed in original T2 pass; added via SORP25
+    cross-check.'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_id: Ottoville Quarry Wildlife Area
+- entity_type_result:
+    tier: 3
+    governance_level: District (park districts, conservancy districts)
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - 'https://ohioauditor.gov/auditsearch/search.aspx — Putnam County, entity type=Park/Recreation
+      District: 0 results'
+    - 'https://ohioauditor.gov/auditsearch/search.aspx — Putnam County, entity type=Conservancy
+      District: 0 results'
+    - 'https://ohioauditor.gov/auditsearch/search.aspx — Putnam County, entity type=Soil
+      & Water Conservation District: 1 result (Putnam County SWCD — no land ownership
+      per putnamswcd.org)'
+    reasoning: No park district or conservancy district operates in Putnam County
+      per Ohio Auditor pre-enumeration (IMP-075 §3.0). Putnam County SWCD confirmed
+      via putnamswcd.org — SWCD does not own recreational land. No district-managed
+      sites exist.
+- entity_type_result:
+    tier: 3
+    governance_level: District (park districts, conservancy districts)
+    entity_type: Trail
+    result: 'null'
+    sources_checked:
+    - https://hancockparks.com/trails/blanchard-river-water-trail/ — Blanchard River
+      Water Trail (HPD, Tier 3 candidate)
+    - https://ottawaohio.us/2217/Recreation-On-The-Blanchard — Ottawa OH city page
+      on Blanchard River paddling
+    - https://dam.assets.ohio.gov/image/upload/odnr/watertrails/BlanchardRiverMapGuide.pdf
+      — ODNR BRVT map/guide (binary PDF, county extent confirmed via Ottawa page)
+    - 'Ohio Auditor pre-enumeration: 0 park/conservancy districts in Putnam County'
+    reasoning: 'Blanchard River Water Trail (ODNR state water trail designation, 37.6
+      mi, managed by Hancock Park District) is entirely within Hancock County. Per
+      City of Ottawa website: "Although not a designated water trail beyond the last
+      Findlay drop-in point, paddlers can continue west approximately 17 miles...to
+      Gilboa and Ottawa." The Ottawa portion is NOT part of the ODNR-designated BRVT.
+      Ottawa completed 2 informal municipal launch sites in 2023 (Reservoir Landing,
+      Arrowhead Landing) — these are T6 municipal entities, not T3 trails. Prior handoff
+      CROSS_COUNTY_CANDIDATE flag for BRVT in Putnam County was incorrect. No district-managed
+      trails in Putnam County.'
+- entity_type_result:
+    tier: 3
+    governance_level: District (park districts, conservancy districts)
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - 'Ohio Auditor pre-enumeration: 0 park/conservancy districts in Putnam County'
+    - Blanchard River Water Trail confirmed as Hancock County only entity
+    reasoning: No parent T3 trails in Putnam County. No district-level trail segments
+      exist.
+- entity_type_result:
+    tier: 3
+    governance_level: District (park districts, conservancy districts)
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - 'Ohio Auditor pre-enumeration: 0 park/conservancy districts in Putnam County'
+    reasoning: No park district or conservancy district in Putnam County. No T3 trail
+      networks possible.
+- entity_type_result:
+    tier: 3
+    governance_level: District (park districts, conservancy districts)
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - 'Ohio Auditor pre-enumeration: 0 park/conservancy districts in Putnam County'
+    reasoning: No park district or conservancy district in Putnam County. No T3 site
+      networks possible.
+- entity_type_result:
+    tier: 3
+    governance_level: District (park districts, conservancy districts)
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - 'Ohio Auditor pre-enumeration: 0 park/conservancy districts in Putnam County'
+    - Blanchard River Water Trail confirmed as Hancock County only — no T3 parent
+      trails in Putnam County
+    reasoning: No T3 sites or trails in Putnam County. No T3 access points possible.
+- entity_type_result:
+    tier: 4
+    governance_level: County
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - https://putnamcountyohio.gov/county-agencies/ — County agencies list (no parks/recreation
+      department)
+    - https://putnamcountyohio.gov/commissioners/ — Commissioners page (no parks resolutions
+      found)
+    - https://trekohio.com/putnam/ — TrekOhio Putnam County (only Cascade WA listed
+      — state entity)
+    - https://nationalregisterofhistoricplaces.com/oh/putnam/state.html — NRHP Putnam
+      County (10 listings; none are publicly accessible natural sites or bridges on
+      public land)
+    - https://new-pcohio.hub.arcgis.com/pages/downloads — County GIS hub (parcel/health/election/flood
+      only; no parks layers)
+    - https://putnamcountyohio.com/projects/ — Putnam County CIC (economic development
+      only)
+    - https://www.go-ottawa.com/explore-ottawa/project-six-sz8wl-dy87p — Go Ottawa
+      outdoor recreation (all sites are City of Ottawa municipal entities)
+    - putnamcountyfair.com — County Fairgrounds (event venue for annual fair; not
+      a natural area or recreational trail)
+    reasoning: Putnam County has no parks/recreation department (confirmed via county
+      agencies list). No county-managed parks, preserves, or natural areas found across
+      TrekOhio, county website, GIS, NRHP, or tourism sources. Ottawa Reservoir (natural
+      trails, wetlands) and Diversion Channel (protected wetland, nature trail) are
+      City of Ottawa municipal entities — flagged as PUT-F-07 for T6. Putnam County
+      Fairgrounds is an event venue (annual county fair), not a natural area. No T4
+      Sites exist.
+- entity_type_result:
+    tier: 4
+    governance_level: County
+    entity_type: Trail
+    result: 'null'
+    sources_checked:
+    - https://putnamcountyohio.gov/county-agencies/ — No trails agency
+    - https://trekohio.com/putnam/ — No county-managed trails listed
+    - 'https://new-pcohio.hub.arcgis.com/pages/downloads — County GIS: no trails layer'
+    - 'https://putnamcountyohio.com/projects/ — CIC: no trail projects'
+    reasoning: No county-managed trails found. "Ottawa River Greenway" (baseline seed)
+      not confirmed as an Ohio entity — "Putnam Parks & Pathways" cited as governance
+      is an Indiana organization (putnamparks.org). Baseline seed PUT-F-02 remains
+      unresolved; entity may not exist.
+- entity_type_result:
+    tier: 4
+    governance_level: County
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - County GIS hub — no trails layer
+    - TrekOhio Putnam County — no county trails
+    reasoning: No parent T4 trails. No T4 trail segments possible.
+- entity_type_result:
+    tier: 4
+    governance_level: County
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - https://putnamcountyohio.gov/county-agencies/ — No parks district, no trail
+      network agency
+    reasoning: No county parks district and no county trail network found.
+- entity_type_result:
+    tier: 4
+    governance_level: County
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - https://putnamcountyohio.gov/county-agencies/ — No formal county parks district
+      (§4.5)
+    reasoning: No formal county parks district exists. No county-managed Site Network.
+- entity_type_result:
+    tier: 4
+    governance_level: County
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - https://putnamcountyohio.gov/ — No county parks or trails with access points
+    - 'https://new-pcohio.hub.arcgis.com/pages/downloads — County GIS: no boat launch
+      or fishing access layers'
+    reasoning: No T4 sites or trails in Putnam County. No T4 access points possible.
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - 'Web search: all 15 township names + "Putnam County Ohio trustees website parks"'
+    - putnamcountyohio.gov/wp-content/uploads/2024/06/Trustee-Contacts-Page-24.3.pdf
+      (binary PDF, not text-extractable)
+    - Wikipedia pages for all 15 Putnam County townships
+    - TrekOhio — trekohio.com/putnam/ (lists only state-managed Cascade WA; no township
+      parks)
+    - 'Individual township searches: Blanchard, Greensburg, Jackson, Jennings, Liberty,
+      Monroe, Monterey, Ottawa, Palmer, Perry, Pleasant, Riley, Sugar Creek, Union,
+      Van Buren'
+    - 'Section 4.2a wrong-county verification: Liberty (Butler/Hancock/Union Co sites),
+      Monroe (Pickaway/Licking Co site), Perry (Stark Co perrytwp.com confirmed wrong-county),
+      Pleasant (Marion Co site), Sugar Creek (Greene Co sugarcreektownship.com confirmed
+      wrong-county), Union (Clermont Co utclermont.gov confirmed wrong-county), Jackson
+      (no Putnam-specific site found among multiple other-county results)'
+    reasoning: None of the 15 Putnam County townships have parks, open spaces, or
+      publicly managed natural areas. No township in Putnam County has a dedicated
+      parks department or recreation program. All web searches returned either no
+      Putnam-specific results or confirmed wrong-county sites via section 4.2a verification.
+      The county has no tradition of township-level recreational infrastructure —
+      it is entirely agricultural. TrekOhio (comprehensive Ohio parks database) lists
+      no township-managed sites in Putnam County.
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Trail
+    result: 'null'
+    sources_checked:
+    - All 15 township web searches (same as Site null)
+    - 'putnamtrailway.com — "Putnam International Trailway" investigated: private
+      1/8-mile oval dirt racing track in Riley Township near Pandora; NOT a trail
+      or natural area; NOT a NAP entity'
+    - 'bikeitorhikeit.org/north_county_trailway.htm — "Old Putnam Rail Trail" investigated:
+      page is entirely about Putnam County, New York (Westchester/Bronx area); NOT
+      Ohio; section 4.2a confirmed wrong state'
+    reasoning: No township-managed trails found in any of the 15 Putnam County townships.
+      The "Putnam International Trailway" (putnamtrailway.com, Riley Township) is
+      a private dirt motorsports track, not a trail. The "Old Putnam Rail Trail" found
+      via bikeitorhikeit.org is in Putnam County, New York, not Ohio. No other trail
+      candidates found.
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - No parent trails found at T5; segment null follows from trail null
+    - All 15 township searches conducted (same sources as Site/Trail null)
+    reasoning: No township-managed trails found at T5, therefore no trail segments.
+      No named or GIS-defined trail segments in any source for any Putnam County township.
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - All 15 township searches (same sources as Site/Trail null)
+    - No multi-trail systems or branded township trail networks found
+    reasoning: No township-managed trails at T5, therefore no trail networks. No evidence
+      of any multi-trail township system in Putnam County.
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - All 15 township searches (same sources as Site null)
+    - No township with multiple managed sites found; cannot form a network
+    reasoning: No township-managed sites found at T5, therefore no site networks.
+      No township in Putnam County operates multiple named parks or preserves.
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - All 15 township searches (same sources as Site null)
+    - No township-managed boat launches, fishing access, or trail access points found
+    reasoning: No township-managed access points found. No boat launches, fishing
+      access, or trailheads managed by any Putnam County township. Access points on
+      state-managed waterways (Blanchard River) are covered at T3 (BRVT, Hancock County)
+      and T6 (Ottawa municipal launches).
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Cemetery (section 5.6 / IMP-099)
+    result: POTENTIAL — verification required
+    sources_checked:
+    - ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm — comprehensive Putnam
+      County OH cemetery database
+    - findagrave.com — Putnam County cemetery listings
+    - BillionGraves.com — Putnam County cemetery listings
+    findings:
+    - Union Township Cemetery (near Fort Jennings, Jennings Township area) — Billion
+      Graves listing; name suggests township governance
+    - Old Union Township Cemetery (near Kalida) — Find a Grave listing; name suggests
+      township governance
+    - Union Township Cemetery (near Kalida) — Find a Grave listing; may be same as
+      above or distinct
+    - All other Putnam County cemeteries are Catholic church-managed (St. Joseph,
+      St. John Baptist, St. Michael, St. Nicholas, St. Mary, Immaculate Conception,
+      etc.) consistent with heavily German-Catholic NW Ohio culture
+    - No soldiers relief cemeteries or county infirmary cemeteries found
+    - No veterans township cemeteries found
+    reasoning: 'The "Union Township Cemetery" entries in genealogy databases near
+      Kalida and Fort Jennings appear to be township-managed based on naming pattern
+      (Ohio townships routinely manage small community cemeteries). However, management
+      confirmation from an authoritative source (township resolution, auditor parcel,
+      official township communication) was not obtained. These are flagged for pipeline
+      verification. If confirmed as township-managed public cemeteries, they would
+      qualify as NAP entities under IMP-099 with category: Cemetery.'
+    flag: CEMETERY_VERIFICATION_NEEDED — Union Township Cemetery / Old Union Township
+      Cemetery near Kalida and Fort Jennings
+- entity_type: Site
+  name_raw: Arrowhead Park
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: not stated (listed under Village of Ottawa Outdoor Recreation)
+  governance_raw: Village of Ottawa
+  location_raw: 615 W Main St, Ottawa, OH 45875
+  acres_raw: null
+  description_raw: null
+  features_raw: Nature Trails, Canoe Public Access, Natural Play Area, Picnic Tables,
+    Fishing
+  urls_raw:
+  - https://go-ottawa.com/outdoor-recreation
+  - https://www.ottawaohio.us/2217/Recreation-On-The-Blanchard
+  gps_lat_raw: 41.0182257
+  gps_lon_raw: -84.0553962
+  identity_notes_raw: Parent site for Arrowhead Landing (Access Point) — canoe/kayak
+    launch at this park added 2023. Also listed as address of Putnam Paddle Co commercial
+    outfitter (615 W Main St) — co-located but distinct entity. Nature Trails and
+    Canoe Public Access are primary NAP qualifiers. | GPS from Google Maps detail
+    card during map verification pass (IMP-031) — treat as approximate until GPS acquisition
+    pass confirmation
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: The Ottawa Reservoir
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: not stated (listed under Village of Ottawa Outdoor Recreation)
+  governance_raw: Village of Ottawa
+  location_raw: 1972 S Agner St, Ottawa, OH 45875
+  acres_raw: null
+  description_raw: null
+  features_raw: Natural Trails, Wetlands, Canoe Public Access, Walking Trail, Fishing,
+    Picnic Table and Bench
+  urls_raw:
+  - https://go-ottawa.com/outdoor-recreation
+  gps_lat_raw: 41.0115931
+  gps_lon_raw: -84.0226281
+  identity_notes_raw: 'NAMING_CONFLICT: Putnam County District Library lists "Waterworks
+    Park 1972 S Agner St - Shelter house" at same address. Go-Ottawa uses "The Ottawa
+    Reservoir". May be one entity with two names or two adjacent entities at same
+    address. Distinct from Ottawa Waterworks Park at 1035 E 3rd St (separate park).
+    Distinct from NRHP "Ottawa Waterworks Building" (vacant historic structure, different
+    location). Natural Trails + Wetlands are primary NAP qualifiers. Potential parent
+    site for Reservoir Landing (AP) — Water Treatment Plant is adjacent. PUT-F-07
+    confirmed. | GPS from Google Maps detail card during map verification pass (IMP-031)
+    — treat as approximate until GPS acquisition pass confirmation | PUT-F-09 RESOLVED:
+    go-ottawa.com = ''The Ottawa Reservoir''; Google Maps = ''Water Works Park'' (address
+    entity) + ''Ottawa reservoir walking path'' (Hiking area, 4.0 stars, Opens 7 AM
+    Sat); library name ''Waterworks Park'' also confirmed by Google Maps. Primary
+    name: The Ottawa Reservoir.'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Ottawa Reservoir
+- entity_type: Site
+  name_raw: The Diversion Channel
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: not stated (listed under Village of Ottawa Outdoor Recreation)
+  governance_raw: Village of Ottawa
+  location_raw: Access is off of OG Road, Ottawa, OH
+  acres_raw: null
+  description_raw: Protected Wetland with Nature Trail around it. Access is off of
+    OG Road.
+  features_raw: Nature Trail, Protected Wetland Area
+  urls_raw:
+  - https://go-ottawa.com/outdoor-recreation
+  - https://www.go-ottawa.com/s/Diversion-Channel.pdf
+  gps_lat_raw: null
+  gps_lon_raw: null
+  identity_notes_raw: 'Protected wetland with a nature trail circling it. No separate
+    name given for the trail — treated as Site amenity rather than standalone Trail
+    entity pending map verification. PUT-F-07 confirmed. PDF map (Diversion-Channel.pdf)
+    confirms: Access Here, Nature Trail, Protected Wetland Area. No GPS available
+    in any authoritative source — GPS pending acquisition pass. go-ottawa.com is authoritative
+    source for description and features.'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Access Point
+  name_raw: Arrowhead Landing
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: Village of Ottawa (implied — "In 2023, the Village of Ottawa completed
+    construction…")
+  governance_raw: Village of Ottawa
+  location_raw: at Arrowhead Park, Ottawa, OH
+  description_raw: Canoe/kayak launch site at Arrowhead Park on the Blanchard River.
+    Added 2023. Provides access to informal 17-mile paddling stretch west from Findlay
+    toward Ottawa — not part of ODNR-designated Blanchard River Water Trail (which
+    ends at last Findlay drop-in point).
+  features_raw: null
+  urls_raw:
+  - https://www.ottawaohio.us/2217/Recreation-On-The-Blanchard
+  gps_lat_raw: 41.0182257
+  gps_lon_raw: -84.0553962
+  identity_notes_raw: 'One of two Ottawa Blanchard River launch sites completed 2023.
+    Parent site: Arrowhead Park (PUT-S-T6-002 pending). Not part of ODNR BRVT designation
+    — informal municipal access only. PUT-F-06 confirmed. | GPS from Google Maps detail
+    card during map verification pass (IMP-031) — treat as approximate until GPS acquisition
+    pass confirmation'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Access Point
+  name_raw: Reservoir Landing
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: Village of Ottawa (implied — "In 2023, the Village of Ottawa completed
+    construction…")
+  governance_raw: Village of Ottawa
+  location_raw: behind the Water Treatment Plant, Ottawa, OH
+  description_raw: Canoe/kayak launch site behind the Ottawa Water Treatment Plant
+    on the Blanchard River. Added 2023. Provides access to informal 17-mile paddling
+    stretch — not part of ODNR-designated Blanchard River Water Trail.
+  features_raw: null
+  urls_raw:
+  - https://www.ottawaohio.us/2217/Recreation-On-The-Blanchard
+  gps_lat_raw: 41.0115931
+  gps_lon_raw: -84.0226281
+  identity_notes_raw: One of two Ottawa Blanchard River launch sites completed 2023.
+    Water Treatment Plant is at or adjacent to Ottawa Reservoir (1972 S Agner St)
+    — Reservoir Landing may be a child of Ottawa Reservoir Site. Not part of ODNR
+    BRVT designation. PUT-F-06 confirmed. | GPS from Google Maps detail card during
+    map verification pass (IMP-031) — treat as approximate until GPS acquisition pass
+    confirmation
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Hall Avenue Park
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: not stated (Village of Columbus Grove; confirmed via county library
+    list)
+  governance_raw: Village of Columbus Grove
+  location_raw: 208 Hall Ave, Columbus Grove, OH
+  acres_raw: 10.3 acres
+  description_raw: Experience the serene beauty of Hall Avenue Park in Columbus Grove,
+    a tranquil oasis nestled in the heart of the city. This 10.3-acre park offers
+    a peaceful ambiance, making it the ideal destination for walkers and hikers seeking
+    a refreshing outdoor experience. Lush greenery, meandering pathways, and picturesque
+    views create a soothing environment for those looking to immerse themselves in
+    nature while engaging in physical activity.
+  features_raw: Includes ball diamonds
+  urls_raw:
+  - https://mypcdl.org/parks
+  - https://www.mypacer.com/parks/ohio/hall-avenue-park-columbus-grove-10089576
+  gps_lat_raw: 40.9153979
+  gps_lon_raw: -84.0547706
+  identity_notes_raw: 'GPS from Pacer fitness app — treat as approximate pending GPS
+    acquisition pass confirmation. Description from Pacer, not official village source
+    — quality flag: narrative describes natural character but source is a fitness
+    app. Features "Includes ball diamonds" from county library list. Baseline seed
+    confirmed: Hall Avenue Park, 40.919N -84.056W. | GPS from Google Maps detail card
+    during map verification pass (IMP-031) — treat as approximate until GPS acquisition
+    pass confirmation'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: Hall Avenue Park (Columbus Grove)
+- entity_type: Site
+  name_raw: CONTINENTAL POND
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: Village of Continental (listed on village Parks-Recreation page)
+  governance_raw: Village of Continental
+  location_raw: Southern most side of the village of Continental
+  acres_raw: 18 acres
+  description_raw: The Continental Pond is located at the Southern most side of the
+    village. It is an 18 acre park and fishing site, with 19 million gallons of water
+    storage.
+  features_raw: 18 acre park and fishing site, 19 million gallons of water storage
+  urls_raw:
+  - https://villageofcontinental.com/parks-recreation
+  gps_lat_raw: null
+  gps_lon_raw: null
+  identity_notes_raw: Capitalization "CONTINENTAL POND" as on source page. 18-acre
+    water body and fishing site. No explicit trail infrastructure described beyond
+    fishing access. Name and capitalization verbatim from official village page.
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Four Seasons Park
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: operated and owned by The Village of Kalida
+  governance_raw: Village of Kalida / Kalida Park System
+  location_raw: north side of Kalida between St. Rt. 115 and St. Rt. 114
+  acres_raw: over 70 acres
+  description_raw: Four Seasons Park is our flagship park and has been under development
+    since 2009. It is located on the north side of Kalida between St.Rt.115 and St.Rt.114.
+    It includes a beautiful two acre lake with a walking path around it. There are
+    four shelters available for rental in this park. With over 70 acres of amenities,
+    many of them very unique, come to Four Seasons Park to explore and enjoy!
+  features_raw: Indoor & outdoor shelter houses, ball diamonds & playground; two-acre
+    lake with walking path around it
+  urls_raw:
+  - https://kalidaparksystem.org
+  - https://mypcdl.org/parks
+  gps_lat_raw: 40.9911318
+  gps_lon_raw: -84.207144
+  identity_notes_raw: Kalida Park System explicitly states parks are "operated and
+    owned by The Village of Kalida." Two-acre lake with walking path is primary NAP
+    qualifier. Kalida Park System (kalidaparksystem.org) manages at least 3 parks
+    (Four Seasons Park, Pioneer Park, Froggy Park) — may warrant Site Network evaluation
+    at T6 resolution; however only Four Seasons Park meets NAP Site criteria. | GPS
+    from Google Maps detail card during map verification pass (IMP-031) — treat as
+    approximate until GPS acquisition pass confirmation
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Pandora Park
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: Village of Pandora (per county library parks list)
+  governance_raw: Village of Pandora
+  location_raw: 303 W Washington St
+  acres_raw: null
+  description_raw: null
+  features_raw: Shelter houses, playground, enclosed castle playground, shuffleboard
+    courts, lighted tennis courts, lighted basketball court, ball parks, & a trail
+    around a wetland area and additional ball diamonds by crossing the Riley Creek
+    footbridge.
+  urls_raw:
+  - https://mypcdl.org/parks
+  gps_lat_raw: 40.9493331
+  gps_lon_raw: -83.9644403
+  identity_notes_raw: 'Primary NAP qualifiers: trail around a wetland area; Riley
+    Creek footbridge. Riley Creek runs through or adjacent to the park. No separate
+    name given for the wetland trail. Source is Putnam County District Library parks
+    list — not a village-authored primary source; confirm against village website
+    in map verification pass. | GPS from Google Maps detail card during map verification
+    pass (IMP-031) — treat as approximate until GPS acquisition pass confirmation
+    | Google Maps address is 303 W Washington St (villageofpandora.com); source had
+    East Putnam St — same park, address variant confirmed by GPS and map review.'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Fort Jennings Park
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: Village of Fort Jennings (implied — no official website found; park
+    referenced as village park in multiple sources)
+  governance_raw: Village of Fort Jennings
+  location_raw: Fort Jennings, OH (Auglaize River border; no street address found)
+  acres_raw: over 19 acres
+  description_raw: Fort Jennings Park consists of over 19 acres of well-kept grounds
+    bordered by the Auglaize River. The park offers fishing, camping (primitive),
+    and space for family gatherings. Also known as "Fort Jennings Community Park"
+    in paddling sources where it serves as a take-out point on the Auglaize River
+    with parking 50 yards from the access point.
+  features_raw: Fishing, primitive camping, playground, basketball courts, tennis
+    courts, restrooms; Auglaize River access; paddler take-out with parking
+  urls_raw:
+  - https://www.facebook.com/FortJenningsPark/
+  - https://paddling.com/paddle/trips/auglaize-river-piquad-rd-to-fort-jennings-park-during-low-water-6
+  gps_lat_raw: 40.9023506
+  gps_lon_raw: -84.2947787
+  identity_notes_raw: Auglaize River border and river access are primary NAP qualifiers.
+    No official village website found — Facebook page is primary public source. Also
+    named "Fort Jennings Community Park" in paddling.com sources. Hosts Fort FEST
+    community event. Park added to municipality list by Copilot — was missing from
+    original T6 municipality list. | GPS from Google Maps detail card during map verification
+    pass (IMP-031) — treat as approximate until GPS acquisition pass confirmation
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Access Point
+  name_raw: Fort Jennings Park River Access
+  counties_raw:
+  - Putnam
+  county_primary: Putnam
+  ownership_raw: Village of Fort Jennings (implied)
+  governance_raw: Village of Fort Jennings
+  location_raw: Fort Jennings Park, Fort Jennings, OH; parking lot approximately 50
+    yards from river access
+  description_raw: Auglaize River paddler take-out point and fishing access at Fort
+    Jennings Park. Parking lot 50 yards from access. Documented on paddling.com as
+    a named trip end point for Auglaize River runs. Fishing noted for smallmouth bass,
+    rock bass, and catfish.
+  features_raw: Paddler take-out, fishing access, parking 50 yards from water
+  urls_raw:
+  - https://paddling.com/paddle/trips/auglaize-river-piquad-rd-to-fort-jennings-park-during-low-water-6
+  gps_lat_raw: 40.9023506
+  gps_lon_raw: -84.2947787
+  identity_notes_raw: 'Name constructed from park name + "River Access" — no standalone
+    name given in sources. Parent site: Fort Jennings Park. Auglaize River (not BRVT-designated
+    at this location). May warrant water trail subproc review if Auglaize River has
+    any ODNR designation in Putnam County. | GPS from Google Maps detail card during
+    map verification pass (IMP-031) — treat as approximate until GPS acquisition pass
+    confirmation'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Trail
+    result: 'null'
+    sources_checked:
+    - All 16 municipalities searched (via Copilot web research pass)
+    - The Diversion Channel nature trail (City of Ottawa) — no separate trail name;
+      trail is amenity of Site
+    - Pandora Park wetland trail — no separate name; trail is amenity of Site
+    - Arrowhead Park nature trails — no separate name; trails are amenity of Site
+    - No standalone named municipal trails found for any municipality
+    reasoning: No named, managed municipal trails found that qualify as standalone
+      Trail entities. Nature trails at Arrowhead Park, The Diversion Channel, and
+      Pandora Park are all park amenities without independent names or management
+      identities. The Blanchard River paddling route through Ottawa is not a designated
+      water trail (confirmed at T3 — BRVT ends at Hancock County boundary).
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - No parent trails found at T6; segment null follows from trail null
+    reasoning: No T6 trails found, therefore no trail segments.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - All 16 municipalities searched; no multi-trail municipal systems found
+    reasoning: No municipal trail networks found. No municipality in Putnam County
+      operates a branded or formally governed multi-trail system.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - Kalida Park System (kalidaparksystem.org) investigated — "operated and owned
+      by The Village of Kalida"; manages Four Seasons Park, Pioneer Park, Froggy Park
+    - 'All other municipalities: single or no qualifying NAP sites; no multi-site
+      system branding found'
+    reasoning: Kalida Park System is a village parks department, not a formally independent
+      parks district with its own governance separate from the village. Only one of
+      its three parks (Four Seasons Park) meets NAP Site criteria. Does not meet the
+      Site Network threshold for a formally documented multi-site system with independent
+      identity. No other municipal Site Network candidates found.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Cemetery (IMP-099)
+    result: 'null'
+    sources_checked:
+    - 'WebSearch: "Ottawa Ohio municipal cemetery village managed Ottawa Cemetery
+      OR city cemetery" — returned Ottawa County OH results only (wrong county); no
+      City of Ottawa Putnam County municipal cemetery found'
+    - Copilot research pass did not surface any municipal cemetery pages for any of
+      the 16 municipalities
+    - Putnam County District Library parks list (via Copilot) — no municipal cemeteries
+      listed
+    - No golf courses found at any municipality
+    reasoning: No municipal-managed cemeteries or golf courses found for any Putnam
+      County municipality. Consistent with heavily Catholic NW Ohio culture where
+      cemeteries are almost universally church-managed rather than municipal. IMP-099
+      requirement satisfied.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Map Verification (IMP-031 / OBS-018)
+    result: complete
+    sources_checked:
+    - 'GPS coordinates available for Hall Avenue Park (from Pacer: 40.9153N, -84.0564W
+      — treat as approximate)'
+    - 'GPS coordinates available for Glandorf Community Park (from Pacer: 41.0327N,
+      -84.0796W — treat as approximate)'
+    - No GPS captured for remaining 8 T6 sites/APs
+    reasoning: Map verification pass (§4.4 / IMP-031) not completed — browser tools
+      not available during this session. All 10 T6 entities require Google Maps detail
+      card verification to confirm identity and capture GPS. Glandorf Bicentennial
+      Park borderline NAP status also requires map verification before entity decision
+      is finalized. Per OBS-018, T6 must be marked PENDING/UNVERIFIED until map verification
+      is complete.
+    pending_items:
+    - 'Verify and GPS: Arrowhead Park (Ottawa)'
+    - 'Verify and GPS: The Ottawa Reservoir (Ottawa) — resolve NAMING_CONFLICT with
+      Waterworks Park at 1972 S Agner St'
+    - 'Verify and GPS: The Diversion Channel (Ottawa)'
+    - 'Verify and GPS: Arrowhead Landing (Ottawa)'
+    - 'Verify and GPS: Reservoir Landing (Ottawa)'
+    - 'Verify and GPS: Hall Avenue Park (Columbus Grove) — GPS approximate from Pacer'
+    - 'Verify and GPS: CONTINENTAL POND (Continental)'
+    - 'Verify and GPS: Four Seasons Park (Kalida)'
+    - 'Verify and GPS: Pandora Park (Pandora)'
+    - 'Verify and GPS: Fort Jennings Park + River Access (Fort Jennings)'
+    - Glandorf Bicentennial Park — 14.5 ac, walking path — verify on map before entity
+      decision
+    - Confirm Cloverdale OH has no village park (putnamparks.org Cloverdale = Indiana
+      confirmed)
+    - Confirm West Leipsic has no village park
+    notes: 'Map verification pass completed. GPS captured for: Arrowhead Park, Ottawa
+      Reservoir, Hall Ave Park, Four Seasons Park (Kalida), Pandora Park, Fort Jennings
+      Park, all 3 APs. No Google Maps entity for: Diversion Channel, Continental Pond
+      (GPS pending acquisition pass). PUT-F-09 resolved: Ottawa Reservoir = Water
+      Works Park / Ottawa reservoir walking path. New T6 defects found: (1) Ottoville
+      Community Park (287 Church St) not staged — Ottoville park missed; (2) Glandorf
+      Community Park (203 N Main St, glandorfpark.org) not staged — Glandorf park
+      missed. PUT-F-10 (500 Rohe Rd Glandorf Bicentennial Park) not found in Google
+      Maps — remains PENDING.'
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - https://blackswamp.org/properties/land-we-own/ — 16 BSC owned preserves; none
+      in Putnam County
+    - https://blackswamp.org/properties/land-we-protect/ — BSC easement properties;
+      none in Putnam County
+    - https://blackswamp.org/property/blanchard-river-nature-preserve/ — donated to
+      Hancock County Park District in 2013; not a Putnam County entity
+    - 'https://h2.ohio.gov/odnr-breaks-ground-on-two-new-wetland-projects/ — Sugarcamp
+      7 (9 ac, Putnam County): private Weiss family land; ODNR H2Ohio restoration
+      project; BSC conservancy partner only; no public access'
+    - 'https://www.wcolc.org/land-protection — WCOLC: agricultural conservation easements
+      only; Putnam County in service area; no public-access preserves listed'
+    - 'https://www.blanchardriver.org/ — BRWP: watershed education/advocacy nonprofit;
+      not a landowner (§4.7)'
+    - https://www.onapa.org/preserve-map.html — ONAPA cross-check redirects to ODNR
+      DNAP finder; no dedicated state nature preserves in Putnam County (already confirmed
+      T2)
+    - 'WebSearch: putnamcountylandtrust.org = Putnam County NY; wyndhamlandtrust.org/putnam
+      = Connecticut. §4.2a wrong-state.'
+    - 'WebSearch: Ottawa River Greenway (PUT-F-02) — no evidence of formal named entity
+      in Putnam County OH; no authoritative source found'
+    reasoning: No nonprofit-owned or publicly accessible easement land found in Putnam
+      County. BSC operates in NW Ohio but has no Putnam County holdings — Blanchard
+      River Nature Preserve transferred to Hancock County Park District 2013. Sugarcamp
+      7 (Putnam County, Blanchard River, 9 ac) is private Weiss family land under
+      ODNR H2Ohio restoration; BSC role is conservancy partner only; no public access.
+      WCOLC holds agricultural conservation easements in Putnam County but none are
+      public-access or identity-bearing. Ottawa River Greenway (PUT-F-02) has no authoritative
+      source confirming it as a formal named entity in Putnam County OH.
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Trail
+    result: 'null'
+    sources_checked:
+    - All T7 org websites listed under Site null block above
+    - BTA (Buckeye Trail Association) — advocacy/maintenance only; does not own trail
+      land in Putnam County (§4.7)
+    - NCTA (North Country Trail Association) — advocacy/maintenance only; trail ownership
+      is USFS/NPS; §4.7 confirmed
+    reasoning: No nonprofit-owned or managed trails found in Putnam County. BTA and
+      NCTA are advocacy organizations, not landowners. No other trail-owning T7 organization
+      identified.
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - All T7 org websites — no nonprofit-owned trails found; no trail segments possible
+    reasoning: No T7 Trails exist in Putnam County; Trail Segments are null by derivation.
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - All T7 org websites — no nonprofit-managed trail systems found
+    reasoning: No nonprofit manages a multi-trail system in Putnam County. BTA/NCTA
+      are advocacy orgs, not owners.
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - All T7 org websites — no multi-site conservation systems found with Putnam County
+      holdings
+    reasoning: No T7 Sites exist in Putnam County; Site Network is null by derivation.
+      No watershed-scale system with identity-bearing Putnam County component found.
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - All T7 org websites — no public-access nonprofit properties found; no access
+      points possible
+    reasoning: No T7 Sites or Trails in Putnam County; Access Points are null by derivation.
+- tier_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    result: 'null'
+    entities_found: 0
+    sources_checked:
+    - Black Swamp Conservancy — blackswamp.org (Land We Own + Land We Protect)
+    - West Central Ohio Land Conservancy — wcolc.org/land-protection
+    - Blanchard River Watershed Partnership — blanchardriver.org
+    - ONAPA preserve map — onapa.org/preserve-map.html
+    - Land Trust Alliance — landtrustalliance.org/land-trusts/explore/west-central-ohio-land-conservancy-oh
+    - 'WebSearch: land trust conservancy nature preserve Putnam County Ohio'
+    - 'WebSearch: Sugarcamp 7 Blanchard River Putnam County ODNR'
+    - 'WebSearch: Ottawa River Greenway Putnam County Ohio'
+    - Buckeye Trail Association §4.7 disambiguation
+    - NCTA §4.7 disambiguation
+    - putnamcountylandtrust.org / wyndhamlandtrust.org — §4.2a wrong-state (New York
+      / Connecticut)
+    notes: 'PUT-F-02 (Ottawa River Greenway) confirmed unresolvable — no authoritative
+      source for a formal Ottawa River Greenway entity in Putnam County OH. Baseline
+      seed closed as NOT CONFIRMED. Sugarcamp 7 (9 ac, Blanchard River, Putnam County)
+      = ODNR H2Ohio project on private land; no public access; not a NAP entity at
+      any tier. WCOLC agricultural easements in Putnam County excluded per §4.2 (private,
+      no public access). IMP-080 check: all 6 entity types documented.'
+- entity_type: Site
+  name_raw: Saint Barbara's Catholic Church Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saint Barbara Catholic Parish
+  governance_raw: Saint Barbara Catholic Parish, Cloverdale, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Cloverdale, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Saint Barbara Catholic
+    Church, Cloverdale, Ohio.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: IMP-099 church cemetery. Saint Barbara Parish, Cloverdale OH.
+    Named and mapped in Find A Grave (cemetery_id from Find A Grave). Publicly accessible
+    during daylight hours.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saint Anthony Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saint Anthony Catholic Parish
+  governance_raw: Saint Anthony Catholic Parish, Columbus Grove, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Columbus Grove, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Saint Anthony Catholic
+    Church, Columbus Grove, Ohio.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: 'IMP-099 church cemetery. Saint Anthony Parish, Columbus Grove
+    OH. Inscriptions documented 1920-1982 per FamilySearch (ref: 396437). Publicly
+    accessible.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saint John the Baptist Catholic Church Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saint John the Baptist Catholic Parish
+  governance_raw: Saint John the Baptist Catholic Parish, Glandorf, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Glandorf, Ottawa Township, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Saint John the Baptist
+    Catholic Church, Glandorf, Ohio. One of the largest Catholic parishes in NW Ohio
+    serving the historic German-Catholic community of Glandorf.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: 'IMP-099 church cemetery. Saint John the Baptist Parish, Glandorf
+    OH. Documented in WorldCat: ''Putnam County, Ohio, cemeteries. Volume five, Greensburg
+    Township with St. John the Baptist Catholic Church, Glandorf, Ottawa Township.''
+    Also in FamilySearch (ref: 396455). Publicly accessible.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saint John's Pioneer Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saint John the Baptist Catholic Parish
+  governance_raw: Saint John the Baptist Catholic Parish, Glandorf, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Glandorf, Putnam County, Ohio
+  description_raw: Historical pioneer-era Catholic cemetery associated with Saint
+    John the Baptist Parish, Glandorf. Separate from the main parish cemetery; documents
+    early German Catholic settlement in Putnam County.
+  features_raw: Cemetery; Pioneer cemetery; Church cemetery; Visitor accessible
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: 'IMP-099 church cemetery. Listed separately from main St. John
+    the Baptist Cemetery in Find A Grave. Pioneer designation suggests early historical
+    section. Governance: St. John the Baptist Parish, Glandorf OH.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saint Michael Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saint Michael Catholic Parish
+  governance_raw: Saint Michael Catholic Parish, Kalida, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Kalida, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Saint Michael Catholic
+    Church, Kalida, Ohio.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: 'IMP-099 church cemetery. Saint Michael Parish, Kalida OH. Also
+    listed as ''Saint Michaels Cemetery'' in Find A Grave. Publicly accessible. Note:
+    Union Township Cemetery and Old Union Township Cemetery (near Kalida) are flagged
+    separately as PUT-F-08 (T5 §5.6 finding).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saint Mary's Catholic Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saint Mary Catholic Parish, Leipsic
+  governance_raw: Saint Mary Catholic Parish, Leipsic, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Leipsic, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Saint Mary Catholic Church,
+    Leipsic, Ohio.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: 'IMP-099 church cemetery. Saint Mary Parish, Leipsic OH. Also
+    listed as ''Saint Mary Cemetery'' and ''Saint Marys Cemetery'' in various databases.
+    Publicly accessible. NOTE: There is also a Saint Mary''s Catholic Cemetery in
+    Ottoville — these are separate entities.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saint Nicholas Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saint Nicholas Catholic Parish
+  governance_raw: Saint Nicholas Catholic Parish, Miller City, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Miller City, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Saint Nicholas Catholic
+    Church, Miller City, Ohio.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: 'IMP-099 church cemetery. Saint Nicholas Parish, Miller City
+    OH. Church records 1899-1983 documented in FamilySearch (ref: 390262). Publicly
+    accessible.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Holy Family Church Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Holy Family Catholic Parish
+  governance_raw: Holy Family Catholic Parish, New Cleveland, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: New Cleveland, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Holy Family Catholic Church,
+    New Cleveland, Ohio.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: IMP-099 church cemetery. Holy Family Parish, New Cleveland OH.
+    Listed as 'Holy Family Cemetery' and 'Holy Family Church Cemetery' in genealogy
+    databases. Publicly accessible.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Methodist Episcopal Church Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Methodist congregation (North Creek, Ohio)
+  governance_raw: Methodist congregation, North Creek, Putnam County, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: North Creek, Putnam County, Ohio
+  description_raw: Methodist Episcopal church cemetery in North Creek community, Putnam
+    County.
+  features_raw: Cemetery; Church cemetery; Visitor accessible
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: IMP-099 church cemetery. Methodist Episcopal congregation, North
+    Creek OH. Current congregation status and exact governance uncertain — original
+    denomination may have merged; verify ownership at pipeline stage via county auditor
+    parcel lookup.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saint Joseph Catholic Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saint Joseph Catholic Parish, North Creek
+  governance_raw: Saint Joseph Catholic Parish, North Creek, Putnam County, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: North Creek, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Saint Joseph Catholic
+    Church, North Creek community, Putnam County.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: 'IMP-099 church cemetery. Saint Joseph Parish, North Creek OH.
+    NOTE: Separate from Saint Joseph Cemetery in Fort Jennings. North Creek is an
+    unincorporated community in Putnam County.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saints Peter and Paul Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saints Peter and Paul Catholic Parish
+  governance_raw: Saints Peter and Paul Catholic Parish, Ottawa, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Ottawa, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Saints Peter and Paul
+    Catholic Church, Ottawa, Ohio.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: IMP-099 church cemetery. Saints Peter and Paul Parish, Ottawa
+    OH. County seat parish cemetery. Publicly accessible.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saint Mary's Catholic Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Immaculate Conception Catholic Parish, Ottoville
+  governance_raw: Immaculate Conception Catholic Parish (also referenced as St. Mary
+    Parish), Ottoville, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Ottoville, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Immaculate Conception
+    Catholic Church, Ottoville, Ohio. Also referenced as Saint Mary's Catholic Cemetery.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: 'IMP-099 church cemetery. Immaculate Conception Parish, Ottoville
+    OH. Source: WorldCat ref 50193 ''Ottoville Immaculate Conception Catholic Church
+    Cemetery.'' Also listed as ''Saint Mary Cemetery'' and ''Saint Marys Cemetery''
+    in Find A Grave. Publicly accessible. NOTE: Distinct from Saint Mary''s Catholic
+    Cemetery in Leipsic.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Saint Joseph Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Saint Joseph Catholic Parish, Fort Jennings
+  governance_raw: Saint Joseph Catholic Parish, Fort Jennings, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Fort Jennings, Putnam County, Ohio
+  description_raw: Catholic parish cemetery associated with Saint Joseph Catholic
+    Church, Fort Jennings, Ohio.
+  features_raw: Cemetery; Church cemetery; Visitor accessible during daylight hours
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: IMP-099 church cemetery. Saint Joseph Parish, Fort Jennings
+    OH. Parish documented from 1848-1899 (FamilySearch baptism index / 1984 history,
+    WorldCat ref 32200). Also listed as 'Saint John Catholic Cemetery' (Billion Graves)
+    — naming conflict; verify at pipeline. Publicly accessible.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Mount Calvary Cemetery
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Catholic Parish (Fort Jennings, Ohio)
+  governance_raw: Catholic congregation, Fort Jennings, Putnam County, Ohio
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Fort Jennings, Putnam County, Ohio
+  description_raw: Catholic cemetery (Mount Calvary) in Fort Jennings community, Putnam
+    County.
+  features_raw: Cemetery; Church cemetery; Visitor accessible
+  urls_raw:
+  - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+  - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm
+  identity_notes_raw: 'IMP-099 church cemetery. Fort Jennings OH. ''Mount Calvary''
+    is a common Catholic cemetery name. Governance: likely Saint Joseph Parish or
+    a second Fort Jennings Catholic congregation — verify at pipeline via county auditor
+    parcel. Publicly accessible.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+- entity_type_result:
+    tier: 8
+    governance_level: Private
+    entity_type: Trail
+    result: 'null'
+    sources_checked:
+    - 'WebSearch: Putnam County Ohio scout camp church camp retreat hiking — no results
+      in Putnam County'
+    - 'WebSearch: Putnam County Ohio hunting preserve — no licensed preserves found;
+      Thorn Bottom = Paulding County'
+    - 'WebSearch: Putnam County Ohio agritourism farm trail — haunted cornfield (entertainment,
+      not NAP); Lincoln Ridge = Van Wert County §4.2a'
+    - No private organizations found with named trail systems in Putnam County
+    reasoning: No private or organization-based trails found. No scout camps, church
+      camps, retreat centers, or private preserves with trail systems identified in
+      Putnam County.
+- entity_type_result:
+    tier: 8
+    governance_level: Private
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - All T8 searches — no private trails found; segments null by derivation
+    reasoning: No T8 Trails found; Trail Segments null by derivation.
+- entity_type_result:
+    tier: 8
+    governance_level: Private
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - All T8 searches — no private trail systems found
+    reasoning: No T8 Trails found; Trail Network null by derivation.
+- entity_type_result:
+    tier: 8
+    governance_level: Private
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - All T8 searches — no private multi-site conservation system found
+    reasoning: No private organization manages a multi-site system in Putnam County.
+- entity_type_result:
+    tier: 8
+    governance_level: Private
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - All T8 searches — no private sites with documented access points
+    reasoning: Church cemeteries staged as Sites have no separate Access Point records
+      (entrance is the cemetery gate, not a named NAP Access Point).
+- tier_result:
+    tier: 8
+    governance_level: Private
+    result: entities found
+    entities_found: 14
+    sources_checked:
+    - https://ldsgenealogy.com/OH/Putnam-County-Cemetery-Records.htm — comprehensive
+      cemetery inventory for Putnam County OH
+    - https://www.findagrave.com/cemetery-browse/USA/Ohio/Putnam-County?id=county_2108
+      — Find A Grave Putnam County OH cemetery list
+    - 'https://www.mooselandingcc.com/ — Moose Landing Country Club (Ottawa): public
+      golf course, NOT T8'
+    - 'https://www.pikerungc.com/ — Pike Run Golf Club (Ottawa): public golf course,
+      NOT T8'
+    - 'WebSearch: ODNR hunting preserve Putnam County Ohio — null'
+    - 'WebSearch: Putnam County Ohio agritourism farm trail — null NAP entities'
+    - 'WebSearch: scout camp church camp retreat Putnam County Ohio — null'
+    notes: '14 church cemetery Sites staged per IMP-099. All named, parish-owned,
+      publicly accessible during daylight hours. No private trails, networks, or access
+      points found. No hunting preserves, scout camps, or private nature preserves
+      in Putnam County. Two public golf courses confirmed (Moose Landing CC, Pike
+      Run GC) — public access, not T8. IMP-080: all 6 entity types documented (Sites
+      via 14 records; Trail/Trail Segment/Trail Network/Site Network/Access Point
+      via null blocks).'
+- entity_type: Site
+  name_raw: Ottoville Community Park
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Village of Ottoville
+  governance_raw: Village of Ottoville
+  partner_agencies_raw: null
+  coordination_raw: null
+  gps_lat_raw: 40.9343759
+  gps_lon_raw: -84.3418784
+  location_raw: 287 Church St, Ottoville, OH 45876
+  description_raw: null
+  features_raw: Nice area for kids to play and have games (per Google Maps review)
+  difficulty_raw: null
+  accessibility_raw: null
+  urls_raw: []
+  identity_notes_raw: 'Discovered during T6 map verification pass (IMP-031). Google
+    Maps: Ottoville Community Park, 287 Church St, Ottoville OH 45876, 4.8 stars (19
+    reviews), Park. T6 DEFECT — this entity was not staged during original T6 discovery;
+    Ottoville municipality was covered but this park was missed. GPS from Google Maps
+    detail card during map verification (IMP-031) — treat as approximate. Relationship
+    to PUT-S-011 (Four Seasons Park, Kalida): these are different entities in different
+    villages.'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- entity_type: Site
+  name_raw: Glandorf Community Park
+  counties_raw:
+  - Putnam County, Ohio
+  county_primary: Putnam
+  ownership_raw: Village of Glandorf
+  governance_raw: Village of Glandorf
+  partner_agencies_raw: null
+  coordination_raw: null
+  gps_lat_raw: 41.0328993
+  gps_lon_raw: -84.0792131
+  location_raw: 203 N Main St, Glandorf, OH 45848
+  description_raw: Come enjoy our Dragon Towers, swings, jeep, walking path and more.
+  features_raw: Dragon Towers, swings, jeep, walking path
+  difficulty_raw: null
+  accessibility_raw: null
+  urls_raw:
+  - https://www.glandorfpark.org
+  identity_notes_raw: 'Discovered during T6 map verification pass (IMP-031). Google
+    Maps: Glandorf Community Park, 203 N Main St, Glandorf OH 45848, 4.7 stars (122
+    reviews), Park; website: glandorfpark.org; phone: (419) 538-6953; dogs allowed.
+    Map shows park directly adjacent to Blanchard River — river adjacency confirms
+    NAP entity status. T6 DEFECT — not staged during original T6 discovery; Glandorf
+    municipality was covered but this park missed. SEPARATE from PUT-F-10 (Glandorf
+    Bicentennial Park, 500 Rohe Rd — not found in Google Maps, remains PENDING). GPS
+    from Google Maps detail card during map verification (IMP-031) — treat as approximate.
+    PUT-F-10 RESOLVED: Originally flagged as Glandorf Bicentennial Park at 500 Rohe
+    Rd (borderline NAP). glandorfpark.org confirms Dragon Towers + walking path at
+    203 N Main St — this is the correct address. Deters Park (also on glandorfpark.org)
+    confirmed FUTURE/planned development — not a NAP entity at this time.'
+  township_raw: null
+  municipality_raw: null
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: null
+- tier_result:
+    tier: 6
+    governance_level: Municipal
+    result: complete
+    entities_found: 13
+    notes: 'T6 formally closed. Map verification pass (SS4.4/IMP-031/OBS-018) complete.
+      PUT-F-09 RESOLVED: The Ottawa Reservoir (1972 S Agner St) confirmed distinct
+      from Ottawa Waterworks Park (1035 E 3rd St). PUT-F-10 RESOLVED: Glandorf Bicentennial
+      Park = Glandorf Community Park (PUT-S-015) at 203 N Main St; 500 Rohe Rd address
+      was incorrect. 10 Sites + 3 Access Points total. Two T6 DEFECT corrections staged:
+      Ottoville Community Park and Glandorf Community Park (missed in original T6
+      pass). GPS pending for The Diversion Channel (OG Road, Ottawa — no place card
+      in Google Maps, no authoritative coordinates) and Continental Pond (South Main
+      St, Continental — no place card). Both flagged for GPS acquisition pass.'

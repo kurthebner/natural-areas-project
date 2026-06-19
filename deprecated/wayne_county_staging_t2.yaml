@@ -1,0 +1,755 @@
+# Wayne County, Ohio — Natural Areas Discovery Staging File
+# Tiers 2 & 3: State Lands + District Level
+# Started: 2026-03-03
+# Protocol: Discovery Sub-Procedure v5.2
+# Tier 2 Status: COMPLETE
+# Tier 3 Status: COMPLETE
+
+# ============================================================
+# TIER 1 RESULT (prior session)
+# ============================================================
+tier_result:
+  tier: 1
+  governance_level: Federal & Tribal
+  result: null
+  entities_found: 0
+  sources_checked:
+    - Federal land management agencies (NPS, USFWS, BLM, USFS, Army Corps)
+    - Tribal land databases
+    - BIA records
+  notes: No federal or tribal entities confirmed in Wayne County, Ohio. Confirmed by user from prior session.
+
+# ============================================================
+# BASELINE SEEDS — STATE TIER
+# ============================================================
+# baseline_id: WC-001 | Brown's Lake Bog State Nature Preserve | DNAP/TNC | CONFIRMED (record below)
+# baseline_id: WC-002 | Johnson Woods State Nature Preserve     | DNAP     | CONFIRMED (record below)
+# baseline_id: WC-003 | Shreve Lake Wildlife Area               | Wildlife | CONFIRMED (record below)
+
+# ============================================================
+# SOURCES CHECKED — TIER 2
+# ============================================================
+sources_checked:
+  - ODNR Find-a-Property (JavaScript-rendered; used division-specific searches as fallback)
+  - ODNR Division of Natural Areas & Preserves (naturepreserves.ohiodnr.gov — domain blocked; fallback: web search, AllTrails, TNC, third-party sources)
+  - ODNR Division of Wildlife (wildlife.ohiodnr.gov — domain blocked; fallback: web search, hunting maps, fishing maps search)
+  - ODNR Division of Parks & Watercraft (parks.ohiodnr.gov — domain blocked; fallback: web search confirms no state park in Wayne County)
+  - ODNR Division of Forestry (forestry.ohiodnr.gov — domain blocked; fallback: web search confirms no state forest in Wayne County)
+  - ODNR Scenic Rivers Program (web search — Killbuck Creek not designated; Mohican SR is Ashland/Knox/Holmes/Coshocton)
+  - ODNR Hunting Area Maps PDF (dam.assets.ohio.gov — domain blocked; fallback: web search)
+  - ODNR Fishing Lake Maps (web search — Shreve Lake identified)
+  - ODNR River & Stream Fishing Maps (web search — Killbuck Creek fishing area identified)
+  - Ohio History Connection / ohiohistory.org (domain blocked; fallback: web search — no OHC state sites in Wayne County found)
+  - ODOT rest areas (domain blocked; fallback: web search — no recreation rest areas confirmed in Wayne County)
+  - Ohio Turnpike / OTIC (not applicable — Wayne County not on I-80/90)
+  - Cardinal Collection / CatalogIt (no state parks in Wayne County — source not applicable)
+  - ODNR Historic Places / New Deal Era Sites (JavaScript-rendered; no state parks or forests — source not applicable)
+  - TrekOhio Wayne County (domain blocked; fallback: web search)
+  - Wikipedia List of Ohio State Nature Preserves (domain blocked; fallback: web search)
+  - iNaturalist, Wikidata, Birdinghotspots (domains blocked; fallback: web search)
+  - AllTrails, OutdoorNews, visitwaynecountyohio, ohiosamishcountry (some blocked; data captured via web search)
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 2 — SITES
+# ============================================================
+
+---
+# RECORD T2-001
+entity_type: Site
+name_raw: "Brown's Lake Bog State Nature Preserve"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "The Nature Conservancy"
+governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas & Preserves (dedicated State Nature Preserve)"
+partner_agencies_raw: "The Nature Conservancy; Ohio Department of Natural Resources"
+coordination_raw: "The Nature Conservancy manages preserve for visitor use by maintaining boardwalk and trails; dedicated as Ohio State Nature Preserve by ODNR"
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "~2 miles west of Shreve on Brown Road, Shreve, Ohio 44676; Wayne County, southwestern Wayne County"
+features_raw: "Floating sphagnum moss mat, 7-acre kettle lake, kame (glacially formed hill), old-growth lowland forest, 20+ rare plant species; boardwalk and earthen trail; open dawn to dusk"
+urls_raw:
+  - "http://naturepreserves.ohiodnr.gov/brownslakebog"
+  - "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/browns-lake-bog-preserve/"
+  - "https://www.alltrails.com/trail/us/ohio/browns-lake-bog-trail"
+identity_notes_raw: "Designated Ohio State Nature Preserve; also designated National Natural Landmark (1967) — NNL is a federal recognition designation by NPS, not an ownership/management designation; TNC is owner and manager; acreage varies slightly by source (99.16 in baseline, ~100 in multiple secondary sources); cross-reference against Tier 1 null result — NNL designation confirmed not to constitute a federal land holding in this case"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: WC-001
+
+---
+# RECORD T2-002
+entity_type: Site
+name_raw: "Johnson Woods State Nature Preserve"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Ohio Department of Natural Resources"
+governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas & Preserves"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "13240 Fox Lake Rd., Marshallville, OH 44645; large parking lot across the road from the preserve"
+features_raw: "Old-growth forest; trees 400-500 years old; boardwalk trail system; short loop and long loop options; handicapped accessible; benches; shelter; informational plaques; no dogs or bikes allowed; stroller friendly"
+urls_raw:
+  - "http://naturepreserves.ohiodnr.gov/johnsonwoods"
+  - "https://www.alltrails.com/parks/us/ohio/johnson-woods-state-nature-preserve"
+  - "https://www.alltrails.com/trail/us/ohio/johnson-woods"
+  - "http://www.neonaturalist.com/trails/johnson_woods_trail.html"
+identity_notes_raw: "Acreage reported as 205.79 in baseline; secondary sources report 206 acres — use baseline value pending GIS confirmation; GNIS lists 'Johnson Woods' as area type 'Woods' — confirm this is the same entity as Johnson Woods State Nature Preserve (likely yes, same location)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: WC-002
+
+---
+# RECORD T2-003
+entity_type: Site
+name_raw: "Shreve Lake Wildlife Area"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Ohio Department of Natural Resources"
+governance_raw: "Ohio Department of Natural Resources, Division of Wildlife"
+partner_agencies_raw: ""
+coordination_raw: "Managed by Killbuck Marsh Wildlife Area manager (1691 Centerville Road, Shreve, Ohio 44676)"
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "Critchfield Rd. & Brown Rd., Shreve, Ohio 44676; approximately 1.2 miles west of Shreve, north of State Route 226; lake access along Township Road 316 on southeast corner of lake; County Road 149 on western boundary; Clinton Township Road 138 on eastern boundary; Clinton Township Road 316 runs east-west through area"
+features_raw: "228-acre wildlife area; lake (largemouth bass, bluegill, redear sunfish, carp, crappies, Northern pike); boat ramp (electric motors only); accessible fishing pier; parking lot; hunting, trapping, birding permitted; recently reopened August 2025 after major dam/spillway restoration"
+urls_raw:
+  - "http://wildlife.ohiodnr.gov/shrevelakewa"
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/shrevelake.pdf"
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/maps/shrevelake2.pdf"
+identity_notes_raw: "Managed administratively by the Killbuck Marsh Wildlife Area manager; area manager address is Killbuck Marsh WA, not a separate Shreve Lake address; restored and reopened August 2025 after dam/spillway repair; new boat launch and parking constructed as part of restoration"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: true
+baseline_id: WC-003
+
+---
+# RECORD T2-004
+entity_type: Site
+name_raw: "Killbuck Marsh Wildlife Area"
+counties_raw:
+  - Wayne
+  - Holmes
+county_primary: Wayne
+ownership_raw: "Ohio Department of Natural Resources"
+governance_raw: "Ohio Department of Natural Resources, Division of Wildlife"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "1691 Centerville Road, Shreve, Ohio 44676 (area manager address); extends north from Holmesville to three miles south of Wooster; between State Route 83 on east and State Route 226 on west; shallow U-shaped glacial outwash valley; elevation 840-1000 ft"
+features_raw: "5,671 acres; 56% marsh and swamp; Ohio's largest remaining marshland outside Lake Erie region; Killbuck Creek fishing (Northern pike, carp, suckers, bullheads); multiple ponds (panfish); Unit 1 and Unit 2 hunting units (waterfowl hunting restrictions differ by unit); hiking trail; wildlife observation; county and township roads provide access; multiple small parking lots; trumpeter swans present; birding"
+urls_raw:
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/killbuckmarsh.pdf"
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/hunting-trapping/Killbuck%20Units.pdf"
+identity_notes_raw: "Multi-county entity spanning Wayne and Holmes counties — county distribution uncertain; headquarters address (1691 Centerville Road, Shreve OH 44676) is in Wayne County; primary features include Wayne County portions (Wright Marsh area on OH-226) and Holmes County portions (Holmesville end); GIS_VERIFY_COUNTY — GIS verification required to determine exact acreage split between Wayne and Holmes counties; acreage 5,671 total; Lower Killbuck Creek Wildlife Area (161 acres, Holmes County) is a separate distinct entity"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: false
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 2 — TRAILS
+# ============================================================
+
+---
+# RECORD T2-005
+entity_type: Trail
+name_raw: "Brown's Lake Bog Trail"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "The Nature Conservancy"
+governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas & Preserves (dedicated State Nature Preserve); managed by The Nature Conservancy"
+partner_agencies_raw: "The Nature Conservancy"
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+difficulty_raw: ""
+accessibility_raw: "boardwalk and earthen trail"
+urls_raw:
+  - "http://naturepreserves.ohiodnr.gov/brownslakebog"
+  - "https://www.alltrails.com/trail/us/ohio/browns-lake-bog-trail"
+identity_notes_raw: "Trail length varies by source: 0.5 mile loop (one source), 0.75 mile (another source); AllTrails lists as 'Brown's Lake Bog Trail'; boardwalk and earthen sections; traverses fern-carpeted lowland forest and surrounding oak-studded glacial hills; managed by TNC; parent site: Brown's Lake Bog State Nature Preserve (T2-001)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: false
+
+---
+# RECORD T2-006
+entity_type: Trail
+name_raw: "Johnson Woods Boardwalk Trail"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Ohio Department of Natural Resources"
+governance_raw: "Ohio Department of Natural Resources, Division of Natural Areas & Preserves"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+difficulty_raw: "easy"
+accessibility_raw: "fully boardwalk; handicapped accessible; stroller friendly"
+urls_raw:
+  - "http://naturepreserves.ohiodnr.gov/johnsonwoods"
+  - "https://www.alltrails.com/trail/us/ohio/johnson-woods"
+  - "http://www.neonaturalist.com/trails/johnson_woods_trail.html"
+identity_notes_raw: "Also referred to as 'Johnson Woods Loop'; boardwalk trail with short loop and long loop options; length varies by source: 1.4 miles (AllTrails), 1.5 miles (ODNR/secondary sources); AllTrails lists 29 ft elevation gain; well-marked with map at every intersection; benches along trail; no dogs or bikes; parent site: Johnson Woods State Nature Preserve (T2-002)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: false
+
+---
+# RECORD T2-007
+entity_type: Trail
+name_raw: "Killbuck Marsh Wildlife Observation Trail"
+counties_raw:
+  - Wayne
+  - Holmes
+county_primary: Wayne
+ownership_raw: "Ohio Department of Natural Resources"
+governance_raw: "Ohio Department of Natural Resources, Division of Wildlife"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+difficulty_raw: ""
+accessibility_raw: "earthen foot trail; walking only"
+urls_raw:
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/killbuckmarsh.pdf"
+identity_notes_raw: "IDENTITY UNCERTAIN — two distinct descriptions found: (1) '3.7-mile wildlife observation and earthen foot trail'; (2) 'walking-only trail for wildlife observation follows the abandoned B&O Railroad through the center of the area, 4 miles long, passing through large variety of habitats' — may be same trail described differently by different sources, or may be two separate trails; resolution required; parent site: Killbuck Marsh Wildlife Area (T2-004); trail spans Wayne and Holmes counties — GIS_VERIFY_COUNTY"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: false
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 2 — TRAIL SEGMENTS
+# ============================================================
+
+# No named trail segments identified at Tier 2 for Wayne County.
+
+tier_result_trail_segments:
+  tier: 2
+  entity_type: Trail Segment
+  result: null
+  entities_found: 0
+  sources_checked:
+    - ODNR division pages (blocked; web search fallback)
+    - AllTrails (no named segments identified)
+    - ODNR wildlife area maps
+  notes: No named trail segments identified. Trail loops at Johnson Woods (short/long) are informal loop options of the single boardwalk trail, not separately designated segments with distinct identifiers.
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 2 — TRAIL NETWORKS
+# ============================================================
+
+# No trail networks identified at Tier 2 for Wayne County.
+
+tier_result_trail_networks:
+  tier: 2
+  entity_type: Trail Network
+  result: null
+  entities_found: 0
+  sources_checked:
+    - ODNR Scenic Rivers Program (no designation in Wayne County)
+    - ODNR statewide trail network listings (web search)
+    - Buckeye Trail (passes through Ohio broadly; no specific Wayne County network node identified at Tier 2)
+  notes: No statewide or regional multi-trail systems identified as active in Wayne County at Tier 2 (state governance level). Buckeye Trail may be present — defer to Tier 7 (Conservancy & Land Trust) if applicable.
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 2 — SITE NETWORKS
+# ============================================================
+
+# No site networks identified at Tier 2 for Wayne County.
+
+tier_result_site_networks:
+  tier: 2
+  entity_type: Site Network
+  result: null
+  entities_found: 0
+  sources_checked:
+    - ODNR Scenic Rivers Program
+    - Web search for Killbuck Creek scenic river designation
+    - Web search for Mohican River designation (Ashland/Knox/Holmes/Coshocton only)
+    - ODNR statewide scenic river list
+  notes: Killbuck Creek flows through Wayne County but is NOT designated as an Ohio State Scenic River. Mohican State Scenic River does not include Wayne County. No scenic river network or multi-site state network present in Wayne County.
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 2 — ACCESS POINTS
+# ============================================================
+
+---
+# RECORD T2-008
+entity_type: Access Point
+name_raw: "Shreve Lake Boat Launch"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Ohio Department of Natural Resources"
+governance_raw: "Ohio Department of Natural Resources, Division of Wildlife"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "Township Road 316, southeast corner of Shreve Lake; Critchfield Rd. & Brown Rd. area, Shreve, Ohio 44676"
+features_raw: "Boat launch ramp; parking lot (new construction as of 2025 restoration); electric motors only restriction on lake; near accessible fishing pier"
+urls_raw:
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/shrevelake.pdf"
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/maps/shrevelake2.pdf"
+identity_notes_raw: "Reopened August 2025 after restoration; new boat launch constructed as part of $6.5M restoration project; parent site: Shreve Lake Wildlife Area (T2-003)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: false
+
+---
+# RECORD T2-009
+entity_type: Access Point
+name_raw: "Shreve Lake Fishing Pier"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Ohio Department of Natural Resources"
+governance_raw: "Ohio Department of Natural Resources, Division of Wildlife"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "Near boat launching ramp on Township Road 316, southeast corner of Shreve Lake"
+features_raw: "Fishing pier; designed for people with disabilities (accessible); near boat launch; parking"
+urls_raw:
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/shrevelake.pdf"
+identity_notes_raw: "Accessible fishing pier; repaired as part of 2025 restoration project; parent site: Shreve Lake Wildlife Area (T2-003)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: false
+
+---
+# RECORD T2-010
+entity_type: Access Point
+name_raw: "Killbuck Marsh Wildlife Area — Carrie Lane Parking Area"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Ohio Department of Natural Resources"
+governance_raw: "Ohio Department of Natural Resources, Division of Wildlife"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "End of Carrie Lane, Killbuck Marsh Wildlife Area"
+features_raw: "Small parking lot; walking access to wildlife area interior"
+urls_raw:
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/killbuckmarsh.pdf"
+identity_notes_raw: "One of multiple scattered small parking lots throughout the wildlife area; county (Wayne vs Holmes) unconfirmed — GIS_VERIFY_COUNTY; parent site: Killbuck Marsh Wildlife Area (T2-004)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: false
+
+---
+# RECORD T2-011
+entity_type: Access Point
+name_raw: "Killbuck Marsh Wildlife Area — Wright Marsh Parking Area"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Ohio Department of Natural Resources"
+governance_raw: "Ohio Department of Natural Resources, Division of Wildlife"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "Shreve Road (State Route 226/OH-226), Killbuck Marsh Wildlife Area — Wright Marsh section"
+features_raw: "Parking area; walking access to dikes and impoundments; wildlife observation"
+urls_raw:
+  - "https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/wildlife/wildlife-area-maps/killbuckmarsh.pdf"
+identity_notes_raw: "Wright Marsh is one named section of Killbuck Marsh Wildlife Area; parking area on OH-226 (Shreve Road); birding hotspot 'Killbuck Marsh Wildlife Area--Wright Marsh' listed at this location (Wayne County); parent site: Killbuck Marsh Wildlife Area (T2-004)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 2
+seeded_from_baseline: false
+
+# ============================================================
+# TIER 2 NULL RESULTS — STATE DIVISIONS WITH NO ENTITIES
+# ============================================================
+
+tier_result_parks_watercraft:
+  tier: 2
+  governance_level: ODNR Division of Parks & Watercraft
+  result: null
+  entities_found: 0
+  sources_checked:
+    - parks.ohiodnr.gov (blocked; web search fallback)
+    - Web search for Wayne County state parks
+    - Confirmed: Mohican State Park is in Ashland County, not Wayne County
+  notes: No state park in Wayne County, Ohio. Nearest state parks are in adjacent Ashland (Mohican), Medina, and Stark counties.
+
+tier_result_forestry:
+  tier: 2
+  governance_level: ODNR Division of Forestry
+  result: null
+  entities_found: 0
+  sources_checked:
+    - forestry.ohiodnr.gov (blocked; web search fallback)
+    - Ohio state forests list (web search)
+  notes: No state forest in Wayne County, Ohio. Ohio's 24 state forests are concentrated primarily in southeastern Ohio; none in Wayne County confirmed by multiple sources.
+
+tier_result_scenic_rivers:
+  tier: 2
+  governance_level: ODNR Scenic Rivers Program
+  result: null
+  entities_found: 0
+  sources_checked:
+    - ODNR scenic rivers list (web search)
+    - Killbuck Creek designation status (web search — NOT designated)
+    - Mohican State Scenic River (Ashland/Knox/Holmes/Coshocton — does not include Wayne County)
+    - National Wild and Scenic River system (rivers.gov — no Wayne County listings)
+  notes: Killbuck Creek flows through Wayne County but has no Ohio State Scenic River designation. No designated scenic rivers in Wayne County.
+
+tier_result_ohc:
+  tier: 2
+  governance_level: Ohio History Connection (OHC)
+  result: null
+  entities_found: 0
+  sources_checked:
+    - ohiohistory.org (blocked; web search fallback)
+    - Web search for OHC state memorials, archaeological preserves, mound sites in Wayne County
+    - site:ohiohistory.org Wayne County (search performed)
+  notes: No OHC-managed state memorials, archaeological preserves, or historic landscapes identified in Wayne County. Pre-contact mounds documented by College of Wooster (Pee Wee Hollow / Adena period) are academic/archaeological records, not OHC-managed state sites.
+
+tier_result_odot:
+  tier: 2
+  governance_level: ODOT
+  result: null
+  entities_found: 0
+  sources_checked:
+    - ODOT rest areas (transportation.ohio.gov — blocked; web search fallback)
+    - ohiorestareas.com (blocked; web search fallback)
+    - Web search for ODOT rest areas/scenic overlooks on I-71, US-30, US-250 in Wayne County
+  notes: No ODOT-managed scenic overlooks, state bikeways, or recreation rest areas confirmed in Wayne County. I-71 does not pass through Wayne County. US-30 passes through but no recreation amenities identified at rest areas. ODOT bikeway datasets not accessible due to domain block; no evidence of state-managed bikeway corridor in Wayne County from web search.
+
+tier_result_otic:
+  tier: 2
+  governance_level: Ohio Turnpike & Infrastructure Commission (OTIC)
+  result: null
+  entities_found: 0
+  sources_checked: []
+  notes: Not applicable. Wayne County does not have Ohio Turnpike (I-80/90) access. OTIC source skipped per §4.5 of State Discovery Sub-Procedure v5.2.
+
+# ============================================================
+# TIER 2 SUMMARY
+# ============================================================
+tier_2_summary:
+  tier: 2
+  governance_level: State
+  total_sites: 4
+  total_trails: 3
+  total_trail_segments: 0
+  total_trail_networks: 0
+  total_site_networks: 0
+  total_access_points: 4
+  total_entities: 11
+
+  baseline_seeds_confirmed:
+    - WC-001: "Brown's Lake Bog State Nature Preserve" → T2-001
+    - WC-002: "Johnson Woods State Nature Preserve" → T2-002
+    - WC-003: "Shreve Lake Wildlife Area" → T2-003
+
+  new_entities_discovered:
+    - T2-004: "Killbuck Marsh Wildlife Area" (Wildlife; Wayne+Holmes counties; multi-county flag)
+    - T2-005: "Brown's Lake Bog Trail"
+    - T2-006: "Johnson Woods Boardwalk Trail"
+    - T2-007: "Killbuck Marsh Wildlife Observation Trail" (identity uncertain — see notes)
+    - T2-008: "Shreve Lake Boat Launch"
+    - T2-009: "Shreve Lake Fishing Pier"
+    - T2-010: "Killbuck Marsh — Carrie Lane Parking Area"
+    - T2-011: "Killbuck Marsh — Wright Marsh Parking Area"
+
+  flags:
+    - T2-004: GIS_VERIFY_COUNTY (Killbuck Marsh — Wayne/Holmes boundary)
+    - T2-007: IDENTITY_UNCERTAIN (trail length conflict: 3.7mi vs 4mi; may be one or two trails)
+    - T2-010: GIS_VERIFY_COUNTY (Carrie Lane access point county unconfirmed)
+    - T2-001: NNL designation noted; confirmed not a Tier 1 federal holding
+
+  domains_blocked_during_discovery:
+    - ohiodnr.gov (entire domain including all subdomains)
+    - naturepreserves.ohiodnr.gov
+    - dam.assets.ohio.gov
+    - gis-odnr.opendata.arcgis.com
+    - ohiohistory.org
+    - transportation.ohio.gov
+    - wikipedia.org
+    - trekohio.com
+    - tripadvisor.com
+    - nature.org
+    - inaturalist.org
+    - wikidata.org
+    - birdinghotspots.org
+    - wildbluetreasures.com
+    - bloggerbill.com
+    - visitwaynecountyohio.com
+    - ohiotraveler.com
+    - travelwithsara.com
+    - richlandsource.com
+    - outerspatial.com
+    - ohiorestareas.com
+    - ohiohuntingmaps.com
+  note_on_blocked_domains: "Primary ODNR domain (ohiodnr.gov) was blocked throughout discovery. All entity data was obtained via web search results and accessible third-party sources. GPS coordinates were NOT recorded for any entity because authoritative ODNR/TNC source pages were inaccessible — GPS Acquisition Module to handle downstream. ODNR map PDFs referenced in urls_raw but were not fetched due to domain block."
+
+# ============================================================
+# HANDOFF NOTE
+# ============================================================
+handoff:
+  ready_for: Tier 3 (District — Metroparks, Conservancy Districts)
+  next_skill: na-discovery (continue with na_district_discovery_subproc_v5.2.md)
+  open_items:
+    - T2-007 trail identity conflict to be resolved at Resolution stage
+    - GPS for all entities to be acquired at GPS Acquisition Module stage
+    - Killbuck Marsh county boundary to be resolved via GIS at pipeline stage
+    - ODNR map PDFs (shrevelake.pdf, killbuckmarsh.pdf, Killbuck Units.pdf) not fetched — verify URLs are correct when domain access restored
+
+# ============================================================
+# TIER 3 — DISTRICT LEVEL DISCOVERY
+# Protocol: District-Level Public Landholders Sub-Procedure v5.2
+# ============================================================
+
+# ============================================================
+# DISTRICT INVENTORY — WAYNE COUNTY
+# ============================================================
+# Districts checked:
+#   Wayne County Park District     → ACTIVE, statutory (ORC Ch.1545), has properties → records below
+#   Muskingum Watershed Conservancy District (MWCD) → no presence in Wayne County → null
+#   Wayne Soil & Water Conservation District (SWCD) → landowner technical assistance only, no public lands → null
+#   Metroparks (Summit, Medina, Stark) → none extend into Wayne County → null
+#   Joint recreation districts → none identified → null
+#   Miami Conservancy District → operates in SW Ohio only → not applicable
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 3 — SITES
+# ============================================================
+
+---
+# RECORD T3-001
+entity_type: Site
+name_raw: "Barnes Preserve"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Wayne County Park District"
+governance_raw: "Wayne County Park District (Ohio statutory park district, ORC Chapter 1545; commissioners appointed by Probate Judge)"
+partner_agencies_raw: "Friends of the Wayne County Park District (volunteer/fundraising support)"
+coordination_raw: "Park Board of 5 commissioners appointed by Probate Judge; Friends group provides maintenance labor"
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "3396 Sylvan Rd., Wooster, Ohio; 1/4 mile south of Secrest/Sylvan intersection; near Wayne County Care Center and OARDC/Secrest Arboretum"
+features_raw: "76 acres; ADA paved trail system (Casey's Trails); protected wetland pond (Koehler's Pond) with accessible observation deck; Meadow with native flowering plantings and milkweed (monarch habitat); Romich Pavilion (10 picnic tables, 4 wheelchair accessible, stationary grill, electricity, accessible port-a-john restroom); main parking lot; dawn to dusk hours; no dogs noted; geocaching, Boy Scouts, science classes use site; fishing pond and additional trails planned for future development"
+urls_raw:
+  - "https://www.waynecountyparkdistrict.org/barnes-preserve/"
+  - "https://www.waynecountyparkdistrict.org/"
+identity_notes_raw: "District website states this is 'the only Wayne County Park'; land was once part of the Wayne County Care Center; named after Don and Dorothy Barnes family who operated the Care Center; park district reorganized 2011; statutory authority confirmed — commissioners appointed by Probate Judge (ORC Ch.1545)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 3
+seeded_from_baseline: false
+
+---
+# RECORD T3-002
+entity_type: Site
+name_raw: "Koehler's Pond"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Wayne County Park District"
+governance_raw: "Wayne County Park District (child site within Barnes Preserve)"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "Within Barnes Preserve, 3396 Sylvan Rd., Wooster, Ohio; along Casey's Trails"
+features_raw: "Protected wetland pond; accessible observation deck; turtles, frogs, aquatic life; wildlife hydration source; visited by trail users"
+urls_raw:
+  - "https://www.waynecountyparkdistrict.org/barnes-preserve/"
+identity_notes_raw: "Named child site within Barnes Preserve (T3-001); identity-bearing with documented infrastructure (observation deck); parent: Barnes Preserve"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 3
+seeded_from_baseline: false
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 3 — TRAILS
+# ============================================================
+
+---
+# RECORD T3-003
+entity_type: Trail
+name_raw: "Casey's Trails"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Wayne County Park District"
+governance_raw: "Wayne County Park District"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+difficulty_raw: "non-challenging"
+accessibility_raw: "ADA paved; fully accessible; barrier-free; designed for people with physical limitations"
+urls_raw:
+  - "https://www.waynecountyparkdistrict.org/barnes-preserve/"
+identity_notes_raw: "Trail name: Casey's Trails; begins and ends at Romich Pavilion/main parking lot; passes through mature woods, by Koehler's Pond (with observation deck), and through the Meadow; loop configuration; length: nearly 1 mile (~0.9 miles per site description); parent site: Barnes Preserve (T3-001)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 3
+seeded_from_baseline: false
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 3 — TRAIL SEGMENTS
+# ============================================================
+
+tier_result_trail_segments_t3:
+  tier: 3
+  entity_type: Trail Segment
+  result: null
+  entities_found: 0
+  sources_checked:
+    - waynecountyparkdistrict.org (full site reviewed)
+  notes: Casey's Trails is described as a single continuous loop; no separately named or numbered segments identified.
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 3 — TRAIL NETWORKS
+# ============================================================
+
+tier_result_trail_networks_t3:
+  tier: 3
+  entity_type: Trail Network
+  result: null
+  entities_found: 0
+  sources_checked:
+    - waynecountyparkdistrict.org
+    - MWCD (no presence in Wayne County)
+  notes: No district-managed multi-trail network identified. Wayne County Park District operates a single trail (Casey's Trails) at a single preserve.
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 3 — SITE NETWORKS
+# ============================================================
+
+tier_result_site_networks_t3:
+  tier: 3
+  entity_type: Site Network
+  result: null
+  entities_found: 0
+  sources_checked:
+    - waynecountyparkdistrict.org
+    - MWCD (no Wayne County lakes)
+  notes: No district-managed multi-site network. Single preserve in the park district.
+
+# ============================================================
+# DISCOVERY RECORDS — TIER 3 — ACCESS POINTS
+# ============================================================
+
+---
+# RECORD T3-004
+entity_type: Access Point
+name_raw: "Barnes Preserve Main Entrance — Romich Pavilion Parking"
+counties_raw:
+  - Wayne
+county_primary: Wayne
+ownership_raw: "Wayne County Park District"
+governance_raw: "Wayne County Park District"
+partner_agencies_raw: ""
+coordination_raw: ""
+gps_lat_raw: ""
+gps_lon_raw: ""
+location_raw: "3396 Sylvan Rd., Wooster, Ohio; 1/4 mile south of Secrest/Sylvan intersection"
+features_raw: "Main parking lot; Romich Pavilion (10 picnic tables, 4 wheelchair accessible; stationary grill; electricity; accessible port-a-john restroom); Casey's Trails trailhead; first come first serve or reservable by calling 330-465-7882; no water on site; carry-in carry-out trash policy"
+urls_raw:
+  - "https://www.waynecountyparkdistrict.org/romich-pavilion/"
+  - "https://www.waynecountyparkdistrict.org/barnes-preserve/"
+identity_notes_raw: "Primary and only identified access point for Barnes Preserve; Romich Pavilion is the named facility at this access point; reservable via phone or email (carole5270@gmail.com); fee by donation; parent site: Barnes Preserve (T3-001)"
+township_raw: ""
+municipality_raw: ""
+discovery_tier: 3
+seeded_from_baseline: false
+
+# ============================================================
+# TIER 3 NULL RESULTS — DISTRICTS WITH NO ENTITIES
+# ============================================================
+
+tier_result_mwcd:
+  tier: 3
+  governance_level: Muskingum Watershed Conservancy District (MWCD)
+  result: null
+  entities_found: 0
+  sources_checked:
+    - mwcd.org/places/beach-city-lake/ (fetched via Chrome)
+    - mwcd.org Visit Our Lakes navigation (fetched via Chrome — full lake list visible)
+    - mwcd.org full lake list reviewed
+  notes: "MWCD operates 10 lake areas: Atwood, Beach City, Broughton Nature Park, Charles Mill, Clendening, Leesville, Piedmont, Pleasant Hill, Seneca, Tappan, Wills Creek. Beach City Lake (nearest to Wayne County) confirmed in northern Tuscarawas and southern Stark counties — not Wayne County. No MWCD properties in Wayne County."
+
+tier_result_swcd:
+  tier: 3
+  governance_level: Wayne Soil & Water Conservation District (SWCD)
+  result: null
+  entities_found: 0
+  sources_checked:
+    - wayneswcd.org (fetched via Chrome)
+  notes: Wayne SWCD provides landowner technical assistance only (erosion control, conservation planning, tree/fish sales). Does not own or manage public natural areas or recreational lands.
+
+tier_result_metroparks:
+  tier: 3
+  governance_level: Metro Parks / Joint Recreation Districts
+  result: null
+  entities_found: 0
+  sources_checked:
+    - wayneohio.org departments listing (reviewed via Chrome)
+    - Web search (prior tier research)
+  notes: No metro parks extend into Wayne County. Nearest metro parks systems are in Summit (Metro Parks Serving Summit County), Medina (Medina County Park District), and Stark (Stark Parks) counties — none with Wayne County jurisdiction. No joint recreation districts identified.
+
+tier_result_miami_conservancy:
+  tier: 3
+  governance_level: Miami Conservancy District
+  result: null
+  entities_found: 0
+  sources_checked: []
+  notes: Miami Conservancy District operates exclusively in the Miami River watershed in southwestern Ohio (Dayton area). Not applicable to Wayne County.
+
+# ============================================================
+# TIER 3 SUMMARY
+# ============================================================
+tier_3_summary:
+  tier: 3
+  governance_level: District (Park Districts, Conservancy Districts, Special Districts)
+  total_sites: 2
+  total_trails: 1
+  total_trail_segments: 0
+  total_trail_networks: 0
+  total_site_networks: 0
+  total_access_points: 1
+  total_entities: 4
+
+  new_entities_discovered:
+    - T3-001: "Barnes Preserve" (Wayne County Park District; 76 acres; only park in district)
+    - T3-002: "Koehler's Pond" (child site within Barnes Preserve)
+    - T3-003: "Casey's Trails" (ADA trail; ~1 mile; Barnes Preserve)
+    - T3-004: "Barnes Preserve Main Entrance — Romich Pavilion Parking" (access point)
+
+  district_confirmed_statutory:
+    - "Wayne County Park District — ORC Ch.1545 statutory park district; commissioners appointed by Probate Judge — correctly classified Tier 3"
+
+  handoff:
+    ready_for: Tier 4 (County)
+    next_skill: na-discovery (continue with na_county_discovery_subproc_v5.2.md)

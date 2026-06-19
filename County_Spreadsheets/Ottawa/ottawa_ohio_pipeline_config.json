@@ -1,0 +1,88 @@
+{
+  "run_id": "ottawa_ohio_2026_05_18",
+  "county": "Ottawa",
+  "state": "Ohio",
+  "prefix": "OTT",
+  "schema_version": "v5.3",
+  "started": "2026-05-18",
+  "status": "DISCOVERY COMPLETE \u2014 T1-T5",
+  "current_tier": 6,
+  "tiers_completed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "staging_file": "ottawa_ohio_raw_discovery.yaml",
+  "session_log": "ottawa_ohio_session_log.md",
+  "handoff": "ottawa_ohio_handoff.md",
+  "baseline_file": "../Ottawa.xlsx",
+  "baseline_seed_count": 46,
+  "entity_counts": {
+    "sites": 70,
+    "trails": 52,
+    "trail_segments": 0,
+    "trail_networks": 0,
+    "site_networks": 2,
+    "access_points": 6,
+    "total_raw_records": 168
+  },
+  "entity_counts_by_tier": {
+    "T1": {
+      "sites": 10,
+      "trails": 17,
+      "trail_segments": 0,
+      "trail_networks": 0,
+      "site_networks": 1,
+      "access_points": 2,
+      "entities": 30
+    },
+    "T2": {
+      "sites": 20,
+      "trails": 24,
+      "trail_segments": 0,
+      "trail_networks": 0,
+      "site_networks": 0,
+      "access_points": 2,
+      "entities": 46
+    },
+    "T3": {
+      "sites": 7,
+      "trails": 8,
+      "trail_segments": 0,
+      "trail_networks": 0,
+      "site_networks": 0,
+      "access_points": 0,
+      "entities": 15
+    },
+    "T4": {
+      "sites": 1,
+      "trails": 1,
+      "trail_segments": 0,
+      "trail_networks": 0,
+      "site_networks": 1,
+      "access_points": 1,
+      "entities": 4
+    },
+    "T5": {
+      "sites": 32,
+      "trails": 2,
+      "trail_segments": 0,
+      "trail_networks": 0,
+      "site_networks": 0,
+      "access_points": 1,
+      "entities": 35
+    }
+  },
+  "notes_on_counts": "T1 site count (10) includes 5 T1-miss NWR units discovered at T4 (discovery_tier=1). T4 entities (4) excludes T1-miss units. T5 includes 24 cemetery Sites across 12 townships plus park sites, trails, and 1 access point. Total records (168) = 130 entity + 38 null/metadata blocks.",
+  "next_entity_ids": {
+    "site": 1,
+    "trail": 1,
+    "trail_segment": 1,
+    "trail_network": 1,
+    "site_network": 1,
+    "access_point": 1
+  },
+  "notes": "v2 fresh start \u2014 prior run archived to archive_v1/. Schema corrected to v5.3. IMP-112 executed at session start."
+}

@@ -259,7 +259,7 @@ natural-areas-project/
 ------------------------------------------------------------
 # STATUS
 
-All 55 modules listed in the Module Manifest v5.x are active,
+All 56 modules listed in the Module Manifest are active,
 authoritative, and aligned with the Natural Areas System v5.x.
 
 ------------------------------------------------------------

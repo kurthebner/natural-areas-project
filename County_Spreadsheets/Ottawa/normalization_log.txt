@@ -1,0 +1,708 @@
+[INFO] OH-OTT-S-001: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-001: Features: dropped named entity token 'Visitor center'
+[INFO] OH-OTT-S-001: Features: dropped named entity token 'Wildlife Drive'
+[INFO] OH-OTT-S-001: Features: dropped named entity token 'parking'
+[WARN] OH-OTT-S-001: Features: token 'photography' not in vocabulary — dropped
+[INFO] OH-OTT-S-001: Features: salvaged 1 token(s) into notes: photography
+[WARN] OH-OTT-S-001: Acres 'more than 8,000 (complex: more than 10,000)' non-numeric — blanked
+[INFO] OH-OTT-S-002: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-002: Features: token 'Restricted access' not in vocabulary — dropped
+[WARN] OH-OTT-S-002: Features: token 'birding tours by special arrangement' not in vocabulary — dropped
+[INFO] OH-OTT-S-002: Features: salvaged 2 token(s) into notes: Restricted access; birding tours by special arrangement
+[WARN] OH-OTT-S-002: Acres 'approximately 820 (original; current managed acreage unconfirmed)' non-numeric — blanked
+[INFO] OH-OTT-S-003: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-003: Features: dropped named entity token 'parking'
+[WARN] OH-OTT-S-003: Features: token 'Trail access' not in vocabulary — dropped
+[WARN] OH-OTT-S-003: Features: token 'seasonal access April 1 through September 15' not in vocabulary — dropped
+[INFO] OH-OTT-S-003: Features: salvaged 2 token(s) into notes: Trail access; seasonal access April 1 through September 15
+[WARN] OH-OTT-S-003: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-004: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-004: Features: dropped named entity token 'visitor center'
+[WARN] OH-OTT-S-004: Features: token '352-foot Doric column' not in vocabulary — dropped
+[WARN] OH-OTT-S-004: Features: token 'memorial rotunda' not in vocabulary — dropped
+[WARN] OH-OTT-S-004: Features: token 'ranger programs' not in vocabulary — dropped
+[WARN] OH-OTT-S-004: Features: token 'exhibits' not in vocabulary — dropped
+[WARN] OH-OTT-S-004: Features: token '15-minute orientation video' not in vocabulary — dropped
+[INFO] OH-OTT-S-004: Features: salvaged 5 token(s) into notes: 352-foot Doric column; memorial rotunda; ranger programs; exhibits; 15-minute or
+[INFO] OH-OTT-S-005: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-005: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-005: Features: token '206 graves' not in vocabulary — dropped
+[WARN] OH-OTT-S-005: Features: token 'marble headstones' not in vocabulary — dropped
+[WARN] OH-OTT-S-005: Features: token '19-ft bronze statue 'The Lookout' (UDC' not in vocabulary — dropped
+[WARN] OH-OTT-S-005: Features: token '1910)' not in vocabulary — dropped
+[WARN] OH-OTT-S-005: Features: token 'historically significant Civil War POW site' not in vocabulary — dropped
+[INFO] OH-OTT-S-005: Features: salvaged 5 token(s) into notes: 206 graves; marble headstones; 19-ft bronze statue 'The Lookout' (UDC; 1910); hi
+[WARN] OH-OTT-S-005: Acres 'approximately 1' non-numeric — blanked
+[INFO] OH-OTT-S-006: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-006: Features: dropped named entity token 'Beach'
+[INFO] OH-OTT-S-006: Features: dropped named entity token 'marina'
+[WARN] OH-OTT-S-006: Features: token '571-site campground' not in vocabulary — dropped
+[WARN] OH-OTT-S-006: Features: token 'glacial grooves in campground' not in vocabulary — dropped
+[WARN] OH-OTT-S-006: Features: token 'Ohio Historic Site #37' not in vocabulary — dropped
+[INFO] OH-OTT-S-006: Features: salvaged 3 token(s) into notes: 571-site campground; glacial grooves in campground; Ohio Historic Site #37
+[INFO] OH-OTT-S-007: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-007: Features: token 'fishing pier' not in vocabulary — dropped
+[WARN] OH-OTT-S-007: Features: token 'campground (126 sites' not in vocabulary — dropped
+[WARN] OH-OTT-S-007: Features: token '3 cabents)' not in vocabulary — dropped
+[WARN] OH-OTT-S-007: Features: token 'Hotel Victory ruins' not in vocabulary — dropped
+[WARN] OH-OTT-S-007: Features: token 'glacial grooves' not in vocabulary — dropped
+[WARN] OH-OTT-S-007: Features: token 'Ohio Historic Site #11' not in vocabulary — dropped
+[INFO] OH-OTT-S-007: Features: salvaged 6 token(s) into notes: fishing pier; campground (126 sites; 3 cabents); Hotel Victory ruins; glacial gr
+[INFO] OH-OTT-S-008: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-008: Features: token 'fishing access' not in vocabulary — dropped
+[WARN] OH-OTT-S-008: Features: token 'scenic harbor views' not in vocabulary — dropped
+[WARN] OH-OTT-S-008: Features: token 'water trail access' not in vocabulary — dropped
+[INFO] OH-OTT-S-008: Features: salvaged 3 token(s) into notes: fishing access; scenic harbor views; water trail access
+[INFO] OH-OTT-S-009: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-009: Features: dropped named entity token '4 trails including ADA Lonz Trail'
+[WARN] OH-OTT-S-009: Features: token '10 primitive campsites' not in vocabulary — dropped
+[WARN] OH-OTT-S-009: Features: token 'Lonz Mansion' not in vocabulary — dropped
+[WARN] OH-OTT-S-009: Features: token 'historic Lonz Winery' not in vocabulary — dropped
+[WARN] OH-OTT-S-009: Features: token 'glacial grooves' not in vocabulary — dropped
+[WARN] OH-OTT-S-009: Features: token 'water trail access' not in vocabulary — dropped
+[INFO] OH-OTT-S-009: Features: salvaged 5 token(s) into notes: 10 primitive campsites; Lonz Mansion; historic Lonz Winery; glacial grooves; wat
+[INFO] OH-OTT-S-010: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-010: Features: token '593 ac state park' not in vocabulary — dropped
+[WARN] OH-OTT-S-010: Features: token '4 mooring buoys' not in vocabulary — dropped
+[WARN] OH-OTT-S-010: Features: token 'water trail access' not in vocabulary — dropped
+[INFO] OH-OTT-S-010: Features: salvaged 3 token(s) into notes: 593 ac state park; 4 mooring buoys; water trail access
+[INFO] OH-OTT-S-011: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-011: Features: token 'Marblehead Lighthouse (Ohio Historic Site #3' not in vocabulary — dropped
+[WARN] OH-OTT-S-011: Features: token 'built 1821)' not in vocabulary — dropped
+[WARN] OH-OTT-S-011: Features: token 'ADA path to lighthouse' not in vocabulary — dropped
+[WARN] OH-OTT-S-011: Features: token 'Keeper's House museum' not in vocabulary — dropped
+[WARN] OH-OTT-S-011: Features: token 'scenic overlook' not in vocabulary — dropped
+[WARN] OH-OTT-S-011: Features: token 'fee)' not in vocabulary — dropped
+[INFO] OH-OTT-S-011: Features: salvaged 6 token(s) into notes: Marblehead Lighthouse (Ohio Historic Site #3; built 1821); ADA path to lighthous
+[INFO] OH-OTT-S-012: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-012: Features: token 'fishing pier' not in vocabulary — dropped
+[WARN] OH-OTT-S-012: Features: token '120-vehicle/trailer parking' not in vocabulary — dropped
+[INFO] OH-OTT-S-012: Features: salvaged 2 token(s) into notes: fishing pier; 120-vehicle/trailer parking
+[INFO] OH-OTT-S-013: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-013: Features: token 'shallow open water' not in vocabulary — dropped
+[WARN] OH-OTT-S-013: Features: token 'dike channels' not in vocabulary — dropped
+[WARN] OH-OTT-S-013: Features: token 'waterfowl hunting' not in vocabulary — dropped
+[INFO] OH-OTT-S-013: Features: salvaged 3 token(s) into notes: shallow open water; dike channels; waterfowl hunting
+[INFO] OH-OTT-S-014: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-014: Features: dropped named entity token 'wetlands'
+[WARN] OH-OTT-S-014: Features: token 'waterfowl hunting' not in vocabulary — dropped
+[WARN] OH-OTT-S-014: Features: token 'canoe/kayak access' not in vocabulary — dropped
+[INFO] OH-OTT-S-014: Features: salvaged 2 token(s) into notes: waterfowl hunting; canoe/kayak access
+[INFO] OH-OTT-S-015: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-015: Features: dropped named entity token 'beach'
+[WARN] OH-OTT-S-015: Features: token '132 ac' not in vocabulary — dropped
+[WARN] OH-OTT-S-015: Features: token 'no road access' not in vocabulary — dropped
+[INFO] OH-OTT-S-015: Features: salvaged 2 token(s) into notes: 132 ac; no road access
+[INFO] OH-OTT-S-016: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-016: Features: dropped named entity token 'wetland'
+[WARN] OH-OTT-S-016: Features: token 'no road access' not in vocabulary — dropped
+[INFO] OH-OTT-S-016: Features: salvaged 1 token(s) into notes: no road access
+[WARN] OH-OTT-S-016: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-017: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-017: Features: dropped named entity token 'marsh'
+[WARN] OH-OTT-S-017: Features: token 'waterfowl hunting' not in vocabulary — dropped
+[INFO] OH-OTT-S-017: Features: salvaged 1 token(s) into notes: waterfowl hunting
+[INFO] OH-OTT-S-018: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-018: Features: token 'Undeveloped woodlot' not in vocabulary — dropped
+[WARN] OH-OTT-S-018: Features: token 'no amenities' not in vocabulary — dropped
+[INFO] OH-OTT-S-018: Features: salvaged 2 token(s) into notes: Undeveloped woodlot; no amenities
+[INFO] OH-OTT-S-019: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-019: Features: dropped named entity token 'wildlife refuge'
+[WARN] OH-OTT-S-019: Features: token 'bird sanctuary' not in vocabulary — dropped
+[WARN] OH-OTT-S-019: Features: token 'NO PUBLIC ACCESS' not in vocabulary — dropped
+[INFO] OH-OTT-S-019: Features: salvaged 2 token(s) into notes: bird sanctuary; NO PUBLIC ACCESS
+[INFO] OH-OTT-S-020: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-020: Features: token '215-space parking' not in vocabulary — dropped
+[WARN] OH-OTT-S-020: Features: token 'ADA fishing pier' not in vocabulary — dropped
+[WARN] OH-OTT-S-020: Features: token '24-hr lighted parking' not in vocabulary — dropped
+[INFO] OH-OTT-S-020: Features: salvaged 3 token(s) into notes: 215-space parking; ADA fishing pier; 24-hr lighted parking
+[INFO] OH-OTT-S-021: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-021: Features: dropped named entity token 'parking'
+[WARN] OH-OTT-S-021: Features: token '66.8 ac' not in vocabulary — dropped
+[WARN] OH-OTT-S-021: Features: token 'fishing dock' not in vocabulary — dropped
+[WARN] OH-OTT-S-021: Features: token 'ADA fishing pier' not in vocabulary — dropped
+[WARN] OH-OTT-S-021: Features: token '24-hr lighted parking' not in vocabulary — dropped
+[WARN] OH-OTT-S-021: Features: token 'Sandusky Bay access' not in vocabulary — dropped
+[INFO] OH-OTT-S-021: Features: salvaged 5 token(s) into notes: 66.8 ac; fishing dock; ADA fishing pier; 24-hr lighted parking; Sandusky Bay acc
+[INFO] OH-OTT-S-022: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-022: Features: token '~1-mile fishing causeway' not in vocabulary — dropped
+[WARN] OH-OTT-S-022: Features: token 'ADA fishing deck' not in vocabulary — dropped
+[WARN] OH-OTT-S-022: Features: token 'Sandusky Bay access' not in vocabulary — dropped
+[WARN] OH-OTT-S-022: Features: token '24-hr access' not in vocabulary — dropped
+[INFO] OH-OTT-S-022: Features: salvaged 4 token(s) into notes: ~1-mile fishing causeway; ADA fishing deck; Sandusky Bay access; 24-hr access
+[WARN] OH-OTT-S-022: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-023: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-023: Features: token 'fishing pier' not in vocabulary — dropped
+[WARN] OH-OTT-S-023: Features: token 'largest outdoor rifle range in the world' not in vocabulary — dropped
+[WARN] OH-OTT-S-023: Features: token 'NRA championships' not in vocabulary — dropped
+[WARN] OH-OTT-S-023: Features: token 'training facility' not in vocabulary — dropped
+[INFO] OH-OTT-S-023: Features: salvaged 4 token(s) into notes: fishing pier; largest outdoor rifle range in the world; NRA championships; train
+[INFO] OH-OTT-S-024: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-024: Features: dropped named entity token 'Lakeside Daisy'
+[WARN] OH-OTT-S-024: Features: token '137 ac' not in vocabulary — dropped
+[WARN] OH-OTT-S-024: Features: token 'glacial grooves' not in vocabulary — dropped
+[WARN] OH-OTT-S-024: Features: token 'walking trails' not in vocabulary — dropped
+[INFO] OH-OTT-S-024: Features: salvaged 3 token(s) into notes: 137 ac; glacial grooves; walking trails
+[INFO] OH-OTT-S-025: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-025: Features: token 'Public fishing dock' not in vocabulary — dropped
+[WARN] OH-OTT-S-025: Features: token 'fishing equipment' not in vocabulary — dropped
+[WARN] OH-OTT-S-025: Features: token 'courtesy docks' not in vocabulary — dropped
+[WARN] OH-OTT-S-025: Features: token 'renovated 2024)' not in vocabulary — dropped
+[WARN] OH-OTT-S-025: Features: token 'paved walkways' not in vocabulary — dropped
+[WARN] OH-OTT-S-025: Features: token 'bait' not in vocabulary — dropped
+[WARN] OH-OTT-S-025: Features: token 'water trail access' not in vocabulary — dropped
+[INFO] OH-OTT-S-025: Features: salvaged 7 token(s) into notes: Public fishing dock; fishing equipment; courtesy docks; renovated 2024); paved w
+[WARN] OH-OTT-S-025: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-026: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-026: Features: dropped named entity token 'Jane Coates Wildflower Trail'
+[WARN] OH-OTT-S-026: Features: token 'Mature forest' not in vocabulary — dropped
+[WARN] OH-OTT-S-026: Features: token 'wildflower display' not in vocabulary — dropped
+[WARN] OH-OTT-S-026: Features: token 'wildlife watching' not in vocabulary — dropped
+[INFO] OH-OTT-S-026: Features: salvaged 3 token(s) into notes: Mature forest; wildflower display; wildlife watching
+[INFO] OH-OTT-S-027: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-027: Features: token 'StoryWalk®' not in vocabulary — dropped
+[WARN] OH-OTT-S-027: Features: token 'bird watching' not in vocabulary — dropped
+[WARN] OH-OTT-S-027: Features: token 'Eastern Fox Snake and melanistic Eastern Garter Snake habitat' not in vocabulary — dropped
+[WARN] OH-OTT-S-027: Features: token 'adjacent bicycle path' not in vocabulary — dropped
+[INFO] OH-OTT-S-027: Features: salvaged 4 token(s) into notes: StoryWalk®; bird watching; Eastern Fox Snake and melanistic Eastern Garter Snake
+[INFO] OH-OTT-S-028: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-028: Features: token 'kayak/fishing dock' not in vocabulary — dropped
+[WARN] OH-OTT-S-028: Features: token 'columbine' not in vocabulary — dropped
+[WARN] OH-OTT-S-028: Features: token 'harebell' not in vocabulary — dropped
+[WARN] OH-OTT-S-028: Features: token 'monarch banding' not in vocabulary — dropped
+[INFO] OH-OTT-S-028: Features: salvaged 4 token(s) into notes: kayak/fishing dock; columbine; harebell; monarch banding
+[INFO] OH-OTT-S-029: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-029: Features: dropped named entity token '1'
+[WARN] OH-OTT-S-029: Features: token 'Atlantic Migratory Flyway' not in vocabulary — dropped
+[WARN] OH-OTT-S-029: Features: token 'bird banding' not in vocabulary — dropped
+[WARN] OH-OTT-S-029: Features: token 'nesting boxes' not in vocabulary — dropped
+[WARN] OH-OTT-S-029: Features: token 'rocky shores' not in vocabulary — dropped
+[INFO] OH-OTT-S-029: Features: salvaged 4 token(s) into notes: Atlantic Migratory Flyway; bird banding; nesting boxes; rocky shores
+[INFO] OH-OTT-S-030: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-030: Features: dropped named entity token 'woods'
+[INFO] OH-OTT-S-030: Features: dropped named entity token 'visitor center'
+[WARN] OH-OTT-S-030: Features: token '150 ft Put-in-Bay harbor frontage' not in vocabulary — dropped
+[WARN] OH-OTT-S-030: Features: token 'grassland' not in vocabulary — dropped
+[WARN] OH-OTT-S-030: Features: token 'pollinator habitat' not in vocabulary — dropped
+[WARN] OH-OTT-S-030: Features: token 'bird watching' not in vocabulary — dropped
+[INFO] OH-OTT-S-030: Features: salvaged 4 token(s) into notes: 150 ft Put-in-Bay harbor frontage; grassland; pollinator habitat; bird watching
+[INFO] OH-OTT-S-031: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-031: Features: token 'Prothonotary warbler boxes' not in vocabulary — dropped
+[WARN] OH-OTT-S-031: Features: token 'migratory songbird habitat' not in vocabulary — dropped
+[WARN] OH-OTT-S-031: Features: token 'bicycle rack' not in vocabulary — dropped
+[WARN] OH-OTT-S-031: Features: token 'small parking area' not in vocabulary — dropped
+[INFO] OH-OTT-S-031: Features: salvaged 3 token(s) into notes: Prothonotary warbler boxes; migratory songbird habitat; bicycle rack
+[INFO] OH-OTT-S-032: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-032: Features: token '120+ bird species' not in vocabulary — dropped
+[WARN] OH-OTT-S-032: Features: token '30+ plant species' not in vocabulary — dropped
+[WARN] OH-OTT-S-032: Features: token 'hardwood forest' not in vocabulary — dropped
+[WARN] OH-OTT-S-032: Features: token 'grasslands' not in vocabulary — dropped
+[WARN] OH-OTT-S-032: Features: token 'shallow-water dock' not in vocabulary — dropped
+[WARN] OH-OTT-S-032: Features: token 'trout lilies' not in vocabulary — dropped
+[INFO] OH-OTT-S-032: Features: salvaged 6 token(s) into notes: 120+ bird species; 30+ plant species; hardwood forest; grasslands; shallow-water
+[INFO] OH-OTT-S-033: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-033: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-033: Features: token 'County infirmary cemetery' not in vocabulary — dropped
+[WARN] OH-OTT-S-033: Features: token 'public cemetery' not in vocabulary — dropped
+[INFO] OH-OTT-S-033: Features: salvaged 1 token(s) into notes: public cemetery
+[WARN] OH-OTT-S-033: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-034: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-034: Features: token 'Pollinator restoration' not in vocabulary — dropped
+[WARN] OH-OTT-S-034: Features: token 'tree restoration' not in vocabulary — dropped
+[WARN] OH-OTT-S-034: Features: token 'mowed trail' not in vocabulary — dropped
+[WARN] OH-OTT-S-034: Features: token 'Portage River fishing' not in vocabulary — dropped
+[WARN] OH-OTT-S-034: Features: token 'PRWT Mile 4.8 launch' not in vocabulary — dropped
+[INFO] OH-OTT-S-034: Features: salvaged 5 token(s) into notes: Pollinator restoration; tree restoration; mowed trail; Portage River fishing; PR
+[WARN] OH-OTT-S-034: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-035: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-035: Features: token 'photography' not in vocabulary — dropped
+[WARN] OH-OTT-S-035: Features: token 'gravel parking' not in vocabulary — dropped
+[WARN] OH-OTT-S-035: Features: token 'fishing in Little Portage River' not in vocabulary — dropped
+[INFO] OH-OTT-S-035: Features: salvaged 3 token(s) into notes: photography; gravel parking; fishing in Little Portage River
+[INFO] OH-OTT-S-036: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-036: Features: dropped named entity token 'parking'
+[WARN] OH-OTT-S-036: Features: token 'Canoe/kayak launch' not in vocabulary — dropped
+[INFO] OH-OTT-S-036: Features: salvaged 1 token(s) into notes: Canoe/kayak launch
+[WARN] OH-OTT-S-036: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-037: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-037: Features: token 'Toussaint River access' not in vocabulary — dropped
+[INFO] OH-OTT-S-037: Features: salvaged 1 token(s) into notes: Toussaint River access
+[INFO] OH-OTT-S-038: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-038: Features: token 'Kayak/canoe launch' not in vocabulary — dropped
+[WARN] OH-OTT-S-038: Features: token 'shrubland' not in vocabulary — dropped
+[WARN] OH-OTT-S-038: Features: token 'river channel' not in vocabulary — dropped
+[INFO] OH-OTT-S-038: Features: salvaged 3 token(s) into notes: Kayak/canoe launch; shrubland; river channel
+[INFO] OH-OTT-S-039: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-039: Features: token 'Hansen Sports Complex' not in vocabulary — dropped
+[WARN] OH-OTT-S-039: Features: token 'Harder Shelter House' not in vocabulary — dropped
+[INFO] OH-OTT-S-039: Features: salvaged 2 token(s) into notes: Hansen Sports Complex; Harder Shelter House
+[WARN] OH-OTT-S-039: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-040: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-040: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-041: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-041: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-042: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-042: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-043: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-043: Features: token 'picnic tables' not in vocabulary — dropped
+[WARN] OH-OTT-S-043: Features: token 'Ohio Historical Marker' not in vocabulary — dropped
+[INFO] OH-OTT-S-043: Features: salvaged 2 token(s) into notes: picnic tables; Ohio Historical Marker
+[WARN] OH-OTT-S-043: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-044: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-044: Features: token 'hours 8:00 a.m. to sunset' not in vocabulary — dropped
+[INFO] OH-OTT-S-044: Features: salvaged 1 token(s) into notes: hours 8:00 a.m. to sunset
+[WARN] OH-OTT-S-044: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-045: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-045: Features: token 'Picnic tables' not in vocabulary — dropped
+[WARN] OH-OTT-S-045: Features: token 'shelter house' not in vocabulary — dropped
+[WARN] OH-OTT-S-045: Features: token 'scenic woods' not in vocabulary — dropped
+[INFO] OH-OTT-S-045: Features: salvaged 3 token(s) into notes: Picnic tables; shelter house; scenic woods
+[WARN] OH-OTT-S-045: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-046: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-046: Features: dropped named entity token 'boardwalk'
+[WARN] OH-OTT-S-046: Features: token 'ADA-accessible paved loop trail' not in vocabulary — dropped
+[WARN] OH-OTT-S-046: Features: token 'park benches' not in vocabulary — dropped
+[WARN] OH-OTT-S-046: Features: token 'shelter house' not in vocabulary — dropped
+[INFO] OH-OTT-S-046: Features: salvaged 3 token(s) into notes: ADA-accessible paved loop trail; park benches; shelter house
+[INFO] OH-OTT-AP-006: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-AP-006: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-047: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-047: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-047: Features: token 'Veterans and Firefighters Memorial' not in vocabulary — dropped
+[WARN] OH-OTT-S-047: Features: token 'engraved brick program' not in vocabulary — dropped
+[INFO] OH-OTT-S-047: Features: salvaged 2 token(s) into notes: Veterans and Firefighters Memorial; engraved brick program
+[WARN] OH-OTT-S-047: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-048: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-048: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-048: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-049: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-049: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-049: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-050: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-050: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-050: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-051: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-051: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-051: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-052: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-052: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-052: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-053: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-053: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-053: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-054: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-054: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-054: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-055: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-055: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-055: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-056: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-056: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-056: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-057: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-057: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-057: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-058: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-058: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-058: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-059: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-059: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-059: Features: token 'Small gravel lane access' not in vocabulary — dropped
+[INFO] OH-OTT-S-059: Features: salvaged 1 token(s) into notes: Small gravel lane access
+[WARN] OH-OTT-S-059: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-060: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-060: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-060: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-061: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-061: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-061: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-062: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-062: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-062: Features: token 'Historical marker at intersection of Rice St. and Clinton St.' not in vocabulary — dropped
+[WARN] OH-OTT-S-062: Features: token 'Revolutionary War' not in vocabulary — dropped
+[WARN] OH-OTT-S-062: Features: token 'War of 1812' not in vocabulary — dropped
+[WARN] OH-OTT-S-062: Features: token 'and Civil War veterans' graves' not in vocabulary — dropped
+[INFO] OH-OTT-S-062: Features: salvaged 4 token(s) into notes: Historical marker at intersection of Rice St. and Clinton St.; Revolutionary War
+[WARN] OH-OTT-S-062: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-063: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-063: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-063: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-064: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-064: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-064: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-065: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-065: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-065: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-066: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-066: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-066: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-067: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-067: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-067: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-068: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-068: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-068: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-069: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-069: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-069: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-070: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-070: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-070: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-071: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-071: Features: dropped named entity token 'fishing pond'
+[WARN] OH-OTT-S-071: Features: token 'walking trails' not in vocabulary — dropped
+[WARN] OH-OTT-S-071: Features: token 'benches' not in vocabulary — dropped
+[WARN] OH-OTT-S-071: Features: token 'Port Clinton Lighthouse' not in vocabulary — dropped
+[WARN] OH-OTT-S-071: Features: token 'historical markers' not in vocabulary — dropped
+[WARN] OH-OTT-S-071: Features: token 'fishing pier' not in vocabulary — dropped
+[WARN] OH-OTT-S-071: Features: token 'public dock' not in vocabulary — dropped
+[WARN] OH-OTT-S-071: Features: token 'dogs allowed on-leash' not in vocabulary — dropped
+[INFO] OH-OTT-S-071: Features: salvaged 7 token(s) into notes: walking trails; benches; Port Clinton Lighthouse; historical markers; fishing pi
+[WARN] OH-OTT-S-071: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-072: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-072: Features: token 'benches' not in vocabulary — dropped
+[INFO] OH-OTT-S-072: Features: salvaged 1 token(s) into notes: benches
+[WARN] OH-OTT-S-072: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-073: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-073: Features: token 'concession stand' not in vocabulary — dropped
+[WARN] OH-OTT-S-073: Features: token 'walking trails' not in vocabulary — dropped
+[WARN] OH-OTT-S-073: Features: token 'dogs allowed on-leash' not in vocabulary — dropped
+[WARN] OH-OTT-S-073: Features: token 'Flagship Collaborative Play Place' not in vocabulary — dropped
+[INFO] OH-OTT-S-073: Features: salvaged 4 token(s) into notes: concession stand; walking trails; dogs allowed on-leash; Flagship Collaborative 
+[WARN] OH-OTT-S-073: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-074: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-074: Features: token 'wheelchair-accessible pathways' not in vocabulary — dropped
+[INFO] OH-OTT-S-074: Features: salvaged 1 token(s) into notes: wheelchair-accessible pathways
+[WARN] OH-OTT-S-074: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-075: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-075: Features: token 'Taft Hill' not in vocabulary — dropped
+[WARN] OH-OTT-S-075: Features: token 'open fields for sports' not in vocabulary — dropped
+[INFO] OH-OTT-S-075: Features: salvaged 2 token(s) into notes: Taft Hill; open fields for sports
+[WARN] OH-OTT-S-075: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-076: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-076: Features: token 'World War II military history' not in vocabulary — dropped
+[WARN] OH-OTT-S-076: Features: token 'Fallen Soldier Battlefield Cross' not in vocabulary — dropped
+[WARN] OH-OTT-S-076: Features: token 'Eternal Flame' not in vocabulary — dropped
+[WARN] OH-OTT-S-076: Features: token 'M5 anti-tank gun' not in vocabulary — dropped
+[WARN] OH-OTT-S-076: Features: token 'M-42 Duster tank' not in vocabulary — dropped
+[WARN] OH-OTT-S-076: Features: token 'benches' not in vocabulary — dropped
+[INFO] OH-OTT-S-076: Features: salvaged 6 token(s) into notes: World War II military history; Fallen Soldier Battlefield Cross; Eternal Flame; 
+[WARN] OH-OTT-S-076: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-077: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-077: Features: token 'benches' not in vocabulary — dropped
+[INFO] OH-OTT-S-077: Features: salvaged 1 token(s) into notes: benches
+[WARN] OH-OTT-S-077: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-078: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-078: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-078: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-079: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-079: Features: token 'batting cage' not in vocabulary — dropped
+[WARN] OH-OTT-S-079: Features: token 'shelter houses' not in vocabulary — dropped
+[WARN] OH-OTT-S-079: Features: token 'mayor oak tree grove memorial' not in vocabulary — dropped
+[WARN] OH-OTT-S-079: Features: token 'ADA walking path' not in vocabulary — dropped
+[INFO] OH-OTT-S-079: Features: salvaged 4 token(s) into notes: batting cage; shelter houses; mayor oak tree grove memorial; ADA walking path
+[WARN] OH-OTT-S-079: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-080: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-080: Features: token 'log cabin' not in vocabulary — dropped
+[WARN] OH-OTT-S-080: Features: token 'summer concert series' not in vocabulary — dropped
+[INFO] OH-OTT-S-080: Features: salvaged 2 token(s) into notes: log cabin; summer concert series
+[WARN] OH-OTT-S-080: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-081: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-081: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-082: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-082: Features: dropped named entity token 'water'
+[WARN] OH-OTT-S-082: Features: token 'baseball fields' not in vocabulary — dropped
+[WARN] OH-OTT-S-082: Features: token 'soccer fields' not in vocabulary — dropped
+[WARN] OH-OTT-S-082: Features: token 'half-pipe' not in vocabulary — dropped
+[WARN] OH-OTT-S-082: Features: token 'swimming quarry' not in vocabulary — dropped
+[WARN] OH-OTT-S-082: Features: token 'walking trails' not in vocabulary — dropped
+[WARN] OH-OTT-S-082: Features: token 'picnic tables' not in vocabulary — dropped
+[WARN] OH-OTT-S-082: Features: token 'horseshoe pits' not in vocabulary — dropped
+[WARN] OH-OTT-S-082: Features: token 'shelter houses' not in vocabulary — dropped
+[INFO] OH-OTT-S-082: Features: salvaged 8 token(s) into notes: baseball fields; soccer fields; half-pipe; swimming quarry; walking trails; picn
+[INFO] OH-OTT-S-083: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-083: Features: dropped named entity token 'beach'
+[WARN] OH-OTT-S-083: Features: token 'Red Cross certified lifeguards' not in vocabulary — dropped
+[WARN] OH-OTT-S-083: Features: token 'seasonal admission fees' not in vocabulary — dropped
+[INFO] OH-OTT-S-083: Features: salvaged 2 token(s) into notes: Red Cross certified lifeguards; seasonal admission fees
+[WARN] OH-OTT-S-083: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-084: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-084: Features: dropped named entity token 'North Coast Inland Trail access'
+[INFO] OH-OTT-S-084: Features: dropped named entity token 'parking'
+[WARN] OH-OTT-S-084: Features: token 'benches' not in vocabulary — dropped
+[INFO] OH-OTT-S-084: Features: salvaged 1 token(s) into notes: benches
+[WARN] OH-OTT-S-084: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-085: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-085: Features: dropped named entity token 'parking'
+[INFO] OH-OTT-S-085: Features: dropped named entity token 'North Coast Inland Trail nearby'
+[WARN] OH-OTT-S-085: Features: token 'barn' not in vocabulary — dropped
+[WARN] OH-OTT-S-085: Features: token 'event space' not in vocabulary — dropped
+[INFO] OH-OTT-S-085: Features: salvaged 2 token(s) into notes: barn; event space
+[WARN] OH-OTT-S-085: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-086: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-086: Features: token 'soccer fields' not in vocabulary — dropped
+[INFO] OH-OTT-S-086: Features: salvaged 1 token(s) into notes: soccer fields
+[WARN] OH-OTT-S-086: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-087: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-087: Features: token 'bench' not in vocabulary — dropped
+[WARN] OH-OTT-S-087: Features: token '3 flags' not in vocabulary — dropped
+[WARN] OH-OTT-S-087: Features: token 'memorial post' not in vocabulary — dropped
+[INFO] OH-OTT-S-087: Features: salvaged 3 token(s) into notes: bench; 3 flags; memorial post
+[WARN] OH-OTT-S-087: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-088: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-088: Features: token 'soccer field' not in vocabulary — dropped
+[WARN] OH-OTT-S-088: Features: token 'shelter house' not in vocabulary — dropped
+[WARN] OH-OTT-S-088: Features: token 'benches' not in vocabulary — dropped
+[WARN] OH-OTT-S-088: Features: token 'fireworks site' not in vocabulary — dropped
+[INFO] OH-OTT-S-088: Features: salvaged 4 token(s) into notes: soccer field; shelter house; benches; fireworks site
+[WARN] OH-OTT-S-088: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-089: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-089: Features: token 'picnic tables' not in vocabulary — dropped
+[WARN] OH-OTT-S-089: Features: token 'BBQ pit' not in vocabulary — dropped
+[INFO] OH-OTT-S-089: Features: salvaged 2 token(s) into notes: picnic tables; BBQ pit
+[WARN] OH-OTT-S-089: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-090: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-090: Features: token 'crushed brick infields)' not in vocabulary — dropped
+[WARN] OH-OTT-S-090: Features: token 'shelter house with wood burning fireplace' not in vocabulary — dropped
+[WARN] OH-OTT-S-090: Features: token 'picnic tables' not in vocabulary — dropped
+[INFO] OH-OTT-S-090: Features: salvaged 3 token(s) into notes: crushed brick infields); shelter house with wood burning fireplace; picnic table
+[INFO] OH-OTT-S-091: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-091: Features: token 'benches' not in vocabulary — dropped
+[WARN] OH-OTT-S-091: Features: token 'picnic tables' not in vocabulary — dropped
+[INFO] OH-OTT-S-091: Features: salvaged 2 token(s) into notes: benches; picnic tables
+[WARN] OH-OTT-S-091: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-092: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-092: Features: dropped named entity token 'Lake Erie Islands Water Trail Access Point 9'
+[WARN] OH-OTT-S-092: Features: token 'canoe/kayak launch' not in vocabulary — dropped
+[INFO] OH-OTT-S-092: Features: salvaged 1 token(s) into notes: canoe/kayak launch
+[WARN] OH-OTT-S-092: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-093: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-093: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-093: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-094: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-094: Features: dropped named entity token 'walking trail'
+[WARN] OH-OTT-S-094: Features: token 'soccer fields' not in vocabulary — dropped
+[WARN] OH-OTT-S-094: Features: token 'swings' not in vocabulary — dropped
+[INFO] OH-OTT-S-094: Features: salvaged 2 token(s) into notes: soccer fields; swings
+[INFO] OH-OTT-S-095: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-095: Features: token 'dockage' not in vocabulary — dropped
+[WARN] OH-OTT-S-095: Features: token 'showers' not in vocabulary — dropped
+[WARN] OH-OTT-S-095: Features: token 'historical landmarks' not in vocabulary — dropped
+[INFO] OH-OTT-S-095: Features: salvaged 3 token(s) into notes: dockage; showers; historical landmarks
+[INFO] OH-OTT-S-096: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-096: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-096: Acres '' non-numeric — blanked
+[INFO] OH-OTT-S-097: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-097: Features: token 'ADA kayak launch on West Harbor' not in vocabulary — dropped
+[WARN] OH-OTT-S-097: Features: token 'loop walking trail' not in vocabulary — dropped
+[WARN] OH-OTT-S-097: Features: token 'little free library' not in vocabulary — dropped
+[WARN] OH-OTT-S-097: Features: token 'Storybook Trail' not in vocabulary — dropped
+[INFO] OH-OTT-S-097: Features: salvaged 4 token(s) into notes: ADA kayak launch on West Harbor; loop walking trail; little free library; Storyb
+[INFO] OH-OTT-S-098: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-098: Features: token 'Mature hardwood forest' not in vocabulary — dropped
+[WARN] OH-OTT-S-098: Features: token 'migratory bird habitat' not in vocabulary — dropped
+[INFO] OH-OTT-S-098: Features: salvaged 2 token(s) into notes: Mature hardwood forest; migratory bird habitat
+[INFO] OH-OTT-S-099: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-099: Features: token '1.2-mile loop trail' not in vocabulary — dropped
+[WARN] OH-OTT-S-099: Features: token 'upland habitat' not in vocabulary — dropped
+[WARN] OH-OTT-S-099: Features: token 'water lotus' not in vocabulary — dropped
+[WARN] OH-OTT-S-099: Features: token 'osprey tower' not in vocabulary — dropped
+[WARN] OH-OTT-S-099: Features: token 'kayaking access' not in vocabulary — dropped
+[WARN] OH-OTT-S-099: Features: token 'bird-watching' not in vocabulary — dropped
+[WARN] OH-OTT-S-099: Features: token 'open to public dawn to dusk year-round' not in vocabulary — dropped
+[INFO] OH-OTT-S-099: Features: salvaged 7 token(s) into notes: 1.2-mile loop trail; upland habitat; water lotus; osprey tower; kayaking access;
+[WARN] OH-OTT-S-099: Acres '150+' non-numeric — blanked
+[INFO] OH-OTT-S-100: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-100: Features: token 'mature trees' not in vocabulary — dropped
+[WARN] OH-OTT-S-100: Features: token 'sandbars' not in vocabulary — dropped
+[WARN] OH-OTT-S-100: Features: token '80+ bird species including 7 species of concern' not in vocabulary — dropped
+[INFO] OH-OTT-S-100: Features: salvaged 3 token(s) into notes: mature trees; sandbars; 80+ bird species including 7 species of concern
+[INFO] OH-OTT-S-101: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-101: Features: token 'Bald eagle fishing and resting habitat' not in vocabulary — dropped
+[INFO] OH-OTT-S-101: Features: salvaged 1 token(s) into notes: Bald eagle fishing and resting habitat
+[INFO] OH-OTT-S-102: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-102: Features: token 'quarter mile of shoreline' not in vocabulary — dropped
+[WARN] OH-OTT-S-102: Features: token 'planned: kayak launch' not in vocabulary — dropped
+[WARN] OH-OTT-S-102: Features: token 'walking trails' not in vocabulary — dropped
+[WARN] OH-OTT-S-102: Features: token 'parking area' not in vocabulary — dropped
+[WARN] OH-OTT-S-102: Features: token 'planned park maintenance facility' not in vocabulary — dropped
+[INFO] OH-OTT-S-102: Features: salvaged 4 token(s) into notes: quarter mile of shoreline; planned: kayak launch; walking trails; planned park m
+[INFO] OH-OTT-S-103: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-103: Features: token 'Unique forest land' not in vocabulary — dropped
+[WARN] OH-OTT-S-103: Features: token 'wildlife and plant habitat' not in vocabulary — dropped
+[INFO] OH-OTT-S-103: Features: salvaged 2 token(s) into notes: Unique forest land; wildlife and plant habitat
+[INFO] OH-OTT-S-104: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-105: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-106: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-106: Features: token 'Wet woods' not in vocabulary — dropped
+[WARN] OH-OTT-S-106: Features: token 'wildlife and plant habitat' not in vocabulary — dropped
+[INFO] OH-OTT-S-106: Features: salvaged 2 token(s) into notes: Wet woods; wildlife and plant habitat
+[INFO] OH-OTT-S-107: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-107: Features: token 'Drive-thru safari' not in vocabulary — dropped
+[WARN] OH-OTT-S-107: Features: token 'walk-thru safari' not in vocabulary — dropped
+[WARN] OH-OTT-S-107: Features: token 'Giraffe Barn experience' not in vocabulary — dropped
+[WARN] OH-OTT-S-107: Features: token 'Sloth Feeding Encounter' not in vocabulary — dropped
+[WARN] OH-OTT-S-107: Features: token 'conservation programming' not in vocabulary — dropped
+[WARN] OH-OTT-S-107: Features: token 'seasonal operation' not in vocabulary — dropped
+[INFO] OH-OTT-S-107: Features: salvaged 6 token(s) into notes: Drive-thru safari; walk-thru safari; Giraffe Barn experience; Sloth Feeding Enco
+[WARN] OH-OTT-S-107: Acres '100+' non-numeric — blanked
+[INFO] OH-OTT-S-108: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-108: Features: token 'Park grounds' not in vocabulary — dropped
+[WARN] OH-OTT-S-108: Features: token 'natural area' not in vocabulary — dropped
+[INFO] OH-OTT-S-108: Features: salvaged 1 token(s) into notes: Park grounds
+[INFO] OH-OTT-S-109: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-109: Features: token 'Leo Pelka Bonsai Shelter' not in vocabulary — dropped
+[WARN] OH-OTT-S-109: Features: token 'Blair Museum of Lithophanes' not in vocabulary — dropped
+[WARN] OH-OTT-S-109: Features: token 'wedding and event venue' not in vocabulary — dropped
+[WARN] OH-OTT-S-109: Features: token 'summer kids camps' not in vocabulary — dropped
+[WARN] OH-OTT-S-109: Features: token 'seasonal hours' not in vocabulary — dropped
+[WARN] OH-OTT-S-109: Features: token 'admission fee (adult $14' not in vocabulary — dropped
+[WARN] OH-OTT-S-109: Features: token 'senior $13' not in vocabulary — dropped
+[WARN] OH-OTT-S-109: Features: token 'child $6)' not in vocabulary — dropped
+[WARN] OH-OTT-S-109: Features: token 'membership available' not in vocabulary — dropped
+[INFO] OH-OTT-S-109: Features: salvaged 9 token(s) into notes: Leo Pelka Bonsai Shelter; Blair Museum of Lithophanes; wedding and event venue; 
+[INFO] OH-OTT-S-110: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-110: Features: token 'par 71' not in vocabulary — dropped
+[WARN] OH-OTT-S-110: Features: token '5572 yards' not in vocabulary — dropped
+[WARN] OH-OTT-S-110: Features: token 'public tee times' not in vocabulary — dropped
+[WARN] OH-OTT-S-110: Features: token 'built 1970' not in vocabulary — dropped
+[INFO] OH-OTT-S-110: Features: salvaged 4 token(s) into notes: par 71; 5572 yards; public tee times; built 1970
+[INFO] OH-OTT-S-111: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-111: Features: dropped named entity token 'pool'
+[WARN] OH-OTT-S-111: Features: token 'pro shop' not in vocabulary — dropped
+[WARN] OH-OTT-S-111: Features: token 'private lessons' not in vocabulary — dropped
+[WARN] OH-OTT-S-111: Features: token 'youth golf camps' not in vocabulary — dropped
+[WARN] OH-OTT-S-111: Features: token 'dining' not in vocabulary — dropped
+[WARN] OH-OTT-S-111: Features: token 'racquet sports' not in vocabulary — dropped
+[INFO] OH-OTT-S-111: Features: salvaged 5 token(s) into notes: pro shop; private lessons; youth golf camps; dining; racquet sports
+[INFO] OH-OTT-S-112: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-112: Features: token '18-hole course' not in vocabulary — dropped
+[WARN] OH-OTT-S-112: Features: token 'driving range' not in vocabulary — dropped
+[WARN] OH-OTT-S-112: Features: token 'pro shop' not in vocabulary — dropped
+[WARN] OH-OTT-S-112: Features: token 'PGA instruction' not in vocabulary — dropped
+[WARN] OH-OTT-S-112: Features: token 'season passes' not in vocabulary — dropped
+[WARN] OH-OTT-S-112: Features: token 'scenic Portage River views' not in vocabulary — dropped
+[INFO] OH-OTT-S-112: Features: salvaged 6 token(s) into notes: 18-hole course; driving range; pro shop; PGA instruction; season passes; scenic 
+[INFO] OH-OTT-S-113: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-113: Features: token 'public access' not in vocabulary — dropped
+[WARN] OH-OTT-S-113: Features: token 'phone: 419-798-4434' not in vocabulary — dropped
+[INFO] OH-OTT-S-113: Features: salvaged 2 token(s) into notes: public access; phone: 419-798-4434
+[INFO] OH-OTT-S-114: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-114: Features: token '9-hole par 3 course (1235 yards' not in vocabulary — dropped
+[WARN] OH-OTT-S-114: Features: token 'par 32)' not in vocabulary — dropped
+[WARN] OH-OTT-S-114: Features: token 'walking only — no golf carts' not in vocabulary — dropped
+[WARN] OH-OTT-S-114: Features: token 'club and cart rentals available' not in vocabulary — dropped
+[WARN] OH-OTT-S-114: Features: token 'Bent Grass greens' not in vocabulary — dropped
+[WARN] OH-OTT-S-114: Features: token 'built 1954' not in vocabulary — dropped
+[WARN] OH-OTT-S-114: Features: token 'public access' not in vocabulary — dropped
+[INFO] OH-OTT-S-114: Features: salvaged 7 token(s) into notes: 9-hole par 3 course (1235 yards; par 32); walking only — no golf carts; club and
+[INFO] OH-OTT-S-115: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-115: Features: token '100-yard outdoor range' not in vocabulary — dropped
+[WARN] OH-OTT-S-115: Features: token '400-acre hunting preserve' not in vocabulary — dropped
+[WARN] OH-OTT-S-115: Features: token 'waterfowl hunting' not in vocabulary — dropped
+[WARN] OH-OTT-S-115: Features: token 'youth fishing derby' not in vocabulary — dropped
+[WARN] OH-OTT-S-115: Features: token 'junior rifle/pistol programs' not in vocabulary — dropped
+[WARN] OH-OTT-S-115: Features: token 'annual Wild Game Dinner' not in vocabulary — dropped
+[WARN] OH-OTT-S-115: Features: token 'Gun Show & Swap Meet' not in vocabulary — dropped
+[INFO] OH-OTT-S-115: Features: salvaged 7 token(s) into notes: 100-yard outdoor range; 400-acre hunting preserve; waterfowl hunting; youth fish
+[INFO] OH-OTT-S-116: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-116: Features: token 'upland bird hunting (pheasant' not in vocabulary — dropped
+[WARN] OH-OTT-S-116: Features: token 'quail' not in vocabulary — dropped
+[WARN] OH-OTT-S-116: Features: token 'chukar)' not in vocabulary — dropped
+[WARN] OH-OTT-S-116: Features: token 'waterfowl hunting' not in vocabulary — dropped
+[INFO] OH-OTT-S-116: Features: salvaged 4 token(s) into notes: upland bird hunting (pheasant; quail; chukar); waterfowl hunting
+[INFO] OH-OTT-S-117: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-117: Features: token '125-acre pheasant hunting preserve' not in vocabulary — dropped
+[WARN] OH-OTT-S-117: Features: token 'membership-based with possible public access' not in vocabulary — dropped
+[INFO] OH-OTT-S-117: Features: salvaged 2 token(s) into notes: 125-acre pheasant hunting preserve; membership-based with possible public access
+[INFO] OH-OTT-S-118: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-118: Features: token 'Duck hunting' not in vocabulary — dropped
+[WARN] OH-OTT-S-118: Features: token 'waterfowl' not in vocabulary — dropped
+[WARN] OH-OTT-S-118: Features: token 'private membership' not in vocabulary — dropped
+[WARN] OH-OTT-S-118: Features: token 'established 1885' not in vocabulary — dropped
+[WARN] OH-OTT-S-118: Features: token 'Toussaint River location' not in vocabulary — dropped
+[INFO] OH-OTT-S-118: Features: salvaged 5 token(s) into notes: Duck hunting; waterfowl; private membership; established 1885; Toussaint River l
+[INFO] OH-OTT-S-119: Cemetery subtype inferred from governance: Church Cemetery
+[INFO] OH-OTT-S-119: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-119: Features: token 'Church cemetery' not in vocabulary — dropped
+[WARN] OH-OTT-S-119: Features: token 'Catholic' not in vocabulary — dropped
+[WARN] OH-OTT-S-119: Features: token 'Carroll Township' not in vocabulary — dropped
+[INFO] OH-OTT-S-119: Features: salvaged 2 token(s) into notes: Church cemetery; Catholic
+[INFO] OH-OTT-S-120: Cemetery subtype inferred from governance: Church Cemetery
+[INFO] OH-OTT-S-120: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-120: Features: token 'Church cemetery' not in vocabulary — dropped
+[WARN] OH-OTT-S-120: Features: token 'Russian Orthodox' not in vocabulary — dropped
+[WARN] OH-OTT-S-120: Features: token 'Danbury Township' not in vocabulary — dropped
+[WARN] OH-OTT-S-120: Features: token 'Marblehead area' not in vocabulary — dropped
+[INFO] OH-OTT-S-120: Features: salvaged 2 token(s) into notes: Church cemetery; Russian Orthodox
+[INFO] OH-OTT-S-121: Cemetery subtype inferred from governance: Church Cemetery
+[INFO] OH-OTT-S-121: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-121: Features: token 'Church cemetery' not in vocabulary — dropped
+[WARN] OH-OTT-S-121: Features: token 'Catholic' not in vocabulary — dropped
+[WARN] OH-OTT-S-121: Features: token 'Danbury Township' not in vocabulary — dropped
+[WARN] OH-OTT-S-121: Features: token 'Marblehead area' not in vocabulary — dropped
+[INFO] OH-OTT-S-121: Features: salvaged 2 token(s) into notes: Church cemetery; Catholic
+[INFO] OH-OTT-S-122: Cemetery subtype inferred from governance: Church Cemetery
+[INFO] OH-OTT-S-122: status_raw blank — inferred Active (has URL/GPS from active source)
+[INFO] OH-OTT-S-122: Features: dropped named entity token 'Marblehead'
+[WARN] OH-OTT-S-122: Features: token 'Church cemetery' not in vocabulary — dropped
+[WARN] OH-OTT-S-122: Features: token 'Byzantine Catholic' not in vocabulary — dropped
+[WARN] OH-OTT-S-122: Features: token 'Danbury Township' not in vocabulary — dropped
+[INFO] OH-OTT-S-122: Features: salvaged 2 token(s) into notes: Church cemetery; Byzantine Catholic
+[INFO] OH-OTT-S-123: Cemetery subtype inferred from governance: Church Cemetery
+[INFO] OH-OTT-S-123: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-123: Features: token 'Church cemetery' not in vocabulary — dropped
+[WARN] OH-OTT-S-123: Features: token 'Lutheran' not in vocabulary — dropped
+[WARN] OH-OTT-S-123: Features: token 'Danbury Township' not in vocabulary — dropped
+[WARN] OH-OTT-S-123: Features: token 'rural location on Church Road' not in vocabulary — dropped
+[INFO] OH-OTT-S-123: Features: salvaged 3 token(s) into notes: Church cemetery; Lutheran; rural location on Church Road
+[INFO] OH-OTT-S-124: Cemetery subtype inferred from governance: Private Cemetery
+[INFO] OH-OTT-S-124: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-124: Features: token 'Family/private burial plot' not in vocabulary — dropped
+[WARN] OH-OTT-S-124: Features: token 'Portage Township' not in vocabulary — dropped
+[INFO] OH-OTT-S-124: Features: salvaged 1 token(s) into notes: Family/private burial plot
+[INFO] OH-OTT-S-125: Cemetery subtype inferred from governance: Private Cemetery
+[INFO] OH-OTT-S-125: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-125: Features: token 'Historic burial ground' not in vocabulary — dropped
+[WARN] OH-OTT-S-125: Features: token 'War of 1812 era' not in vocabulary — dropped
+[WARN] OH-OTT-S-125: Features: token 'Danbury Township' not in vocabulary — dropped
+[WARN] OH-OTT-S-125: Features: token 'Bayshore Road' not in vocabulary — dropped
+[INFO] OH-OTT-S-125: Features: salvaged 3 token(s) into notes: Historic burial ground; War of 1812 era; Bayshore Road
+[INFO] OH-OTT-S-126: Cemetery subtype inferred from governance: Private Cemetery
+[INFO] OH-OTT-S-126: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-126: Features: token 'Harris Township/Elmore area' not in vocabulary — dropped
+[INFO] OH-OTT-S-127: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-127: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-127: Features: token 'Township cemetery' not in vocabulary — dropped
+[WARN] OH-OTT-S-127: Features: token 'Benton Township' not in vocabulary — dropped
+[WARN] OH-OTT-S-127: Features: token 'distinct from Elliston Cemetery' not in vocabulary — dropped
+[INFO] OH-OTT-S-127: Features: salvaged 1 token(s) into notes: distinct from Elliston Cemetery
+[INFO] OH-OTT-S-128: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-128: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-128: Features: token 'Danbury Township' not in vocabulary — dropped
+[WARN] OH-OTT-S-128: Features: token 'also known as Mallory Cemetery' not in vocabulary — dropped
+[INFO] OH-OTT-S-128: Features: salvaged 1 token(s) into notes: also known as Mallory Cemetery
+[INFO] OH-OTT-S-129: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-129: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-129: Features: token 'Danbury Township' not in vocabulary — dropped
+[INFO] OH-OTT-S-130: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-130: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-130: Features: token 'Danbury Township' not in vocabulary — dropped
+[INFO] OH-OTT-S-131: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-131: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-131: Features: token 'Harris Township' not in vocabulary — dropped
+[WARN] OH-OTT-S-131: Features: token 'also known as Rice Cemetery' not in vocabulary — dropped
+[INFO] OH-OTT-S-131: Features: salvaged 1 token(s) into notes: also known as Rice Cemetery
+[INFO] OH-OTT-S-132: Cemetery subtype inferred from governance: Public Cemetery
+[INFO] OH-OTT-S-132: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-132: Features: token '19th-century gravestones' not in vocabulary — dropped
+[WARN] OH-OTT-S-132: Features: token 'maintained by ODNR' not in vocabulary — dropped
+[WARN] OH-OTT-S-132: Features: token 'NRHP-eligible' not in vocabulary — dropped
+[INFO] OH-OTT-S-132: Features: salvaged 3 token(s) into notes: 19th-century gravestones; maintained by ODNR; NRHP-eligible
+[INFO] OH-OTT-S-133: status_raw blank — inferred Active (has URL/GPS from active source)
+[WARN] OH-OTT-S-133: Features: token 'Educational facility' not in vocabulary — dropped
+[WARN] OH-OTT-S-133: Features: token 'aquatic exhibits' not in vocabulary — dropped
+[WARN] OH-OTT-S-133: Features: token 'former fish hatchery' not in vocabulary — dropped
+[WARN] OH-OTT-S-133: Features: token 'ODNR-operated' not in vocabulary — dropped
+[WARN] OH-OTT-S-133: Features: token '$6.2M renovation' not in vocabulary — dropped
+[INFO] OH-OTT-S-133: Features: salvaged 5 token(s) into notes: Educational facility; aquatic exhibits; former fish hatchery; ODNR-operated; $6.

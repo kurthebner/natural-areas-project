@@ -1,0 +1,2136 @@
+records:
+- entity_type: Site
+  name_raw: Mary Jane Thurston State Park
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '105'
+  location_raw: 1466 SR 65, McClure, OH 43534
+  description_raw: Situated along the historic Maumee State Scenic River, Mary Jane
+    Thurston State Park's 105 acres offer a variety of day-use and overnight activities.
+  features_raw: Archery range; boat launch ramp (1); marina; camping - electric hookup;
+    camping - primitive/tent; Day Lodge (seats 50); fishing; hunting - shoreline trapping
+    and waterfowl; hunting - archery; picnicking - 2 areas along river; trails (Storybook
+    Trail, Blue Trail, Orange Trail, Tow Path, Yellow Trail)
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  identity_notes_raw: 'ACREAGE CONFLICT: ODNR property page states 105 acres; baseline
+    seed and OSM record 591 acres. Record ODNR-stated value (105) in acres_raw; resolution
+    engine to arbitrate. Park named after Mary Jane Thurston, who bequeathed 14 acres
+    in 1928; park dedicated 1968. Phone: (419) 832-7662. Manager: Jeremy Babcock.
+    The Tow Path trail (0.3 mi within park) continues into Grand Rapids village (Wood
+    County) — Tow Path is a multi-county trail; only the MJTSP segment is staged at
+    T2 here. NCT co-routes with Buckeye Trail along Miami & Erie Canal Towpath through
+    this park area — see DEF run cross-reference for NCT staging.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_seed_name: Mary Jane Thurston State Park
+- entity_type: Site
+  name_raw: North Turkeyfoot Wildlife Area
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '458'
+  location_raw: 2 miles southeast of Liberty Center, Henry County, Ohio
+  description_raw: ''
+  features_raw: 'Natural features: River, Woods, Brush; Activities: Boating, Hunting,
+    Hiking, Birding, Fishing; Trails: Buckeye Trail, Hiking Trails, Hunter Access'
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/north-turkeyfoot-wildlife-area
+  - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/NorthTurkeyfoot.pdf
+  identity_notes_raw: '458 acres. Located 2 miles SE of Liberty Center, Henry County.
+    Baseline seed address: CR 424, Liberty Center OH. Acquisition: 1969–2013 via multiple
+    state funds and donations. Buckeye Trail runs through this property — BT is a
+    T7 entity (Buckeye Trail Association); trail presence noted here for cross-reference
+    but not re-staged at T2.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_seed_name: North Turkeyfoot Wildlife Area
+- entity_type: Site
+  name_raw: Florida Wildlife Area
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: '3'
+  location_raw: 1 mile northeast of Florida, Henry County, Ohio
+  description_raw: ''
+  features_raw: 'Natural features: River, Woods; Activities: Hunting; Trails: Buckeye
+    Trail'
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/florida-wildlife-area
+  - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Florida.pdf
+  identity_notes_raw: '3 acres. Located 1 mile NE of Florida, Henry County. Acquisition
+    began 1962. Buckeye Trail runs through this property — BT is a T7 entity (Buckeye
+    Trail Association); trail presence noted here for cross-reference but not re-staged
+    at T2. Note: village of Florida is in Henry County (confirmed county seat area).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_seed_name: Florida Wildlife Area
+- entity_type: Site
+  name_raw: Henry County Wildlife Area 1
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: ''
+  description_raw: ''
+  features_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_1.pdf
+  identity_notes_raw: 'Confirmed as a distinct unit from ODNR Hunting Area Maps listing
+    page. Official ODNR name: ''Henry County 1'' on listing page; full name ''Henry
+    County Wildlife Area 1'' inferred — normalize to official ODNR name in resolution.
+    PDF map at Henry_1.pdf could not be fetched (redirect cancelled); acreage and
+    precise location unknown. GIS_VERIFY_COUNTY — confirm parcel location within Henry
+    County via ODNR Wildlife GIS. Resolves HEN-F-03 (three numbered placeholder WAs
+    in baseline).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_seed_name: Henry County Wildlife Area 1
+- entity_type: Site
+  name_raw: Henry County Wildlife Area 2
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: ''
+  description_raw: ''
+  features_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_2.pdf
+  identity_notes_raw: 'Confirmed as a distinct unit from ODNR Hunting Area Maps listing
+    page. Official ODNR name: ''Henry County 2'' on listing page. PDF map at Henry_2.pdf
+    could not be fetched (redirect cancelled); acreage and precise location unknown.
+    GIS_VERIFY_COUNTY — confirm parcel location within Henry County via ODNR Wildlife
+    GIS. Resolves HEN-F-03 (three numbered placeholder WAs in baseline).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_seed_name: Henry County Wildlife Area 2
+- entity_type: Site
+  name_raw: Henry County Wildlife Area 3
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Wildlife
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: ''
+  description_raw: ''
+  features_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/static/documents/wildlife/wildlife-area-maps/Henry_3.pdf
+  identity_notes_raw: 'Confirmed as a distinct unit from ODNR Hunting Area Maps listing
+    page. Official ODNR name: ''Henry County 3'' on listing page. PDF map at Henry_3.pdf
+    could not be fetched (redirect cancelled); acreage and precise location unknown.
+    GIS_VERIFY_COUNTY — confirm parcel location within Henry County via ODNR Wildlife
+    GIS. Resolves HEN-F-03 (three numbered placeholder WAs in baseline).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: true
+  baseline_seed_name: Henry County Wildlife Area 3
+- entity_type: Trail
+  name_raw: Storybook Trail
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  length_raw: 0.45 miles
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  identity_notes_raw: 'Trail within Mary Jane Thurston State Park. Length: 0.45 mi,
+    difficulty: Easy, per ODNR property page. Parent site: Mary Jane Thurston State
+    Park (this run, T2).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Trail
+  name_raw: Blue Trail
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  length_raw: 1.2 miles
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  identity_notes_raw: 'Trail within Mary Jane Thurston State Park. Length: 1.2 mi,
+    difficulty: Easy, per ODNR property page. Parent site: Mary Jane Thurston State
+    Park (this run, T2).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Trail
+  name_raw: Orange Trail
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  length_raw: 0.5 miles
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  identity_notes_raw: 'Trail within Mary Jane Thurston State Park. Length: 0.5 mi,
+    difficulty: Easy, per ODNR property page. Parent site: Mary Jane Thurston State
+    Park (this run, T2).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Trail
+  name_raw: Tow Path
+  counties_raw:
+  - Henry County
+  - Wood County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  length_raw: 0.3 miles (within Mary Jane Thurston State Park); continues into Grand
+    Rapids village
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  identity_notes_raw: 'Trail within Mary Jane Thurston State Park — 0.3 mi portion
+    within park, continues into Grand Rapids village (Wood County). Likely segment
+    of the historic Miami and Erie Canal Towpath / Buckeye Trail corridor. Multi-county
+    trail; only the MJTSP-managed segment (0.3 mi, Henry County) staged here at T2.
+    GIS_VERIFY_COUNTY — trail crosses into Wood County; full extent and governance
+    to be resolved. Difficulty: Easy per ODNR property page. Parent site: Mary Jane
+    Thurston State Park (this run, T2).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Trail
+  name_raw: Yellow Trail
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  length_raw: 0.5 miles
+  difficulty_raw: Easy
+  accessibility_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  identity_notes_raw: 'Trail within Mary Jane Thurston State Park. Length: 0.5 mi,
+    difficulty: Easy, per ODNR property page. Parent site: Mary Jane Thurston State
+    Park (this run, T2).'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Access Point
+  name_raw: Mary Jane Thurston State Park Marina
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  location_raw: Mary Jane Thurston State Park, 1466 SR 65, McClure, OH 43534
+  description_raw: ''
+  features_raw: Marina
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  identity_notes_raw: 'Marina listed on MJTSP property page. Source states ''1 boat
+    launch ramp + marina.'' Staged as Access Point per §6.7 (visitor-facing entry
+    on water). Resolution engine should evaluate whether marina warrants child Site
+    designation (§6.2) if identity-bearing; flagged for review. Parent site: Mary
+    Jane Thurston State Park.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Access Point
+  name_raw: Mary Jane Thurston State Park Boat Launch Ramp
+  counties_raw:
+  - Henry County
+  county_primary: Henry County
+  ownership_raw: State of Ohio
+  governance_raw: Ohio Department of Natural Resources, Division of Parks and Watercraft
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  location_raw: Mary Jane Thurston State Park, 1466 SR 65, McClure, OH 43534
+  description_raw: ''
+  features_raw: Boat launch ramp
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/mary-jane-thurston-state-park
+  identity_notes_raw: 'Boat launch ramp listed on MJTSP property page alongside marina.
+    Source states ''1 boat launch ramp + marina.'' Staged as separate Access Point
+    from marina; co-located or same structure — resolution engine to evaluate. Parent
+    site: Mary Jane Thurston State Park.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- entity_type: Site
+  name_raw: Maumee State Scenic River
+  counties_raw:
+  - Defiance County
+  - Henry County
+  - Wood County
+  - Lucas County
+  county_primary: Henry County
+  ownership_raw: ''
+  governance_raw: Ohio Department of Natural Resources, Scenic Rivers Program
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  acres_raw: ''
+  location_raw: Maumee River corridor — runs through Defiance, Henry, Wood, and Lucas
+    Counties, Ohio
+  description_raw: The Maumee State Scenic River is designated under the Ohio Scenic
+    Rivers Program. Referenced on Mary Jane Thurston State Park property page as 'the
+    historic Maumee State Scenic River.' The Maumee River flows northeast from Defiance
+    through Henry County (passing through the Napoleon and McClure areas) and on to
+    Toledo. ODNR Scenic Rivers Program web page returned no readable content (JS-rendered,
+    no static data available).
+  features_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  urls_raw:
+  - https://ohiodnr.gov/discover-and-learn/land-water/scenic-rivers/maumee-scenic-river
+  - https://ohiodnr.gov/discover-and-learn/land-water/scenic-rivers
+  identity_notes_raw: 'CATEGORY: Water Site. SUBTYPE: River. DESIGNATION: State Scenic
+    River. Per state discovery subproc §3.5 and §4.6, scenic river designations are
+    Sites (category=Water Site, subtype=River, designation=State Scenic River), NOT
+    Site Networks. Multi-county entity: flows through Defiance, Henry, Wood, and Lucas
+    Counties. GIS_VERIFY_COUNTY — precise designated reach boundaries need GIS confirmation.
+    ODNR Scenic Rivers Program page is JS-rendered; no static description text available
+    at fetch time. Source confirmation: MJTSP property page explicitly names ''the
+    historic Maumee State Scenic River.'' Overlap note: Maumee River Water Trail (staged
+    in Defiance run as separate Trail entity) runs within/along this scenic river
+    corridor — see DEF run cross-reference. Per §4.6 of state subproc: overlapping
+    trail and scenic river Site are related but distinct entities; flag for resolution.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 2
+  seeded_from_baseline: false
+- run_id: henry_oh_2026_04_20
+  tier: 4
+  entity_type: Trail
+  name_raw: Miami & Erie Canal Towpath Hiking Trail
+  governance_raw: Henry County Park District
+  governance_notes_raw: All-volunteer organization organized 2005; operates out of
+    Henry County Office Complex, 1853 Oakwood Avenue, Napoleon, Ohio 43545 (county
+    commissioner address). Holds lease agreements with State of Ohio for state-owned
+    canal lands across Henry County. Not a formal ORC Chapter 1545 park district;
+    county-affiliated volunteer entity.
+  counties_raw:
+  - Henry County
+  - Defiance County
+  - Wood County
+  address_raw: ''
+  location_raw: Adjacent to Maumee River; runs east-west across Henry County along
+    former Miami & Erie Canal route. Western terminus near Independence Dam State
+    Park (Defiance/Henry county line); eastern terminus near Providence Dam Metropark
+    (Wood County).
+  length_raw: ''
+  difficulty_raw: Hiking/biking trail; surface and difficulty not specified by source
+  surface_raw: ''
+  description_raw: The former Miami and Erie Canal Towpath is being converted into
+    a hiking/biking trail adjacent to the Maumee River. This effort represents the
+    first time the Canal Lands have been cleared and used for the public benefit since
+    the canals were abandoned in the nineteenth century. The trail is part of 'The
+    Buckeye Trail' — the longest loop trail in the United States — which encircles
+    the State of Ohio and covers approximately 1444 miles. The trail is also part
+    of the North Country Trail, one of the seven National Park Service trails.
+  features_raw:
+  - Hiking
+  - Biking (planned)
+  - Adjacent to Maumee River
+  - Former Miami & Erie Canal route
+  - Co-routes with Buckeye Trail
+  - Co-routes with North Country Trail
+  urls_raw:
+  - http://henrycountyparks.blogspot.com/
+  - http://henrycountyparks.blogspot.com/p/trail-maps.html
+  - http://www.henrycountyparks.org
+  cross_references_raw:
+  - Buckeye Trail — already staged in DEF run as multi-county Trail; canal towpath
+    co-routes with BT through Henry County
+  - North Country Trail — already staged in DEF run as multi-county Trail; canal towpath
+    co-routes with NCT through Henry County
+  - 'MJTSP Tow Path (T2 entity #11) — 0.3-mile ODNR-managed segment within Mary Jane
+    Thurston SP is a segment of this route'
+  identity_notes_raw: Multi-county trail. Managed by Henry County Park District on
+    state-owned canal lands leased from Ohio. GIS_VERIFY_COUNTY — confirm full Henry
+    County extent and segment termini.
+  flags_raw:
+  - GIS_VERIFY_COUNTY
+  - MULTI_COUNTY
+  discovery_source: http://henrycountyparks.blogspot.com/p/about-us.html
+  discovery_source_label: Henry County Parks — About Us (blogspot)
+  discovery_date: '2026-04-21'
+  discovery_tier: 4
+- run_id: henry_oh_2026_04_20
+  tier: 4
+  entity_type: Trail Segment
+  name_raw: Independence Leg — Miami & Erie Canal Towpath
+  parent_trail_raw: Miami & Erie Canal Towpath Hiking Trail
+  governance_raw: Henry County Park District
+  counties_raw:
+  - Henry County
+  - Defiance County
+  address_raw: ''
+  location_raw: Western Henry County / Defiance County border; begins at Independence
+    Dam State Park, runs east to Village of Florida, Henry County.
+  length_raw: ''
+  description_raw: Beginning at Independence Dam State Park and coming East to the
+    Village of Florida.
+  map_url_raw: http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=215849275902849928084.00044537670d9054404ac&ll=41.31134,-84.25827&spn=0.063697,0.136986&z=12&source=embed
+  identity_notes_raw: Named segment of the MW&E Canal Towpath. Straddles Defiance/Henry
+    county line. Western terminus at Independence Dam SP (ODNR state park, already
+    staged in DEF run).
+  flags_raw:
+  - GIS_VERIFY_COUNTY
+  - MULTI_COUNTY
+  discovery_source: http://henrycountyparks.blogspot.com/p/trail-maps.html
+  discovery_source_label: Henry County Parks — Trail Maps page
+  discovery_date: '2026-04-21'
+  discovery_tier: 4
+- run_id: henry_oh_2026_04_20
+  tier: 4
+  entity_type: Trail Segment
+  name_raw: Renegade Leg — Miami & Erie Canal Towpath
+  parent_trail_raw: Miami & Erie Canal Towpath Hiking Trail
+  governance_raw: Henry County Park District
+  counties_raw:
+  - Henry County
+  address_raw: ''
+  location_raw: Henry County; begins at Village of Florida, runs east to Napoleon.
+  length_raw: ''
+  description_raw: '''Renegade'' section (Named for Renegade Simon Girty) beginning
+    at the Village of Florida East to Napoleon.'
+  map_url_raw: http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=215849275902849928084.00044537901b4fd550bda&ll=41.344469,-84.175701&spn=0.064051,0.085831&z=13&source=embed
+  identity_notes_raw: Named for Simon Girty (historical figure). Henry County only.
+    Eastern terminus at Napoleon.
+  flags_raw: []
+  discovery_source: http://henrycountyparks.blogspot.com/p/trail-maps.html
+  discovery_source_label: Henry County Parks — Trail Maps page
+  discovery_date: '2026-04-21'
+  discovery_tier: 4
+- run_id: henry_oh_2026_04_20
+  tier: 4
+  entity_type: Trail Segment
+  name_raw: Napoleon Leg — Miami & Erie Canal Towpath
+  parent_trail_raw: Miami & Erie Canal Towpath Hiking Trail
+  governance_raw: Henry County Park District
+  counties_raw:
+  - Henry County
+  address_raw: ''
+  location_raw: Napoleon, Henry County; begins at Meyerholtz Park, runs east to Henry
+    County Hospital.
+  length_raw: ''
+  description_raw: Napoleon Leg beginning at Meyerholtz Park and going East to Henry
+    County Hospital.
+  map_url_raw: http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=215849275902849928084.000446ae8b30509d3911f&ll=41.404368,-84.10532&spn=0.063992,0.085659&z=13&source=embed
+  identity_notes_raw: Runs through Napoleon. Western terminus at Meyerholtz Park (Napoleon
+    city park — T6 entity). Eastern terminus at Henry County Hospital.
+  flags_raw: []
+  discovery_source: http://henrycountyparks.blogspot.com/p/trail-maps.html
+  discovery_source_label: Henry County Parks — Trail Maps page
+  discovery_date: '2026-04-21'
+  discovery_tier: 4
+- run_id: henry_oh_2026_04_20
+  tier: 4
+  entity_type: Trail Segment
+  name_raw: Damascus Leg — Miami & Erie Canal Towpath
+  parent_trail_raw: Miami & Erie Canal Towpath Hiking Trail
+  governance_raw: Henry County Park District
+  counties_raw:
+  - Henry County
+  address_raw: ''
+  location_raw: Henry County; begins at Henry County Hospital, runs east to State
+    Route 109.
+  length_raw: ''
+  description_raw: Damascus Leg beginning at The Henry County Hospital going East
+    to State Route 109.
+  map_url_raw: http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=215849275902849928084.000447b872ce212534d9c&ll=41.406686,-84.044209&spn=0.038239,0.11158&z=13&source=embed
+  identity_notes_raw: Named for Damascus Township. Henry County only. Eastern terminus
+    at SR 109 near Damascus Township.
+  flags_raw: []
+  discovery_source: http://henrycountyparks.blogspot.com/p/trail-maps.html
+  discovery_source_label: Henry County Parks — Trail Maps page
+  discovery_date: '2026-04-21'
+  discovery_tier: 4
+- run_id: henry_oh_2026_04_20
+  tier: 4
+  entity_type: Trail Segment
+  name_raw: WideWater Section — Miami & Erie Canal Towpath
+  parent_trail_raw: Miami & Erie Canal Towpath Hiking Trail
+  governance_raw: Henry County Park District
+  counties_raw:
+  - Henry County
+  - Wood County
+  address_raw: ''
+  location_raw: Eastern Henry County into Wood County; begins at State Route 109,
+    runs east to Providence Dam Metropark.
+  length_raw: ''
+  description_raw: WideWater Section beginning at State Route 109 East to Providence
+    Dam Metropark.
+  map_url_raw: http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=215849275902849928084.000446b086a708f917494&ll=41.4175,-83.925591&spn=0.076466,0.171318&z=12&source=embed
+  identity_notes_raw: Named WideWater (historic canal engineering term for widened
+    canal section). Eastern terminus at Providence Dam Metropark (Wood County / Metroparks
+    Toledo entity). Multi-county (Henry + Wood). GIS_VERIFY_COUNTY.
+  flags_raw:
+  - GIS_VERIFY_COUNTY
+  - MULTI_COUNTY
+  discovery_source: http://henrycountyparks.blogspot.com/p/trail-maps.html
+  discovery_source_label: Henry County Parks — Trail Maps page
+  discovery_date: '2026-04-21'
+  discovery_tier: 4
+- entity_type: Site
+  name_raw: Oakwood Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.3910073'
+  gps_lon_raw: '-84.0999186'
+  location_raw: 1400 Oakwood Ave, Napoleon, OH 43545
+  acres_raw: '52.0'
+  description_raw: ''
+  features_raw: Fishing lake, wooded hiking trails, 1-mile walking path (handicap
+    accessible), 4 ball diamonds, batting cages, basketball court, football field,
+    volleyball court, 2 open-air shelters, year-round restrooms
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  identity_notes_raw: 'GPS from Google Maps/HMDB map verification pass 2026-04-21:
+    1400 Oakwood Ave, Napoleon, OH 43545 — confirmed Google Maps'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: napoleon-oakwood-park
+- entity_type: Site
+  name_raw: Glenwood Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.3865528'
+  gps_lon_raw: '-84.1421839'
+  location_raw: 521 Glenwood Ave, Napoleon, OH 43545
+  acres_raw: 50+
+  description_raw: ''
+  features_raw: Golf course (Napoleon Golf Club), swimming pool (Napoleon Aquatic
+    Center), youth baseball fields (including Veterans Field/pony league), Kidz Kingdom
+    playground, Fourth of July event site, basketball court, shelters
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  - https://napoleongolfclub.com/
+  identity_notes_raw: 'Veterans Field (pony league baseball) is a named field within
+    Glenwood Park — not a standalone park. Baseline "Veterans Park" (0.5 ac) likely
+    refers to Veterans Field within Glenwood. GPS from Google Maps/HMDB map verification
+    pass 2026-04-21: 515 Glenwood Ave, Napoleon, OH 43545 — confirmed Google Maps
+    address lookup'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: napoleon-glenwood-park
+- entity_type: Site
+  name_raw: Ritter Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.3793296'
+  gps_lon_raw: '-84.1456572'
+  location_raw: 1111 W. Riverview Ave, Napoleon, OH 43545
+  acres_raw: ''
+  description_raw: Passive park along the Maumee River featuring a historic 1930s
+    stone shelter, walking path, and ODNR-funded boat launch with restrooms, parking,
+    and retaining wall.
+  features_raw: Historic 1930s stone shelter, walking path, ODNR Watercraft grant-funded
+    boat launch, restrooms, parking, retaining wall
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  identity_notes_raw: 'Resolves HEN-F-01 and HEN-F-02. Baseline had two rows for Ritter
+    Park (one 5.6 ac "West Riverview Avenue", one at 1130 W. Riverview Ave no acreage)
+    and a separate "Boatramp Facility" at 14.8 ac. Official site confirms one park
+    at 1111 W. Riverview with integrated boat launch. Acreage conflict unresolved
+    — may include adjacent parcel. Address discrepancy: official site says 1111 W.
+    Riverview, baseline said 1130 W. Riverview. GPS from Google Maps/HMDB map verification
+    pass 2026-04-21: 1130 W. Riverview Ave (shelter address), Napoleon, OH — confirmed
+    Google Maps; city confirms ~1111 W. Riverview Ave'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: napoleon-ritter-park
+- entity_type: Access Point
+  name_raw: Ritter Park Boat Launch
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ODNR Division of Watercraft (grant funder)
+  coordination_raw: ''
+  gps_lat_raw: '41.3793296'
+  gps_lon_raw: '-84.1456572'
+  location_raw: 1111 W. Riverview Ave, Napoleon, OH 43545
+  description_raw: ODNR Watercraft grant-funded boat launch on the Maumee River at
+    Ritter Park. Project funded restrooms, parking, and retaining wall.
+  features_raw: Boat launch, restrooms, parking, retaining wall
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  identity_notes_raw: 'Child access point of Ritter Park. Resolves HEN-F-01 (Boatramp
+    Facility). Baseline listed boat ramp separately at 14.8 ac — confirmed to be part
+    of Ritter Park, not separate parcel. GPS from Google Maps/HMDB map verification
+    pass 2026-04-21: GPS approximate — within Ritter Park boundary; no separate Maps
+    listing'
+  parent_site_raw: Ritter Park
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: napoleon-boatramp-facility
+- entity_type: Site
+  name_raw: Oberhaus Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: Napoleon Lions Club; Napoleon Rotary Club
+  coordination_raw: ''
+  gps_lat_raw: '41.3798989'
+  gps_lon_raw: '-84.1342520'
+  location_raw: 750 W. Maumee St, Napoleon, OH 43545
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Maumee River frontage, 250-ft public boat dock, 1/2-mile walking path,
+    Lions/Rotary community building (year-round rentals)
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  identity_notes_raw: 'GPS from Google Maps/HMDB map verification pass 2026-04-21:
+    750 W. Maumee Ave, Napoleon, OH 43545 — confirmed Google Maps'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: napoleon-oberhaus-park
+- entity_type: Access Point
+  name_raw: Oberhaus Park Boat Dock
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.3798989'
+  gps_lon_raw: '-84.1342520'
+  location_raw: 750 W. Maumee St, Napoleon, OH 43545
+  description_raw: ''
+  features_raw: 250-ft public boat dock on the Maumee River
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  identity_notes_raw: 'Child access point of Oberhaus Park. Public boat dock on Maumee
+    River. GPS from Google Maps/HMDB map verification pass 2026-04-21: GPS approximate
+    — within Oberhaus Park boundary; no separate Maps listing'
+  parent_site_raw: Oberhaus Park
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Swearingen Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.3847565'
+  gps_lon_raw: '-84.1203470'
+  location_raw: S. Perry St & E. Barnes Ave, Napoleon, OH 43545
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Skateboard park, basketball court, playground, picnic tables
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  identity_notes_raw: 'GPS from Google Maps/HMDB map verification pass 2026-04-21:
+    510 S. Perry St, Napoleon, OH 43545 — confirmed Google Maps address lookup (recdesk)'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: East Riverdowns Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.3926275'
+  gps_lon_raw: '-84.1172675'
+  location_raw: E. Front St & Jefferson St, Napoleon, OH 43545
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Arboretum, tree nursery, 2 softball fields, horseshoes, playground,
+    shelter, volleyball
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/parks
+  identity_notes_raw: 'Contains Napoleon Dog Park as a named child facility. GPS from
+    Google Maps/HMDB map verification pass 2026-04-21: 500 E. Main St, Napoleon, OH
+    43545 — confirmed Google Maps'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Napoleon Dog Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: Girl Scouts (original construction)
+  coordination_raw: ''
+  gps_lat_raw: '41.3900007'
+  gps_lon_raw: '-84.1198481'
+  location_raw: E. Front St & Jefferson St, Napoleon, OH 43545 (within East Riverdowns
+    Park)
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Off-leash dog park, membership required
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/dog-park
+  identity_notes_raw: 'Child site of East Riverdowns Park. Original build was a Girl
+    Scout project. GPS from Google Maps/HMDB map verification pass 2026-04-21: 331
+    E. Front St, Napoleon, OH 43545 — confirmed Google Maps address lookup (recdesk)'
+  parent_site_raw: East Riverdowns Park
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Wayne Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.3663572'
+  gps_lon_raw: '-84.1541574'
+  location_raw: ''
+  acres_raw: '13.0'
+  description_raw: ''
+  features_raw: Small rustic shelter (capacity ~25 people, warmer months rental),
+    large open areas for picnicking, volleyball court
+  urls_raw:
+  - https://www.napoleonohio.com/departments/parks-and-recreation/shelter-houses/wayne-park
+  identity_notes_raw: 'MINIMAL_DATA — address not published on official site; booking
+    at City Building, 255 W. Riverview Ave, Napoleon. Acreage from Napoleon Parks
+    System PDF (2014). GPS from Google Maps/HMDB map verification pass 2026-04-21:
+    205 Wayne Park Dr (shelterhouse), Napoleon, OH — confirmed Google Maps address
+    lookup (recdesk)'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Vorwerk Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.4101943'
+  gps_lon_raw: '-84.0888190'
+  location_raw: E. Riverview Ave, Napoleon, OH 43545
+  acres_raw: '24.5'
+  description_raw: ''
+  features_raw: Picnic tables, grills, restrooms (portable, accessible/unisex), fishing
+    access, hiking trails, drinking fountains, parking
+  urls_raw:
+  - https://napoleon.recdesk.com/Community/Facility/Detail?facilityId=29
+  - https://ohiotrailtowns.org/towns/napoleon/restrooms/vorwerk
+  identity_notes_raw: 'GPS from Ohio Trail Towns detail record during discovery —
+    treat as approximate until GPS acquisition pass confirmation. GPS from Google
+    Maps/HMDB map verification pass 2026-04-21: 1501 E. Riverview Ave, Napoleon, OH
+    43545 — confirmed Google Maps address lookup (recdesk); consistent with prior
+    41.410147,-84.090012'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Meyerholtz Wildlife Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: City of Napoleon
+  governance_raw: City of Napoleon Parks and Recreation
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.3709751'
+  gps_lon_raw: '-84.1524489'
+  location_raw: 1781-1799 W. Riverview Ave, Napoleon, OH 43545
+  acres_raw: '21.5'
+  description_raw: ''
+  features_raw: Wildlife park, birding area, open shelterhouse, picnic tables, open
+    grass area, walking/jogging path, parking
+  urls_raw:
+  - https://birdinghotspots.org/hotspot/L3683369
+  identity_notes_raw: 'Listed as birding hotspot (eBird L3683369). Address from Waze/Google
+    Maps record. GPS from Google Maps/HMDB map verification pass 2026-04-21: 1790
+    W. Riverview Ave, Napoleon, OH 43545 — confirmed Google Maps address lookup (recdesk)'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: napoleon-meyerholtz-wildlife-park
+- entity_type: Site
+  name_raw: Deshler Crossroads Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of Deshler
+  governance_raw: Village of Deshler
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.2170950'
+  gps_lon_raw: '-83.8937760'
+  location_raw: Deshler, OH 43516 (at intersection of CSX rail lines)
+  acres_raw: ''
+  description_raw: Railfan park at the intersection of two major CSX Transportation
+    rail lines, offering prime train-watching opportunities with approximately 50-70
+    trains passing through daily.
+  features_raw: Covered shelter/pavilion, picnic tables, railroad history informational
+    displays, radio scanner speaker (railroad frequencies), 120VAC charging outlets,
+    RV/tent camping area (first come first served)
+  urls_raw:
+  - https://www.facebook.com/DeshlerCrossroadsPark/
+  - https://villageofdeshler.com/
+  identity_notes_raw: 'Also known locally as Deshler Railroad Park. Primary attraction
+    is railfan train-watching at CSX diamond crossing. Camping is informal/primitive.
+    GPS from Google Maps/HMDB map verification pass 2026-04-21: 110 W. Mulberry St,
+    Deshler, OH 43516 — confirmed Google Maps'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: deshler-crossroads-park
+- entity_type: Site
+  name_raw: Deshler Reservoir Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of Deshler
+  governance_raw: Village of Deshler
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.2030402'
+  gps_lon_raw: '-83.9017433'
+  location_raw: Deshler, OH 43516
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Reservoir, fishing, scenic picnic areas
+  urls_raw:
+  - https://villageofdeshler.com/
+  identity_notes_raw: 'Partially resolves HEN-F-04 (Deshler Reservoir 1 & 2 in baseline).
+    Confirmed publicly accessible with fishing and picnic. Exact parcel count/names
+    (Reservoir 1 vs 2) unresolved — map verification required. Baseline also listed
+    separate "Reservoir Park" and "Swimming Pool Park" entries. GPS from Google Maps/HMDB
+    map verification pass 2026-04-21: Reservoir Rd, Deshler, OH 43516 — confirmed
+    Google Maps'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: deshler-reservoir-park
+- entity_type: Site
+  name_raw: Old School Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of Holgate
+  governance_raw: Village of Holgate
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.2479149'
+  gps_lon_raw: '-84.1337746'
+  location_raw: S. Wilhelm St / Frazier St, Holgate, OH 43527
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Walking trail, playground (swings, slides, interactive play features),
+    seating elements
+  urls_raw:
+  - https://www.holgateohio.com/
+  identity_notes_raw: 'Confirmed via Facebook Ohioans Historical Exploration post
+    and village CDBG grant application. Grant included playground equipment upgrade.
+    GPS from Google Maps/HMDB map verification pass 2026-04-21: S. Wilhelm St & Frazier
+    Ave, Holgate, OH 43527 — confirmed Google Maps intersection lookup'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: holgate-old-school-park
+- entity_type: Site
+  name_raw: Holgate Village Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of Holgate
+  governance_raw: Village of Holgate
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.2501009'
+  gps_lon_raw: '-84.1270787'
+  location_raw: Holgate, OH 43527
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Basketball court, asphalt overlay (CDBG grant project)
+  urls_raw:
+  - https://www.holgateohio.com/
+  identity_notes_raw: 'Referenced in village CDBG grant application as "community
+    park" alongside Old School Park. Baseline names this "Holgate Village Park." Exact
+    address not confirmed — map verification required. GPS from Google Maps/HMDB map
+    verification pass 2026-04-21: 499 Chicago Ave, Holgate, OH 43527 — confirmed Google
+    Maps (listed as "Holgate Park")'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: holgate-village-park
+- entity_type: Site
+  name_raw: Liberty Center Firemen's Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of Liberty Center
+  governance_raw: Village of Liberty Center
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Liberty Center, OH 43532
+  acres_raw: ''
+  description_raw: ''
+  features_raw: ''
+  urls_raw:
+  - https://facebook.com/pages/Liberty-Center-Firemens-Park/235301483291577
+  - https://lcvillage.com/
+  identity_notes_raw: MINIMAL_DATA — existence confirmed via Facebook page and locale.online
+    listing. Address and amenities not confirmed from available sources. Map verification
+    required.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: liberty-center-firemens-park
+- entity_type: Site
+  name_raw: Fredrick Steward Memorial Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of Liberty Center
+  governance_raw: Village of Liberty Center
+  partner_agencies_raw: Arbor Day Foundation
+  coordination_raw: ''
+  gps_lat_raw: '41.4437127'
+  gps_lon_raw: '-84.0047475'
+  location_raw: Liberty Center, OH 43532
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Tennis courts, Arbor Day Foundation tree plantings
+  urls_raw:
+  - https://lcvillage.com/
+  identity_notes_raw: 'Baseline listed as "Steward Park." Full name is Fredrick Steward
+    Memorial Park. Amenities from search snippet. Address not confirmed — map verification
+    required. GPS from Google Maps/HMDB map verification pass 2026-04-21: 311 E Maple
+    St / Steward Lane, Liberty Center, OH 43532 — confirmed HMDB.org (m=250688)'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: liberty-center-steward-park
+- entity_type: Site
+  name_raw: Veterans Memorial Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of Liberty Center
+  governance_raw: Village of Liberty Center
+  partner_agencies_raw: Liberty Center Historical Society
+  coordination_raw: ''
+  gps_lat_raw: '41.4480536'
+  gps_lon_raw: '-84.0188932'
+  location_raw: Liberty Center, OH 43532
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Veteran recognition banners (in design phase), restroom facility (grant-funded,
+    planned)
+  urls_raw:
+  - https://lcvillage.com/
+  - https://www.northwestsignal.net/news/article_8bcd45d5-429c-43cb-bc8f-339e8597f63a.html
+  identity_notes_raw: 'Referenced in NW Signal article about grant funding for restroom
+    facility. Historical Society designing veteran banners. Address not confirmed
+    — map verification required. GPS from Google Maps/HMDB map verification pass 2026-04-21:
+    T315 Co Rd 8 & W Cherry St, Liberty Center, OH 43532 — confirmed HMDB.org (m=279652)'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: liberty-center-veterans-memorial-park
+- entity_type: Access Point
+  name_raw: Wabash Cannonball Trail Liberty Center Depot Trailhead
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of Liberty Center
+  governance_raw: Village of Liberty Center; NORTA (Northwest Ohio Rails-to-Trails
+    Association)
+  partner_agencies_raw: NORTA
+  coordination_raw: ''
+  gps_lat_raw: '41.443728'
+  gps_lon_raw: '-84.009326'
+  location_raw: Wabash St, Liberty Center, OH 43532 (at restored railroad depot)
+  description_raw: Southwest terminus of the Wabash Cannonball Trail South Fork. Restored
+    railroad depot serves as trailhead with visitor amenities.
+  features_raw: Fix-it station, information kiosk, Ohio historical marker (Wabash
+    Depot), parking across Wabash Street from depot
+  urls_raw:
+  - https://www.wabashcannonballtrail.org/trail-access/
+  - https://www.hmdb.org/m.asp?m=172744
+  identity_notes_raw: 'Partially resolves HEN-F-07 (two WCT trailhead baseline entries).
+    This is the Liberty Center south terminus trailhead. The second HEN-F-07 entry
+    is likely the Holgate trailhead — not yet confirmed. NORTA manages WCT (T7 entity).
+    GPS from Google Maps/HMDB map verification pass 2026-04-21: Wabash St at restored
+    railroad depot, Liberty Center — confirmed Google Maps detail card; GPS updated
+    from NORTA wabashcannonballtrail.org/trail-access/ embedded map (41.443728,-84.009326);
+    also confirmed by NORTA description: fix-it station, info kiosk, Ohio historical
+    marker, parking across Wabash St from depot; NORTA ownership ends at Henry CR
+    7 (Pleasantview Dr); HEN-F-07 RESOLVED'
+  parent_site_raw: ''
+  parent_trail_raw: Wabash Cannonball Trail
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: liberty-center-wct-trailhead
+- entity_type: Site
+  name_raw: Hamler Memorial Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of Hamler
+  governance_raw: Village of Hamler
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.2306052'
+  gps_lon_raw: '-84.0367331'
+  location_raw: Hamler, OH 43524
+  acres_raw: ''
+  description_raw: ''
+  features_raw: ''
+  urls_raw:
+  - https://hamlerohio.com/
+  - https://birdinghotspots.org/hotspot/L3680027
+  identity_notes_raw: 'MINIMAL_DATA — listed on village website (hamlerohio.com) and
+    as birding hotspot "Hamler City Park" (eBird L3680027). Address and amenities
+    not confirmed from available sources. Map verification required. Note: Hamler
+    Community Park Inc. (HEN-F-10, Summerfest association, SR 109 north edge) is a
+    separate private entity → T8. GPS from Google Maps/HMDB map verification pass
+    2026-04-21: 100 S 1st St, Hamler, OH 43524 — confirmed Google Maps (listed as
+    "Hamler Community Park")'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Big Creek Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of McClure
+  governance_raw: Village of McClure
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.3682146'
+  gps_lon_raw: '-83.9399398'
+  location_raw: McClure, OH 43534
+  acres_raw: ''
+  description_raw: ''
+  features_raw: Pickleball court (new fence installation per village council 2024),
+    playground (swing set planned), ball fields
+  urls_raw:
+  - https://www.facebook.com/pages/Big-Creek-Park-Mcclure-Ohio/143710152892303
+  - https://www.northwestsignal.net/news/article_3441b3ee-9598-11ef-844e-270c4ceb73c3.html
+  identity_notes_raw: 'Village council approved fence for pickleball court and swing
+    set area (2024). Facebook page confirms identity. Address not confirmed — map
+    verification required. GPS from Google Maps/HMDB map verification pass 2026-04-21:
+    435 S Haley St, McClure, OH 43534 — confirmed Google Maps (listed as "Big Creek
+    Park and Ball Fields")'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: mcclure-big-creek-park
+- entity_type: Site
+  name_raw: New Bavaria Park
+  counties_raw:
+  - Henry County, Ohio
+  county_primary: Henry County, Ohio
+  ownership_raw: Village of New Bavaria
+  governance_raw: Village of New Bavaria
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.2031701'
+  gps_lon_raw: '-84.1688089'
+  location_raw: Thomas St, New Bavaria, OH 43548
+  description_raw: ''
+  features_raw: ''
+  difficulty_raw: ''
+  accessibility_raw: ''
+  urls_raw:
+  - https://www.google.com/maps/place/New+Bavaria+Park/@41.2031701,-84.1688089,17z
+  identity_notes_raw: 'Confirmed Google Maps as "New Bavaria Park" on Thomas St, New
+    Bavaria OH 43548. GPS 41.2031701,-84.1688089 from Maps detail card. Baseline seed:
+    "New Bavaria Village Park." Resolves partial null from T6 web discovery. No village
+    website found; Maps listing is authoritative confirmation.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 6
+  seeded_from_baseline: true
+  baseline_id: ''
+- entity_type: Trail
+  name_raw: Wabash Cannonball Trail
+  counties_raw:
+  - Fulton County, OH
+  - Henry County, OH
+  - Lucas County, OH
+  - Williams County, OH
+  county_primary: Henry County, OH
+  ownership_raw: Northwest Ohio Rails-to-Trails Association (NORTA) owns Henry, Fulton,
+    Williams County portions; Metroparks Toledo owns Lucas County portion
+  governance_raw: Northwest Ohio Rails-to-Trails Association (NORTA)
+  partner_agencies_raw: Metroparks Toledo; Liberty Center Historical Society (depot
+    restoration); Ohio Department of Natural Resources; North Country Trail Association
+  coordination_raw: NORTA 501(c)(3) nonprofit; manages ~32 miles in Henry/Fulton/Williams
+    counties; Metroparks Toledo manages Lucas County section
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  difficulty_raw: 'Varies by section; South Fork: flat rail-trail corridor'
+  accessibility_raw: Paved (Lucas County/eastern sections); cinder, gravel, dirt,
+    grass (Henry County South Fork section)
+  urls_raw:
+  - https://www.wabashcannonballtrail.org/
+  - https://www.wabashcannonballtrail.org/about/
+  - https://www.wabashcannonballtrail.org/trail-access/
+  - https://en.wikipedia.org/wiki/Wabash_Cannonball_Trail
+  - https://www.traillink.com/trail/wabash-cannonball-trail/
+  - https://northcountrytrail.org/trail/affiliates/norta/
+  identity_notes_raw: 'Multi-county trail with two named forks: North Fork (Maumee
+    to Montpelier, ~46 mi) and South Fork (Maumee to Liberty Center, ~18 mi). Henry
+    County is on South Fork only (~6 mi in Washington Twp). Total length: ~64-66 miles.
+    Former Wabash Railroad corridor; South Fork built 1855. North Country NST certified
+    portions. Trail ends at Henry CR 7 (Pleasantview Dr) where NORTA ownership officially
+    ends; Liberty Center depot section managed by Liberty Center/LCHS beyond that
+    point. Multi-county entity — first staged in Henry County run; cross-ref NCT (OSM
+    rel 11140513, DEF run). HEN-F-07 RESOLVED via NORTA trail-access page.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 7
+  seeded_from_baseline: true
+  baseline_id: HEN-F-07
+- entity_type: Trail Segment
+  name_raw: Wabash Cannonball Trail - South Fork
+  counties_raw:
+  - Henry County, OH
+  - Lucas County, OH
+  county_primary: Henry County, OH
+  ownership_raw: NORTA (Henry County portion); Metroparks Toledo (Lucas County portion)
+  governance_raw: Northwest Ohio Rails-to-Trails Association (NORTA)
+  partner_agencies_raw: Metroparks Toledo; Liberty Center Historical Society
+  coordination_raw: ''
+  gps_lat_raw: '41.451114'
+  gps_lon_raw: '-83.989429'
+  difficulty_raw: Flat rail-trail corridor
+  accessibility_raw: Cinder, gravel, dirt, grass (Henry County section); paved through
+    Lucas County
+  urls_raw:
+  - https://www.wabashcannonballtrail.org/trail-access/
+  - https://en.wikipedia.org/wiki/Wabash_Cannonball_Trail
+  identity_notes_raw: 'Named operational segment of WCT. Runs from Fallen Timbers
+    Battlefield Area in Maumee (Lucas Co) SW to Liberty Center (Henry Co); ~18 miles
+    total per NORTA. Henry County section ~6 miles in Washington Township; surface
+    cinder/gravel/dirt/grass. Western terminus GPS 41.451114,-83.989429 (Wikipedia
+    geohack). Named fork per NORTA official page and Wikipedia. Parent: Wabash Cannonball
+    Trail.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Access Point
+  name_raw: WCT Henry CR 6C Trailhead
+  counties_raw:
+  - Henry County, OH
+  county_primary: Henry County, OH
+  ownership_raw: Northwest Ohio Rails-to-Trails Association (NORTA)
+  governance_raw: Northwest Ohio Rails-to-Trails Association (NORTA)
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: '41.450715'
+  gps_lon_raw: '-83.990451'
+  location_raw: Henry County Road 6C between CR U and CR T, approximately 1 mile east
+    of Liberty Center, OH
+  description_raw: This trail access is located about a mile east of Liberty Center
+    between Henry CR U and CR T. On site is a small park with parking, a picnic table,
+    and information kiosk. The Trail jogs to the south and continues on west to Henry
+    CR 7 (Pleasantview Drive), the Liberty Center corporation limit where NORTA's
+    ownership officially ends.
+  features_raw: Parking; picnic table; information kiosk
+  urls_raw:
+  - https://www.wabashcannonballtrail.org/trail-access/
+  identity_notes_raw: 'Named "Henry County Road 6C" access point on NORTA trail-access
+    page. GPS from embedded Google Maps iframe: !2d-83.9904512488154!3d41.450714611344075
+    → 41.450715,-83.990451. Baseline HEN-F-07 listed two WCT trailheads; this is the
+    second one (CR 6C). Liberty Center Depot is the other (T6, already staged). NORTA
+    ownership ends ~0.5 mi west at Henry CR 7 (Pleasantview Dr). Parent trail: Wabash
+    Cannonball Trail / WCT South Fork.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 7
+  seeded_from_baseline: true
+  baseline_id: HEN-F-07
+- entity_type: Site
+  name_raw: Dr. John Bloomfield Home & Carriage House Museum
+  counties_raw:
+  - Henry County, OH
+  county_primary: Henry County, OH
+  ownership_raw: Henry County Historical Society
+  governance_raw: Henry County Historical Society (HCHS)
+  partner_agencies_raw: ''
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 229 W Clinton St, Napoleon, Ohio (across from Napoleon Public Library)
+  description_raw: The beautiful Victorian Queen Anne style Dr. John Bloomfield Home
+    & Carriage House Museum, built in 1894 and totally restored, serves as the main
+    museum for the Henry County Historical Society. All HCHS facilities have been
+    restored to their near-original appearance and house large collections of period
+    furnishings, textiles, china, silver, and more dating from the early 1800s through
+    the 1930s.
+  features_raw: Victorian Queen Anne historic house museum; Carriage house; Period
+    furnishing collections
+  urls_raw:
+  - https://henrycountyhistory.org
+  identity_notes_raw: Main HCHS museum site. Publicly accessible historic site managed
+    by HCHS nonprofit. Address 229 W Clinton St, Napoleon OH. Victorian Queen Anne
+    house c. 1894. Gray-area entity for NAP — historic museum, not a natural area
+    per se; staging per inclusion rule for pipeline review. HCHS seeded from T4 session
+    log (henrycountyhistory.org referral). HEN-F-09 partial — OHC recheck did not
+    find Henry County state historic sites.
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Henry County Historical Society Fairgrounds Historic Complex
+  counties_raw:
+  - Henry County, OH
+  county_primary: Henry County, OH
+  ownership_raw: Henry County Agricultural Society (Fairgrounds); managed by Henry
+    County Historical Society (HCHS)
+  governance_raw: Henry County Historical Society (HCHS)
+  partner_agencies_raw: Henry County Agricultural Society
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: Henry County Fairgrounds, Napoleon, Ohio
+  description_raw: Historic Complex at the Henry County Fairgrounds operated by the
+    Henry County Historical Society. Contains several historic buildings and structures
+    including the Nathaniel Hartman Log Home c. 1860-1866, the 1897 Emmanuel Lutheran
+    One Room Schoolhouse & Museum, the Ag Building, Smokehouse, and the c. 1910 Historic
+    Gazebo.
+  features_raw: Nathaniel Hartman Log Home c. 1860-1866; 1897 Emmanuel Lutheran One
+    Room Schoolhouse & Museum; Ag Building; Smokehouse; c. 1910 Historic Gazebo; period
+    furnishing collections
+  urls_raw:
+  - https://henrycountyhistory.org
+  identity_notes_raw: 'HCHS-managed outdoor historic complex physically located on
+    Henry County Fairgrounds property (T8 venue/Agricultural Society). Outdoor historic
+    building cluster with grounds — qualifies as outdoor/historic site for NAP staging.
+    Fairgrounds itself is T8 candidate (Ag Society). This HCHS complex is T7 (historical
+    nonprofit management). Staging per inclusion rule; pipeline to resolve whether
+    to include or pass to T8 with Fairgrounds. HEN-F-09 context: no OHC state historic
+    sites found for Henry County.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 7
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Henry County Fairgrounds
+  counties_raw:
+  - Henry County, OH
+  county_primary: Henry County, OH
+  ownership_raw: Henry County Agricultural Society
+  governance_raw: Henry County Agricultural Society
+  partner_agencies_raw: Henry County Historical Society (HCHS operates Historic Complex
+    on grounds)
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: 821 S Perry Street, Napoleon, OH 43545
+  description_raw: The Henry County Fairgrounds is the home of the annual Henry County
+    Fair, governed by the Henry County Agricultural Society. The Ag Society meets
+    monthly at the fair office on-site. A new 43,750-square-foot events center is
+    under construction at the north end of the fairgrounds. The HCHS Historic Complex
+    (Nathaniel Hartman Log Home, 1897 Schoolhouse, Ag Building, Smokehouse, Gazebo)
+    is operated by HCHS on the fairgrounds property.
+  features_raw: Annual county fair; events center (under construction ~2024); historic
+    complex (HCHS); fair office
+  urls_raw:
+  - https://henrycountyohio.gov/270/Henry-County-Agricultural-Society
+  - https://henrycountyfairgrounds.com/
+  identity_notes_raw: 'Henry County Agricultural Society = governing body for Henry
+    County Fair. Address 821 S Perry St, Napoleon OH 43545. T8 private/quasi-public
+    — Agricultural Society is a statutory nonprofit under Ohio law. HCHS Fairgrounds
+    Historic Complex (T7 entity, staged separately) is physically located on these
+    grounds. Pipeline to resolve HCHS complex overlap. Note: new 43,750 sf events
+    center at north end of fairgrounds (2024 construction bid). Session log: "Fairgrounds
+    → T8."'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: false
+  baseline_id: ''
+- entity_type: Site
+  name_raw: Hamler Community Park
+  counties_raw:
+  - Henry County, OH
+  county_primary: Henry County, OH
+  ownership_raw: Hamler Summerfest non-profit organization (Hamler Community Park
+    Inc.)
+  governance_raw: Hamler Summerfest / Hamler Community Park Inc.
+  partner_agencies_raw: Hamler Country Fest Committee
+  coordination_raw: ''
+  gps_lat_raw: ''
+  gps_lon_raw: ''
+  location_raw: SR 109, north edge of Hamler, OH (Marion Township)
+  description_raw: Hamler Community Park is a 13-acre privately owned community park
+    on the edge of Hamler, purchased in 1974 for $21,000 by the Hamler Summerfest
+    non-profit organization. The park hosts the annual Hamler Summerfest German Heritage
+    festival (last weekend of July) and the Hamler Country Fest, and is open as a
+    community park year-round. A 100'x250' steel structure (built 1988) houses basketball
+    and tennis courts for public use. Maintained entirely through volunteerism and
+    festival proceeds; no tax money used.
+  features_raw: 13 acres; 100'x250' steel structure with basketball courts; tennis
+    courts; playground; permanent fencing (ADA concrete); beer garden; wedding venue;
+    cell tower on corner
+  urls_raw:
+  - https://hamlersf.com/
+  - https://hamlersf.com/50-year-history.html
+  identity_notes_raw: 'Resolves HEN-F-10. Private nonprofit community park owned by
+    Hamler Summerfest org. Located on SR 109 at north edge of Hamler (Marion Township).
+    Year-round public use (basketball/tennis in steel structure). Annual Hamler Summerfest
+    (2026 dates: July 24-25-26) and Country Fest. 100% volunteer/privately funded.
+    "No tax money whatsoever." Pipeline: determine whether private nonprofit community
+    park meets NAP inclusion threshold. Source: hamlersf.com/50-year-history.html.'
+  township_raw: ''
+  municipality_raw: ''
+  discovery_tier: 8
+  seeded_from_baseline: true
+  baseline_id: HEN-F-10
+tier_null_results:
+- entity_type_result:
+    tier: 1
+    governance_level: Federal
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - 'Overpass API — Henry County bbox (41.15,-84.25,41.50,-83.85): boundary=protected_area,
+      leisure=nature_reserve, landuse=military'
+    - OSM — returned only ODNR-managed state parks (MJTSP in Henry Co; Independence
+      Dam in Defiance Co); no federal ownership identified
+    - 'USFWS — fws.gov Ohio: nearest refuges are Ottawa NWR and Cedar Point NWR (Ottawa
+      County, Lake Erie); none in Henry County'
+    - 'USACE — NID dam query for Henry County bbox: only Lock No. 44 (historic Miami
+      & Erie Canal lock, no USACE ownership); no flood control projects'
+    - USFS — Wayne National Forest is in SE Ohio; no USFS land in NW Ohio
+    - BLM — No BLM surface holdings in NW Ohio (regional documentation)
+    - DoD — No military installations in Henry County
+    reasoning: No federal agency (NPS, USFWS, USACE, USFS, BLM, DoD) owns or manages
+      land in Henry County, Ohio. Overpass query and agency-specific checks confirm
+      absence of federal protected areas. All natural/recreational land in the county
+      is ODNR-managed (T2) or locally managed (T4-T6).
+- entity_type_result:
+    tier: 1
+    governance_level: Federal
+    entity_type: Trail
+    result: cross_reference_only
+    notes: 'North Country National Scenic Trail (NCT) is confirmed passing through
+      Henry County, Ohio. OSM relation 11140513 (operator: United States National
+      Park Service; North Country Trail Association) passes through the Henry County
+      bounding box. NCT was fully staged in the Defiance County run (RUN_ID: defiance_oh_2026_04_19)
+      as a multi-county entity covering Paulding, Defiance, Henry, and Lucas Counties.
+      Per protocol, the NCT is NOT re-staged here. This record documents Henry County
+      confirmation. In Henry County, the NCT co-routes with the Buckeye Trail along
+      the Miami and Erie Canal Towpath corridor through the Mary Jane Thurston State
+      Park area near McClure, Ohio.'
+    sources_checked:
+    - 'Overpass API — OSM relation 11140513: North Country National Scenic Trail (OH),
+      network=nwn, route=hiking, operator=United States National Park Service;North
+      Country Trail Association'
+    - NPS noco planyourvisit maps.htm — confirmed NCT is multi-state trail through
+      OH
+    - 'Defiance run staging record — NCT staged as T1 Trail in defiance_oh_raw_discovery.yaml,
+      seeded_from_baseline: false'
+    cross_reference: DEF run — defiance_oh_raw_discovery.yaml, Tier 1, North Country
+      National Scenic Trail
+- entity_type_result:
+    tier: 1
+    governance_level: Federal
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - Overpass API — no named NCT segment geometries found within Henry County
+    - NPS noco — no Henry County-specific named segments documented on NPS pages
+    reasoning: NCT passes through Henry County but no NPS- or NCTA-defined named segments
+      with distinct identity exist for Henry County specifically. The 'Defiance Section'
+      designation covers Paulding, Defiance, Henry, and Lucas Counties collectively
+      — it is a BTA section name, not an NCT segment. No segment-level geometry or
+      identifiers found for Henry County.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - Overpass API — no federally designated multi-trail network relations within
+      Henry County bbox
+    - NPS noco — no trail network designation for Henry County
+    reasoning: No federally designated trail network exists in Henry County. The NCT
+      is a single named trail, not a multi-trail network. No USFS or NPS trail network
+      designation applies.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - NPS — no National Heritage Area designation in Henry County or NW Ohio
+    - Federal agency check — no multi-site federal designation in Henry County
+    reasoning: No National Heritage Area or other federal site network designation
+      exists in Henry County. NPS Erie Canalway NHA is in NY; Erie to Pittsburgh Trail
+      NHA is in PA. No analogous designation applies in NW Ohio.
+- entity_type_result:
+    tier: 1
+    governance_level: Federal
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - USACE — no boat ramp or access infrastructure in Henry County
+    - USFWS — no refuge access points in Henry County
+    - NPS — NCT has no federal trailheads in Henry County (trail runs through ODNR
+      and municipal land); federal access points will be documented at their managing
+      tier (T2 for MJTSP)
+    reasoning: No federal-tier access points in Henry County. NCT access within Henry
+      County occurs through Mary Jane Thurston State Park (ODNR, T2) and possibly
+      municipal land. No federally-owned or federally-managed access infrastructure
+      identified.
+- entity_type_result:
+    tier: 1
+    governance_level: Tribal
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - BIA tribal land registry — no federally recognized tribes with land in Henry
+      County, Ohio
+    - Regional knowledge — no tribal trust land or fee-simple tribal ownership in
+      NW Ohio county
+    reasoning: No federally recognized tribal trust lands or tribal fee-simple ownership
+      in Henry County. No tribal cultural sites with federal designation identified.
+- entity_type_result:
+    tier: 2
+    governance_level: State — ODNR Division of Forestry
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - ODNR Division of Forestry — State Forest search page (JS-rendered, no content
+      returned)
+    - Wayne National Forest boundary knowledge — SE Ohio only; NW Ohio has no ODNR
+      State Forest land
+    - ODNR NW Ohio regional knowledge — no state forests in Henry County or surrounding
+      counties
+    reasoning: Ohio's only State Forests are in SE and central Ohio. Wayne National
+      Forest is the primary federal forest in SE Ohio. No ODNR State Forests exist
+      in NW Ohio or Henry County. Expected null confirmed by regional knowledge and
+      absence from any cross-reference source. ODNR forestry search page (find-a-property
+      type=State Forest) is JS-rendered with no accessible content.
+- entity_type_result:
+    tier: 2
+    governance_level: State — ODNR Division of Natural Areas & Preserves
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - https://ohiodnr.gov/discover-and-learn/land-water/natural-areas-preserves/find-a-nature-preserve
+      — JS-rendered, 'Warning No content found'
+    - https://ohiodnr.gov/discover-and-learn/land-water/natural-areas-preserves —
+      JS-rendered, 'Warning No content found'
+    - No Henry County references found in any raw HTML of ODNR DNAP pages
+    - Baseline — no State Nature Preserve seeds in Sheet1 or Copilot sheet
+    reasoning: 'ODNR DNAP search pages are fully JavaScript-rendered; no readable
+      listing data accessible via web_fetch. No Henry County State Nature Preserves
+      appear in any cross-reference source checked during T1 or T2. Henry County is
+      in the former Black Swamp agricultural interior — high land conversion, minimal
+      remnant natural communities qualifying for SNP designation. Baseline has no
+      SNP seeds. PENDING: OHC site unavailable at session time (maintenance). If ODNR
+      DNAP GIS or a static listing becomes available, verify no SNPs were missed.'
+- entity_type_result:
+    tier: 2
+    governance_level: State — Ohio History Connection (OHC)
+    entity_type: Site
+    result: null — PENDING SOURCE VERIFICATION
+    sources_checked:
+    - https://www.ohiohistory.org/visit/find-a-historic-site/ — HTTP 503, site under
+      scheduled maintenance
+    - https://www.ohiohistory.org/search/?q=henry+county&type=site — HTTP 503, site
+      unavailable
+    - Baseline — no OHC state memorial seeds in Sheet1 or Copilot sheet
+    reasoning: 'OHC website was entirely unavailable (HTTP 503 maintenance) at time
+      of discovery. Henry County has no OHC state memorials identified in any cross-reference.
+      PENDING: OHC site must be rechecked in a future session. Known OHC sites in
+      NW Ohio are typically in adjacent counties (e.g., Fort Meigs in Wood County,
+      Fallen Timbers in Lucas County). Henry County is not known to host an OHC-managed
+      memorial, but authoritative confirmation is required.'
+- entity_type_result:
+    tier: 2
+    governance_level: State — ODOT
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - https://www.transportation.ohio.gov/traveling/rest-areas — JS-rendered, no specific
+      facility data accessible
+    - 'ODOT road network for Henry County: US-24 (east-west), US-6, SR-108, SR-65
+      — not limited-access divided highways with typical ODOT rest areas'
+    - No ODOT bikeway corridor or scenic overlook seeds in baseline
+    reasoning: Henry County's primary state routes (US-24, US-6) are non-freeway arterials.
+      ODOT rest areas are located on divided limited-access highways (interstates
+      and freeways). No interstate or Ohio Turnpike passes through Henry County. ODOT
+      rest areas page is JS-rendered; no facility listing data accessible via web_fetch.
+      No ODOT scenic overlooks or bikeway corridors identified in county context or
+      baseline.
+- entity_type_result:
+    tier: 2
+    governance_level: State — Ohio Turnpike & Infrastructure Commission (OTIC)
+    entity_type: Site
+    result: null — NOT APPLICABLE
+    sources_checked:
+    - Ohio Turnpike (I-80/90) route knowledge — NE/NW Ohio corridor through Lucas,
+      Fulton, Wood, Sandusky, Erie, Lorain, Cuyahoga, Summit, Portage, Trumbull counties
+    - Henry County county context — no I-80/90 access identified
+    reasoning: The Ohio Turnpike (I-80/90) does not pass through Henry County. Henry
+      County is south of the Turnpike corridor; nearest Turnpike counties are Lucas
+      (north) and Fulton (northwest). OTIC source check is not applicable for Henry
+      County per §4.5 of State Discovery Subproc v5.6.
+- entity_type_result:
+    tier: 2
+    governance_level: State — ODNR Division of Wildlife — Fishing Lakes
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/wildlife/documents-publications/fishing-lake-maps
+      — full NW Ohio listing extracted
+    - 'NW Ohio lakes reviewed: Archbold Reservoirs, Barton Lake, Beaver Creek Reservoir,
+      Bresler Reservoir, Bucyrus Reservoirs, Clear Fork Reservoir, Defiance Reservoir,
+      Delphos Gillmor Reservoir, Delta Reservoirs, Fremont Reservoir, Fulton Pond,
+      Harrison Lake, Lake La Su An, Lake LeComte, Lamberjack Reservoir, Lima Lake,
+      Lost Creek Reservoir, Maumee Bay SP Inland Lake, McComb Reservoir, McKarns Lake,
+      Monroeville Reservoir, Nettle Lake, New London Reservoir, Norwalk Reservoirs
+      (1 & 3), Ottawa Reservoir, Oxbow Lake, Outhwaite Reservoir, Paulding Reservoir,
+      Pleasant Hill Reservoir, Powers Reservoir, Raccoon Creek Reservoir, Riley Reservoir,
+      Shelby Reservoir #3, Upper Sandusky Reservoirs (1 & 2), Van Buren Lake, Van
+      Wert Reservoirs, Veterans Memorial Reservoir, Wayne R. Carr Lake, Wauseon Reservoir,
+      Willard Reservoir, Williams Reservoir, Silverock Park Lake'
+    reasoning: ODNR Fishing Lake Maps listing (NW Ohio region) extracted from embedded
+      data table. 130 total entries statewide; NW Ohio subset reviewed. No ODNR-managed
+      fishing lakes in Henry County appear in the listing. The Deshler Reservoir 1
+      & 2 and Hamler Reservoir (baseline seeds) are not ODNR-managed; they are municipal/utility
+      reservoirs — will be discovered at T6 (municipal).
+- entity_type_result:
+    tier: 2
+    governance_level: State — ODNR Division of Wildlife — River/Stream Fishing
+    entity_type: Access Point
+    result: deferred — cross-reference
+    sources_checked:
+    - https://ohiodnr.gov/discover-and-learn/safety-conservation/about-ODNR/wildlife/documents-publications/river-stream-fishing-maps
+      — NW Ohio extracted
+    - 'Maumee River confirmed as NW Ohio ODNR-mapped river fishing resource: https://ohiodnr.gov/static/documents/wildlife/river-stream-fishing/maumeeriver.pdf'
+    reasoning: Maumee River is on the ODNR River & Stream Fishing Maps list for NW
+      Ohio. ODNR river fishing access points along the Maumee in Henry County will
+      be identified when the Maumee River fishing map PDF is fetched and parsed. PDF
+      fetch was not attempted at this tier pass — deferred to Access Point discovery.
+      Maumee River Water Trail (already staged in Defiance run) and Maumee State Scenic
+      River (staged above as T2 Site) are the parent entities for any Maumee AP records.
+- entity_type_result:
+    tier: 2
+    governance_level: State — ODNR Water Trails
+    entity_type: Trail
+    result: cross_reference_only
+    sources_checked:
+    - https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/maumee-river-water-trail
+      — JS-rendered, no readable content
+    - Defiance County run (defiance_oh_2026_04_19) — Maumee River Water Trail staged
+      at T2 as multi-county entity
+    reasoning: Maumee River Water Trail was staged in the Defiance County run (DEF
+      run) as a multi-county Trail. Per §4.6 of State Discovery Subproc v5.6, management
+      tier governs. ODNR designates the water trail; active management details not
+      confirmed from JS-rendered page. Henry County access points for the Maumee River
+      Water Trail will be documented as Access Points when the ODNR water trail map
+      PDF or a readable source becomes available. Not re-staged as new Trail entity
+      here — cross-reference to DEF run.
+- entity_type_result:
+    tier: 2
+    governance_level: State — Public University Natural Areas
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - Henry County county context review — no public university campus in Henry County
+    - Napoleon, OH — county seat; no state university campus identified
+    reasoning: No public university campus exists in Henry County, Ohio. Per §4.7
+      of State Discovery Subproc v5.6, public university natural areas are T2 entities.
+      With no campus present, no university natural areas, arboreta, or research wetlands
+      exist here. Expected null confirmed by county context.
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - MJTSP trail listing (ODNR property page) — 5 named trails; none have named sub-segments
+      with distinct identity
+    - ODNR Hunting Area Maps — North Turkeyfoot WA and Florida WA trail listings;
+      no segment-level geometry
+    reasoning: Trail Segment entities require segment-level geometry or named identifiers
+      distinct from the parent trail. MJTSP trails (Storybook, Blue, Orange, Tow Path,
+      Yellow) are individual named trails, not segments of a longer trail. The Tow
+      Path within MJTSP is a 0.3-mile portion of the Miami & Erie Canal Towpath corridor
+      that continues into Wood County; staged as a Trail (not a Trail Segment) since
+      no parent multi-county trail entity was staged at T2 for the Towpath. No ODNR-documented
+      segment-level geometry for any Henry County T2 trails.
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - 'ODNR Division of Parks and Watercraft — MJTSP trail system: 5 named trails
+      totaling ~3 miles; treated as individual trails by ODNR, not a named network'
+    - ODNR Division of Wildlife — North Turkeyfoot WA and Florida WA trails listed
+      individually; no network designation
+    - Buckeye Trail — statewide BTA-managed trail; T7 entity; not an ODNR-managed
+      network
+    - NCT — federal/NCTA-managed; T1 entity staged in DEF run; not an ODNR trail network
+    reasoning: No ODNR-designated multi-trail network exists in Henry County. Individual
+      park trails at MJTSP are not treated as a named network by ODNR. The Buckeye
+      Trail (BTA-managed) and NCT (NPS/NCTA-managed) are single long-distance trails,
+      not multi-trail networks, and are managed by T7 and T1 entities respectively.
+      No ODNR trail network designation applies to Henry County.
+- entity_type_result:
+    tier: 2
+    governance_level: State
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - 'ODNR property inventory for Henry County — 6 Sites identified: MJTSP, North
+      Turkeyfoot WA, Florida WA, Henry County WAs 1/2/3'
+    - ODNR Scenic Rivers — Maumee State Scenic River staged as Site (not Site Network)
+      per §3.5 and Discovery Protocol §17.2
+    - No multi-site state designation applicable to Henry County found in any source
+    reasoning: No multi-site state designation exists for Henry County that would
+      generate a Site Network. Maumee State Scenic River is a Site (category=Water
+      Site), not a Site Network, per §3.5 of State Discovery Subproc v5.6. Henry County
+      wildlife areas (1, 2, 3) are individually named units, not a system-level network.
+      No National Heritage Area or similar multi-site federal or state designation
+      applies here.
+- entity_type_result:
+    tier: 2
+    governance_level: State — ODNR Division of Mineral Resources
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - Henry County county context — agricultural county; no major mineral resource
+      management areas identified
+    - No mineral resource land seeds in baseline
+    reasoning: Henry County is an agricultural county in NW Ohio with no ODNR Mineral
+      Resources surface-managed land. Oil and gas extraction occurs in some Ohio counties,
+      but Henry County has no identified ODNR mineral resource management area with
+      public access or identity. No seeds in baseline. Expected null.
+- entity_type_result:
+    tier: 2
+    governance_level: State — H2Ohio / ODNR Wetland Restoration
+    entity_type: Site
+    result: 'null'
+    sources_checked:
+    - https://data.ohio.gov/wps/portal/gov/data/view/h2ohio-odnr-projects-map — 650K-char
+      JS-rendered page; no Henry County references in raw HTML
+    - Baseline 'from Copilot' sheet — flagged 'Historic Wetlands / Black Swamp Remnants'
+      as general note, no specific H2Ohio site names
+    reasoning: H2Ohio ODNR projects map page is JavaScript-rendered and returned no
+      extractable Henry County data. Zero 'Henry' references found in 650K-char raw
+      HTML. H2Ohio sites are typically ODNR-managed wetland restoration parcels —
+      if identity-bearing with public access they qualify as T2 Sites. No Henry County
+      H2Ohio sites identified in any source at this tier pass. Henry County is within
+      the former Black Swamp region and may have H2Ohio activity — GIS verification
+      via Ohio Open Data Hub recommended if H2Ohio CSV/API becomes available.
+- tier_result:
+    tier: 3
+    governance_level: District
+    result: 'null'
+    entities_found: 0
+    sources_checked:
+    - Henry SWCD — http://www.henryswcd.com (home, about, h2ohio pages fully fetched)
+    - 'Henry SWCD About page: established 1955; mission is agricultural drainage and
+      conservation tech assistance; 400+ mile ditch maintenance program; no land ownership
+      or public-access natural areas identified'
+    - 'Henry SWCD H2Ohio page: only BMP sheets and producer verification forms; no
+      named public wetland restoration sites'
+    - No standalone county park district for Henry County — confirmed in county context
+      and no district website found
+    - No metropark system in Henry County — nearest LCMP (Lucas County Metro Parks)
+      does not extend into Henry County
+    - No conservancy district — MWCD is eastern Ohio; Miami Conservancy District is
+      SW Ohio; no analogous entity in NW Ohio
+    - No flood-control district — county drainage managed by SWCD and Henry County
+      Engineer (T4)
+    notes: 'Henry County has no district-level park, recreation, metropark, conservancy
+      district, or watershed district. The only Tier 3 entity is the Henry Soil &
+      Water Conservation District (SWCD), which exists under ORC Chapter 1515 but
+      owns no land and manages no public-access natural areas. SWCD primary functions:
+      ditch maintenance (400+ miles), H2Ohio program coordination (private farmland),
+      CRP, filter strips. H2Ohio activities are on private farmland with no public
+      site identity. Null result confirmed by full website review. All 6 entity types
+      (Site, Trail, Trail Segment, Trail Network, Site Network, Access Point) are
+      null at T3.'
+- tier_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Site
+    result: 'null'
+    townships_searched:
+    - Washington
+    - Napoleon
+    - Flatrock
+    - Richfield
+    - Damascus
+    - Harrison
+    - Liberty
+    - Marion
+    - Monroe
+    - Bartlow
+    - Pleasant
+    - Ridgeville
+    - Freedom
+    sources_checked:
+    - washtwphenry.com (Washington Twp — official website, Henry County confirmed)
+    - 'WebSearch: Napoleon Township Henry County Ohio parks'
+    - 'WebSearch: Flatrock Township Henry County Ohio parks'
+    - 'WebSearch: Richfield Township Henry County Ohio parks'
+    - 'WebSearch: Damascus Township Henry County Ohio parks'
+    - 'WebSearch: Harrison Township Henry County Ohio parks'
+    - 'WebSearch: Liberty Township Henry County Ohio parks'
+    - 'WebSearch: Marion Township Henry County Ohio parks'
+    - 'WebSearch: Monroe Township Henry County Ohio parks'
+    - 'WebSearch: Bartlow Township Henry County Ohio parks'
+    - 'WebSearch: Pleasant Township Henry County Ohio parks'
+    - 'WebSearch: Ridgeville Township Henry County Ohio parks'
+    - 'WebSearch: Freedom Township Henry County Ohio parks'
+    - healthyhenrycounty.org/where-to-be-active-in-henry-county/ (county-wide parks
+      inventory)
+    - hamlersf.com/50-year-history.html (Hamler Summerfest — Hamler Community Park
+      governance)
+    reasoning: Washington Township (only OTA-listed website) confirmed Henry County
+      via title tag; menu has Cemetery, Maintenance, Zoning, Employment — no parks
+      or recreation. All remaining 12 townships have no OTA-listed website and no
+      township-government parks identified via search. Parks found in search results
+      are city/village parks (Napoleon city parks at T6 scope; Deshler/Hamler/Liberty
+      Center village parks at T6 scope). Hamler Community Park (13 ac, Marion Township)
+      is owned by Hamler Summerfest community association — "no tax money whatsoever"
+      — not township-managed; flagged as T8 candidate. Damascus Township Maumee River
+      camping is informal private use, not township infrastructure. Henry County is
+      predominantly agricultural; NW Ohio township governments typically manage roads,
+      drainage, zoning, cemetery only — no township park districts identified in any
+      source. Full null across all 13 townships for Sites.
+- tier_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Trail
+    result: 'null'
+    sources_checked:
+    - Same sources as Site null above
+    - No township-managed trail infrastructure identified in any source
+    reasoning: No township-managed trails found in any source. Miami & Erie Canal
+      Towpath already staged at T4 (Henry County Park District). Buckeye Trail and
+      NCT already staged in DEF run. No township trail systems identified for any
+      of the 13 Henry County townships.
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - washtwphenry.com — no trail segments listed
+    - WebSearch across all 13 townships — no trail segments found
+    reasoning: 'No township-managed trails exist at T5; therefore no Trail Segments.
+      Per na_trail_segment_discovery_subproc_v5.1 §6: Trail Segments require a parent
+      Trail; no parent Trails were found at this tier.'
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - washtwphenry.com — no trail network listed
+    - WebSearch across all 13 townships — no trail network found
+    reasoning: 'No township-managed multi-trail systems exist. Per na_trail_network_discovery_subproc_v5.2
+      §6: Trail Network requires multiple distinct trails under a unified governance
+      system. No township trail systems found at T5.'
+- entity_type_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - washtwphenry.com — no site network listed
+    - WebSearch across all 13 townships — no site network found
+    reasoning: 'No township park district or multi-site network at any township. Per
+      na_site_network_discovery_subproc_v5.1 §3: Site Network requires a formal governance
+      system unifying multiple sites. No such system found at T5 for Henry County
+      townships.'
+- tier_result:
+    tier: 5
+    governance_level: Township
+    entity_type: Access Point
+    result: 'null'
+    sources_checked:
+    - Same sources as Site null above
+    - No township-managed access points identified
+    reasoning: No township-managed sites, trails, or trailheads identified at T5.
+      No township boat launches, fishing access, or visitor-facing entry locations
+      found. Maumee River access in Damascus Township is informal/private use, not
+      township infrastructure.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Trail
+    result: 'null'
+    sources_checked:
+    - napoleonohio.com/departments/parks-and-recreation
+    - villageofdeshler.com
+    - holgateohio.com
+    - lcvillage.com
+    - hamlerohio.com
+    - mcclureoh.org
+    reasoning: No municipal-managed trails found at any Henry County municipality.
+      WCT is managed by NORTA (T7). Miami & Erie Canal Towpath managed by Henry County
+      Park District (T4). All ODNR trails covered at T2. Napoleon's walking paths
+      at Oakwood, Ritter, Oberhaus, Vorwerk are park paths — not named standalone
+      trails with their own identity. Null confirmed.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Trail Segment
+    result: 'null'
+    sources_checked:
+    - napoleonohio.com/departments/parks-and-recreation
+    - villageofdeshler.com
+    - holgateohio.com
+    - lcvillage.com
+    reasoning: No municipal trail segments found. No municipal-level trails to segment.
+      Null follows from Trail null above.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - napoleonohio.com/departments/parks-and-recreation
+    - napoleon.recdesk.com/Community/Facility
+    reasoning: No multi-trail municipal network found. Napoleon parks system has walking
+      paths but no interconnected named trail network managed by the city. Null confirmed.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - napoleonohio.com/departments/parks-and-recreation/parks
+    - napoleon.recdesk.com/Community/Facility?type=5
+    - lcvillage.com
+    - holgateohio.com
+    reasoning: No formal site network (named, branded multi-site system with system-level
+      identity) found at municipal tier. Napoleon Parks and Recreation manages multiple
+      parks under a department umbrella — this is a governance unit, not a publicly-branded
+      Site Network. Null confirmed.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: PARTIAL_NULL — Florida (HEN-F-06 open)
+    result: UNRESOLVED — No Florida village park confirmed. "Canal Falls River Access"
+      found on Google Maps at 41.332194,-84.181898 on OH-424 near Napoleon (not Florida
+      village). This may be ODNR/HCPD access point, not a T6 entity. Baseline seed
+      still pending. Map verification 2026-04-21 did not confirm any Florida village
+      park.
+    municipality: Florida, OH
+    baseline_seed: Canal Falls / Florida Village Park (HEN-F-06)
+    sources_checked:
+    - henryhas.com/florida-parks-recreation/ (404 — domain expired)
+    - 'WebSearch: Florida Ohio Henry County village park Canal Falls'
+    - buckeyetrail.org (Florida listed on BT chapter route)
+    reasoning: HEN-F-06 (Canal Falls / Florida Village Park) remains unresolved. No
+      official village website found. Florida, OH has no confirmed village-managed
+      park entity from web sources. The baseline described it as adjacent to Miami
+      & Erie Canal Towpath (T4) and Buckeye Trail. The kayak access at Independence
+      Dam SP is state-managed (T2). Whether a separate village-owned park parcel exists
+      at or near Canal Falls cannot be confirmed from web sources alone. PENDING MAP
+      VERIFICATION.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: PARTIAL_NULL — Malinta (unresolved)
+    result: 'UNRESOLVED — No "Malinta Fields" park found in Google Maps or web search.
+      Map verification 2026-04-21: Maps search for park near Malinta OH 43535 returned
+      only Napoleon parks. Village has no official website. Baseline seed remains
+      unresolved.'
+    municipality: Malinta, OH
+    baseline_seed: Malinta Fields
+    sources_checked:
+    - 'WebSearch: Malinta Ohio Henry County village park "Malinta Fields"'
+    - citydirectory.us/village-malinta.html
+    - lammonbros.com/malinta-ohio/
+    reasoning: Baseline seed "Malinta Fields" not confirmed from any web source. No
+      official village website found. Search results describe Malinta as rural village
+      (pop ~120) with local businesses but no park documentation. PENDING MAP VERIFICATION.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: RESOLVED — New Bavaria Village Park
+    result: 'CONFIRMED — New Bavaria Park on Thomas St confirmed via Google Maps (GPS
+      41.2031701,-84.1688089). T6 Site record added as record #43. Baseline seed resolved
+      2026-04-21 during map verification pass.'
+    municipality: New Bavaria, OH
+    baseline_seed: New Bavaria Village Park
+    sources_checked:
+    - henryhas.com/new-bavaria-parks-recreation/ (404 — domain expired)
+    - 'WebSearch: New Bavaria Ohio Henry County village park'
+    - 'Wikipedia: New Bavaria, Ohio'
+    - citydirectory.us/village-new-bavaria.html
+    reasoning: Baseline seed "New Bavaria Village Park" not confirmed from any web
+      source. No official village website found. Wikipedia describes New Bavaria as
+      village with pop 86 (2020). henryhas.com domain expired. PENDING MAP VERIFICATION.
+- entity_type_result:
+    tier: 6
+    governance_level: Municipal
+    entity_type: BOOTSTRAP_ERROR — Custar OH
+    result: bootstrap_error
+    municipality: Custar, OH
+    sources_checked:
+    - 'Wikipedia: Custar, Ohio'
+    - custarvillage.org
+    - engineer.co.wood.oh.us/links/villages/ (Wood County Engineer village list)
+    - 'WebSearch: Custar Ohio Wood County village incorporated'
+    reasoning: 'Custar is definitively in Wood County, Ohio — not Henry County. Located
+      in SW corner of Wood County. The Village of Custar official website (custarvillage.org)
+      and Wood County Engineer confirm this. Custar was included in the Henry County
+      baseline in error. EXCLUDE from Henry County T6 discovery. No records created.
+      Note: Custar has a Community Park on Custar Road with recycling, picnic, playground,
+      sports — if ever needed, it belongs in a Wood County run.'
+tier_7_entity_type_results:
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - https://www.wabashcannonballtrail.org/trail-access/
+    - https://blackswamp.org/properties/land-we-protect/
+    - https://henrycountyhistory.org
+    reasoning: WCT is a single trail with two named forks (staged as Trail + Trail
+      Segment). No multi-trail network found under any T7 org in Henry County. BSC
+      has no Henry County properties. HCHS manages two sites, not a trail network.
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Site Network
+    result: 'null'
+    sources_checked:
+    - https://blackswamp.org/properties/land-we-protect/
+    - https://henrycountyhistory.org
+    - https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/?state=OH
+    reasoning: 'BSC: no Henry County properties in published protected lands list
+      (19 properties, all Ottawa/Erie/Lucas/Sandusky/Wood counties). TNC Ohio: 382
+      properties listed, zero in Henry County. HCHS operates two distinct sites (Bloomfield
+      Home + Fairgrounds Complex) — not branded as a named system. No site network
+      threshold met.'
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Black Swamp Conservancy
+    result: null — no Henry County properties
+    sources_checked:
+    - https://blackswamp.org/properties/land-we-protect/
+    reasoning: BSC land-we-protect page lists 19 publicly accessible and partner properties.
+      All are in Erie, Ottawa, Lucas, Sandusky, or Wood counties. "Henry-Wood Sportsman
+      Alliance" appears as a partner org name in one property description, not a Henry
+      County location. No BSC-owned or BSC-protected land in Henry County.
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: The Nature Conservancy Ohio
+    result: null — no Henry County properties
+    sources_checked:
+    - https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/?state=OH
+    reasoning: TNC Ohio page lists 382 properties. Searched full list for "henry"
+      — zero matches. No TNC-protected land in Henry County confirmed.
+- entity_type_result:
+    tier: 7
+    governance_level: Conservancy & Land Trust
+    entity_type: Ohio History Connection (HEN-F-09)
+    result: no Henry County state historic sites found — open
+    sources_checked:
+    - https://www.ohiohistory.org/?s=henry+county+napoleon
+    - https://www.ohiohistory.org/visit/find-a-place/?county=henry (404)
+    - https://www.ohiohistory.org/visit/browse-historic-sites/ (404)
+    reasoning: OHC site finder uses JavaScript-rendered map requiring browser; web_fetch
+      returns only general documents. Search for "henry county napoleon" returned
+      no OHC historical site records — only unrelated document matches (Montgomery
+      County historic district, federal review submissions). No Henry County OHC sites
+      accessible via static fetch. HEN-F-09 remains open; browser verification needed
+      for authoritative T2 closure.
+tier_8_entity_type_results:
+- entity_type_result:
+    tier: 8
+    governance_level: Private / Other
+    entity_type: Field of Dreams Drive-In Theater — excluded
+    result: excluded — commercial entertainment venue
+    sources_checked:
+    - https://tickets.fieldofdreamsdrivein.com/ (cert error)
+    - 'Web search: crescent-news.com, yelp.com, bigscreen.com, 13abc.com (2025)'
+    reasoning: Private commercial drive-in theater at V602 Henry County Road 6, near
+      Liberty Center. Built 2007 by Saunders family; two screens; 250-vehicle capacity.
+      Currently operated by Legacy Theatres LLC (new ownership 2024; seeking new operator
+      Nov 2025 per 13abc). Amenities include putt-putt golf, corn hole, sand volleyball,
+      bocce, ladder golf; pizza delivered to cars. Primary purpose is commercial cinema,
+      not natural/recreational area. Excluded from NAP staging.
+- entity_type_result:
+    tier: 8
+    governance_level: Private / Other
+    entity_type: Trail Network
+    result: 'null'
+    sources_checked:
+    - No private trail networks identified in any tier
+    reasoning: No private trail networks found in Henry County across all eight tiers.
+- entity_type_result:
+    tier: 8
+    governance_level: Private / Other
+    entity_type: Private Hunt Clubs / Other
+    result: null — no specific entities identified
+    sources_checked:
+    - Web search limit reached; no specific private hunt clubs identified in Henry
+      County
+    reasoning: Henry County has some private hunting land but no public-access private
+      hunt clubs or private recreation sites identified beyond the two staged entities
+      (Fairgrounds + Hamler Community Park). Field of Dreams Drive-In excluded (commercial
+      cinema). No private nature preserves or private parks with public access found.

@@ -1,0 +1,22 @@
+{
+  "_schema": "na_pipeline_config_v1",
+  "county": "Seneca",
+  "state": "Ohio",
+  "run_id": "seneca_oh_2026_05_25",
+  "run_date": "2026-05-25",
+  "prefix": "SEN",
+  "records_input": 0,
+  "bbox": [0.0, 0.0, 0.0, 0.0],
+  "run_notes": "First run. Bootstrapped 2026-05-25. 15 townships. No MORPC GIS coverage.",
+
+  "gps_queries": {},
+  "fallback_gps": {},
+  "fallback_conf": {},
+
+  "sites": [],
+  "trails": [],
+  "trail_segments": [],
+  "trail_networks": [],
+  "site_networks": [],
+  "access_points": []
+}
